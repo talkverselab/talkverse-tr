@@ -1,0 +1,13 @@
+{
+ "version": "v1-2026-09-03",
+ "description": "핵심 동사 (콘텐츠 대기). persons = [ben, sen, o, biz, siz, onlar]",
+ "persons": [
+  "ben",
+  "sen",
+  "o",
+  "biz",
+  "siz",
+  "onlar"
+ ],
+ "verbs": []
+}
