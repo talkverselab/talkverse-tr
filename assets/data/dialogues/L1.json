@@ -1,29 +1,510 @@
 {
  "level": "L1",
  "variety": "tr_TR",
- "version": "v1-2026-09-03",
- "schema": "v1-L1-5ep40turn",
- "title": "L1 — 매칭 narrative (목표 200 turn)",
- "description": "터키어 L1 스토리 — 콘텐츠 대기. 5 ep × 40 turn = 200.",
+ "version": "v2-2026-09-11",
+ "schema": "v2-L1-8turn",
+ "title": "L1 — 터키어 첫 만남 (초안)",
+ "description": "터키어 회화 초안 — 5편 × 8턴. 한글 독음 포함.",
  "kpi": {
   "episodes_target": 5,
-  "turns_per_episode": 40,
-  "turns_total_target": 200,
-  "turns_total_current": 0,
-  "progress_pct": 0.0
+  "turns_per_episode": 8,
+  "turns_total_target": 40,
+  "turns_total_current": 40,
+  "progress_pct": 100.0
  },
  "characters": {
   "A": {
    "name": "Minjun",
-   "role": "한국인 학습자(남)",
+   "role": "",
    "gender": "male"
   },
   "B": {
-   "name": "TBD",
-   "role": "터키어 화자(여)",
+   "name": "Elif",
+   "role": "",
    "gender": "female"
   }
  },
  "function_words": [],
- "episodes": []
+ "episodes": [
+  {
+   "id": "ep1",
+   "title": "첫 인사",
+   "emoji": "💕",
+   "scenario": "언어교환 앱에서 처음 말을 건다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Merhaba! Ben Minjun. Ya sen?",
+     "rd": "메르하바! 벤 민준. 야 센?",
+     "ko": "안녕! 나는 민준이야. 너는?",
+     "note": "ben = 나",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Selam, benim adım Elif. Nerelisin?",
+     "rd": "셀람, 베님 아듬 엘리프. 네렐리신?",
+     "ko": "안녕, 내 이름은 엘리프야. 어디 사람이야?",
+     "note": "nereli = 어디 출신",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Koreliyim. Türkçe öğreniyorum.",
+     "rd": "코렐리임. 튀르크체 외레니요룸.",
+     "ko": "한국인이야. 터키어 배우고 있어.",
+     "note": "-im = ~이다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Harika! Türkçen şimdiden iyi.",
+     "rd": "하리카! 튀르크첸 심디덴 이이.",
+     "ko": "멋지다! 네 터키어 벌써 좋은데.",
+     "note": "şimdiden = 벌써",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Teşekkürler! Her gün çalışıyorum.",
+     "rd": "테셰퀴를레르! 헤르 귄 찰르셔룸.",
+     "ko": "고마워! 매일 연습해.",
+     "note": "her gün = 매일",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "İstanbul'da mı oturuyorsun?",
+     "rd": "이스탄불다 므 오투루요르순?",
+     "ko": "이스탄불에 살아?",
+     "note": "oturmak = 살다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Evet, iki aydır.",
+     "rd": "에벳, 이키 아이드르.",
+     "ko": "응, 두 달째야.",
+     "note": "-dır = ~째",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "O zaman sana şehri gezdireyim!",
+     "rd": "오 자만 사나 셰흐리 게즈디레임.",
+     "ko": "그럼 내가 도시를 보여 줄게!",
+     "note": "sana = 너에게",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep2",
+   "title": "카페에서",
+   "emoji": "☕",
+   "scenario": "처음 만나 카페에서 주문한다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "es": "Ne içmek istersin?",
+     "rd": "네 이치멕 이스테르신?",
+     "ko": "뭐 마실래?",
+     "note": "ne = 무엇",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "es": "Bir kahve, lütfen. Ya sen?",
+     "rd": "비르 카흐베, 뤼트펜. 야 센?",
+     "ko": "커피 하나, 부탁해. 너는?",
+     "note": "lütfen = 부탁해요",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "es": "Ben sütlü çay alayım.",
+     "rd": "벤 쉬틀뤼 차이 알라이음.",
+     "ko": "나는 밀크티로 할게.",
+     "note": "almak = 고르다·사다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "es": "Buranın tatlısı güzel mi?",
+     "rd": "부라는 타틀르스 귀젤 미?",
+     "ko": "여기 디저트 맛있어?",
+     "note": "mi = ~니?(의문)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "es": "Çok güzel! Baklava favorim.",
+     "rd": "촉 귀젤! 바클라바 파보림.",
+     "ko": "엄청! 바클라바가 내 최애야.",
+     "note": "çok = 아주",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "es": "O zaman iki tane alalım.",
+     "rd": "오 자만 이키 타네 알랄름.",
+     "ko": "그럼 두 개 시키자.",
+     "note": "-alım = ~하자",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "es": "Mükemmel. Ben ısmarlıyorum.",
+     "rd": "뮈켐멜. 벤 으스마를르요룸.",
+     "ko": "완벽해. 내가 살게.",
+     "note": "ısmarlamak = 한턱내다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "Hayır hayır, bugün ben ödüyorum!",
+     "rd": "하이으르 하이으르, 부귄 벤 외뒤요룸!",
+     "ko": "아니 아니, 오늘은 내가 낼게!",
+     "note": "bugün = 오늘",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep3",
+   "title": "길 묻기",
+   "emoji": "🗺️",
+   "scenario": "박물관 가는 길을 묻는다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Affedersiniz, müze nerede?",
+     "rd": "아페데르시니즈, 뮈제 네레데?",
+     "ko": "실례합니다, 박물관이 어디예요?",
+     "note": "nerede = 어디에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Düz git, sonra sola dön.",
+     "rd": "뒤즈 기트, 손라 솔라 된.",
+     "ko": "직진하다가 왼쪽으로 돌아.",
+     "note": "düz = 곧장",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Uzak mı?",
+     "rd": "우작 므?",
+     "ko": "멀어?",
+     "note": "uzak = 먼",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Hayır, yürüyerek beş dakika.",
+     "rd": "하이으르, 위뤼예렉 베시 다키카.",
+     "ko": "아니, 걸어서 5분이야.",
+     "note": "yürüyerek = 걸어서",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Süper. Bugün açık mı?",
+     "rd": "쉬페르. 부귄 아측 므?",
+     "ko": "좋다. 오늘 열었어?",
+     "note": "açık = 열린",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Evet, altıya kadar.",
+     "rd": "에벳, 알트야 카다르.",
+     "ko": "응, 6시까지.",
+     "note": "kadar = ~까지",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Benimle gelir misin?",
+     "rd": "베님레 겔리르 미신?",
+     "ko": "같이 갈래?",
+     "note": "benimle = 나와 함께",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Memnuniyetle! Sanatı severim.",
+     "rd": "멤누니예틀레! 사나트 세베림.",
+     "ko": "좋아! 나 예술 좋아해.",
+     "note": "severim = 좋아해",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep4",
+   "title": "약속 잡기",
+   "emoji": "📅",
+   "scenario": "주말에 만날 약속을 잡는다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "es": "Cumartesi boş musun?",
+     "rd": "주마르테시 보시 무순?",
+     "ko": "토요일에 시간 있어?",
+     "note": "boş = 한가한",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "es": "Evet, boşum. Ne yapalım?",
+     "rd": "에벳, 보숨. 네 야팔름?",
+     "ko": "응, 한가해. 뭐 할까?",
+     "note": "yapalım = 하자",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "es": "Sinemaya gidebiliriz.",
+     "rd": "시네마야 기데빌리리즈.",
+     "ko": "영화관에 갈 수 있어.",
+     "note": "-ebilmek = ~할 수 있다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "es": "Güzel fikir! Saat kaçta?",
+     "rd": "귀젤 피키르! 사아트 카치타?",
+     "ko": "좋은 생각! 몇 시에?",
+     "note": "saat kaçta = 몇 시에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "es": "Yedide? Sonra bir şeyler yeriz.",
+     "rd": "예디데? 손라 비르 셰일레르 예리즈.",
+     "ko": "7시? 그 다음에 뭐 좀 먹자.",
+     "note": "sonra = 그 후에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "es": "Tamam. Nerede buluşalım?",
+     "rd": "타맘. 네레데 불루샬름?",
+     "ko": "좋아. 어디서 만나?",
+     "note": "buluşmak = 만나다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "es": "Taksim'de, istasyonun önünde.",
+     "rd": "탁심데, 이스타스요눈 외뉜데.",
+     "ko": "탁심에서, 역 앞에서.",
+     "note": "önünde = ~앞에서",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "Anlaştık, cumartesi görüşürüz!",
+     "rd": "안라시특, 주마르테시 괴뤼쉬뤼즈!",
+     "ko": "알았어, 토요일에 봐!",
+     "note": "görüşürüz = 또 보자",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep5",
+   "title": "감정 말하기",
+   "emoji": "💬",
+   "scenario": "영화를 보고 나서 마음을 전한다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Film gerçekten güzeldi.",
+     "rd": "필름 게르첵텐 귀젤디.",
+     "ko": "영화 정말 좋았어.",
+     "note": "-di = ~였다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Evet, ama sonu üzücüydü.",
+     "rd": "에벳, 아마 소누 위쥐쥐이뒤.",
+     "ko": "응, 근데 결말이 슬펐어.",
+     "note": "ama = 하지만",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Seninle film izlemeyi seviyorum.",
+     "rd": "세닌레 필름 이즐레메이 세비요룸.",
+     "ko": "너랑 영화 보는 게 좋아.",
+     "note": "seninle = 너와",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Ben de. Çok naziksin.",
+     "rd": "벤 데. 촉 나지크신.",
+     "ko": "나도. 너 참 다정해.",
+     "note": "de = ~도",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Haftaya yine görüşelim mi?",
+     "rd": "하프타야 이네 괴뤼셸림 미?",
+     "ko": "다음 주에 또 볼까?",
+     "note": "haftaya = 다음 주에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Tabii ki. Bana yaz!",
+     "rd": "타비 키. 바나 야즈!",
+     "ko": "당연하지. 문자해!",
+     "note": "yaz = 써(명령)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Yazarım. İyi geceler, Elif.",
+     "rd": "야자름. 이이 게젤레르, 엘리프.",
+     "ko": "그럴게. 잘 자, 엘리프.",
+     "note": "iyi geceler = 잘 자",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "İyi geceler, Minjun. Görüşürüz!",
+     "rd": "이이 게젤레르, 민준. 괴뤼쉬뤼즈!",
+     "ko": "잘 자, 민준. 또 봐!",
+     "note": "görüşürüz = 또 보자",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  }
+ ]
 }

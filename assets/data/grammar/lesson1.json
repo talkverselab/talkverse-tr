@@ -1,0 +1,258 @@
+{
+ "lesson": 1,
+ "title": "터키어 기본 문형 1",
+ "subtitle": "회화에 바로 쓰는 핵심 패턴 10개 × 예문 3",
+ "tts_lang": "tr-TR",
+ "stages": [
+  {
+   "stage": 1,
+   "title": "인칭·소개·질문"
+  },
+  {
+   "stage": 2,
+   "title": "동사·시간·장소"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "p01",
+   "key": "Ben …(y)im",
+   "label": "나는 ~이다",
+   "explanation": "명사 뒤에 인칭 어미. 모음조화 주의.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Ben Minjun'um.",
+     "rd": "벤 민주눔.",
+     "ko": "나는 민준이야."
+    },
+    {
+     "tl": "Ben öğrenciyim.",
+     "rd": "벤 외렌지임.",
+     "ko": "나는 학생이야."
+    },
+    {
+     "tl": "Ben yorgunum.",
+     "rd": "벤 요르구눔.",
+     "ko": "나는 피곤해."
+    }
+   ]
+  },
+  {
+   "id": "p02",
+   "key": "Benim adım …",
+   "label": "내 이름은 ~",
+   "explanation": "adım = 내 이름.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Benim adım Elif.",
+     "rd": "베님 아듬 엘리프.",
+     "ko": "내 이름은 엘리프야."
+    },
+    {
+     "tl": "Senin adın ne?",
+     "rd": "세닌 아든 네?",
+     "ko": "네 이름은 뭐야?"
+    },
+    {
+     "tl": "Onun adı Ali.",
+     "rd": "오눈 아드 알리.",
+     "ko": "그의 이름은 알리야."
+    }
+   ]
+  },
+  {
+   "id": "p03",
+   "key": "Nerelisin?",
+   "label": "어디 사람이야?",
+   "explanation": "-li = ~출신의.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Nerelisin?",
+     "rd": "네렐리신?",
+     "ko": "어디 사람이야?"
+    },
+    {
+     "tl": "Koreliyim.",
+     "rd": "코렐리임.",
+     "ko": "한국 사람이야."
+    },
+    {
+     "tl": "O İzmirli.",
+     "rd": "오 이즈미를리.",
+     "ko": "그는 이즈미르 사람이야."
+    }
+   ]
+  },
+  {
+   "id": "p04",
+   "key": "… var / yok",
+   "label": "있다 / 없다",
+   "explanation": "있다·없다는 var, yok.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Vaktim var.",
+     "rd": "박팀 바르.",
+     "ko": "나 시간 있어."
+    },
+    {
+     "tl": "Kardeşin var mı?",
+     "rd": "카르데신 바르 므?",
+     "ko": "형제 있어?"
+    },
+    {
+     "tl": "Param yok.",
+     "rd": "파람 욕.",
+     "ko": "나 돈 없어."
+    }
+   ]
+  },
+  {
+   "id": "p05",
+   "key": "Ne …?",
+   "label": "무엇",
+   "explanation": "의문사 ne.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Ne yapıyorsun?",
+     "rd": "네 야프요르순?",
+     "ko": "뭐 해?"
+    },
+    {
+     "tl": "Bu ne?",
+     "rd": "부 네?",
+     "ko": "이게 뭐야?"
+    },
+    {
+     "tl": "Ne istersin?",
+     "rd": "네 이스테르신?",
+     "ko": "뭘 원해?"
+    }
+   ]
+  },
+  {
+   "id": "p06",
+   "key": "… istiyorum",
+   "label": "나는 ~하고 싶다",
+   "explanation": "istemek = 원하다.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Bir kahve istiyorum.",
+     "rd": "비르 카흐베 이스티요룸.",
+     "ko": "커피 한 잔 주세요."
+    },
+    {
+     "tl": "Eve gitmek istiyorum.",
+     "rd": "에베 기트멕 이스티요룸.",
+     "ko": "집에 가고 싶어."
+    },
+    {
+     "tl": "Gelmek ister misin?",
+     "rd": "겔멕 이스테르 미신?",
+     "ko": "같이 갈래?"
+    }
+   ]
+  },
+  {
+   "id": "p07",
+   "key": "-ebilirim",
+   "label": "나는 ~할 수 있다",
+   "explanation": "가능 어미 -ebil-.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Türkçe konuşabilirim.",
+     "rd": "튀르크체 코누샤빌리림.",
+     "ko": "나 터키어 할 수 있어."
+    },
+    {
+     "tl": "Bana yardım edebilir misin?",
+     "rd": "바나 야르듬 에데빌리르 미신?",
+     "ko": "나 좀 도와줄래?"
+    },
+    {
+     "tl": "Yarın gidebiliriz.",
+     "rd": "야른 기데빌리리즈.",
+     "ko": "우리 내일 갈 수 있어."
+    }
+   ]
+  },
+  {
+   "id": "p08",
+   "key": "… nerede?",
+   "label": "~는 어디에 있어?",
+   "explanation": "장소 묻기.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "İstasyon nerede?",
+     "rd": "이스타스욘 네레데?",
+     "ko": "역이 어디예요?"
+    },
+    {
+     "tl": "Nerede oturuyorsun?",
+     "rd": "네레데 오투루요르순?",
+     "ko": "어디 살아?"
+    },
+    {
+     "tl": "Neredeyiz?",
+     "rd": "네레데이즈?",
+     "ko": "우리 어디야?"
+    }
+   ]
+  },
+  {
+   "id": "p09",
+   "key": "Saat …'de",
+   "label": "~시에",
+   "explanation": "시각 + -de.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Saat yedide.",
+     "rd": "사아트 예디데.",
+     "ko": "7시에."
+    },
+    {
+     "tl": "Sekizde buluşalım.",
+     "rd": "세키즈데 불루샬름.",
+     "ko": "8시에 만나자."
+    },
+    {
+     "tl": "Saat kaçta?",
+     "rd": "사아트 카치타?",
+     "ko": "몇 시에?"
+    }
+   ]
+  },
+  {
+   "id": "p10",
+   "key": "-di (과거)",
+   "label": "~였다",
+   "explanation": "과거 어미 -di.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Güzeldi.",
+     "rd": "귀젤디.",
+     "ko": "좋았어."
+    },
+    {
+     "tl": "Film güzeldi.",
+     "rd": "필름 귀젤디.",
+     "ko": "영화 좋았어."
+    },
+    {
+     "tl": "Dün yorgundum.",
+     "rd": "뒨 요르군둠.",
+     "ko": "나 어제 피곤했어."
+    }
+   ]
+  }
+ ]
+}
