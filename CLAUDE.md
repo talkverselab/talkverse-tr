@@ -136,3 +136,14 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
   절차: `docs/ios-build-and-testflight.md`.
 - `ios/Runner/Info.plist` 에 마이크·음성 인식 권한 문구가 있다(말하기 연습). 지우면 iOS 에서 크래시.
 - `release.yml`(Android) 은 `ios/**`·`docs/**`·`tools/**` 만 바뀐 푸시는 건너뛴다.
+
+## 8. Zealot 무선 설치 (apps.talkverse.uk) — 2026-10-11
+
+- **Zealot 앱이름: 터키어유니버스** (앱 표시 이름 그대로. 2026-10-26 처음 올림. 바꾸면 Zealot 에 다른 앱이 새로 생긴다.)
+- 올리기: `bash tools/zealot_push.sh ["변경 내용 한 줄"]` — `build/app/outputs/flutter-apk/` 의 가장 최근 release APK 를
+  `~/bin/zealot-upload` 로 올린다(빌드는 하지 않음. 변경 내용을 안 주면 최근 커밋 제목). 서명 SHA-1 이 §1 값과 다르면 올리지 않는다.
+- **덮어 설치 상태(2026-10-11 확인)**: 서명 = `android/key.properties` + `android/app/signing-key.jks` 가 이미 있고 SHA-1 `9C:C4:…:47:6B`(§1 과 같은 키) —
+  단 **맥미니의 `~/.android/debug.keystore` 는 다른 키(`BE:B3:…:0B:81`)** 라서 §1 의 `cp ~/.android/debug.keystore …` 를 맥미니에서 다시 실행하면 안 된다.
+  버전 코드 = `pubspec.yaml` `0.1.0+1` 인데 CI 릴리스는 워크플로 실행 번호를 쓴다 → **로컬 빌드는 같은 커밋의 CI 실행 번호를 `--build-number` 로 준다**
+  (2026-10-26 첫 Zealot 업로드 = 빌드 7, CI 릴리스 7 과 같은 커밋). 키는 Doppler `keys/prd` `SIGNKEY_TALKVERSE_TR_ANDROID_APP_SIGNING_KEY_JKS` 에도 있다.
+- APK 백업: PC `D:\OneDrive\app project\talkverse-tr\talkverse-tr-latest.apk`(+ `.txt` 판별 파일).
