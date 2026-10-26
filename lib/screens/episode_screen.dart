@@ -183,8 +183,8 @@ class _EpisodeScreenState extends State<EpisodeScreen> {
           preferredSize: const Size.fromHeight(4),
           child: LinearProgressIndicator(
             value: total == 0 ? 0 : done / total,
-            backgroundColor: AppColors.rojoDeep,
-            color: AppColors.gualda,
+            backgroundColor: AppColors.gualda,
+            color: AppColors.rojo,
             minHeight: 4,
           ),
         ),
@@ -257,7 +257,7 @@ class _EpisodeBubble extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: learned ? AppColors.calDeep : Colors.white,
                   border: Border.all(
-                    color: speaking ? AppColors.gualda : color.withValues(alpha: 0.4),
+                    color: speaking ? AppColors.rojo : color.withValues(alpha: 0.4),
                     width: speaking ? 2 : 1,
                   ),
                   borderRadius: BorderRadius.only(

@@ -149,7 +149,7 @@ class _SentenceFlashcardScreenState extends State<SentenceFlashcardScreen> {
             child: Text(
               _koFirst ? tr('한→외') : tr('외→한'),
               style: const TextStyle(
-                  color: Colors.white, fontWeight: FontWeight.w800),
+                  color: AppColors.rojo, fontWeight: FontWeight.w600),
             ),
           ),
         ],
@@ -168,7 +168,7 @@ class _SentenceFlashcardScreenState extends State<SentenceFlashcardScreen> {
     final known = _state.values.where((s) => s == _CardState.known).length;
     final border = switch (st) {
       _CardState.known => AppColors.oliva,
-      _CardState.studying => AppColors.gualda,
+      _CardState.studying => AppColors.rojoLight,
       _CardState.unknown => AppColors.tintaLight.withValues(alpha: 0.4),
     };
 
