@@ -127,7 +127,7 @@ class AppTheme {
       ),
       filledButtonTheme: FilledButtonThemeData(
         style: FilledButton.styleFrom(
-          backgroundColor: AppColors.tinta,
+          backgroundColor: AppColors.rojo,
           foregroundColor: Colors.white,
           shape: const StadiumBorder(),
           textStyle: const TextStyle(fontWeight: FontWeight.w600),
