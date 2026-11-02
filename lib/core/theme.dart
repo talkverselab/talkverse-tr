@@ -30,6 +30,35 @@ class AppColors {
   // 정보성 강조
   static const Color mar = Color(0xFF1E6FA8);
 
+  // ── 일본어앱 화면을 옮겨 쓰기 위한 별칭(2026-11-03). 이름은 일본어앱 그대로, 값은 터키어 사이트 톤 ──
+  // 언어 강조색 — 사이트 터키어 `--a #2bb3d0`(글자 대비 위해 한 단계 진하게)
+  static const Color beni = Color(0xFF1E8FA6);
+  static const Color beniDeep = Color(0xFF17758A);
+  static const Color beniLight = Color(0xFF2BB3D0); // 사이트 `--a`
+  // 인디고 — 사이트 `--accent`
+  static const Color ai = rojo;
+  static const Color aiDeep = rojoDeep;
+  static const Color aiLight = rojoLight;
+  // 테두리 `--line` 계열 / 밝은 강조 `--a2` / 워드마크 끝
+  static const Color kin = gualda;
+  static const Color kinBright = Color(0xFFA2DBE7); // 사이트 `--a2`
+  static const Color kinDeep = Color(0xFF2BB3D0);
+  // 글자·바탕
+  static const Color sumi = tinta;
+  static const Color sumiLight = tintaLight;
+  static const Color washi = cal;
+  static const Color washiDeep = calDeep;
+  // 완료·학습됨(사이트 `--ok`), 보조 강조
+  static const Color matcha = Color(0xFF0E6245);
+  static const Color sakura = Color(0xFFF5B8E6);
+  static const Color sakuraDeep = Color(0xFFCD3D64);
+  // 사이트 토큰 그대로
+  static const Color line = Color(0xFFE6EBF1);
+  static const Color muted = Color(0xFF6B7C93);
+
+  /// 「터키어」 워드마크 그라데이션(진한 청록 → 청록). 제목 글자·구분선에 쓴다.
+  static const LinearGradient wordmark = LinearGradient(colors: [beni, kinDeep]);
+
   // 명사 성(gender) 시각화
   static const Color masc = Color(0xFF1E88E5); // el / -o
   static const Color fem = Color(0xFFE53935); // la / -a
@@ -44,6 +73,16 @@ class AppColors {
   // brand alias
   static const Color brand = rojo;
 }
+
+/// 카드·타일 공통 그림자(사이트 `0 2px 5px -1px rgba(50,50,93,.1), 0 1px 3px -1px rgba(0,0,0,.1)`)
+const List<BoxShadow> kCardShadow = [
+  BoxShadow(color: Color(0x1A32325D), blurRadius: 5, offset: Offset(0, 2)),
+  BoxShadow(color: Color(0x1A000000), blurRadius: 3, offset: Offset(0, 1)),
+];
+
+/// 두 화면(왼쪽 목록 | 오른쪽 내용) 기준 — 가로 720 논리픽셀 이상(아이패드·태블릿·폴드 펼침). 일본어앱과 같은 기준.
+const wideMin = 720.0;
+bool isWide(BuildContext context) => MediaQuery.sizeOf(context).width >= wideMin;
 
 class AppTheme {
   static ThemeData light() {
