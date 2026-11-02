@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../core/l10n.dart';
 import '../core/theme.dart';
+import '../data/tr_affixes.dart';
 import '../services/dialogue_service.dart';
+import 'affix_sheet.dart';
 
 /// 「어순 맞대기」 — 몽골어앱 UX 시안 01(사용자 통과 2026-11-03)의 접사·모음조화 칸을 터키어에 옮김(사용자 지시 2026-11-03).
 /// 현재 문장의 낱말을 칩으로 늘어놓고, 낱말마다 모음조화 점(뒷모음 a ı o u = 청록, 앞모음 e i ö ü = 분홍)을 찍는다 —
@@ -75,6 +77,8 @@ class WordOrderPanel extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           Wrap(spacing: 8, runSpacing: 8, children: [for (final (tl, ko) in pairs) _pair(tl, ko, turn.morph[tl])]),
+          const SizedBox(height: 6),
+          Text(tr('접사 나누기는 자동 분석이라 틀릴 수 있어요.'), style: const TextStyle(fontSize: 10.5, color: AppColors.muted)),
         ],
       ),
     );
@@ -154,12 +158,18 @@ class WordOrderPanel extends StatelessWidget {
 
   Widget _pair(String tl, String ko, Morph? morph) {
     final dots = _dots(tl);
+    // 데이터(morph)가 없으면 자동 분석으로 어간 + 접사 사슬(몽골어앱 아이디어, 2026-11-03)
+    final hit = morph != null && morph.suffixes.isNotEmpty ? null : analyzeWord(tl);
+    // 한국어 낱말에 그 접사의 조사가 들어 있으면 같은 색 테두리로 묶는다
+    final koColor = hit != null && ko.isNotEmpty && hit.affix.koMarkers.any(ko.contains) ? hit.affix.kind.color : null;
     return Column(
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         if (morph != null && morph.suffixes.isNotEmpty)
           _blocks(morph)
+        else if (hit != null)
+          AffixBlock(hit: hit, showKo: ko.isEmpty)
         else
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
@@ -178,7 +188,11 @@ class WordOrderPanel extends StatelessWidget {
           Container(
             margin: const EdgeInsets.only(top: 3),
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-            decoration: BoxDecoration(color: const Color(0xFFFDEFF6), borderRadius: BorderRadius.circular(10)),
+            decoration: BoxDecoration(
+              color: const Color(0xFFFDEFF6),
+              borderRadius: BorderRadius.circular(10),
+              border: koColor == null ? null : Border.all(color: koColor, width: 1.4),
+            ),
             child: Text(
               ko,
               style: const TextStyle(fontSize: 13, color: AppColors.sumiLight, fontWeight: FontWeight.w600),

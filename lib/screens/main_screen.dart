@@ -5,6 +5,7 @@ import '../core/theme.dart';
 import '../main.dart';
 import '../widgets/spanish_decor.dart';
 import 'chunk_search_screen.dart';
+import 'affix_screens.dart';
 import 'conversation_screen.dart';
 import 'dialogue_screen.dart';
 import 'episode_screen.dart';
@@ -381,6 +382,8 @@ class _MenuGrid extends StatelessWidget {
         builder: (_) => TopicVocabScreen(
             title: tr('주제별 표현'),
             asset: 'assets/data/vocab/travel_expressions.json')),
+      _MenuItem(label: tr('접사'), sub: 'Ekler', badge: '-ler', color: AppColors.ai,
+        builder: (_) => const AffixDictionaryScreen()),
       _MenuItem(label: tr('빈도 단어'), sub: 'Sıklık', badge: 'F', color: AppColors.mar,
         builder: (_) => const WordFreqScreen()),
       _MenuItem(label: tr('성·수'), sub: 'Cinsiyet', badge: 'el/la', color: AppColors.mar,
