@@ -10,8 +10,8 @@ import 'app_database.dart';
 class SeedLoader {
   // v1: 초기 시드 (L1 샘플 대화 + 빈도 단어 + 핵심 동사)
   static const _kSeededKey = 'db_seeded_v2'; // v2: 독음(rd) + 회화 초안
-  // 빈도 단어만 따로 다시 넣는 열쇠 — CSV 를 바꾸면 올린다(이미 시드된 폰에도 반영). v3: 어간 기준 R1~R4, v4: 자막 말뭉치 어간 기준 1,034개
-  static const _kWordsKey = 'words_seeded_v4';
+  // 빈도 단어만 따로 다시 넣는 열쇠 — CSV 를 바꾸면 올린다(이미 시드된 폰에도 반영). v3: 어간 기준 R1~R4, v4: 자막 말뭉치 어간 기준 1,034개, v5: 일본어 방식(기본형 + 접미사 각각 토큰) 568개
+  static const _kWordsKey = 'words_seeded_v5';
 
   final AppDatabase db;
   SeedLoader(this.db);
