@@ -11,6 +11,12 @@ import 'learner_prefs.dart';
 /// 칸: 대상어 `es`(스페인어 템플릿 이름) → [DialogueTurn.tl], 한글 독음 `rd`, 한국어 `ko`, `note`, `tags`.
 /// 레벨은 R 로 다시 매기지 않고 `L1`(「이야기」), 주제는 회화 공통 원칙대로 연애 서사 = `love`.
 /// 새 구조(R0~R4·주제별 편 JSON)로 다시 쓰는 것은 회화 작업이 풀린 뒤.
+/// 문장 내용어 한 개: 표면형(문장 속)·기본형(레마)·읽기(터키어는 빈 값) — 단어장 연결(일본어앱 2026-11-04).
+class Lemma {
+  final String surface, base, reading;
+  const Lemma(this.surface, this.base, this.reading);
+}
+
 class DialogueTurn {
   final int num;
   final String speaker; // A·B
@@ -26,6 +32,7 @@ class DialogueTurn {
   /// 접사 블록 — 낱말 → 어간 + 접사들(kind: case 격 · poss 소유 · plural 복수 · verb 동사 어미).
   /// 데이터 `morph: {"evlerimde": {"root": "ev", "suffixes": [{"s": "-ler", "ko": "-들", "kind": "plural"}, …]}}` 가 있을 때만(회화 작업 때 채움).
   final Map<String, Morph> morph;
+  final List<Lemma> lemmas; // 문장 내용어 — tools/add_lemmas.py 가 채움
   final String? at; // 채팅 시각(일본어앱 모델 호환, 지금 데이터엔 없음)
   final String? stamp; // 채팅 스탬프 이모지(일본어앱 모델 호환, 지금 데이터엔 없음)
   final String? art;
@@ -41,6 +48,7 @@ class DialogueTurn {
     required this.newWords,
     this.align = const [],
     this.morph = const {},
+    this.lemmas = const [],
     this.at,
     this.stamp,
     this.art,
@@ -64,6 +72,10 @@ class DialogueTurn {
           for (final e in ((j['morph'] as Map?) ?? const {}).entries)
             if (e.value is Map) '${e.key}': Morph.fromJson(e.value as Map),
         },
+        lemmas: [
+          for (final l in (j['lemmas'] as List? ?? const []))
+            if (l is List && l.length >= 2) Lemma('${l[0]}', '${l[1]}', l.length > 2 ? '${l[2]}' : ''),
+        ],
         at: j['at'] as String?,
         stamp: j['stamp'] as String?,
         art: j['art'] as String?,

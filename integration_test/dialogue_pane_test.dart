@@ -56,7 +56,18 @@ void main() {
     await wait(t, 1500);
     await shot(t, '04_reader');
 
-    await t.tap(find.text('재생').first);
+    await t.tapAt(const Offset(605, 895)); // 2턴 — 1턴은 내용어가 없어 칩이 안 나온다
+    await wait(t, 1000);
+    await t.tap(find.byIcon(Icons.pause_rounded)); // 턴을 누르면 재생이 이어져 칩이 다음 턴으로 넘어간다
+    await wait(t, 800);
+    await shot(t, '04b_reader_lemmas');
+    await t.tap(find.text('selam').last); // first 는 그림 위 라벨
+    await wait(t, 1200);
+    await shot(t, '04c_lemma_sheet');
+    await t.tapAt(const Offset(600, 200));
+    await wait(t, 800);
+
+    await t.tap(find.byIcon(Icons.play_arrow_rounded));
     await wait(t, 6000);
     await shot(t, '05_reader_playing');
 

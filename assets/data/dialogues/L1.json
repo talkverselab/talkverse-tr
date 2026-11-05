@@ -41,7 +41,8 @@
      "note": "ben = 나",
      "tags": [
       "draft"
-     ]
+     ],
+     "lemmas": []
     },
     {
      "num": 2,
@@ -52,6 +53,18 @@
      "note": "nereli = 어디 출신",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Selam",
+       "selam",
+       ""
+      ],
+      [
+       "adım",
+       "ad",
+       ""
+      ]
      ]
     },
     {
@@ -63,6 +76,13 @@
      "note": "-im = ~이다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "öğreniyorum",
+       "öğrenmek",
+       ""
+      ]
      ]
     },
     {
@@ -74,6 +94,18 @@
      "note": "şimdiden = 벌써",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "şimdiden",
+       "şimdiden",
+       ""
+      ],
+      [
+       "iyi",
+       "iyi",
+       ""
+      ]
      ]
     },
     {
@@ -85,6 +117,23 @@
      "note": "her gün = 매일",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Teşekkürler",
+       "teşekkür",
+       ""
+      ],
+      [
+       "gün",
+       "gün",
+       ""
+      ],
+      [
+       "çalışıyorum",
+       "çalışmak",
+       ""
+      ]
      ]
     },
     {
@@ -96,6 +145,13 @@
      "note": "oturmak = 살다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "oturuyorsun",
+       "oturmak",
+       ""
+      ]
      ]
     },
     {
@@ -107,6 +163,13 @@
      "note": "-dır = ~째",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "aydır",
+       "ay",
+       ""
+      ]
      ]
     },
     {
@@ -118,6 +181,23 @@
      "note": "sana = 너에게",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "zaman",
+       "zaman",
+       ""
+      ],
+      [
+       "şehri",
+       "şehir",
+       ""
+      ],
+      [
+       "gezdireyim",
+       "gezdirmek",
+       ""
+      ]
      ]
     }
    ]
@@ -137,6 +217,18 @@
      "note": "ne = 무엇",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "içmek",
+       "içmek",
+       ""
+      ],
+      [
+       "istersin",
+       "istemek",
+       ""
+      ]
      ]
     },
     {
@@ -148,6 +240,18 @@
      "note": "lütfen = 부탁해요",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "kahve",
+       "kahve",
+       ""
+      ],
+      [
+       "lütfen",
+       "lütfen",
+       ""
+      ]
      ]
     },
     {
@@ -159,6 +263,23 @@
      "note": "almak = 고르다·사다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "sütlü",
+       "sütlü",
+       ""
+      ],
+      [
+       "çay",
+       "çay",
+       ""
+      ],
+      [
+       "alayım",
+       "almak",
+       ""
+      ]
      ]
     },
     {
@@ -170,6 +291,23 @@
      "note": "mi = ~니?(의문)",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Buranın",
+       "bura",
+       ""
+      ],
+      [
+       "tatlısı",
+       "tatlı",
+       ""
+      ],
+      [
+       "güzel",
+       "güzel",
+       ""
+      ]
      ]
     },
     {
@@ -181,6 +319,18 @@
      "note": "çok = 아주",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "güzel",
+       "güzel",
+       ""
+      ],
+      [
+       "favorim",
+       "favori",
+       ""
+      ]
      ]
     },
     {
@@ -192,6 +342,23 @@
      "note": "-alım = ~하자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "zaman",
+       "zaman",
+       ""
+      ],
+      [
+       "tane",
+       "tane",
+       ""
+      ],
+      [
+       "alalım",
+       "almak",
+       ""
+      ]
      ]
     },
     {
@@ -203,6 +370,18 @@
      "note": "ısmarlamak = 한턱내다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Mükemmel",
+       "mükemmel",
+       ""
+      ],
+      [
+       "ısmarlıyorum",
+       "ısmarlamak",
+       ""
+      ]
      ]
     },
     {
@@ -214,6 +393,18 @@
      "note": "bugün = 오늘",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "bugün",
+       "bugün",
+       ""
+      ],
+      [
+       "ödüyorum",
+       "ödemek",
+       ""
+      ]
      ]
     }
    ]
@@ -233,6 +424,23 @@
      "note": "nerede = 어디에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Affedersiniz",
+       "affetmek",
+       ""
+      ],
+      [
+       "müze",
+       "müze",
+       ""
+      ],
+      [
+       "nerede",
+       "nerede",
+       ""
+      ]
      ]
     },
     {
@@ -244,6 +452,28 @@
      "note": "düz = 곧장",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Düz",
+       "düz",
+       ""
+      ],
+      [
+       "git",
+       "gitmek",
+       ""
+      ],
+      [
+       "sola",
+       "sol",
+       ""
+      ],
+      [
+       "dön",
+       "dönmek",
+       ""
+      ]
      ]
     },
     {
@@ -255,6 +485,13 @@
      "note": "uzak = 먼",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Uzak",
+       "uzak",
+       ""
+      ]
      ]
     },
     {
@@ -266,6 +503,18 @@
      "note": "yürüyerek = 걸어서",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "yürüyerek",
+       "yürümek",
+       ""
+      ],
+      [
+       "dakika",
+       "dakika",
+       ""
+      ]
      ]
     },
     {
@@ -277,6 +526,18 @@
      "note": "açık = 열린",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Süper",
+       "süper",
+       ""
+      ],
+      [
+       "açık",
+       "açık",
+       ""
+      ]
      ]
     },
     {
@@ -288,7 +549,8 @@
      "note": "kadar = ~까지",
      "tags": [
       "draft"
-     ]
+     ],
+     "lemmas": []
     },
     {
      "num": 7,
@@ -299,6 +561,13 @@
      "note": "benimle = 나와 함께",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "gelir",
+       "gelmek",
+       ""
+      ]
      ]
     },
     {
@@ -310,6 +579,18 @@
      "note": "severim = 좋아해",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Memnuniyetle",
+       "memnuniyetle",
+       ""
+      ],
+      [
+       "severim",
+       "sevmek",
+       ""
+      ]
      ]
     }
    ]
@@ -329,6 +610,18 @@
      "note": "boş = 한가한",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Cumartesi",
+       "cumartesi",
+       ""
+      ],
+      [
+       "boş",
+       "boş",
+       ""
+      ]
      ]
     },
     {
@@ -340,6 +633,18 @@
      "note": "yapalım = 하자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "boşum",
+       "boş",
+       ""
+      ],
+      [
+       "yapalım",
+       "yapmak",
+       ""
+      ]
      ]
     },
     {
@@ -351,6 +656,18 @@
      "note": "-ebilmek = ~할 수 있다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Sinemaya",
+       "sinema",
+       ""
+      ],
+      [
+       "gidebiliriz",
+       "gitmek",
+       ""
+      ]
      ]
     },
     {
@@ -362,6 +679,23 @@
      "note": "saat kaçta = 몇 시에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Güzel",
+       "güzel",
+       ""
+      ],
+      [
+       "fikir",
+       "fikir",
+       ""
+      ],
+      [
+       "kaçta",
+       "kaç",
+       ""
+      ]
      ]
     },
     {
@@ -373,6 +707,18 @@
      "note": "sonra = 그 후에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "şeyler",
+       "şey",
+       ""
+      ],
+      [
+       "yeriz",
+       "yemek",
+       ""
+      ]
      ]
     },
     {
@@ -384,6 +730,13 @@
      "note": "buluşmak = 만나다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "buluşalım",
+       "buluşmak",
+       ""
+      ]
      ]
     },
     {
@@ -395,6 +748,18 @@
      "note": "önünde = ~앞에서",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "istasyonun",
+       "istasyon",
+       ""
+      ],
+      [
+       "önünde",
+       "ön",
+       ""
+      ]
      ]
     },
     {
@@ -406,6 +771,23 @@
      "note": "görüşürüz = 또 보자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Anlaştık",
+       "anlaşmak",
+       ""
+      ],
+      [
+       "cumartesi",
+       "cumartesi",
+       ""
+      ],
+      [
+       "görüşürüz",
+       "görüşmek",
+       ""
+      ]
      ]
     }
    ]
@@ -425,6 +807,23 @@
      "note": "-di = ~였다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Film",
+       "film",
+       ""
+      ],
+      [
+       "gerçekten",
+       "gerçekten",
+       ""
+      ],
+      [
+       "güzeldi",
+       "güzel",
+       ""
+      ]
      ]
     },
     {
@@ -436,6 +835,18 @@
      "note": "ama = 하지만",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "sonu",
+       "son",
+       ""
+      ],
+      [
+       "üzücüydü",
+       "üzücü",
+       ""
+      ]
      ]
     },
     {
@@ -447,6 +858,23 @@
      "note": "seninle = 너와",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "film",
+       "film",
+       ""
+      ],
+      [
+       "izlemeyi",
+       "izlemek",
+       ""
+      ],
+      [
+       "seviyorum",
+       "sevmek",
+       ""
+      ]
      ]
     },
     {
@@ -458,6 +886,13 @@
      "note": "de = ~도",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "naziksin",
+       "nazik",
+       ""
+      ]
      ]
     },
     {
@@ -469,6 +904,23 @@
      "note": "haftaya = 다음 주에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Haftaya",
+       "hafta",
+       ""
+      ],
+      [
+       "yine",
+       "yine",
+       ""
+      ],
+      [
+       "görüşelim",
+       "görüşmek",
+       ""
+      ]
      ]
     },
     {
@@ -480,6 +932,18 @@
      "note": "yaz = 써(명령)",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Tabii",
+       "tabiî",
+       ""
+      ],
+      [
+       "yaz",
+       "yazmak",
+       ""
+      ]
      ]
     },
     {
@@ -491,6 +955,18 @@
      "note": "iyi geceler = 잘 자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Yazarım",
+       "yazmak",
+       ""
+      ],
+      [
+       "geceler",
+       "gece",
+       ""
+      ]
      ]
     },
     {
@@ -502,6 +978,18 @@
      "note": "görüşürüz = 또 보자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "İyi",
+       "iyi",
+       ""
+      ],
+      [
+       "geceler",
+       "gece",
+       ""
+      ]
      ]
     }
    ]

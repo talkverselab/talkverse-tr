@@ -9,10 +9,13 @@ import '../core/theme.dart';
 import '../screens/dialogue_card_screen.dart';
 import '../services/achievement_service.dart';
 import '../services/art_service.dart';
+import '../services/content_sync.dart';
 import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
 import 'achievement_desk.dart';
+import 'learner_setup_dialog.dart';
+import 'lemma_chips.dart';
 import 'word_order_panel.dart';
 
 /// 「모든 문장 듣기」 재생 패널 — 일본어앱 시안 02 「만화책 읽기형」을 옮김(2026-11-03, 터키어 시안 `data/review/uxui/sian_tr_01.md`).
@@ -49,7 +52,13 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
   @override
   void initState() {
     super.initState();
-    if (widget.autoPlay) WidgetsBinding.instance.addPostFrameCallback((_) => _play());
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      if (!mounted) return;
+      // 대사에 {name} 자리가 있는데 이름이 없으면 먼저 묻는다(앱 켠 뒤 한 번, 일본어앱 2026-11-04)
+      await ensureLearnerName(context, needed: widget.dialogue.turns.any((t) => t.tl.contains('{name}')));
+      if (mounted) setState(() {});
+      if (widget.autoPlay && mounted) _play();
+    });
   }
 
   @override
@@ -126,7 +135,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
       onTap: (i) => _goto(i, play: true),
       onSpeak: _speakOne,
     );
-    final cut = _CutPanel(d: d, turn: turn, showKana: _showKana, showRd: _showRd, showKo: _showKo, onSpeak: () => _speakOne(turn));
+    Widget cut({bool wordOrder = false}) => _CutPanel(d: d, turn: turn, showKana: _showKana, showRd: _showRd, showKo: _showKo, onSpeak: () => _speakOne(turn), wordOrder: wordOrder);
     final controls = _ControlBar(
       playing: _playing,
       index: _i,
@@ -151,10 +160,19 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
               ? Row(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
                   Expanded(flex: 4, child: script),
                   const VerticalDivider(width: 1, color: AppColors.line),
-                  Expanded(flex: 6, child: cut),
+                  Expanded(flex: 6, child: cut(wordOrder: true)),
                 ])
               : Column(children: [
-                  SizedBox(height: (c.maxHeight * 0.44).clamp(240, 520), child: cut),
+                  SizedBox(height: (c.maxHeight * 0.44).clamp(240, 520), child: cut()),
+                  // 어순 칸은 컷 칸 밖에 — 안에 두면 칩·긴 문장에 밀려 그림이 띠처럼 줄어든다
+                  if (wide)
+                    ConstrainedBox(
+                      constraints: BoxConstraints(maxHeight: c.maxHeight * 0.3),
+                      child: SingleChildScrollView(
+                        padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
+                        child: WordOrderPanel(turn: turn),
+                      ),
+                    ),
                   const Divider(height: 1, color: AppColors.line),
                   Expanded(child: script),
                 ]),
@@ -279,7 +297,8 @@ class _CutPanel extends StatelessWidget {
   final DialogueTurn turn;
   final bool showKana, showRd, showKo;
   final VoidCallback onSpeak;
-  const _CutPanel({required this.d, required this.turn, required this.showKana, required this.showRd, required this.showKo, required this.onSpeak});
+  final bool wordOrder; // 어순 칸을 이 칸 안에(좌우 배치일 때만)
+  const _CutPanel({required this.d, required this.turn, required this.showKana, required this.showRd, required this.showKo, required this.onSpeak, this.wordOrder = false});
 
   @override
   Widget build(BuildContext context) {
@@ -298,11 +317,11 @@ class _CutPanel extends StatelessWidget {
               Text(d.speakerName(turn.speaker), style: const TextStyle(fontSize: 11, color: AppColors.muted, fontWeight: FontWeight.w700)),
             ]),
           ),
-        Expanded(child: SceneCut(dialogue: d, turn: turn, bubble: true)),
+        Expanded(child: SceneCut(dialogue: d, turn: turn)), // 문장은 아래 _Caption 에(그림을 덮지 않음)
         const SizedBox(height: 10),
         _Caption(d: d, turn: turn, showKana: showKana, showRd: showRd, showKo: showKo, onSpeak: onSpeak),
         // 터키어 칸(몽골어앱 UX 시안 01 의 어순 맞대기·모음조화): 넓은 화면에서만 — 폰은 컷·캡션만으로도 빠듯하다
-        if (wide) ...[const SizedBox(height: 10), WordOrderPanel(turn: turn)],
+        if (wordOrder) ...[const SizedBox(height: 10), WordOrderPanel(turn: turn)],
       ]),
     );
   }
@@ -333,6 +352,7 @@ class _Caption extends StatelessWidget {
               if (showKana && turn.reading.isNotEmpty && turn.reading != turn.tl) Text(LearnerPrefs.fill(turn.reading), style: const TextStyle(fontSize: 12.5, color: AppColors.ai, fontWeight: FontWeight.w700)),
               if (showRd && turn.rd.isNotEmpty) Text(LearnerPrefs.fill(turn.rd), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
               if (showKo) Padding(padding: const EdgeInsets.only(top: 2), child: Text(LearnerPrefs.fill(turn.ko), style: const TextStyle(fontSize: 13.5, color: AppColors.sumiLight, height: 1.35))),
+              if (turn.lemmas.isNotEmpty) Padding(padding: const EdgeInsets.only(top: 8), child: LemmaChips(turn: turn, compact: !wide)),
             ]),
           ),
           IconButton(onPressed: onSpeak, icon: const Icon(Icons.volume_up, color: AppColors.beni, size: 26)),
@@ -437,7 +457,7 @@ class _ControlBar extends StatelessWidget {
   }
 }
 
-/// 장면 컷: 장면 그림 → 단어 그림 → 장면 카드. 둥근 틀, 컷 전환 400ms 페이드, 말풍선(현재 대사) 오버레이.
+/// 장면 컷: 장면 그림 → 단어 그림 → 장면 카드. 둥근 틀, 컷 전환 400ms 페이드. `bubble` 이면 현재 대사를 그림 **아래 띠**로(그림을 덮지 않음 — 사용자 지시 2026-11-04).
 class SceneCut extends StatelessWidget {
   final Dialogue dialogue;
   final DialogueTurn turn;
@@ -445,7 +465,7 @@ class SceneCut extends StatelessWidget {
   const SceneCut({super.key, required this.dialogue, required this.turn, this.bubble = false});
 
   Future<_ArtPick?> _pick() async {
-    // 1) 장면 컷(uk /art/ja/scene, A·B 한 쌍당 1장) → 2) 턴 art → 3) 단어 그림 → 4) 장면 카드
+    // 1) 장면 컷(uk /art/tr/scene, A·B 한 쌍당 1장) → 2) 턴 art → 3) 단어 그림 → 4) 장면 카드
     final scene = await ArtService.instance.sceneCut(dialogue.id, turn.num, large: true);
     if (scene != null) return _ArtPick(scene, null);
     if (turn.art != null) return _ArtPick(turn.art!, null);
@@ -467,35 +487,34 @@ class SceneCut extends StatelessWidget {
       future: _pick(),
       builder: (context, snap) {
         final p = snap.data;
+        final pic = Stack(fit: StackFit.expand, children: [
+          if (p == null)
+            _SceneCard(dialogue: dialogue, turn: turn)
+          else
+            Image(image: artProvider(p.url), fit: p.word == null ? BoxFit.cover : BoxFit.contain, errorBuilder: (_, _, _) => _SceneCard(dialogue: dialogue, turn: turn)),
+          if (p?.word != null)
+            Positioned(
+              left: 10,
+              bottom: 8,
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                decoration: BoxDecoration(color: AppColors.washi.withValues(alpha: 0.9), borderRadius: BorderRadius.circular(12), border: Border.all(color: AppColors.line)),
+                child: Text(p!.word!, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+              ),
+            ),
+        ]);
         return LayoutBuilder(builder: (context, c) => AnimatedSwitcher(
           duration: const Duration(milliseconds: 400),
           child: Container(
             key: ValueKey('${turn.num}:${p?.url}'),
             clipBehavior: Clip.antiAlias,
             decoration: BoxDecoration(color: AppColors.washiDeep, border: Border.all(color: AppColors.line), borderRadius: BorderRadius.circular(18), boxShadow: kCardShadow),
-            child: Stack(fit: StackFit.expand, children: [
-              if (p == null)
-                _SceneCard(dialogue: dialogue, turn: turn)
-              else
-                Image.network(p.url, fit: p.word == null ? BoxFit.cover : BoxFit.contain, errorBuilder: (_, _, _) => _SceneCard(dialogue: dialogue, turn: turn)),
-              if (p?.word != null)
-                Positioned(
-                  left: 10,
-                  bottom: 8,
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                    decoration: BoxDecoration(color: AppColors.washi.withValues(alpha: 0.9), borderRadius: BorderRadius.circular(12), border: Border.all(color: AppColors.line)),
-                    child: Text(p!.word!, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.sumi)),
-                  ),
-                ),
-              if (bubble)
-                Positioned(
-                  top: 12,
-                  left: me ? null : 12,
-                  right: me ? 12 : null,
-                  child: _SpeechBubble(text: LearnerPrefs.fill(turn.tl), tail: me ? _Tail.right : _Tail.left, maxWidth: c.maxWidth * 0.72, small: c.maxHeight < 220),
-                ),
-            ]),
+            child: bubble
+                ? Column(children: [
+                    Expanded(child: pic),
+                    _LineStrip(speaker: dialogue.speakerName(turn.speaker), me: me, text: LearnerPrefs.fill(turn.tl), small: c.maxHeight < 220),
+                  ])
+                : pic,
           ),
         ));
       },
@@ -503,32 +522,27 @@ class SceneCut extends StatelessWidget {
   }
 }
 
-enum _Tail { left, right }
-
-class _SpeechBubble extends StatelessWidget {
+/// 그림 아래 대사 띠 — 화자 이름(학습자 = 포인트색) + 한 줄. 그림을 덮지 않는다.
+class _LineStrip extends StatelessWidget {
+  final String speaker;
+  final bool me;
   final String text;
-  final _Tail tail;
-  final double maxWidth;
   final bool small;
-  const _SpeechBubble({required this.text, required this.tail, required this.maxWidth, this.small = false});
+  const _LineStrip({required this.speaker, required this.me, required this.text, this.small = false});
   @override
-  Widget build(BuildContext context) => ConstrainedBox(
-        constraints: BoxConstraints(maxWidth: maxWidth.clamp(120, 360)),
-        child: Container(
-          padding: EdgeInsets.fromLTRB(small ? 10 : 14, small ? 6 : 10, small ? 10 : 14, small ? 6 : 10),
-          decoration: BoxDecoration(
-            color: AppColors.washi.withValues(alpha: 0.96),
-            border: Border.all(color: AppColors.line),
-            borderRadius: BorderRadius.only(
-              topLeft: const Radius.circular(18),
-              topRight: const Radius.circular(18),
-              bottomLeft: Radius.circular(tail == _Tail.left ? 4 : 18),
-              bottomRight: Radius.circular(tail == _Tail.right ? 4 : 18),
-            ),
-            boxShadow: kCardShadow,
+  Widget build(BuildContext context) => Container(
+        width: double.infinity,
+        padding: EdgeInsets.fromLTRB(12, small ? 6 : 8, 12, small ? 6 : 8),
+        decoration: const BoxDecoration(color: AppColors.washi, border: Border(top: BorderSide(color: AppColors.line))),
+        child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          Container(
+            margin: const EdgeInsets.only(top: 3, right: 8),
+            padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
+            decoration: BoxDecoration(color: me ? AppColors.beni : AppColors.ai, borderRadius: BorderRadius.circular(8)),
+            child: Text(speaker, style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w800, color: Colors.white)),
           ),
-          child: Text(text, maxLines: small ? 2 : 4, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: small ? 12 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
-        ),
+          Expanded(child: Text(text, maxLines: small ? 2 : 3, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: small ? 12.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35))),
+        ]),
       );
 }
 
@@ -548,6 +562,15 @@ class _SceneCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(builder: (context, c) {
       final small = c.maxHeight < 220; // 홈 「오늘의 컷」 같은 작은 틀
+      if (c.maxHeight < 130) {
+        // 긴 문장에 밀려 아주 낮아진 틀 — 이모지만
+        return Container(
+          color: const Color(0xFFFFF7F0),
+          padding: const EdgeInsets.all(6),
+          alignment: Alignment.center,
+          child: FittedBox(child: Text(turn.stamp ?? dialogue.emoji, style: const TextStyle(fontSize: 34))),
+        );
+      }
       return Container(
         decoration: const BoxDecoration(gradient: LinearGradient(colors: [Color(0xFFFFF7F0), Color(0xFFF3F0FF)], begin: Alignment.topLeft, end: Alignment.bottomRight)),
         padding: EdgeInsets.fromLTRB(14, small ? 44 : 18, 14, 10),

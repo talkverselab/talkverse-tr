@@ -8,26 +8,38 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'app_database.dart';
 
 class SeedLoader {
-  // v1: 초기 시드 (L1 샘플 대화 + 빈도 단어 + 핵심 동사)
-  static const _kSeededKey = 'db_seeded_v2'; // v2: 독음(rd) + 회화 초안
-  // 빈도 단어만 따로 다시 넣는 열쇠 — CSV 를 바꾸면 올린다(이미 시드된 폰에도 반영). v3: 어간 기준 R1~R4, v4: 자막 말뭉치 어간 기준 1,034개, v5: 일본어 방식(기본형 + 접미사 각각 토큰) 568개
-  static const _kWordsKey = 'words_seeded_v5';
+  /// DB 업데이트 번호 — 번들 `assets/data/version.json` 이 기준(일본어앱 2026-11-04 방식, 옛 `words_seeded_vN` 키 폐지).
+  /// - `db`: 단어·동사 표 번호. 저장 번호와 다르면 두 표를 비우고 다시 채운다(학습 기록과 무관).
+  /// - `turns`: 회화 턴 표 번호. 턴을 다시 넣으면 진도 기록(user_progress)이 지워지므로 회화 데이터가 바뀔 때만 따로 올린다.
+  ///   옛 키 `db_seeded_v2` 로 이미 턴이 들어간 폰은 지금 번호를 그대로 저장해 진도를 지킨다.
+  static const _kDbVersion = 'db_version';
+  static const _kTurnsVersion = 'turns_version';
+  static const _kLegacySeeded = 'db_seeded_v2';
 
   final AppDatabase db;
   SeedLoader(this.db);
 
   Future<void> seedIfNeeded() async {
     final prefs = await SharedPreferences.getInstance();
-    if (prefs.getBool(_kWordsKey) != true) {
+    final v = await bundledVersion();
+    if (prefs.getInt(_kDbVersion) != v.db) {
       await _seedWords();
-      await prefs.setBool(_kWordsKey, true);
+      await db.delete(db.verbs).go();
+      await _seedVerbs();
+      await prefs.setInt(_kDbVersion, v.db);
     }
-    if (prefs.getBool(_kSeededKey) == true) return;
+    final storedTurns = prefs.getInt(_kTurnsVersion) ?? (prefs.getBool(_kLegacySeeded) == true ? v.turns : null);
+    if (storedTurns != v.turns) await _seedTurns();
+    await prefs.setInt(_kTurnsVersion, v.turns);
+  }
 
-    await _seedVerbs();
-    await _seedTurns();
-
-    await prefs.setBool(_kSeededKey, true);
+  static Future<({int db, int turns})> bundledVersion() async {
+    try {
+      final j = json.decode(await rootBundle.loadString('assets/data/version.json')) as Map<String, dynamic>;
+      return (db: (j['db'] as num).toInt(), turns: (j['turns'] as num? ?? 1).toInt());
+    } catch (_) {
+      return (db: 0, turns: 0);
+    }
   }
 
   static String? _s(dynamic v) {
