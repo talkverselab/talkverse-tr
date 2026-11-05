@@ -33,7 +33,7 @@ class _ProgressScreenState extends State<ProgressScreen> {
     final progress = await appDb.select(appDb.userProgress).get();
     final verbsTotal = await appDb.verbs.count().getSingle();
     final vp = await appDb.select(appDb.verbProgress).get();
-    final wordsTotal = await appDb.words.count().getSingle();
+    final wordsTotal = await appDb.words.count(where: (w) => w.region.equals('conv').not()).getSingle();
     if (!mounted) return;
     setState(() {
       _turnsTotal = turnsTotal;

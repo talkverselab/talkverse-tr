@@ -31,7 +31,8 @@ def lemma(word):
         return None
     # 고유명사가 아닌 해석 중 어간이 가장 긴 것(빈도표 만들 때와 같은 규칙)
     ln = lambda l: len(l) - 3 if l.endswith(('mak', 'mek')) else len(l)
-    p = sorted(ps, key=lambda p: (p.lemma[:1].isupper(), -ln(p.lemma.lower())))[0]
+    # 동점은 내용어 해석 → 글자 순으로 고정(분석기 결과 순서가 실행마다 달라 표가 흔들린다)
+    p = sorted(ps, key=lambda p: (p.lemma[:1].isupper(), -ln(p.lemma.lower()), p.morphemes[0] not in CONTENT, p.lemma, p.morphemes[0]))[0]
     if p.lemma[:1].isupper() or p.morphemes[0] not in CONTENT:
         return None
     return p.lemma.lower(), p.morphemes[0]

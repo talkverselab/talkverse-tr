@@ -31,7 +31,7 @@ class LemmaChips extends StatelessWidget {
       future: _lookup([for (final l in lemmas) l.base]),
       builder: (context, snap) {
         final found = snap.data ?? const {};
-        return Wrap(spacing: 6, runSpacing: 6, children: [
+        final chips = [
           for (final l in lemmas)
             _Chip(
               label: l.base,
@@ -44,7 +44,15 @@ class LemmaChips extends StatelessWidget {
               padding: const EdgeInsets.only(top: 2),
               child: Text(tr('단어장에 없는 말'), style: const TextStyle(fontSize: 10, color: AppColors.muted)),
             ),
-        ]);
+        ];
+        // 폰(compact)은 한 줄 가로 스크롤 — 칩이 쌓여 그림을 밀어내지 않게
+        if (compact) {
+          return SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(children: [for (var i = 0; i < chips.length; i++) ...[if (i > 0) const SizedBox(width: 6), chips[i]]]),
+          );
+        }
+        return Wrap(spacing: 6, runSpacing: 6, children: chips);
       },
     );
   }
@@ -68,9 +76,9 @@ class LemmaChips extends StatelessWidget {
               Text(w.meaningKo!, style: const TextStyle(fontSize: 17, color: AppColors.sumiLight, height: 1.4)),
             const SizedBox(height: 10),
             Wrap(spacing: 8, children: [
-              if ((w.region ?? '').isNotEmpty) _tag(w.region!),
+              if ((w.region ?? '').isNotEmpty && w.region != 'conv') _tag(w.region!),
               if ((w.pos ?? '').isNotEmpty) _tag(w.pos!),
-              _tag(trf('빈도 {0}위', [w.rank])),
+              if (w.region != 'conv') _tag(trf('빈도 {0}위', [w.rank])), // 회화 레마 단어는 절벽 목록 밖 — 순위를 보이지 않는다
             ]),
           ]),
         ),

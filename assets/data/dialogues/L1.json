@@ -42,7 +42,13 @@
      "tags": [
       "draft"
      ],
-     "lemmas": []
+     "lemmas": [
+      [
+       "Merhaba",
+       "merhaba",
+       ""
+      ]
+     ]
     },
     {
      "num": 2,
@@ -96,6 +102,11 @@
       "draft"
      ],
      "lemmas": [
+      [
+       "Harika",
+       "harika",
+       ""
+      ],
       [
        "şimdiden",
        "şimdiden",
@@ -166,6 +177,11 @@
      ],
      "lemmas": [
       [
+       "Evet",
+       "evet",
+       ""
+      ],
+      [
        "aydır",
        "ay",
        ""
@@ -219,6 +235,11 @@
       "draft"
      ],
      "lemmas": [
+      [
+       "Ne",
+       "ne",
+       ""
+      ],
       [
        "içmek",
        "içmek",
@@ -322,6 +343,11 @@
      ],
      "lemmas": [
       [
+       "Çok",
+       "çok",
+       ""
+      ],
+      [
        "güzel",
        "güzel",
        ""
@@ -396,6 +422,16 @@
      ],
      "lemmas": [
       [
+       "Hayır",
+       "hayır",
+       ""
+      ],
+      [
+       "hayır",
+       "hayır",
+       ""
+      ],
+      [
        "bugün",
        "bugün",
        ""
@@ -465,6 +501,11 @@
        ""
       ],
       [
+       "sonra",
+       "sonra",
+       ""
+      ],
+      [
        "sola",
        "sol",
        ""
@@ -505,6 +546,11 @@
       "draft"
      ],
      "lemmas": [
+      [
+       "Hayır",
+       "hayır",
+       ""
+      ],
       [
        "yürüyerek",
        "yürümek",
@@ -550,7 +596,18 @@
      "tags": [
       "draft"
      ],
-     "lemmas": []
+     "lemmas": [
+      [
+       "Evet",
+       "evet",
+       ""
+      ],
+      [
+       "kadar",
+       "kadar",
+       ""
+      ]
+     ]
     },
     {
      "num": 7,
@@ -635,6 +692,11 @@
       "draft"
      ],
      "lemmas": [
+      [
+       "Evet",
+       "evet",
+       ""
+      ],
       [
        "boşum",
        "boş",
@@ -732,6 +794,11 @@
       "draft"
      ],
      "lemmas": [
+      [
+       "Tamam",
+       "tamam",
+       ""
+      ],
       [
        "buluşalım",
        "buluşmak",
@@ -837,6 +904,11 @@
       "draft"
      ],
      "lemmas": [
+      [
+       "Evet",
+       "evet",
+       ""
+      ],
       [
        "sonu",
        "son",

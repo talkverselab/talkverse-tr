@@ -163,7 +163,8 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
                   Expanded(flex: 6, child: cut(wordOrder: true)),
                 ])
               : Column(children: [
-                  SizedBox(height: (c.maxHeight * 0.44).clamp(240, 520), child: cut()),
+                  // 폰: 그림은 3:2 비율 그대로(잘리지 않게), 캡션은 자연 높이(길면 안에서 스크롤) — 위 칸 최대 62%, 나머지가 스크립트.
+                  if (wide) SizedBox(height: (c.maxHeight * 0.44).clamp(240, 520), child: cut()) else ConstrainedBox(constraints: BoxConstraints(maxHeight: c.maxHeight * 0.62), child: cut()),
                   // 어순 칸은 컷 칸 밖에 — 안에 두면 칩·긴 문장에 밀려 그림이 띠처럼 줄어든다
                   if (wide)
                     ConstrainedBox(
@@ -305,7 +306,7 @@ class _CutPanel extends StatelessWidget {
     final wide = isWide(context);
     return Padding(
       padding: EdgeInsets.fromLTRB(wide ? 16 : 12, 10, wide ? 16 : 12, 10),
-      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      child: Column(mainAxisSize: wide ? MainAxisSize.max : MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
         if (wide)
           Padding(
             padding: const EdgeInsets.only(bottom: 8),
@@ -317,9 +318,13 @@ class _CutPanel extends StatelessWidget {
               Text(d.speakerName(turn.speaker), style: const TextStyle(fontSize: 11, color: AppColors.muted, fontWeight: FontWeight.w700)),
             ]),
           ),
-        Expanded(child: SceneCut(dialogue: d, turn: turn)), // 문장은 아래 _Caption 에(그림을 덮지 않음)
+        // 문장은 아래 _Caption 에(그림을 덮지 않음). 폰은 그림을 3:2 비율로 두고 캡션이 길면 캡션만 스크롤.
+        if (wide) Expanded(child: SceneCut(dialogue: d, turn: turn)) else AspectRatio(aspectRatio: 1168 / 784, child: SceneCut(dialogue: d, turn: turn)),
         const SizedBox(height: 10),
-        _Caption(d: d, turn: turn, showKana: showKana, showRd: showRd, showKo: showKo, onSpeak: onSpeak),
+        if (wide)
+          _Caption(d: d, turn: turn, showKana: showKana, showRd: showRd, showKo: showKo, onSpeak: onSpeak)
+        else
+          Flexible(child: SingleChildScrollView(child: _Caption(d: d, turn: turn, showKana: showKana, showRd: showRd, showKo: showKo, onSpeak: onSpeak))),
         // 터키어 칸(몽골어앱 UX 시안 01 의 어순 맞대기·모음조화): 넓은 화면에서만 — 폰은 컷·캡션만으로도 빠듯하다
         if (wordOrder) ...[const SizedBox(height: 10), WordOrderPanel(turn: turn)],
       ]),

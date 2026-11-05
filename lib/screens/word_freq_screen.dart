@@ -28,6 +28,7 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
 
   Future<void> _load() async {
     final words = await (appDb.select(appDb.words)
+          ..where((w) => w.region.equals('conv').not()) // 회화 레마 단어는 빈도 목록이 아니다
           ..orderBy([(w) => OrderingTerm.asc(w.rank)]))
         .get();
     if (mounted) setState(() => _words = words);
