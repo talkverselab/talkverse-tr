@@ -1,0 +1,122 @@
+{
+ "id": "r1_life_a5",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "고양이의 직원",
+ "emoji": "🐈",
+ "scene": "사흘째 문 앞에서 자는 길고양이. Can 은 그 고양이가 나를 골랐다고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "bu kimin·olsun 으로 길고양이 얘기하기",
+ "expressions": [
+  "olsun",
+  "tamam"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Can, bu kedi kimin?",
+   "rd": "잔, 부 케디 키민?",
+   "ko": "칸, 이 고양이 누구 거야?",
+   "note": "kimin = 누구의",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Kimsenin değil. Ama burası onun.",
+   "rd": "킴세닌 데일. 아마 부라스 오눈.",
+   "ko": "누구 것도 아니야. 근데 여긴 걔 땅이야.",
+   "note": "kimsenin değil = 누구 것도 아니다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Üç gündür kapımda uyuyor.",
+   "rd": "위치 귄뒤르 카픔다 우유요르.",
+   "ko": "사흘째 우리 집 문 앞에서 자.",
+   "note": "üç gündür = 사흘째",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Bak, bu kedi kimseye gitmez.",
+   "rd": "박, 부 케디 킴세예 기트메즈.",
+   "ko": "봐, 이 고양이 아무한테도 안 가.",
+   "note": "kimseye = 아무에게도",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Ben burada kimseyi tanımıyorum ya.",
+   "rd": "벤 부라다 킴세이 타느므요룸 야.",
+   "ko": "나 여기 아는 사람도 없는데.",
+   "note": "tanımıyorum = 몰라(사람을)",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Olsun. O seni seçti.",
+   "rd": "올순. 오 세니 세치티.",
+   "ko": "괜찮아. 걔가 널 고른 거야.",
+   "note": "seçti = 골랐다 — 반전: 혼자가 아니다",
+   "tags": [
+    "expr:olsun",
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Bana patron gibi bakıyor.",
+   "rd": "바나 파트론 기비 바크요르.",
+   "ko": "나를 사장님처럼 쳐다봐.",
+   "note": "patron = 사장",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Tamam, adı Patron. Sen de işçisin.",
+   "rd": "타맘, 아드 파트론. 센 데 이시치신.",
+   "ko": "좋아, 이름은 파트론. 넌 직원이고.",
+   "note": "işçi = 직원, 일꾼",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": [
+    "işçi"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

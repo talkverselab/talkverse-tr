@@ -1,0 +1,150 @@
+{
+ "id": "r0_travel_c4",
+ "region": "R0",
+ "island": "travel",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "love"
+ ],
+ "domain": [
+  "travel",
+  "love"
+ ],
+ "title": "옆자리 비었어",
+ "emoji": "🌙",
+ "scene": "밤 버스에서 자리가 떨어진 둘이, 세 줄 사이로 채팅을 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "hadi·ciddi misin 으로 밤 채팅하기",
+ "expressions": [
+  "ciddi misin",
+  "geliyorum",
+  "yok"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Uyudun mu?",
+   "rd": "우유둔 무?",
+   "ko": "잤어?",
+   "note": "uyumak = 자다",
+   "tags": [],
+   "new": [],
+   "at": "01:12",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Yok. Yanımdaki kadın omzumda uyuyor 😅",
+   "rd": "욕. 야늠다키 카든 옴줌다 우유요르",
+   "ko": "아니. 옆자리 아주머니가 내 어깨에서 자 😅",
+   "note": "omuz = 어깨(omzum)",
+   "tags": [
+    "expr:yok"
+   ],
+   "new": [
+    "omuz"
+   ],
+   "at": "01:12",
+   "stamp": "😅",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Ben üç sıra arkandayım.",
+   "rd": "벤 위치 스라 아르칸다이음.",
+   "ko": "나 세 줄 뒤에 있어.",
+   "note": "sıra = 줄",
+   "tags": [],
+   "new": [],
+   "at": "01:13",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Biliyorum. Seni görüyorum.",
+   "rd": "빌리요룸. 세니 괴뤼요룸.",
+   "ko": "알아. 너 보여.",
+   "note": "görüyorum = 보고 있다",
+   "tags": [],
+   "new": [],
+   "at": "01:13",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Benim omzum boş.",
+   "rd": "베님 옴줌 보시.",
+   "ko": "내 어깨는 비었는데.",
+   "note": "boş = 빈",
+   "tags": [
+    "simkung"
+   ],
+   "new": [],
+   "at": "01:15",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Ciddi misin?",
+   "rd": "지디 미신?",
+   "ko": "진심이야?",
+   "note": "ciddi misin? = 진심이야?",
+   "tags": [
+    "expr:ciddi misin"
+   ],
+   "new": [],
+   "at": "01:18",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Kolonya da var 😌",
+   "rd": "콜론야 다 바르",
+   "ko": "콜로냐도 있어 😌",
+   "note": "kolonya = 레몬 향 손 향수",
+   "tags": [
+    "callback:r0_travel_a1"
+   ],
+   "new": [],
+   "at": "01:18",
+   "stamp": "😌",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Geliyorum.",
+   "rd": "겔리요룸.",
+   "ko": "간다.",
+   "note": "geliyorum = 지금 가",
+   "tags": [
+    "expr:geliyorum",
+    "simkung"
+   ],
+   "new": [],
+   "at": "01:19",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

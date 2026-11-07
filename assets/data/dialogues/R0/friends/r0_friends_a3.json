@@ -1,0 +1,120 @@
+{
+ "id": "r0_friends_a3",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "travel"
+ ],
+ "domain": [
+  "friends",
+  "culture"
+ ],
+ "title": "여섯 잔",
+ "emoji": "🍵",
+ "scene": "Can 의 카페, 그만 달라는데 차가 계속 나온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "yeter·sağ ol 로 사양하기, 찻잔 위 스푼의 뜻 알기",
+ "expressions": [
+  "sağ ol",
+  "buyur",
+  "ne alaka",
+  "ne demek"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bir çay daha?",
+   "rd": "비르 차이 다하?",
+   "ko": "차 한 잔 더?",
+   "note": "bir ~ daha = ~ 하나 더",
+   "tags": [],
+   "new": [
+    "çay"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Yok, sağ ol. Yeter.",
+   "rd": "욕, 사 올. 예테르.",
+   "ko": "아니, 고마워. 됐어.",
+   "note": "yeter = 충분해",
+   "tags": [
+    "expr:sağ ol"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Buyur, taze çay.",
+   "rd": "부유르, 타제 차이.",
+   "ko": "자, 갓 끓인 차.",
+   "note": "taze = 신선한",
+   "tags": [
+    "expr:buyur"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Can, bu altıncı çay! Neden veriyorsun?",
+   "rd": "잔, 부 알튼즈 차이! 네덴 베리요르순?",
+   "ko": "잔, 이거 여섯 잔째야! 왜 자꾸 줘?",
+   "note": "altıncı = 여섯 번째",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Kaşığı bardağın üstüne koymadın ki.",
+   "rd": "카시으 바르다은 위스튀네 코이마든 키.",
+   "ko": "스푼을 잔 위에 안 올렸잖아.",
+   "note": "kaşık = 스푼 — 반전: 스푼을 잔 위에 얹어야 그만이다",
+   "tags": [],
+   "new": [
+    "kaşık",
+    "bardak"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Ne alaka? Kaşık ne demek?",
+   "rd": "네 알라카? 카식 네 데멕?",
+   "ko": "뭔 소리야? 스푼이 무슨 뜻인데?",
+   "note": "ne demek = 무슨 뜻이야",
+   "tags": [
+    "expr:ne alaka",
+    "expr:ne demek"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Yeter demek. Altı çay, hesap sende.",
+   "rd": "예테르 데멕. 알트 차이, 헤삽 센데.",
+   "ko": "「그만」이란 뜻. 여섯 잔, 계산은 네가.",
+   "note": "hesap sende = 계산은 네가",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "id": "r0_travel_c2",
+ "region": "R0",
+ "island": "travel",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel",
+  "friends"
+ ],
+ "title": "차만 마셨는데",
+ "emoji": "🧿",
+ "scene": "이집션 바자르에서 길을 잃은 내가 Elif 에게 실시간 보고를 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "yine mi·yok artık 으로 길 잃은 상황 채팅하기",
+ "expressions": [
+  "yok artık",
+  "geliyorum"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Elif, kayboldum.",
+   "rd": "엘리프, 카이볼둠.",
+   "ko": "엘리프, 나 길 잃었어.",
+   "note": "kaybolmak = 길을 잃다",
+   "tags": [],
+   "new": [],
+   "at": "16:10",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Yine mi? Ne görüyorsun?",
+   "rd": "이네 미? 네 괴뤼요르순?",
+   "ko": "또? 뭐 보여?",
+   "note": "yine mi? = 또?",
+   "tags": [],
+   "new": [],
+   "at": "16:10",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Baharat. Çok baharat.",
+   "rd": "바하랏. 촉 바하랏.",
+   "ko": "향신료. 향신료 엄청.",
+   "note": "baharat = 향신료",
+   "tags": [],
+   "new": [
+    "baharat"
+   ],
+   "at": "16:12",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Başka? Kapı var mı?",
+   "rd": "바시카? 카프 바르 므?",
+   "ko": "또 뭐? 문 있어?",
+   "note": "kapı = 문",
+   "tags": [],
+   "new": [],
+   "at": "16:12",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Bir adam çay verdi 😊",
+   "rd": "비르 아담 차이 베르디",
+   "ko": "어떤 아저씨가 차 줬어 😊",
+   "note": "adam = 남자, 아저씨",
+   "tags": [],
+   "new": [],
+   "at": "16:15",
+   "stamp": "😊",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "İçme, oturma, hemen çık!",
+   "rd": "이치메, 오투르마, 헤멘 측!",
+   "ko": "마시지 마, 앉지 마, 당장 나와!",
+   "note": "hemen = 당장",
+   "tags": [],
+   "new": [],
+   "at": "16:15",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "İçtim. Şimdi bir halım var.",
+   "rd": "이치팀. 심디 비르 할름 바르.",
+   "ko": "마셨어. 이제 나 카펫 있어.",
+   "note": "halı = 카펫 — 반전",
+   "tags": [],
+   "new": [
+    "halı"
+   ],
+   "at": "16:41",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Yok artık! Geliyorum, hiç konuşma!",
+   "rd": "욕 아르특! 겔리요룸, 히치 코누시마!",
+   "ko": "말도 안 돼! 나 간다, 아무 말도 하지 마!",
+   "note": "geliyorum = 지금 가",
+   "tags": [
+    "expr:yok artık",
+    "expr:geliyorum"
+   ],
+   "new": [],
+   "at": "16:41",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

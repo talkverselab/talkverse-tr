@@ -1,0 +1,142 @@
+{
+ "id": "r0_friends_c1",
+ "region": "R0",
+ "island": "friends",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "「가는 중」이라며",
+ "emoji": "📱",
+ "scene": "약속에 늦은 나, 카페의 Can 에게 벌써 나왔다고 거짓말을 친다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "yoldayım·az kaldı 로 채팅 답장하기",
+ "expressions": [
+  "yoldayım",
+  "az kaldı",
+  "yok artık",
+  "öldüm"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Neredesin? Kahven soğuyor.",
+   "rd": "네레데신? 카흐벤 소우요르.",
+   "ko": "어디야? 네 커피 식는다.",
+   "note": "neredesin = 어디야",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "11:02"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Yoldayım! Az kaldı.",
+   "rd": "욜다이음! 아즈 칼드.",
+   "ko": "가는 중! 거의 다 왔어.",
+   "note": "yoldayım = 가는 중",
+   "tags": [
+    "expr:yoldayım",
+    "expr:az kaldı"
+   ],
+   "new": [],
+   "ui": "bubble",
+   "at": "11:03"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Hangi yoldasın?",
+   "rd": "한기 욜다슨?",
+   "ko": "어느 길인데?",
+   "note": "hangi = 어느",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "11:03"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Şey… büyük yolda.",
+   "rd": "셰이… 뷔윅 욜다.",
+   "ko": "어… 큰길.",
+   "note": "şey = 그게",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "11:05"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Kanka, pencereye bak.",
+   "rd": "칸카, 펜제레예 박.",
+   "ko": "야, 창문 봐.",
+   "note": "pencere = 창문 — 반전",
+   "tags": [
+    "expr:kanka"
+   ],
+   "new": [],
+   "ui": "bubble",
+   "at": "11:05"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Yok artık! Neredesin sen?!",
+   "rd": "욕 아르특! 네레데신 센?!",
+   "ko": "말도 안 돼! 너 어딘데?!",
+   "note": "yok artık = 말도 안 돼",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": [],
+   "ui": "bubble",
+   "at": "11:06"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Evinin önünde. Pijaman çok güzel 😂",
+   "rd": "에비닌 외뉜데. 피자만 촉 귀젤",
+   "ko": "너네 집 앞. 잠옷 예쁘다 😂",
+   "note": "önünde = 앞에",
+   "tags": [],
+   "new": [],
+   "ui": "bubble",
+   "at": "11:06",
+   "stamp": "😂"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Öldüm. Beş dakika!",
+   "rd": "욀뒴. 베시 다키카!",
+   "ko": "나 죽었다. 5분만!",
+   "note": "öldüm = 죽었다(창피해서)",
+   "tags": [
+    "expr:öldüm"
+   ],
+   "new": [],
+   "ui": "bubble",
+   "at": "11:07"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

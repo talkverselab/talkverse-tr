@@ -1,0 +1,176 @@
+{
+ "id": "r2_love_b5",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "culture"
+ ],
+ "title": "다음은 너희 차례",
+ "emoji": "💃",
+ "scene": "Elif 언니 결혼식, 「그냥 친구」라던 나를 이모가 할라이 맨 앞으로 끌어낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "darısı başınıza·hiç sorma 로 결혼식에서 살아남기",
+ "expressions": [
+  "hadi",
+  "sorun yok",
+  "hıhı",
+  "ne demek",
+  "hiç sorma"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hadi gel, ablamın düğünü var. Kimse seni tanımıyor, sorun yok.",
+   "rd": "하디 겔, 아블라믄 뒤위뉘 바르. 킴세 세니 타느므요르, 소룬 욕.",
+   "ko": "어서 와, 언니 결혼식이야. 아무도 널 몰라, 괜찮아.",
+   "note": "düğün = 결혼식",
+   "tags": [
+    "expr:hadi",
+    "expr:sorun yok"
+   ],
+   "new": [
+    "düğün"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Beni ne diye tanıtacaksın?",
+   "rd": "베니 네 디예 타느타작슨?",
+   "ko": "나를 뭐라고 소개할 건데?",
+   "note": "tanıtmak = 소개하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Elif, bu kim kızım? Çok tatlı!",
+   "rd": "엘리프, 부 킴 크즘? 촉 타틀르!",
+   "ko": "Elif, 얘는 누구니? 너무 귀엽다!",
+   "note": "kızım = 얘야(딸에게 하듯)",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Arkadaşım teyze. Sadece arkadaş.",
+   "rd": "아르카다심 테이제. 사데제 아르카다시.",
+   "ko": "친구예요, 이모. 그냥 친구.",
+   "note": "sadece = 그냥, 오직",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Hıhı, arkadaş. Darısı başınıza, evladım!",
+   "rd": "흐흐, 아르카다시. 다르스 바시느자, 에블라듬!",
+   "ko": "그래그래, 친구. 다음은 너희 차례다, 얘야!",
+   "note": "darısı başınıza = 다음은 당신들 차례(결혼식 덕담)",
+   "tags": [
+    "expr:hıhı"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Elif, darısı ne demek?",
+   "rd": "엘리프, 다르스 네 데멕?",
+   "ko": "Elif, darısı 가 무슨 뜻이야?",
+   "note": "ne demek = 무슨 뜻",
+   "tags": [
+    "expr:ne demek"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Hiç sorma. Hadi, gülüyoruz.",
+   "rd": "히치 소르마. 하디, 귈뤼요루즈.",
+   "ko": "말도 마. 자, 웃자.",
+   "note": "hiç sorma = 말도 마",
+   "tags": [
+    "expr:hiç sorma"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Hadi, halaya! Sen en öne geç, evladım!",
+   "rd": "하디, 할라야! 센 엔 외네 게치, 에블라듬!",
+   "ko": "자, 할라이 추자! 네가 맨 앞에 서라, 얘야!",
+   "note": "halay = 손잡고 추는 줄춤 — 반전",
+   "tags": [],
+   "new": [
+    "halay"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Elif, yüz kişi bakıyor! Elimi bırakma!",
+   "rd": "엘리프, 위즈 키시 바크요르! 엘리미 브락마!",
+   "ko": "Elif, 백 명이 보고 있어! 내 손 놓지 마!",
+   "note": "bırakma = 놓지 마",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Merak etme, bırakmam.",
+   "rd": "메락 에트메, 브락맘.",
+   "ko": "걱정 마, 안 놔.",
+   "note": "merak etme = 걱정 마",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Halay bitti. Elif, elim hâlâ sende.",
+   "rd": "할라이 비티. 엘리프, 엘림 할라 센데.",
+   "ko": "할라이 끝났어. Elif, 내 손 아직 너한테 있어.",
+   "note": "sende = 너한테 있다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Biliyorum. Arkadaşlar böyle yapar.",
+   "rd": "빌리요룸. 아르카다실라르 뵈일레 야파르.",
+   "ko": "알아. 친구끼리는 원래 이래.",
+   "note": "böyle = 이렇게",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

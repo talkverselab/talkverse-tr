@@ -1,0 +1,127 @@
+{
+ "id": "r0_friends_b6",
+ "region": "R0",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "야옹",
+ "emoji": "🐱",
+ "scene": "Can 은 카페 고양이 Paşa 만 챙기고 내 주문은 못 들은 척한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "주문하고 항의하기, buyurun·bir dakika",
+ "expressions": [
+  "hoş geldin",
+  "canım",
+  "gel",
+  "bir dakika",
+  "buyurun"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Can, bir çay, lütfen.",
+   "rd": "잔, 비르 차이, 뤼트펜.",
+   "ko": "잔, 차 한 잔 줘.",
+   "note": "lütfen = 부탁해",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Paşam, hoş geldin! Süt ister misin?",
+   "rd": "파샴, 호시 겔딘! 쉿 이스테르 미신?",
+   "ko": "우리 파샤, 왔어! 우유 줄까?",
+   "note": "hoş geldin = 어서 와",
+   "tags": [
+    "expr:hoş geldin"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Can, ben de buradayım. Çay?",
+   "rd": "잔, 벤 데 부라다이음. 차이?",
+   "ko": "잔, 나도 여기 있거든. 차는?",
+   "note": "buradayım = 여기 있어",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Aç mısın, canım? Gel, gel.",
+   "rd": "아치 므슨, 자늠? 겔, 겔.",
+   "ko": "배고파, 우리 아기? 이리 와, 이리 와.",
+   "note": "canım = 얘야 · aç = 배고픈",
+   "tags": [
+    "expr:canım",
+    "expr:gel"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Beni görüyor musun? Bir dakika!",
+   "rd": "베니 괴뤼요르 무순? 비르 다키카!",
+   "ko": "내가 보이긴 해? 잠깐만!",
+   "note": "görmek = 보다",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Paşa, duydun mu? Bir ses var.",
+   "rd": "파샤, 두이둔 무? 비르 세스 바르.",
+   "ko": "파샤, 들었어? 무슨 소리가 나네.",
+   "note": "ses = 소리",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Miyav.",
+   "rd": "미야브.",
+   "ko": "야옹.",
+   "note": "miyav = 야옹 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Buyurun, efendim! Çay mı, süt mü?",
+   "rd": "부유룬, 에펜딤! 차이 므, 쉿 뮈?",
+   "ko": "네, 손님! 차로 드릴까요, 우유로 드릴까요?",
+   "note": "efendim = 손님(높임)",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

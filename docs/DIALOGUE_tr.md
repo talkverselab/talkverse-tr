@@ -1,7 +1,9 @@
 # 회화 — 튀르키예어 특이점
 
 **공통 원칙은 https://talkverse.uk/talkverse/dialogue-rules/ 를 따른다**(2026-11-02 확정 — 레벨 = 절벽 R1~R4, 턴 수, 말투, 반전, 수위, 검수 등).
-절벽 구간표: https://talkverse.uk/cliff/18/ · 이 앱의 구간 단어 = `assets/data/freq/lang_es_top.csv`(어간 기준 R1 1–299 · R2 –411 · R3 –772 · R4 –1,525).
+절벽 구간표: https://talkverse.uk/cliff/18/ · 이 앱의 구간 단어 = `assets/data/freq/lang_es_top.csv`(기본형 + 접미사 기준 R1 1–119 · R2 –157 · R3 –282 · R4 –568 · R5 –2,000).
+작성 규칙 = `tools/prompts/dialogue_tr.md`, 검사 = `tools/check_dialogues.py`, 독음 = `tools/rd_tr.py`.
+**회화 어휘 상한(2026-11-07):** 절벽 R1(119위)은 대부분 기능어·접미사라 문장이 안 되므로 회화는 R1 ≤568 · R2 ≤1,000 · R3 ≤2,000 위로 쓴다.
 이 문서에는 튀르키예어만의 것만 적는다.
 
 ## 1. 기본 변이

@@ -1,0 +1,130 @@
+{
+ "id": "r0_love_a1",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "자리 다 비었는데",
+ "emoji": "🪑",
+ "scene": "텅 빈 카페, Elif 가 굳이 내 옆자리에 앉겠다고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "mixed",
+ "twist": 3,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "burası boş mu·gerçekten mi 로 첫마디 주고받기",
+ "expressions": [
+  "gerçekten mi",
+  "bilmem",
+  "şey"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Pardon, burası boş mu?",
+   "rd": "파르돈, 부라스 보시 무?",
+   "ko": "저기요, 여기 비었어요?",
+   "note": "burası = 여기",
+   "tags": [
+    "expr:pardon"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Evet, boş. Buyurun.",
+   "rd": "에벳, 보시. 부유룬.",
+   "ko": "네, 비었어요. 앉으세요.",
+   "note": "buyurun = 여기요, 그러세요",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Aslında bütün masalar boş.",
+   "rd": "아슬른다 뷔튄 마살라르 보시.",
+   "ko": "사실 테이블 전부 비었어요.",
+   "note": "aslında = 사실은 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Ha? Gerçekten mi?",
+   "rd": "하? 게르첵텐 미?",
+   "ko": "네? 진짜요?",
+   "note": "gerçekten mi? = 진짜?",
+   "tags": [
+    "expr:gerçekten mi"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Evet. Ama ben buraya oturmak istedim.",
+   "rd": "에벳. 아마 벤 부라야 오투르막 이스테딤.",
+   "ko": "네. 근데 난 여기 앉고 싶었어요.",
+   "note": "istedim = 원했다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Şey… neden burası?",
+   "rd": "셰이… 네덴 부라스?",
+   "ko": "저… 왜 여기예요?",
+   "note": "neden = 왜",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Bilmem… sen buradasın ya.",
+   "rd": "빌멤… 센 부라다슨 야.",
+   "ko": "글쎄… 네가 여기 있잖아.",
+   "note": "ya = ~잖아 — 말을 놓으며 마음을 들킴",
+   "tags": [
+    "simkung",
+    "expr:bilmem"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Çay ister misin? Sen de… yani.",
+   "rd": "차이 이스테르 미신? 센 데… 야니.",
+   "ko": "차 마실래? 너도… 그러니까.",
+   "note": "yani = 그러니까",
+   "tags": [
+    "expr:yani"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

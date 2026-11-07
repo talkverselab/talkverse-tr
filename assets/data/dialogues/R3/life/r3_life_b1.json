@@ -1,0 +1,215 @@
+{
+ "id": "r3_life_b1",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "사례금 500리라",
+ "emoji": "🐾",
+ "scene": "사흘째 안 보이는 Patron 을 찾는 전단을 붙였더니 온 동네 고양이가 몰려온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can",
+  "C": "Kapıcı",
+  "D": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "ilan·bulana 로 잃어버린 것 찾기, 일이 커질 때 받아치기",
+ "expressions": [
+  "tamam",
+  "kanka",
+  "eyvah",
+  "aman",
+  "tabii"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Can, Patron üç gündür yok. İlan yazdım, bak.",
+   "rd": "잔, 파트론 위치 귄뒤르 욕. 일란 야즈듬, 박.",
+   "ko": "칸, 파트론이 사흘째 안 보여. 전단 썼어, 봐.",
+   "note": "ilan = 공고, 전단",
+   "tags": [],
+   "new": [
+    "ilan"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "'Büyük kedi, bulana beş yüz lira.' Beş yüz mü? Çıldırdın mı?",
+   "rd": "뷔윅 케디, 불라나 베시 위즈 리라. 베시 위즈 뮈? 츨드르든 므?",
+   "ko": "'큰 고양이, 찾으면 500리라.' 500? 미쳤어?",
+   "note": "bulana = 찾는 사람에게",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Ne yapayım? Çok merak ediyorum. Sen de bakar mısın?",
+   "rd": "네 야파이음? 촉 메락 에디요룸. 센 데 바카르 므슨?",
+   "ko": "어떡해? 너무 걱정돼. 너도 찾아봐 줄래?",
+   "note": "merak etmek = 걱정하다, 궁금하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Tamam, ama hazır ol. Bu mahalle parayı çok sever.",
+   "rd": "타맘, 아마 하즈르 올. 부 마할레 파라이으 촉 세베르.",
+   "ko": "알았어, 근데 각오해. 이 동네는 돈을 아주 좋아해.",
+   "note": "hazır ol = 준비해",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "{name}, kapıda bir çocuk var. Elinde kedi, para istiyor.",
+   "rd": "{name}, 카프다 비르 초죽 바르. 엘린데 케디, 파라 이스티요르.",
+   "ko": "{name} 씨, 문 앞에 애가 있어요. 고양이를 들고, 돈 달래요.",
+   "note": "elinde = 손에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Patron mu? Bu kedi siyah ya! Patron sarı.",
+   "rd": "파트론 무? 부 케디 시야흐 야! 파트론 사르.",
+   "ko": "파트론이에요? 이 고양이는 까맣잖아요! 파트론은 노란색이고요.",
+   "note": "siyah = 검은, sarı = 노란",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Bir kedi daha geldi. Bir tane daha. Merdivene kadar sıra oldu.",
+   "rd": "비르 케디 다하 겔디. 비르 타네 다하. 메르디베네 카다르 스라 올두.",
+   "ko": "고양이 또 왔어요. 또 한 마리요. 계단까지 줄을 섰어요.",
+   "note": "sıra = 줄 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Kanka, bir sayayım… Yedi kedi, üç çocuk, bir de dede.",
+   "rd": "칸카, 비르 사야이음… 예디 케디, 위치 초죽, 비르 데 데데.",
+   "ko": "야, 세어 볼게… 고양이 일곱, 애 셋, 할아버지도 한 분.",
+   "note": "saymak = 세다, dede = 할아버지",
+   "tags": [
+    "expr:kanka"
+   ],
+   "new": [
+    "dede"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Dede mi? O neden burada? Kedisi bile yok!",
+   "rd": "데데 미? 오 네덴 부라다? 케디시 빌레 욕!",
+   "ko": "할아버지? 왜 계신 건데? 고양이도 없잖아!",
+   "note": "bile = ~조차",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Elinde tavuk var. 'Bu da kedi sayılır mı?' diye soruyor.",
+   "rd": "엘린데 타북 바르. 부 다 케디 사이을르르 므? 디예 소루요르.",
+   "ko": "손에 닭을 들고 계셔. '이것도 고양이로 쳐 주나?' 하고 물으시네.",
+   "note": "sayılır = 친다, 간주된다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "Kediler binaya girdi. Şimdi herkes bana bağırıyor.",
+   "rd": "케딜레르 비나야 기르디. 심디 헤르케스 바나 바으르요르.",
+   "ko": "고양이들이 건물에 들어왔어요. 이제 다들 저한테 소리쳐요.",
+   "note": "bağırmak = 소리치다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Eyvah! Beş yüz lirayı kime vereceğim şimdi?",
+   "rd": "에이바흐! 베시 위즈 리라이으 키메 베레제임 심디?",
+   "ko": "헉! 500리라를 이제 누구한테 줘?",
+   "note": "kime = 누구에게",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "D",
+   "tl": "Ne oluyor burada? Aman, Patron'u uyandıracaksınız.",
+   "rd": "네 올루요르 부라다? 아만, 파트로누 우얀드라작스느즈.",
+   "ko": "여기 왜 이래? 아이고, 파트론 깨우겠다.",
+   "note": "uyandırmak = 깨우다",
+   "tags": [
+    "expr:aman",
+    "callback:r1_life_c1"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Ne?! Patron sizde mi? Üç gündür mü?",
+   "rd": "네?! 파트론 시즈데 미? 위치 귄뒤르 뮈?",
+   "ko": "네?! 파트론이 아주머니 댁에 있어요? 사흘째요?",
+   "note": "sizde = 댁에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "D",
+   "tl": "Tabii. Zayıflamış, köfte verdim. Şimdi kapıdan geçmiyor.",
+   "rd": "타비이. 자이으플라므시, 쾨프테 베르딤. 심디 카프단 게치미요르.",
+   "ko": "그럼. 살이 빠졌길래 쾨프테를 줬지. 이제 문도 못 지나가.",
+   "note": "zayıflamak = 살이 빠지다",
+   "tags": [
+    "expr:tabii"
+   ],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "tl": "Beş yüz lira teyzenin. Köfte de benim.",
+   "rd": "베시 위즈 리라 테이제닌. 쾨프테 데 베님.",
+   "ko": "500리라는 이모 거네. 쾨프테는 내 거고.",
+   "note": "teyzenin = 이모의",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

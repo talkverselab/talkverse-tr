@@ -1,0 +1,166 @@
+{
+ "id": "r2_friends_b1",
+ "region": "R2",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "어머니가 출발하셨다",
+ "emoji": "🍲",
+ "scene": "감기 조금 걸렸을 뿐인데 Can 의 어머니에게 소문이 들어갔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "önemli değil·olsun 으로 괜찮다고 하기, 아픈 상태 말하기",
+ "expressions": [
+  "önemli değil",
+  "bir dakika",
+  "aman",
+  "olsun",
+  "yok artık"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Sesin neden böyle? Hasta mısın?",
+   "rd": "세신 네덴 뵈일레? 하스타 므슨?",
+   "ko": "목소리가 왜 그래? 아파?",
+   "note": "hasta = 아픈",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Biraz üşüttüm, önemli değil.",
+   "rd": "비라즈 위쉬튐, 외넴리 데일.",
+   "ko": "감기 살짝 걸렸어, 별거 아니야.",
+   "note": "üşütmek = 감기 걸리다",
+   "tags": [
+    "expr:önemli değil"
+   ],
+   "new": [
+    "üşütmek"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Bir dakika, annem arıyor. Sana selamı var.",
+   "rd": "비르 다키카, 안넴 아르요르. 사나 셀라므 바르.",
+   "ko": "잠깐만, 엄마 전화야. 너한테 안부 전하신대.",
+   "note": "selamı var = 안부 전한대",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Aman, hasta olduğumu söyleme! Annen hemen korkuyor.",
+   "rd": "아만, 하스타 올두우무 쇠일레메! 안넨 헤멘 코르쿠요르.",
+   "ko": "아이고, 나 아프다고 말하지 마! 네 엄마 금방 걱정하시잖아.",
+   "note": "olduğumu = 내가 ~라는 것을",
+   "tags": [
+    "expr:aman",
+    "form:-duğumu"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Söyledim bile. \"Çorba yapıyorum\" diyor.",
+   "rd": "쇠일레딤 빌레. \"초르바 야프요룸\" 디요르.",
+   "ko": "벌써 말했어. 「수프 끓인다」 하시네.",
+   "note": "bile = 벌써, 조차 · çorba = 수프",
+   "tags": [],
+   "new": [
+    "çorba"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Olsun, çorba iyi. Sağ olsun.",
+   "rd": "올순, 초르바 이이. 사 올순.",
+   "ko": "뭐 괜찮아, 수프 좋지. 고마우시네.",
+   "note": "olsun = 괜찮아 뭐",
+   "tags": [
+    "expr:olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Şimdi teyzemi aradı. O da ıhlamur getiriyor.",
+   "rd": "심디 테이제미 아라드. 오 다 으흘라무르 게티리요르.",
+   "ko": "이제 이모한테 전화하셨어. 이모도 린덴 차 가져오신대.",
+   "note": "ıhlamur = 린덴 차(감기엔 이것)",
+   "tags": [],
+   "new": [
+    "ıhlamur"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Yok artık! Teyzen nereden çıktı şimdi?",
+   "rd": "욕 아르특! 테이젠 네레덴 측트 심디?",
+   "ko": "말도 안 돼! 이모는 또 어디서 나왔어?",
+   "note": "nereden çıktı = 어디서 튀어나왔어",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Annem yola çıktı. Arabada dört kişi var.",
+   "rd": "안넴 욜라 측트. 아라바다 되르트 키시 바르.",
+   "ko": "엄마 출발하셨대. 차에 네 명 타고 있대.",
+   "note": "yola çıkmak = 출발하다 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Ben sadece üşüttüm! Onlara söyle, lütfen!",
+   "rd": "벤 사데제 위쉬튐! 온라라 쇠일레, 뤼트펜!",
+   "ko": "나 그냥 감기라고! 좀 말씀드려 줘!",
+   "note": "sadece = 그냥, ~뿐",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Söyledim. Annem \"Sakın ölme, geliyoruz\" diyor.",
+   "rd": "쇠일레딤. 안넴 \"사큰 욀메, 겔리요루즈\" 디요르.",
+   "ko": "말했어. 엄마가 「죽지 말고 있어, 간다」 하시네.",
+   "note": "sakın = 절대 ~하지 마",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

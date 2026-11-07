@@ -1,0 +1,190 @@
+{
+ "id": "r2_life_b3",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "수리공이 늘어난다",
+ "emoji": "🔧",
+ "scene": "보일러를 고치러 온 기사가 사촌을 부르고, 사촌은 삼촌을 부른다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Usta",
+  "C": "Kuzen"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "sorun yok·önemli değil 로 수리 기사와 말하기",
+ "expressions": [
+  "hoş geldiniz",
+  "önemli değil",
+  "hoş bulduk",
+  "harika",
+  "bir dakika",
+  "olur"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Hoş geldiniz, usta. Kombi su akıtıyor.",
+   "rd": "호시 겔디니즈, 우스타. 콤비 수 아크트요르.",
+   "ko": "어서 오세요, 기사님. 보일러에서 물이 새요.",
+   "note": "usta = 기사님(호칭)",
+   "tags": [
+    "expr:hoş geldiniz"
+   ],
+   "new": [
+    "akıtmak"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Hoş bulduk. Önemli değil, on dakikalık iş.",
+   "rd": "호시 불둑. 외넴리 데일, 온 다키칼륵 이시.",
+   "ko": "네, 반갑습니다. 별거 아니에요, 10분이면 끝나요.",
+   "note": "on dakikalık = 10분짜리",
+   "tags": [
+    "expr:önemli değil",
+    "expr:hoş bulduk"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Harika. Çay ister misiniz?",
+   "rd": "하리카. 차이 이스테르 미시니즈?",
+   "ko": "잘됐네요. 차 드실래요?",
+   "note": "ister misiniz? = 드실래요?",
+   "tags": [
+    "expr:harika"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Olur. Bir dakika, bu parça burada yok.",
+   "rd": "올루르. 비르 다키카, 부 파르차 부라다 욕.",
+   "ko": "좋죠. 잠깐만요, 이 부품이 여기 없네요.",
+   "note": "parça = 부품",
+   "tags": [
+    "expr:bir dakika",
+    "expr:olur"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Yani ne oldu? Sorun mu var?",
+   "rd": "야니 네 올두? 소룬 무 바르?",
+   "ko": "그래서 어떻게 됐어요? 문제 있어요?",
+   "note": "ne oldu = 무슨 일이에요",
+   "tags": [
+    "expr:ne oldu",
+    "expr:yani"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Sorun yok. Kuzenimi çağırıyorum, o bilir.",
+   "rd": "소룬 욕. 쿠제니미 차으르요룸, 오 빌리르.",
+   "ko": "문제없어요. 사촌 부를게요, 걔가 알아요.",
+   "note": "kuzen = 사촌",
+   "tags": [
+    "expr:sorun yok"
+   ],
+   "new": [
+    "kuzen"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Merhaba. Usta, su neden tavana gidiyor?",
+   "rd": "메르하바. 우스타, 수 네덴 타바나 기디요르?",
+   "ko": "안녕하세요. 형님, 물이 왜 천장으로 가요?",
+   "note": "tavan = 천장 — 반전",
+   "tags": [
+    "expr:merhaba"
+   ],
+   "new": [
+    "tavan"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Tavana mı?! Daha önce sadece yere akıyordu!",
+   "rd": "타바나 므?! 다하 왼제 사데제 예레 아크요르두!",
+   "ko": "천장이요?! 아까는 바닥으로만 샜는데요!",
+   "note": "daha önce = 아까, 전에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "tl": "Olmaz böyle. Amcamı çağıralım, o usta.",
+   "rd": "올마즈 뵈일레. 암자므 차으랄름, 오 우스타.",
+   "ko": "이러면 안 돼요. 삼촌 부르죠, 그분이 전문가예요.",
+   "note": "amca = 삼촌",
+   "tags": [
+    "expr:olmaz"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Kaç kişi geleceksiniz? Kombi ne olacak?",
+   "rd": "카치 키시 겔레젝시니즈? 콤비 네 올라작?",
+   "ko": "몇 분이나 오세요? 보일러는 어떻게 돼요?",
+   "note": "geleceksiniz = 오실 거다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Dört kişi. Kombi yarın.",
+   "rd": "되르트 키시. 콤비 야른.",
+   "ko": "네 명요. 보일러는 내일요.",
+   "note": "dört kişi = 네 명",
+   "tags": [
+    "callback:r0_life_a4"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Çay şekerli olsun, lütfen.",
+   "rd": "차이 셰케를리 올순, 뤼트펜.",
+   "ko": "차는 설탕 넣어 주세요.",
+   "note": "şekerli = 설탕 넣은",
+   "tags": [
+    "expr:lütfen",
+    "expr:olsun"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "id": "r3_love_b6",
+ "region": "R3",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "우리 뭐야",
+ "emoji": "🍽️",
+ "scene": "처음 그 디저트 가게, Elif 가 드디어 묻는다 — 우리는 뭐냐고",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Garson"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "hayırdır·ciddi misin·affedersiniz 로 관계 물어보기",
+ "expressions": [
+  "hayırdır",
+  "yani",
+  "bir dakika",
+  "affedersiniz",
+  "ciddi misin",
+  "buyurun",
+  "lütfen",
+  "tamam"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bugün sana bir soru soracağım. Cevaptan kaçmak yok, tamam mı?",
+   "rd": "부귄 사나 비르 소루 소라자음. 제밥탄 카치막 욕, 타맘 므?",
+   "ko": "오늘 너한테 물어볼 게 있어. 대답 피하기 없기, 알았지?",
+   "note": "kaçmak = 도망치다, 피하다",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Hayırdır? Yine fal mı? Para çıkmayacak, biliyorum.",
+   "rd": "하이으르드르? 이네 팔 므? 파라 측마야작, 빌리요룸.",
+   "ko": "무슨 일이야? 또 점이야? 돈 안 나오는 건 알아.",
+   "note": "yine = 또",
+   "tags": [
+    "expr:hayırdır",
+    "callback:r0_love_b1"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Yok, fal değil. Annem soruyor: \"Arkadaşın yemek yedi mi?\"",
+   "rd": "욕, 팔 데일. 안넴 소루요르 \"아르카다신 예멕 예디 미?\"",
+   "ko": "아니, 점 아니야. 엄마가 물어봐. 「네 친구 밥 먹었대?」",
+   "note": "arkadaşın = 네 친구",
+   "tags": [
+    "callback:r1_love_a3"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Annen hâlâ bunu mu soruyor? Çok tatlı. Yedim, söyle.",
+   "rd": "안넨 할라 부누 무 소루요르? 촉 타틀르. 예딤, 쇠일레.",
+   "ko": "너희 엄마 아직도 그거 물어봐? 귀여우시다. 먹었다고 해.",
+   "note": "hâlâ = 아직도",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Hayır, asıl soru şu: \"Arkadaşın\" demeli miyim? Ne diyeyim anneme?",
+   "rd": "하이으르, 아슬 소루 슈 \"아르카다신\" 데멜리 미임? 네 디예임 안네메?",
+   "ko": "아니, 진짜 질문은 이거야. 「친구」라고 해야 돼? 엄마한테 뭐라고 해?",
+   "note": "asıl = 진짜의",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Teyzen de \"Darısı başınıza\" demişti. Hâlâ ne demek bilmiyorum.",
+   "rd": "테이젠 데 \"다르스 바시느자\" 데미시티. 할라 네 데멕 빌미요룸.",
+   "ko": "너희 이모도 「darısı başınıza」라고 했었지. 아직도 무슨 뜻인지 몰라.",
+   "note": "demişti = 말했었다",
+   "tags": [
+    "callback:r2_love_b5"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Konuyu değiştirme! Halıcı bizi evli sanıyor, mahalle seni tanıyor.",
+   "rd": "코누유 데이시티르메! 할르즈 비지 에블리 사느요르, 마할레 세니 타느요르.",
+   "ko": "말 돌리지 마! 양탄자 가게는 우리가 부부인 줄 알고, 동네는 널 다 알아.",
+   "note": "sanmak = ~인 줄 알다",
+   "tags": [
+    "callback:r3_love_b2"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Kediye de benim adımı verdin. Haklısın, çok şey oldu.",
+   "rd": "케디예 데 베님 아드므 베르딘. 하클르슨, 촉 셰이 올두.",
+   "ko": "고양이한테도 내 이름을 줬지. 네 말이 맞아, 일이 많았어.",
+   "note": "haklısın = 네 말이 맞아",
+   "tags": [
+    "callback:r1_love_b5"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Evet, hepsini ben yaptım. Hep ben başladım, hep ben sordum.",
+   "rd": "에벳, 헵시니 벤 얍틈. 헵 벤 바실라듬, 헵 벤 소르둠.",
+   "ko": "응, 전부 내가 했어. 늘 내가 시작했고, 늘 내가 물었어.",
+   "note": "hep = 늘",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Yani? Ne söylemek istiyorsun? Biraz korktum şimdi.",
+   "rd": "야니? 네 쇠일레멕 이스티요르순? 비라즈 코르크툼 심디.",
+   "ko": "그래서? 무슨 말이 하고 싶은 거야? 나 좀 무서워졌어.",
+   "note": "yani = 그러니까",
+   "tags": [
+    "expr:yani"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Bu sefer sen söyle. Biz neyiz?",
+   "rd": "부 세페르 센 쇠일레. 비즈 네이즈?",
+   "ko": "이번엔 네가 말해. 우리 뭐야?",
+   "note": "neyiz = 우리는 뭐야 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Bir dakika. Garson! Affedersiniz, bakar mısınız?",
+   "rd": "비르 다키카. 가르손! 아페데르시니즈, 바카르 므스느즈?",
+   "ko": "잠깐만. 저기요! 실례합니다, 여기 좀 봐 주세요.",
+   "note": "bakar mısınız = 여기 좀 봐 주세요",
+   "tags": [
+    "expr:bir dakika",
+    "expr:affedersiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Ciddi misin? Ben sana soru soruyorum, sen garson çağırıyorsun!",
+   "rd": "지디 미신? 벤 사나 소루 소루요룸, 센 가르손 차으르요르순!",
+   "ko": "진심이야? 난 물어보는데 넌 종업원을 불러?",
+   "note": "çağırmak = 부르다",
+   "tags": [
+    "expr:ciddi misin"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "tl": "Buyurun efendim, ne alırdınız?",
+   "rd": "부유룬 에펜딤, 네 알르르드느즈?",
+   "ko": "네 손님, 뭘로 드릴까요?",
+   "note": "ne alırdınız = 뭘로 하시겠어요",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "tl": "Bir baklava, iki çatal lütfen.",
+   "rd": "비르 바클라바, 이키 차탈 뤼트펜.",
+   "ko": "바클라바 하나, 포크 두 개요.",
+   "note": "답은 그날 그 주문",
+   "tags": [
+    "expr:lütfen",
+    "simkung",
+    "callback:r0_love_a5"
+   ],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "tl": "Tamam. Anneme yazıyorum: \"İki çatal.\"",
+   "rd": "타맘. 안네메 야즈요룸 \"이키 차탈.\"",
+   "ko": "알았어. 엄마한테 문자한다. 「포크 두 개.」",
+   "note": "anneme = 엄마한테",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

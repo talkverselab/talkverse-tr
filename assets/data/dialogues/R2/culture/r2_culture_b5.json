@@ -1,0 +1,176 @@
+{
+ "id": "r2_culture_b5",
+ "region": "R2",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "너무 잘 맞히는 점쟁이",
+ "emoji": "🔮",
+ "scene": "Zeynep 이 데려간 점집, 점쟁이가 내 일주일을 다 안다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Falcı",
+  "C": "Zeynep"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "vay·yok artık 으로 놀람 표현하기",
+ "expressions": [
+  "hoş geldiniz",
+  "vay",
+  "yok artık",
+  "abla",
+  "yok"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Bu falcı her şeyi biliyor. Fincanı ona ver.",
+   "rd": "부 팔즈 헤르 셰이 빌리요르. 핀자느 오나 베르.",
+   "ko": "이 점쟁이 다 알아. 잔 줘 봐.",
+   "note": "falcı = 점쟁이",
+   "tags": [],
+   "new": [
+    "falcı"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Hoş geldiniz. Kahveniz bittiyse fincanı kapatın.",
+   "rd": "호시 겔디니즈. 카흐베니즈 비티이세 핀자느 카파튼.",
+   "ko": "어서 오세요. 커피 다 드셨으면 잔을 엎으세요.",
+   "note": "kapatın = 엎으세요",
+   "tags": [
+    "expr:hoş geldiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Kapattım. Ben fala inanmıyorum ama…",
+   "rd": "카파틈. 벤 팔라 이난므요룸 아마…",
+   "ko": "엎었어요. 저 점 안 믿는데요…",
+   "note": "inanmak = 믿다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Bakıyorum… Siz bu sabah geç kaldınız.",
+   "rd": "바크요룸… 시즈 부 사바흐 게치 칼드느즈.",
+   "ko": "어디 보자… 오늘 아침에 늦으셨네요.",
+   "note": "geç kalmak = 늦다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Vay, doğru! Bunu nasıl bildiniz?",
+   "rd": "바이, 도루! 부누 나슬 빌디니즈?",
+   "ko": "와, 맞아요! 어떻게 아셨어요?",
+   "note": "vay = 와",
+   "tags": [
+    "expr:vay"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Bir komşunuz var. Sizden tabak bekliyor.",
+   "rd": "비르 콤슈누즈 바르. 시즈덴 타박 베클리요르.",
+   "ko": "이웃이 한 분 계시네요. 접시를 기다리고 있어요.",
+   "note": "bekliyor = 기다린다",
+   "tags": [
+    "callback:r2_culture_b4"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Yok artık! Tabağı da mı gördünüz?",
+   "rd": "욕 아르특! 타바으 다 므 괴르뒤뉘즈?",
+   "ko": "말도 안 돼요! 접시까지 보이세요?",
+   "note": "yok artık = 말도 안 돼",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Bir de mikrofon görüyorum. On lira…",
+   "rd": "비르 데 믹로폰 괴뤼요룸. 온 리라…",
+   "ko": "마이크도 보이네요. 10리라…",
+   "note": "mikrofon = 마이크",
+   "tags": [
+    "callback:r1_culture_b1"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Zeynep, bu kadın gerçekten biliyor! Korkuyorum!",
+   "rd": "제이넵, 부 카든 게르첵텐 빌리요르! 코르쿠요룸!",
+   "ko": "Zeynep, 이분 진짜 알아! 무서워!",
+   "note": "korkmak = 무서워하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Abla, yeter. Fazla oldu.",
+   "rd": "아블라, 예테르. 파즐라 올두.",
+   "ko": "언니, 그만. 너무했어.",
+   "note": "abla = 언니 — 반전: 친언니였다",
+   "tags": [
+    "expr:abla"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Ablan mı?! Ona her şeyi sen mi anlattın?",
+   "rd": "아블란 므?! 오나 헤르 셰이 센 미 안라튼?",
+   "ko": "네 언니라고?! 네가 다 말한 거야?",
+   "note": "anlatmak = 말해 주다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Beş yüz lira. Kardeşimin arkadaşına indirim yok.",
+   "rd": "베시 위즈 리라. 카르데시민 아르카다시나 인디림 욕.",
+   "ko": "500리라요. 동생 친구라고 할인은 없어요.",
+   "note": "indirim = 할인",
+   "tags": [
+    "expr:yok"
+   ],
+   "new": [
+    "indirim"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "id": "r2_friends_b3",
+ "region": "R2",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "거품 머리",
+ "emoji": "🧴",
+ "scene": "샤워 중 물이 끊겨 거품을 인 채 Can 의 카페로 뛰어갔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can",
+  "C": "Komşu"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "급할 때 부탁하기, 단수 상황 말하기",
+ "expressions": [
+  "hayırdır",
+  "aman",
+  "dur",
+  "olmaz",
+  "bir dakika"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Can, acil! Bir şişe su lazım!",
+   "rd": "잔, 아질! 비르 시셰 수 라즘!",
+   "ko": "잔, 급해! 물 한 병 필요해!",
+   "note": "acil = 급해",
+   "tags": [],
+   "new": [
+    "acil"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Hayırdır? Kafandaki ne, köpük mü?",
+   "rd": "하이으르드르? 카판다키 네, 쾨퓍 뮈?",
+   "ko": "무슨 일이야? 머리에 그거 뭐야, 거품이야?",
+   "note": "köpük = 거품",
+   "tags": [
+    "expr:hayırdır"
+   ],
+   "new": [
+    "köpük"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Duştaydım, sular kesildi. Gözüm yanıyor!",
+   "rd": "두시타이듬, 술라르 케실디. 괴쥠 야느요르!",
+   "ko": "샤워 중이었는데 물이 끊겼어. 눈 따가워!",
+   "note": "sular kesildi = 물이 끊겼다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Aman! Sokakta böyle mi geldin?",
+   "rd": "아만! 소칵타 뵈일레 미 겔딘?",
+   "ko": "아이고! 길에서 그러고 왔어?",
+   "note": "böyle = 이렇게",
+   "tags": [
+    "expr:aman"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Evet. Üst komşu da kapıyı açmadı.",
+   "rd": "에벳. 위스트 콤슈 다 카프이으 아치마드.",
+   "ko": "응. 윗집도 문을 안 열어 줬어.",
+   "note": "üst komşu = 윗집",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Dur, çay suyu var. Ama sıcak.",
+   "rd": "두르, 차이 수유 바르. 아마 스작.",
+   "ko": "잠깐, 찻물은 있어. 근데 뜨거워.",
+   "note": "çay suyu = 찻물",
+   "tags": [
+    "expr:dur"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Olmaz! Soğuk su yok mu burada?",
+   "rd": "올마즈! 소욱 수 욕 무 부라다?",
+   "ko": "안 돼! 여기 찬물 없어?",
+   "note": "soğuk = 차가운",
+   "tags": [
+    "expr:olmaz"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Bir dakika. Bak, kapıda köpüklü iki kişi daha.",
+   "rd": "비르 다키카. 박, 카프다 쾨퓌클뤼 이키 키시 다하.",
+   "ko": "잠깐만. 봐, 문앞에 거품 머리 두 명 더 왔어.",
+   "note": "köpüklü = 거품 묻은 — 반전",
+   "tags": [
+    "expr:bir dakika",
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Üst komşu! O da mı köpüklü?",
+   "rd": "위스트 콤슈! 오 다 므 쾨퓌클뤼?",
+   "ko": "윗집이잖아! 저분도 거품이야?",
+   "note": "o da mı = 저 사람도?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Evladım, su var mı? Bütün mahalle kesik.",
+   "rd": "에블라듬, 수 바르 므? 뷔튄 마할레 케식.",
+   "ko": "얘야, 물 있니? 온 동네가 끊겼어.",
+   "note": "mahalle = 동네",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Tamam, sıraya girin. Kafa başı elli lira.",
+   "rd": "타맘, 스라야 기린. 카파 바시 엘리 리라.",
+   "ko": "자, 줄 서세요. 머리당 50리라입니다.",
+   "note": "kafa başı = 머리당",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

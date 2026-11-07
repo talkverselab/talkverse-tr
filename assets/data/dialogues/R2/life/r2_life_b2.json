@@ -1,0 +1,172 @@
+{
+ "id": "r2_life_b2",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "잔 속의 그 사람",
+ "emoji": "☕",
+ "scene": "Teyze 가 커피 점을 봐 준다더니 잔에서 자꾸 조카가 나온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Teyze",
+  "C": "Can"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "hadi ya·bir dakika 로 놀라며 되묻기",
+ "expressions": [
+  "canım",
+  "hadi ya",
+  "anladım",
+  "bir dakika"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Fincanını kapat, canım. Soğusun, bakalım.",
+   "rd": "핀자느느 카팟, 자늠. 소우순, 바칼름.",
+   "ko": "잔 엎어라, 얘야. 식으면 보자.",
+   "note": "fincan = 커피잔",
+   "tags": [
+    "expr:canım"
+   ],
+   "new": [
+    "fincan"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Teyze, ben fala inanmıyorum ki.",
+   "rd": "테이제, 벤 팔라 이난므요룸 키.",
+   "ko": "아주머니, 전 점 안 믿는걸요.",
+   "note": "fal = 점",
+   "tags": [],
+   "new": [
+    "fal"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Sus, bak! Burada bir kalp var.",
+   "rd": "수스, 박! 부라다 비르 칼프 바르.",
+   "ko": "쉿, 봐라! 여기 하트가 있네.",
+   "note": "kalp = 심장, 하트",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Hadi ya! Kim var orada?",
+   "rd": "하디 야! 킴 바르 오라다?",
+   "ko": "에이! 거기 누가 있는데요?",
+   "note": "hadi ya = 에이, 설마",
+   "tags": [
+    "expr:hadi ya"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Biri seni düşünüyor. Uzun boylu, iyi çocuk.",
+   "rd": "비리 세니 뒤쉬뉘요르. 우준 보일루, 이이 초죽.",
+   "ko": "누가 네 생각을 해. 키 크고, 착한 애야.",
+   "note": "uzun boylu = 키가 큰",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Fincan bunu nereden biliyor?",
+   "rd": "핀잔 부누 네레덴 빌리요르?",
+   "ko": "잔이 그걸 어떻게 알아요?",
+   "note": "nereden = 어디서",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Fincan bilmez, ben bilirim. Yeğenim!",
+   "rd": "핀잔 빌메즈, 벤 빌리림. 예에님!",
+   "ko": "잔은 몰라도 난 알지. 내 조카야!",
+   "note": "yeğen = 조카",
+   "tags": [],
+   "new": [
+    "yeğen"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Şimdi anladım. Fal yok, yeğen var.",
+   "rd": "심디 안라듬. 팔 욕, 예엔 바르.",
+   "ko": "이제 알겠네요. 점은 없고 조카가 있는 거네요.",
+   "note": "şimdi anladım = 이제 알겠다",
+   "tags": [
+    "expr:anladım"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Kafede çalışıyor. Yemeği de çok sever.",
+   "rd": "카페데 찰르시요르. 예메이 데 촉 세베르.",
+   "ko": "카페에서 일해. 먹는 것도 아주 좋아하고.",
+   "note": "sever = 좋아한다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Bir dakika… Kafede çalışan, yemeği çok seven?",
+   "rd": "비르 다키카… 카페데 찰르샨, 예메이 촉 세벤?",
+   "ko": "잠깐만요… 카페에서 일하고, 먹는 걸 아주 좋아한다고요?",
+   "note": "çalışan = 일하는",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "Teyze, kapı açıktı. Yemek var mı?",
+   "rd": "테이제, 카프 아측트. 예멕 바르 므?",
+   "ko": "이모, 문 열려 있던데. 밥 있어?",
+   "note": "kapı açıktı = 문이 열려 있었다 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Can?! Fincandaki sen misin?!",
+   "rd": "잔?! 핀잔다키 센 미신?!",
+   "ko": "칸?! 잔 속 그 사람이 너야?!",
+   "note": "fincandaki = 잔 속의",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

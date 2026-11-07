@@ -1,0 +1,175 @@
+{
+ "id": "r2_love_b4",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "네 번째 냄비",
+ "emoji": "🍲",
+ "scene": "감기로 누워 있는데 요리를 못 하는 Emre 가 수프를 들고 문 앞에 왔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "geçmiş olsun·hiç sorma 로 아픈 사람 챙기기",
+ "expressions": [
+  "geçmiş olsun",
+  "bir dakika",
+  "vay",
+  "yok artık",
+  "hiç sorma"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Aç kapıyı. Çorba getirdim.",
+   "rd": "아치 카프이으. 초르바 게티르딤.",
+   "ko": "문 열어. 수프 가져왔어.",
+   "note": "çorba = 수프",
+   "tags": [],
+   "new": [
+    "çorba"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Emre? Hasta olduğumu kim söyledi?",
+   "rd": "엠레? 하스타 올두우무 킴 쇠일레디?",
+   "ko": "Emre? 나 아픈 거 누가 말했어?",
+   "note": "hasta = 아픈",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Dün sesin kötüydü. Geçmiş olsun.",
+   "rd": "뒨 세신 쾨튀이뒤. 게치미시 올순.",
+   "ko": "어제 목소리가 안 좋더라. 얼른 나아.",
+   "note": "geçmiş olsun = 쾌차해",
+   "tags": [
+    "expr:geçmiş olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Bir dakika, sen yemek yapmayı bilmiyorsun ki.",
+   "rd": "비르 다키카, 센 예멕 얍마이으 빌미요르순 키.",
+   "ko": "잠깐, 너 요리 못 하잖아.",
+   "note": "ki = ~잖아",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Bilmiyorum. Annemi aradım.",
+   "rd": "빌미요룸. 안네미 아라듬.",
+   "ko": "못 해. 엄마한테 전화했어.",
+   "note": "annemi aradım = 엄마한테 전화했다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Vay! Bu çorba gerçekten güzel olmuş.",
+   "rd": "바이! 부 초르바 게르첵텐 귀젤 올무시.",
+   "ko": "와! 이 수프 진짜 맛있다.",
+   "note": "olmuş = 됐네(뜻밖)",
+   "tags": [
+    "expr:vay"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Dördüncüsü bu. Üç tencere yandı.",
+   "rd": "되르뒨쥐쉬 부. 위치 텐제레 얀드.",
+   "ko": "이게 네 번째야. 냄비 세 개 태웠어.",
+   "note": "tencere = 냄비",
+   "tags": [],
+   "new": [
+    "tencere"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Yok artık! Annen ne dedi?",
+   "rd": "욕 아르특! 안넨 네 데디?",
+   "ko": "말도 안 돼! 너희 엄마가 뭐래?",
+   "note": "yok artık = 말도 안 돼",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Hiç sorma. Annem hâlâ telefonda ağlıyor.",
+   "rd": "히치 소르마. 안넴 할라 텔레폰다 알르요르.",
+   "ko": "말도 마. 엄마 아직도 전화기 붙들고 우셔.",
+   "note": "hâlâ = 아직도",
+   "tags": [
+    "expr:hiç sorma"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Neden bu kadar uğraştın? Ben iyiyim, yarın geçer.",
+   "rd": "네덴 부 카다르 우라시튼? 벤 이이임, 야른 게체르.",
+   "ko": "왜 이렇게까지 했어? 나 괜찮아, 내일이면 나아.",
+   "note": "uğraşmak = 애쓰다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Hemen iyileşme. Yarın yine geleceğim.",
+   "rd": "헤멘 이일레시메. 야른 이네 겔레제임.",
+   "ko": "빨리 낫지 마. 내일 또 올 거야.",
+   "note": "iyileşmek = 낫다 — 반전: 마음이 나왔다",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Yarın yine mi? Beşinci tencere…",
+   "rd": "야른 이네 미? 베신지 텐제레…",
+   "ko": "내일 또? 다섯 번째 냄비…",
+   "note": "beşinci = 다섯 번째",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

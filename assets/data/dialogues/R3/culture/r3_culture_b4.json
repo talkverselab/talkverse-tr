@@ -1,0 +1,204 @@
+{
+ "id": "r3_culture_b4",
+ "region": "R3",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "40년짜리 커피",
+ "emoji": "☕",
+ "scene": "바닷가 찻집, 지난주 커피값을 갚겠다는 나에게 Elif 가 속담 하나를 꺼낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 12,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "ne demek·yani 로 속담 뜻 묻고 받아치기",
+ "expressions": [
+  "yok artık",
+  "olmaz",
+  "şey",
+  "ne demek",
+  "yani",
+  "çok pahalı"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Bugün kahveler benden. Geçen hafta sen ısmarlamıştın, borcum kalmasın.",
+   "rd": "부귄 카흐벨레르 벤덴. 게첸 하프타 센 으스마를라므시튼, 보르줌 칼마슨.",
+   "ko": "오늘 커피는 내가 살게. 지난주에 네가 샀잖아, 빚지기 싫어.",
+   "note": "borç = 빚",
+   "tags": [],
+   "new": [
+    "borç"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Borç mu? Yok artık, kahvede borç olmaz.",
+   "rd": "보르치 무? 욕 아르특, 카흐베데 보르치 올마즈.",
+   "ko": "빚? 말도 안 돼, 커피에 빚이 어딨어.",
+   "note": "yok artık = 말도 안 돼",
+   "tags": [
+    "expr:yok artık",
+    "expr:olmaz"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Nasıl olmaz? Ben hesap tutuyorum, kafamda her şey yazıyor.",
+   "rd": "나슬 올마즈? 벤 헤삽 투투요룸, 카팜다 헤르 셰이 야즈요르.",
+   "ko": "왜 없어? 나 다 계산해 둬, 머릿속에 전부 적혀 있어.",
+   "note": "hesap tutmak = 셈을 해 두다",
+   "tags": [
+    "expr:olmaz",
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Bizde bir söz var: Bir fincan kahvenin kırk yıl hatırı vardır.",
+   "rd": "비즈데 비르 쇠즈 바르 비르 핀잔 카흐베닌 크르크 이을 하트르 바르드르.",
+   "ko": "우리 속담에 있어. 커피 한 잔의 정은 40년 간다.",
+   "note": "hatır = 정, 잊지 못할 마음",
+   "tags": [],
+   "new": [
+    "hatır"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Kırk yıl mı? Bir kahve için mi? Ne demek bu?",
+   "rd": "크르크 이을 므? 비르 카흐베 이친 미? 네 데멕 부?",
+   "ko": "40년? 커피 한 잔에? 그게 무슨 뜻이야?",
+   "note": "ne demek = 무슨 뜻이야",
+   "tags": [
+    "expr:ne demek"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Yani bana kahve ısmarlayan beni kırk yıl unutamaz.",
+   "rd": "야니 바나 카흐베 으스마를라얀 베니 크르크 이을 우누타마즈.",
+   "ko": "그러니까 나한테 커피 산 사람은 날 40년 못 잊는다는 거지.",
+   "note": "unutamaz = 못 잊는다",
+   "tags": [
+    "expr:yani"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Çok pahalı bir kahveymiş. O zaman ben ödemeyeyim, olur mu?",
+   "rd": "촉 파할르 비르 카흐베이미시. 오 자만 벤 외데메예임, 올루르 무?",
+   "ko": "엄청 비싼 커피네. 그럼 나 안 낼까?",
+   "note": "çok pahalı = 너무 비싸",
+   "tags": [
+    "expr:çok pahalı",
+    "expr:olur"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Geç kaldın, garson getirdi bile. Al, iç, kaçış yok.",
+   "rd": "게치 칼든, 가르손 게티르디 빌레. 알, 이치, 카츠시 욕.",
+   "ko": "늦었어, 벌써 가져왔거든. 자, 마셔, 도망 못 가.",
+   "note": "kaçış = 도망",
+   "tags": [
+    "expr:yok"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Peki bu kırk yıl ne zaman başlıyor? Bugün mü?",
+   "rd": "페키 부 크르크 이을 네 자만 바실르요르? 부귄 뮈?",
+   "ko": "그럼 그 40년은 언제 시작이야? 오늘?",
+   "note": "ne zaman = 언제",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Geçen hafta başladı, unuttun mu? Ben hesapladım.",
+   "rd": "게첸 하프타 바실라드, 우누툰 무? 벤 헤사플라듬.",
+   "ko": "지난주에 시작했지, 잊었어? 내가 계산해 봤어.",
+   "note": "hesaplamak = 계산하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Hesapladın mı? Neyi hesapladın, Elif?",
+   "rd": "헤사플라든 므? 네이 헤사플라든, 엘리프?",
+   "ko": "계산했다고? 뭘 계산했는데, Elif?",
+   "note": "neyi = 무엇을",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Otuz dokuz yıl, elli bir haftamız kaldı.",
+   "rd": "오투즈 도쿠즈 이을, 엘리 비르 하프타므즈 칼드.",
+   "ko": "우리, 39년 51주 남았어.",
+   "note": "haftamız kaldı = 우리에게 주가 남았다 — 반전",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "tl": "Bu bir matematik sorusu mu, yoksa başka bir şey mi?",
+   "rd": "부 비르 마테마틱 소루수 무, 욕사 바시카 비르 셰이 미?",
+   "ko": "이거 수학 문제야, 아니면 다른 거야?",
+   "note": "yoksa = 아니면",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "Kahveni iç, {name}. Fincan sana söyler.",
+   "rd": "카흐베니 이치, {name}. 핀잔 사나 쇠일레르.",
+   "ko": "커피 마셔, {name}. 잔이 말해 줄 거야.",
+   "note": "fincan = 커피잔",
+   "tags": [
+    "simkung",
+    "callback:r0_culture_a1"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

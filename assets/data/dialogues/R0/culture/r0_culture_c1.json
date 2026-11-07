@@ -1,0 +1,138 @@
+{
+ "id": "r0_culture_c1",
+ "region": "R0",
+ "island": "culture",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "프로필 사진을 보지 마",
+ "emoji": "🖼️",
+ "scene": "드라마 마지막 회를 내일 보기로 했는데, Zeynep 이 말은 안 했다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "iyi geceler·ne var 로 채팅에서 스포 막기",
+ "expressions": [
+  "ne var",
+  "iyi geceler"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Bu akşam final var. Sakın söyleme!",
+   "rd": "부 악샴 피날 바르. 사큰 쇠일레메!",
+   "ko": "오늘 밤 마지막 회야. 절대 말하지 마!",
+   "note": "sakın = 절대 ~하지 마",
+   "tags": [],
+   "new": [
+    "sakın"
+   ],
+   "at": "20:14",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Söylemem.",
+   "rd": "쇠일레멤.",
+   "ko": "안 해.",
+   "note": "söylemem = 말 안 한다",
+   "tags": [],
+   "new": [],
+   "at": "20:14",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Ben yarın izleyeceğim. Söz mü?",
+   "rd": "벤 야른 이즐레예제임. 쇠즈 뮈?",
+   "ko": "나 내일 볼 거야. 약속?",
+   "note": "söz = 약속",
+   "tags": [],
+   "new": [],
+   "at": "20:15",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Söz. Profil fotoğrafıma bakma.",
+   "rd": "쇠즈. 프로필 포토라프마 박마.",
+   "ko": "약속. 내 프사 보지 마.",
+   "note": "profil fotoğrafı = 프로필 사진",
+   "tags": [],
+   "new": [],
+   "at": "20:16",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Neden bakmayayım? Ne var?",
+   "rd": "네덴 박마야이음? 네 바르?",
+   "ko": "왜 보지 마? 뭐 있어?",
+   "note": "ne var = 뭔데",
+   "tags": [
+    "expr:ne var"
+   ],
+   "new": [],
+   "at": "20:16",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Hiç. İyi geceler 🙂",
+   "rd": "히치. 이이 게젤레르",
+   "ko": "아무것도. 잘 자 🙂",
+   "note": "iyi geceler = 잘 자",
+   "tags": [
+    "expr:iyi geceler"
+   ],
+   "new": [],
+   "stamp": "🙂",
+   "at": "20:17",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Zeynep! Doktor öldü mü?!",
+   "rd": "제이넵! 독토르 욀뒤 뮈?!",
+   "ko": "Zeynep! 의사 죽었어?!",
+   "note": "öldü mü = 죽었어? — 반전: 사진을 봤다",
+   "tags": [],
+   "new": [],
+   "at": "20:17",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Bakma dedim.",
+   "rd": "박마 데딤.",
+   "ko": "보지 말랬지.",
+   "note": "bakma dedim = 보지 말라고 했다",
+   "tags": [],
+   "new": [],
+   "at": "20:18",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

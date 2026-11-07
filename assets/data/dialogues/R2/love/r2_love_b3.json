@@ -1,0 +1,171 @@
+{
+ "id": "r2_love_b3",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "culture"
+ ],
+ "title": "매일 아침 8시 15분",
+ "emoji": "⛴️",
+ "scene": "매일 아침 페리에서 마주치는 Emre, 그런데 어디서 내리는지는 끝까지 말을 돌린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "hıhı·herhalde·boş ver 로 말 돌리고 캐묻기",
+ "expressions": [
+  "hıhı",
+  "herhalde",
+  "boş ver",
+  "ne demek"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Yine sen! Her sabah bu vapurda mısın?",
+   "rd": "이네 센! 헤르 사바흐 부 바푸르다 므슨?",
+   "ko": "또 너네! 매일 아침 이 배 타?",
+   "note": "vapur = 페리",
+   "tags": [],
+   "new": [
+    "vapur"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Hıhı. Sekiz on beş vapuru.",
+   "rd": "흐흐. 세키즈 온 베시 바푸루.",
+   "ko": "응응. 8시 15분 배.",
+   "note": "hıhı = 응응",
+   "tags": [
+    "expr:hıhı"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "İş karşıda herhalde. Ofisin nerede?",
+   "rd": "이시 카르시다 헤르할데. 오피신 네레데?",
+   "ko": "회사가 건너편인가 보네. 사무실 어디야?",
+   "note": "karşıda = 건너편에",
+   "tags": [
+    "expr:herhalde"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Boş ver. Çay alayım mı?",
+   "rd": "보시 베르. 차이 알라이음 므?",
+   "ko": "됐어. 차 사 올까?",
+   "note": "boş ver = 신경 쓰지 마",
+   "tags": [
+    "expr:boş ver"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Konuyu değiştirme! Nerede iniyorsun sen?",
+   "rd": "코누유 데이시티르메! 네레데 이니요르순 센?",
+   "ko": "말 돌리지 마! 너 어디서 내려?",
+   "note": "konuyu değiştirmek = 말을 돌리다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "İnmiyorum. Geri dönüyorum.",
+   "rd": "인미요룸. 게리 되뉘요룸.",
+   "ko": "안 내려. 그대로 돌아가.",
+   "note": "반전: 내릴 데가 없다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Ne demek geri dönüyorum? Ofisin nerede?",
+   "rd": "네 데멕 게리 되뉘요룸? 오피신 네레데?",
+   "ko": "돌아간다니 무슨 말이야? 사무실이 어딘데?",
+   "note": "ne demek = 무슨 뜻",
+   "tags": [
+    "expr:ne demek"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Kadıköy'de. Evimin yanında, yürüyerek beş dakika.",
+   "rd": "카드쾨이데. 에비민 야는다, 위뤼예렉 베시 다키카.",
+   "ko": "카드쾨이. 우리 집 옆, 걸어서 5분.",
+   "note": "yürüyerek = 걸어서",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "O zaman neden her sabah buradasın?",
+   "rd": "오 자만 네덴 헤르 사바흐 부라다슨?",
+   "ko": "그럼 왜 매일 아침 여기 있어?",
+   "note": "o zaman = 그럼",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Üç ay önce seni burada gördüm. Sonra işte…",
+   "rd": "위치 아이 왼제 세니 부라다 괴르뒴. 손라 이시테…",
+   "ko": "석 달 전에 여기서 널 봤어. 그다음은 뭐…",
+   "note": "işte = 뭐, 그래서 — 끝맺지 않는다",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Ama sen denizi hiç sevmezsin ki!",
+   "rd": "아마 센 데니지 히치 세브메즈신 키!",
+   "ko": "근데 너 바다 진짜 싫어하잖아!",
+   "note": "sevmezsin = 넌 안 좋아해",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Evet, hâlâ midem bulanıyor. Çay alayım mı?",
+   "rd": "에벳, 할라 미뎀 불라느요르. 차이 알라이음 므?",
+   "ko": "응. 아직도 속이 울렁거려. 차 사 올까?",
+   "note": "midem bulanıyor = 속이 울렁거려",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

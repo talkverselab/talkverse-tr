@@ -1,0 +1,141 @@
+{
+ "id": "r1_friends_b1",
+ "region": "R1",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "위층 바구니",
+ "emoji": "🧺",
+ "scene": "위층 아주머니가 줄에 매달아 내린 바구니, Can 은 하늘이 준 돈이라고 믿는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can",
+  "C": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "dur·eyvah 로 친구 말리기, 이웃 바구니 문화",
+ "expressions": [
+  "bak",
+  "yaşasın",
+  "dur",
+  "geldim",
+  "buyur",
+  "eyvah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bak, yukarıdan sepet iniyor!",
+   "rd": "박, 유카르단 세펫 이니요르!",
+   "ko": "봐, 위에서 바구니 내려온다!",
+   "note": "sepet = 바구니",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": [
+    "sepet"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "İçinde ne var? Para mı?",
+   "rd": "이친데 네 바르? 파라 므?",
+   "ko": "안에 뭐 있어? 돈이야?",
+   "note": "içinde = 안에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Yaşasın, para! Simitçi aşağıda, hemen geliyorum!",
+   "rd": "야샤슨, 파라! 시미트치 아샤으다, 헤멘 겔리요룸!",
+   "ko": "야호, 돈이다! 시미트 장수 밑에 있어, 금방 올게!",
+   "note": "hemen = 금방",
+   "tags": [
+    "expr:yaşasın",
+    "expr:geliyorum"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Can, dur! O kimin parası?",
+   "rd": "잔, 두르! 오 키민 파라스?",
+   "ko": "잔, 잠깐! 그거 누구 돈이야?",
+   "note": "dur = 멈춰, 잠깐",
+   "tags": [
+    "expr:dur"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Geldim! Buyur, sıcak simit.",
+   "rd": "겔딤! 부유르, 스작 시밋.",
+   "ko": "왔어! 자, 따끈한 시미트.",
+   "note": "sıcak = 따뜻한",
+   "tags": [
+    "expr:geldim",
+    "expr:buyur"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Evladım! Ekmeğim nerede?!",
+   "rd": "에블라듬! 엑메임 네레데?!",
+   "ko": "얘야! 내 빵 어디 있니?!",
+   "note": "evladım = 얘야 · ekmek = 빵 — 반전",
+   "tags": [],
+   "new": [
+    "ekmek"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Eyvah! Can, o para teyzenindi!",
+   "rd": "에이바흐! 잔, 오 파라 테이제닌디!",
+   "ko": "헉! 잔, 그 돈 아주머니 거였어!",
+   "note": "teyzenindi = 아주머니 것이었다",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Bak, sepet yine iniyor. İçinde terlik var.",
+   "rd": "박, 세펫 이네 이니요르. 이친데 테를릭 바르.",
+   "ko": "봐, 바구니 또 내려온다. 안에 슬리퍼가 있어.",
+   "note": "terlik = 슬리퍼(튀르키예 어른의 무기)",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": [
+    "terlik"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

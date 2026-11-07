@@ -1,0 +1,225 @@
+{
+ "id": "r3_life_b3",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "하루 관리인",
+ "emoji": "🗝️",
+ "scene": "Kapıcı 가 시골에 가며 하루만 건물을 맡겼다. 쉬워 보였다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Kapıcı",
+  "C": "Komşu",
+  "D": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "hemen·bir dakika 로 몰려드는 부탁 처리하기",
+ "expressions": [
+  "ne var",
+  "olur",
+  "günaydın",
+  "lütfen",
+  "geliyorum",
+  "tamam"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bir ricam var. Bugün köye gidiyorum, binaya bakar mısınız?",
+   "rd": "비르 리잠 바르. 부귄 쾨예 기디요룸, 비나야 바카르 므스느즈?",
+   "ko": "부탁이 하나 있어요. 오늘 시골에 가는데, 건물 좀 봐 주시겠어요?",
+   "note": "rica = 부탁",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Ben mi? Olur, ne var ki? Sadece bir gün.",
+   "rd": "벤 미? 올루르, 네 바르 키? 사데제 비르 귄.",
+   "ko": "저요? 좋아요, 뭐 어렵겠어요? 하루뿐인데요.",
+   "note": "ne var ki = 뭐 대수라고",
+   "tags": [
+    "expr:ne var",
+    "expr:olur"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Çok kolay. Anahtarlar burada. Sabah ekmekler, akşam çöpler.",
+   "rd": "촉 콜라이. 아나흐타를라르 부라다. 사바흐 엑메클레르, 악샴 최플레르.",
+   "ko": "아주 쉬워요. 열쇠는 여기요. 아침엔 빵, 저녁엔 쓰레기요.",
+   "note": "anahtar = 열쇠",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Günaydın. Yedinci kata iki ekmek, bir gazete. Hemen, lütfen.",
+   "rd": "귀나이든. 예딘지 카타 이키 엑멕, 비르 가제테. 헤멘, 뤼트펜.",
+   "ko": "좋은 아침이에요. 7층에 빵 두 개, 신문 하나요. 당장요.",
+   "note": "gazete = 신문",
+   "tags": [
+    "expr:günaydın",
+    "expr:lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Hemen mi? Asansör yok ki! Tamam, geliyorum.",
+   "rd": "헤멘 미? 아산쇠르 욕 키! 타맘, 겔리요룸.",
+   "ko": "당장요? 엘리베이터가 없는데요! 네, 가요.",
+   "note": "hemen = 당장",
+   "tags": [
+    "expr:geliyorum",
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "D",
+   "tl": "Canım, musluğum damlıyor. Bir de kavanoz açılmıyor, gel.",
+   "rd": "자늠, 무슬루움 담르요르. 비르 데 카바노즈 아츨므요르, 겔.",
+   "ko": "얘야, 수도꼭지가 샌다. 병뚜껑도 안 열리고, 와 봐라.",
+   "note": "musluk = 수도꼭지",
+   "tags": [
+    "expr:canım"
+   ],
+   "new": [
+    "musluk",
+    "kavanoz"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Teyze, ben kapıcı değilim! Sadece bugün için…",
+   "rd": "테이제, 벤 카프즈 데일림! 사데제 부귄 이친…",
+   "ko": "아주머니, 저 관리인 아니에요! 오늘만…",
+   "note": "kapıcı = 건물 관리인",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "tl": "Bugün kapıcı sensin. Hadi, ekmek de istiyorum.",
+   "rd": "부귄 카프즈 센신. 하디, 엑멕 데 이스티요룸.",
+   "ko": "오늘은 네가 관리인이지. 자, 빵도 줘.",
+   "note": "sensin = 너다",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "tl": "Kapıcı! Yan dairenin köpeği yine havlıyor. Bir şey yapın!",
+   "rd": "카프즈! 얀 다이레닌 쾨페이 이네 하블르요르. 비르 셰이 야픈!",
+   "ko": "관리인님! 옆집 개가 또 짖어요. 어떻게 좀 해 주세요!",
+   "note": "havlamak = 짖다",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": [
+    "havlamak"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Bir dakika! Bu ekmek kimin, bu çöp kimin?",
+   "rd": "비르 다키카! 부 엑멕 키민, 부 쵭 키민?",
+   "ko": "잠깐만요! 이 빵은 누구 거고, 이 쓰레기는 누구 거예요?",
+   "note": "kimin = 누구의",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "Bana çöp getirdiniz! Ekmeğim nerede?",
+   "rd": "바나 쵭 게티르디니즈! 엑메임 네레데?",
+   "ko": "저한테 쓰레기를 갖다주셨어요! 제 빵 어디 있어요?",
+   "note": "반전: 봉지가 바뀌었다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "D",
+   "tl": "Ekmek çöpe gitmiş, canım. Patron yiyor.",
+   "rd": "엑멕 최페 기트미시, 자늠. 파트론 이요르.",
+   "ko": "빵은 쓰레기장으로 갔다더라, 얘야. 파트론이 먹고 있어.",
+   "note": "gitmiş = 갔다더라",
+   "tags": [
+    "expr:canım"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "tl": "Ölüyorum. Yedi kat, on kere. Bacaklarım yok artık.",
+   "rd": "욀뤼요룸. 예디 캇, 온 케레. 바자클라름 욕 아르특.",
+   "ko": "죽겠어요. 7층을, 열 번이요. 이제 다리가 없어요.",
+   "note": "bacak = 다리",
+   "tags": [
+    "expr:yok artık",
+    "expr:ölüyorum"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "Merhaba, ben geldim! Bina nasıl? Asansör ne oldu?",
+   "rd": "메르하바, 벤 겔딤! 비나 나슬? 아산쇠르 네 올두?",
+   "ko": "안녕하세요, 저 왔어요! 건물은 어때요? 엘리베이터는요?",
+   "note": "ne oldu = 어떻게 됐어요",
+   "tags": [
+    "expr:ne oldu",
+    "expr:merhaba",
+    "expr:geldim"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "tl": "Yarın. Kolay gelsin.",
+   "rd": "야른. 콜라이 겔신.",
+   "ko": "내일요. 수고하세요.",
+   "note": "kolay gelsin = 수고하세요 — 그대로 돌려주기",
+   "tags": [
+    "expr:kolay gelsin",
+    "callback:r0_life_a4"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

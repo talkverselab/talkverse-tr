@@ -1,0 +1,135 @@
+{
+ "id": "r1_culture_a6",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "광고 때 얘기해",
+ "emoji": "📺",
+ "scene": "이모가 드라마에 빠져 있다. 부엌에서 타는 냄새가 나는데 내 말이 안 들린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "sus·olsun 으로 드라마 보는 사람과 말 섞기",
+ "expressions": [
+  "merhaba",
+  "geldim",
+  "galiba",
+  "bak",
+  "tamam",
+  "olsun"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Merhaba, teyze! Ben geldim.",
+   "rd": "메르하바, 테이제! 벤 겔딤.",
+   "ko": "안녕하세요, 이모! 저 왔어요.",
+   "note": "geldim = 왔다",
+   "tags": [
+    "expr:merhaba",
+    "expr:geldim"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Sus, yavrum. Şimdi söyleyecek.",
+   "rd": "수스, 야브룸. 심디 쇠일레예젝.",
+   "ko": "쉿, 얘야. 이제 말한다.",
+   "note": "sus = 조용히 해",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Teyze, mutfakta bir koku var.",
+   "rd": "테이제, 무트팍타 비르 코쿠 바르.",
+   "ko": "이모, 부엌에서 무슨 냄새가 나요.",
+   "note": "koku = 냄새",
+   "tags": [],
+   "new": [
+    "mutfak",
+    "koku"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Sus dedim! Çocuk onun değilmiş!",
+   "rd": "수스 데딤! 초죽 오눈 데일미시!",
+   "ko": "조용히 하라니까! 애가 걔 애가 아니래!",
+   "note": "-miş = ~래(전해 들음)",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Teyze, yemek yanıyor galiba.",
+   "rd": "테이제, 예멕 야느요르 갈리바.",
+   "ko": "이모, 음식 타는 것 같은데요.",
+   "note": "galiba = 아마",
+   "tags": [
+    "expr:galiba"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Reklamda konuşuruz. Bak, ağlıyor!",
+   "rd": "레클람다 코누슈루즈. 박, 알르요르!",
+   "ko": "광고 때 얘기하자. 봐, 운다!",
+   "note": "reklam = 광고 — 반전: 끝까지 안 듣는다",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": [
+    "reklam"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Tamam, reklam geldi. Yemek yandı.",
+   "rd": "타맘, 레클람 겔디. 예멕 얀드.",
+   "ko": "네, 광고 나왔어요. 음식 탔어요.",
+   "note": "yandı = 탔다",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Olsun. Bugün dizi çok güzeldi.",
+   "rd": "올순. 부귄 디지 촉 귀젤디.",
+   "ko": "괜찮아. 오늘 드라마 너무 좋았어.",
+   "note": "olsun = 괜찮아 뭐",
+   "tags": [
+    "expr:olsun"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

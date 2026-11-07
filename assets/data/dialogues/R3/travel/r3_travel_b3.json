@@ -1,0 +1,240 @@
+{
+ "id": "r3_travel_b3",
+ "region": "R3",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "표는 뱃속에",
+ "emoji": "🐑",
+ "scene": "동부 시골 버스가 양 떼에 막히고, 아픈 새끼 양이 내 무릎에 앉는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Otobüs şoförü",
+  "C": "Çoban",
+  "D": "Elif",
+  "E": "Kontrolör"
+ },
+ "register": "mixed",
+ "twist": 12,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "allah allah·kusura bakmayın·eyvah 로 시골 버스 소동 말하기",
+ "expressions": [
+  "allah allah",
+  "kusura bakmayın",
+  "tabii",
+  "ne demek",
+  "bir dakika",
+  "hocam",
+  "bayıldım",
+  "eyvah",
+  "afiyet olsun",
+  "lütfen",
+  "buyurun"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "D",
+   "tl": "Ne güzel yol ya! Bak, dağlar, ağaçlar, her yer yeşil.",
+   "rd": "네 귀젤 욜 야! 박, 달라르, 아아칠라르, 헤르 예르 예실.",
+   "ko": "길 진짜 좋다! 봐, 산, 나무, 온통 초록이야.",
+   "note": "yeşil = 초록",
+   "tags": [
+    "expr:ya",
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Bu otobüs neden duruyor? Burada köy bile yok ki.",
+   "rd": "부 오토뷔스 네덴 두루요르? 부라다 쾨이 빌레 욕 키.",
+   "ko": "이 버스 왜 서? 여기 마을도 없는데.",
+   "note": "köy = 마을 · bile = ~조차",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Arkadaşlar, yolda yüz koyun var, biraz bekliyoruz.",
+   "rd": "아르카다실라르, 욜다 위즈 코윤 바르, 비라즈 베클리요루즈.",
+   "ko": "여러분, 길에 양이 백 마리 있습니다, 좀 기다립니다.",
+   "note": "koyun = 양",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "tl": "Yarım saat oldu, Allah allah. Koyunlar yolda oturuyor mu ne?",
+   "rd": "야름 사앗 올두, 알라흐 알라흐. 코윤라르 욜다 오투루요르 무 네?",
+   "ko": "30분 지났어, 거참. 양들이 길에 앉아 있나 뭐.",
+   "note": "… mu ne = ~인가 뭔가",
+   "tags": [
+    "expr:allah allah"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Kusura bakmayın, şoför bey. Şu kuzu hasta, köye kadar alır mısınız?",
+   "rd": "쿠수라 박마이은, 쇼푀르 베이. 슈 쿠주 하스타, 쾨예 카다르 알르르 므스느즈?",
+   "ko": "죄송합니다, 기사님. 이 새끼 양이 아파서요, 마을까지 태워 주시겠어요?",
+   "note": "kuzu = 새끼 양",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": [
+    "kuzu"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Tabii, ne demek. Arkada boş koltuk var, oraya koyun.",
+   "rd": "타비이, 네 데멕. 아르카다 보시 콜툭 바르, 오라야 코윤.",
+   "ko": "그럼요, 별말씀을. 뒤에 빈자리 있어요, 거기 두세요.",
+   "note": "ne demek = 별말씀을",
+   "tags": [
+    "expr:tabii",
+    "expr:ne demek"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "O boş koltuk benim koltuğum! Çantam orada duruyor, bir dakika!",
+   "rd": "오 보시 콜툭 베님 콜투움! 찬탐 오라다 두루요르, 비르 다키카!",
+   "ko": "그 빈자리 제 자리예요! 가방 거기 있어요, 잠깐만요!",
+   "note": "koltuk = 좌석",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Çok şükür, yer var. Al, kucağına koyuyorum, bak seni sevdi.",
+   "rd": "촉 쉬퀴르, 예르 바르. 알, 쿠자으나 코유요룸, 박 세니 세브디.",
+   "ko": "다행이다, 자리 있네. 자, 무릎에 놓을게, 봐 널 좋아하네.",
+   "note": "kucak = 무릎 위, 품",
+   "tags": [
+    "expr:çok şükür",
+    "expr:bak"
+   ],
+   "new": [
+    "kucak"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Ne demek kucağıma? Hocam, bu hayvan neden telefonumu yiyor?",
+   "rd": "네 데멕 쿠자으마? 호잠, 부 하이반 네덴 텔레포누무 이요르?",
+   "ko": "무릎이라니요? 기사님, 이 동물이 왜 제 폰을 먹어요?",
+   "note": "hayvan = 동물",
+   "tags": [
+    "expr:ne demek",
+    "expr:hocam"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "tl": "Dur, kıpırdama, fotoğraf çekiyorum. Bayıldım, ikiniz de çok tatlısınız!",
+   "rd": "두르, 크프르다마, 포토라프 체키요룸. 바이을듬, 이키니즈 데 촉 타틀르스느즈!",
+   "ko": "잠깐, 움직이지 마, 사진 찍는다. 반했어, 둘 다 너무 귀여워!",
+   "note": "kıpırdamak = 움직이다",
+   "tags": [
+    "expr:dur",
+    "expr:bayıldım"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "E",
+   "tl": "Biletler lütfen. Kontrol var, herkes biletini göstersin.",
+   "rd": "빌레틀레르 뤼트펜. 콘트롤 바르, 헤르케스 빌레티니 괴스테르신.",
+   "ko": "표 부탁합니다. 검표 있습니다, 다들 표 보여 주세요.",
+   "note": "göstersin = 보여 주시길",
+   "tags": [
+    "expr:lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Biletim nerede? Koltuktaydı… Elif, kuzunun ağzında ne var?",
+   "rd": "빌레팀 네레데? 콜툭타이드… 엘리프, 쿠주눈 아즌다 네 바르?",
+   "ko": "내 표 어디 갔지? 자리에 있었는데… 엘리프, 양 입에 뭐 있어?",
+   "note": "ağız = 입 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "D",
+   "tl": "Eyvah. Biletini yedi, afiyet olsun. Son köşesi burada, al.",
+   "rd": "에이바흐. 빌레티니 예디, 아피옛 올순. 손 쾨셰시 부라다, 알.",
+   "ko": "헉. 네 표 먹었어, 맛있게 먹으렴. 마지막 귀퉁이 여기 있다, 자.",
+   "note": "köşe = 귀퉁이",
+   "tags": [
+    "expr:eyvah",
+    "expr:afiyet olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "E",
+   "tl": "Biletiniz yoksa inmeniz lazım. Kuralımız bu, kusura bakmayın.",
+   "rd": "빌레티니즈 욕사 인메니즈 라즘. 쿠랄르므즈 부, 쿠수라 박마이은.",
+   "ko": "표가 없으면 내리셔야 합니다. 규정입니다, 죄송합니다.",
+   "note": "lazım = 필요하다",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "tl": "Ben inersem kuzu ne olacak? Onun da bileti yok!",
+   "rd": "벤 이네르셈 쿠주 네 올라작? 오눈 다 빌레티 욕!",
+   "ko": "제가 내리면 양은요? 쟤도 표 없잖아요!",
+   "note": "inersem = 내가 내리면",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "E",
+   "tl": "Onun bileti karnında, efendim. Siz buyurun.",
+   "rd": "오눈 빌레티 카르는다, 에펜딤. 시즈 부유룬.",
+   "ko": "쟤 표는 뱃속에 있죠, 손님. 손님은 내리시죠.",
+   "note": "karın = 배 · buyurun = 어서 하세요",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

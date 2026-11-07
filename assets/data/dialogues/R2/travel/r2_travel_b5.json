@@ -1,0 +1,181 @@
+{
+ "id": "r2_travel_b5",
+ "region": "R2",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel",
+  "culture"
+ ],
+ "title": "2천 년 된 화장실",
+ "emoji": "🏛️",
+ "scene": "에페소스 단체 관광, 화장실이 급한데 가이드는 설명만 하고 내 말을 안 듣는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Rehber",
+  "C": "Elif"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "pardon·affedersiniz 로 끼어들어 묻기",
+ "expressions": [
+  "pardon",
+  "affedersiniz",
+  "lütfen",
+  "ölüyorum",
+  "aman",
+  "hadi",
+  "bak"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Arkadaşlar, sağda gördüğünüz bina iki bin yıllık.",
+   "rd": "아르카다실라르, 사다 괴르뒤위뉘즈 비나 이키 빈 이을륵.",
+   "ko": "여러분, 오른쪽에 보이는 건물은 2천 년 됐습니다.",
+   "note": "sağda = 오른쪽에 · bina = 건물",
+   "tags": [
+    "form:-diğiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Pardon, bir şey soracağım. Tuvalet nerede?",
+   "rd": "파르돈, 비르 셰이 소라자음. 투발렛 네레데?",
+   "ko": "저기요, 뭐 하나 여쭐게요. 화장실 어디예요?",
+   "note": "tuvalet = 화장실",
+   "tags": [
+    "expr:pardon"
+   ],
+   "new": [
+    "tuvalet"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Güzel soru. Solda gördüğünüz kapı çok eski.",
+   "rd": "귀젤 소루. 솔다 괴르뒤위뉘즈 카프 촉 에스키.",
+   "ko": "좋은 질문입니다. 왼쪽에 보이는 문은 아주 오래됐습니다.",
+   "note": "solda = 왼쪽에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Sana cevap vermedi. Bir daha sor.",
+   "rd": "사나 제밥 베르메디. 비르 다하 소르.",
+   "ko": "너한테 대답 안 했어. 다시 물어봐.",
+   "note": "bir daha = 다시",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Affedersiniz, lütfen! Tuvalet bu tarafta mı?",
+   "rd": "아페데르시니즈, 뤼트펜! 투발렛 부 타라프타 므?",
+   "ko": "실례합니다, 제발요! 화장실 이쪽이에요?",
+   "note": "bu tarafta = 이쪽에",
+   "tags": [
+    "expr:affedersiniz",
+    "expr:lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "O taraf eski şehir. Hadi, yürüyoruz arkadaşlar!",
+   "rd": "오 타라프 에스키 셰히르. 하디, 위뤼요루즈 아르카다실라르!",
+   "ko": "저쪽은 옛 도시입니다. 자, 걸어가겠습니다, 여러분!",
+   "note": "yürümek = 걷다",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Elif, ölüyorum. Bu adam beni duymuyor.",
+   "rd": "엘리프, 욀뤼요룸. 부 아담 베니 두이무요르.",
+   "ko": "엘리프, 나 죽겠어. 이 사람 내 말 안 들려.",
+   "note": "ölüyorum = 죽겠어",
+   "tags": [
+    "expr:ölüyorum"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Aman, ne yapalım? Yüksek sesle sor.",
+   "rd": "아만, 네 야팔름? 윅섹 세슬레 소르.",
+   "ko": "아이고, 어쩌겠어. 크게 물어봐.",
+   "note": "yüksek sesle = 큰 소리로",
+   "tags": [
+    "expr:aman",
+    "expr:ne yapalım"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Tuvalet nerede, arkadaşlar?!",
+   "rd": "투발렛 네레데, 아르카다실라르?!",
+   "ko": "화장실 어디예요, 여러분?!",
+   "note": "가이드 말투로 외친다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Ah, güzel soru. Romalılar da aynı şeyi sordu.",
+   "rd": "아흐, 귀젤 소루. 로말를라르 다 아이느 셰이 소르두.",
+   "ko": "아, 좋은 질문입니다. 로마인들도 같은 걸 물었죠.",
+   "note": "aynı şey = 같은 것 — 반전: 드디어 듣는다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "Bak, gösteriyor! Tuvalet orada, koş!",
+   "rd": "박, 괴스테리요르! 투발렛 오라다, 코시!",
+   "ko": "봐, 가리킨다! 화장실 저기야, 뛰어!",
+   "note": "göstermek = 가리키다",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Yalnız iki bin yıldır kapalı, arkadaşlar.",
+   "rd": "얄느즈 이키 빈 이을드르 카팔르, 아르카다실라르.",
+   "ko": "단, 2천 년째 닫혀 있습니다, 여러분.",
+   "note": "yalnız = 다만 · kapalı = 닫힌",
+   "tags": [],
+   "new": [
+    "kapalı"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

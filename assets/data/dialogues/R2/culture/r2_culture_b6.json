@@ -1,0 +1,168 @@
+{
+ "id": "r2_culture_b6",
+ "region": "R2",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love",
+  "media"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "길 잃지 말랬잖아",
+ "emoji": "🎤",
+ "scene": "야외 콘서트 인파 속, Elif 가 길 잃지 말라며 손을 잡았다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "tabii ki·anlamadım 으로 콘서트에서 말 걸기",
+ "expressions": [
+  "tabii ki",
+  "anlamadım",
+  "valla",
+  "bak",
+  "ee",
+  "şey"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Kalabalık çok! Elimi tut, kaybolma.",
+   "rd": "칼라발륵 촉! 엘리미 툿, 카이볼마.",
+   "ko": "사람 진짜 많다! 내 손 잡아, 길 잃지 마.",
+   "note": "kaybolmak = 길을 잃다",
+   "tags": [],
+   "new": [
+    "kalabalık",
+    "kaybolmak"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Tuttum. Bu şarkıyı biliyor musun?",
+   "rd": "투툼. 부 샤르크이으 빌리요르 무순?",
+   "ko": "잡았어. 이 노래 알아?",
+   "note": "şarkı = 노래",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Tabii ki! Herkes biliyor, sen de söyle!",
+   "rd": "타비이 키! 헤르케스 빌리요르, 센 데 쇠일레!",
+   "ko": "당연하지! 다 알아, 너도 불러!",
+   "note": "tabii ki = 당연하지",
+   "tags": [
+    "expr:tabii ki"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Anlamadım ki. Ne diyor bu adam?",
+   "rd": "안라마듬 키. 네 디요르 부 아담?",
+   "ko": "못 알아듣겠어. 이 사람 뭐래?",
+   "note": "anlamadım = 못 알아들었어",
+   "tags": [
+    "expr:anlamadım"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Diyor ki: Gözlerine bakınca susarım.",
+   "rd": "디요르 키 괴즐레리네 바큰자 수사름.",
+   "ko": "이러잖아. 네 눈을 보면 말을 잃어.",
+   "note": "susmak = 말을 멈추다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Sen mi? Sen hiç susmazsın, valla.",
+   "rd": "센 미? 센 히치 수스마즈슨, 발라.",
+   "ko": "너가? 넌 절대 말 안 멈추지, 진짜.",
+   "note": "valla = 진짜로",
+   "tags": [
+    "expr:valla"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Susarım. Bak, şimdi sana bakıyorum.",
+   "rd": "수사름. 박, 심디 사나 바크요룸.",
+   "ko": "멈출 수 있거든. 봐, 지금 너 보고 있잖아.",
+   "note": "bak = 봐",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Ee? Hâlâ konuşuyorsun ama.",
+   "rd": "에에? 할라 코누슈요르순 아마.",
+   "ko": "그래서? 아직 말하고 있는데.",
+   "note": "ee = 그래서?",
+   "tags": [
+    "expr:ee"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Şey…",
+   "rd": "셰이…",
+   "ko": "저기…",
+   "note": "şey = 저기 — 반전: 처음으로 말이 끊겼다",
+   "tags": [
+    "simkung",
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Konser bitti, Elif. Elimi bırakabilirsin.",
+   "rd": "콘세르 비티, 엘리프. 엘리미 브라카빌리르신.",
+   "ko": "콘서트 끝났어, Elif. 손 놔도 돼.",
+   "note": "bırakmak = 놓다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Kaybolma dedim ya.",
+   "rd": "카이볼마 데딤 야.",
+   "ko": "길 잃지 말랬잖아.",
+   "note": "dedim ya = 말했잖아",
+   "tags": [
+    "simkung",
+    "expr:ya"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

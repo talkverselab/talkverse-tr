@@ -1,0 +1,169 @@
+{
+ "id": "r2_study_b1",
+ "region": "R2",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "교실에 남았을 뿐",
+ "emoji": "🪑",
+ "scene": "늦게까지 교실에 남아 공부했다는 말이, 터키어로는 전혀 다른 뜻이다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Hoca"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "sınıfta kalmak 관용구와 geçmiş olsun·yok artık 익히기",
+ "expressions": [
+  "geçmiş olsun",
+  "yok artık",
+  "kusura bakma",
+  "ciddi misin"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Dün neredeydin? Seni kantinde bekledim.",
+   "rd": "뒨 네레데이딘? 세니 칸틴데 베클레딤.",
+   "ko": "어제 어디 있었어? 매점에서 기다렸는데.",
+   "note": "kantin = 학교 매점",
+   "tags": [],
+   "new": [
+    "kantin"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Kusura bakma, telefonum kapalıydı. Ders çalıştım.",
+   "rd": "쿠수라 박마, 텔레포눔 카팔르이드. 데르스 찰르시틈.",
+   "ko": "미안, 전화기 꺼져 있었어. 공부했어.",
+   "note": "kusura bakma = 미안",
+   "tags": [
+    "expr:kusura bakma"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Yorgun görünüyorsun. Ne oldu?",
+   "rd": "요르군 괴뤼뉘요르순. 네 올두?",
+   "ko": "피곤해 보이네. 무슨 일이야?",
+   "note": "görünüyorsun = ~해 보인다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Dün akşama kadar sınıfta kaldım.",
+   "rd": "뒨 악샤마 카다르 스느프타 칼듬.",
+   "ko": "어제 저녁까지 교실에 남았어.",
+   "note": "sınıfta kalmak = 유급하다(관용) — A 는 「교실에 남았다」 로 말함",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Ne?! Yok artık, bütün derslerden mi?",
+   "rd": "네?! 욕 아르특, 뷔튄 데르슬레르덴 미?",
+   "ko": "뭐?! 말도 안 돼, 전 과목 다?",
+   "note": "yok artık = 말도 안 돼",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Evet, bütün dersler. Hoca gitti, ben kaldım.",
+   "rd": "에벳, 뷔튄 데르슬레르. 호자 기티, 벤 칼듬.",
+   "ko": "응, 전 과목. 교수님은 가시고 나만 남았어.",
+   "note": "kaldım = 남았다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Geçmiş olsun. Üzülme, bütünleme var.",
+   "rd": "게치미시 올순. 위쥘메, 뷔튄레메 바르.",
+   "ko": "어쩌냐. 속상해하지 마, 재시험 있어.",
+   "note": "bütünleme = 재시험",
+   "tags": [
+    "expr:geçmiş olsun"
+   ],
+   "new": [
+    "bütünleme"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "O ne? Sınıf çok güzeldi, yine kalırım.",
+   "rd": "오 네? 스느프 촉 귀젤디, 이네 칼르름.",
+   "ko": "그게 뭐야? 교실 좋던데, 또 남을 거야.",
+   "note": "yine = 또 — 반전: 스스로 또 유급하겠단다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Ciddi misin? Bir daha mı kalacaksın?!",
+   "rd": "지디 미신? 비르 다하 므 칼라작슨?!",
+   "ko": "진심이야? 또 유급하겠다고?!",
+   "note": "ciddi misin = 진심이야?",
+   "tags": [
+    "expr:ciddi misin"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "{name}, duydum. Üzülmeyin, yaz okulu var.",
+   "rd": "{name}, 두이둠. 위쥘메인, 야즈 오쿨루 바르.",
+   "ko": "{name} 씨, 들었어요. 상심 말아요, 계절학기 있어요.",
+   "note": "yaz okulu = 계절학기",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Hocam, ne yaz okulu? Ben sadece sınıfta oturdum!",
+   "rd": "호잠, 네 야즈 오쿨루? 벤 사데제 스느프타 오투르둠!",
+   "ko": "교수님, 계절학기라니요? 저는 그냥 교실에 앉아 있었어요!",
+   "note": "oturdum = 앉아 있었다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Şimdi öğrendin. Kalmak başka, oturmak başka.",
+   "rd": "심디 외렌딘. 칼막 바시카, 오투르막 바시카.",
+   "ko": "이제 알았지. 남는 거랑 앉아 있는 건 달라.",
+   "note": "başka = 다른",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "id": "r3_study_b5",
+ "region": "R3",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "수고하세요의 힘",
+ "emoji": "🏛️",
+ "scene": "체류증 창구, 담당자가 눈도 안 마주치는데 Zeynep 이 한마디를 일러 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Memur"
+ },
+ "register": "mixed",
+ "twist": 13,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "kolay gelsin 으로 관공서 문 열기",
+ "expressions": [
+  "kolay gelsin",
+  "merhaba",
+  "ne alaka",
+  "sağ ol"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Merhaba, ikamet için geldim. Randevum var.",
+   "rd": "메르하바, 이카멧 이친 겔딤. 란데붐 바르.",
+   "ko": "안녕하세요, 체류증 때문에 왔어요. 예약했어요.",
+   "note": "ikamet = 체류증",
+   "tags": [
+    "expr:merhaba"
+   ],
+   "new": [
+    "ikamet",
+    "randevu"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "tl": "Sıra numaranızı alın, bekleyin.",
+   "rd": "스라 누마라느즈 알른, 베클레인.",
+   "ko": "번호표 뽑고 기다리세요.",
+   "note": "sıra numarası = 번호표",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Aldım. Yüz kırk yedi. İki saattir bekliyorum.",
+   "rd": "알듬. 위즈 크르크 예디. 이키 사아티르 베클리요룸.",
+   "ko": "뽑았어요. 147번이요. 두 시간째 기다려요.",
+   "note": "iki saattir = 두 시간째",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Şu an öğle arası, bekleyin.",
+   "rd": "슈 안 욀레 아라스, 베클레인.",
+   "ko": "지금 점심시간이에요, 기다리세요.",
+   "note": "öğle arası = 점심시간",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Ama saat dört! Öğle arası mı şimdi?",
+   "rd": "아마 사앗 되르트! 욀레 아라스 므 심디?",
+   "ko": "근데 네 시인데요! 지금이 점심시간이에요?",
+   "note": "ama = 하지만",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Şu an öğle arası, bekleyin.",
+   "rd": "슈 안 욀레 아라스, 베클레인.",
+   "ko": "지금 점심시간이에요, 기다리세요.",
+   "note": "öğle arası = 점심시간 — 같은 말만 반복",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Bana bakmıyor bile, Zeynep. Üç dakikadır çayını karıştırıyor.",
+   "rd": "바나 박므요르 빌레, 제이넵. 위치 다키카드르 차이으느 카르시트르요르.",
+   "ko": "날 쳐다보지도 않아, Zeynep. 3분째 차만 젓고 있어.",
+   "note": "karıştırmak = 젓다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Ona ne dedin? İlk kelimen neydi?",
+   "rd": "오나 네 데딘? 일크 켈리멘 네이디?",
+   "ko": "뭐라고 했는데? 첫마디가 뭐였어?",
+   "note": "ilk kelime = 첫마디",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "“Merhaba” dedim. Sonra “Randevum var” dedim. Çok kibardım.",
+   "rd": "메르하바 데딤. 손라 란데붐 바르 데딤. 촉 키바르듬.",
+   "ko": "「안녕하세요」 했지. 그다음 「예약했어요」. 아주 공손했어.",
+   "note": "kibar = 공손한",
+   "tags": [
+    "expr:merhaba"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Yanlış. Önce “Kolay gelsin” de, sonra konuş.",
+   "rd": "얀르시. 왼제 콜라이 겔신 데, 손라 코누시.",
+   "ko": "틀렸어. 먼저 「Kolay gelsin」 해, 그다음에 말해.",
+   "note": "önce = 먼저",
+   "tags": [
+    "expr:kolay gelsin"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Ne alaka? O kadar kolay mı yani?",
+   "rd": "네 알라카? 오 카다르 콜라이 므 야니?",
+   "ko": "뭔 소리야? 그렇게 쉽다고?",
+   "note": "o kadar = 그렇게",
+   "tags": [
+    "expr:ne alaka"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Dene. Kaybedecek neyin var?",
+   "rd": "데네. 카이베데젝 네인 바르?",
+   "ko": "해 봐. 잃을 게 뭐 있어?",
+   "note": "dene = 해 봐",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "tl": "Kolay gelsin…",
+   "rd": "콜라이 겔신…",
+   "ko": "수고 많으십니다…",
+   "note": "kolay gelsin = 수고하세요 — 반전의 한마디",
+   "tags": [
+    "expr:kolay gelsin"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "tl": "Sağ ol evladım. Buyur, ver bakayım kâğıtları.",
+   "rd": "사 올 에블라듬. 부유르, 베르 바카이음 카으틀라르.",
+   "ko": "고맙다, 학생. 자, 서류 줘 봐.",
+   "note": "evladım = 얘야(어른이 쓰는 말)",
+   "tags": [
+    "expr:sağ ol"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "tl": "Zeynep, baktı! Yüzüme baktı! Konuştu!",
+   "rd": "제이넵, 박트! 위쥐메 박트! 코누시투!",
+   "ko": "Zeynep, 쳐다봤어! 내 얼굴을 봤어! 말도 했어!",
+   "note": "yüzüme = 내 얼굴에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "tl": "Fotoğraf eksik. Yarın gel. Hadi, kolay gelsin.",
+   "rd": "포토라프 엑식. 야른 겔. 하디, 콜라이 겔신.",
+   "ko": "사진이 빠졌네. 내일 와. 자, 수고해.",
+   "note": "eksik = 빠진",
+   "tags": [
+    "expr:kolay gelsin"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

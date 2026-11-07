@@ -1,0 +1,145 @@
+{
+ "id": "r0_friends_c3",
+ "region": "R0",
+ "island": "friends",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "답장이 오는 단어",
+ "emoji": "🥟",
+ "scene": "돈 언제 갚느냐는 말엔 읽씹하던 Can, 한 단어에 바로 답이 온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "재촉하는 채팅, boş ver·neyse·geliyorum",
+ "expressions": [
+  "boş ver",
+  "neyse",
+  "geliyorum",
+  "oha"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Can, paramı ne zaman veriyorsun?",
+   "rd": "잔, 파라므 네 자만 베리요르순?",
+   "ko": "잔, 내 돈 언제 줄 거야?",
+   "note": "ne zaman = 언제",
+   "tags": [],
+   "new": [],
+   "at": "14:02",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Görüyorum, okudun.",
+   "rd": "괴뤼요룸, 오쿠둔.",
+   "ko": "다 보여, 너 읽었어.",
+   "note": "okudun = 읽었다",
+   "tags": [],
+   "new": [],
+   "at": "14:30",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Can? Öldün mü?",
+   "rd": "잔? 욀뒨 뮈?",
+   "ko": "잔? 죽었어?",
+   "note": "ölmek = 죽다",
+   "tags": [],
+   "new": [],
+   "at": "16:45",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Tamam, boş ver.",
+   "rd": "타맘, 보시 베르.",
+   "ko": "알았어, 됐어.",
+   "note": "boş ver = 됐어",
+   "tags": [
+    "expr:boş ver"
+   ],
+   "new": [],
+   "at": "18:10",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Neyse. Komşu çok börek getirdi.",
+   "rd": "네이세. 콤슈 촉 뵈렉 게티르디.",
+   "ko": "아무튼. 이웃이 뵈렉을 잔뜩 갖다 줬어.",
+   "note": "börek = 뵈렉(겹겹 파이) · komşu = 이웃",
+   "tags": [
+    "expr:neyse"
+   ],
+   "new": [
+    "börek",
+    "komşu"
+   ],
+   "at": "19:05",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Geliyorum 🏃",
+   "rd": "겔리요룸",
+   "ko": "가는 중 🏃",
+   "note": "geliyorum = 간다(말하는 쪽으로 오는 것이라 gelmek) — 반전: 1초 만에 답장",
+   "tags": [
+    "expr:geliyorum"
+   ],
+   "new": [],
+   "at": "19:05",
+   "stamp": "🏃",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Oha! Telefonun çalışıyor demek!",
+   "rd": "오하! 텔레포눈 찰르시요르 데멕!",
+   "ko": "헐! 폰 멀쩡하구나!",
+   "note": "demek = 그러니까 ~구나",
+   "tags": [
+    "expr:oha"
+   ],
+   "new": [],
+   "at": "19:05",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Kapıdayım. Hangi para?",
+   "rd": "카프다이음. 한기 파라?",
+   "ko": "문 앞이야. 무슨 돈?",
+   "note": "hangi = 어느",
+   "tags": [],
+   "new": [],
+   "at": "19:06",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "id": "r1_culture_b6",
+ "region": "R1",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "레몬 향 로쿰",
+ "emoji": "🍋",
+ "scene": "이모 집에서 손님에게 주는 콜로냐를 받았는데, 어디에 쓰는지 모른다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "afiyet olsun·anladım 으로 손님 대접 받기",
+ "expressions": [
+  "hoş geldin",
+  "hoş bulduk",
+  "çok güzel",
+  "buyur",
+  "afiyet olsun",
+  "anladım"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hoş geldin, yavrum. Elini uzat.",
+   "rd": "호시 겔딘, 야브룸. 엘리니 우잣.",
+   "ko": "어서 와라, 얘야. 손 내밀어 봐.",
+   "note": "uzatmak = 내밀다",
+   "tags": [
+    "expr:hoş geldin"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Hoş bulduk, teyze. Bu ne?",
+   "rd": "호시 불둑, 테이제. 부 네?",
+   "ko": "안녕하세요, 이모. 이게 뭐예요?",
+   "note": "bu ne = 이게 뭐야",
+   "tags": [
+    "expr:hoş bulduk"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Kolonya. Bizde misafire önce bu verilir.",
+   "rd": "콜론야. 비즈데 미사피레 왼제 부 베릴리르.",
+   "ko": "콜로냐야. 우리는 손님한테 이걸 먼저 준단다.",
+   "note": "misafir = 손님",
+   "tags": [],
+   "new": [
+    "kolonya",
+    "misafir"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Çok güzel! Limon mu?",
+   "rd": "촉 귀젤! 리몬 무?",
+   "ko": "너무 좋아요! 레몬이에요?",
+   "note": "limon = 레몬",
+   "tags": [
+    "expr:çok güzel"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Limon. Buyur, lokum da al.",
+   "rd": "리몬. 부유르, 로쿰 다 알.",
+   "ko": "레몬이지. 자, 로쿰도 먹어.",
+   "note": "buyur = 자, 받아",
+   "tags": [
+    "expr:buyur"
+   ],
+   "new": [
+    "lokum"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Lokumun üstüne döküyorum. Afiyet olsun!",
+   "rd": "로쿠문 위스튀네 되퀴요룸. 아피옛 올순!",
+   "ko": "로쿰 위에 뿌릴게요. 맛있게 드세요!",
+   "note": "dökmek = 붓다",
+   "tags": [
+    "expr:afiyet olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Yavrum, ne yapıyorsun? O ele dökülür!",
+   "rd": "야브룸, 네 야프요르순? 오 엘레 되퀼뤼르!",
+   "ko": "얘야, 뭐 하는 거니? 그건 손에 뿌리는 거야!",
+   "note": "ele dökülür = 손에 뿌린다 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Anladım. Ama lokum fena değil.",
+   "rd": "안라듬. 아마 로쿰 페나 데일.",
+   "ko": "알겠어요. 근데 로쿰 나쁘지 않은데요.",
+   "note": "fena değil = 나쁘지 않다",
+   "tags": [
+    "expr:anladım"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

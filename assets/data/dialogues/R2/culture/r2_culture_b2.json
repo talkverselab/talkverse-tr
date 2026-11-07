@@ -1,0 +1,175 @@
+{
+ "id": "r2_culture_b2",
+ "region": "R2",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "travel"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "내 뒤에 150명",
+ "emoji": "💃",
+ "scene": "결혼식 할라이 줄에 섰더니, 손수건이 나에게 왔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Amca"
+ },
+ "register": "casual",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "bilmiyorum ki·vay be·aynen 으로 춤판에서 살아남기",
+ "expressions": [
+  "bilmiyorum ki",
+  "vay be",
+  "aynen",
+  "gel",
+  "bilmiyorum"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Kalk, halay başlıyor. Oturmak yasak.",
+   "rd": "칼크, 할라이 바실르요르. 오투르막 야삭.",
+   "ko": "일어나, 할라이 시작한다. 앉아 있기 금지.",
+   "note": "halay = 줄지어 추는 춤",
+   "tags": [],
+   "new": [
+    "halay"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Ben bilmiyorum ki. Hiç yapmadım.",
+   "rd": "벤 빌미요룸 키. 히치 얍마듬.",
+   "ko": "나 모른단 말이야. 해 본 적 없어.",
+   "note": "bilmiyorum ki = 나도 모르겠어",
+   "tags": [
+    "expr:bilmiyorum ki"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Çok kolay. Elimi tut, üç adım sağa, bir sola.",
+   "rd": "촉 콜라이. 엘리미 툿, 위치 아듬 사아, 비르 솔라.",
+   "ko": "쉬워. 내 손 잡고, 오른쪽 세 걸음, 왼쪽 한 걸음.",
+   "note": "adım = 걸음",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Üç sağa, bir sola… Vay be, yapıyorum!",
+   "rd": "위치 사아, 비르 솔라… 바이 베, 야프요룸!",
+   "ko": "오른쪽 셋, 왼쪽 하나… 와 대박, 된다!",
+   "note": "vay be = 와 대박",
+   "tags": [
+    "expr:vay be"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Aynen. Sadece en başa gitme, orası önemli.",
+   "rd": "아이넨. 사데제 엔 바샤 기트메, 오라스 외넴리.",
+   "ko": "그렇지. 맨 앞으로만 가지 마, 거긴 중요한 자리야.",
+   "note": "en baş = 맨 앞",
+   "tags": [
+    "expr:aynen"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Gel, gel! Al mendili, bugün başa sen geç!",
+   "rd": "겔, 겔! 알 멘딜리, 부귄 바샤 센 게치!",
+   "ko": "이리 와, 이리! 손수건 받아, 오늘은 네가 맨 앞이다!",
+   "note": "mendil = 손수건",
+   "tags": [
+    "expr:gel"
+   ],
+   "new": [
+    "mendil"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Ne yapacağım? Zeynep, yardım et!",
+   "rd": "네 야파자음? 제이넵, 야르듬 엣!",
+   "ko": "뭘 해야 돼? Zeynep, 도와줘!",
+   "note": "yardım et = 도와줘",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Mendili salla ve yürü. Herkes arkandan gelir.",
+   "rd": "멘딜리 살라 베 위뤼. 헤르케스 아르칸단 겔리르.",
+   "ko": "손수건 흔들면서 걸어. 다들 뒤따라와.",
+   "note": "sallamak = 흔들다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Herkes mi? Arkamda kaç kişi var?",
+   "rd": "헤르케스 미? 아르캄다 카치 키시 바르?",
+   "ko": "다들? 내 뒤에 몇 명 있어?",
+   "note": "kaç kişi = 몇 명",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Yüz elli. Neden mutfağa giriyorsun?",
+   "rd": "위즈 엘리. 네덴 무트파아 기리요르순?",
+   "ko": "150명. 왜 주방으로 들어가?",
+   "note": "yüz elli = 150 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Bilmiyorum, durmuyorlar! Çıkış nerede?",
+   "rd": "빌미요룸, 두르무요를라르! 츠크시 네레데?",
+   "ko": "몰라, 안 멈춰! 출구 어디야?",
+   "note": "çıkış = 출구",
+   "tags": [
+    "expr:bilmiyorum"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Aşçılar da katıldı. Devam et.",
+   "rd": "아시츨라르 다 카틀드. 데밤 엣.",
+   "ko": "요리사들도 합류했어. 계속 가.",
+   "note": "aşçı = 요리사",
+   "tags": [],
+   "new": [
+    "aşçı"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "id": "r0_love_a4",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "「자기」는 고양이한테",
+ "emoji": "🐈",
+ "scene": "공원 벤치, Emre 가 내 말엔 대답도 없이 길고양이한테만 다정하다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "ignore",
+ "flags": [
+  "romance"
+ ],
+ "goal": "canım·anladım·ee 로 짧게 받아치기",
+ "expressions": [
+  "naber",
+  "canım",
+  "anladım",
+  "dur"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Selam Emre! Naber, ne yapıyorsun?",
+   "rd": "셀람 엠레! 나베르, 네 야프요르순?",
+   "ko": "안녕 Emre! 뭐 해?",
+   "note": "naber = 뭐 해, 잘 지내?",
+   "tags": [
+    "expr:selam",
+    "expr:naber"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Gel canım, gel. Aç mısın?",
+   "rd": "겔 자늠, 겔. 아치 므슨?",
+   "ko": "이리 와, 자기야. 배고파?",
+   "note": "canım = 자기야, 얘야",
+   "tags": [
+    "expr:canım"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Canım mı? Şey, evet, biraz açım.",
+   "rd": "자늠 므? 셰이, 에벳, 비라즈 아츰.",
+   "ko": "자기? 어… 응, 좀 배고파.",
+   "note": "açım = 배고파",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Sana demedim. Kediye dedim.",
+   "rd": "사나 데메딤. 케디예 데딤.",
+   "ko": "너한테 한 말 아니야. 고양이한테 한 거야.",
+   "note": "kediye = 고양이한테 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Anladım. Ben gidiyorum o zaman.",
+   "rd": "안라듬. 벤 기디요룸 오 자만.",
+   "ko": "알겠어. 그럼 나 간다.",
+   "note": "o zaman = 그럼",
+   "tags": [
+    "expr:anladım"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Dur. Bu kedi kimseye gelmez.",
+   "rd": "두르. 부 케디 킴세예 겔메즈.",
+   "ko": "잠깐. 이 고양이 아무한테도 안 가.",
+   "note": "kimseye = 아무한테도",
+   "tags": [
+    "expr:dur"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Ee? Yani?",
+   "rd": "에에? 야니?",
+   "ko": "그래서? 뭐?",
+   "note": "ee = 그래서?",
+   "tags": [
+    "expr:ee",
+    "expr:yani"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Sana geldi. Ben de.",
+   "rd": "사나 겔디. 벤 데.",
+   "ko": "너한테는 갔어. 나도.",
+   "note": "ben de = 나도",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

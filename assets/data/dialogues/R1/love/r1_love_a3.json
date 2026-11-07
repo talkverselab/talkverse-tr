@@ -1,0 +1,129 @@
+{
+ "id": "r1_love_a3",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "엄마는 벌써 알아",
+ "emoji": "📞",
+ "scene": "Elif 어머니 전화가 다섯 번째 걸려 오는데, 어머니가 내 이름을 안다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "yemek yedin mi·selam söyle 로 안부 주고받기",
+ "expressions": [
+  "dur",
+  "hayırdır",
+  "yok ya",
+  "bilmem ki"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Dur, annem arıyor. Beşinci kez!",
+   "rd": "두르, 안넴 아르요르. 베신지 케즈!",
+   "ko": "잠깐, 엄마 전화야. 다섯 번째야!",
+   "note": "beşinci kez = 다섯 번째",
+   "tags": [
+    "expr:dur"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Hayırdır? Önemli bir şey mi?",
+   "rd": "하이으르드르? 외넴리 비르 셰이 미?",
+   "ko": "무슨 일이야? 중요한 거야?",
+   "note": "hayırdır? = 무슨 일이야?",
+   "tags": [
+    "expr:hayırdır"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Yok ya, \"Yemek yedin mi?\" diyor.",
+   "rd": "욕 야, \"예멕 예딘 미?\" 디요르.",
+   "ko": "아니야. 「밥 먹었어?」래.",
+   "note": "yemek yedin mi = 밥 먹었어?",
+   "tags": [
+    "expr:yok ya"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Çok tatlı. Selam söyle.",
+   "rd": "촉 타틀르. 셀람 쇠일레.",
+   "ko": "귀여우시다. 안부 전해 줘.",
+   "note": "selam söyle = 안부 전해 줘",
+   "tags": [
+    "expr:selam"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Annem de \"Selam {name}\" diyor.",
+   "rd": "안넴 데 \"셀람 {name}\" 디요르.",
+   "ko": "엄마도 「안녕, {name}」이래.",
+   "note": "반전: 어머니가 내 이름을 안다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Annen adımı nereden biliyor?",
+   "rd": "안넨 아드므 네레덴 빌리요르?",
+   "ko": "너희 엄마가 내 이름을 어떻게 알아?",
+   "note": "nereden = 어디서",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Bilmem ki… her gün senden bahsediyorum.",
+   "rd": "빌멤 키… 헤르 귄 센덴 바흐세디요룸.",
+   "ko": "글쎄… 내가 맨날 네 얘기를 하거든.",
+   "note": "senden bahsetmek = 네 얘기를 하다",
+   "tags": [
+    "expr:bilmem ki",
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Şimdi de \"O yedi mi?\" diyor.",
+   "rd": "심디 데 \"오 예디 미?\" 디요르.",
+   "ko": "이번엔 「걔는 먹었대?」 물으시네.",
+   "note": "o = 그 사람(남녀 구별 없음)",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

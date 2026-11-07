@@ -1,0 +1,149 @@
+{
+ "id": "r1_life_c4",
+ "region": "R1",
+ "island": "life",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "달걀 백 개",
+ "emoji": "🥚",
+ "scene": "바칼에 메시지로 장을 보는데 숫자 하나를 헷갈렸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bakkal"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "lütfen·geri alır mısınız 로 동네 가게에 주문하기",
+ "expressions": [
+  "merhaba",
+  "lütfen",
+  "hayırdır",
+  "maşallah",
+  "bir dakika",
+  "eyvah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Merhaba. Eve ekmek ve yüz yumurta lütfen.",
+   "rd": "메르하바. 에베 엑멕 베 위즈 유무르타 뤼트펜.",
+   "ko": "안녕하세요. 집으로 빵이랑 달걀 백 개요.",
+   "note": "yüz = 백(100)",
+   "tags": [
+    "expr:merhaba",
+    "expr:lütfen"
+   ],
+   "new": [],
+   "at": "17:20",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Yüz yumurta mı? Hayırdır, düğün mü var?",
+   "rd": "위즈 유무르타 므? 하이으르드르, 뒤윈 뮈 바르?",
+   "ko": "달걀 백 개요? 무슨 일이에요, 잔치 있어요?",
+   "note": "düğün = 결혼식, 잔치",
+   "tags": [
+    "expr:hayırdır"
+   ],
+   "new": [],
+   "at": "17:21",
+   "stamp": "🥚",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Evet, yüz. Bugün yemek yapacağım.",
+   "rd": "에벳, 위즈. 부귄 예멕 야파자음.",
+   "ko": "네, 백 개요. 오늘 요리할 거예요.",
+   "note": "yapacağım = 할 거예요",
+   "tags": [],
+   "new": [],
+   "at": "17:21",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Maşallah! Yumurtalar yolda.",
+   "rd": "마샬라흐! 유무르탈라르 욜다.",
+   "ko": "대단하시네요! 달걀 출발했어요.",
+   "note": "maşallah = 어머 대단해",
+   "tags": [
+    "expr:maşallah"
+   ],
+   "new": [],
+   "at": "17:22",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Bir dakika, 'yüz' kaç? Ben on istedim!",
+   "rd": "비르 다키카, 위즈 카치? 벤 온 이스테딤!",
+   "ko": "잠깐만요, 'yüz'가 몇이에요? 저 열 개 원했어요!",
+   "note": "on = 열(10) — 반전",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": [],
+   "at": "17:26",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Eyvah. Bizim çocuk kapınızda.",
+   "rd": "에이바흐. 비짐 초죽 카프느즈다.",
+   "ko": "헉. 우리 애가 벌써 문 앞이에요.",
+   "note": "kapınızda = 댁 문 앞에",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": [],
+   "at": "17:26",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Geri alır mısınız?",
+   "rd": "게리 알르르 므스느즈?",
+   "ko": "도로 가져가 주실래요?",
+   "note": "geri almak = 도로 가져가다",
+   "tags": [],
+   "new": [],
+   "at": "17:27",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Olmaz. Teyzeye söyledim, o da geliyor.",
+   "rd": "올마즈. 테이제예 쇠일레딤, 오 다 겔리요르.",
+   "ko": "안 돼요. 아주머니한테 말했어요, 그분도 오신대요.",
+   "note": "olmaz = 안 돼요",
+   "tags": [
+    "expr:olmaz"
+   ],
+   "new": [],
+   "at": "17:27",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

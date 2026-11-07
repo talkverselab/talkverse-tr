@@ -1,0 +1,177 @@
+{
+ "id": "r2_work_b8",
+ "region": "R2",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_abroad"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "결재는 쟁반으로",
+ "emoji": "📨",
+ "scene": "부장이 휴가 메일을 세 통째 씹자, çaycı 의 쟁반이 결재 라인이 된다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre",
+  "C": "Çaycı"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "kolay gelsin·ne alaka·yok artık 로 사무실 꿀팁 얻기",
+ "expressions": [
+  "kolay gelsin",
+  "ne alaka",
+  "yok artık",
+  "hocam",
+  "sağ olun"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Müdüre üç mail attım. Cevap yok.",
+   "rd": "뮈뒤레 위치 마일 아틈. 제밥 욕.",
+   "ko": "부장님한테 메일 세 통 보냈어. 답이 없어.",
+   "note": "mail atmak = 메일 보내다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Üç mü? Az bile, ben on attım.",
+   "rd": "위치 뮈? 아즈 빌레, 벤 온 아틈.",
+   "ko": "세 통? 적네, 난 열 통 보냈어.",
+   "note": "az = 적은",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Yanına gidiyorum, “Mail at” diyor.",
+   "rd": "야느나 기디요룸, 마일 앗 디요르.",
+   "ko": "찾아가면 「메일 보내」 라고 해.",
+   "note": "yanına = 옆으로",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Kolay gelsin. Çay alır mısınız hocam?",
+   "rd": "콜라이 겔신. 차이 알르르 므스느즈 호잠?",
+   "ko": "수고 많으십니다. 차 드릴까요, 선생님?",
+   "note": "kolay gelsin = 수고하세요",
+   "tags": [
+    "expr:kolay gelsin",
+    "expr:hocam"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Sağ olun. Amca, müdür neden cevap vermiyor?",
+   "rd": "사 올룬. 암자, 뮈뒤르 네덴 제밥 베르미요르?",
+   "ko": "고맙습니다. 아저씨, 부장님은 왜 답을 안 해요?",
+   "note": "cevap vermek = 답하다",
+   "tags": [
+    "expr:sağ olun"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Mail mi? Müdür bey bilgisayar açmaz ki hocam.",
+   "rd": "마일 미? 뮈뒤르 베이 빌기사야르 아치마즈 키 호잠.",
+   "ko": "메일이요? 부장님은 컴퓨터를 안 켜세요, 선생님.",
+   "note": "açmaz = 안 켠다",
+   "tags": [
+    "expr:hocam"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Ne?! İzin lazım, ben ne yapacağım?",
+   "rd": "네?! 이진 라즘, 벤 네 야파자음?",
+   "ko": "네?! 휴가 써야 하는데, 저 어떡해요?",
+   "note": "izin = 휴가",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Kâğıda yazın, tepsiye koyun. Bardağın altına.",
+   "rd": "카으다 야즌, 텝시예 코윤. 바르다은 알트나.",
+   "ko": "종이에 써서 쟁반에 올리세요. 잔 밑에요.",
+   "note": "tepsi = 쟁반",
+   "tags": [],
+   "new": [
+    "tepsi"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Ne alaka? Bu ne şimdi?",
+   "rd": "네 알라카? 부 네 심디?",
+   "ko": "뭔 소리야? 이게 뭐야 또?",
+   "note": "ne alaka = 뭔 소리야",
+   "tags": [
+    "expr:ne alaka"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Buyurun hocam, imzalandı. Üç gün yazmıştınız, beş verdi.",
+   "rd": "부유룬 호잠, 임잘란드. 위치 귄 야즈므시트느즈, 베시 베르디.",
+   "ko": "여기요, 선생님, 사인 받았습니다. 사흘 쓰셨는데 닷새 주셨어요.",
+   "note": "imzalandı = 서명됐다 — 반전: 2분 걸렸다",
+   "tags": [
+    "expr:hocam"
+   ],
+   "new": [
+    "imzalamak"
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Yok artık! Amca, zam da oluyor mu?",
+   "rd": "욕 아르특! 암자, 잠 다 올루요르 무?",
+   "ko": "말도 안 돼! 아저씨, 월급 인상도 돼요?",
+   "note": "zam = (월급) 인상",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": [
+    "zam"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Zam için büyük tepsi lazım.",
+   "rd": "잠 이친 뷔윅 텝시 라즘.",
+   "ko": "인상은 더 큰 쟁반이 필요합니다.",
+   "note": "için = ~을 위해",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "id": "r2_study_b2",
+ "region": "R2",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "양파 전쟁",
+ "emoji": "🧅",
+ "scene": "기숙사 방에서 몰래 메네멘을 만들었더니, 양파 논쟁이 온 층을 덮친다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Oda arkadaşı",
+  "C": "Yurt görevlisi"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "tabii ki·ciddi misin·ne alaka 로 음식 논쟁 벌이기",
+ "expressions": [
+  "tabii ki",
+  "ciddi misin",
+  "ne alaka",
+  "özür dilerim",
+  "hadi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bu koku ne? Bütün koridor biliyor.",
+   "rd": "부 코쿠 네? 뷔튄 코리도르 빌리요르.",
+   "ko": "이 냄새 뭐야? 복도 전체가 다 알아.",
+   "note": "koku = 냄새",
+   "tags": [],
+   "new": [
+    "koku"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Menemen yapıyorum. Hadi, ekmek getir.",
+   "rd": "메네멘 야프요룸. 하디, 엑멕 게티르.",
+   "ko": "메네멘 만들어. 얼른, 빵 가져와.",
+   "note": "menemen = 달걀·토마토 볶음",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Yurtta ocak yasak! Bu arada, soğanlı mı?",
+   "rd": "유르타 오작 야삭! 부 아라다, 소안르 므?",
+   "ko": "기숙사에 버너 금지야! 그나저나, 양파 넣었어?",
+   "note": "yasak = 금지",
+   "tags": [],
+   "new": [
+    "yasak"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Tabii ki soğanlı. Ne var?",
+   "rd": "타비이 키 소안르. 네 바르?",
+   "ko": "당연히 양파 넣었지. 왜?",
+   "note": "tabii ki = 당연하지",
+   "tags": [
+    "expr:tabii ki"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Soğanlı menemen mi? Ciddi misin?",
+   "rd": "소안르 메네멘 미? 지디 미신?",
+   "ko": "양파 넣은 메네멘? 진심이야?",
+   "note": "soğanlı = 양파 넣은",
+   "tags": [
+    "expr:ciddi misin"
+   ],
+   "new": [
+    "soğan"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Ne alaka? Menemen soğanlı olur.",
+   "rd": "네 알라카? 메네멘 소안르 올루르.",
+   "ko": "뭔 소리야? 메네멘은 양파지.",
+   "note": "ne alaka = 뭔 소리야",
+   "tags": [
+    "expr:ne alaka"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Arkadaşlar! Burada soğanlı menemen var!",
+   "rd": "아르카다실라르! 부라다 소안르 메네멘 바르!",
+   "ko": "얘들아! 여기 양파 메네멘 있다!",
+   "note": "arkadaşlar = 얘들아 — 반전: 복도에 외쳐 버렸다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Bağırma! Neden herkes kapıda?!",
+   "rd": "바으르마! 네덴 헤르케스 카프다?!",
+   "ko": "소리 지르지 마! 왜 다들 문 앞에 있어?!",
+   "note": "bağırma = 소리 지르지 마",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Yarısı soğanlı, yarısı soğansız diyor. Kavga başladı.",
+   "rd": "야르스 소안르, 야르스 소안스즈 디요르. 카브가 바실라드.",
+   "ko": "반은 양파파, 반은 무양파파래. 싸움 났어.",
+   "note": "kavga = 싸움",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Durun! Yurtta ocak yasak, kim yaptı bunu?!",
+   "rd": "두룬! 유르타 오작 야삭, 킴 얍트 부누?!",
+   "ko": "멈춰요! 기숙사에 버너 금지예요, 누가 한 거예요?!",
+   "note": "kim yaptı = 누가 했어요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Ben yaptım. Özür dilerim, ama…",
+   "rd": "벤 얍틈. 외쥐르 딜레림, 아마…",
+   "ko": "제가요. 죄송해요, 근데…",
+   "note": "özür dilerim = 죄송합니다",
+   "tags": [
+    "expr:özür dilerim"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Soğanlı mı? Ocak yasak, soğansız menemen de yasak.",
+   "rd": "소안르 므? 오작 야삭, 소안스즈 메네멘 데 야삭.",
+   "ko": "양파 넣었어요? 버너도 금지, 양파 없는 메네멘도 금지예요.",
+   "note": "soğansız = 양파 없는",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

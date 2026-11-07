@@ -1,0 +1,122 @@
+{
+ "id": "r0_travel_a6",
+ "region": "R0",
+ "island": "travel",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "2킬로를 입다",
+ "emoji": "🧳",
+ "scene": "공항 수속대에서 가방 초과 요금을 안 내려고 옷을 전부 껴입는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Görevli"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "ne kadar·çok pahalı·bir dakika 로 공항에서 버티기",
+ "expressions": [
+  "ne kadar",
+  "çok pahalı",
+  "bir dakika"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Çantanız iki kilo fazla.",
+   "rd": "찬타느즈 이키 킬로 파즐라.",
+   "ko": "가방이 2킬로 초과예요.",
+   "note": "çanta = 가방 · kilo = 킬로 · fazla = 초과",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Ne kadar?",
+   "rd": "네 카다르?",
+   "ko": "얼마예요?",
+   "note": "ne kadar = 얼마",
+   "tags": [
+    "expr:ne kadar"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Yüz dolar, efendim.",
+   "rd": "위즈 돌라르, 에펜딤.",
+   "ko": "100달러입니다, 고객님.",
+   "note": "efendim = 손님(남녀 공용)",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Çok pahalı! Bir dakika…",
+   "rd": "촉 파할르! 비르 다키카…",
+   "ko": "너무 비싸요! 잠깐만요…",
+   "note": "çok pahalı = 너무 비싸요",
+   "tags": [
+    "expr:çok pahalı",
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Ne yapıyorsunuz?",
+   "rd": "네 야프요르수누즈?",
+   "ko": "뭐 하시는 거예요?",
+   "note": "ne yapıyorsunuz = 뭐 하세요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Hepsini giyiyorum. Çanta şimdi nasıl?",
+   "rd": "헵시니 기이요룸. 찬타 심디 나슬?",
+   "ko": "다 입고 있어요. 이제 가방 어때요?",
+   "note": "giymek = 입다 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Çanta tamam. Siz kapıdan geçemezsiniz.",
+   "rd": "찬타 타맘. 시즈 카프단 게체메즈시니즈.",
+   "ko": "가방은 됐어요. 손님이 문을 못 지나가요.",
+   "note": "geçemezsiniz = 못 지나가요",
+   "tags": [
+    "form:-emez"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Geçerim. Yan yan geçerim.",
+   "rd": "게체림. 얀 얀 게체림.",
+   "ko": "지나가요. 옆으로 가면 돼요.",
+   "note": "yan yan = 옆으로",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

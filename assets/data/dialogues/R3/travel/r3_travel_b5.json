@@ -1,0 +1,211 @@
+{
+ "id": "r3_travel_b5",
+ "region": "R3",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "love"
+ ],
+ "domain": [
+  "travel",
+  "love"
+ ],
+ "title": "산은 안 보는데",
+ "emoji": "⛰️",
+ "scene": "넴루트 산 새벽, 아침잠 많은 Elif 가 말없이 따라와 같이 해를 기다린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 10,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "bilmem ki·aynen·sanırım 으로 말 돌리고 마음 들키기",
+ "expressions": [
+  "aynen",
+  "bilmem ki",
+  "ne demek",
+  "sanırım",
+  "olmaz"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Saat üç, hava buz gibi. Elif, gerçekten uyanık mısın?",
+   "rd": "사앗 위치, 하바 부즈 기비. 엘리프, 게르첵텐 우야늑 므슨?",
+   "ko": "세 시야, 날씨가 얼음 같아. 엘리프, 진짜 깬 거야?",
+   "note": "buz gibi = 얼음처럼 차가운",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Uyanığım. Şaşırma, ben de şaşırdım. Bak, çayı bile kendim aldım.",
+   "rd": "우야느음. 샤시르마, 벤 데 샤시르듬. 박, 차이으 빌레 켄딤 알듬.",
+   "ko": "깼어. 놀라지 마, 나도 놀랐어. 봐, 차도 내가 샀어.",
+   "note": "şaşırmak = 놀라다",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Kapadokya'da balon için bile kalkmadın. Kahvaltı deyince kalktın.",
+   "rd": "카파독야다 발론 이친 빌레 칼크마든. 카흐발트 데인제 칼크튼.",
+   "ko": "카파도키아에선 풍선 때문에도 안 일어났잖아. 아침밥이라니까 일어났지.",
+   "note": "deyince = 그 말을 하자",
+   "tags": [
+    "callback:r0_travel_a4"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Aynen, çünkü kahvaltı vardı. Burada kahvaltı da yok, yol da zor.",
+   "rd": "아이넨, 췬퀴 카흐발트 바르드. 부라다 카흐발트 다 욕, 욜 다 조르.",
+   "ko": "맞아, 아침밥이 있었으니까. 여긴 아침도 없고, 길도 험해.",
+   "note": "aynen = 맞아 그거",
+   "tags": [
+    "expr:aynen"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "O zaman neden geldin? Üç saat dağa çıktık, taşlara bakacağız.",
+   "rd": "오 자만 네덴 겔딘? 위치 사앗 다아 측특, 타실라라 바카자으즈.",
+   "ko": "그럼 왜 왔어? 세 시간 산 올라와서, 돌을 볼 거잖아.",
+   "note": "taş = 돌",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Bilmem ki… Taşları çok seviyorum herhalde.",
+   "rd": "빌멤 키… 타실라르 촉 세비요룸 헤르할데.",
+   "ko": "글쎄… 돌을 엄청 좋아하나 보지.",
+   "note": "bilmem ki = 글쎄",
+   "tags": [
+    "expr:bilmem ki",
+    "expr:herhalde"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Dün «taş taştır» diyordun. Üşüyorsun, gel, ceketimi al.",
+   "rd": "뒨 타시 타시트르 디요르둔. 위쉬요르순, 겔, 제케티미 알.",
+   "ko": "어제는 「돌은 돌이지」 그랬으면서. 춥잖아, 이리 와, 내 재킷 입어.",
+   "note": "üşümek = 춥다 · ceket = 재킷",
+   "tags": [],
+   "new": [
+    "üşümek"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Sen üşürsün. Yarısı senin, gel yanıma, böyle oturalım.",
+   "rd": "센 위쉬르쉰. 야르스 세닌, 겔 야느마, 뵈일레 오투랄름.",
+   "ko": "넌 추울 거야. 반은 네 거, 내 옆에 와, 이렇게 앉자.",
+   "note": "yarısı senin = 반은 네 거",
+   "tags": [
+    "callback:r1_travel_a3"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Bak, güneş geliyor. Elif, bu dağ gerçekten çok güzel…",
+   "rd": "박, 귀네시 겔리요르. 엘리프, 부 다 게르첵텐 촉 귀젤…",
+   "ko": "봐, 해 뜬다. 엘리프, 이 산 진짜 너무 멋지다…",
+   "note": "güneş = 해",
+   "tags": [
+    "expr:bak",
+    "expr:çok güzel"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Hiç bakmıyorum ki. Yani bakıyorum… ama dağa değil.",
+   "rd": "히치 박므요룸 키. 야니 바크요룸… 아마 다아 데일.",
+   "ko": "나 안 보고 있는데. 아니 보긴 보는데… 산은 아니고.",
+   "note": "dağa değil = 산이 아니라 — 반전",
+   "tags": [
+    "expr:yani",
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Ne demek dağa değil? Elif, ben… şey…",
+   "rd": "네 데멕 다아 데일? 엘리프, 벤… 셰이…",
+   "ko": "산이 아니라니 무슨 말이야? 엘리프, 나… 그게…",
+   "note": "ne demek = 무슨 말이야",
+   "tags": [
+    "expr:ne demek",
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Sus. Ben sabah uyanmam, biliyorsun. Neden kalktım, bir düşün.",
+   "rd": "수스. 벤 사바흐 우얀맘, 빌리요르순. 네덴 칼크틈, 비르 뒤쉰.",
+   "ko": "쉿. 나 아침에 못 일어나는 거 알잖아. 왜 일어났는지, 생각해 봐.",
+   "note": "bir düşün = 한번 생각해 봐",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "tl": "Düşündüm. Sanırım anladım. Ama bir daha söyler misin?",
+   "rd": "뒤쉰뒴. 사느름 안라듬. 아마 비르 다하 쇠일레르 미신?",
+   "ko": "생각해 봤어. 알 것 같아. 근데 한 번 더 말해 줄래?",
+   "note": "sanırım = 내 생각엔",
+   "tags": [
+    "expr:sanırım",
+    "expr:anladım"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "Olmaz. Şimdi kahvaltı, sonra belki.",
+   "rd": "올마즈. 심디 카흐발트, 손라 벨키.",
+   "ko": "안 돼. 일단 아침 먹고, 그다음에 어쩌면.",
+   "note": "belki = 어쩌면",
+   "tags": [
+    "expr:olmaz",
+    "callback:r0_travel_a4"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

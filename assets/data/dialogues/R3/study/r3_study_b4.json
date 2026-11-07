@@ -1,0 +1,208 @@
+{
+ "id": "r3_study_b4",
+ "region": "R3",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "규칙도 휴가",
+ "emoji": "🌙",
+ "scene": "명절 전날, 모두 고향에 간 기숙사에 혼자 남았는데 불빛을 보고 누가 올라온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Yurt görevlisi",
+  "C": "Zeynep"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "iyi bayramlar·eline sağlık 로 명절 인사하기",
+ "expressions": [
+  "iyi bayramlar",
+  "eline sağlık",
+  "kusura bakmayın",
+  "olsun",
+  "yok artık"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Yurtta kimse kaldı mı? Bayramda ne yapacaksın?",
+   "rd": "유르타 킴세 칼드 므? 바이람다 네 야파작슨?",
+   "ko": "기숙사에 누구 남았어? 명절에 뭐 할 거야?",
+   "note": "bayram = 명절",
+   "tags": [],
+   "new": [
+    "bayram"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Hiç. Herkes memlekete gitti. Koridor bomboş.",
+   "rd": "히치. 헤르케스 멤레케테 기티. 코리도르 봄보시.",
+   "ko": "아무것도. 다들 고향 갔어. 복도가 텅 비었어.",
+   "note": "memleket = 고향",
+   "tags": [],
+   "new": [
+    "memleket"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Bize gelseydin. Annem seni sordu.",
+   "rd": "비제 겔세이딘. 안넴 세니 소르두.",
+   "ko": "우리 집에 오지 그랬어. 엄마가 너 찾으셨어.",
+   "note": "gelseydin = 왔으면 좋았을걸",
+   "tags": [
+    "form:-seydin"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Olsun, ben ders çalışırım. Sana iyi bayramlar.",
+   "rd": "올순, 벤 데르스 찰르시름. 사나 이이 바이람라르.",
+   "ko": "괜찮아, 나 공부하면 돼. 너는 명절 잘 보내.",
+   "note": "iyi bayramlar = 명절 잘 보내",
+   "tags": [
+    "expr:iyi bayramlar",
+    "expr:olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Işığı gördüm, geldim. {name}, hâlâ burada mısınız?",
+   "rd": "으시으 괴르뒴, 겔딤. {name}, 할라 부라다 므스느즈?",
+   "ko": "불빛 보고 왔어요. {name} 학생, 아직 여기 있어요?",
+   "note": "ışık = 불빛",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Evet. Uçak bileti çok pahalı. Burada kalıyorum.",
+   "rd": "에벳. 우착 빌레티 촉 파할르. 부라다 칼르요룸.",
+   "ko": "네. 비행기표가 너무 비싸서요. 여기 있으려고요.",
+   "note": "uçak bileti = 비행기표",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Yurtta bir siz kaldınız, bir de ben.",
+   "rd": "유르타 비르 시즈 칼드느즈, 비르 데 벤.",
+   "ko": "기숙사에 학생이랑 나만 남았네요.",
+   "note": "bir … bir de = ~랑 ~만",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Kusura bakmayın, ışığı kapatayım o zaman.",
+   "rd": "쿠수라 박마이은, 으시으 카파타이음 오 자만.",
+   "ko": "죄송해요, 그럼 불 끌게요.",
+   "note": "kapatayım = 끌게요",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Kapatmayın. Şunu tutun, eşim size gönderdi.",
+   "rd": "카파트마이은. 슈누 투툰, 에심 시제 괸데르디.",
+   "ko": "끄지 마요. 이거 받아요, 우리 집에서 학생 주라고 보냈어요.",
+   "note": "tutun = 받으세요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Baklava mı? Bana mı? Yok artık, eşinizin eline sağlık!",
+   "rd": "바클라바 므? 바나 므? 욕 아르특, 에시니진 엘리네 살륵!",
+   "ko": "바클라바요? 저한테요? 세상에, 정말 감사합니다!",
+   "note": "eline sağlık = 만든 사람에게 하는 인사",
+   "tags": [
+    "expr:eline sağlık",
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Bir de bu var. Mutfağın anahtarı. Bu gece ocak serbest.",
+   "rd": "비르 데 부 바르. 무트파은 아나흐타르. 부 게제 오작 세르베스트.",
+   "ko": "그리고 이거요. 주방 열쇠예요. 오늘 밤은 버너 허용이에요.",
+   "note": "serbest = 허용된 — 반전",
+   "tags": [
+    "callback:r2_study_b2"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Hocam, siz yasak demiştiniz! Hem de iki kez!",
+   "rd": "호잠, 시즈 야삭 데미시티니즈! 헴 데 이키 케즈!",
+   "ko": "선생님, 금지라고 하셨잖아요! 그것도 두 번이나!",
+   "note": "demiştiniz = 말씀하셨었다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Bayramda yurt boş, kurallar da izinli.",
+   "rd": "바이람다 유르트 보시, 쿠랄라르 다 이진리.",
+   "ko": "명절엔 기숙사도 비고, 규칙도 휴가예요.",
+   "note": "izinli = 휴가 중인",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Yurtta kimse kalmadı, biraz üzülüyordum…",
+   "rd": "유르타 킴세 칼마드, 비라즈 위쥘뤼요르둠…",
+   "ko": "기숙사에 아무도 없어서, 좀 속상했는데…",
+   "note": "üzülmek = 속상하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Kimse kalmadı mı? Siz kaldınız ya. Menemen yapın, soğanlı olsun.",
+   "rd": "킴세 칼마드 므? 시즈 칼드느즈 야. 메네멘 야픈, 소안르 올순.",
+   "ko": "아무도 없긴요? 학생이 있잖아요. 메네멘 해요, 양파 넣어서요.",
+   "note": "ya = ~잖아요",
+   "tags": [
+    "expr:olsun",
+    "simkung",
+    "callback:r2_study_b2"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

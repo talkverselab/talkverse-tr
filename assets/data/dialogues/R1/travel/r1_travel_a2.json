@@ -1,0 +1,131 @@
+{
+ "id": "r1_travel_a2",
+ "region": "R1",
+ "island": "travel",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "가방 먼저 출발",
+ "emoji": "🚌",
+ "scene": "오토가르에서 구경만 하려는데, 표 파는 사람들이 내 가방부터 버스에 싣는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Biletçi",
+  "C": "Öteki biletçi"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "bir dakika·eyvah 로 호객꾼 막기",
+ "expressions": [
+  "bir dakika",
+  "aman",
+  "hadi",
+  "eyvah",
+  "çok güzel"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "İzmir mi? Gelin, gelin!",
+   "rd": "이즈미르 미? 겔린, 겔린!",
+   "ko": "이즈미르요? 오세요, 오세요!",
+   "note": "gelin = 오세요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Bir dakika, ben sadece bakıyorum.",
+   "rd": "비르 다키카, 벤 사데제 바크요룸.",
+   "ko": "잠깐만요, 저 그냥 보는 중이에요.",
+   "note": "sadece = 그냥, ~만",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Oraya gitmeyin! Bizimki daha iyi!",
+   "rd": "오라야 기트메인! 비짐키 다하 이이!",
+   "ko": "거기 가지 마세요! 우리 게 더 좋아요!",
+   "note": "bizimki = 우리 것",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Aman! Çantanızı verin, hadi!",
+   "rd": "아만! 찬타느즈 베린, 하디!",
+   "ko": "아이고! 가방 주세요, 어서요!",
+   "note": "çanta = 가방",
+   "tags": [
+    "expr:aman",
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Hayır, durun… Çantam nerede?",
+   "rd": "하이으르, 두룬… 찬탐 네레데?",
+   "ko": "아니요, 잠깐만요… 제 가방 어디 있어요?",
+   "note": "durun = 멈추세요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Çantanız otobüste. Kalkıyor, hadi!",
+   "rd": "찬타느즈 오토뷔스테. 칼크요르, 하디!",
+   "ko": "가방은 버스에 있어요. 출발해요, 어서요!",
+   "note": "otobüs = 버스 — 반전",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": [
+    "otobüs"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Eyvah! O otobüs nereye gidiyor?",
+   "rd": "에이바흐! 오 오토뷔스 네레예 기디요르?",
+   "ko": "헉! 그 버스 어디로 가요?",
+   "note": "nereye = 어디로",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Bursa'ya. Çok güzel, görürsünüz.",
+   "rd": "부르사야. 촉 귀젤, 괴뤼르쉬뉘즈.",
+   "ko": "부르사요. 아주 좋아요, 가 보면 알아요.",
+   "note": "görürsünüz = 보게 될 거예요",
+   "tags": [
+    "expr:çok güzel"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "id": "r2_culture_b7",
+ "region": "R2",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "travel"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "계산서 전쟁",
+ "emoji": "🧾",
+ "scene": "Zeynep 친척들과 저녁. 나눠 내자고 했다가 어른들의 계산서 싸움을 본다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Amca",
+  "D": "Dayı",
+  "E": "Garson"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "hesap lütfen·olmaz 로 식당 계산 자리 넘기기",
+ "expressions": [
+  "şey",
+  "hesap lütfen",
+  "olmaz",
+  "yok",
+  "kusura bakmayın"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Yemek çok güzeldi. Hesabı bölüşelim mi?",
+   "rd": "예멕 촉 귀젤디. 헤사브 뵐뤼셸림 미?",
+   "ko": "너무 맛있었어. 계산은 나눠서 할까?",
+   "note": "bölüşmek = 나누다",
+   "tags": [],
+   "new": [
+    "bölüşmek"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Sus! Burada öyle bir şey söyleme.",
+   "rd": "수스! 부라다 외일레 비르 셰이 쇠일레메.",
+   "ko": "쉿! 여기서 그런 말 하지 마.",
+   "note": "sus = 조용히 해",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Garson! Hesap lütfen, bana getir.",
+   "rd": "가르손! 헤삽 뤼트펜, 바나 게티르.",
+   "ko": "여기요! 계산서요, 나한테 줘요.",
+   "note": "hesap lütfen = 계산서요",
+   "tags": [
+    "expr:hesap lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "tl": "Yok, olmaz! Bu akşam ben ödüyorum.",
+   "rd": "욕, 올마즈! 부 악샴 벤 외뒤요룸.",
+   "ko": "아니, 안 돼! 오늘은 내가 내.",
+   "note": "ödemek = 내다",
+   "tags": [
+    "expr:olmaz",
+    "expr:yok"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Elini çek, kardeşim! Çek dedim!",
+   "rd": "엘리니 첵, 카르데심! 첵 데딤!",
+   "ko": "손 치워, 동생! 치우라니까!",
+   "note": "elini çek = 손 치워",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Zeynep, kavga mı var? Ben ödeyeyim, biter.",
+   "rd": "제이넵, 카브가 므 바르? 벤 외데예임, 비테르.",
+   "ko": "Zeynep, 싸우는 거야? 내가 낼게, 그럼 끝나잖아.",
+   "note": "kavga = 싸움",
+   "tags": [],
+   "new": [
+    "kavga"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Sakın! O zaman üçüncü kişi olursun.",
+   "rd": "사큰! 오 자만 위췬쥐 키시 올루르순.",
+   "ko": "절대 안 돼! 그럼 네가 세 번째 선수 돼.",
+   "note": "üçüncü = 세 번째",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "E",
+   "tl": "Kusura bakmayın, hesap ödendi efendim.",
+   "rd": "쿠수라 박마이은, 헤삽 외덴디 에펜딤.",
+   "ko": "죄송합니다, 계산은 끝났습니다.",
+   "note": "ödendi = 지불됐다 — 반전",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Ne? Kim ödedi peki?",
+   "rd": "네? 킴 외데디 페키?",
+   "ko": "네? 그럼 누가 냈어요?",
+   "note": "peki = 그럼",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "E",
+   "tl": "Yan masadaki amca. Size selamı var.",
+   "rd": "얀 마사다키 암자. 시제 셀라므 바르.",
+   "ko": "옆 테이블 어르신이요. 안부 전하십니다.",
+   "note": "selamı var = 안부 전한다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "D",
+   "tl": "Ona tatlı gönderin! Hesabı da bana getirin!",
+   "rd": "오나 타틀르 괸데린! 헤사브 다 바나 게티린!",
+   "ko": "그분께 디저트 보내요! 계산서는 나한테 주고!",
+   "note": "tatlı = 디저트",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Tebrikler. Savaş artık iki masada.",
+   "rd": "테브리클레르. 사바시 아르특 이키 마사다.",
+   "ko": "축하해. 이제 전쟁이 두 테이블로 번졌어.",
+   "note": "savaş = 전쟁",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

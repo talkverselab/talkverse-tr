@@ -1,0 +1,227 @@
+{
+ "id": "r3_life_b6",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "월세에 뽀뽀를",
+ "emoji": "🔑",
+ "scene": "처음 집을 보러 간 날, 집주인 앞에서 터키어가 차례로 무너진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emlakçı",
+  "C": "Ev sahibi"
+ },
+ "register": "polite",
+ "twist": 11,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "kusura bakmayın·ödemek 으로 집주인과 첫 만남 넘기기",
+ "expressions": [
+  "buyurun",
+  "kusura bakmayın",
+  "merhaba",
+  "önemli değil",
+  "çok güzel",
+  "pardon"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Buyurun, ev sahibi de burada. Kendinizi biraz anlatın.",
+   "rd": "부유룬, 에브 사히비 데 부라다. 켄디니지 비라즈 안라튼.",
+   "ko": "들어오세요, 집주인분도 계세요. 자기소개 좀 하세요.",
+   "note": "kendinizi = 자신을",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Merhaba, adım {name}. Türkçem biraz kötü, kusura bakmayın.",
+   "rd": "메르하바, 아듬 {name}. 튀르크쳄 비라즈 쾨튀, 쿠수라 박마이은.",
+   "ko": "안녕하세요, 제 이름은 {name}.   터키어가 좀 서툴러요, 죄송합니다.",
+   "note": "kusura bakmayın = 죄송합니다",
+   "tags": [
+    "expr:kusura bakmayın",
+    "expr:merhaba"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Önemli değil. Neden bu evi istiyorsunuz?",
+   "rd": "외넴리 데일. 네덴 부 에비 이스티요르수누즈?",
+   "ko": "괜찮아요. 왜 이 집을 원하세요?",
+   "note": "neden = 왜",
+   "tags": [
+    "expr:önemli değil"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Çünkü çok güzel. Sizinle yaşamak istiyorum.",
+   "rd": "췬퀴 촉 귀젤. 시진레 야샤막 이스티요룸.",
+   "ko": "너무 좋아서요. 선생님이랑 같이 살고 싶어요.",
+   "note": "sizinle = 당신과 함께(evinizde = 댁에서)",
+   "tags": [
+    "expr:çok güzel"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Benimle mi? Ben yetmiş yaşındayım, evliyim.",
+   "rd": "베님레 미? 벤 예트미시 야신다이음, 에블리임.",
+   "ko": "저랑요? 전 일흔이고, 결혼도 했는데요.",
+   "note": "evli = 결혼한",
+   "tags": [],
+   "new": [
+    "yetmiş"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "'Evinizde' demek istedi, efendim. Türkçesi daha yeni.",
+   "rd": "에비니즈데 데멕 이스테디, 에펜딤. 튀르크체시 다하 예니.",
+   "ko": "'댁에서'라는 뜻이었어요, 선생님. 터키어가 아직 초보라서요.",
+   "note": "demek istedi = 말하려던 것",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Evet, evet! Pardon. Yani eviniz çok yaşlı, çok güzel.",
+   "rd": "에벳, 에벳! 파르돈. 야니 에비니즈 촉 야실르, 촉 귀젤.",
+   "ko": "네, 네! 죄송해요. 그러니까 댁이 아주 늙어서 참 좋아요.",
+   "note": "yaşlı = 늙은(사람) · 집은 eski",
+   "tags": [
+    "expr:çok güzel",
+    "expr:pardon",
+    "expr:yani"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Yaşlı mı? Ev mi yaşlı, ben mi?",
+   "rd": "야실르 므? 에브 미 야실르, 벤 미?",
+   "ko": "늙었다고요? 집이 늙었어요, 제가 늙었어요?",
+   "note": "… mi, … mi? = ~요, ~요?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Hayır, siz değil! Siz çok… çok taze görünüyorsunuz.",
+   "rd": "하이으르, 시즈 데일! 시즈 촉… 촉 타제 괴뤼뉘요르수누즈.",
+   "ko": "아뇨! 선생님 말고요! 아주… 아주 신선해 보이세요.",
+   "note": "taze = 신선한(음식에 쓰는 말)",
+   "tags": [],
+   "new": [
+    "taze"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Lütfen artık konuşmayın. Ben anlatırım.",
+   "rd": "뤼트펜 아르특 코누시마이은. 벤 안라트름.",
+   "ko": "제발 이제 말씀하지 마세요. 제가 설명할게요.",
+   "note": "konuşmayın = 말하지 마세요",
+   "tags": [
+    "expr:lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Tamam. Son bir soru: Kirayı ne zaman öpeyim?",
+   "rd": "타맘. 손 비르 소루 키라이으 네 자만 외페임?",
+   "ko": "네. 마지막 질문이요. 월세는 언제 뽀뽀해 드릴까요?",
+   "note": "öpmek = 입 맞추다(ödemek = 내다) — 반전",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Öpmek mi?! Eşim bunu duymasın!",
+   "rd": "욉멕 미?! 에심 부누 두이마슨!",
+   "ko": "뽀뽀요?! 제 아내가 들으면 안 돼요!",
+   "note": "duymasın = 듣지 않게",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Bitti. Kusura bakmayın, efendim. Biz gidiyoruz.",
+   "rd": "비티. 쿠수라 박마이은, 에펜딤. 비즈 기디요루즈.",
+   "ko": "끝났네요. 죄송합니다, 선생님. 저희 갈게요.",
+   "note": "bitti = 끝났다",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "tl": "Yok, yok, oturun. Elli yıldır bu kadar gülmedim. Ev sizin.",
+   "rd": "욕, 욕, 오투룬. 엘리 이을드르 부 카다르 귈메딤. 에브 시진.",
+   "ko": "아뇨, 아뇨, 앉으세요. 50년 동안 이렇게 웃은 적이 없어요. 집은 드릴게요.",
+   "note": "gülmek = 웃다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "tl": "Gerçekten mi? Ben de sizinle yaşamak istiyorum!",
+   "rd": "게르첵텐 미? 벤 데 시진레 야샤막 이스티요룸!",
+   "ko": "진짜요? 저도 선생님이랑 살고 싶어요!",
+   "note": "gerçekten mi? = 진짜요?",
+   "tags": [
+    "expr:gerçekten mi"
+   ],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "tl": "Kira yine de artar.",
+   "rd": "키라 이네 데 아르타르.",
+   "ko": "그래도 월세는 오릅니다.",
+   "note": "yine de = 그래도",
+   "tags": [
+    "callback:r1_life_b2"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

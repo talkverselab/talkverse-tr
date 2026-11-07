@@ -1,0 +1,185 @@
+{
+ "id": "r2_culture_b4",
+ "region": "R2",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "접시는 빈 채로 돌아가지 않는다",
+ "emoji": "🍽️",
+ "scene": "옆집이 뵈렉을 줬다. 접시를 돌려주려다 끝나지 않는 전쟁이 시작된다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Komşu"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "ciddi misin·olmaz·bekle 로 이웃 인심 주고받기",
+ "expressions": [
+  "çok güzel",
+  "olmaz",
+  "ciddi misin",
+  "olur",
+  "şey",
+  "elinize sağlık"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bu tabak ne? Çok güzel kokuyor.",
+   "rd": "부 타박 네? 촉 귀젤 코쿠요르.",
+   "ko": "이 접시 뭐야? 냄새 너무 좋아.",
+   "note": "tabak = 접시",
+   "tags": [
+    "expr:çok güzel"
+   ],
+   "new": [
+    "tabak"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Komşu börek getirdi. Tabağı boş götüreceğim.",
+   "rd": "콤슈 뵈렉 게티르디. 타바으 보시 괴튀레제임.",
+   "ko": "옆집에서 뵈렉 줬어. 접시는 빈 채로 갖다주려고.",
+   "note": "götürmek = 가져가다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Boş mu? Olmaz, tabak boş dönmez {name}.",
+   "rd": "보시 무? 올마즈, 타박 보시 된메즈 {name}.",
+   "ko": "빈 채로? 안 돼, 접시는 빈 채로 안 돌아가 {name}.",
+   "note": "boş dönmez = 빈손으로 안 돌아간다",
+   "tags": [
+    "expr:olmaz"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Ciddi misin? Neden peki?",
+   "rd": "지디 미신? 네덴 페키?",
+   "ko": "진심이야? 왜?",
+   "note": "ciddi misin = 진심이야?",
+   "tags": [
+    "expr:ciddi misin"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Ayıp olur. İçine bir şey koy, öyle götür.",
+   "rd": "아이읍 올루르. 이치네 비르 셰이 코이, 외일레 괴튀르.",
+   "ko": "예의가 아니야. 뭐 하나 담아서 갖다줘.",
+   "note": "ayıp = 예의 없는 일",
+   "tags": [
+    "expr:olur",
+    "expr:şey"
+   ],
+   "new": [
+    "ayıp"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Elinize sağlık! Tabağın içinde elma var.",
+   "rd": "엘리니제 살륵! 타바은 이친데 엘마 바르.",
+   "ko": "잘 먹었어요! 접시에 사과 담았어요.",
+   "note": "elma = 사과",
+   "tags": [
+    "expr:elinize sağlık"
+   ],
+   "new": [
+    "elma"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Aa, zahmet ettin! Bekle yavrum, hemen geliyorum.",
+   "rd": "아아, 자흐멧 에틴! 베클레 야브룸, 헤멘 겔리요룸.",
+   "ko": "어머, 뭘 이런 걸! 기다려라 얘야, 금방 올게.",
+   "note": "zahmet ettin = 뭘 이런 걸",
+   "tags": [
+    "expr:geliyorum",
+    "expr:bekle"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Elif, tabak geri geldi! İçinde dolma var!",
+   "rd": "엘리프, 타박 게리 겔디! 이친데 돌마 바르!",
+   "ko": "Elif, 접시가 돌아왔어! 안에 돌마가 있어!",
+   "note": "dolma = 속 채운 음식 — 반전",
+   "tags": [],
+   "new": [
+    "dolma"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Eyvah. Şimdi senin sıran.",
+   "rd": "에이바흐. 심디 세닌 스란.",
+   "ko": "헉. 이제 네 차례야.",
+   "note": "sıra = 차례",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Bir hafta oldu, bu sekizinci tabak! Mutfakta yer yok!",
+   "rd": "비르 하프타 올두, 부 세키진지 타박! 무트팍타 예르 욕!",
+   "ko": "일주일 됐어, 이게 여덟 번째 접시야! 주방에 자리가 없어!",
+   "note": "sekizinci = 여덟 번째",
+   "tags": [
+    "expr:yok"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Dayan. Bir tabak daha geliyor, kokusu kapıda.",
+   "rd": "다얀. 비르 타박 다하 겔리요르, 코쿠수 카프다.",
+   "ko": "버텨. 접시 하나 더 온다, 냄새가 문 앞이야.",
+   "note": "dayan = 버텨",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Yavrum, üst kat da senden tabak bekliyor.",
+   "rd": "야브룸, 위스트 캇 다 센덴 타박 베클리요르.",
+   "ko": "얘야, 윗집도 네 접시 기다린단다.",
+   "note": "üst kat = 윗집",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

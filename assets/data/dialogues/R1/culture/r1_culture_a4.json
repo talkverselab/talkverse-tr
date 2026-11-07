@@ -1,0 +1,129 @@
+{
+ "id": "r1_culture_a4",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "travel"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "차는 끝나지 않는다",
+ "emoji": "🍵",
+ "scene": "Zeynep 이모 집, 그만 마시겠다는 말이 통하지 않는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Teyze",
+  "C": "Zeynep"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "teşekkür ederim·ne yapalım 으로 권하는 차 거절하기",
+ "expressions": [
+  "teşekkür ederim",
+  "yok",
+  "tamam",
+  "hadi",
+  "ne yapalım"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bir çay daha, yavrum?",
+   "rd": "비르 차이 다하, 야브룸?",
+   "ko": "차 한 잔 더 하렴?",
+   "note": "yavrum = 얘야",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Yok, teşekkür ederim. Üç bardak içtim.",
+   "rd": "욕, 테셰퀴르 에데림. 위치 바르닥 이치팀.",
+   "ko": "아뇨, 고맙습니다. 세 잔 마셨어요.",
+   "note": "bardak = 잔",
+   "tags": [
+    "expr:teşekkür ederim",
+    "expr:yok"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Küçük bardak, yavrum. Al bakalım.",
+   "rd": "퀴췩 바르닥, 야브룸. 알 바칼름.",
+   "ko": "잔이 작잖니, 얘야. 자, 받아.",
+   "note": "al bakalım = 자, 받아",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Zeynep, bu nasıl bitecek?",
+   "rd": "제이넵, 부 나슬 비테젝?",
+   "ko": "Zeynep, 이거 어떻게 끝나?",
+   "note": "bitecek = 끝날 것이다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Kaşığı bardağın üstüne koy. Bitti demek.",
+   "rd": "카시으 바르다은 위스튀네 코이. 비티 데멕.",
+   "ko": "숟가락을 잔 위에 올려. 그만이라는 뜻이야.",
+   "note": "kaşık = 숟가락",
+   "tags": [],
+   "new": [
+    "kaşık"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Tamam, koydum. Hadi bakalım.",
+   "rd": "타맘, 코이둠. 하디 바칼름.",
+   "ko": "좋아, 올렸어. 자, 보자.",
+   "note": "koydum = 놓았다",
+   "tags": [
+    "expr:tamam",
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Aa, kaşık düşecek! Al, yeni bardak.",
+   "rd": "아아, 카식 뒤셰젝! 알, 예니 바르닥.",
+   "ko": "어머, 숟가락 떨어지겠다! 자, 새 잔.",
+   "note": "düşecek = 떨어지겠다 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Ne yapalım. İç.",
+   "rd": "네 야팔름. 이치.",
+   "ko": "어쩌겠어. 마셔.",
+   "note": "ne yapalım = 어쩌겠어",
+   "tags": [
+    "expr:ne yapalım"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

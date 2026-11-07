@@ -1,0 +1,149 @@
+{
+ "id": "r0_culture_c3",
+ "region": "R0",
+ "island": "culture",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "그 E",
+ "emoji": "🌙",
+ "scene": "밤늦게 Elif 가 그날 커피 점 이야기를 다시 꺼낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "bilmem·yani 로 밤 채팅 이어 가기",
+ "expressions": [
+  "ne alaka",
+  "of",
+  "bilmem",
+  "yani"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Uyudun mu? Fincan aklımdan çıkmıyor.",
+   "rd": "우유둔 무? 핀잔 아클름단 측므요르.",
+   "ko": "자? 그 잔이 머리에서 안 떠나.",
+   "note": "aklımdan çıkmıyor = 머리에서 안 떠난다",
+   "tags": [],
+   "new": [],
+   "at": "23:41",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Hangi fincan? Ha, E harfi!",
+   "rd": "한기 핀잔? 하, 에 하르피!",
+   "ko": "무슨 잔? 아, E!",
+   "note": "hangi = 어느",
+   "tags": [],
+   "new": [],
+   "at": "23:42",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Emre'ye sordun mu?",
+   "rd": "엠레예 소르둔 무?",
+   "ko": "Emre 한테 물어봤어?",
+   "note": "sormak = 묻다",
+   "tags": [
+    "callback:r0_culture_a1"
+   ],
+   "new": [],
+   "at": "23:42",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Sordum. Ne alaka, dedi.",
+   "rd": "소르둠. 네 알라카, 데디.",
+   "ko": "물어봤지. 뭔 소리냐던데.",
+   "note": "ne alaka = 뭔 소리야",
+   "tags": [
+    "expr:ne alaka"
+   ],
+   "new": [],
+   "at": "23:43",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Of {name}. Başka E bilmiyor musun?",
+   "rd": "오프 {name}. 바시카 에 빌미요르 무순?",
+   "ko": "아휴 {name}. 다른 E 몰라?",
+   "note": "başka = 다른",
+   "tags": [
+    "expr:of"
+   ],
+   "new": [],
+   "at": "23:43",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Bilmem… eczacı mı?",
+   "rd": "빌멤… 에지자즈 므?",
+   "ko": "글쎄… 약사?",
+   "note": "eczacı = 약사",
+   "tags": [
+    "expr:bilmem"
+   ],
+   "new": [
+    "eczacı"
+   ],
+   "at": "23:45",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Adım Elif.",
+   "rd": "아듬 엘리프.",
+   "ko": "내 이름 Elif 야.",
+   "note": "adım = 내 이름 — 반전",
+   "tags": [
+    "simkung",
+    "callback:r0_culture_a1"
+   ],
+   "new": [],
+   "at": "23:45",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Yani… fincan haklıymış 😳",
+   "rd": "야니… 핀잔 하클르이므시",
+   "ko": "그러니까… 잔이 맞았네 😳",
+   "note": "haklı = 옳은",
+   "tags": [
+    "simkung",
+    "expr:yani"
+   ],
+   "new": [],
+   "stamp": "😳",
+   "at": "23:51",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

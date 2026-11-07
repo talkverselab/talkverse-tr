@@ -1,0 +1,147 @@
+{
+ "id": "r0_friends_c2",
+ "region": "R0",
+ "island": "friends",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "고양이 한 마리만",
+ "emoji": "🐈",
+ "scene": "집에 들어온 고양이 한 마리, Can 말대로 우유를 줬더니 일이 커진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "-di 과거형으로 상황 알리기, hadi canım",
+ "expressions": [
+  "süper",
+  "bir dakika",
+  "hadi canım"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Can, evime bir kedi girdi 😅",
+   "rd": "잔, 에비메 비르 케디 기르디",
+   "ko": "잔, 우리 집에 고양이 들어왔어 😅",
+   "note": "girdi = 들어왔다",
+   "tags": [],
+   "new": [],
+   "at": "20:11",
+   "stamp": "😅",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Süper! Süt ver.",
+   "rd": "쉬페르! 쉿 베르.",
+   "ko": "최고네! 우유 줘.",
+   "note": "süt = 우유",
+   "tags": [
+    "expr:süper"
+   ],
+   "new": [
+    "süt"
+   ],
+   "at": "20:12",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Verdim. Şimdi yatağımda uyuyor.",
+   "rd": "베르딤. 심디 야타음다 우유요르.",
+   "ko": "줬어. 지금 내 침대에서 자.",
+   "note": "yatak = 침대",
+   "tags": [],
+   "new": [],
+   "at": "20:20",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Maşallah. Adını da koy.",
+   "rd": "마샬라흐. 아드느 다 코이.",
+   "ko": "아이고 예뻐라. 이름도 지어 줘.",
+   "note": "ad koymak = 이름 짓다",
+   "tags": [
+    "expr:maşallah"
+   ],
+   "new": [],
+   "at": "20:21",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Bir dakika… iki kedi var.",
+   "rd": "비르 다키카… 이키 케디 바르.",
+   "ko": "잠깐만… 고양이 두 마리야.",
+   "note": "iki = 둘 — 반전",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": [],
+   "at": "20:40",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Hadi canım! Kapıyı kapat.",
+   "rd": "하디 자늠! 카프이으 카팟.",
+   "ko": "에이 설마! 문 닫아.",
+   "note": "hadi canım = 에이 설마",
+   "tags": [
+    "expr:hadi canım"
+   ],
+   "new": [],
+   "at": "20:41",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Yedi oldu. Ben dışarıdayım.",
+   "rd": "예디 올두. 벤 드샤르다이음.",
+   "ko": "일곱 마리 됐어. 나 밖에 나왔어.",
+   "note": "dışarıdayım = 밖에 있어",
+   "tags": [],
+   "new": [],
+   "at": "21:15",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Kirayı onlardan al 😂",
+   "rd": "키라이으 온라르단 알",
+   "ko": "집세는 걔네한테 받아 😂",
+   "note": "kira = 집세",
+   "tags": [],
+   "new": [
+    "kira"
+   ],
+   "at": "21:15",
+   "stamp": "😂",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "id": "r2_love_b6",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "m 한 글자",
+ "emoji": "💌",
+ "scene": "Elif 생일 카드를 터키어로 썼는데 첫 줄에 m 한 글자가 더 붙었다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "goal": "sevgili·sevgilim 구별하고 vay be·eyvah 로 수습하기",
+ "expressions": [
+  "vay be",
+  "bir dakika",
+  "eyvah",
+  "öldüm",
+  "aman",
+  "şey",
+  "galiba"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Doğum günün kutlu olsun! Al, bu senin için.",
+   "rd": "도움 귀뉜 쿠틀루 올순! 알, 부 세닌 이친.",
+   "ko": "생일 축하해! 자, 이거 너 주려고.",
+   "note": "doğum günü = 생일",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Türkçe kart mı yazdın? Vay be!",
+   "rd": "튀르크체 카르트 므 야즈든? 바이 베!",
+   "ko": "터키어로 카드를 썼어? 와 대박!",
+   "note": "vay be = 와 대박",
+   "tags": [
+    "expr:vay be"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Evet, iki saat uğraştım. Hadi, oku.",
+   "rd": "에벳, 이키 사앗 우라시틈. 하디, 오쿠.",
+   "ko": "응, 두 시간 걸렸어. 어서, 읽어 봐.",
+   "note": "uğraşmak = 애쓰다",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "\"Sevgilim Elif\"… bir dakika, ne yazmışsın sen?",
+   "rd": "\"세브길림 엘리프\"… 비르 다키카, 네 야즈므시슨 센?",
+   "ko": "「내 사랑 Elif」… 잠깐, 너 뭐라고 쓴 거야?",
+   "note": "yazmışsın = 썼네(뜻밖)",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Normal bir şey, değil mi? Mektuplarda öyle yazılıyor.",
+   "rd": "노르말 비르 셰이, 데일 미? 멕투플라르다 외일레 야즐르요르.",
+   "ko": "평범한 말이잖아? 편지는 다 그렇게 쓴다던데.",
+   "note": "yazılıyor = 쓰인다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "\"Sevgili Elif\" normal. \"Sevgilim Elif\" başka bir şey.",
+   "rd": "\"세브길리 엘리프\" 노르말. \"세브길림 엘리프\" 바시카 비르 셰이.",
+   "ko": "「친애하는 Elif」는 평범해. 「내 사랑 Elif」는 얘기가 달라.",
+   "note": "sevgili = 친애하는 / sevgilim = 내 애인 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Eyvah, bir m harfi mi? Öldüm, ver sileyim!",
+   "rd": "에이바흐, 비르 므 하르피 미? 욀뒴, 베르 실레임!",
+   "ko": "헉, m 한 글자 때문에? 나 죽었다, 줘, 지울게!",
+   "note": "harf = 글자",
+   "tags": [
+    "expr:eyvah",
+    "expr:öldüm"
+   ],
+   "new": [
+    "harf"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Aman, dur! Önce geri kalanını okuyalım.",
+   "rd": "아만, 두르! 왼제 게리 칼라느느 오쿠얄름.",
+   "ko": "어머, 잠깐! 나머지부터 읽자.",
+   "note": "geri kalanı = 나머지",
+   "tags": [
+    "expr:aman",
+    "expr:dur"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Hayır, lütfen, sesli okuma!",
+   "rd": "하이으르, 뤼트펜, 세슬리 오쿠마!",
+   "ko": "안 돼, 제발, 소리 내서 읽지 마!",
+   "note": "sesli = 소리 내서",
+   "tags": [
+    "expr:lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "\"Seni her gün görmek istiyorum.\" Bu da mı yanlış?",
+   "rd": "\"세니 헤르 귄 괴르멕 이스티요룸.\" 부 다 므 얀르시?",
+   "ko": "「매일 너를 보고 싶어.」 이것도 실수야?",
+   "note": "yanlış = 틀린",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Şey… o doğru galiba.",
+   "rd": "셰이… 오 도루 갈리바.",
+   "ko": "저… 그건 맞는 것 같아.",
+   "note": "galiba = 아마",
+   "tags": [
+    "expr:şey",
+    "expr:galiba"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Sakın silme. O harf kalsın.",
+   "rd": "사큰 실메. 오 하르프 칼슨.",
+   "ko": "절대 지우지 마. 그 글자 그대로 둬.",
+   "note": "sakın = 절대 ~하지 마",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

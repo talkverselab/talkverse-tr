@@ -1,0 +1,213 @@
+{
+ "id": "r3_friends_b2",
+ "region": "R3",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "결혼 축하한대",
+ "emoji": "💍",
+ "scene": "Zeynep 반지를 고치러 금은방에 같이 갔을 뿐인데 동네가 우리를 결혼시켰다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can",
+  "C": "Zeynep"
+ },
+ "register": "casual",
+ "twist": 12,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "소문 부인하기, -mış 로 들은 말 전하기",
+ "expressions": [
+  "kanka",
+  "ne alaka",
+  "aynen",
+  "yok artık",
+  "bence"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hayırlı olsun! Neden bana söylemedin, kanka?",
+   "rd": "하이으를르 올순! 네덴 바나 쇠일레메딘, 칸카?",
+   "ko": "축하해! 왜 나한테 말 안 했어, 친구야?",
+   "note": "hayırlı olsun = 잘되길, 축하해",
+   "tags": [
+    "expr:kanka"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Ne hayırlı olsun? Neyin hayırlı olsun, Can?",
+   "rd": "네 하이으를르 올순? 네인 하이으를르 올순, 잔?",
+   "ko": "뭘 축하해? 뭐가 축하할 일인데, 잔?",
+   "note": "neyin = 무엇의",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Mahallede herkes konuşuyor. Zeynep'le evleniyormuşsun.",
+   "rd": "마할레데 헤르케스 코누슈요르. 제이네플레 에블레니요르무시순.",
+   "ko": "동네 사람 다 얘기해. 너 제이넵이랑 결혼한다며.",
+   "note": "-mışsın = ~한다며(들은 말)",
+   "tags": [
+    "form:-mış"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Ne alaka? Ben sadece onunla kuyumcuya gittim.",
+   "rd": "네 알라카? 벤 사데제 오눈라 쿠윰주야 기팀.",
+   "ko": "뭔 소리야? 난 그냥 걔랑 금은방 갔어.",
+   "note": "kuyumcu = 금은방",
+   "tags": [
+    "expr:ne alaka"
+   ],
+   "new": [
+    "kuyumcu"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Aynen! Teyze sizi orada görmüş, yüzüğe bakıyormuşsunuz.",
+   "rd": "아이넨! 테이제 시지 오라다 괴르뮈시, 위쥐에 바크요르무시수누즈.",
+   "ko": "맞아 그거! 아주머니가 거기서 봤대, 반지 보고 있었다며.",
+   "note": "yüzük = 반지",
+   "tags": [
+    "expr:aynen"
+   ],
+   "new": [
+    "yüzük"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Zeynep'in yüzüğü kırıldı, tamir ettirdik. Bu kadar!",
+   "rd": "제이네핀 위쥐위 크를드, 타미르 에티르딕. 부 카다르!",
+   "ko": "제이넵 반지가 부러져서 고치러 간 거야. 그게 다야!",
+   "note": "tamir ettirmek = 고치게 하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Sen öyle diyorsun. Manav sana indirim yapacakmış, düğün hediyesi.",
+   "rd": "센 외일레 디요르순. 마나브 사나 인디림 야파작므시, 뒤윈 헤디예시.",
+   "ko": "네 말은 그렇고. 청과상이 깎아 준대, 결혼 선물로.",
+   "note": "manav = 청과상 · indirim = 할인",
+   "tags": [],
+   "new": [
+    "manav",
+    "indirim"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Manav mı? Manava bunu kim söyledi?!",
+   "rd": "마나브 므? 마나바 부누 킴 쇠일레디?!",
+   "ko": "청과상? 청과상한테 누가 말했어?!",
+   "note": "kim söyledi = 누가 말했어",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Eczacı. Eczacıya da kuaför söylemiş, herhalde.",
+   "rd": "에지자즈. 에지자즈야 다 쿠아푀르 쇠일레미시, 헤르할데.",
+   "ko": "약사. 약사한테는 미용사가 말했겠지, 아마.",
+   "note": "eczacı = 약사 · herhalde = 아마",
+   "tags": [
+    "expr:herhalde"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Annem aradı. Sen bir şey mi yaptın?",
+   "rd": "안넴 아라드. 센 비르 셰이 미 얍튼?",
+   "ko": "엄마한테 전화 왔어. 너 뭐 했어?",
+   "note": "aramak = 전화하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Ben hiçbir şey yapmadım! Mahalle yaptı, mahalle!",
+   "rd": "벤 히치비르 셰이 얍마듬! 마할레 얍트, 마할레!",
+   "ko": "난 아무것도 안 했어! 동네가 했어, 동네가!",
+   "note": "hiçbir şey = 아무것도",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Annem salon tutmuş. Kaporasını da vermiş.",
+   "rd": "안넴 살론 투트무시. 카포라스느 다 베르미시.",
+   "ko": "엄마가 예식장 잡으셨대. 계약금도 내셨고.",
+   "note": "salon tutmak = 식장 잡다 · kapora = 계약금 — 반전",
+   "tags": [],
+   "new": [
+    "kapora"
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "tl": "Yok artık! Zeynep, bir şey söyle, lütfen!",
+   "rd": "욕 아르특! 제이넵, 비르 셰이 쇠일레, 뤼트펜!",
+   "ko": "말도 안 돼! 제이넵, 뭐라고 좀 해 봐!",
+   "note": "bir şey söyle = 뭐라고 말해",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "Bence iptal etmeyin. Düğünde yemek var.",
+   "rd": "벤제 입탈 에트메인. 뒤윈데 예멕 바르.",
+   "ko": "내 생각엔 취소하지 마. 결혼식엔 밥이 있잖아.",
+   "note": "iptal etmek = 취소하다",
+   "tags": [
+    "expr:bence"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "tl": "İptal ederiz. Ama kaporayı sen ödüyorsun.",
+   "rd": "입탈 에데리즈. 아마 카포라이으 센 외뒤요르순.",
+   "ko": "취소하면 되지. 근데 계약금은 네가 내.",
+   "note": "ödemek = 내다",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

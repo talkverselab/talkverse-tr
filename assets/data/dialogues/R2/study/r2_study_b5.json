@@ -1,0 +1,171 @@
+{
+ "id": "r2_study_b5",
+ "region": "R2",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "여긴 화학과",
+ "emoji": "🧪",
+ "scene": "터키어 첫 발표를 끝까지 잘 해냈는데, 듣던 사람들이 이상하다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Kimya hocası"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "başlayabilir miyim·anlamadım 으로 발표 진행하기",
+ "expressions": [
+  "hocam",
+  "anlamadım",
+  "eyvah",
+  "az kaldı"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Hocam, sunuma başlayabilir miyim?",
+   "rd": "호잠, 수누마 바실라야빌리르 미임?",
+   "ko": "교수님, 발표 시작해도 될까요?",
+   "note": "sunum = 발표",
+   "tags": [
+    "expr:hocam"
+   ],
+   "new": [
+    "sunum"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "tl": "Sunum mu? Olur, başlayın.",
+   "rd": "수눔 무? 올루르, 바실라이은.",
+   "ko": "발표요? 네, 시작하세요.",
+   "note": "olur = 좋아요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Bugünkü konum Türk kahvesinin tarihi.",
+   "rd": "부귄퀴 코눔 튀르크 카흐베시닌 타리히.",
+   "ko": "오늘 제 주제는 터키 커피의 역사입니다.",
+   "note": "konum = 내 주제",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Türk kahvesi mi? Güzel, devam edin.",
+   "rd": "튀르크 카흐베시 미? 귀젤, 데밤 에딘.",
+   "ko": "터키 커피요? 좋네요, 계속하세요.",
+   "note": "devam edin = 계속하세요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Kahve on altıncı yüzyılda İstanbul'a geldi.",
+   "rd": "카흐베 온 알튼즈 위즈이을다 이스탄불라 겔디.",
+   "ko": "커피는 16세기에 이스탄불에 왔습니다.",
+   "note": "yüzyıl = 세기",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "İlginç. Sunumda kahvenin kimyası da var mı?",
+   "rd": "일긴치. 수눔다 카흐베닌 킴야스 다 바르 므?",
+   "ko": "흥미롭네요. 발표에 커피의 화학도 있나요?",
+   "note": "kimya = 화학",
+   "tags": [],
+   "new": [
+    "kimya"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Kimya mı? Anlamadım, hocam.",
+   "rd": "킴야 므? 안라마듬, 호잠.",
+   "ko": "화학이요? 못 알아들었어요, 교수님.",
+   "note": "anlamadım = 못 알아들었어요",
+   "tags": [
+    "expr:hocam",
+    "expr:anlamadım"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Neredesin? Sıra sende, hoca çok kızgın!",
+   "rd": "네레데신? 스라 센데, 호자 촉 크즈근!",
+   "ko": "너 어디야? 네 차례야, 교수님 엄청 화났어!",
+   "note": "sıra sende = 네 차례 — 반전: Zeynep 의 메시지",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Hocam… burası Türk Kültürü dersi değil mi?",
+   "rd": "호잠… 부라스 튀르크 퀼튀뤼 데르시 데일 미?",
+   "ko": "교수님… 여기 터키 문화 수업 아닌가요?",
+   "note": "burası = 여기",
+   "tags": [
+    "expr:hocam"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Burası kimya. Ama sunum iyiydi, seksen beş.",
+   "rd": "부라스 킴야. 아마 수눔 이이이디, 섹센 베시.",
+   "ko": "여기 화학과예요. 근데 발표 좋았어요, 85점.",
+   "note": "seksen beş = 85",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Eyvah! Zeynep, koşuyorum, az kaldı!",
+   "rd": "에이바흐! 제이넵, 코슈요룸, 아즈 칼드!",
+   "ko": "헉! Zeynep, 뛰어가는 중이야, 거의 다 왔어!",
+   "note": "az kaldı = 거의 다 왔어",
+   "tags": [
+    "expr:eyvah",
+    "expr:az kaldı"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Bizim hoca sıfır verdi. Kimyaya geç bence.",
+   "rd": "비짐 호자 스프르 베르디. 킴야야 게치 벤제.",
+   "ko": "우리 교수님은 0점 주셨어. 넌 화학과로 가라.",
+   "note": "sıfır = 0",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

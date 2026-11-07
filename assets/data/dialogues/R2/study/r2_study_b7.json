@@ -1,0 +1,170 @@
+{
+ "id": "r2_study_b7",
+ "region": "R2",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "쌤이 여보가 됐다",
+ "emoji": "💍",
+ "scene": "수업 시간 첫 질문, h 하나 틀렸을 뿐인데 교실이 뒤집어진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Hoca"
+ },
+ "register": "mixed",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "hocam 과 kocam 구별, öldüm·eyvah 로 수습하기",
+ "expressions": [
+  "hocam",
+  "öldüm",
+  "eyvah",
+  "özür dilerim",
+  "ne oldu"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Evet, soru var mı?",
+   "rd": "에벳, 소루 바르 므?",
+   "ko": "자, 질문 있어요?",
+   "note": "soru = 질문",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Sor hadi. Türkçen gelişsin.",
+   "rd": "소르 하디. 튀르크첸 겔리시신.",
+   "ko": "물어봐. 터키어 늘어야지.",
+   "note": "sor = 물어봐",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Çok korkuyorum. Yanlış söylerim.",
+   "rd": "촉 코르쿠요룸. 얀르시 쇠일레림.",
+   "ko": "너무 무서워. 틀리게 말할 거야.",
+   "note": "yanlış = 틀리게",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Önce “Hocam” de, sonra sor. Bu kadar.",
+   "rd": "왼제 호잠 데, 손라 소르. 부 카다르.",
+   "ko": "먼저 「Hocam」 하고 물어봐. 그게 다야.",
+   "note": "bu kadar = 이게 다야",
+   "tags": [
+    "expr:hocam"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Tamam… Kocam, bir sorum var.",
+   "rd": "타맘… 코잠, 비르 소룸 바르.",
+   "ko": "네… 여보, 질문 있어요.",
+   "note": "kocam = 내 남편 — hocam 을 잘못 말한 반전",
+   "tags": [],
+   "new": [
+    "koca"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Efendim? Ne dediniz?",
+   "rd": "에펜딤? 네 데디니즈?",
+   "ko": "네? 뭐라고 했죠?",
+   "note": "efendim = 네?(되묻기)",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Kocam… yani kocam, sınav ne zaman?",
+   "rd": "코잠… 야니 코잠, 스나브 네 자만?",
+   "ko": "여보… 그러니까 여보, 시험 언제예요?",
+   "note": "ne zaman = 언제",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Öldüm. Bütün sınıf sana bakıyor.",
+   "rd": "욀뒴. 뷔튄 스느프 사나 바크요르.",
+   "ko": "나 죽겠다. 반 전체가 너 보고 있어.",
+   "note": "öldüm = 죽겠다",
+   "tags": [
+    "expr:öldüm"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Ne oldu? Ne dedim ben?",
+   "rd": "네 올두? 네 데딤 벤?",
+   "ko": "왜? 나 뭐라고 했어?",
+   "note": "ne dedim = 뭐라고 했어",
+   "tags": [
+    "expr:ne oldu"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Hocaya “kocam” dedin. Hem de iki kez.",
+   "rd": "호자야 코잠 데딘. 헴 데 이키 케즈.",
+   "ko": "교수님한테 「여보」 라고 했어. 그것도 두 번.",
+   "note": "hem de = 게다가",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Eyvah! Hocam, özür dilerim, ben…",
+   "rd": "에이바흐! 호잠, 외쥐르 딜레림, 벤…",
+   "ko": "헉! 교수님, 죄송합니다, 저는…",
+   "note": "eyvah = 헉",
+   "tags": [
+    "expr:hocam",
+    "expr:eyvah",
+    "expr:özür dilerim"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Sınav cuma. Eşim duymasın yeter.",
+   "rd": "스나브 주마. 에심 두이마슨 예테르.",
+   "ko": "시험은 금요일이에요. 제 배우자 귀에만 안 들어가면 돼요.",
+   "note": "eşim = 내 배우자",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

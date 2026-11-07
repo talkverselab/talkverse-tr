@@ -1,0 +1,129 @@
+{
+ "id": "r1_travel_b2",
+ "region": "R1",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "술탄아흐메트는 안 도망가",
+ "emoji": "🚕",
+ "scene": "택시 기사가 가는 길에 어머니를 태우더니, 나까지 집으로 데려간다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Taksici",
+  "C": "Teyze"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "bir dakika·şey 로 택시에서 어디 가는지 묻기",
+ "expressions": [
+  "merhaba",
+  "tabii",
+  "bir dakika",
+  "hoş geldin",
+  "şey"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Merhaba. Sultanahmet'e lütfen.",
+   "rd": "메르하바. 술타나흐메테 뤼트펜.",
+   "ko": "안녕하세요. 술탄아흐메트요.",
+   "note": "-e lütfen = ~로 가 주세요",
+   "tags": [
+    "expr:merhaba"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Tabii. Ama önce bir dakika.",
+   "rd": "타비이. 아마 왼제 비르 다키카.",
+   "ko": "네. 근데 먼저 잠깐만요.",
+   "note": "önce = 먼저",
+   "tags": [
+    "expr:tabii",
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Neden duruyoruz? Burası neresi?",
+   "rd": "네덴 두루요루즈? 부라스 네레시?",
+   "ko": "왜 서는 거예요? 여기 어디예요?",
+   "note": "burası neresi? = 여기 어디예요?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Annem burada. Onu da alıyoruz.",
+   "rd": "안넴 부라다. 오누 다 알르요루즈.",
+   "ko": "어머니가 여기 계세요. 같이 태웁니다.",
+   "note": "alıyoruz = 태운다 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Hoş geldin, evladım! Aç mısın?",
+   "rd": "호시 겔딘, 에블라듬! 아치 므슨?",
+   "ko": "어서 와, 얘야! 배고프니?",
+   "note": "evladım = 얘야(어른이 젊은이에게)",
+   "tags": [
+    "expr:hoş geldin"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Şey… Sultanahmet nerede?",
+   "rd": "셰이… 술타나흐멧 네레데?",
+   "ko": "저기… 술탄아흐메트는요?",
+   "note": "şey = 저기, 그게",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Sultanahmet kaçmaz. Hadi, yemek hazır.",
+   "rd": "술타나흐멧 카치마즈. 하디, 예멕 하즈르.",
+   "ko": "술탄아흐메트는 안 도망가. 자, 밥 다 됐어.",
+   "note": "kaçmaz = 안 도망간다",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Geldik. Para yok, yemek var.",
+   "rd": "겔딕. 파라 욕, 예멕 바르.",
+   "ko": "다 왔습니다. 돈은 됐고, 밥 드세요.",
+   "note": "geldik = 도착했다",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

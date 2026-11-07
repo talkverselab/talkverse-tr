@@ -1,0 +1,136 @@
+{
+ "id": "r0_love_b1",
+ "region": "R0",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "culture"
+ ],
+ "title": "잔 바닥의 누군가",
+ "emoji": "☕",
+ "scene": "Elif 가 내 커피잔을 뒤집어 점을 봐 주는데, 잔에서 돈은 안 나오고 누가 나온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "sus·kusura bakma·bilmem 으로 놀리고 받아치기",
+ "expressions": [
+  "ee",
+  "kusura bakma",
+  "of",
+  "dur",
+  "bilmem"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Kahve bitti. Fincanı neden alıyorsun?",
+   "rd": "카흐베 비티. 핀자느 네덴 알르요르순?",
+   "ko": "커피 다 마셨어. 잔은 왜 가져가?",
+   "note": "fincan = 커피잔",
+   "tags": [],
+   "new": [
+    "fincan"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Sus, falına bakıyorum.",
+   "rd": "수스, 팔르나 바크요룸.",
+   "ko": "쉿, 네 점 보는 중이야.",
+   "note": "fal = 커피 점",
+   "tags": [],
+   "new": [
+    "fal"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Ee? Para var mı, para?",
+   "rd": "에에? 파라 바르 므, 파라?",
+   "ko": "그래서? 돈 있어? 돈?",
+   "note": "ee = 그래서?",
+   "tags": [
+    "expr:ee"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Yok, hiç yok. Kusura bakma.",
+   "rd": "욕, 히치 욕. 쿠수라 박마.",
+   "ko": "없어, 하나도 없어. 미안.",
+   "note": "kusura bakma = 미안",
+   "tags": [
+    "expr:kusura bakma"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Of. Başka ne var?",
+   "rd": "오프. 바시카 네 바르?",
+   "ko": "아휴. 또 뭐 있어?",
+   "note": "başka = 다른",
+   "tags": [
+    "expr:of"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Dur, burada biri var. Çok güzel.",
+   "rd": "두르, 부라다 비리 바르. 촉 귀젤.",
+   "ko": "잠깐… 여기 누가 있어. 엄청 예뻐.",
+   "note": "biri = 누군가",
+   "tags": [
+    "expr:dur",
+    "expr:çok güzel"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Kim o? Nasıl biri?",
+   "rd": "킴 오? 나슬 비리?",
+   "ko": "누군데? 어떤 사람이야?",
+   "note": "nasıl biri = 어떤 사람",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Bilmem… saçı benim gibi.",
+   "rd": "빌멤… 사츠 베님 기비.",
+   "ko": "글쎄… 머리가 나랑 똑같네.",
+   "note": "benim gibi = 나처럼 — 마음을 들킴",
+   "tags": [
+    "expr:bilmem",
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

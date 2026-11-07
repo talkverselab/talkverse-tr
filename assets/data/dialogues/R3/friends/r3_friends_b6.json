@@ -1,0 +1,212 @@
+{
+ "id": "r3_friends_b6",
+ "region": "R3",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "외상 장부",
+ "emoji": "📒",
+ "scene": "내일 떠나는 날, 밀린 찻값을 갚으러 Can 의 카페에 왔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can",
+  "C": "Zeynep"
+ },
+ "register": "casual",
+ "twist": 10,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "작별하기, ne demek·olmaz·ne kadar",
+ "expressions": [
+  "ne kadar",
+  "olmaz",
+  "ne demek",
+  "yok artık",
+  "bekle"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Can, yarın sabah uçuyorum. Hesabı kapatmaya geldim.",
+   "rd": "잔, 야른 사바흐 우추요룸. 헤사브 카파트마야 겔딤.",
+   "ko": "잔, 나 내일 아침 비행기야. 계산 끝내러 왔어.",
+   "note": "hesap kapatmak = 외상을 갚다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Hangi hesap? Ben öyle bir şey bilmiyorum.",
+   "rd": "한기 헤삽? 벤 외일레 비르 셰이 빌미요룸.",
+   "ko": "무슨 계산? 난 그런 거 모르는데.",
+   "note": "öyle bir = 그런",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Çay hesabı. Altı çayla başladı, hatırlıyor musun?",
+   "rd": "차이 헤사브. 알트 차일라 바실라드, 하트를르요르 무순?",
+   "ko": "찻값. 여섯 잔에서 시작했잖아, 기억나?",
+   "note": "hatırlamak = 기억하다",
+   "tags": [
+    "callback:r0_friends_a3"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Hatırlıyorum. Bekle, gidip defteri getiriyorum.",
+   "rd": "하트를르요룸. 베클레, 기딥 데프테리 게티리요룸.",
+   "ko": "기억나지. 기다려, 장부 가져올게.",
+   "note": "bekle = 기다려",
+   "tags": [
+    "expr:bekle"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Bavulun hazır mı? Sana bir şey çizdim, uçakta bak.",
+   "rd": "바불룬 하즈르 므? 사나 비르 셰이 치즈딤, 우착타 박.",
+   "ko": "가방 다 쌌어? 너한테 뭐 그렸어, 비행기에서 봐.",
+   "note": "bavul = 여행 가방 · çizmek = 그리다",
+   "tags": [],
+   "new": [
+    "bavul"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Zeynep, şimdi ağlatma beni. Daha gitmedim.",
+   "rd": "제이넵, 심디 알라트마 베니. 다하 기트메딤.",
+   "ko": "제이넵, 지금 울리지 마. 아직 안 갔어.",
+   "note": "ağlatmak = 울리다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Ağlatmıyorum. Sen kendin ağlıyorsun, ben sadece çizdim.",
+   "rd": "알라트므요룸. 센 켄딘 알르요르순, 벤 사데제 치즈딤.",
+   "ko": "안 울렸어. 네가 혼자 우는 거지, 난 그냥 그렸어.",
+   "note": "kendin = 네 스스로",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Buldum. Bak: üç yıl, dört yüz on iki çay.",
+   "rd": "불둠. 박 위치 이을, 되르트 위즈 온 이키 차이.",
+   "ko": "찾았다. 봐, 3년, 차 412잔.",
+   "note": "dört yüz on iki = 412",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Dört yüz on iki mi? Tamam, ne kadar? Hemen ödüyorum.",
+   "rd": "되르트 위즈 온 이키 미? 타맘, 네 카다르? 헤멘 외뒤요룸.",
+   "ko": "412잔? 알았어, 얼마야? 바로 낼게.",
+   "note": "ne kadar = 얼마",
+   "tags": [
+    "expr:ne kadar",
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Olmaz. Parayı almıyorum. Bu borç burada kalacak.",
+   "rd": "올마즈. 파라이으 알므요룸. 부 보르치 부라다 칼라작.",
+   "ko": "안 돼. 돈 안 받아. 이 빚은 여기 남는 거야.",
+   "note": "borç = 빚 — 반전",
+   "tags": [
+    "expr:olmaz"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Ne demek kalacak? Yarın gidiyorum, Can, ciddi ol.",
+   "rd": "네 데멕 칼라작? 야른 기디요룸, 잔, 지디 올.",
+   "ko": "남는다니 무슨 말이야? 나 내일 가, 잔, 진지하게.",
+   "note": "ciddi ol = 진지해져",
+   "tags": [
+    "expr:ne demek"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Borcun var, o yüzden geri geleceksin. Defter burada duruyor.",
+   "rd": "보르준 바르, 오 위즈덴 게리 겔레젝신. 데프테르 부라다 두루요르.",
+   "ko": "빚이 있으니까 돌아와야 해. 장부는 여기 있어.",
+   "note": "o yüzden = 그래서",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "tl": "Ben de imzaladım. Şahit benim.",
+   "rd": "벤 데 임잘라듬. 샤힛 베님.",
+   "ko": "나도 사인했어. 증인은 나야.",
+   "note": "imzalamak = 서명하다 · şahit = 증인",
+   "tags": [],
+   "new": [
+    "şahit"
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Siz ikiniz… Yok artık. Şimdi ben ne diyeceğim?",
+   "rd": "시즈 이키니즈… 욕 아르특. 심디 벤 네 디예제임?",
+   "ko": "너희 둘… 말도 안 돼. 나 이제 뭐라고 해?",
+   "note": "ne diyeceğim = 뭐라고 하지",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Hiçbir şey. Ama acele et, faiz işliyor.",
+   "rd": "히치비르 셰이. 아마 아젤레 엣, 파이즈 이실리요르.",
+   "ko": "아무 말도 하지 마. 근데 서둘러, 이자 붙고 있어.",
+   "note": "faiz işliyor = 이자가 붙는다",
+   "tags": [],
+   "new": [
+    "faiz"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "id": "r3_love_b4",
+ "region": "R3",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "바람이 가져간 종이",
+ "emoji": "📝",
+ "scene": "페리 갑판, 말주변 없는 Emre 가 사흘 밤 쓴 종이를 꺼내 읽는데 바람이 분다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre"
+ },
+ "register": "casual",
+ "twist": 15,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "hayırdır·neyse·boş ver 로 고백 받기",
+ "expressions": [
+  "dur",
+  "hayırdır",
+  "çok komik",
+  "eyvah",
+  "yok artık",
+  "neyse",
+  "boş ver"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Dur. Bugün sana bir şey söyleyeceğim. Bana bakma, denize bak.",
+   "rd": "두르. 부귄 사나 비르 셰이 쇠일레예제임. 바나 박마, 데니제 박.",
+   "ko": "잠깐. 오늘 너한테 할 말 있어. 나 보지 말고, 바다 봐.",
+   "note": "denize bak = 바다 봐",
+   "tags": [
+    "expr:dur"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Hayırdır? Çok ciddi görünüyorsun, biraz korktum.",
+   "rd": "하이으르드르? 촉 지디 괴뤼뉘요르순, 비라즈 코르크툼.",
+   "ko": "무슨 일이야? 너무 진지해 보여, 좀 무섭다.",
+   "note": "korktum = 겁났다",
+   "tags": [
+    "expr:hayırdır"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Ben konuşmayı bilmiyorum. O yüzden yazdım, oradan okuyacağım.",
+   "rd": "벤 코누시마이으 빌미요룸. 오 위즈덴 야즈듬, 오라단 오쿠야자음.",
+   "ko": "나 말 못 하잖아. 그래서 써 왔어, 보고 읽을게.",
+   "note": "o yüzden = 그래서",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Kâğıda mı yazdın? Emre, sen iki kelimeyi zor söylersin.",
+   "rd": "카으다 므 야즈든? 엠레, 센 이키 켈리메이 조르 쇠일레르신.",
+   "ko": "종이에 썼어? Emre, 너 두 단어도 겨우 말하잖아.",
+   "note": "kâğıt = 종이",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Üç gece uğraştım. Sus da dinle. \"Birincisi…\"",
+   "rd": "위치 게제 우라시틈. 수스 다 딘레. \"비린지시…\"",
+   "ko": "사흘 밤을 씨름했어. 조용히 좀 들어. 「첫째…」",
+   "note": "birincisi = 첫째",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Birincisi mi? Madde madde mi anlatıyorsun? Çok komik, devam et.",
+   "rd": "비린지시 미? 마데 마데 미 안라트요르순? 촉 코믹, 데밤 엣.",
+   "ko": "첫째? 조항별로 말하는 거야? 너무 웃겨, 계속해.",
+   "note": "madde madde = 항목별로",
+   "tags": [
+    "expr:çok komik"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Gülme. \"Birincisi, sen gelince…\" Eyvah, kâğıt!",
+   "rd": "귈메. \"비린지시, 센 겔린제…\" 에이바흐, 카읏!",
+   "ko": "웃지 마. 「첫째, 네가 오면…」 헉, 종이!",
+   "note": "gelince = ~하면, ~할 때",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Rüzgâr aldı! Tutamadım, denize gidiyor!",
+   "rd": "뤼즈가르 알드! 투타마듬, 데니제 기디요르!",
+   "ko": "바람이 채 갔어! 못 잡았어, 바다로 간다!",
+   "note": "rüzgâr = 바람",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Yok artık. Üç gecelik iş uçtu gitti.",
+   "rd": "욕 아르특. 위치 게젤릭 이시 우치투 기티.",
+   "ko": "말도 안 돼. 사흘 밤 작업이 날아갔네.",
+   "note": "uçtu gitti = 날아가 버렸다",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Bak, bak! Martı kâğıdı yakaladı. Simit sandı galiba!",
+   "rd": "박, 박! 마르트 카으드 야칼라드. 시밋 산드 갈리바!",
+   "ko": "봐, 봐! 갈매기가 종이 낚아챘어. 시미트인 줄 알았나 봐!",
+   "note": "yakalamak = 잡다 — 그 갈매기",
+   "tags": [
+    "expr:bak",
+    "expr:galiba",
+    "callback:r1_love_a2"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Martıya söyle, okusun. Benden iyi okur.",
+   "rd": "마르트야 쇠일레, 오쿠순. 벤덴 이이 오쿠르.",
+   "ko": "갈매기한테 읽으라고 해. 나보다 잘 읽겠다.",
+   "note": "okusun = 읽으라고 해",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Neyse, boş ver kâğıdı. Ne yazıyordu, hatırlıyor musun?",
+   "rd": "네이세, 보시 베르 카으드. 네 야즈요르두, 하트를르요르 무순?",
+   "ko": "아무튼, 종이는 됐어. 뭐라고 쓰여 있었어, 기억나?",
+   "note": "hatırlamak = 기억하다",
+   "tags": [
+    "expr:neyse",
+    "expr:boş ver"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Hatırlamıyorum. Uzun bir şeydi, çok kelime vardı.",
+   "rd": "하트를라므요룸. 우준 비르 셰이디, 촉 켈리메 바르드.",
+   "ko": "기억 안 나. 길었어, 단어가 많았어.",
+   "note": "kelime = 단어",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Hiçbirini mi hatırlamıyorsun? Bir kelime bile yeter bana.",
+   "rd": "히치비리니 미 하트를라므요르순? 비르 켈리메 빌레 예테르 바나.",
+   "ko": "하나도 기억 안 나? 난 한 단어만 있어도 돼.",
+   "note": "bile = ~조차",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "\"Bu vapura sensiz binmek istemiyorum.\" Sonu buydu.",
+   "rd": "\"부 바푸라 센시즈 빈멕 이스테미요룸.\" 소누 부이두.",
+   "ko": "「이 배, 너 없이는 타기 싫어.」 끝이 그거였어.",
+   "note": "sensiz = 너 없이 — 반전",
+   "tags": [
+    "simkung",
+    "callback:r2_love_b3"
+   ],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "tl": "İkincisini de yaz. Bu sefer cebinde tut.",
+   "rd": "이킨지시니 데 야즈. 부 세페르 제빈데 툿.",
+   "ko": "둘째도 써 와. 이번엔 주머니에 꼭 넣고.",
+   "note": "cep = 주머니",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

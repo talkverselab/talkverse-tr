@@ -1,0 +1,125 @@
+{
+ "id": "r1_friends_b2",
+ "region": "R1",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "culture"
+ ],
+ "title": "공원의 스승",
+ "emoji": "🎲",
+ "scene": "타블라를 처음 하는 줄 알았던 내가 Can 을 내리 이긴다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "내기 걸고 놀기, olur·bilmem",
+ "expressions": [
+  "bilmem",
+  "olur",
+  "ne zaman"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Tavla biliyor musun? Kaybeden çayları öder.",
+   "rd": "타블라 빌리요르 무순? 카이베덴 차일라르 외데르.",
+   "ko": "타블라 할 줄 알아? 진 사람이 찻값 내는 거야.",
+   "note": "kaybeden = 진 사람 · tavla = 타블라(주사위 말판 놀이)",
+   "tags": [],
+   "new": [
+    "tavla"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Bilmem, biraz. Olur, oynayalım.",
+   "rd": "빌멤, 비라즈. 올루르, 오이나얄름.",
+   "ko": "글쎄, 조금. 좋아, 하자.",
+   "note": "oynayalım = 놀자",
+   "tags": [
+    "expr:bilmem",
+    "expr:olur"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Korkma. Ben yavaş oynarım.",
+   "rd": "코르크마. 벤 야바시 오이나름.",
+   "ko": "쫄지 마. 살살 할게.",
+   "note": "korkma = 겁내지 마",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Şeş beş! Yine kazandım.",
+   "rd": "셰시 베시! 이네 카잔듬.",
+   "ko": "6·5! 또 이겼다.",
+   "note": "şeş beş = 주사위 6과 5 · kazanmak = 이기다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Üç oyun üst üste! Sen kimsin?",
+   "rd": "위치 오윤 위스트 위스테! 센 킴신?",
+   "ko": "세 판 연속이라니! 너 누구야?",
+   "note": "üst üste = 연달아",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Bana deden öğretti.",
+   "rd": "바나 데덴 외레티.",
+   "ko": "네 할아버지가 가르쳐 줬어.",
+   "note": "dede = 할아버지 — 반전",
+   "tags": [],
+   "new": [
+    "dede"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Dedem mi? Ne zaman?!",
+   "rd": "데뎀 미? 네 자만?!",
+   "ko": "우리 할아버지가? 언제?!",
+   "note": "ne zaman = 언제",
+   "tags": [
+    "expr:ne zaman"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Her sabah, parkta. \"Çayları Can ödesin\" dedi.",
+   "rd": "헤르 사바흐, 파르크타. \"차일라르 잔 외데신\" 데디.",
+   "ko": "매일 아침, 공원에서. 「찻값은 잔이 내라」 하시던데.",
+   "note": "ödesin = 내라고 해",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

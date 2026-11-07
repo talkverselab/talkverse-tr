@@ -1,0 +1,169 @@
+{
+ "id": "r2_life_b8",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "새벽 세 시의 비명",
+ "emoji": "🎧",
+ "scene": "옆집에서 매일 밤 비명이 들린다. Can 과 문을 두드려 보기로 했다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can",
+  "C": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "ne sesi·yok artık 으로 이상한 일 얘기하기",
+ "expressions": [
+  "yok artık",
+  "eyvah",
+  "hadi",
+  "kanka",
+  "gerçekten mi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Can, dinle. Yan daireden yine ses geliyor.",
+   "rd": "잔, 딘레. 얀 다이레덴 이네 세스 겔리요르.",
+   "ko": "칸, 들어 봐. 옆집에서 또 소리 나.",
+   "note": "yan daire = 옆집",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Gece üçte mi? Ne sesi?",
+   "rd": "게제 위치테 미? 네 세시?",
+   "ko": "새벽 세 시에? 무슨 소리?",
+   "note": "gece üçte = 새벽 세 시에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Bağırıyor, 'Vur, arkanda!' diye.",
+   "rd": "바으르요르, 부르, 아르칸다! 디예.",
+   "ko": "소리 질러, '쳐, 뒤에!' 하고.",
+   "note": "diye = ~라고",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Teyze mi? Yok artık.",
+   "rd": "테이제 미? 욕 아르특.",
+   "ko": "이모가? 말도 안 돼.",
+   "note": "yok artık = 말도 안 돼",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Her gece! Bir de 'Öldüm' diyor.",
+   "rd": "헤르 게제! 비르 데 욀뒴 디요르.",
+   "ko": "매일 밤! 거기다 '죽었다'고도 해.",
+   "note": "her gece = 매일 밤",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Eyvah. Polisi arayalım mı?",
+   "rd": "에이바흐. 폴리시 아라얄름 므?",
+   "ko": "헉. 경찰 부를까?",
+   "note": "arayalım mı? = 부를까?",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Dur, önce kapıyı çalalım. Hadi, gel.",
+   "rd": "두르, 왼제 카프이으 찰랄름. 하디, 겔.",
+   "ko": "잠깐, 먼저 문 두드려 보자. 자, 와.",
+   "note": "kapı çalmak = 문을 두드리다",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Aa, gelin, gelin! Kapıyı kapatın, oyun başladı.",
+   "rd": "아아, 겔린, 겔린! 카프이으 카파튼, 오윤 바실라드.",
+   "ko": "어머, 들어와, 들어와! 문 닫아라, 게임 시작했다.",
+   "note": "oyun = 게임 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Teyze, kulağındaki ne? Bilgisayar mı oynuyorsun?",
+   "rd": "테이제, 쿨라은다키 네? 빌기사야르 므 오이누요르순?",
+   "ko": "이모, 귀에 그거 뭐야? 컴퓨터 게임 해?",
+   "note": "kulak = 귀",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Dur kanka, takım bekliyor. Dünyada beşinciyim!",
+   "rd": "두르 칸카, 타큼 베클리요르. 뒨야다 베신지임!",
+   "ko": "잠깐만 얘들아, 팀이 기다려. 나 세계 5위야!",
+   "note": "kanka = 친구야(teyze 입에서 나와서 웃김)",
+   "tags": [
+    "expr:kanka"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Dünyada beşinci mi? Gerçekten mi?",
+   "rd": "뒨야다 베신지 미? 게르첵텐 미?",
+   "ko": "세계 5위요? 진짜요?",
+   "note": "beşinci = 다섯째",
+   "tags": [
+    "expr:gerçekten mi"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Evet. {name}, otur, bize bir kişi lazım.",
+   "rd": "에벳. {name}, 오투르, 비제 비르 키시 라즘.",
+   "ko": "그래. {name}, 앉아. 한 명 필요해.",
+   "note": "lazım = 필요하다",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

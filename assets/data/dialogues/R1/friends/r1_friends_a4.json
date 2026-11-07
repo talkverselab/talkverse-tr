@@ -1,0 +1,133 @@
+{
+ "id": "r1_friends_a4",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "travel",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "앞자리의 저주",
+ "emoji": "🚐",
+ "scene": "돌무시 맨 앞자리에 앉았더니 뒷사람들 돈이 전부 내 손으로 온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "dolmuş 앞자리에서 돈 넘기기, bir dakika·eyvah",
+ "expressions": [
+  "bir dakika",
+  "bak",
+  "eyvah",
+  "olmaz"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Zeynep, neden herkes bana para veriyor?",
+   "rd": "제이넵, 네덴 헤르케스 바나 파라 베리요르?",
+   "ko": "제이넵, 왜 다들 나한테 돈을 줘?",
+   "note": "neden = 왜",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Öndesin ya. Şoföre ver.",
+   "rd": "왼데신 야. 쇼푀레 베르.",
+   "ko": "앞자리잖아. 기사님한테 드려.",
+   "note": "ya = ~잖아",
+   "tags": [
+    "expr:ya"
+   ],
+   "new": [
+    "şoför"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Bir dakika… bu kimin parası?",
+   "rd": "비르 다키카… 부 키민 파라스?",
+   "ko": "잠깐만… 이건 누구 돈이야?",
+   "note": "kimin = 누구의",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Arkadaki teyzenin. Üstünü de istiyor.",
+   "rd": "아르카다키 테이제닌. 위스튀뉘 데 이스티요르.",
+   "ko": "뒤에 아주머니 거. 거스름돈도 달래.",
+   "note": "üstü = 거스름돈",
+   "tags": [],
+   "new": [
+    "teyze"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Üstü mü? Ben nereden bileyim?",
+   "rd": "위스튀 뮈? 벤 네레덴 빌레임?",
+   "ko": "거스름돈? 내가 그걸 어떻게 알아?",
+   "note": "nereden bileyim = 내가 어찌 알아",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Bak, beş kişi daha para gönderdi.",
+   "rd": "박, 베시 키시 다하 파라 괸데르디.",
+   "ko": "봐, 다섯 명이 또 돈 보냈어.",
+   "note": "göndermek = 보내다 — 반전",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Eyvah, hangisi kimin? Zeynep, yardım et!",
+   "rd": "에이바흐, 한기시 키민? 제이넵, 야르듬 엣!",
+   "ko": "헉! 뭐가 누구 거야? 제이넵, 좀 도와줘!",
+   "note": "hangisi = 어느 것",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Olmaz. Öne oturdun, artık banka sensin.",
+   "rd": "올마즈. 외네 오투르둔, 아르특 반카 센신.",
+   "ko": "안 돼. 앞에 앉았잖아, 이제 네가 은행이야.",
+   "note": "olmaz = 안 돼",
+   "tags": [
+    "expr:olmaz"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

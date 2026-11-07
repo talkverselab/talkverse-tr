@@ -1,0 +1,128 @@
+{
+ "id": "r1_survival_s3",
+ "region": "R1",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "약국에서 먹방",
+ "emoji": "💊",
+ "scene": "배가 아프다고 약국에 왔는데, 손에는 아직 바클라바 상자가 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Eczacı"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "karnım ağrıyor 로 증상 말하고 약국에서 살아남기",
+ "expressions": [
+  "buyurun",
+  "geçmiş olsun",
+  "şey",
+  "allah allah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Buyurun, ne oldu?",
+   "rd": "부유룬, 네 올두?",
+   "ko": "네, 어디가 불편하세요?",
+   "note": "buyurun = 네, 말씀하세요",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Karnım ağrıyor. Çok ağrıyor.",
+   "rd": "카르늠 아르요르. 촉 아르요르.",
+   "ko": "배가 아파요. 많이 아파요.",
+   "note": "karnım ağrıyor = 배가 아파요",
+   "tags": [],
+   "new": [
+    "ağrımak"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Geçmiş olsun. Bugün ne yediniz?",
+   "rd": "게치미시 올순. 부귄 네 예디니즈?",
+   "ko": "어머, 힘드시겠어요. 오늘 뭐 드셨어요?",
+   "note": "geçmiş olsun = 쾌차하세요",
+   "tags": [
+    "expr:geçmiş olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Sabah simit, öğlen kebap, akşam midye.",
+   "rd": "사바흐 시밋, 욀렌 케밥, 악샴 미드예.",
+   "ko": "아침엔 시미트, 점심엔 케밥, 저녁엔 홍합이요.",
+   "note": "midye = 홍합",
+   "tags": [],
+   "new": [
+    "midye"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Hepsi bugün mü? Başka?",
+   "rd": "헵시 부귄 뮈? 바시카?",
+   "ko": "그걸 오늘 다요? 또요?",
+   "note": "hepsi = 전부",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Şey… şimdi de baklava.",
+   "rd": "셰이… 심디 데 바클라바.",
+   "ko": "저… 지금은 바클라바요.",
+   "note": "şimdi = 지금 — 반전: 손에 들고 먹는 중",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Allah allah! Bırakın o kutuyu!",
+   "rd": "알라흐 알라흐! 브라큰 오 쿠투유!",
+   "ko": "세상에! 그 상자 내려놓으세요!",
+   "note": "bırakın = 내려놓으세요",
+   "tags": [
+    "expr:allah allah"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Olmaz. Çok güzel… size de bir tane?",
+   "rd": "올마즈. 촉 귀젤… 시제 데 비르 타네?",
+   "ko": "안 돼요. 너무 맛있어요… 선생님도 하나 드릴까요?",
+   "note": "bir tane = 하나",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

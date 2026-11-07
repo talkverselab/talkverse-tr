@@ -1,0 +1,147 @@
+{
+ "id": "r0_love_c2",
+ "region": "R0",
+ "island": "love",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "읽고 열 시간",
+ "emoji": "🕙",
+ "scene": "Emre 가 메시지를 읽고 답이 없다. 다음 날 아침에 온 답은 한 단어",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre"
+ },
+ "register": "chat",
+ "twist": 4,
+ "twist_type": "ignore",
+ "flags": [
+  "romance"
+ ],
+ "goal": "naber·boş ver·iyi geceler 로 답 없는 채팅 버티기",
+ "expressions": [
+  "selam",
+  "naber",
+  "boş ver",
+  "iyi geceler",
+  "günaydın"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Selam! Naber?",
+   "rd": "셀람! 나베르?",
+   "ko": "안녕! 뭐 해?",
+   "note": "naber = 뭐 해",
+   "tags": [
+    "expr:selam",
+    "expr:naber"
+   ],
+   "new": [],
+   "at": "21:03",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Emre? Mesajı gördün. 👀",
+   "rd": "엠레? 메사즈 괴르뒨.",
+   "ko": "Emre? 메시지 봤잖아. 👀",
+   "note": "gördün = 봤다",
+   "tags": [],
+   "new": [],
+   "at": "21:40",
+   "stamp": "👀",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Tamam, boş ver. İyi geceler.",
+   "rd": "타맘, 보시 베르. 이이 게젤레르.",
+   "ko": "그래, 됐어. 잘 자.",
+   "note": "boş ver = 됐어",
+   "tags": [
+    "expr:boş ver",
+    "expr:iyi geceler"
+   ],
+   "new": [],
+   "at": "23:10",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Günaydın.",
+   "rd": "귀나이든.",
+   "ko": "좋은 아침.",
+   "note": "반전: 열 시간 만의 답이 이것",
+   "tags": [
+    "expr:günaydın"
+   ],
+   "new": [],
+   "at": "07:02",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Günaydın mı? On saat oldu! 😤",
+   "rd": "귀나이든 므? 온 사앗 올두!",
+   "ko": "좋은 아침? 열 시간 지났거든! 😤",
+   "note": "on saat = 열 시간",
+   "tags": [],
+   "new": [],
+   "at": "07:03",
+   "stamp": "😤",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Yazmayı sevmem.",
+   "rd": "야즈마이으 세브멤.",
+   "ko": "나 문자 안 좋아해.",
+   "note": "yazmak = 쓰다, 문자하다",
+   "tags": [],
+   "new": [],
+   "at": "07:03",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Ama okudun, değil mi?",
+   "rd": "아마 오쿠둔, 데일 미?",
+   "ko": "근데 읽긴 했지?",
+   "note": "değil mi = 그렇지?",
+   "tags": [],
+   "new": [],
+   "at": "07:04",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Üç kere okudum.",
+   "rd": "위치 케레 오쿠둠.",
+   "ko": "세 번 읽었어.",
+   "note": "üç kere = 세 번",
+   "tags": [
+    "simkung"
+   ],
+   "new": [],
+   "at": "07:04",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,181 @@
+{
+ "id": "r2_love_b1",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "culture"
+ ],
+ "title": "소금 커피",
+ "emoji": "🧂",
+ "scene": "Elif 집에 처음 간 날, 어머니가 내온 커피에 소금이 들었고 온 집안이 지켜본다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Anne"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "hoş bulduk·elinize sağlık 으로 터키 가정 방문 예절 지키기",
+ "expressions": [
+  "hiç sorma",
+  "hoş geldin",
+  "hoş bulduk",
+  "maşallah",
+  "elinize sağlık",
+  "bak"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bak, annem kahve yapıyor. Ne olursa olsun, iç.",
+   "rd": "박, 안넴 카흐베 야프요르. 네 올루르사 올순, 이치.",
+   "ko": "봐, 엄마가 커피 타셔. 무슨 일이 있어도 마셔.",
+   "note": "ne olursa olsun = 무슨 일이 있어도",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Neden? Kahvede bir şey mi var?",
+   "rd": "네덴? 카흐베데 비르 셰이 미 바르?",
+   "ko": "왜? 커피에 뭐 있어?",
+   "note": "kahvede = 커피에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Hiç sorma. Sadece iç ve gül.",
+   "rd": "히치 소르마. 사데제 이치 베 귈.",
+   "ko": "말도 마. 그냥 마시고 웃어.",
+   "note": "hiç sorma = 말도 마",
+   "tags": [
+    "expr:hiç sorma"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Hoş geldin evladım! Buyur, kahven.",
+   "rd": "호시 겔딘 에블라듬! 부유르, 카흐벤.",
+   "ko": "어서 와라, 얘야! 자, 네 커피.",
+   "note": "hoş geldin = 어서 와",
+   "tags": [
+    "expr:hoş geldin",
+    "expr:buyur"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Hoş bulduk. Çok teşekkür ederim.",
+   "rd": "호시 불둑. 촉 테셰퀴르 에데림.",
+   "ko": "반갑습니다. 정말 감사합니다.",
+   "note": "hoş bulduk = hoş geldin 의 대답",
+   "tags": [
+    "expr:hoş bulduk",
+    "expr:teşekkür ederim"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Elif… bu kahve deniz gibi!",
+   "rd": "엘리프… 부 카흐베 데니즈 기비!",
+   "ko": "Elif… 이 커피 바닷물 같아!",
+   "note": "deniz = 바다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Sus, tuz var, iç. Herkes sana bakıyor.",
+   "rd": "수스, 투즈 바르, 이치. 헤르케스 사나 바크요르.",
+   "ko": "쉿, 소금 든 거야, 마셔. 다 너 보고 있어.",
+   "note": "tuz = 소금",
+   "tags": [],
+   "new": [
+    "tuz"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Anne, abla, gelin! Bakın, içiyor!",
+   "rd": "안네, 아블라, 겔린! 바큰, 이치요르!",
+   "ko": "엄마, 언니, 와 봐요! 봐요, 마셔요!",
+   "note": "gelin = 오세요(여럿에게) — 반전: 온 집안이 몰려온다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Elif, bu evde kaç kişi var?",
+   "rd": "엘리프, 부 에브데 카치 키시 바르?",
+   "ko": "Elif, 이 집에 몇 명이나 있는 거야?",
+   "note": "kaç kişi = 몇 명",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Bitti mi? Maşallah, bir tane daha yapayım mı?",
+   "rd": "비티 미? 마샬라흐, 비르 타네 다하 야파이음 므?",
+   "ko": "다 마셨니? 어머 장하다! 한 잔 더 타 줄까?",
+   "note": "maşallah = 어머 대단해",
+   "tags": [
+    "expr:maşallah"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Annem dedi ki: bunu içen gitmez.",
+   "rd": "안넴 데디 키 부누 이첸 기트메즈.",
+   "ko": "엄마가 그랬어. 이걸 마신 사람은 안 떠난대.",
+   "note": "içen = 마신 사람",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Elinize sağlık… şimdi su, lütfen.",
+   "rd": "엘리니제 살륵… 심디 수, 뤼트펜.",
+   "ko": "잘 마셨습니다… 이제 물 좀 주세요.",
+   "note": "elinize sağlık = 만든 사람에게 하는 인사",
+   "tags": [
+    "expr:elinize sağlık",
+    "expr:lütfen"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

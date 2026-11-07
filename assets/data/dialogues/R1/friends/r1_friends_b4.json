@@ -1,0 +1,129 @@
+{
+ "id": "r1_friends_b4",
+ "region": "R1",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "소파와 3층",
+ "emoji": "🛋️",
+ "scene": "이사 날, 소파가 계단에서 꽉 끼어 친구 둘이 위아래로 갈라졌다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can",
+  "C": "Zeynep"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "az kaldı·dur 로 같이 일하며 말하기",
+ "expressions": [
+  "az kaldı",
+  "dur",
+  "eyvah",
+  "iyiyim"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bu kanepe neden bu kadar ağır?",
+   "rd": "부 카네페 네덴 부 카다르 아으르?",
+   "ko": "이 소파 왜 이렇게 무거워?",
+   "note": "ağır = 무거운 · kanepe = 소파",
+   "tags": [],
+   "new": [
+    "kanepe"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Az kaldı! Sadece üç kat.",
+   "rd": "아즈 칼드! 사데제 위치 캇.",
+   "ko": "거의 다 왔어! 세 층만 더.",
+   "note": "az kaldı = 거의 다 왔어",
+   "tags": [
+    "expr:az kaldı"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Dur! Kapıdan girmiyor.",
+   "rd": "두르! 카프단 기르미요르.",
+   "ko": "스톱! 문으로 안 들어가.",
+   "note": "dur = 멈춰",
+   "tags": [
+    "expr:dur"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Nasıl girmiyor? Can, çevir!",
+   "rd": "나슬 기르미요르? 잔, 체비르!",
+   "ko": "안 들어간다니? 잔, 돌려!",
+   "note": "çevirmek = 돌리다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Çeviremiyorum. Kanepenin altındayım.",
+   "rd": "체비레미요룸. 카네페닌 알튼다이음.",
+   "ko": "못 돌려. 나 소파 밑에 있어.",
+   "note": "altındayım = 밑에 있어",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Ben de içeride kaldım. Kapı kapandı.",
+   "rd": "벤 데 이체리데 칼듬. 카프 카판드.",
+   "ko": "나도 안에 갇혔어. 문이 닫혔어.",
+   "note": "kapanmak = 닫히다 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Eyvah! Can, iyi misin?",
+   "rd": "에이바흐! 잔, 이이 미신?",
+   "ko": "헉! 잔, 괜찮아?",
+   "note": "iyi misin = 괜찮아?",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "İyiyim. Çay getir, artık burada yaşıyorum.",
+   "rd": "이이임. 차이 게티르, 아르특 부라다 야시요룸.",
+   "ko": "괜찮아. 차나 가져와, 나 이제 여기서 살래.",
+   "note": "getir = 가져와",
+   "tags": [
+    "expr:iyiyim"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

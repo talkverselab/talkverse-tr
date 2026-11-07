@@ -1,0 +1,212 @@
+{
+ "id": "r3_work_b5",
+ "region": "R3",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_abroad"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "우리 가격을 깎다",
+ "emoji": "🤝",
+ "scene": "시장에서 배운 흥정 버릇이 고객 미팅에서 터져, 자기 회사 가격을 깎는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre",
+  "C": "Müşteri",
+  "D": "Müdür"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "çok pahalı·son fiyat·ne kadar 로 흥정하기",
+ "expressions": [
+  "ne kadar",
+  "çok pahalı",
+  "olmaz",
+  "bayıldım",
+  "bir dakika"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bugün sadece dinle. Fiyatı ben söyleyeceğim, tamam mı?",
+   "rd": "부귄 사데제 딘레. 피야트 벤 쇠일레예제임, 타맘 므?",
+   "ko": "오늘은 듣기만 해. 가격은 내가 말할게, 알았지?",
+   "note": "dinlemek = 듣다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Tamam. Sessiz otururum. Ağzımı bile açmam.",
+   "rd": "타맘. 세시즈 오투루룸. 아즈므 빌레 아치맘.",
+   "ko": "알았어. 조용히 앉아 있을게. 입도 안 열어.",
+   "note": "sessiz = 조용히",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Hoş geldiniz. Yıllık bakım için fiyatınız ne kadar?",
+   "rd": "호시 겔디니즈. 이을륵 바큼 이친 피야트느즈 네 카다르?",
+   "ko": "어서 오세요. 연간 유지보수 가격이 얼마죠?",
+   "note": "yıllık = 연간",
+   "tags": [
+    "expr:ne kadar"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Yıllık elli bin lira. Çok iyi bir fiyat.",
+   "rd": "이을륵 엘리 빈 리라. 촉 이이 비르 피얏.",
+   "ko": "연 5만 리라입니다. 아주 좋은 가격이죠.",
+   "note": "elli bin = 5만",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Elli bin mi? Çok pahalı! Olmaz!",
+   "rd": "엘리 빈 미? 촉 파할르! 올마즈!",
+   "ko": "5만이요? 너무 비싸요! 안 돼요!",
+   "note": "çok pahalı = 너무 비싸요 — 시장 버릇",
+   "tags": [
+    "expr:çok pahalı",
+    "expr:olmaz"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "{name}, ne yapıyorsun? Bu bizim fiyatımız!",
+   "rd": "{name}, 네 야프요르순? 부 비짐 피야트므즈!",
+   "ko": "{name}, 뭐 하는 거야? 이거 우리 가격이잖아!",
+   "note": "bizim = 우리의",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Haklı, bence de pahalı. Kırk bin olur mu?",
+   "rd": "하클르, 벤제 데 파할르. 크르크 빈 올루르 무?",
+   "ko": "맞아요, 저도 비싸다고 봐요. 4만 어때요?",
+   "note": "haklı = 맞는 말이다 — 반전: 고객이 받았다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Kırk mı? Yok, yok. Otuz, son fiyat!",
+   "rd": "크르크 므? 욕, 욕. 오투즈, 손 피얏!",
+   "ko": "4만이요? 아니요, 아니요. 3만, 마지막 가격!",
+   "note": "son fiyat = 마지막 가격",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Kendi fiyatımızı kırıyorsun! Dur artık!",
+   "rd": "켄디 피야트므즈 크르요르순! 두르 아르특!",
+   "ko": "우리 가격을 네가 깎고 있어! 그만 좀 해!",
+   "note": "fiyat kırmak = 값을 깎다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Otuz bin mi? Bayıldım! Anlaştık.",
+   "rd": "오투즈 빈 미? 바이을듬! 안라시특.",
+   "ko": "3만이요? 마음에 쏙 드네요! 계약하죠.",
+   "note": "anlaştık = 합의했어요",
+   "tags": [
+    "expr:bayıldım"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Bir dakika… ben sizin tarafınızda değilim ki!",
+   "rd": "비르 다키카… 벤 시진 타라프느즈다 데일림 키!",
+   "ko": "잠깐만요… 저 그쪽 편 아니거든요!",
+   "note": "taraf = 편",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "D",
+   "tl": "Emre, toplantı nasıl gidiyor? Fiyatta anlaştınız mı?",
+   "rd": "엠레, 토플란트 나슬 기디요르? 피야타 안라시트느즈 므?",
+   "ko": "Emre, 미팅 어떻게 돼 가요? 가격은 합의했어요?",
+   "note": "anlaşmak = 합의하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Müdürüm, hiç sormayın. Elli bin otuz oldu.",
+   "rd": "뮈뒤륌, 히치 소르마이은. 엘리 빈 오투즈 올두.",
+   "ko": "부장님, 묻지도 마세요. 5만이 3만 됐습니다.",
+   "note": "hiç sormayın = 묻지도 마세요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "D",
+   "tl": "Otuz mu?! Kim yaptı bunu?!",
+   "rd": "오투즈 무?! 킴 얍트 부누?!",
+   "ko": "3만이요?! 누가 그랬어요?!",
+   "note": "kim yaptı = 누가 했어요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "tl": "Ben de onu soracaktım. Bu arkadaşın maaşı ne kadar?",
+   "rd": "벤 데 오누 소라작틈. 부 아르카다신 마아시 네 카다르?",
+   "ko": "저도 그걸 여쭤보려고 했어요. 이분 월급 얼마예요?",
+   "note": "soracaktım = 물어보려고 했다",
+   "tags": [
+    "expr:ne kadar"
+   ],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "tl": "Çok az. Ama pazarlık yaparım.",
+   "rd": "촉 아즈. 아마 파자를륵 야파름.",
+   "ko": "너무 적어요. 근데 흥정은 합니다.",
+   "note": "pazarlık = 흥정",
+   "tags": [],
+   "new": [
+    "pazarlık"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

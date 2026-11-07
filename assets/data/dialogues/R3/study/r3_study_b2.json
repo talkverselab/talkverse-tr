@@ -1,0 +1,201 @@
+{
+ "id": "r3_study_b2",
+ "region": "R3",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "답장은 3분 만에",
+ "emoji": "📬",
+ "scene": "얼굴은 안 보이는데 메일은 3분 만에 오는 교수, 알고 보니 쓰는 사람이 따로 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Sekreter"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "hoş geldiniz·yok artık·aslında 로 학과 사무실에서 서류 내기",
+ "expressions": [
+  "hoş geldiniz",
+  "bir dakika",
+  "yok artık",
+  "canım"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Hocadan yine mail geldi. Üç dakikada cevap yazdı.",
+   "rd": "호자단 이네 마일 겔디. 위치 다키카다 제밥 야즈드.",
+   "ko": "교수님한테 또 메일 왔어. 3분 만에 답장하셨어.",
+   "note": "üç dakikada = 3분 만에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Ama hoca hiç ortada yok. Garip, değil mi?",
+   "rd": "아마 호자 히치 오르타다 욕. 가립, 데일 미?",
+   "ko": "근데 교수님은 코빼기도 안 보이잖아. 이상하지 않아?",
+   "note": "ortada yok = 안 보인다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Evet. Kapıda hâlâ “Beş dakikaya dönerim” yazıyor.",
+   "rd": "에벳. 카프다 할라 베시 다키카야 되네림 야즈요르.",
+   "ko": "응. 문에는 아직 「5분 뒤 돌아옴」 이라고 써 있고.",
+   "note": "hâlâ = 아직",
+   "tags": [
+    "callback:r2_study_b3"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Mailde ne diyor peki? Yine aynı şey mi?",
+   "rd": "마일데 네 디요르 페키? 이네 아이느 셰이 미?",
+   "ko": "메일엔 뭐래? 또 같은 말이야?",
+   "note": "peki = 그럼",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "“Kendinize iyi bakın, tezinizi perşembe getirin.” Çok kibar.",
+   "rd": "켄디니제 이이 바큰, 테지니지 페르솀베 게티린. 촉 키바르.",
+   "ko": "「몸조심하고, 논문은 목요일에 가져와요.」 되게 다정하셔.",
+   "note": "tez = 논문",
+   "tags": [],
+   "new": [
+    "tez"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Perşembe kime getireceksin? Kapıya mı?",
+   "rd": "페르솀베 키메 게티레젝신? 카프야 므?",
+   "ko": "목요일에 누구한테 가져가는데? 문한테?",
+   "note": "kime = 누구에게",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Hoş geldiniz. Tezinizi getirdiniz mi? Buraya bırakın, lütfen.",
+   "rd": "호시 겔디니즈. 테지니지 게티르디니즈 미? 부라야 브라큰, 뤼트펜.",
+   "ko": "어서 오세요. 논문 가져오셨어요? 여기 두고 가세요.",
+   "note": "bırakın = 두세요",
+   "tags": [
+    "expr:hoş geldiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Size mi? Hocam okuyacak, değil mi?",
+   "rd": "시제 미? 호잠 오쿠야작, 데일 미?",
+   "ko": "선생님께요? 교수님이 읽으시는 거죠?",
+   "note": "okuyacak = 읽을 것이다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "tl": "Önceki hâlini okudum. Üçüncü sayfada “de” ayrı yazılır.",
+   "rd": "왼제키 할리니 오쿠둠. 위췬쥐 사이파다 데 아이르 야즐르르.",
+   "ko": "지난번 원고 읽었어요. 3쪽 「de」 는 띄어 써야 해요.",
+   "note": "ayrı yazılır = 띄어 쓴다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Bir dakika… o cümleyi dün mailde gördüm. Hocadan geldi!",
+   "rd": "비르 다키카… 오 쥠레이 뒨 마일데 괴르뒴. 호자단 겔디!",
+   "ko": "잠깐만요… 그 말, 어제 메일에서 봤어요. 교수님이 보내신 건데요!",
+   "note": "cümle = 문장",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "Hoca iki yıl önce emekli oldu, canım. Maili ben yazıyorum.",
+   "rd": "호자 이키 이을 왼제 에메클리 올두, 자늠. 마일리 벤 야즈요룸.",
+   "ko": "교수님은 2년 전에 은퇴하셨어요. 메일은 제가 써요.",
+   "note": "emekli olmak = 은퇴하다 — 반전",
+   "tags": [
+    "expr:canım"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Ne?! Peki notlarımı kim veriyor?!",
+   "rd": "네?! 페키 노틀라르므 킴 베리요르?!",
+   "ko": "네?! 그럼 제 학점은 누가 주는데요?!",
+   "note": "not = 학점",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "tl": "Geçen dönem seksen verdim. Hak ettiniz.",
+   "rd": "게첸 되넴 섹센 베르딤. 학 에티니즈.",
+   "ko": "지난 학기에 80점 드렸죠. 받을 만했어요.",
+   "note": "hak etmek = 자격이 있다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "Yok artık. Bütün bölümü sekreter mi yönetiyor?",
+   "rd": "욕 아르특. 뷔튄 뵐뤼뮈 섹레테르 미 외네티요르?",
+   "ko": "말도 안 돼. 학과 전체를 사무실에서 돌리는 거야?",
+   "note": "yönetmek = 운영하다",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "tl": "Beş dakikaya dönerim. Tezi masaya bırakın.",
+   "rd": "베시 다키카야 되네림. 테지 마사야 브라큰.",
+   "ko": "5분 뒤 돌아올게요. 논문은 책상에 두세요.",
+   "note": "beş dakikaya dönerim = 5분 뒤 돌아온다",
+   "tags": [
+    "callback:r2_study_b3"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

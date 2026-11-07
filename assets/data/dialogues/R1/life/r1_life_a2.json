@@ -1,0 +1,132 @@
+{
+ "id": "r1_life_a2",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "바칼은 다 안다",
+ "emoji": "🏪",
+ "scene": "지갑을 두고 온 날, 바칼이 장부에 달아 주겠다는데 아는 게 너무 많다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bakkal"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "param evde kaldı·deftere yazıyorum 으로 동네 가게 외상 쓰기",
+ "expressions": [
+  "hoş geldiniz",
+  "eyvah",
+  "sorun yok",
+  "yok artık",
+  "şey"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hoş geldiniz! Ekmek ve süt, değil mi?",
+   "rd": "호시 겔디니즈! 엑멕 베 쉿, 데일 미?",
+   "ko": "어서 오세요! 빵이랑 우유 맞죠?",
+   "note": "değil mi? = 그렇죠?",
+   "tags": [
+    "expr:hoş geldiniz"
+   ],
+   "new": [
+    "süt"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Evet… Eyvah, param evde kaldı!",
+   "rd": "에벳… 에이바흐, 파람 에브데 칼드!",
+   "ko": "네… 헉, 돈을 집에 두고 왔어요!",
+   "note": "evde kaldı = 집에 두고 왔다",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Sorun yok. Deftere yazıyorum, {name}.",
+   "rd": "소룬 욕. 데프테레 야즈요룸, {name}.",
+   "ko": "괜찮아요. 장부에 적어 둘게요, {name} 씨.",
+   "note": "defter = 공책, 외상 장부",
+   "tags": [
+    "expr:sorun yok"
+   ],
+   "new": [
+    "defter"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Adımı nereden biliyorsunuz?",
+   "rd": "아드므 네레덴 빌리요르수누즈?",
+   "ko": "제 이름을 어떻게 아세요?",
+   "note": "nereden = 어디서, 어떻게",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Teyze söyledi. Yemek yapmıyorsunuz, değil mi?",
+   "rd": "테이제 쇠일레디. 예멕 얍므요르수누즈, 데일 미?",
+   "ko": "아주머니가 그러던데요. 요리 안 하시죠?",
+   "note": "반전: 동네 소문이 빠르다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Yok artık! Başka ne biliyorsunuz?",
+   "rd": "욕 아르특! 바시카 네 빌리요르수누즈?",
+   "ko": "말도 안 돼! 또 뭘 아세요?",
+   "note": "başka ne = 또 뭐",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Dün gece üç çikolata aldınız.",
+   "rd": "뒨 게제 위치 치콜라타 알드느즈.",
+   "ko": "어젯밤에 초콜릿 세 개 사셨잖아요.",
+   "note": "dün gece = 어젯밤",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Şey… onlar kedi için.",
+   "rd": "셰이… 온라르 케디 이친.",
+   "ko": "저… 그건 고양이 주려고요.",
+   "note": "kedi için = 고양이를 위해",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

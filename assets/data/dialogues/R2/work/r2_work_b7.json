@@ -1,0 +1,162 @@
+{
+ "id": "r2_work_b7",
+ "region": "R2",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_abroad"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "밤의 케이크 도둑",
+ "emoji": "🍰",
+ "scene": "매일 밤 케이크가 사라지고, 의심받는 건 먹보 Can 이다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can",
+  "C": "Müdür"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "valla·yok artık·eyvah 로 범인 찾기",
+ "expressions": [
+  "valla",
+  "yok artık",
+  "eyvah",
+  "hadi",
+  "ee"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Yine bir dilim pasta eksik. Kim yiyor bunu?",
+   "rd": "이네 비르 딜림 파스타 엑식. 킴 이요르 부누?",
+   "ko": "또 케이크 한 조각이 없어요. 누가 먹는 거죠?",
+   "note": "eksik = 모자라는",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Ben değilim! Bana niye bakıyorsunuz?",
+   "rd": "벤 데일림! 바나 니예 바크요르수누즈?",
+   "ko": "저 아니에요! 왜 저를 보세요?",
+   "note": "ben değilim = 나 아니다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Can, ağzında pasta var.",
+   "rd": "잔, 아즌다 파스타 바르.",
+   "ko": "Can, 입에 케이크 묻었어.",
+   "note": "ağzında = 네 입에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "O bugünkü. Geceki ben değilim, valla.",
+   "rd": "오 부귄퀴. 게제키 벤 데일림, 발라.",
+   "ko": "이건 오늘 거야. 밤에 먹은 건 나 아니야, 진짜.",
+   "note": "valla = 진짜로",
+   "tags": [
+    "expr:valla"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Tamam, kameraya bakalım. Gece kim geldi?",
+   "rd": "타맘, 카메라야 바칼름. 게제 킴 겔디?",
+   "ko": "알았어, 카메라 보자. 밤에 누가 왔나.",
+   "note": "bakalım = 보자",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Hadi, saat ikiye git… dur, dur!",
+   "rd": "하디, 사앗 이키예 깃… 두르, 두르!",
+   "ko": "그래. 두 시로 가 봐… 잠깐, 잠깐!",
+   "note": "hadi = 자, 어서",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Yok artık. O kim?",
+   "rd": "욕 아르특. 오 킴?",
+   "ko": "말도 안 돼. 저거 누구야?",
+   "note": "yok artık = 말도 안 돼",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Pijamalı biri. Mutfağa girdi.",
+   "rd": "피자말르 비리. 무트파아 기르디.",
+   "ko": "잠옷 입은 사람. 주방에 들어갔어.",
+   "note": "pijamalı = 잠옷 입은",
+   "tags": [],
+   "new": [
+    "pijama"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Eyvah, yüzü… bu müdür!",
+   "rd": "에이바흐, 위쥐… 부 뮈뒤르!",
+   "ko": "헉. 얼굴이… 매니저님이잖아!",
+   "note": "eyvah = 헉 — 반전",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Ee, hırsızı buldunuz mu?",
+   "rd": "에에, 흐르스즈 불두누즈 무?",
+   "ko": "그래서, 도둑은 찾았어요?",
+   "note": "hırsız = 도둑",
+   "tags": [
+    "expr:ee"
+   ],
+   "new": [
+    "hırsız"
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Bulamadık müdürüm. Ama bana bir dilim pasta lazım.",
+   "rd": "불라마득 뮈뒤륌. 아마 바나 비르 딜림 파스타 라즘.",
+   "ko": "못 찾았어요, 매니저님. 근데 저 케이크 한 조각 필요해요.",
+   "note": "lazım = 필요하다",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

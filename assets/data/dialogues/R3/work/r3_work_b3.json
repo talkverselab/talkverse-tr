@@ -1,0 +1,202 @@
+{
+ "id": "r3_work_b3",
+ "region": "R3",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_abroad"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "금요일까지",
+ "emoji": "⛴️",
+ "scene": "퇴근길 페리, Emre 가 앙카라 자리 제안을 꺼내고 말끝을 흐린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "bence·bilmem·hıhı 로 속마음 돌려 말하기",
+ "expressions": [
+  "harika",
+  "bence",
+  "hıhı",
+  "bilmem"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Müdür beni çağırdı. Ankara'daki ofiste yer açılmış.",
+   "rd": "뮈뒤르 베니 차으르드. 안카라다키 오피스테 예르 아츨므시.",
+   "ko": "부장님이 나 불렀어. 앙카라 사무실에 자리 났대.",
+   "note": "yer açılmış = 자리가 났대",
+   "tags": [
+    "form:-miş"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Harika! Yani… daha çok para, değil mi?",
+   "rd": "하리카! 야니… 다하 촉 파라, 데일 미?",
+   "ko": "잘됐다! 그러니까… 돈도 더 받는 거지?",
+   "note": "yani = 그러니까",
+   "tags": [
+    "expr:harika"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Evet. Maaş daha iyi. Ev de veriyorlar.",
+   "rd": "에벳. 마아시 다하 이이. 에브 데 베리요를라르.",
+   "ko": "응. 월급도 더 좋아. 집도 준대.",
+   "note": "maaş = 월급",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Ne zaman cevap vereceksin peki?",
+   "rd": "네 자만 제밥 베레젝신 페키?",
+   "ko": "그래서 언제 답할 건데?",
+   "note": "ne zaman = 언제",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Cuma günü. Sence gideyim mi?",
+   "rd": "주마 귀뉘. 센제 기데임 미?",
+   "ko": "금요일. 네 생각엔 갈까?",
+   "note": "sence = 네 생각엔",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Bence git. Bu fırsat her zaman gelmez.",
+   "rd": "벤제 깃. 부 프르삿 헤르 자만 겔메즈.",
+   "ko": "가야지. 이런 기회 아무 때나 안 와.",
+   "note": "fırsat = 기회",
+   "tags": [
+    "expr:bence"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Hıhı. Çok kolay söyledin ama.",
+   "rd": "흐흐. 촉 콜라이 쇠일레딘 아마.",
+   "ko": "응응. 근데 되게 쉽게 말하네.",
+   "note": "kolay = 쉽게",
+   "tags": [
+    "expr:hıhı"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Ne demek kolay? Ne söyleyeyim yani?",
+   "rd": "네 데멕 콜라이? 네 쇠일레예임 야니?",
+   "ko": "쉽다니 뭔 소리야? 그럼 내가 뭐라고 해?",
+   "note": "ne söyleyeyim = 뭐라고 말할까",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Bilmem. Her sabah sana çayı kim getirecek?",
+   "rd": "빌멤. 헤르 사바흐 사나 차이으 킴 게티레젝?",
+   "ko": "몰라. 매일 아침 너한테 차는 누가 갖다 줘?",
+   "note": "her sabah = 매일 아침",
+   "tags": [
+    "expr:bilmem"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Amca getirir. Onun işi o.",
+   "rd": "암자 게티리르. 오눈 이시 오.",
+   "ko": "아저씨가 갖다 주시지. 그분 일이잖아.",
+   "note": "onun işi = 그의 일",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Masandaki çayı iki yıldır ben getiriyorum.",
+   "rd": "마산다키 차이으 이키 이을드르 벤 게티리요룸.",
+   "ko": "네 책상의 차, 2년째 내가 갖다 놓고 있어.",
+   "note": "masandaki = 네 책상에 있는 — 반전",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Ne? Amca getiriyor sanıyordum. Neden hiç söylemedin?",
+   "rd": "네? 암자 게티리요르 사느요르둠. 네덴 히치 쇠일레메딘?",
+   "ko": "뭐? 아저씨가 갖다 주시는 줄 알았어. 왜 말 안 했어?",
+   "note": "sanıyordum = ~인 줄 알았다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Açık, tek şeker. Sabah dokuzda, soğumadan.",
+   "rd": "아측, 텍 셰케르. 사바흐 도쿠즈다, 소우마단.",
+   "ko": "연하게, 설탕 하나. 아침 아홉 시, 식기 전에.",
+   "note": "soğumadan = 식기 전에",
+   "tags": [
+    "form:-madan"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Emre… kalmanı istersem? Yani…",
+   "rd": "엠레… 칼마느 이스테르셈? 야니…",
+   "ko": "Emre… 내가 남으라고 하면? 그러니까…",
+   "note": "istersem = 내가 원하면",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Cuma günü sorma. Bugün sor.",
+   "rd": "주마 귀뉘 소르마. 부귄 소르.",
+   "ko": "금요일에 묻지 마. 오늘 물어.",
+   "note": "sorma = 묻지 마",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "id": "r1_friends_b5",
+ "region": "R1",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "study"
+ ],
+ "title": "그 공책",
+ "emoji": "📓",
+ "scene": "튀르키예어 시험을 망친 날, Zeynep 이 말없이 공책을 꺼낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "hiç sorma 로 하소연하기, gerçekten mi",
+ "expressions": [
+  "hiç sorma",
+  "bak",
+  "gerçekten mi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Sınav nasıl geçti?",
+   "rd": "스나브 나슬 게치티?",
+   "ko": "시험 어땠어?",
+   "note": "nasıl geçti = 어땠어",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Hiç sorma. Türkçe çok zor.",
+   "rd": "히치 소르마. 튀르크체 촉 조르.",
+   "ko": "말도 마. 튀르키예어 너무 어려워.",
+   "note": "hiç sorma = 말도 마",
+   "tags": [
+    "expr:hiç sorma"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Bak, bu benim defterim.",
+   "rd": "박, 부 베님 데프테림.",
+   "ko": "봐, 이거 내 공책이야.",
+   "note": "defter = 공책",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": [
+    "defter"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Bu {lang}! Neden öğreniyorsun?",
+   "rd": "부 {lang}! 네덴 외레니요르순?",
+   "ko": "이거 {lang}잖아! 왜 배워?",
+   "note": "öğrenmek = 배우다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Seninle kendi dilinde konuşmak için.",
+   "rd": "세닌레 켄디 딜린데 코누시막 이친.",
+   "ko": "너랑 네 말로 얘기하려고.",
+   "note": "kendi dilinde = 네 말로 — 반전",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Gerçekten mi? İlk ne öğrendin?",
+   "rd": "게르첵텐 미? 일크 네 외렌딘?",
+   "ko": "진짜? 처음에 뭐 배웠어?",
+   "note": "ilk = 처음",
+   "tags": [
+    "expr:gerçekten mi"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Aptal demeyi. Sana lazım.",
+   "rd": "압탈 데메이. 사나 라즘.",
+   "ko": "「바보」라고 하는 법. 너한테 필요하잖아.",
+   "note": "lazım = 필요해",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

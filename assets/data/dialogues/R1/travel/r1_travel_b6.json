@@ -1,0 +1,138 @@
+{
+ "id": "r1_travel_b6",
+ "region": "R1",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "또 우리 마당",
+ "emoji": "🎈",
+ "scene": "카파도키아 풍선이 하필 어느 집 마당에 내리고, 주인은 익숙하게 맞이한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Kaptan",
+  "C": "Teyze",
+  "D": "Elif"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "hoş geldiniz·kusura bakmayın 으로 뜻밖의 손님 되기",
+ "expressions": [
+  "hoş geldiniz",
+  "kusura bakmayın",
+  "lütfen",
+  "şey",
+  "bak"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Sakin olun. Hava bugün çok güzel.",
+   "rd": "사킨 올룬. 하바 부귄 촉 귀젤.",
+   "ko": "진정하세요. 오늘 날씨 아주 좋습니다.",
+   "note": "sakin olun = 진정하세요",
+   "tags": [
+    "expr:çok güzel"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "D",
+   "tl": "Kaptan, kahvaltı var mı?",
+   "rd": "캅탄, 카흐발트 바르 므?",
+   "ko": "캡틴, 아침 있어요?",
+   "note": "kaptan = 선장, 조종사",
+   "tags": [
+    "callback:r0_travel_a4"
+   ],
+   "new": [
+    "kaptan"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Elif, lütfen! Aşağı bak, çok güzel.",
+   "rd": "엘리프, 뤼트펜! 아샤으 박, 촉 귀젤.",
+   "ko": "엘리프, 제발! 아래 봐, 너무 예뻐.",
+   "note": "aşağı = 아래",
+   "tags": [
+    "expr:lütfen",
+    "expr:çok güzel"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Şey… iniyoruz.",
+   "rd": "셰이… 이니요루즈.",
+   "ko": "저… 내려갑니다.",
+   "note": "iniyoruz = 내려간다",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Nereye? Orası birinin bahçesi!",
+   "rd": "네레예? 오라스 비리닌 바흐체시!",
+   "ko": "어디로요? 저기 누구네 마당이잖아요!",
+   "note": "bahçe = 마당, 정원",
+   "tags": [],
+   "new": [
+    "bahçe"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Hoş geldiniz! Yine mi bahçeme indiniz?",
+   "rd": "호시 겔디니즈! 이네 미 바흐체메 인디니즈?",
+   "ko": "어서 오세요! 또 우리 마당에 내렸어요?",
+   "note": "yine mi? = 또? — 반전: 처음이 아니다",
+   "tags": [
+    "expr:hoş geldiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Kusura bakmayın. Çay var mı?",
+   "rd": "쿠수라 박마이은. 차이 바르 므?",
+   "ko": "죄송합니다. 차 있어요?",
+   "note": "kusura bakmayın = 죄송합니다",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "tl": "Gördün mü? Kahvaltı var.",
+   "rd": "괴르뒨 뮈? 카흐발트 바르.",
+   "ko": "봤지? 아침 있잖아.",
+   "note": "gördün mü? = 봤지?",
+   "tags": [
+    "callback:r0_travel_a4"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "id": "r1_love_a2",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "travel"
+ ],
+ "title": "반쪽 시미트",
+ "emoji": "🐦",
+ "scene": "페리 갑판, Elif 가 내 시미트를 핑계로 말을 거는데 갈매기가 먼저 온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "mixed",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "yarısı·bir dakika·eyvah 로 나눠 주고 받기",
+ "expressions": [
+  "pardon",
+  "bir dakika",
+  "eyvah",
+  "hadi gidelim",
+  "afiyet olsun"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Pardon, simidiniz çok güzel görünüyor.",
+   "rd": "파르돈, 시미디니즈 촉 귀젤 괴뤼뉘요르.",
+   "ko": "저기요, 시미트 진짜 맛있어 보여요.",
+   "note": "görünüyor = ~해 보인다",
+   "tags": [
+    "expr:pardon"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Yarısını ister misiniz? Buyurun.",
+   "rd": "야르스느 이스테르 미시니즈? 부유룬.",
+   "ko": "반 드실래요? 여기요.",
+   "note": "yarısı = 절반",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Sağ olun! Bir dakika, martı!",
+   "rd": "사 올룬! 비르 다키카, 마르트!",
+   "ko": "고마워요! 잠깐만, 갈매기!",
+   "note": "martı = 갈매기",
+   "tags": [
+    "expr:sağ olun",
+    "expr:bir dakika"
+   ],
+   "new": [
+    "martı"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Eyvah! Yarısı gitti!",
+   "rd": "에이바흐! 야르스 기티!",
+   "ko": "헉! 반쪽 날아갔어요!",
+   "note": "eyvah = 헉, 큰일 났다",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Bak, on martı daha geliyor!",
+   "rd": "박, 온 마르트 다하 겔리요르!",
+   "ko": "봐요, 갈매기 열 마리 더 와요!",
+   "note": "daha = 더 — 반전: 갈매기 떼",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Hadi kaçalım! Diğer yarısı bende!",
+   "rd": "하디 카찰름! 디에르 야르스 벤데!",
+   "ko": "얼른 도망가요! 나머지 반쪽 나한테 있어요!",
+   "note": "bende = 나한테 있다",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Simidi at. Sen benimle gel.",
+   "rd": "시미디 앗. 센 베님레 겔.",
+   "ko": "시미트 버려. 넌 나랑 가자.",
+   "note": "benimle = 나랑 — 여기서 말을 놓는다",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Tamam, hadi gidelim! Martılar, afiyet olsun!",
+   "rd": "타맘, 하디 기델림! 마르틀라르, 아피옛 올순!",
+   "ko": "그래, 가자! 갈매기들아, 맛있게 먹어!",
+   "note": "afiyet olsun = 맛있게 드세요",
+   "tags": [
+    "expr:hadi gidelim",
+    "expr:afiyet olsun"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

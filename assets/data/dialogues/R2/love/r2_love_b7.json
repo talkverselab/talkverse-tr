@@ -1,0 +1,175 @@
+{
+ "id": "r2_love_b7",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "사흘 규칙",
+ "emoji": "⏳",
+ "scene": "Elif 가 사흘 동안 읽고 답을 안 했다. 이유를 따지러 찻집으로 간다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "ignore",
+ "flags": [
+  "romance"
+ ],
+ "goal": "ciddi misin·yok artık 으로 읽씹 따지기",
+ "expressions": [
+  "ne oldu",
+  "şey",
+  "ciddi misin",
+  "yok artık",
+  "yani"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Elif, üç gündür cevap yok. Ne oldu?",
+   "rd": "엘리프, 위치 귄뒤르 제밥 욕. 네 올두?",
+   "ko": "Elif, 사흘째 답이 없어. 무슨 일이야?",
+   "note": "üç gündür = 사흘째",
+   "tags": [
+    "expr:ne oldu"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Hiç, şey, biraz işim vardı.",
+   "rd": "히치, 셰이, 비라즈 이심 바르드.",
+   "ko": "아무 일도, 그게, 일이 좀 있어서.",
+   "note": "işim vardı = 일이 있었다",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Mesajları gördün ama. Mavi tik var.",
+   "rd": "메사즐라르 괴르뒨 아마. 마비 틱 바르.",
+   "ko": "근데 메시지는 봤잖아. 파란 체크 떠 있어.",
+   "note": "mavi tik = 읽음 표시",
+   "tags": [],
+   "new": [
+    "tik"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Gördüm, evet. Cevap yazmadım, bilerek.",
+   "rd": "괴르뒴, 에벳. 제밥 야즈마듬, 빌레렉.",
+   "ko": "봤어, 맞아. 답 안 했어, 일부러.",
+   "note": "bilerek = 일부러",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Bilerek mi, ciddi misin? Ben ne yaptım ki?",
+   "rd": "빌레렉 미, 지디 미신? 벤 네 얍틈 키?",
+   "ko": "일부러? 진심이야? 내가 뭘 했는데?",
+   "note": "ciddi misin = 진심이야?",
+   "tags": [
+    "expr:ciddi misin"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Hiçbir şey. Ablam dedi: \"Üç gün yazma, o yazsın.\"",
+   "rd": "히치비르 셰이. 아블람 데디 \"위치 귄 야즈마, 오 야즈슨.\"",
+   "ko": "아무것도. 언니가 그랬어. 「사흘은 답하지 마, 걔가 쓰게.」",
+   "note": "반전: 작전이었다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Yok artık! Bu nasıl kural böyle?",
+   "rd": "욕 아르특! 부 나슬 쿠랄 뵈일레?",
+   "ko": "말도 안 돼! 무슨 규칙이 그래?",
+   "note": "kural = 규칙",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Kural bu: kim önce yazarsa kaybeder.",
+   "rd": "쿠랄 부 킴 왼제 야자르사 카이베데르.",
+   "ko": "규칙은 이거야. 먼저 쓰는 사람이 져.",
+   "note": "kim önce = 누구든 먼저",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Ben sekiz mesaj yazdım. Kaybettim yani.",
+   "rd": "벤 세키즈 메사즈 야즈듬. 카이베팀 야니.",
+   "ko": "난 메시지 여덟 개 보냈어. 그러니까 내가 졌네.",
+   "note": "yani = 그러니까",
+   "tags": [
+    "expr:yani"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Hayır, ben kaybettim. Telefonuma bak.",
+   "rd": "하이으르, 벤 카이베팀. 텔레포누마 박.",
+   "ko": "아니, 내가 졌어. 내 폰 봐.",
+   "note": "kaybetmek = 지다",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Bu ne? Yazıp göndermediğin on dört mesaj mı?",
+   "rd": "부 네? 야즙 괸데르메디인 온 되르트 메사즈 므?",
+   "ko": "이게 뭐야? 써 놓고 안 보낸 메시지가 열네 개?",
+   "note": "yazıp = 쓰고서",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Hepsi sana. Üç gün çok uzunmuş.",
+   "rd": "헵시 사나. 위치 귄 촉 우준무시.",
+   "ko": "전부 너한테 쓴 거야. 사흘 진짜 길더라.",
+   "note": "uzunmuş = 길더라",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

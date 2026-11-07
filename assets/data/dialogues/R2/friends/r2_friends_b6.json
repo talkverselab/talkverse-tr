@@ -1,0 +1,169 @@
+{
+ "id": "r2_friends_b6",
+ "region": "R2",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "한 마디만",
+ "emoji": "🤐",
+ "scene": "Zeynep 입을 열게 하면 이긴다는 내기, 뭘 해도 대답이 없다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Zeynep"
+ },
+ "register": "casual",
+ "twist": 10,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "내기 걸기, 놀리기, olur·aman·yok artık",
+ "expressions": [
+  "olur",
+  "aman",
+  "yok artık"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "İddiaya var mısın? Zeynep'e tek kelime söyletemezsin.",
+   "rd": "이디아야 바르 므슨? 제이네페 텍 켈리메 쇠일레테메즈신.",
+   "ko": "내기할래? 넌 제이넵 입에서 한 마디도 못 뽑아.",
+   "note": "iddia = 내기 · söyletmek = 말하게 하다",
+   "tags": [],
+   "new": [
+    "iddia"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Olur! Kaybeden künefe ısmarlar.",
+   "rd": "올루르! 카이베덴 퀴네페 으스마를라르.",
+   "ko": "좋아! 진 사람이 퀴네페 사기.",
+   "note": "ısmarlamak = 사다, 쏘다",
+   "tags": [
+    "expr:olur"
+   ],
+   "new": [
+    "ısmarlamak"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Zeynep, bu elbise sana çok yakışmış.",
+   "rd": "제이넵, 부 엘비세 사나 촉 야크시므시.",
+   "ko": "제이넵, 이 옷 너한테 너무 잘 어울린다.",
+   "note": "yakışmak = 어울리다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Bakmadı bile. Bir sıfır.",
+   "rd": "박마드 빌레. 비르 스프르.",
+   "ko": "쳐다보지도 않았어. 1대 0.",
+   "note": "sıfır = 0",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Bence tasarımın çok kötü, Zeynep.",
+   "rd": "벤제 타사르믄 촉 쾨튀, 제이넵.",
+   "ko": "내 생각엔 네 디자인 진짜 별로야, 제이넵.",
+   "note": "bence = 내 생각엔",
+   "tags": [
+    "expr:bence"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Aman, o bakışı gördün mü? Ama ses yok.",
+   "rd": "아만, 오 바크시 괴르뒨 뮈? 아마 세스 욕.",
+   "ko": "아이고, 그 눈빛 봤어? 근데 소리는 없어.",
+   "note": "bakış = 눈빛",
+   "tags": [
+    "expr:aman"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Zeynep, kedi çantanı götürüyor!",
+   "rd": "제이넵, 케디 찬타느 괴튀뤼요르!",
+   "ko": "제이넵, 고양이가 네 가방 물고 간다!",
+   "note": "götürmek = 가져가다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Çantayı verdi gitti. Yine tek kelime yok!",
+   "rd": "찬타이으 베르디 기티. 이네 텍 켈리메 욕!",
+   "ko": "가방을 그냥 내줘 버렸어. 또 한 마디도 없어!",
+   "note": "verdi gitti = 줘 버렸다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Yok artık! Bu kız insan değil.",
+   "rd": "욕 아르특! 부 크즈 인산 데일.",
+   "ko": "말도 안 돼! 얘 사람 아니야.",
+   "note": "insan = 사람",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Bitti. Bir saat tamam.",
+   "rd": "비티. 비르 사앗 타맘.",
+   "ko": "끝. 한 시간 채웠어.",
+   "note": "bitti = 끝났다 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Ne bir saati? Sen konuştun!",
+   "rd": "네 비르 사아티? 센 코누시툰!",
+   "ko": "무슨 한 시간? 너 말했어!",
+   "note": "ne ~i = 무슨 ~",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Can'la iddiam vardı. Künefe ondan.",
+   "rd": "잔라 이디암 바르드. 퀴네페 온단.",
+   "ko": "잔이랑 내기했거든. 퀴네페는 걔가 사.",
+   "note": "ondan = 그에게서",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

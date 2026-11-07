@@ -1,0 +1,184 @@
+{
+ "id": "r2_travel_b8",
+ "region": "R2",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "낚싯대 좀 잡아 줘",
+ "emoji": "🎣",
+ "scene": "갈라타 다리에서 낚시꾼이 낚싯대를 맡기고 간 사이, 뭔가 크게 걸린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Balıkçı",
+  "C": "Elif",
+  "D": "Çaycı"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "bir dakika·eyvah·galiba 로 갑작스러운 일에 소리치기",
+ "expressions": [
+  "bir dakika",
+  "eyvah",
+  "galiba",
+  "yok artık",
+  "geldim"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Evladım, şunu bir dakika tutar mısın? Hemen geliyorum.",
+   "rd": "에블라듬, 슈누 비르 다키카 투타르 므슨? 헤멘 겔리요룸.",
+   "ko": "얘야, 이것 좀 잠깐 잡아 줄래? 금방 올게.",
+   "note": "tutar mısın? = 잡아 줄래?",
+   "tags": [
+    "expr:bir dakika",
+    "form:-er misin"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Ben mi? Ama ben balık tutmayı bilmiyorum.",
+   "rd": "벤 미? 아마 벤 발륵 투트마이으 빌미요룸.",
+   "ko": "저요? 근데 저 낚시할 줄 몰라요.",
+   "note": "balık tutmak = 낚시하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Bir şey olmaz. Burada iki saattir balık yok.",
+   "rd": "비르 셰이 올마즈. 부라다 이키 사아티르 발륵 욕.",
+   "ko": "아무 일 없어. 여기 두 시간째 고기 없어.",
+   "note": "bir şey olmaz = 아무 일 없어",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Bak, ip hareket ediyor! Çekiyor, çekiyor!",
+   "rd": "박, 입 하레켓 에디요르! 체키요르, 체키요르!",
+   "ko": "봐, 줄이 움직여! 당겨, 당겨!",
+   "note": "ip = 줄 · çekmek = 당기다",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": [
+    "ip"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Eyvah, çok güçlü! Elif, yardım et!",
+   "rd": "에이바흐, 촉 귀칠뤼! 엘리프, 야르듬 엣!",
+   "ko": "헉, 엄청 세! 엘리프, 도와줘!",
+   "note": "yardım et = 도와줘",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Bırakma! Abi, yardım edin, tutun şunu!",
+   "rd": "브락마! 아비, 야르듬 에딘, 투툰 슈누!",
+   "ko": "놓지 마! 아저씨, 도와주세요, 이것 좀 잡아요!",
+   "note": "tutun = 잡으세요",
+   "tags": [
+    "expr:abi"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "D",
+   "tl": "Geldim, tutun! Çay sonra, önce balık!",
+   "rd": "겔딤, 투툰! 차이 손라, 왼제 발륵!",
+   "ko": "왔어요, 잡아요! 차는 나중에, 고기 먼저!",
+   "note": "önce = 먼저",
+   "tags": [
+    "expr:geldim"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Eyvah… İp vapura takıldı galiba!",
+   "rd": "에이바흐… 입 바푸라 타클드 갈리바!",
+   "ko": "헉… 줄이 페리에 걸린 것 같아!",
+   "note": "takılmak = 걸리다 — 반전",
+   "tags": [
+    "expr:eyvah",
+    "expr:galiba"
+   ],
+   "new": [
+    "vapur"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "tl": "Yok artık! Vapur gidiyor, sen de gidiyorsun!",
+   "rd": "욕 아르특! 바푸르 기디요르, 센 데 기디요르순!",
+   "ko": "말도 안 돼! 페리 간다, 너도 끌려간다!",
+   "note": "sen de = 너도",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "tl": "Bırak, bırak! Olta gitsin, sen kal!",
+   "rd": "브락, 브락! 올타 기트신, 센 칼!",
+   "ko": "놔, 놔! 낚싯대는 가라 그래, 넌 남아!",
+   "note": "olta = 낚싯대",
+   "tags": [],
+   "new": [
+    "olta"
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Geldim. Ee, oltam nerede?",
+   "rd": "겔딤. 에에, 올탐 네레데?",
+   "ko": "나 왔다. 그래서, 내 낚싯대 어디 있어?",
+   "note": "ee = 그래서",
+   "tags": [
+    "expr:geldim",
+    "expr:ee"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Oltanız Kadıköy'e gidiyor.",
+   "rd": "올타느즈 카드쾨예 기디요르.",
+   "ko": "낚싯대는 카드쾨이로 가는 중이에요.",
+   "note": "gidiyor = 가는 중",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

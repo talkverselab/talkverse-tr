@@ -1,0 +1,127 @@
+{
+ "id": "r1_love_b5",
+ "region": "R1",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "이 고양이 이름은",
+ "emoji": "🐾",
+ "scene": "Elif 가 동네 길고양이에게 지어 준 이름을 끝까지 안 알려 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "adı ne·valla·yok artık 으로 캐묻기",
+ "expressions": [
+  "harika",
+  "valla",
+  "hadi",
+  "yok artık"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Bu kedi senin mi? Çok tatlı.",
+   "rd": "부 케디 세닌 미? 촉 타틀르.",
+   "ko": "이 고양이 네 고양이야? 진짜 귀엽다.",
+   "note": "senin mi = 네 거야?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Sokağın kedisi. Ama adını ben koydum.",
+   "rd": "소카은 케디시. 아마 아드느 벤 코이둠.",
+   "ko": "동네 고양이야. 근데 이름은 내가 지었어.",
+   "note": "ad koymak = 이름 짓다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Harika! Adı ne?",
+   "rd": "하리카! 아드 네?",
+   "ko": "좋다! 이름이 뭔데?",
+   "note": "adı ne = 이름이 뭐야",
+   "tags": [
+    "expr:harika"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Söylemem. Sonra gülersin.",
+   "rd": "쇠일레멤. 손라 귈레르신.",
+   "ko": "말 안 해. 너 웃을 거야.",
+   "note": "gülersin = 넌 웃을 거야",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Gülmem, valla. Hadi, söyle.",
+   "rd": "귈멤, 발라. 하디, 쇠일레.",
+   "ko": "안 웃어, 진짜로. 어서 말해.",
+   "note": "valla = 진짜로",
+   "tags": [
+    "expr:valla",
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Adı {name}.",
+   "rd": "아드 {name}.",
+   "ko": "이름은… {name}.",
+   "note": "반전: 내 이름",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Yok artık! Neden benim adım?",
+   "rd": "욕 아르특! 네덴 베님 아듬?",
+   "ko": "말도 안 돼! 왜 내 이름이야?",
+   "note": "yok artık = 말도 안 돼",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Güzel, ama beni hiç aramıyor.",
+   "rd": "귀젤, 아마 베니 히치 아라므요르.",
+   "ko": "예쁜데, 나한테 연락을 안 해.",
+   "note": "aramak = 전화하다, 찾다 — 고양이 얘기가 아니다",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

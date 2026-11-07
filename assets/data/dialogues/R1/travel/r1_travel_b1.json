@@ -1,0 +1,134 @@
+{
+ "id": "r1_travel_b1",
+ "region": "R1",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel",
+  "culture"
+ ],
+ "title": "마지막 가격",
+ "emoji": "🛍️",
+ "scene": "바자르에서 멋지게 깎았는데, Elif 가 가격표를 보고 만다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Satıcı",
+  "C": "Elif"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "ne kadar·çok pahalı 로 바자르에서 흥정하기",
+ "expressions": [
+  "hoş geldiniz",
+  "çok güzel",
+  "ne kadar",
+  "çok pahalı",
+  "aman",
+  "harika"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hoş geldiniz! Bu çanta çok güzel.",
+   "rd": "호시 겔디니즈! 부 찬타 촉 귀젤.",
+   "ko": "어서 오세요! 이 가방 정말 좋아요.",
+   "note": "çanta = 가방",
+   "tags": [
+    "expr:hoş geldiniz",
+    "expr:çok güzel"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Güzel. Ne kadar?",
+   "rd": "귀젤. 네 카다르?",
+   "ko": "예쁘네요. 얼마예요?",
+   "note": "ne kadar = 얼마",
+   "tags": [
+    "expr:ne kadar"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Sizin için bin lira.",
+   "rd": "시진 이친 빈 리라.",
+   "ko": "손님한테만 천 리라.",
+   "note": "sizin için = 손님을 위해",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Çok pahalı! Sekiz yüz olur mu?",
+   "rd": "촉 파할르! 세키즈 위즈 올루르 무?",
+   "ko": "너무 비싸요! 800 안 돼요?",
+   "note": "olur mu? = 돼요?",
+   "tags": [
+    "expr:çok pahalı"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Aman! Dokuz yüz, son fiyat.",
+   "rd": "아만! 도쿠즈 위즈, 손 피얏.",
+   "ko": "아이고! 900, 마지막 가격이에요.",
+   "note": "fiyat = 가격",
+   "tags": [
+    "expr:aman"
+   ],
+   "new": [
+    "fiyat"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Tamam, dokuz yüz! Bak Elif, harika!",
+   "rd": "타맘, 도쿠즈 위즈! 박 엘리프, 하리카!",
+   "ko": "좋아요, 900! 봐 엘리프, 완벽해!",
+   "note": "harika = 끝내주지",
+   "tags": [
+    "expr:bak",
+    "expr:harika"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Harika… ama üstünde beş yüz yazıyor.",
+   "rd": "하리카… 아마 위스튄데 베시 위즈 야즈요르.",
+   "ko": "완벽하네… 근데 여기 500이라고 써 있어.",
+   "note": "üstünde … yazıyor = 위에 …라고 써 있다 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "O eski fiyat. Çay içer misiniz?",
+   "rd": "오 에스키 피얏. 차이 이체르 미시니즈?",
+   "ko": "그건 옛날 가격이고요. 차 한잔 하실래요?",
+   "note": "eski = 옛날의",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

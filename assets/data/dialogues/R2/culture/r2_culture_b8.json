@@ -1,0 +1,181 @@
+{
+ "id": "r2_culture_b8",
+ "region": "R2",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "애플 티, 마이 프렌드",
+ "emoji": "🌿",
+ "scene": "향신료 가게에서 터키어로 말하는데 주인은 끝까지 영어로만 답한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Baharatçı",
+  "C": "Elif"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "anlamadım·lütfen 으로 가게에서 끝까지 터키어로 말하기",
+ "expressions": [
+  "merhaba",
+  "lütfen",
+  "tamam",
+  "bak",
+  "anlamadım",
+  "yok ya"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hello my friend! Where are you from?",
+   "rd": "헬로 마이 프렌드! 웨어 아 유 프롬?",
+   "ko": "헬로 마이 프렌드! 어디서 왔어요?",
+   "note": "가게 영어 — 뜻은 「안녕 친구, 어디서 왔어요?」",
+   "tags": [],
+   "new": [],
+   "rd_manual": true
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Merhaba, Türkçe öğreniyorum. Kekik var mı?",
+   "rd": "메르하바, 튀르크체 외레니요룸. 케킥 바르 므?",
+   "ko": "안녕하세요, 터키어 배우고 있어요. 타임 있어요?",
+   "note": "kekik = 타임(향신료)",
+   "tags": [
+    "expr:merhaba"
+   ],
+   "new": [
+    "kekik"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Yes yes, very good price! Special for you!",
+   "rd": "예스 예스, 베리 굿 프라이스! 스페셜 포 유!",
+   "ko": "예스 예스, 아주 좋은 가격! 당신만 특별히!",
+   "note": "뜻은 「좋은 값, 당신만 특별히」",
+   "tags": [],
+   "new": [],
+   "rd_manual": true
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Lütfen Türkçe konuşun. Kekik istiyorum, kekik.",
+   "rd": "뤼트펜 튀르크체 코누슌. 케킥 이스티요룸, 케킥.",
+   "ko": "터키어로 말씀해 주세요. 타임 주세요, 타임.",
+   "note": "konuşun = 말씀하세요",
+   "tags": [
+    "expr:lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Apple tea? Very good, my friend!",
+   "rd": "애플 티? 베리 굿, 마이 프렌드!",
+   "ko": "애플 티? 아주 좋아요, 마이 프렌드!",
+   "note": "apple tea = 사과차",
+   "tags": [],
+   "new": [],
+   "rd_manual": true
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Bırak, seni duymuyor. Kendi şarkısını söylüyor.",
+   "rd": "브락, 세니 두이무요르. 켄디 샤르크스느 쇠일뤼요르.",
+   "ko": "놔둬, 네 말 안 들려. 자기 노래 부르는 중이야.",
+   "note": "kendi = 자기",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Tamam, bak şimdi. Do you have thyme?",
+   "rd": "타맘, 박 심디. 두 유 해브 타임?",
+   "ko": "좋아, 봐 봐. Do you have thyme?",
+   "note": "영어로 물어본다",
+   "tags": [
+    "expr:tamam",
+    "expr:bak"
+   ],
+   "new": [],
+   "rd_manual": true
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Efendim? Ne diyorsunuz, anlamadım.",
+   "rd": "에펜딤? 네 디요르수누즈, 안라마듬.",
+   "ko": "네? 뭐라고 하시는지 못 알아들었어요.",
+   "note": "efendim? = 네? — 반전",
+   "tags": [
+    "expr:anlamadım"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "İngilizce sordum. Siz İngilizce bilmiyor musunuz?",
+   "rd": "인길리즈제 소르둠. 시즈 인길리즈제 빌미요르 무수누즈?",
+   "ko": "영어로 물었는데요. 영어 모르세요?",
+   "note": "İngilizce = 영어",
+   "tags": [],
+   "new": [
+    "İngilizce"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Yok ya, on cümle biliyorum. Ne istemiştiniz?",
+   "rd": "욕 야, 온 쥠레 빌리요룸. 네 이스테미시티니즈?",
+   "ko": "아뇨, 열 문장 알아요. 뭐 찾으셨죠?",
+   "note": "yok ya = 아니 뭐",
+   "tags": [
+    "expr:yok ya"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Kekik! Yarım saattir kekik diyorum!",
+   "rd": "케킥! 야름 사아티르 케킥 디요룸!",
+   "ko": "타임이요! 30분째 타임이라고 하고 있잖아요!",
+   "note": "yarım saattir = 30분째",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Kekik yok. Apple tea, my friend?",
+   "rd": "케킥 욕. 애플 티, 마이 프렌드?",
+   "ko": "타임은 없어요. 애플 티, 마이 프렌드?",
+   "note": "kekik yok = 타임 없다",
+   "tags": [
+    "expr:yok"
+   ],
+   "new": [],
+   "rd_manual": true
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

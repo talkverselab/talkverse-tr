@@ -1,0 +1,135 @@
+{
+ "id": "r1_life_b5",
+ "region": "R1",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "누가 죽었어?",
+ "emoji": "🥟",
+ "scene": "Teyze 가 만트를 차려 줬다. 배운 인사를 써먹으려다 엉뚱한 인사가 나왔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 4,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "elinize sağlık·başınız sağ olsun 을 구별해 쓰기",
+ "expressions": [
+  "buyur",
+  "canım",
+  "çok güzel",
+  "sağ olun",
+  "olsun",
+  "allah allah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Buyur, canım, otur. Mantı yaptım.",
+   "rd": "부유르, 자늠, 오투르. 만트 얍틈.",
+   "ko": "어서 앉아라, 얘야. 만트 만들었다.",
+   "note": "mantı = 튀르키예식 작은 만두",
+   "tags": [
+    "expr:buyur",
+    "expr:canım"
+   ],
+   "new": [
+    "mantı"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Sağ olun, teyze. Çok güzel kokuyor.",
+   "rd": "사 올룬, 테이제. 촉 귀젤 코쿠요르.",
+   "ko": "고맙습니다, 아주머니. 냄새 너무 좋아요.",
+   "note": "kokuyor = 냄새가 난다",
+   "tags": [
+    "expr:çok güzel",
+    "expr:sağ olun"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Ee? Beğendin mi?",
+   "rd": "에에? 베엔딘 미?",
+   "ko": "그래서? 맛있니?",
+   "note": "beğendin mi? = 마음에 들어?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Çok güzel. Başınız sağ olsun!",
+   "rd": "촉 귀젤. 바시느즈 사 올순!",
+   "ko": "너무 맛있어요. 삼가 조의를 표합니다!",
+   "note": "başınız sağ olsun = 조의 인사 — 반전: 인사를 잘못 골랐다",
+   "tags": [
+    "expr:çok güzel",
+    "expr:olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Allah Allah! Kim öldü?!",
+   "rd": "알라흐 알라흐! 킴 욀뒤?!",
+   "ko": "아니 세상에! 누가 죽었어?!",
+   "note": "allah allah = 어머 참",
+   "tags": [
+    "expr:allah allah"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Kimse! Yani yemek çok güzel!",
+   "rd": "킴세! 야니 예멕 촉 귀젤!",
+   "ko": "아무도요! 그러니까 음식이 너무 맛있어요!",
+   "note": "kimse = 아무도",
+   "tags": [
+    "expr:çok güzel",
+    "expr:yani"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Yavrum, 'elinize sağlık' denir. Mantı ölmedi!",
+   "rd": "야브룸, 엘리니제 살륵 데니르. 만트 욀메디!",
+   "ko": "얘야, 그럴 땐 '잘 먹었습니다'라고 하는 거야. 만트는 안 죽었어!",
+   "note": "elinize sağlık = 잘 먹었습니다(만든 사람에게)",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Ölmedi mi? Ben hepsini yedim.",
+   "rd": "욀메디 미? 벤 헵시니 예딤.",
+   "ko": "안 죽었다고요? 제가 다 먹었는데요.",
+   "note": "hepsini = 전부를",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

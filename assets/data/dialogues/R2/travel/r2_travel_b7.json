@@ -1,0 +1,181 @@
+{
+ "id": "r2_travel_b7",
+ "region": "R2",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "love"
+ ],
+ "domain": [
+  "travel",
+  "love",
+  "culture"
+ ],
+ "title": "토끼가 뽑았어",
+ "emoji": "🐇",
+ "scene": "거리의 점 토끼가 뽑아 주는 쪽지가 자꾸 내 옆 사람 얘기만 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Niyetçi",
+  "C": "Elif"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "gerçekten mi·vay be 로 놀라고 되묻기",
+ "expressions": [
+  "bak",
+  "hadi",
+  "gerçekten mi",
+  "vay be"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Niyet tut, evladım. Tavşan senin için seçecek.",
+   "rd": "니옛 툿, 에블라듬. 타브샨 세닌 이친 세체젝.",
+   "ko": "소원 빌어, 얘야. 토끼가 뽑아 줄 거야.",
+   "note": "niyet tutmak = 소원을 빌다 · tavşan = 토끼",
+   "tags": [],
+   "new": [
+    "niyet",
+    "tavşan"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Elif, ben buna inanmıyorum ki. Bu bir tavşan.",
+   "rd": "엘리프, 벤 부나 이난므요룸 키. 부 비르 타브샨.",
+   "ko": "엘리프, 난 이런 거 안 믿는다니까. 이거 토끼잖아.",
+   "note": "inanmak = 믿다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Sus, sus. Bu tavşan her şeyi biliyor.",
+   "rd": "수스, 수스. 부 타브샨 헤르 셰이 빌리요르.",
+   "ko": "쉿, 쉿. 이 토끼는 다 알아.",
+   "note": "sus = 조용히 해",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Bak, kâğıdı aldı. Hadi aç, oku.",
+   "rd": "박, 카으드 알드. 하디 아치, 오쿠.",
+   "ko": "봐, 쪽지 물었다. 자 펴서 읽어 봐.",
+   "note": "kâğıt = 쪽지, 종이",
+   "tags": [
+    "expr:bak",
+    "expr:hadi"
+   ],
+   "new": [
+    "kâğıt"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "«Yanındaki kişi seni çok düşünüyor.» Gerçekten mi?",
+   "rd": "야는다키 키시 세니 촉 뒤쉬뉘요르. 게르첵텐 미?",
+   "ko": "「옆 사람이 당신을 많이 생각합니다.」 진짜요?",
+   "note": "yanındaki kişi = 옆 사람",
+   "tags": [
+    "expr:gerçekten mi"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Vay be! Sence kim o?",
+   "rd": "바이 베! 센제 킴 오?",
+   "ko": "와 대박! 네 생각엔 누구 같아?",
+   "note": "sence = 네 생각엔",
+   "tags": [
+    "expr:vay be"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Yanımda kim var? Bu amca mı?",
+   "rd": "야늠다 킴 바르? 부 암자 므?",
+   "ko": "내 옆에 누가 있지? 이 아저씨?",
+   "note": "amca = 아저씨",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Ben evliyim, evladım. Bir daha seçelim.",
+   "rd": "벤 에블리임, 에블라듬. 비르 다하 세첼림.",
+   "ko": "난 결혼했다, 얘야. 한 번 더 뽑자.",
+   "note": "evli = 결혼한",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "«Yanındaki kişi bugün çok güzel.» Bu kâğıt garip.",
+   "rd": "야는다키 키시 부귄 촉 귀젤. 부 카읏 가립.",
+   "ko": "「옆 사람은 오늘 아주 예쁩니다.」 이 쪽지 이상한데.",
+   "note": "garip = 이상한",
+   "tags": [
+    "expr:çok güzel"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Hiç garip değil. Tavşan çok akıllı.",
+   "rd": "히치 가립 데일. 타브샨 촉 아클르.",
+   "ko": "하나도 안 이상해. 토끼가 똑똑한 거지.",
+   "note": "akıllı = 똑똑한",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Elif kızım, tavşan yoruldu. Yüz lira az.",
+   "rd": "엘리프 크즘, 타브샨 요룰두. 위즈 리라 아즈.",
+   "ko": "엘리프야, 토끼 지쳤다. 100리라는 적어.",
+   "note": "yorulmak = 지치다 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Yüz lira mı? Bana bedava söyleseydin.",
+   "rd": "위즈 리라 므? 바나 베다바 쇠일레세이딘.",
+   "ko": "100리라? 나한테 그냥 말하지 그랬어.",
+   "note": "bedava = 공짜 · -seydin = ~했으면 좋았을 텐데",
+   "tags": [
+    "form:-seydin",
+    "simkung"
+   ],
+   "new": [
+    "bedava"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

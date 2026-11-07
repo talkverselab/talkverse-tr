@@ -1,0 +1,176 @@
+{
+ "id": "r2_life_b5",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "고양이가 기다렸대",
+ "emoji": "🌃",
+ "scene": "일주일 만에 돌아온 밤, 문 앞 계단에 Can 과 Patron 이 앉아 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "hoş geldin·hoş bulduk·tabii ki 로 돌아온 친구와 말하기",
+ "expressions": [
+  "hoş geldin",
+  "hoş bulduk",
+  "vay be",
+  "yani",
+  "ne alaka",
+  "tabii ki"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Can? Gece yarısı kapımın önünde ne yapıyorsun?",
+   "rd": "잔? 게제 야르스 카프믄 외뉜데 네 야프요르순?",
+   "ko": "칸? 한밤중에 우리 집 문 앞에서 뭐 해?",
+   "note": "gece yarısı = 한밤중",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Hoş geldin. Ben değil, Patron bekliyordu.",
+   "rd": "호시 겔딘. 벤 데일, 파트론 베클리요르두.",
+   "ko": "어서 와. 내가 아니고, 파트론이 기다렸어.",
+   "note": "bekliyordu = 기다리고 있었다",
+   "tags": [
+    "expr:hoş geldin",
+    "callback:r1_life_a5"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Hoş bulduk. Bir hafta kapımda mı bekledi?",
+   "rd": "호시 불둑. 비르 하프타 카픔다 므 베클레디?",
+   "ko": "응, 왔어. 일주일이나 문 앞에서 기다렸다고?",
+   "note": "hoş bulduk = hoş geldin 의 대답",
+   "tags": [
+    "expr:hoş bulduk"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Her gün buraya geldi. Yemeğini de ben verdim.",
+   "rd": "헤르 귄 부라야 겔디. 예메이니 데 벤 베르딤.",
+   "ko": "매일 여기 왔어. 밥도 내가 줬고.",
+   "note": "her gün = 매일",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Vay be. Patron beni özlemiş yani.",
+   "rd": "바이 베. 파트론 베니 외즐레미시 야니.",
+   "ko": "와 대박. 파트론이 날 보고 싶어 했구나.",
+   "note": "özlemiş = 그리워했다더라",
+   "tags": [
+    "expr:vay be",
+    "expr:yani"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Çok özledi. Bütün gün kapıya bakıyordu.",
+   "rd": "촉 외즐레디. 뷔튄 귄 카프야 바크요르두.",
+   "ko": "엄청. 하루 종일 문만 보고 있었어.",
+   "note": "bütün gün = 하루 종일",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Kedi mi kapıya baktı, sen mi?",
+   "rd": "케디 미 카프야 박트, 센 미?",
+   "ko": "고양이가 문을 본 거야, 네가 본 거야?",
+   "note": "… mi, … mi? = ~야, ~야? — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Kedi, tabii ki. Ne alaka?",
+   "rd": "케디, 타비이 키. 네 알라카?",
+   "ko": "고양이지, 당연히. 뭔 소리야?",
+   "note": "ne alaka = 뭔 소리야",
+   "tags": [
+    "expr:ne alaka",
+    "expr:tabii ki"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Peki o elindeki ne?",
+   "rd": "페키 오 엘린데키 네?",
+   "ko": "그럼 그 손에 든 건 뭐야?",
+   "note": "elindeki = 손에 있는 것",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Hiç. Patron senin için aldı.",
+   "rd": "히치. 파트론 세닌 이친 알드.",
+   "ko": "아무것도. 파트론이 널 위해 샀어.",
+   "note": "senin için = 널 위해",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Kedi… simit mi aldı?",
+   "rd": "케디… 시밋 미 알드?",
+   "ko": "고양이가… 시미트를 샀다고?",
+   "note": "simit = 깨 뿌린 고리 빵",
+   "tags": [],
+   "new": [
+    "simit"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Evet. Yarısını yolda kontrol ettim.",
+   "rd": "에벳. 야르스느 욜다 콘트롤 에팀.",
+   "ko": "응. 반은 오다가 점검했고.",
+   "note": "kontrol etmek = 확인하다",
+   "tags": [
+    "callback:r1_life_b4"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

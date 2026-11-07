@@ -1,0 +1,182 @@
+{
+ "id": "r2_culture_b3",
+ "region": "R2",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "말하지 말랬지",
+ "emoji": "🧶",
+ "scene": "Zeynep 이 흥정할 테니 입 다물고 있으라고 했는데, 양탄자가 너무 예쁘다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Halıcı",
+  "C": "Zeynep"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "ne kadar·çok pahalı 로 흥정하기",
+ "expressions": [
+  "tamam",
+  "hoş geldiniz",
+  "buyurun",
+  "ne kadar",
+  "çok pahalı",
+  "hadi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Dükkâna giriyoruz. Sen hiç konuşma, ben hallederim.",
+   "rd": "뒤카나 기리요루즈. 센 히치 코누시마, 벤 할레데림.",
+   "ko": "가게 들어간다. 넌 말하지 마, 내가 해결할게.",
+   "note": "halletmek = 해결하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Tamam. Sadece küçük bir halı istiyoruz, değil mi?",
+   "rd": "타맘. 사데제 퀴췩 비르 할르 이스티요루즈, 데일 미?",
+   "ko": "알았어. 작은 양탄자 하나만 사는 거지?",
+   "note": "halı = 양탄자",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": [
+    "halı"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Hoş geldiniz! Buyurun, çay mı, kahve mi?",
+   "rd": "호시 겔디니즈! 부유룬, 차이 므, 카흐베 미?",
+   "ko": "어서 오세요! 자, 차 드릴까요, 커피 드릴까요?",
+   "note": "buyurun = 어서요",
+   "tags": [
+    "expr:hoş geldiniz",
+    "expr:buyurun"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Almıyoruz, sadece bakıyoruz. Küçük halı ne kadar?",
+   "rd": "알므요루즈, 사데제 바크요루즈. 퀴췩 할르 네 카다르?",
+   "ko": "안 사요, 그냥 보는 거예요. 작은 양탄자 얼마예요?",
+   "note": "ne kadar = 얼마",
+   "tags": [
+    "expr:ne kadar"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Bu el yapımı, çok eski. On bin lira.",
+   "rd": "부 엘 야프므, 촉 에스키. 온 빈 리라.",
+   "ko": "이건 수제고, 아주 오래됐어요. 만 리라요.",
+   "note": "el yapımı = 손으로 만든",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "On bin mi? Çok pahalı, hadi {name}, gidiyoruz.",
+   "rd": "온 빈 미? 촉 파할르, 하디 {name}, 기디요루즈.",
+   "ko": "만 리라요? 너무 비싸요, 가자 {name}.",
+   "note": "çok pahalı = 너무 비싸요",
+   "tags": [
+    "expr:çok pahalı",
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Ama bakın, bu kırmızı olan… vay, çok güzel!",
+   "rd": "아마 바큰, 부 크르므즈 올란… 바이, 촉 귀젤!",
+   "ko": "근데 이 빨간 거요… 와, 너무 예뻐요!",
+   "note": "kırmızı = 빨간",
+   "tags": [
+    "expr:çok güzel",
+    "expr:vay"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "{name}. Konuşma demiştim.",
+   "rd": "{name}. 코누시마 데미시팀.",
+   "ko": "{name}. 말하지 말랬지.",
+   "note": "demiştim = 말했었다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Çocuklar, bütün halıları açın! Misafir bu işi biliyor!",
+   "rd": "초주클라르, 뷔튄 할를라르 아츤! 미사피르 부 이시 빌리요르!",
+   "ko": "얘들아, 양탄자 전부 펴! 손님이 볼 줄 아신다!",
+   "note": "açın = 펴라 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Hayır, bir dakika! Yerde yer kalmadı!",
+   "rd": "하이으르, 비르 다키카! 예르데 예르 칼마드!",
+   "ko": "아뇨, 잠깐만요! 바닥에 자리가 없어요!",
+   "note": "bir dakika = 잠깐만요",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "İki halı yirmi bin! Üçüncüsü benden hediye!",
+   "rd": "이키 할르 이르미 빈! 위췬쥐쉬 벤덴 헤디예!",
+   "ko": "둘에 2만 리라! 세 번째는 제 선물입니다!",
+   "note": "hediye = 선물",
+   "tags": [],
+   "new": [
+    "hediye"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Tebrikler. Üç halın var ama yerin yok.",
+   "rd": "테브리클레르. 위치 할른 바르 아마 예린 욕.",
+   "ko": "축하해. 양탄자 셋 생겼는데 깔 데가 없네.",
+   "note": "tebrikler = 축하해",
+   "tags": [
+    "expr:yok"
+   ],
+   "new": [
+    "tebrikler"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

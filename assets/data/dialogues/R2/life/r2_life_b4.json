@@ -1,0 +1,182 @@
+{
+ "id": "r2_life_b4",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "자르라는 말이 아니었어요",
+ "emoji": "💇",
+ "scene": "미용실. 「kesin」 은 「확실한」 이기도 하고 「자르세요」 이기도 하다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Kuaför"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "kesin·bilmiyorum 으로 미용실에서 원하는 머리 말하기",
+ "expressions": [
+  "hoş geldiniz",
+  "olsun",
+  "bilmiyorum",
+  "anladım",
+  "şey",
+  "tamam"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hoş geldiniz. Nasıl olsun?",
+   "rd": "호시 겔디니즈. 나슬 올순?",
+   "ko": "어서 오세요. 어떻게 해 드릴까요?",
+   "note": "nasıl olsun? = 어떻게 할까요?",
+   "tags": [
+    "expr:hoş geldiniz",
+    "expr:olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Bilmiyorum. Biraz kısa, ama çok değil.",
+   "rd": "빌미요룸. 비라즈 크사, 아마 촉 데일.",
+   "ko": "모르겠어요. 조금 짧게요, 근데 많이는 말고요.",
+   "note": "kısa = 짧은",
+   "tags": [
+    "expr:bilmiyorum"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Anladım. Arkası kısa mı, uzun mu?",
+   "rd": "안라듬. 아르카스 크사 므, 우준 무?",
+   "ko": "알겠습니다. 뒤쪽은요? 짧게요, 길게요?",
+   "note": "arkası = 뒤쪽",
+   "tags": [
+    "expr:anladım"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Şey, kesin değil. Düşünüyorum.",
+   "rd": "셰이, 케신 데일. 뒤쉬뉘요룸.",
+   "ko": "저… 아직 확실하지 않아요. 생각 중이에요.",
+   "note": "kesin = 확실한",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Kesin mi? Tamam, kesiyorum!",
+   "rd": "케신 미? 타맘, 케시요룸!",
+   "ko": "자르라고요? 네, 자를게요!",
+   "note": "kesin! = 자르세요 — 반전: 같은 소리, 다른 뜻",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Hayır, bir dakika! Kesin değil!",
+   "rd": "하이으르, 비르 다키카! 케신 데일!",
+   "ko": "아뇨, 잠깐만요! 확실한 게 아니라고요!",
+   "note": "hayır = 아니요",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Ne demek 'kesin değil'? Kestim bile.",
+   "rd": "네 데멕 케신 데일? 케스팀 빌레.",
+   "ko": "'kesin değil'이 무슨 말이에요? 벌써 잘랐는데요.",
+   "note": "kestim bile = 벌써 잘랐다",
+   "tags": [
+    "expr:ne demek"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Aman! Ne kadar kestiniz?",
+   "rd": "아만! 네 카다르 케스티니즈?",
+   "ko": "아이고! 얼마나 자르셨어요?",
+   "note": "ne kadar = 얼마나",
+   "tags": [
+    "expr:ne kadar",
+    "expr:aman"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Az. Yani şurası az.",
+   "rd": "아즈. 야니 슈라스 아즈.",
+   "ko": "조금요. 그러니까… 이쪽은 조금요.",
+   "note": "şurası = 이쪽",
+   "tags": [
+    "expr:yani"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Ya burası? Burası neden yok?",
+   "rd": "야 부라스? 부라스 네덴 욕?",
+   "ko": "그럼 여기는요? 여기는 왜 없어요?",
+   "note": "ya burası? = 여기는요?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Önemli değil. Saç büyür, inşallah.",
+   "rd": "외넴리 데일. 사치 뷔위르, 인샬라흐.",
+   "ko": "괜찮아요. 머리는 자라요, 아마도요.",
+   "note": "büyür = 자란다",
+   "tags": [
+    "expr:önemli değil",
+    "expr:inşallah"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Peki… şapka da satıyor musunuz?",
+   "rd": "페키… 샵카 다 사트요르 무수누즈?",
+   "ko": "그럼… 모자도 파세요?",
+   "note": "şapka = 모자",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

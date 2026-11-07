@@ -1,0 +1,147 @@
+{
+ "id": "r0_friends_c4",
+ "region": "R0",
+ "island": "friends",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "study"
+ ],
+ "title": "아홉 시라며",
+ "emoji": "🗓️",
+ "scene": "시험 시간만 물어보고 잠옷 바람으로 학교까지 뛰어간 나, Zeynep 은 말이 없다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "yoldayım·geliyorum 으로 급한 상황 보내기",
+ "expressions": [
+  "eyvah",
+  "geliyorum",
+  "yoldayım",
+  "yok artık"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Zeynep, sınav saat kaçta?",
+   "rd": "제이넵, 스나브 사앗 카치타?",
+   "ko": "제이넵, 시험 몇 시야?",
+   "note": "saat kaçta = 몇 시에",
+   "tags": [],
+   "new": [
+    "sınav"
+   ],
+   "at": "08:31",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Dokuzda.",
+   "rd": "도쿠즈다.",
+   "ko": "아홉 시.",
+   "note": "dokuzda = 9시에",
+   "tags": [],
+   "new": [],
+   "at": "08:32",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Eyvah, saat sekiz buçuk! Geliyorum!",
+   "rd": "에이바흐, 사앗 세키즈 부축! 겔리요룸!",
+   "ko": "헉! 지금 여덟 시 반이야! 간다!",
+   "note": "buçuk = 반",
+   "tags": [
+    "expr:eyvah",
+    "expr:geliyorum"
+   ],
+   "new": [],
+   "at": "08:32",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Yoldayım! Yine pijamayla çıktım!",
+   "rd": "욜다이음! 이네 피자마일라 측틈!",
+   "ko": "가는 중! 또 잠옷 입고 나왔어!",
+   "note": "-yla = ~를 입고, ~로",
+   "tags": [
+    "expr:yoldayım",
+    "callback:r0_friends_c1"
+   ],
+   "new": [
+    "pijama"
+   ],
+   "at": "08:41",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Okuldayım. Kapı kapalı, polis bakıyor.",
+   "rd": "오쿨다이음. 카프 카팔르, 폴리스 바크요르.",
+   "ko": "학교 왔어. 문 닫혔고, 경찰이 쳐다봐.",
+   "note": "kapalı = 닫힌",
+   "tags": [],
+   "new": [],
+   "at": "09:02",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Normal. Bugün pazar.",
+   "rd": "노르말. 부귄 파자르.",
+   "ko": "당연하지. 오늘 일요일이야.",
+   "note": "pazar = 일요일 — 반전",
+   "tags": [],
+   "new": [],
+   "at": "09:03",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Yok artık! Neden söylemedin?!",
+   "rd": "욕 아르특! 네덴 쇠일레메딘?!",
+   "ko": "말도 안 돼! 왜 말 안 했어?!",
+   "note": "söylemek = 말하다",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": [],
+   "at": "09:03",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Sormadın 😐",
+   "rd": "소르마든",
+   "ko": "안 물어봤잖아 😐",
+   "note": "sormak = 묻다",
+   "tags": [],
+   "new": [],
+   "at": "09:04",
+   "stamp": "😐",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,219 @@
+{
+ "id": "r3_culture_b3",
+ "region": "R3",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "초심자의 주사위",
+ "emoji": "🎲",
+ "scene": "Zeynep 할아버지의 찻집, 규칙도 모르는 내가 타블라에서 자꾸 이긴다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Dede",
+  "D": "Kahveci"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "allah allah·hoş geldin 으로 찻집 어른들과 어울리기",
+ "expressions": [
+  "hoş geldin",
+  "şey",
+  "allah allah",
+  "bak",
+  "hadi",
+  "bilmiyorum"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Dedem burada her gün tavla oynar. Sakın yenme, küser.",
+   "rd": "데뎀 부라다 헤르 귄 타블라 오이나르. 사큰 옌메, 퀴세르.",
+   "ko": "우리 할아버지 여기서 매일 타블라 두셔. 절대 이기지 마, 삐지셔.",
+   "note": "tavla = 주사위 말판 놀이",
+   "tags": [],
+   "new": [
+    "tavla",
+    "yenmek"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Merak etme. Kuralları daha dün öğrendim, yenmem imkânsız.",
+   "rd": "메락 에트메. 쿠랄라르 다하 뒨 외렌딤, 옌멤 임칸스즈.",
+   "ko": "걱정 마. 규칙 어제 배웠어, 내가 이길 리가 없어.",
+   "note": "kural = 규칙",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Hoş geldin, yavrum! Otur bakalım. Zarı at, korkma.",
+   "rd": "호시 겔딘, 야브룸! 오투르 바칼름. 자르 앗, 코르크마.",
+   "ko": "어서 와라, 얘야! 앉아 보거라. 주사위 던져, 겁내지 말고.",
+   "note": "zar = 주사위",
+   "tags": [
+    "expr:hoş geldin"
+   ],
+   "new": [
+    "zar"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Attım. Altı altı mı? Bu iyi bir şey mi?",
+   "rd": "아틈. 알트 알트 므? 부 이이 비르 셰이 미?",
+   "ko": "던졌어요. 6, 6이요? 이거 좋은 거예요?",
+   "note": "altı = 6",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Allah allah. Bir daha at. Yine mi altı altı?!",
+   "rd": "알라흐 알라흐. 비르 다하 앗. 이네 미 알트 알트?!",
+   "ko": "거참 이상하네. 다시 던져 봐. 또 6, 6이야?!",
+   "note": "allah allah = 거참 이상하네",
+   "tags": [
+    "expr:allah allah"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "{name}, sana söyledim. Yavaş oyna, biraz kötü oyna.",
+   "rd": "{name}, 사나 쇠일레딤. 야바시 오이나, 비라즈 쾨튀 오이나.",
+   "ko": "{name}, 말했잖아. 천천히 해, 좀 못하게 해.",
+   "note": "yavaş = 천천히",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Elimde değil ki, zar kendi geliyor! Bak, yine oldu!",
+   "rd": "엘림데 데일 키, 자르 켄디 겔리요르! 박, 이네 올두!",
+   "ko": "나도 어쩔 수 없어, 주사위가 알아서 나와! 봐, 또 나왔어!",
+   "note": "elimde değil = 어쩔 수 없다",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Yedi yıldır bu masada beni kimse yenmedi.",
+   "rd": "예디 이을드르 부 마사다 베니 킴세 옌메디.",
+   "ko": "7년째 이 테이블에서 날 이긴 사람이 없었는데.",
+   "note": "yedi yıldır = 7년째",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "D",
+   "tl": "Millet, gelin! Dedeyi biri yeniyor!",
+   "rd": "밀렛, 겔린! 데데이 비리 예니요르!",
+   "ko": "여러분, 와 보세요! 누가 어르신을 이기고 있어요!",
+   "note": "millet = 사람들 — 반전",
+   "tags": [],
+   "new": [
+    "millet"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Neden herkes etrafımda? Zeynep, biz çay içmeye gelmiştik!",
+   "rd": "네덴 헤르케스 에트라픔다? 제이넵, 비즈 차이 이치메예 겔미시틱!",
+   "ko": "왜 다들 내 주위에 있어? Zeynep, 우리 차 마시러 왔잖아!",
+   "note": "etraf = 주위",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "Bir el daha! Hadi, ben daha yeni ısınıyordum!",
+   "rd": "비르 엘 다하! 하디, 벤 다하 예니 으스느요르둠!",
+   "ko": "한 판 더! 어서, 난 이제 막 몸 풀렸어!",
+   "note": "bir el = 한 판",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "D",
+   "tl": "Kaybeden ısmarlar, dede. Yirmi iki çay yazıyorum.",
+   "rd": "카이베덴 으스마를라르, 데데. 이르미 이키 차이 야즈요룸.",
+   "ko": "진 사람이 사는 겁니다, 어르신. 차 스물두 잔 적습니다.",
+   "note": "ısmarlamak = 한턱내다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "tl": "Yaz. Ama {name} yarın yan kahveye karşı oynayacak.",
+   "rd": "야즈. 아마 {name} 야른 얀 카흐베예 카르시 오이나야작.",
+   "ko": "적어라. 대신 {name} 내일 옆 찻집 상대로 둔다.",
+   "note": "yan kahve = 옆 찻집",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Ne? Yan kahve mi? Dede, ben kuralları bile bilmiyorum!",
+   "rd": "네? 얀 카흐베 미? 데데, 벤 쿠랄라르 빌레 빌미요룸!",
+   "ko": "네? 옆 찻집이요? 할아버지, 저 규칙도 몰라요!",
+   "note": "bile = ~조차",
+   "tags": [
+    "expr:bilmiyorum"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Geç kaldın. Dedem seni takıma yazdı.",
+   "rd": "게치 칼든. 데뎀 세니 타크마 야즈드.",
+   "ko": "늦었어. 할아버지가 너 팀에 넣으셨어.",
+   "note": "takım = 팀",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "D",
+   "tl": "Çayın bizden, şampiyon.",
+   "rd": "차이은 비즈덴, 샴피욘.",
+   "ko": "차는 저희가 냅니다, 챔피언.",
+   "note": "şampiyon = 챔피언",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

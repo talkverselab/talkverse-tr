@@ -1,0 +1,127 @@
+{
+ "id": "r0_friends_a2",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "study"
+ ],
+ "title": "응응",
+ "emoji": "✏️",
+ "scene": "스케치에 빠진 Zeynep 이 뭘 말해도 hıhı 만 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "hıhı·ne kadar 로 맞장구치고 되묻기",
+ "expressions": [
+  "bak",
+  "hıhı",
+  "ne kadar"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Zeynep, beni dinliyor musun?",
+   "rd": "제이넵, 베니 딘리요르 무순?",
+   "ko": "제이넵, 내 말 듣고 있어?",
+   "note": "dinlemek = 듣다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Hıhı.",
+   "rd": "흐흐.",
+   "ko": "응응.",
+   "note": "hıhı = 응응(건성 맞장구)",
+   "tags": [
+    "expr:hıhı"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Bak, bu akşam sinemaya gidelim mi?",
+   "rd": "박, 부 악샴 시네마야 기델림 미?",
+   "ko": "있잖아, 오늘 저녁에 영화 보러 갈까?",
+   "note": "gidelim mi? = 갈까?",
+   "tags": [
+    "expr:bak",
+    "form:-elim mi"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Hıhı.",
+   "rd": "흐흐.",
+   "ko": "응응.",
+   "note": "여전히 눈은 종이에",
+   "tags": [
+    "expr:hıhı"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Ben yarın ölüyorum.",
+   "rd": "벤 야른 욀뤼요룸.",
+   "ko": "나 내일 죽어.",
+   "note": "현재형으로 가까운 미래도 말한다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Hıhı.",
+   "rd": "흐흐.",
+   "ko": "응응.",
+   "note": "반전: 이 말에도 응응",
+   "tags": [
+    "expr:hıhı"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Bütün paramı da sana bırakıyorum.",
+   "rd": "뷔튄 파라므 다 사나 브라크요룸.",
+   "ko": "내 돈도 전부 너한테 남길게.",
+   "note": "bırakmak = 남기다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Ne kadar?",
+   "rd": "네 카다르?",
+   "ko": "얼마나?",
+   "note": "ne kadar = 얼마",
+   "tags": [
+    "expr:ne kadar"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

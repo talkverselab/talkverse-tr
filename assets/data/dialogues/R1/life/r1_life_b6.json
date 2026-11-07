@@ -1,0 +1,132 @@
+{
+ "id": "r1_life_b6",
+ "region": "R1",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "듣고 있어?",
+ "emoji": "🍰",
+ "scene": "큰일을 털어놓는데 Can 은 디저트만 본다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "hıhı·aynen 으로 맞장구치기, 안 듣는 친구 잡기",
+ "expressions": [
+  "şey",
+  "harika",
+  "hıhı",
+  "olur",
+  "aynen"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Can, çok önemli bir şey söyleyeceğim.",
+   "rd": "잔, 촉 외넴리 비르 셰이 쇠일레예제임.",
+   "ko": "칸, 진짜 중요한 얘기 할게.",
+   "note": "söyleyeceğim = 말할 거야",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Hıhı, söyle. Bu tatlı harika, ya.",
+   "rd": "흐흐, 쇠일레. 부 타틀르 하리카, 야.",
+   "ko": "응응, 말해. 이 디저트 끝내준다, 진짜.",
+   "note": "hıhı = 응응",
+   "tags": [
+    "expr:harika",
+    "expr:hıhı"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Ev sahibi kirayı iki katına çıkardı.",
+   "rd": "에브 사히비 키라이으 이키 카트나 츠카르드.",
+   "ko": "집주인이 월세를 두 배로 올렸어.",
+   "note": "iki katına = 두 배로",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Hıhı. Olur, olur.",
+   "rd": "흐흐. 올루르, 올루르.",
+   "ko": "응응. 그래, 그래.",
+   "note": "olur = 그래, 좋아",
+   "tags": [
+    "expr:olur",
+    "expr:hıhı"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Bir de Patron yatağımda doğurdu.",
+   "rd": "비르 데 파트론 야타음다 도우르두.",
+   "ko": "파트론이 내 침대에서 새끼도 낳았어.",
+   "note": "doğurmak = 새끼를 낳다",
+   "tags": [
+    "callback:r1_life_a5"
+   ],
+   "new": [
+    "doğurmak"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Aynen, aynen.",
+   "rd": "아이넨, 아이넨.",
+   "ko": "맞아, 맞아.",
+   "note": "aynen = 맞아 그거",
+   "tags": [
+    "expr:aynen"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Can! Ben yarın aya gidiyorum!",
+   "rd": "잔! 벤 야른 아야 기디요룸!",
+   "ko": "칸! 나 내일 달에 가!",
+   "note": "ay = 달",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Güzel. Tatlını yiyecek misin?",
+   "rd": "귀젤. 타틀르느 이예젝 미신?",
+   "ko": "좋네. 네 디저트 먹을 거야?",
+   "note": "yiyecek misin? = 먹을 거야? — 반전: 하나도 안 들었다",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,143 @@
+{
+ "id": "r1_culture_a2",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "발가락의 인사",
+ "emoji": "🧦",
+ "scene": "Zeynep 네 집 현관, 신발을 벗어야 하는데 오늘 양말이 수상하다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Anne"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "hoş geldin·hoş bulduk 으로 집에 들어가기",
+ "expressions": [
+  "hoş geldin",
+  "hoş bulduk",
+  "tabii",
+  "olmaz",
+  "şey",
+  "hadi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hoş geldin! Gir, gir.",
+   "rd": "호시 겔딘! 기르, 기르.",
+   "ko": "어서 와! 들어와, 들어와.",
+   "note": "hoş geldin = 어서 와",
+   "tags": [
+    "expr:hoş geldin"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Hoş bulduk. Ayakkabıları çıkarayım mı?",
+   "rd": "호시 불둑. 아야카블라르 츠카라이음 므?",
+   "ko": "반가워. 신발 벗을까?",
+   "note": "hoş bulduk = hoş geldin 의 대답",
+   "tags": [
+    "expr:hoş bulduk"
+   ],
+   "new": [
+    "ayakkabı"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Tabii. Bizde herkes çıkarır.",
+   "rd": "타비이. 비즈데 헤르케스 츠카르르.",
+   "ko": "당연하지. 우리 집은 다 벗어.",
+   "note": "bizde = 우리 쪽에서는",
+   "tags": [
+    "expr:tabii"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Şey… çıkarmasam olmaz mı?",
+   "rd": "셰이… 츠카르마삼 올마즈 므?",
+   "ko": "저기… 안 벗으면 안 돼?",
+   "note": "olmaz mı? = 안 될까?",
+   "tags": [
+    "expr:olmaz",
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Olmaz, annem içeride. Hadi.",
+   "rd": "올마즈, 안넴 이체리데. 하디.",
+   "ko": "안 돼. 엄마 안에 계셔. 얼른.",
+   "note": "olmaz = 안 돼",
+   "tags": [
+    "expr:olmaz",
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Tamam, tamam. Çıkardım.",
+   "rd": "타맘, 타맘. 츠카르듬.",
+   "ko": "알았어, 알았어. 벗었어.",
+   "note": "çıkardım = 벗었다",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "{name}, parmağın bize selam veriyor.",
+   "rd": "{name}, 파르마은 비제 셀람 베리요르.",
+   "ko": "{name}, 네 발가락이 우리한테 인사하는데.",
+   "note": "parmak = 손가락·발가락 — 반전(양말 구멍)",
+   "tags": [
+    "expr:selam"
+   ],
+   "new": [
+    "parmak"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Hoş geldin, yavrum. Çorap getireyim mi?",
+   "rd": "호시 겔딘, 야브룸. 초랍 게티레임 미?",
+   "ko": "어서 와라, 얘야. 양말 갖다줄까?",
+   "note": "çorap = 양말",
+   "tags": [
+    "expr:hoş geldin"
+   ],
+   "new": [
+    "çorap"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

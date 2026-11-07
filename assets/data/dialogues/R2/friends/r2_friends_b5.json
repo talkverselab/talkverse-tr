@@ -1,0 +1,180 @@
+{
+ "id": "r2_friends_b5",
+ "region": "R2",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "media"
+ ],
+ "domain": [
+  "friends",
+  "culture"
+ ],
+ "title": "잔 주인",
+ "emoji": "☕",
+ "scene": "Elif 가 커피 찌꺼기로 내 운을 봐 주는데, Zeynep 이 조용히 끼어든다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Zeynep"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "놀라고 되묻기, 커피 점 문화",
+ "expressions": [
+  "gerçekten mi",
+  "tabii ki",
+  "ee",
+  "bak",
+  "vay",
+  "harika",
+  "ne alaka"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Fincanı ters çevir, soğusun. Falına bakıyorum.",
+   "rd": "핀자느 테르스 체비르, 소우순. 팔르나 바크요룸.",
+   "ko": "잔 뒤집어, 식게. 점 봐 줄게.",
+   "note": "fal = 점 · fincan = 커피잔",
+   "tags": [],
+   "new": [
+    "fal",
+    "fincan"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Gerçekten mi? Sen fal biliyor musun?",
+   "rd": "게르첵텐 미? 센 팔 빌리요르 무순?",
+   "ko": "진짜? 너 점 볼 줄 알아?",
+   "note": "bilmek = 알다",
+   "tags": [
+    "expr:gerçekten mi"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Tabii ki! Bizim ailede herkes bilir.",
+   "rd": "타비이 키! 비짐 아일레데 헤르케스 빌리르.",
+   "ko": "당연하지! 우리 집안은 다 할 줄 알아.",
+   "note": "tabii ki = 당연하지",
+   "tags": [
+    "expr:tabii ki"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Ee? Ne görüyorsun, söyle hadi.",
+   "rd": "에에? 네 괴뤼요르순, 쇠일레 하디.",
+   "ko": "그래서? 뭐가 보여, 어서 말해.",
+   "note": "ee = 그래서?",
+   "tags": [
+    "expr:ee",
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Bak, burada bir yol var. Uzun bir yol.",
+   "rd": "박, 부라다 비르 욜 바르. 우준 비르 욜.",
+   "ko": "봐, 여기 길이 있어. 긴 길.",
+   "note": "uzun = 긴",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Vay! Ben yazın ülkeme gidiyorum!",
+   "rd": "바이! 벤 야즌 윌케메 기디요룸!",
+   "ko": "와! 나 여름에 우리나라 가는데!",
+   "note": "yazın = 여름에",
+   "tags": [
+    "expr:vay"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Bir de kuş var. Yakında güzel haber geliyor.",
+   "rd": "비르 데 쿠시 바르. 야큰다 귀젤 하베르 겔리요르.",
+   "ko": "새도 있네. 곧 좋은 소식 온다.",
+   "note": "kuş = 새",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Harika! Para mı, aşk mı?",
+   "rd": "하리카! 파라 므, 아시크 므?",
+   "ko": "끝내준다! 돈이야, 사랑이야?",
+   "note": "harika = 끝내준다",
+   "tags": [
+    "expr:harika"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "tl": "Elif, o fincan onun değil. Can'ın.",
+   "rd": "엘리프, 오 핀잔 오눈 데일. 자는.",
+   "ko": "엘리프, 그 잔 얘 거 아니야. 잔 거야.",
+   "note": "Can'ın = 잔의 것 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Ne alaka? Ben fincanı ondan aldım!",
+   "rd": "네 알라카? 벤 핀자느 온단 알듬!",
+   "ko": "뭔 소리야? 나 얘한테서 받았는데!",
+   "note": "ondan = 그에게서",
+   "tags": [
+    "expr:ne alaka"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "O zaman yol, kuş, para… hepsi Can'ın mı?",
+   "rd": "오 자만 욜, 쿠시, 파라… 헵시 자는 므?",
+   "ko": "그럼 길, 새, 돈… 전부 잔 거야?",
+   "note": "o zaman = 그럼",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Hepsi Can'ın. O yol da mutfağa gidiyor.",
+   "rd": "헵시 자는. 오 욜 다 무트파아 기디요르.",
+   "ko": "전부. 그 길도 부엌으로 가는 길이고.",
+   "note": "mutfak = 부엌",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

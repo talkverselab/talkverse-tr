@@ -1,0 +1,215 @@
+{
+ "id": "r3_study_b1",
+ "region": "R3",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "돌무쉬 릴레이",
+ "emoji": "🚐",
+ "scene": "Zeynep 의 심사용 모형을 돌무쉬에 들고 탔더니, 승객들이 요금처럼 앞으로 넘긴다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Yolcu",
+  "D": "Şoför",
+  "E": "Hoca"
+ },
+ "register": "mixed",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "bir dakika·merak etme 로 대중교통에서 살아남기",
+ "expressions": [
+  "bir dakika",
+  "hadi",
+  "harika",
+  "hocam",
+  "şey"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Maketi sana veriyorum. Üç aylık emek, lütfen dikkat et.",
+   "rd": "마케티 사나 베리요룸. 위치 아일륵 에멕, 뤼트펜 디캇 엣.",
+   "ko": "모형 너한테 맡긴다. 석 달 치 고생이야, 제발 조심해.",
+   "note": "maket = 건축 모형",
+   "tags": [],
+   "new": [
+    "maket"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Merak etme. Bebek gibi taşırım, ne olacak?",
+   "rd": "메락 에트메. 베벡 기비 타시름, 네 올라작?",
+   "ko": "걱정 마. 아기처럼 모실게, 뭔 일 있겠어?",
+   "note": "taşımak = 나르다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Jüri saat ikide. Dolmuşta kucağından indirme, tamam mı?",
+   "rd": "쥐리 사앗 이키데. 돌무시타 쿠자은단 인디르메, 타맘 므?",
+   "ko": "심사 두 시야. 돌무쉬에서 무릎에서 내려놓지 마, 알았지?",
+   "note": "kucak = 무릎 위",
+   "tags": [],
+   "new": [
+    "jüri"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Tamam, tamam. Sen git, ben arkadan gelirim.",
+   "rd": "타맘, 타맘. 센 깃, 벤 아르카단 겔리림.",
+   "ko": "알았어, 알았어. 너 먼저 가, 나 뒤따라갈게.",
+   "note": "arkadan = 뒤에서",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Bu arkadan mı geldi? Ver, öne uzatayım.",
+   "rd": "부 아르카단 므 겔디? 베르, 외네 우자타이음.",
+   "ko": "이거 뒤에서 온 거야? 줘, 앞으로 넘겨 줄게.",
+   "note": "uzatmak = 건네다 — 반전: 돌무쉬 요금 넘기기",
+   "tags": [],
+   "new": [
+    "uzatmak"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Hayır, bu para değil! Bir dakika, lütfen!",
+   "rd": "하이으르, 부 파라 데일! 비르 다키카, 뤼트펜!",
+   "ko": "아니에요, 이거 돈 아니에요! 잠깐만요, 제발!",
+   "note": "para değil = 돈이 아니다",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Uzat arkadaş, şoföre gidiyor! Hadi!",
+   "rd": "우잣 아르카다시, 쇼푀레 기디요르! 하디!",
+   "ko": "넘겨, 기사님한테 가는 거야! 어서!",
+   "note": "şoför = 기사",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "tl": "Bu ne? Kaç kişi? Üstünü nereye vereyim?",
+   "rd": "부 네? 카치 키시? 위스튀뉘 네레예 베레임?",
+   "ko": "이게 뭐예요? 몇 명이에요? 거스름돈 어디로 줘요?",
+   "note": "üstü = 거스름돈",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Şoför bey, o bir maket! Bana geri verin!",
+   "rd": "쇼푀르 베이, 오 비르 마켓! 바나 게리 베린!",
+   "ko": "기사님, 그거 모형이에요! 돌려주세요!",
+   "note": "geri vermek = 돌려주다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "tl": "Arkaya verin! Öğrenci mi, tam mı?",
+   "rd": "아르카야 베린! 외렌지 미, 탐 므?",
+   "ko": "뒤로 넘겨요! 학생이에요, 일반이에요?",
+   "note": "tam = 일반 요금",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Zeynep… kötü bir haberim var. Maketin bir köşesi yok.",
+   "rd": "제이넵… 쾨튀 비르 하베림 바르. 마케틴 비르 쾨셰시 욕.",
+   "ko": "Zeynep… 안 좋은 소식이 있어. 모형 한쪽 모서리가 없어.",
+   "note": "köşe = 모서리",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Ne demek yok? Nereye gitti? Neredesin sen?",
+   "rd": "네 데멕 욕? 네레예 기티? 네레데신 센?",
+   "ko": "없다니 무슨 말이야? 어디로 갔는데? 너 어디야?",
+   "note": "ne demek = 무슨 말이야",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "E",
+   "tl": "Zeynep Hanım, bu kırık köşe çok cesur. Ne anlatıyor?",
+   "rd": "제이넵 하늠, 부 크륵 쾨셰 촉 제수르. 네 안라트요르?",
+   "ko": "Zeynep 씨, 이 깨진 모서리 아주 과감하네요. 뭘 표현한 거죠?",
+   "note": "cesur = 과감한",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "Şey… hocam, şehrin kalabalığını anlatıyor.",
+   "rd": "셰이… 호잠, 셰흐린 칼라발르으느 안라트요르.",
+   "ko": "저… 교수님, 도시의 혼잡함을 표현했습니다.",
+   "note": "kalabalık = 혼잡",
+   "tags": [
+    "expr:hocam",
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "E",
+   "tl": "Harika. Yıllardır böyle maket görmedim. Doksan beş.",
+   "rd": "하리카. 이을라르드르 뵈일레 마켓 괴르메딤. 독산 베시.",
+   "ko": "훌륭해요. 몇 년 만에 이런 모형을 보네요. 95점.",
+   "note": "yıllardır = 몇 년 동안",
+   "tags": [
+    "expr:harika"
+   ],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "tl": "Seninle konuşmuyorum. Ama dolmuş parası benden.",
+   "rd": "세닌레 코누시무요룸. 아마 돌무시 파라스 벤덴.",
+   "ko": "너랑 말 안 할 거야. 근데 돌무쉬 값은 내가 낼게.",
+   "note": "benden = 내가 낸다",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

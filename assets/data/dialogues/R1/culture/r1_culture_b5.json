@@ -1,0 +1,139 @@
+{
+ "id": "r1_culture_b5",
+ "region": "R1",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "다 마셨다고?",
+ "emoji": "🧂",
+ "scene": "Elif 가 처음으로 커피를 끓여 줬다. 맛이 이상한데 끝까지 마셨다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Zeynep"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "eline sağlık·şey 로 맛없는 음식 앞에서 말 고르기",
+ "expressions": [
+  "eline sağlık",
+  "çok güzel",
+  "bak",
+  "şey",
+  "ne alaka",
+  "tamam"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Kahven hazır. Bunu ben yaptım.",
+   "rd": "카흐벤 하즈르. 부누 벤 얍틈.",
+   "ko": "네 커피 됐어. 이거 내가 끓였어.",
+   "note": "hazır = 준비된",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Çok güzel kokuyor. Eline sağlık.",
+   "rd": "촉 귀젤 코쿠요르. 엘리네 살륵.",
+   "ko": "냄새 너무 좋다. 고생했어.",
+   "note": "eline sağlık = 만든 사람에게 하는 말",
+   "tags": [
+    "expr:eline sağlık",
+    "expr:çok güzel"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "İç bakalım. Yüzüme bak.",
+   "rd": "이치 바칼름. 위쥐메 박.",
+   "ko": "마셔 봐. 내 얼굴 보고.",
+   "note": "yüz = 얼굴",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Şey… bu kahve biraz tuzlu mu?",
+   "rd": "셰이… 부 카흐베 비라즈 투즐루 무?",
+   "ko": "저기… 이 커피 좀 짜지 않아?",
+   "note": "tuzlu = 짠",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": [
+    "tuzlu"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Ne alaka? İç, hepsini iç.",
+   "rd": "네 알라카? 이치, 헵시니 이치.",
+   "ko": "뭔 소리야? 마셔, 다 마셔.",
+   "note": "hepsi = 전부",
+   "tags": [
+    "expr:ne alaka"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Tamam, bitti. Öldüm ama bitti.",
+   "rd": "타맘, 비티. 욀뒴 아마 비티.",
+   "ko": "알았어, 끝. 죽겠는데 끝.",
+   "note": "öldüm = 죽었다",
+   "tags": [
+    "expr:tamam",
+    "expr:öldüm"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Elif, bu evlilik kahvesi! Hepsini mi içti?",
+   "rd": "엘리프, 부 에블릴릭 카흐베시! 헵시니 미 이치티?",
+   "ko": "Elif, 이거 결혼 커피잖아! 그걸 다 마신 거야?",
+   "note": "evlilik = 결혼 — 반전: 청혼 자리 소금 커피",
+   "tags": [],
+   "new": [
+    "evlilik"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Sus, Zeynep! Bir şey demek değil…",
+   "rd": "수스, 제이넵! 비르 셰이 데멕 데일…",
+   "ko": "조용히 해, Zeynep! 아무 뜻 아니야…",
+   "note": "bir şey demek değil = 별 뜻 없다",
+   "tags": [
+    "simkung",
+    "expr:şey"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

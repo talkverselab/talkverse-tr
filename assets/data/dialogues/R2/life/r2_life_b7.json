@@ -1,0 +1,171 @@
+{
+ "id": "r2_life_b7",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "껐다 켜 주세요",
+ "emoji": "📞",
+ "scene": "사흘째 인터넷이 안 된다. 고객센터 상담원은 같은 말만 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Müşteri hizmetleri"
+ },
+ "register": "polite",
+ "twist": 9,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "kapatıp açmak·ciddi misiniz 로 고객센터 전화하기",
+ "expressions": [
+  "hoş geldiniz",
+  "merhaba",
+  "anladım",
+  "lütfen",
+  "allah allah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Müşteri hizmetlerine hoş geldiniz. Size nasıl yardımcı olabilirim?",
+   "rd": "뮈시테리 히즈메틀레리네 호시 겔디니즈. 시제 나슬 야르듬즈 올라빌리림?",
+   "ko": "고객센터입니다. 어떻게 도와드릴까요?",
+   "note": "yardımcı olmak = 돕다",
+   "tags": [
+    "expr:hoş geldiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Merhaba. Üç gündür internet yok.",
+   "rd": "메르하바. 위치 귄뒤르 인테르넷 욕.",
+   "ko": "안녕하세요. 사흘째 인터넷이 안 돼요.",
+   "note": "üç gündür = 사흘째",
+   "tags": [
+    "expr:merhaba"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Üzgünüm. Modemi kapatıp açtınız mı?",
+   "rd": "위즈귀뉨. 모데미 카파틉 아치트느즈 므?",
+   "ko": "죄송합니다. 모뎀을 껐다 켜 보셨나요?",
+   "note": "kapatıp açmak = 껐다 켜다",
+   "tags": [],
+   "new": [
+    "modem"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Evet, on kere kapatıp açtım.",
+   "rd": "에벳, 온 케레 카파틉 아치틈.",
+   "ko": "네, 열 번 껐다 켰어요.",
+   "note": "on kere = 열 번",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Anladım. Lütfen modemi kapatıp açın.",
+   "rd": "안라듬. 뤼트펜 모데미 카파틉 아츤.",
+   "ko": "알겠습니다. 모뎀을 껐다 켜 주세요.",
+   "note": "açın = 켜 주세요",
+   "tags": [
+    "expr:anladım",
+    "expr:lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Tekrar mı? Modem yanmıyor, sorun orada!",
+   "rd": "텍라르 므? 모뎀 얀므요르, 소룬 오라다!",
+   "ko": "또요? 모뎀이 안 켜져요, 그게 문제라고요!",
+   "note": "yanmıyor = 불이 안 들어온다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Modem yanmıyorsa, önce modemi açın.",
+   "rd": "모뎀 얀므요르사, 왼제 모데미 아츤.",
+   "ko": "모뎀이 안 켜지면, 먼저 모뎀을 켜 주세요.",
+   "note": "-sa = ~면",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Ciddi misiniz? Beni dinliyor musunuz?",
+   "rd": "지디 미시니즈? 베니 딘리요르 무수누즈?",
+   "ko": "진심이세요? 제 말 듣고 계세요?",
+   "note": "dinlemek = 듣다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Sizi çok iyi anlıyorum. Modemi kapatıp açtınız mı?",
+   "rd": "시지 촉 이이 안르요룸. 모데미 카파틉 아치트느즈 므?",
+   "ko": "충분히 이해합니다, 고객님. 모뎀을 껐다 켜 보셨나요?",
+   "note": "반전: 처음으로 돌아갔다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Allah Allah! Siz makine misiniz, insan mı?",
+   "rd": "알라흐 알라흐! 시즈 마키네 미시니즈, 인산 므?",
+   "ko": "아니 참! 기계세요, 사람이세요?",
+   "note": "makine = 기계",
+   "tags": [
+    "expr:allah allah"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Görüşmemizi beş üzerinden puanlar mısınız?",
+   "rd": "괴뤼시메미지 베시 위제린덴 푸안라르 므스느즈?",
+   "ko": "이번 통화를 5점 만점으로 평가해 주시겠어요?",
+   "note": "puanlamak = 점수 매기다",
+   "tags": [],
+   "new": [
+    "puanlamak"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Modemi kapatıp açın.",
+   "rd": "모데미 카파틉 아츤.",
+   "ko": "모뎀을 껐다 켜 주세요.",
+   "note": "그대로 돌려주기",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

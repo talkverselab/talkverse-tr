@@ -1,0 +1,239 @@
+{
+ "id": "r3_culture_b5",
+ "region": "R3",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "누가 죽었다고?",
+ "emoji": "🕯️",
+ "scene": "Zeynep 네 저녁 식사, 「잘 먹었습니다」 대신 전혀 다른 말이 나왔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Anne",
+  "D": "Dede"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "elinize sağlık·başınız sağ olsun·geçmiş olsun 구별하기",
+ "expressions": [
+  "şey",
+  "çok güzel",
+  "kusura bakmayın",
+  "afiyet olsun",
+  "buyurun",
+  "galiba"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Annem üç gündür bu yemek için uğraşıyor. Sonunda güzel bir şey söyle.",
+   "rd": "안넴 위치 귄뒤르 부 예멕 이친 우라시요르. 소눈다 귀젤 비르 셰이 쇠일레.",
+   "ko": "엄마가 사흘째 이 음식 준비하셨어. 끝나고 좋은 말 해 드려.",
+   "note": "uğraşmak = 애쓰다",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Merak etme, ezberledim. Yemekten sonra söylenen çok güzel bir söz.",
+   "rd": "메락 에트메, 에즈베를레딤. 예멕텐 손라 쇠일레넨 촉 귀젤 비르 쇠즈.",
+   "ko": "걱정 마, 외웠어. 식사 끝나고 하는 정말 좋은 말.",
+   "note": "ezberlemek = 외우다",
+   "tags": [
+    "expr:çok güzel"
+   ],
+   "new": [
+    "ezberlemek"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Buyurun, afiyet olsun. Tuzu biraz az oldu galiba, kusura bakmayın.",
+   "rd": "부유룬, 아피옛 올순. 투주 비라즈 아즈 올두 갈리바, 쿠수라 박마이은.",
+   "ko": "자, 맛있게 들어요. 간이 좀 싱거운 것 같네요, 미안해요.",
+   "note": "tuz = 소금",
+   "tags": [
+    "expr:kusura bakmayın",
+    "expr:afiyet olsun",
+    "expr:buyurun",
+    "expr:galiba"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Yok, harika! Hayatımda böyle bir yemek yemedim.",
+   "rd": "욕, 하리카! 하야틈다 뵈일레 비르 예멕 예메딤.",
+   "ko": "아뇨, 끝내줘요! 평생 이런 음식 처음 먹어 봐요.",
+   "note": "hayatımda = 내 평생에",
+   "tags": [
+    "expr:harika",
+    "expr:yok"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Estağfurullah. Bir tabak daha koyayım mı, yavrum?",
+   "rd": "에스타푸룰라흐. 비르 타박 다하 코야이음 므, 야브룸?",
+   "ko": "별말을요. 한 접시 더 줄까, 얘야?",
+   "note": "estağfurullah = 별말씀을",
+   "tags": [
+    "expr:estağfurullah"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Teşekkürler, doydum. Bir dakika, güzel sözümü söyleyeceğim.",
+   "rd": "테셰퀴를레르, 도이둠. 비르 다키카, 귀젤 쇠쥐뮈 쇠일레예제임.",
+   "ko": "감사합니다, 배불러요. 잠깐만요, 제 좋은 말 할게요.",
+   "note": "doymak = 배부르다",
+   "tags": [
+    "expr:teşekkürler",
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Hadi, sakin ol. Yavaş söyle, aklından çıkmasın.",
+   "rd": "하디, 사킨 올. 야바시 쇠일레, 아클른단 측마슨.",
+   "ko": "자, 진정해. 천천히 말해, 까먹지 말고.",
+   "note": "aklından çıkmasın = 까먹지 마",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Başınız sağ olsun, hanımefendi.",
+   "rd": "바시느즈 사 올순, 하느메펜디.",
+   "ko": "삼가 조의를 표합니다, 어머님.",
+   "note": "başınız sağ olsun = 조의를 표합니다 — 반전",
+   "tags": [
+    "expr:hanımefendi",
+    "expr:olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "D",
+   "tl": "Ne? Kim ölmüş? Kızım, kim ölmüş?",
+   "rd": "네? 킴 욀뮈시? 크즘, 킴 욀뮈시?",
+   "ko": "뭐? 누가 죽었어? 얘야, 누가 죽었다고?",
+   "note": "ölmüş = 죽었다더라",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Kimse ölmedi, baba! Yavrum, yemek o kadar kötü müydü?",
+   "rd": "킴세 욀메디, 바바! 야브룸, 예멕 오 카다르 쾨튀 뮈이뒤?",
+   "ko": "아무도 안 죽었어요, 아버지! 얘야, 음식이 그렇게 별로였니?",
+   "note": "o kadar = 그렇게",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "{name}, o söz cenazede söylenir. Elinize sağlık olacaktı.",
+   "rd": "{name}, 오 쇠즈 제나제데 쇠일레니르. 엘리니제 살륵 올라작트.",
+   "ko": "{name}, 그 말은 장례식에서 하는 거야. 「Elinize sağlık」이었어야지.",
+   "note": "cenaze = 장례식",
+   "tags": [
+    "expr:elinize sağlık"
+   ],
+   "new": [
+    "cenaze"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Eyvah! Özür dilerim! İkisinde de sağ var, karıştı!",
+   "rd": "에이바흐! 외쥐르 딜레림! 이키신데 데 사 바르, 카르시트!",
+   "ko": "헉! 죄송합니다! 둘 다 sağ 가 들어가서 헷갈렸어요!",
+   "note": "karışmak = 섞이다",
+   "tags": [
+    "expr:özür dilerim",
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "D",
+   "tl": "Bana kimse söylemiyor. Telefonu verin, ben arayacağım.",
+   "rd": "바나 킴세 쇠일레미요르. 텔레포누 베린, 벤 아라야자음.",
+   "ko": "아무도 나한테 말을 안 해. 전화 줘라, 내가 걸어 보마.",
+   "note": "arayacağım = 전화하겠다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Geçmiş olsun, dede! Yani pardon, şey… kusura bakmayın!",
+   "rd": "게치미시 올순, 데데! 야니 파르돈, 셰이… 쿠수라 박마이은!",
+   "ko": "쾌차하세요, 할아버지! 아니 죄송, 그게… 죄송합니다!",
+   "note": "geçmiş olsun = 쾌차해",
+   "tags": [
+    "expr:kusura bakmayın",
+    "expr:geçmiş olsun",
+    "expr:pardon",
+    "expr:yani",
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "tl": "Hiç konuşma artık, yavrum. Al, tatlını ye.",
+   "rd": "히치 코누시마 아르특, 야브룸. 알, 타틀르느 예.",
+   "ko": "이제 말하지 마라, 얘야. 자, 디저트 먹어.",
+   "note": "artık = 이제",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "tl": "Dedem akrabaları aramaya başladı. Tebrikler.",
+   "rd": "데뎀 악라발라르 아라마야 바실라드. 테브리클레르.",
+   "ko": "할아버지 친척들한테 전화 돌리기 시작하셨어. 축하해.",
+   "note": "akraba = 친척",
+   "tags": [],
+   "new": [
+    "akraba"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

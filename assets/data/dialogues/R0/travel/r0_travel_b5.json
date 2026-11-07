@@ -1,0 +1,137 @@
+{
+ "id": "r0_travel_b5",
+ "region": "R0",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "love"
+ ],
+ "domain": [
+  "travel",
+  "love"
+ ],
+ "title": "안 미끄러운데",
+ "emoji": "🤍",
+ "scene": "파묵칼레 흰 언덕을 맨발로 걷는데, Elif 가 미끄럽다며 손을 놓지 말라고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Görevli"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "dikkat et·bırakma 로 손잡고 걷기",
+ "expressions": [
+  "olmaz",
+  "tamam",
+  "lütfen",
+  "bak"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Burada ayakkabı olmaz. Lütfen çıkarın.",
+   "rd": "부라다 아야카브 올마즈. 뤼트펜 츠카른.",
+   "ko": "여기선 신발 안 됩니다. 벗어 주세요.",
+   "note": "ayakkabı = 신발 · olmaz = 안 돼요",
+   "tags": [
+    "expr:olmaz",
+    "expr:lütfen"
+   ],
+   "new": [
+    "ayakkabı"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Tamam. Elif, burası çok güzel!",
+   "rd": "타맘. 엘리프, 부라스 촉 귀젤!",
+   "ko": "네. 엘리프, 여기 너무 예뻐!",
+   "note": "burası = 여기",
+   "tags": [
+    "expr:tamam",
+    "expr:çok güzel"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Dikkat et, kayıyor. Al, elimi tut.",
+   "rd": "디캇 엣, 카이으요르. 알, 엘리미 툿.",
+   "ko": "조심해, 미끄러워. 자, 내 손 잡아.",
+   "note": "kaymak = 미끄러지다",
+   "tags": [],
+   "new": [
+    "kaymak"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Çok mu kayıyor?",
+   "rd": "촉 무 카이으요르?",
+   "ko": "많이 미끄러워?",
+   "note": "çok mu? = 많이?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Çok! Hiç bırakma.",
+   "rd": "촉! 히치 브락마.",
+   "ko": "엄청! 절대 놓지 마.",
+   "note": "hiç = 절대",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Ama bak, çocuklar oynuyor.",
+   "rd": "아마 박, 초주클라르 오이누요르.",
+   "ko": "근데 봐, 애들은 뛰어노는데.",
+   "note": "oynamak = 놀다",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Evet… kaymıyor zaten.",
+   "rd": "에벳… 카이므요르 자텐.",
+   "ko": "응… 사실 안 미끄러워.",
+   "note": "zaten = 사실, 어차피 — 들켰다",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Bırakmıyorum.",
+   "rd": "브락므요룸.",
+   "ko": "나 안 놓을 건데.",
+   "note": "bırakmak = 놓다",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

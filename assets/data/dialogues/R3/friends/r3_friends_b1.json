@@ -1,0 +1,222 @@
+{
+ "id": "r3_friends_b1",
+ "region": "R3",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "culture"
+ ],
+ "title": "소금 세 스푼",
+ "emoji": "🧂",
+ "scene": "Elif 언니 청혼 날, 신랑 몫 소금 커피를 내가 나르게 됐다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "kız isteme 풍습 따라가기, 다급하게 상황 전하기",
+ "expressions": [
+  "hoş geldin",
+  "anladım",
+  "bak",
+  "eyvah",
+  "bir dakika"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hoş geldin! Çabuk mutfağa gel, bugün ablamı istemeye geliyorlar.",
+   "rd": "호시 겔딘! 차북 무트파아 겔, 부귄 아블라므 이스테메예 겔리요를라르.",
+   "ko": "어서 와! 빨리 부엌으로 와, 오늘 우리 언니 청혼하러 온대.",
+   "note": "istemeye gelmek = 청혼하러 오다",
+   "tags": [
+    "expr:hoş geldin"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "İstemeye mi? Ben o kelimeden korkuyorum, biliyorsun.",
+   "rd": "이스테메예 미? 벤 오 켈리메덴 코르쿠요룸, 빌리요르순.",
+   "ko": "청혼? 나 그 단어 무서워, 알잖아.",
+   "note": "kelime = 단어",
+   "tags": [
+    "callback:r2_friends_b8"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Sakin ol, bugün kimse seni istemiyor. Tepsiyi sen taşıyacaksın.",
+   "rd": "사킨 올, 부귄 킴세 세니 이스테미요르. 텝시이 센 타시야작슨.",
+   "ko": "진정해, 오늘은 아무도 널 안 원해. 쟁반은 네가 나르는 거야.",
+   "note": "tepsi = 쟁반 · taşımak = 나르다",
+   "tags": [],
+   "new": [
+    "tepsi"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Tamam ama kural ne? Kahveyi kime vereceğim?",
+   "rd": "타맘 아마 쿠랄 네? 카흐베이 키메 베레제임?",
+   "ko": "알았어, 근데 규칙이 뭐야? 커피를 누구한테 줘?",
+   "note": "kural = 규칙",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Bak, tuzlu kahve damadın. Üç kaşık tuz koydum, ona ver.",
+   "rd": "박, 투즐루 카흐베 다마든. 위치 카식 투즈 코이둠, 오나 베르.",
+   "ko": "봐, 소금 커피는 신랑 거야. 소금 세 스푼 넣었어, 그 사람한테 줘.",
+   "note": "damat = 신랑 · tuz = 소금",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": [
+    "damat",
+    "tuz"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Neden tuz? Bu adama düşman mısınız?",
+   "rd": "네덴 투즈? 부 아다마 뒤시만 므스느즈?",
+   "ko": "왜 소금이야? 그 사람이랑 원수졌어?",
+   "note": "düşman = 원수",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Gelenek bu! Damat içer ve susar, yani sabırlı demek.",
+   "rd": "겔레넥 부! 다맛 이체르 베 수사르, 야니 사브를르 데멕.",
+   "ko": "전통이야! 신랑은 마시고 입 다무는 거야, 인내심 있다는 뜻이지.",
+   "note": "gelenek = 전통 · susmak = 입 다물다",
+   "tags": [],
+   "new": [
+    "gelenek"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Anladım. Hangi fincandı, sağdaki mi, soldaki mi?",
+   "rd": "안라듬. 한기 핀잔드, 사다키 미, 솔다키 미?",
+   "ko": "알겠어. 어느 잔이었지, 오른쪽, 왼쪽?",
+   "note": "sağdaki = 오른쪽 것",
+   "tags": [
+    "expr:anladım"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Sağdaki! Hayır, dur, senin sağın mı benim sağım mı?",
+   "rd": "사다키! 하이으르, 두르, 세닌 사은 므 베님 사음 므?",
+   "ko": "오른쪽! 아니, 잠깐, 네 오른쪽이야 내 오른쪽이야?",
+   "note": "sağ = 오른쪽",
+   "tags": [
+    "expr:dur"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Geç kaldın, verdim bile. Yaşlı amca kahvesini içiyor.",
+   "rd": "게치 칼든, 베르딤 빌레. 야실르 암자 카흐베시니 이치요르.",
+   "ko": "늦었어, 벌써 드렸어. 나이 드신 아저씨가 커피 마시고 계셔.",
+   "note": "verdim bile = 벌써 줬어",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Yaşlı amca mı? Eyvah! O damadın babası!",
+   "rd": "야실르 암자 므? 에이바흐! 오 다마든 바바스!",
+   "ko": "나이 드신 아저씨? 헉! 그분 신랑 아버지야!",
+   "note": "eyvah = 큰일 났다 — 반전",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Yüzü kıpkırmızı oldu ama hiçbir şey demiyor.",
+   "rd": "위쥐 큽크르므즈 올두 아마 히치비르 셰이 데미요르.",
+   "ko": "얼굴이 시뻘게지셨는데 아무 말도 안 하셔.",
+   "note": "kıpkırmızı = 시뻘건",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Damat nasıl? O bir şey fark etti mi?",
+   "rd": "다맛 나슬? 오 비르 셰이 파르크 에티 미?",
+   "ko": "신랑은 어때? 뭐 눈치챘어?",
+   "note": "fark etmek = 알아차리다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Damat mutlu, \"Ne güzel kahve\" diyor. Baba bana bakıyor.",
+   "rd": "다맛 무틀루, \"네 귀젤 카흐베\" 디요르. 바바 바나 바크요르.",
+   "ko": "신랑은 좋아해, 「커피 맛있네요」 그러고. 아버지는 나를 보셔.",
+   "note": "ne güzel = 정말 좋다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Bittik. Ablam beni öldürecek, düğün de bitti.",
+   "rd": "비틱. 아블람 베니 욀뒤레젝, 뒤윈 데 비티.",
+   "ko": "우린 끝났어. 언니가 날 죽일 거야, 혼담도 깨졌고.",
+   "note": "bittik = 우린 끝났다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "tl": "Bir dakika… \"Bir fincan daha\" diyor.",
+   "rd": "비르 다키카… \"비르 핀잔 다하\" 디요르.",
+   "ko": "잠깐만… 「한 잔 더」 하시는데.",
+   "note": "bir ~ daha = ~ 하나 더",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,136 @@
+expr,ko,register,scene,note
+ya,야/진짜(문장 끝),공통,리액션,말끝 추임새
+yani,그러니까,공통,리액션,말 잇기
+hadi,자/어서,반,리액션,재촉·제안
+tamam,알았어/좋아,공통,리액션,가장 많이 쓰는 대답
+olur,좋아/그래,공통,리액션,제안에 동의
+aynen,맞아 그거,반,리액션,강한 동의
+kesinlikle,완전 그렇지,공통,리액션,확실한 동의
+valla,진짜로,반,리액션,vallahi 줄임
+gerçekten mi,진짜야?,공통,리액션,놀람
+ciddi misin,진심이야?,반,리액션,놀람
+yok artık,말도 안 돼,반,리액션,믿기지 않음
+ne alaka,뭔 소리야,반,리액션,뜬금없을 때
+boş ver,됐어/신경 쓰지 마,반,리액션,넘기기
+aman,아이고,공통,리액션,탄식·조심
+eyvah,헉/큰일 났다,공통,리액션,사고 쳤을 때
+eyvallah,고마워/그래,반,리액션,남자들 말투
+şaka şaka,농담이야,반,리액션,놀린 뒤
+şaka mı,농담이지?,반,리액션,놀람
+bak,봐/있잖아,공통,리액션,주의 끌기
+dur,잠깐,공통,리액션,멈추기
+bir dakika,잠깐만,공통,생활,1분
+bekle,기다려,반,리액션,
+şey,저기/그게,공통,리액션,말 고를 때
+e,그래서/어,공통,리액션,되묻기
+ee,그래서?,반,리액션,다음 말 재촉
+hıhı,응응,반,리액션,맞장구
+tabii,물론이지,공통,리액션,
+tabii ki,당연하지,공통,리액션,
+olmaz,안 돼,공통,리액션,거절
+yok,없어/아니,공통,리액션,부정(고개 젖히는 tık 포함)
+yok ya,아니 뭐 설마,반,리액션,부드러운 부정
+hayırdır,무슨 일이야?,반,리액션,수상할 때
+ne oldu,무슨 일이야,공통,리액션,
+ne var,왜/뭔데,반,리액션,
+ne haber,뭐 해/잘 지내?,반,인사,
+naber,뭐 해?,반,채팅,ne haber 줄임
+iyidir,잘 지내지,반,인사,naber 대답
+nasılsın,어떻게 지내?,반,인사,
+iyiyim,잘 지내,공통,인사,
+merhaba,안녕하세요,공통,인사,
+selam,안녕,반,인사,
+günaydın,좋은 아침,공통,인사,
+iyi akşamlar,좋은 저녁,공통,인사,
+iyi geceler,잘 자,공통,인사,
+hoş geldin,어서 와,반,인사,대답은 hoş bulduk
+hoş geldiniz,어서 오세요,정,인사,
+hoş bulduk,반가워요(대답),공통,인사,
+görüşürüz,또 보자,공통,인사,
+kendine iyi bak,몸조심해,공통,인사,
+sağ ol,고마워,반,인사,
+sağ olun,고맙습니다,정,인사,
+teşekkürler,감사합니다,공통,인사,
+teşekkür ederim,감사합니다,정,인사,
+rica ederim,천만에요,공통,인사,
+estağfurullah,아이고 별말씀을,정,인사,칭찬·사과에 대답
+kusura bakma,미안/양해해 줘,반,사과,
+kusura bakmayın,죄송합니다,정,사과,
+pardon,실례/미안,공통,사과,
+affedersiniz,실례합니다,정,사과,
+özür dilerim,미안합니다,공통,사과,
+lütfen,부탁해요,공통,생활,
+buyurun,여기요/말씀하세요,정,가게,점원 첫마디
+buyur,응 말해,반,생활,
+kolay gelsin,수고하세요,공통,가게,일하는 사람에게
+afiyet olsun,맛있게 드세요,공통,식사,
+elinize sağlık,음식 맛있었어요(수고하셨어요),정,식사,만든 사람에게
+eline sağlık,맛있다 잘 먹었어,반,식사,
+geçmiş olsun,쾌차해/고생했어,공통,위로,
+başın sağ olsun,삼가 조의를,공통,위로,
+canın sağ olsun,괜찮아(물건보다 네가 소중),공통,위로,물건 깨뜨렸을 때
+maşallah,어머 대단해,공통,칭찬,
+inşallah,그러길 바라/되면 좋겠다,공통,리액션,
+allah allah,어머 참 이상하네,공통,리액션,황당할 때
+çok şükür,다행이야,공통,리액션,
+neyse,아무튼,공통,리액션,화제 돌리기
+neyse ki,다행히,공통,리액션,
+galiba,아마,공통,리액션,
+herhalde,아마도/그렇겠지,공통,리액션,
+sanırım,내 생각엔,공통,리액션,
+bence,내 생각엔,공통,리액션,
+bilmem,모르겠네,공통,리액션,
+bilmiyorum,몰라요,공통,생활,
+anladım,알겠어,공통,리액션,
+anlamadım,못 알아들었어,공통,생활,
+tekrar eder misiniz,다시 말씀해 주시겠어요?,정,생활,
+yavaş lütfen,천천히요,정,생활,
+ne demek,무슨 뜻이야/별말씀을,공통,생활,
+ne kadar,얼마예요?,공통,가게,
+çok pahalı,너무 비싸요,공통,가게,
+hesap lütfen,계산서요,공통,가게,
+abi,형/오빠(아저씨),반,호칭,
+abla,누나/언니,반,호칭,
+kanka,친구야(절친),반,호칭,
+canım,자기야/얘야,반,호칭,
+aşkım,자기야,반,연애,연인끼리
+hocam,선생님/쌤,공통,호칭,
+beyefendi,선생님(남),정,호칭,
+hanımefendi,사모님(여),정,호칭,
+harika,끝내준다,공통,리액션,
+süper,최고,공통,리액션,
+çok güzel,너무 좋다,공통,리액션,
+bayıldım,완전 반했어,반,리액션,
+öldüm,죽겠다(웃겨서),반,채팅,
+ölüyorum,죽겠어,반,채팅,
+çok komik,너무 웃겨,공통,리액션,
+hiç sorma,말도 마,반,리액션,
+sorma,묻지 마,반,리액션,
+ne yapalım,어쩌겠어,공통,리액션,
+olsun,괜찮아 뭐,공통,리액션,
+önemli değil,괜찮아요,공통,리액션,
+sorun yok,문제없어,공통,리액션,
+fark etmez,상관없어,공통,리액션,
+farketmez,아무거나,반,채팅,
+bilmem ki,글쎄,반,리액션,
+oha,헐,반,채팅,속된 놀람(가벼움)
+vay,와,공통,리액션,
+vay be,와 대박,반,리액션,
+helal olsun,인정/대단하다,반,칭찬,
+yaşasın,야호,공통,리액션,
+of,아휴,공통,리액션,지겨울 때
+off,아 진짜,반,채팅,
+hadi ya,설마/에이,반,리액션,믿기지 않음
+hadi canım,에이 설마,반,리액션,
+gel,이리 와,반,생활,
+gidelim,가자,공통,생활,
+hadi gidelim,자 가자,공통,생활,
+geliyorum,가는 중,공통,채팅,
+geldim,왔어/지금 가,공통,채팅,
+yoldayım,가는 중이야,공통,채팅,
+az kaldı,거의 다 왔어,공통,채팅,
+çok özledim,너무 보고 싶었어,공통,연애,
+seni düşünüyorum,네 생각 해,공통,연애,
+utanıyorum,부끄러워,공통,연애,
+bilmiyorum ki,나도 모르겠어,공통,연애,
+kıskandın mı,질투했어?,반,연애,

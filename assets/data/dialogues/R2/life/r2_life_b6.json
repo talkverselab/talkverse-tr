@@ -1,0 +1,178 @@
+{
+ "id": "r2_life_b6",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "화장실만 물어보려 했는데",
+ "emoji": "🙋",
+ "scene": "아파트 주민 회의. 한마디 하려고 손을 들었을 뿐인데 일이 커졌다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Komşu",
+  "C": "Kapıcı",
+  "D": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "affedersiniz·bakın 으로 끼어들기",
+ "expressions": [
+  "affedersiniz",
+  "şey",
+  "canım",
+  "olsun",
+  "kesinlikle"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Toplantı başladı. Aidat yine mi artıyor?",
+   "rd": "토플란트 바실라드. 아이닷 이네 미 아르트요르?",
+   "ko": "회의 시작합니다. 관리비 또 올라요?",
+   "note": "aidat = 관리비",
+   "tags": [],
+   "new": [
+    "aidat"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "tl": "Asansör bozuk, kapı bozuk, ben de yorgunum.",
+   "rd": "아산쇠르 보죽, 카프 보죽, 벤 데 요르구눔.",
+   "ko": "엘리베이터 고장, 문 고장, 저도 지쳤어요.",
+   "note": "yorgun = 피곤한",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Affedersiniz, bir şey söyleyebilir miyim?",
+   "rd": "아페데르시니즈, 비르 셰이 쇠일레예빌리르 미임?",
+   "ko": "실례합니다, 한 말씀 드려도 될까요?",
+   "note": "söyleyebilir miyim? = 말해도 될까요?",
+   "tags": [
+    "expr:affedersiniz",
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "tl": "Sonra, canım. Önce çöpü konuşalım.",
+   "rd": "손라, 자늠. 왼제 최퓌 코누샬름.",
+   "ko": "나중에, 얘야. 쓰레기 얘기부터 하자.",
+   "note": "çöp = 쓰레기",
+   "tags": [
+    "expr:canım"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Üst kat hep su döküyor, teyze!",
+   "rd": "위스트 캇 헵 수 되퀴요르, 테이제!",
+   "ko": "윗집이 맨날 물을 쏟아요, 아주머니!",
+   "note": "su dökmek = 물을 쏟다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "D",
+   "tl": "Ben mi? Balkonu yıkadım, ayıp oluyor!",
+   "rd": "벤 미? 발코누 이으카듬, 아이읍 올루요르!",
+   "ko": "내가? 발코니 닦은 거지, 너무하네!",
+   "note": "ayıp = 부끄러운 일, 너무함",
+   "tags": [],
+   "new": [
+    "ayıp"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Bakın, ben sadece…",
+   "rd": "바큰, 벤 사데제…",
+   "ko": "저기요, 저는 그냥…",
+   "note": "bakın = 저기요(주의 끌기)",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Kimse yönetici olmak istemiyor mu?",
+   "rd": "킴세 외네티지 올막 이스테미요르 무?",
+   "ko": "아무도 관리 대표 안 하실 거예요?",
+   "note": "yönetici = 관리 대표",
+   "tags": [],
+   "new": [
+    "yönetici"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Şey, ben bir şey…",
+   "rd": "셰이, 벤 비르 셰이…",
+   "ko": "저, 제가 뭘…",
+   "note": "şey = 저, 그게",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "tl": "Bak, {name} konuşuyor! O olsun.",
+   "rd": "박, {name} 코누슈요르! 오 올순.",
+   "ko": "봐라, {name} 말한다! 쟤가 하면 되겠다.",
+   "note": "o olsun = 저 사람으로 하자 — 반전",
+   "tags": [
+    "expr:olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Kesinlikle. Hayırlı olsun, yönetici!",
+   "rd": "케신리클레. 하이으를르 올순, 외네티지!",
+   "ko": "완전 찬성이에요. 축하해요, 대표님!",
+   "note": "kesinlikle = 완전 그렇지",
+   "tags": [
+    "expr:kesinlikle",
+    "expr:olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Ben sadece tuvaleti soracaktım.",
+   "rd": "벤 사데제 투발레티 소라작틈.",
+   "ko": "저는 그냥 화장실 어디냐고 물어보려던 건데요.",
+   "note": "soracaktım = 물어보려 했다",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

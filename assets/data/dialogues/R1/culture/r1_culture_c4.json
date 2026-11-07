@@ -1,0 +1,147 @@
+{
+ "id": "r1_culture_c4",
+ "region": "R1",
+ "island": "culture",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "media"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "이모 집에선 폰 금지",
+ "emoji": "🎫",
+ "scene": "콘서트 시작인데 수다쟁이 Elif 가 답이 없다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "hadi ya·görüşürüz 로 답 없는 친구 재촉하기",
+ "expressions": [
+  "hadi ya",
+  "ne oldu",
+  "tamam",
+  "görüşürüz"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Neredesin? Konser başlıyor!",
+   "rd": "네레데신? 콘세르 바실르요르!",
+   "ko": "어디야? 콘서트 시작해!",
+   "note": "konser = 콘서트",
+   "tags": [],
+   "new": [],
+   "at": "20:02",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Elif? Hadi ya, cevap ver.",
+   "rd": "엘리프? 하디 야, 제밥 베르.",
+   "ko": "Elif? 야 좀, 답해.",
+   "note": "hadi ya = 아 좀",
+   "tags": [
+    "expr:hadi ya"
+   ],
+   "new": [],
+   "at": "20:09",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Okudun, gördüm! Ne oldu?",
+   "rd": "오쿠둔, 괴르뒴! 네 올두?",
+   "ko": "읽었잖아, 봤어! 무슨 일이야?",
+   "note": "ne oldu = 무슨 일이야",
+   "tags": [
+    "expr:ne oldu"
+   ],
+   "new": [],
+   "at": "20:15",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Tamam, giriyorum. Biletin kapıda.",
+   "rd": "타맘, 기리요룸. 빌레틴 카프다.",
+   "ko": "알았어, 들어간다. 네 표는 입구에 둘게.",
+   "note": "bilet = 표",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": [
+    "bilet"
+   ],
+   "at": "20:21",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Reklam çıktı! Teyzemdeyim, telefon yasak.",
+   "rd": "레클람 측트! 테이젬데임, 텔레폰 야삭.",
+   "ko": "광고 나왔다! 이모 집이야, 폰 금지거든.",
+   "note": "yasak = 금지 — 반전",
+   "tags": [
+    "callback:r1_culture_a6"
+   ],
+   "new": [],
+   "at": "20:34",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Ne? Konser ne olacak?!",
+   "rd": "네? 콘세르 네 올라작?!",
+   "ko": "뭐? 콘서트는 어쩌고?!",
+   "note": "ne olacak = 어떻게 돼",
+   "tags": [],
+   "new": [],
+   "at": "20:34",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Çocuk onunmuş! Reklam bitti, görüşürüz 😱",
+   "rd": "초죽 오눈무시! 레클람 비티, 괴뤼쉬뤼즈",
+   "ko": "애가 걔 애였대! 광고 끝, 또 봐 😱",
+   "note": "-mış = ~래",
+   "tags": [
+    "callback:r1_culture_a6",
+    "expr:görüşürüz"
+   ],
+   "new": [],
+   "stamp": "😱",
+   "at": "20:35",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Elif? Elif!!",
+   "rd": "엘리프? 엘리프!!",
+   "ko": "Elif? Elif!!",
+   "note": "끝",
+   "tags": [],
+   "new": [],
+   "at": "20:35",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

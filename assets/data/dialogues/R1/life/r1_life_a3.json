@@ -1,0 +1,140 @@
+{
+ "id": "r1_life_a3",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "배가 아니라 아내",
+ "emoji": "💊",
+ "scene": "배가 아파 약국에 왔는데, 한 글자 틀려서 없는 아내가 아프게 됐다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Eczacı"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "karnım ağrıyor·geçmiş olsun 으로 약국에서 증상 말하기",
+ "expressions": [
+  "merhaba",
+  "geçmiş olsun",
+  "pardon",
+  "aman",
+  "buyurun",
+  "teşekkür ederim"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Merhaba. Karım çok ağrıyor.",
+   "rd": "메르하바. 카름 촉 아르요르.",
+   "ko": "안녕하세요. 제 아내가 너무 아파요.",
+   "note": "karım = 내 아내(karnım = 내 배)",
+   "tags": [
+    "expr:merhaba"
+   ],
+   "new": [
+    "ağrımak"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Geçmiş olsun. Eşiniz nerede?",
+   "rd": "게치미시 올순. 에시니즈 네레데?",
+   "ko": "저런, 쾌차하시길. 아내분은 어디 계세요?",
+   "note": "eşiniz = 배우자분",
+   "tags": [
+    "expr:geçmiş olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Eşim yok! Burası ağrıyor!",
+   "rd": "에심 욕! 부라스 아르요르!",
+   "ko": "아내 없어요! 여기가 아파요!",
+   "note": "burası = 여기",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Ha, karnınız! 'Karım' değil, 'karnım'.",
+   "rd": "하, 카르느느즈! 카름 데일, 카르늠.",
+   "ko": "아, 배요! 'karım' 말고 'karnım'이에요.",
+   "note": "karnım = 내 배 — 반전: 글자 하나 차이",
+   "tags": [],
+   "new": [
+    "karın"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Aman, pardon. Dün on dolma yedim.",
+   "rd": "아만, 파르돈. 뒨 온 돌마 예딤.",
+   "ko": "아이고, 죄송해요. 어제 돌마를 열 개 먹었어요.",
+   "note": "on = 열(10)",
+   "tags": [
+    "expr:pardon",
+    "expr:aman",
+    "callback:r0_life_a1"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Buyurun, ilaç. Günde iki kere.",
+   "rd": "부유룬, 일라치. 귄데 이키 케레.",
+   "ko": "여기 약이요. 하루에 두 번요.",
+   "note": "günde iki kere = 하루 두 번",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": [
+    "ilaç"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Teşekkür ederim. Ne kadar?",
+   "rd": "테셰퀴르 에데림. 네 카다르?",
+   "ko": "감사합니다. 얼마예요?",
+   "note": "ne kadar = 얼마예요",
+   "tags": [
+    "expr:teşekkür ederim",
+    "expr:ne kadar"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Yüz lira. Eşinize de selam söyleyin.",
+   "rd": "위즈 리라. 에시니제 데 셀람 쇠일레인.",
+   "ko": "100리라요. 아내분께도 안부 전해 주세요.",
+   "note": "selam söyleyin = 안부 전해 주세요",
+   "tags": [
+    "expr:selam"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

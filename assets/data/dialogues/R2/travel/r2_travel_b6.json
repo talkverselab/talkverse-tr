@@ -1,0 +1,186 @@
+{
+ "id": "r2_travel_b6",
+ "region": "R2",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "휴게소 20분",
+ "emoji": "🚛",
+ "scene": "시외버스 휴게소에서 밥을 먹다 버스를 놓치고, 트럭으로 쫓아간다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Muavin",
+  "C": "Kamyoncu"
+ },
+ "register": "mixed",
+ "twist": 3,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "yok artık·ciddi misiniz·geçmiş olsun 으로 급한 상황 말하기",
+ "expressions": [
+  "yok artık",
+  "geçmiş olsun",
+  "lütfen",
+  "hadi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Yirmi dakika mola var, efendim. Buyurun.",
+   "rd": "이르미 다키카 몰라 바르, 에펜딤. 부유룬.",
+   "ko": "20분 쉽니다, 손님. 내리세요.",
+   "note": "mola = 휴식(휴게소)",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": [
+    "mola"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Yirmi dakika mı? Harika, ben yemek yiyeceğim.",
+   "rd": "이르미 다키카 므? 하리카, 벤 예멕 이예제임.",
+   "ko": "20분이요? 좋다, 밥 먹어야지.",
+   "note": "yiyeceğim = 먹을 거다",
+   "tags": [
+    "expr:harika"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Evladım, otobüsün gidiyor galiba.",
+   "rd": "에블라듬, 오토뷔쉰 기디요르 갈리바.",
+   "ko": "얘야, 네 버스 가는 것 같은데.",
+   "note": "galiba = 아마 — 반전",
+   "tags": [
+    "expr:galiba"
+   ],
+   "new": [
+    "otobüs"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Yok artık, durun! Çantam, telefonum, her şey içinde!",
+   "rd": "욕 아르특, 두룬! 찬탐, 텔레포눔, 헤르 셰이 이친데!",
+   "ko": "말도 안 돼, 멈춰요! 가방, 폰, 전부 안에 있어요!",
+   "note": "her şey = 전부",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Hadi, atla! Kamyonla yakalarız.",
+   "rd": "하디, 아틀라! 캄욘라 야칼라르즈.",
+   "ko": "자, 타! 트럭으로 따라잡자.",
+   "note": "kamyon = 트럭",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": [
+    "kamyon"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Kamyonla mı? Ciddi misiniz?",
+   "rd": "캄욘라 므? 지디 미시니즈?",
+   "ko": "트럭으로요? 진심이세요?",
+   "note": "ciddi misiniz? = 진심이세요?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Otuz yıldır bu yoldayım. İyi tutun!",
+   "rd": "오투즈 이을드르 부 욜다이음. 이이 투툰!",
+   "ko": "30년째 이 길이야. 꽉 잡아!",
+   "note": "-dır = ~째",
+   "tags": [
+    "form:-dır"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Bakın, orada! Daha hızlı, lütfen!",
+   "rd": "바큰, 오라다! 다하 흐즐르, 뤼트펜!",
+   "ko": "저기요, 저기! 더 빨리요!",
+   "note": "hızlı = 빠른",
+   "tags": [
+    "expr:lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Aman, ne oluyor? Durun, kamyondan biri iniyor!",
+   "rd": "아만, 네 올루요르? 두룬, 캄욘단 비리 이니요르!",
+   "ko": "어머, 무슨 일이야? 세워요, 트럭에서 누가 내려요!",
+   "note": "ne oluyor = 무슨 일이야",
+   "tags": [
+    "expr:aman"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Benim, yolcu benim! Yirmi dakika demiştiniz!",
+   "rd": "베님, 욜주 베님! 이르미 다키카 데미시티니즈!",
+   "ko": "저예요, 승객 저예요! 20분이라면서요!",
+   "note": "demiştiniz = 말씀하셨잖아요",
+   "tags": [
+    "form:-miştiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Yirmi dakikaydı. Geçmiş olsun, kolonya?",
+   "rd": "이르미 다키카이드. 게치미시 올순, 콜론야?",
+   "ko": "20분이었죠. 고생하셨습니다, 콜로냐 드릴까요?",
+   "note": "geçmiş olsun = 고생했어요",
+   "tags": [
+    "expr:geçmiş olsun",
+    "callback:r0_travel_a1"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Su mu? Emin misiniz?",
+   "rd": "수 무? 에민 미시니즈?",
+   "ko": "물 맞아요? 확실해요?",
+   "note": "emin misiniz? = 확실해요?",
+   "tags": [
+    "callback:r0_travel_a1"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

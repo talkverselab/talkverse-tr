@@ -1,0 +1,230 @@
+{
+ "id": "r3_life_b5",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "해바라기씨 세 개",
+ "emoji": "🌌",
+ "scene": "정전된 밤, 옥상에서 Can 과 별을 본다. 말 못 한 얘기가 하나 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "casual",
+ "twist": 13,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "ciddi misin·bilmiyorum ki 로 속마음을 돌려 말하기",
+ "expressions": [
+  "harika",
+  "şey",
+  "helal olsun",
+  "kanka",
+  "olmaz",
+  "ciddi misin"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Elektrik gitti, ben de çatıya çıktım. Gel, yıldızlar harika.",
+   "rd": "엘렉트릭 기티, 벤 데 차트야 측틈. 겔, 이을드즐라르 하리카.",
+   "ko": "전기 나갔길래 옥상에 올라왔어. 와 봐, 별이 끝내줘.",
+   "note": "çatı = 옥상, yıldız = 별",
+   "tags": [
+    "expr:harika",
+    "callback:r1_life_b1"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Bu saatte çatıda ne yiyorsun? Kesin bir şey yiyorsun.",
+   "rd": "부 사아테 차트다 네 이요르순? 케신 비르 셰이 이요르순.",
+   "ko": "이 시간에 옥상에서 뭘 먹어? 분명 뭘 먹고 있어.",
+   "note": "kesin = 분명",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Çekirdek. Al, sana da bıraktım. Üç tane.",
+   "rd": "체키르덱. 알, 사나 다 브락틈. 위치 타네.",
+   "ko": "해바라기씨. 자, 너도 남겨 놨어. 세 개.",
+   "note": "çekirdek = 해바라기씨",
+   "tags": [],
+   "new": [
+    "çekirdek"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Üç tane mi? Helal olsun sana, kanka.",
+   "rd": "위치 타네 미? 헬랄 올순 사나, 칸카.",
+   "ko": "세 개? 대단하다 너, 친구야.",
+   "note": "helal olsun = 인정, 대단하다",
+   "tags": [
+    "expr:helal olsun",
+    "expr:kanka"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Bu mahalle hiç bu kadar sessiz olmaz. Teyze bile oyunda değil.",
+   "rd": "부 마할레 히치 부 카다르 세시즈 올마즈. 테이제 빌레 오윤다 데일.",
+   "ko": "이 동네가 이렇게 조용한 적이 없어. 이모도 게임을 안 하네.",
+   "note": "bu kadar = 이렇게",
+   "tags": [
+    "expr:olmaz",
+    "callback:r2_life_b8"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Can, bir şey söyleyeceğim. Annem aradı, eve dönmemi istiyor.",
+   "rd": "잔, 비르 셰이 쇠일레예제임. 안넴 아라드, 에베 된메미 이스티요르.",
+   "ko": "칸, 할 말 있어. 엄마가 전화했어, 집에 돌아오래.",
+   "note": "dönmemi = 내가 돌아오기를",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Eve mi? Ne zaman? Ciddi misin?",
+   "rd": "에베 미? 네 자만? 지디 미신?",
+   "ko": "집에? 언제? 진심이야?",
+   "note": "ne zaman = 언제",
+   "tags": [
+    "expr:ciddi misin"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Bilmiyorum. Belki bu yaz. Daha karar vermedim.",
+   "rd": "빌미요룸. 벨키 부 야즈. 다하 카라르 베르메딤.",
+   "ko": "몰라. 어쩌면 이번 여름. 아직 결정 안 했어.",
+   "note": "karar vermek = 결정하다",
+   "tags": [
+    "expr:bilmiyorum"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Hıhı. Tamam. İyi olur, annen seni özlemiştir.",
+   "rd": "흐흐. 타맘. 이이 올루르, 안넨 세니 외즐레미시티르.",
+   "ko": "응. 그래. 잘됐네, 어머니가 널 보고 싶어 하시겠다.",
+   "note": "özlemiştir = 그리워했을 거다",
+   "tags": [
+    "expr:tamam",
+    "expr:olur",
+    "expr:hıhı"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Bu kadar mı? 'İyi olur' mu diyorsun?",
+   "rd": "부 카다르 므? 이이 올루르 무 디요르순?",
+   "ko": "그게 다야? '잘됐네'라고?",
+   "note": "bu kadar mı? = 그게 다야?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Ne diyeyim? 'Gitme' mi diyeyim? O senin hayatın.",
+   "rd": "네 디예임? 기트메 미 디예임? 오 세닌 하야튼.",
+   "ko": "뭐라고 해? '가지 마'라고 해? 네 인생이잖아.",
+   "note": "gitme = 가지 마",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Bilmem. Belki biri 'gitme' demeli.",
+   "rd": "빌멤. 벨키 비리 기트메 데멜리.",
+   "ko": "몰라. 누군가는 '가지 마'라고 해야 하는 거 아닐까.",
+   "note": "demeli = 말해야 한다",
+   "tags": [
+    "expr:bilmem"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Bak, ben yemeğimi kimseye vermem. Al, hepsi senin.",
+   "rd": "박, 벤 예메이미 킴세예 베르멤. 알, 헵시 세닌.",
+   "ko": "봐, 난 먹을 거 아무한테도 안 줘. 자, 다 네 거야.",
+   "note": "vermem = 안 준다 — 반전: Can 식 고백",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Can… bu ne demek şimdi?",
+   "rd": "잔… 부 네 데멕 심디?",
+   "ko": "칸… 이게 지금 무슨 뜻이야?",
+   "note": "ne demek = 무슨 뜻이야",
+   "tags": [
+    "expr:ne demek"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Bilmiyorum ki. Bak, ışıklar geldi.",
+   "rd": "빌미요룸 키. 박, 으시클라르 겔디.",
+   "ko": "나도 몰라. 봐, 불 들어왔다.",
+   "note": "ışıklar geldi = 불이 들어왔다",
+   "tags": [
+    "expr:bilmiyorum ki"
+   ],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "tl": "Yazık. Karanlık daha güzeldi.",
+   "rd": "야즉. 카란륵 다하 귀젤디.",
+   "ko": "아쉽다. 어두운 게 더 좋았는데.",
+   "note": "yazık = 아쉽다",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

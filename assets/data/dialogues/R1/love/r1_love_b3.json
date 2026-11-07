@@ -1,0 +1,126 @@
+{
+ "id": "r1_love_b3",
+ "region": "R1",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "나 결혼해?",
+ "emoji": "🏠",
+ "scene": "이사 소식을 전하려다 나도 모르게 Emre 에게 결혼한다고 말해 버린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "goal": "evlenmek·taşınmak 구별하고 ne demek 으로 뜻 묻기",
+ "expressions": [
+  "eyvah",
+  "ne demek",
+  "harika"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Emre, harika haber! Haftaya evleniyorum!",
+   "rd": "엠레, 하리카 하베르! 하프타야 에블레니요룸!",
+   "ko": "Emre, 대박 소식! 나 다음 주에 결혼해!",
+   "note": "evlenmek = 결혼하다",
+   "tags": [
+    "expr:harika"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Ne? Kiminle?",
+   "rd": "네? 키민레?",
+   "ko": "뭐? 누구랑?",
+   "note": "kiminle = 누구랑",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Yalnız! Küçük ama çok güzel.",
+   "rd": "얄느즈! 퀴췩 아마 촉 귀젤.",
+   "ko": "혼자! 작은데 진짜 예뻐.",
+   "note": "yalnız = 혼자",
+   "tags": [
+    "expr:çok güzel"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Kim küçük? Ne diyorsun sen?",
+   "rd": "킴 퀴췩? 네 디요르순 센?",
+   "ko": "누가 작아? 너 무슨 소리야?",
+   "note": "ne diyorsun = 무슨 말이야",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Ev! Yeni ev, çok güzel!",
+   "rd": "에브! 예니 에브, 촉 귀젤!",
+   "ko": "집! 새집, 진짜 좋아!",
+   "note": "반전: 결혼이 아니라 집 이야기",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Ev mi? O \"taşınıyorum\" demek.",
+   "rd": "에브 미? 오 \"타시느요룸\" 데멕.",
+   "ko": "집? 그건 「이사해」라고 하는 거야.",
+   "note": "taşınmak = 이사하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Eyvah. Evleniyorum ne demek peki?",
+   "rd": "에이바흐. 에블레니요룸 네 데멕 페키?",
+   "ko": "헉. 그럼 「evleniyorum」은 무슨 뜻이야?",
+   "note": "ne demek = 무슨 뜻",
+   "tags": [
+    "expr:eyvah",
+    "expr:ne demek"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Bir an kalbim durdu demek.",
+   "rd": "비르 안 칼빔 두르두 데멕.",
+   "ko": "「순간 내 심장이 멎었어」라는 뜻.",
+   "note": "bir an = 한순간",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

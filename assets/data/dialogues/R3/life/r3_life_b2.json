@@ -1,0 +1,235 @@
+{
+ "id": "r3_life_b2",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "이 집의 단점",
+ "emoji": "🏚️",
+ "scene": "집주인이 집을 판다. 나와 Can 은 안 팔리게 하려고 단점을 늘어놓는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ev sahibi",
+  "C": "Can",
+  "D": "Alıcı",
+  "E": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 13,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "bir de·yok artık 으로 집의 문제점 늘어놓기",
+ "expressions": [
+  "merhaba",
+  "olsun",
+  "kanka",
+  "anladım",
+  "ne kadar",
+  "bayıldım"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Merhaba. Ev satılıyor, haberiniz olsun. Bugün biri görmeye geliyor.",
+   "rd": "메르하바. 에브 사틀르요르, 하베리니즈 올순. 부귄 비리 괴르메예 겔리요르.",
+   "ko": "안녕하세요. 집 내놨으니 알아 두세요. 오늘 누가 보러 와요.",
+   "note": "haberiniz olsun = 알아 두세요",
+   "tags": [
+    "expr:merhaba",
+    "expr:olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Ne?! Ev satılıyor mu? Ben nereye gideceğim?",
+   "rd": "네?! 에브 사틀르요르 무? 벤 네레예 기데제임?",
+   "ko": "네?! 집을 판다고요? 저는 어디로 가요?",
+   "note": "nereye = 어디로",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Kanka, dur. Alıcı evi beğenmezse almaz. Anladın mı?",
+   "rd": "칸카, 두르. 알르즈 에비 베엔메즈세 알마즈. 안라든 므?",
+   "ko": "야, 잠깐. 사는 사람이 집이 마음에 안 들면 안 사. 알겠어?",
+   "note": "alıcı = 사는 사람",
+   "tags": [
+    "expr:kanka"
+   ],
+   "new": [
+    "alıcı"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Anladım. Asansör yok, kombi bozuk, su az. Hepsini söyleriz.",
+   "rd": "안라듬. 아산쇠르 욕, 콤비 보죽, 수 아즈. 헵시니 쇠일레리즈.",
+   "ko": "알겠어. 엘리베이터 없고, 보일러 고장, 물도 약해. 다 말하자.",
+   "note": "hepsini = 전부",
+   "tags": [
+    "expr:anladım"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "D",
+   "tl": "İyi günler. Ne güzel ev. Burası ne kadar sessiz!",
+   "rd": "이이 귄레르. 네 귀젤 에브. 부라스 네 카다르 세시즈!",
+   "ko": "안녕하세요. 집 좋네요. 여기 참 조용하네요!",
+   "note": "sessiz = 조용한",
+   "tags": [
+    "expr:ne kadar"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Sessiz mi? Gece üçte yan daireden 'Vur!' sesi gelir.",
+   "rd": "세시즈 미? 게제 위치테 얀 다이레덴 부르! 세시 겔리르.",
+   "ko": "조용해요? 새벽 세 시에 옆집에서 '쳐!' 소리가 나요.",
+   "note": "sesi gelir = 소리가 난다",
+   "tags": [
+    "callback:r2_life_b8"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Asansör de yok. Kapıcı iki yıldır 'yarın' diyor.",
+   "rd": "아산쇠르 데 욕. 카프즈 이키 이을드르 야른 디요르.",
+   "ko": "엘리베이터도 없어요. 관리인이 2년째 '내일'이래요.",
+   "note": "iki yıldır = 2년째",
+   "tags": [
+    "callback:r0_life_a4"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "tl": "Merdiven sağlığa iyi gelir. Ben spor yapmayı severim.",
+   "rd": "메르디벤 살르아 이이 겔리르. 벤 스포르 얍마이으 세베림.",
+   "ko": "계단은 건강에 좋죠. 저 운동 좋아해요.",
+   "note": "sağlığa iyi gelir = 건강에 좋다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Kombi de bozuk. Dört kişi geldi, hiçbiri çözemedi.",
+   "rd": "콤비 데 보죽. 되르트 키시 겔디, 히치비리 최제메디.",
+   "ko": "보일러도 고장이에요. 네 명이 왔는데 아무도 못 고쳤어요.",
+   "note": "çözemedi = 해결 못 했다",
+   "tags": [
+    "callback:r2_life_b3"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Bir de kedi var. Çok büyük, köfte çalıyor.",
+   "rd": "비르 데 케디 바르. 촉 뷔윅, 쾨프테 찰르요르.",
+   "ko": "고양이도 있어요. 엄청 크고, 쾨프테를 훔쳐요.",
+   "note": "çalmak = 훔치다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "D",
+   "tl": "Kedi mi? Bayıldım! Ben kedileri çok severim.",
+   "rd": "케디 미? 바이을듬! 벤 케딜레리 촉 세베림.",
+   "ko": "고양이요? 너무 좋아요! 저 고양이 엄청 좋아해요.",
+   "note": "bayıldım = 완전 반했어",
+   "tags": [
+    "expr:bayıldım"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "E",
+   "tl": "Hoş geldiniz! Yemek yediniz mi? Buyurun, dolma.",
+   "rd": "호시 겔디니즈! 예멕 예디니즈 미? 부유룬, 돌마.",
+   "ko": "어서 오세요! 식사하셨어요? 자, 돌마 드세요.",
+   "note": "yemek yediniz mi? = 식사하셨어요?",
+   "tags": [
+    "expr:hoş geldiniz",
+    "expr:buyurun",
+    "callback:r0_life_a1"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "D",
+   "tl": "Elinize sağlık! Bu ev kaç para? Hemen alıyorum.",
+   "rd": "엘리니제 살륵! 부 에브 카치 파라? 헤멘 알르요룸.",
+   "ko": "잘 먹었습니다! 이 집 얼마예요? 당장 살게요.",
+   "note": "kaç para = 얼마 — 반전: 돌마가 다 뒤집었다",
+   "tags": [
+    "expr:elinize sağlık"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "tl": "Yok artık. Kanka, planımız dolmaya yenildi.",
+   "rd": "욕 아르특. 칸카, 프라느므즈 돌마야 예닐디.",
+   "ko": "말도 안 돼. 야, 우리 작전이 돌마한테 졌어.",
+   "note": "yenilmek = 지다",
+   "tags": [
+    "expr:yok artık",
+    "expr:kanka"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Kusura bakmayın, ev satıldı. Teyze biraz önce aldı.",
+   "rd": "쿠수라 박마이은, 에브 사틀드. 테이제 비라즈 왼제 알드.",
+   "ko": "죄송해요, 집 팔렸어요. 아주머니가 방금 사셨어요.",
+   "note": "biraz önce = 방금",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "E",
+   "tl": "Hayırlı olsun, canım. Yeni kira: her akşam gel, yemek ye.",
+   "rd": "하이으를르 올순, 자늠. 예니 키라 헤르 악샴 겔, 예멕 예.",
+   "ko": "잘됐다, 얘야. 새 월세는 이거야: 매일 저녁 와서 밥 먹어.",
+   "note": "her akşam = 매일 저녁",
+   "tags": [
+    "expr:canım",
+    "expr:olsun"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

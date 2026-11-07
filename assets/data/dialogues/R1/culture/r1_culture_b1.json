@@ -1,0 +1,130 @@
+{
+ "id": "r1_culture_b1",
+ "region": "R1",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "travel"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "10리라 방송",
+ "emoji": "💍",
+ "scene": "결혼식에서 신부에게 돈을 달아 주는 줄, 얼마 냈는지 마이크로 방송되는 줄 몰랐다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Sunucu"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "ne kadar·eyvah 로 결혼식 돈 달기 넘기기",
+ "expressions": [
+  "aynen",
+  "ne kadar",
+  "tabii",
+  "eyvah",
+  "görüşürüz"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Para hazır mı? Sıra bize geliyor.",
+   "rd": "파라 하즈르 므? 스라 비제 겔리요르.",
+   "ko": "돈 준비됐어? 우리 차례 온다.",
+   "note": "sıra = 차례",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Hazır. Geline mi takıyoruz?",
+   "rd": "하즈르. 겔리네 미 타크요루즈?",
+   "ko": "됐어. 신부한테 다는 거야?",
+   "note": "gelin = 신부",
+   "tags": [],
+   "new": [
+    "gelin"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Aynen. Sonra mikrofondan söylüyorlar.",
+   "rd": "아이넨. 손라 믹로폰단 쇠일뤼요를라르.",
+   "ko": "맞아. 그다음에 마이크로 말해 줘.",
+   "note": "mikrofon = 마이크",
+   "tags": [
+    "expr:aynen"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Ne? Herkes duyuyor mu?",
+   "rd": "네? 헤르케스 두유요르 무?",
+   "ko": "뭐? 다 듣는다고?",
+   "note": "duymak = 듣다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Tabii, neden? Ne kadar getirdin?",
+   "rd": "타비이, 네덴? 네 카다르 게티르딘?",
+   "ko": "당연하지, 왜? 얼마 가져왔는데?",
+   "note": "ne kadar = 얼마",
+   "tags": [
+    "expr:ne kadar",
+    "expr:tabii"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "{name} adına on lira!",
+   "rd": "{name} 아드나 온 리라!",
+   "ko": "{name} 님, 10리라!",
+   "note": "on lira = 10리라 — 반전: 식장이 조용해진다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Eyvah! Müzik neden durdu?",
+   "rd": "에이바흐! 뮈직 네덴 두르두?",
+   "ko": "헉! 음악이 왜 멈춰?",
+   "note": "eyvah = 헉",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Görüşürüz. Ben seni tanımıyorum.",
+   "rd": "괴뤼쉬뤼즈. 벤 세니 타느므요룸.",
+   "ko": "잘 가. 나 너 모르는 사람이야.",
+   "note": "tanımak = 알다(사람을)",
+   "tags": [
+    "expr:görüşürüz"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

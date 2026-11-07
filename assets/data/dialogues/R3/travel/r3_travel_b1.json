@@ -1,0 +1,236 @@
+{
+ "id": "r3_travel_b1",
+ "region": "R3",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "다리 위의 여권",
+ "emoji": "🛂",
+ "scene": "공항 가는 택시 안에서 여권을 호텔에 두고 온 걸 알고, 다리 위 교통 체증 속 작전이 시작된다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Taksici",
+  "C": "Resepsiyon",
+  "D": "Elif"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "merak etmeyin·yok artık·ne demek 으로 공항 가는 길 위기 넘기기",
+ "expressions": [
+  "kesinlikle",
+  "eyvah",
+  "ne demek",
+  "bir dakika",
+  "yok artık",
+  "çok şükür",
+  "hocam"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "D",
+   "tl": "Pasaportun sende, değil mi? Bir daha sorayım, sonra ağlamayalım.",
+   "rd": "파사포르툰 센데, 데일 미? 비르 다하 소라이음, 손라 알라마얄름.",
+   "ko": "여권 챙겼지? 한 번 더 물어볼게, 나중에 울지 말고.",
+   "note": "pasaport = 여권",
+   "tags": [],
+   "new": [
+    "pasaport"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Kesinlikle çantamda. Sen de çok düşünüyorsun ya.",
+   "rd": "케신리클레 찬탐다. 센 데 촉 뒤쉬뉘요르순 야.",
+   "ko": "당연히 가방에 있지. 너도 참 걱정 많다.",
+   "note": "kesinlikle = 완전 그렇지",
+   "tags": [
+    "expr:kesinlikle",
+    "expr:ya"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Alo, merhaba. Otelden arıyorum, pasaportunuz bizde kalmış.",
+   "rd": "알로, 메르하바. 오텔덴 아르요룸, 파사포르투누즈 비즈데 칼므시.",
+   "ko": "여보세요, 안녕하세요. 호텔인데요, 여권이 저희한테 있네요.",
+   "note": "-miş = 알고 보니 ~더라",
+   "tags": [
+    "expr:merhaba",
+    "form:-miş"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Eyvah! Ne demek bizde kalmış? Ben havalimanına gidiyorum!",
+   "rd": "에이바흐! 네 데멕 비즈데 칼므시? 벤 하발리마느나 기디요룸!",
+   "ko": "헉! 저희한테 있다니요? 저 공항 가는 중이에요!",
+   "note": "havalimanı = 공항",
+   "tags": [
+    "expr:eyvah",
+    "expr:ne demek"
+   ],
+   "new": [
+    "havalimanı"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Merak etmeyin, hocam. Döneriz, ama köprü şu an dolu.",
+   "rd": "메락 에트메인, 호잠. 되네리즈, 아마 쾹뤼 슈 안 돌루.",
+   "ko": "걱정 마세요, 손님. 돌아가면 되는데, 지금 다리가 꽉 찼어요.",
+   "note": "hocam = 선생님(남녀 공용 호칭)",
+   "tags": [
+    "expr:hocam"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "D",
+   "tl": "Ne kadar sürer? Uçak saat beşte, ne yapacağız şimdi?",
+   "rd": "네 카다르 쉬레르? 우착 사앗 베시테, 네 야파자으즈 심디?",
+   "ko": "얼마나 걸려요? 비행기 다섯 시인데, 이제 어떡해요?",
+   "note": "sürmek = (시간이) 걸리다",
+   "tags": [
+    "expr:ne kadar"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Bir dakika, bir fikrim var. Kuzenim motosikletle getirir.",
+   "rd": "비르 다키카, 비르 픽림 바르. 쿠제님 모토시클레틀레 게티리르.",
+   "ko": "잠깐만요, 생각이 있어요. 제 사촌이 오토바이로 갖다 드릴 거예요.",
+   "note": "motosiklet = 오토바이",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": [
+    "motosiklet"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Söyleyin, köprüde bulsun. Sarı taksi, içinde ağlayan bir yabancı.",
+   "rd": "쇠일레인, 쾹뤼데 불순. 사르 탁시, 이친데 알라얀 비르 야반즈.",
+   "ko": "다리에서 찾으라고 하세요. 노란 택시, 안에 우는 외국인.",
+   "note": "ağlayan = 우는",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Ağlamıyorum! Neyse, şimdi ağlıyorum. Elif, bak, o motosiklet mi?",
+   "rd": "알라므요룸! 네이세, 심디 알르요룸. 엘리프, 박, 오 모토시클렛 미?",
+   "ko": "안 울어요! 아무튼, 이제 울어요. 엘리프, 봐, 저 오토바이야?",
+   "note": "neyse = 아무튼",
+   "tags": [
+    "expr:neyse",
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "tl": "O bir simitçi! Hayır, dur… arkasında biri var, pasaport sallıyor!",
+   "rd": "오 비르 시미트치! 하이으르, 두르… 아르카슨다 비리 바르, 파사포르트 살르요르!",
+   "ko": "저건 시미트 장수야! 아니, 잠깐… 뒤에 누가 있어, 여권 흔들어!",
+   "note": "sallamak = 흔들다",
+   "tags": [
+    "expr:dur"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "Kuzenim aradı, sizi gördü. Ama pasaportu trafikte simitçiye vermiş.",
+   "rd": "쿠제님 아라드, 시지 괴르뒤. 아마 파사포르투 트라픽테 시미트치예 베르미시.",
+   "ko": "사촌이 전화했는데, 손님을 봤대요. 근데 여권을 차들 사이에서 시미트 장수한테 줬대요.",
+   "note": "simitçi = 시미트 장수 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Simitçiye mi?! Yok artık! Neden simitçi benim pasaportumu taşıyor?",
+   "rd": "시미트치예 미?! 욕 아르특! 네덴 시미트치 베님 파사포르투무 타시요르?",
+   "ko": "시미트 장수한테요?! 말도 안 돼! 왜 시미트 장수가 내 여권을 들고 다녀요?",
+   "note": "taşımak = 들고 다니다",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Hocam, camı açın, adam geliyor. Bir simit de alın, ayıp olmasın.",
+   "rd": "호잠, 자므 아츤, 아담 겔리요르. 비르 시밋 데 알른, 아이읍 올마슨.",
+   "ko": "손님, 창문 여세요, 저분 옵니다. 시미트도 하나 사세요, 예의상.",
+   "note": "ayıp olmasın = 예의 없어 보이지 않게",
+   "tags": [
+    "expr:hocam"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "D",
+   "tl": "Aldık! Pasaport elimizde, simit de sıcak. Çok şükür, yetişiyoruz!",
+   "rd": "알득! 파사포르트 엘리미즈데, 시밋 데 스작. 촉 쉬퀴르, 예티시요루즈!",
+   "ko": "받았다! 여권 손에 있고, 시미트도 따끈해. 다행이다, 안 늦겠어!",
+   "note": "yetişmek = 시간에 대다",
+   "tags": [
+    "expr:çok şükür"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "tl": "Bir dakika, mesaj geldi. Uçak iki saat geç kalkıyormuş.",
+   "rd": "비르 다키카, 메사즈 겔디. 우착 이키 사앗 게치 칼크요르무시.",
+   "ko": "잠깐만, 문자 왔다. 비행기 두 시간 늦게 뜬대.",
+   "note": "-iyormuş = ~한대",
+   "tags": [
+    "expr:bir dakika",
+    "form:-iyormuş"
+   ],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "D",
+   "tl": "Ağlayan sendin. Ben simidimi yiyorum.",
+   "rd": "알라얀 센딘. 벤 시미디미 이요룸.",
+   "ko": "운 건 너였고. 난 시미트 먹을래.",
+   "note": "ağlayan = 우는 사람",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

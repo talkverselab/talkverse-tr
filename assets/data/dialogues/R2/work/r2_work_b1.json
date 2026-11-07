@@ -1,0 +1,157 @@
+{
+ "id": "r2_work_b1",
+ "region": "R2",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_abroad"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "이력서는 친구가",
+ "emoji": "📄",
+ "scene": "면접장, 이력서에 쓴 「터키어: 아주 잘함」 이 5분 만에 들통난다",
+ "speakers": {
+  "A": "{name}",
+  "B": "İK"
+ },
+ "register": "polite",
+ "twist": 9,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "fark etmez·tekrar eder misiniz·yavaş lütfen 으로 면접 버티기",
+ "expressions": [
+  "fark etmez",
+  "tekrar eder misiniz",
+  "yavaş lütfen",
+  "şey"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hoş geldiniz. Çay mı, kahve mi?",
+   "rd": "호시 겔디니즈. 차이 므, 카흐베 미?",
+   "ko": "어서 오세요. 차 드릴까요, 커피 드릴까요?",
+   "note": "mı = 아니면(둘 중 고르기)",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Fark etmez, teşekkür ederim.",
+   "rd": "파르크 에트메즈, 테셰퀴르 에데림.",
+   "ko": "아무거나요, 감사합니다.",
+   "note": "fark etmez = 상관없어요",
+   "tags": [
+    "expr:fark etmez"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Özgeçmişinizde “Türkçe: çok iyi” yazıyor. Harika!",
+   "rd": "외즈게치미시니즈데 튀르크체 촉 이이 야즈요르. 하리카!",
+   "ko": "이력서에 「터키어: 아주 잘함」 이라고 써 있네요. 훌륭해요!",
+   "note": "özgeçmiş = 이력서",
+   "tags": [],
+   "new": [
+    "özgeçmiş"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Evet, evet. Türkçem çok iyi.",
+   "rd": "에벳, 에벳. 튀르크쳄 촉 이이.",
+   "ko": "네, 네. 제 터키어 아주 좋아요.",
+   "note": "Türkçem = 내 터키어",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "O zaman hızlı gidelim. Beş yıl sonra kendinizi nerede görüyorsunuz?",
+   "rd": "오 자만 흐즐르 기델림. 베시 이을 손라 켄디니지 네레데 괴뤼요르수누즈?",
+   "ko": "그럼 빠르게 가죠. 5년 뒤 자신이 어디에 있을 거라고 보세요?",
+   "note": "beş yıl sonra = 5년 뒤",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Tekrar eder misiniz? Yavaş lütfen.",
+   "rd": "텍라르 에데르 미시니즈? 야바시 뤼트펜.",
+   "ko": "다시 말씀해 주시겠어요? 천천히요.",
+   "note": "tekrar eder misiniz = 다시 말씀해 주시겠어요",
+   "tags": [
+    "expr:tekrar eder misiniz",
+    "expr:yavaş lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Beş. Yıl. Sonra. Neredesiniz?",
+   "rd": "베시. 이을. 손라. 네레데시니즈?",
+   "ko": "오. 년. 뒤. 어디 계세요?",
+   "note": "neredesiniz = 어디 계세요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Şey, burada? Bu sandalyede?",
+   "rd": "셰이, 부라다? 부 산달예데?",
+   "ko": "저… 여기요? 이 의자에요?",
+   "note": "sandalye = 의자",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Bu özgeçmişi kim yazdı?",
+   "rd": "부 외즈게치미시 킴 야즈드?",
+   "ko": "이 이력서 누가 썼어요?",
+   "note": "kim yazdı = 누가 썼어요 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Bir arkadaşım. Türkçesi çok iyi.",
+   "rd": "비르 아르카다심. 튀르크체시 촉 이이.",
+   "ko": "친구요. 걔 터키어 진짜 잘해요.",
+   "note": "arkadaşım = 내 친구",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Arkadaşınızın numarasını alabilir miyim?",
+   "rd": "아르카다시느즌 누마라스느 알라빌리르 미임?",
+   "ko": "친구분 번호 받을 수 있을까요?",
+   "note": "alabilir miyim = 받아도 될까요",
+   "tags": [
+    "form:-abilir"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

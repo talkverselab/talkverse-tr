@@ -1,0 +1,139 @@
+{
+ "id": "r1_culture_a5",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "travel"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "여덟 살의 손",
+ "emoji": "🤝",
+ "scene": "명절 아침 Zeynep 네 집, 손등 인사를 막 배운 내가 줄 끝까지 간다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Dede",
+  "D": "Çocuk"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "bayramınız kutlu olsun 으로 어른께 명절 인사하기",
+ "expressions": [
+  "olsun",
+  "maşallah",
+  "harika",
+  "dur",
+  "yok"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bayramın kutlu olsun! Hazır mısın?",
+   "rd": "바이라믄 쿠틀루 올순! 하즈르 므슨?",
+   "ko": "명절 잘 보내! 준비됐어?",
+   "note": "kutlu olsun = 축하해",
+   "tags": [
+    "expr:olsun"
+   ],
+   "new": [
+    "bayram"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Hazırım. Ne yapacağım?",
+   "rd": "하즈름. 네 야파자음?",
+   "ko": "됐어. 뭐 하면 돼?",
+   "note": "hazırım = 준비됐다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Büyüklerin elini öp, alnına koy.",
+   "rd": "뷔위클레린 엘리니 욉, 알느나 코이.",
+   "ko": "어른 손등에 입 맞추고 이마에 대.",
+   "note": "büyükler = 어른들",
+   "tags": [],
+   "new": [
+    "öpmek",
+    "alın"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Bayramınız kutlu olsun, dede!",
+   "rd": "바이라므느즈 쿠틀루 올순, 데데!",
+   "ko": "명절 잘 보내세요, 할아버지!",
+   "note": "dede = 할아버지",
+   "tags": [
+    "expr:olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Maşallah! Al yavrum, bu senin.",
+   "rd": "마샬라흐! 알 야브룸, 부 세닌.",
+   "ko": "기특하구나! 받아라, 이건 네 거다.",
+   "note": "명절에 어른이 용돈을 준다",
+   "tags": [
+    "expr:maşallah"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Para mı? Harika, sonra kim var?",
+   "rd": "파라 므? 하리카, 손라 킴 바르?",
+   "ko": "돈이요? 끝내준다, 다음은 누구야?",
+   "note": "harika = 끝내준다",
+   "tags": [
+    "expr:harika"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "{name}, dur! O çocuk sekiz yaşında!",
+   "rd": "{name}, 두르! 오 초죽 세키즈 야신다!",
+   "ko": "{name}, 멈춰! 쟤 여덟 살이야!",
+   "note": "sekiz yaşında = 여덟 살 — 반전",
+   "tags": [
+    "expr:dur"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "tl": "Param yok. Şeker ister misin?",
+   "rd": "파람 욕. 셰케르 이스테르 미신?",
+   "ko": "저 돈 없는데요. 사탕 드실래요?",
+   "note": "şeker = 사탕",
+   "tags": [
+    "expr:yok"
+   ],
+   "new": [
+    "şeker"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

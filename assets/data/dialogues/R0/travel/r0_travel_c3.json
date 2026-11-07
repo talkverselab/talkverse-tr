@@ -1,0 +1,148 @@
+{
+ "id": "r0_travel_c3",
+ "region": "R0",
+ "island": "travel",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "love"
+ ],
+ "domain": [
+  "travel",
+  "love"
+ ],
+ "title": "Deniz 가 누군데",
+ "emoji": "🌊",
+ "scene": "안탈리아에서 「바다랑 행복해」 라고 보냈더니 Elif 가 사람 이름으로 읽는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "goal": "kıskandın mı·ne alaka 로 오해 풀기",
+ "expressions": [
+  "ne alaka",
+  "kıskandın mı",
+  "yok ya"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Selam! Denizle çok mutluyum 😍",
+   "rd": "셀람! 데니즐레 촉 무틀루윰",
+   "ko": "안녕! 나 바다랑 너무 행복해 😍",
+   "note": "denizle = 바다와 · Deniz 는 사람 이름도 된다",
+   "tags": [
+    "expr:selam"
+   ],
+   "new": [],
+   "at": "22:04",
+   "stamp": "😍",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Deniz kim? Neredesin sen?",
+   "rd": "데니즈 킴? 네레데신 센?",
+   "ko": "Deniz 가 누군데? 너 어디야?",
+   "note": "kim = 누구",
+   "tags": [],
+   "new": [],
+   "at": "22:05",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Antalya'dayım. Her gün birlikteyiz.",
+   "rd": "안탈야다이음. 헤르 귄 비를릭테이즈.",
+   "ko": "안탈리아야. 매일 같이 있어.",
+   "note": "birlikte = 같이",
+   "tags": [],
+   "new": [],
+   "at": "22:05",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Her gün mü?! Kaç yaşında?",
+   "rd": "헤르 귄 뮈?! 카치 야신다?",
+   "ko": "매일?! 몇 살인데?",
+   "note": "kaç yaşında = 몇 살",
+   "tags": [],
+   "new": [],
+   "at": "22:06",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Ne alaka? Deniz işte, su! 🌊",
+   "rd": "네 알라카? 데니즈 이시테, 수!",
+   "ko": "뭔 소리야? 바다 말이야, 물! 🌊",
+   "note": "ne alaka = 뭔 소리야 — 반전",
+   "tags": [
+    "expr:ne alaka"
+   ],
+   "new": [],
+   "at": "22:06",
+   "stamp": "🌊",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Ha, deniz. Biliyordum tabii.",
+   "rd": "하, 데니즈. 빌리요르둠 타비이.",
+   "ko": "아… 바다. 당연히 알고 있었지.",
+   "note": "biliyordum = 알고 있었다",
+   "tags": [
+    "expr:tabii"
+   ],
+   "new": [],
+   "at": "22:09",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Kıskandın mı?",
+   "rd": "크스칸든 므?",
+   "ko": "질투했어?",
+   "note": "kıskandın mı? = 질투했어?",
+   "tags": [
+    "expr:kıskandın mı"
+   ],
+   "new": [],
+   "at": "22:09",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Yok ya. Sadece çabuk dön.",
+   "rd": "욕 야. 사데제 차북 된.",
+   "ko": "아니거든. 그냥 빨리 와.",
+   "note": "çabuk = 빨리",
+   "tags": [
+    "expr:yok ya",
+    "simkung"
+   ],
+   "new": [],
+   "at": "22:11",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

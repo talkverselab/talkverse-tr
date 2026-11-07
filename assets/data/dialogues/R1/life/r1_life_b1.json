@@ -1,0 +1,129 @@
+{
+ "id": "r1_life_b1",
+ "region": "R1",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "우리 집만 캄캄",
+ "emoji": "🕯️",
+ "scene": "밥 먹으러 온 Can 과 정전을 맞았다. 그런데 뭔가 이상하다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "elektrik gitti·fatura 로 정전 얘기하기",
+ "expressions": [
+  "oha",
+  "bir dakika",
+  "tamam",
+  "hadi ya"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Oha, elektrik gitti! Yemek ne olacak?",
+   "rd": "오하, 엘렉트릭 기티! 예멕 네 올라작?",
+   "ko": "헐, 전기 나갔어! 밥은 어떡해?",
+   "note": "elektrik gitti = 전기가 나갔다",
+   "tags": [
+    "expr:oha"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Önce yemek mi? Bir dakika, telefon nerede?",
+   "rd": "왼제 예멕 미? 비르 다키카, 텔레폰 네레데?",
+   "ko": "밥이 먼저냐? 잠깐만, 폰 어디 있지?",
+   "note": "önce = 먼저",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Bu mahallede hep böyle. Yarım saat sürer.",
+   "rd": "부 마할레데 헵 뵈일레. 야름 사앗 쉬레르.",
+   "ko": "이 동네 맨날 이래. 30분이면 돌아와.",
+   "note": "yarım saat = 30분",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Tamam. Karanlıkta yemek yiyelim, çok romantik.",
+   "rd": "타맘. 카란륵타 예멕 이옐림, 촉 로만틱.",
+   "ko": "그래. 어둠 속에서 먹자, 아주 로맨틱하네.",
+   "note": "karanlıkta = 어둠 속에서",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Bir dakika. Komşularda ışık var.",
+   "rd": "비르 다키카. 콤슐라르다 으식 바르.",
+   "ko": "잠깐만. 옆집들은 불이 켜져 있는데.",
+   "note": "komşu = 이웃",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Hadi ya. Üst katta da var.",
+   "rd": "하디 야. 위스트 카타 다 바르.",
+   "ko": "에이. 위층도 켜져 있네.",
+   "note": "hadi ya = 설마, 에이",
+   "tags": [
+    "expr:hadi ya"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Bir tek sende yok. Faturayı ödedin mi?",
+   "rd": "비르 텍 센데 욕. 파투라이으 외데딘 미?",
+   "ko": "너네 집만 없어. 요금 냈어?",
+   "note": "fatura = 고지서 — 반전",
+   "tags": [],
+   "new": [
+    "fatura"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Fatura? Hangi fatura?",
+   "rd": "파투라? 한기 파투라?",
+   "ko": "고지서? 무슨 고지서?",
+   "note": "hangi = 어느, 무슨",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

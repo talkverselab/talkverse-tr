@@ -1,0 +1,135 @@
+{
+ "id": "r1_life_b4",
+ "region": "R1",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "왜 반만 있어?",
+ "emoji": "🍲",
+ "scene": "아파서 누워 있는데 Can 이 수프를 들고 왔다. 양이 좀 이상하다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "geçmiş olsun·ciddi misin 으로 아플 때 친구와 말하기",
+ "expressions": [
+  "geçmiş olsun",
+  "gerçekten mi",
+  "selam",
+  "bir dakika",
+  "ciddi misin",
+  "şey"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Geçmiş olsun! Kapıyı aç, çorba getirdim.",
+   "rd": "게치미시 올순! 카프이으 아치, 초르바 게티르딤.",
+   "ko": "얼른 나아! 문 열어, 수프 가져왔어.",
+   "note": "çorba = 수프",
+   "tags": [
+    "expr:geçmiş olsun"
+   ],
+   "new": [
+    "çorba"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Gerçekten mi? Can, sen harikasın.",
+   "rd": "게르첵텐 미? 잔, 센 하리카슨.",
+   "ko": "진짜? 칸, 너 최고다.",
+   "note": "harikasın = 넌 최고야",
+   "tags": [
+    "expr:gerçekten mi"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Annem yaptı. Sana selam söyledi.",
+   "rd": "안넴 얍트. 사나 셀람 쇠일레디.",
+   "ko": "우리 엄마가 끓였어. 너한테 안부 전하래.",
+   "note": "selam söyledi = 안부 전했다",
+   "tags": [
+    "expr:selam"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Bir dakika. Bu çorba neden yarım?",
+   "rd": "비르 다키카. 부 초르바 네덴 야름?",
+   "ko": "잠깐. 이 수프 왜 반밖에 없어?",
+   "note": "yarım = 반",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Yolda kontrol ettim. Sıcak mı diye.",
+   "rd": "욜다 콘트롤 에팀. 스작 므 디예.",
+   "ko": "오다가 점검했지. 뜨거운지 보려고.",
+   "note": "kontrol ettim = 확인했다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Ciddi misin? Yarısını mı yedin?",
+   "rd": "지디 미신? 야르스느 므 예딘?",
+   "ko": "진심이야? 반을 먹었다고?",
+   "note": "ciddi misin? = 진심이야?",
+   "tags": [
+    "expr:ciddi misin"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Ama bugün kafede masan boştu. Hoşuma gitmedi.",
+   "rd": "아마 부귄 카페데 마산 보시투. 호슈마 기트메디.",
+   "ko": "근데 오늘 카페에 네 자리가 비어 있더라. 그게 싫었어.",
+   "note": "hoşuma gitmedi = 마음에 안 들었다 — 반전",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Şey… Yarısı bile yeter.",
+   "rd": "셰이… 야르스 빌레 예테르.",
+   "ko": "저기… 반만으로도 충분해.",
+   "note": "yeter = 충분하다",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

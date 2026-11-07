@@ -1,0 +1,170 @@
+{
+ "id": "r2_study_b6",
+ "region": "R2",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "서명 뺑뺑이",
+ "emoji": "🖊️",
+ "scene": "재학증명서 서명 하나 받으려다 두 사무실 사이를 여섯 번 오간다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Sekreter",
+  "D": "Memur"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "önce·lazım·olmaz 로 학교 행정 버티기",
+ "expressions": [
+  "olmaz",
+  "kusura bakmayın",
+  "hadi",
+  "hoş geldin"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Öğrenci belgesi için dekanlıktan imza lazım.",
+   "rd": "외렌지 벨게시 이친 데칸륵탄 임자 라즘.",
+   "ko": "재학증명서는 학장실 서명이 필요해요.",
+   "note": "belge = 증명서",
+   "tags": [],
+   "new": [
+    "belge"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Tamam. Dekanlık nerede?",
+   "rd": "타맘. 데칸륵 네레데?",
+   "ko": "네. 학장실이 어디예요?",
+   "note": "dekanlık = 학장실",
+   "tags": [],
+   "new": [
+    "dekanlık"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "D",
+   "tl": "Önce bölüm sekreteri imzalasın. Sonra gelin.",
+   "rd": "왼제 뵐륌 섹레테리 임잘라슨. 손라 겔린.",
+   "ko": "먼저 학과 사무실에서 서명받아 오세요.",
+   "note": "önce = 먼저",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Ama sekreter sizden istiyor!",
+   "rd": "아마 섹레테르 시즈덴 이스티요르!",
+   "ko": "근데 사무실에선 여기서 받아 오래요!",
+   "note": "sizden = 여기서(당신에게서)",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Olmaz, önce dekanlık. Kural bu.",
+   "rd": "올마즈, 왼제 데칸륵. 쿠랄 부.",
+   "ko": "안 돼요, 학장실이 먼저예요. 규칙이에요.",
+   "note": "kural = 규칙",
+   "tags": [
+    "expr:olmaz"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Bu kata kaçıncı gelişin?",
+   "rd": "부 카타 카츤즈 겔리신?",
+   "ko": "이 층 몇 번째 오는 거야?",
+   "note": "kaçıncı = 몇 번째",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Altıncı. Kapıda bana “Hoş geldin” diyorlar.",
+   "rd": "알튼즈. 카프다 바나 호시 겔딘 디요를라르.",
+   "ko": "여섯 번째. 문 앞에서 「어서 와」 소리 들어.",
+   "note": "hoş geldin = 어서 와",
+   "tags": [
+    "expr:hoş geldin"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Bekle, ikisini telefonla bağlayalım. Hadi.",
+   "rd": "베클레, 이키시니 텔레폰라 발라얄름. 하디.",
+   "ko": "잠깐, 둘을 전화로 연결하자. 얼른.",
+   "note": "bağlamak = 연결하다",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "D",
+   "tl": "Alo? Önce siz imzalayın, kusura bakmayın.",
+   "rd": "알로? 왼제 시즈 임잘라이은, 쿠수라 박마이은.",
+   "ko": "여보세요? 그쪽이 먼저 서명하세요, 죄송하지만요.",
+   "note": "kusura bakmayın = 죄송합니다",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Bir dakika, bu ses… geçen yaz düğünde tanışmadık mı?",
+   "rd": "비르 다키카, 부 세스… 게첸 야즈 뒤윈데 타느시마득 므?",
+   "ko": "잠깐만요, 이 목소리… 지난여름 결혼식에서 만나지 않았어요?",
+   "note": "düğün = 결혼식 — 반전: 서명은 뒷전이다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Zeynep, bir saattir konuşuyorlar. İmza ne oldu?",
+   "rd": "제이넵, 비르 사아티르 코누슈요를라르. 임자 네 올두?",
+   "ko": "Zeynep, 한 시간째 통화 중이야. 서명은 어떻게 됐어?",
+   "note": "bir saattir = 한 시간째",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Hangi imza? O belge geçen yıl kalktı.",
+   "rd": "한기 임자? 오 벨게 게첸 이을 칼크트.",
+   "ko": "무슨 서명이요? 그 서류 작년에 없어졌어요.",
+   "note": "kalktı = 없어졌다",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

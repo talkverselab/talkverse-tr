@@ -1,0 +1,139 @@
+{
+ "id": "r1_friends_b3",
+ "region": "R1",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "travel",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "거꾸로 흥정",
+ "emoji": "🍅",
+ "scene": "시장에서 흥정을 배우라는 Zeynep 앞에서 값을 올려 부르고 말았다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Pazarcı"
+ },
+ "register": "mixed",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "시장에서 값 묻고 흥정하기, çok pahalı",
+ "expressions": [
+  "buyurun",
+  "hadi",
+  "çok pahalı",
+  "ee",
+  "şey",
+  "olur"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Buyurun! Taze domates, kilosu kırk lira!",
+   "rd": "부유룬! 타제 도마테스, 킬로수 크르크 리라!",
+   "ko": "어서 오세요! 싱싱한 토마토, 킬로에 40리라!",
+   "note": "kilosu = 1킬로에",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": [
+    "domates"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Hadi, pazarlık yap. Sen de öğren.",
+   "rd": "하디, 파자를륵 얍. 센 데 외렌.",
+   "ko": "자, 흥정해 봐. 너도 배워야지.",
+   "note": "pazarlık = 흥정",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": [
+    "pazarlık"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Kırk mı? Çok pahalı!",
+   "rd": "크르크 므? 촉 파할르!",
+   "ko": "40이요? 너무 비싸요!",
+   "note": "çok pahalı = 너무 비싸요",
+   "tags": [
+    "expr:çok pahalı"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Ee, kaç verirsiniz?",
+   "rd": "에에, 카치 베리르시니즈?",
+   "ko": "그럼 얼마 주실래요?",
+   "note": "ee = 그래서?",
+   "tags": [
+    "expr:ee"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Şey… elli?",
+   "rd": "셰이… 엘리?",
+   "ko": "저… 50?",
+   "note": "elli = 50 — 반전",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Olur! Hemen, hemen, buyurun!",
+   "rd": "올루르! 헤멘, 헤멘, 부유룬!",
+   "ko": "좋습니다! 바로, 바로, 여기요!",
+   "note": "olur = 좋아요",
+   "tags": [
+    "expr:olur",
+    "expr:buyurun"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Pazarlık aşağı gider, yukarı değil!",
+   "rd": "파자를륵 아샤으 기데르, 유카르 데일!",
+   "ko": "흥정은 내려가는 거야, 올라가는 게 아니라!",
+   "note": "aşağı = 아래로 · yukarı = 위로",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Yarın yine gelin, size altmış!",
+   "rd": "야른 이네 겔린, 시제 알트므시!",
+   "ko": "내일 또 오세요, 손님한텐 60!",
+   "note": "altmış = 60",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

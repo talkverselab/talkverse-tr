@@ -1,0 +1,173 @@
+{
+ "id": "r2_friends_b4",
+ "region": "R2",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "누구 빵값",
+ "emoji": "🍞",
+ "scene": "아파트 관리인이 내민 빵값 청구서, 나는 빵을 산 적이 없다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can",
+  "C": "Kapıcı"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "청구 따지기, anlamadım·yok ya·neyse",
+ "expressions": [
+  "günaydın",
+  "anlamadım",
+  "yok ya",
+  "neyse"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Günaydın! Bu ayın ekmek parası altı yüz lira.",
+   "rd": "귀나이든! 부 아이은 엑멕 파라스 알트 위즈 리라.",
+   "ko": "안녕하세요! 이번 달 빵값 600리라입니다.",
+   "note": "ekmek parası = 빵값",
+   "tags": [
+    "expr:günaydın"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Ne ekmeği? Ben ekmek almıyorum ki.",
+   "rd": "네 엑메이? 벤 엑멕 알므요룸 키.",
+   "ko": "무슨 빵이요? 저 빵 안 사는데요.",
+   "note": "ki = ~인데요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Her sabah iki ekmek, bir de simit.",
+   "rd": "헤르 사바흐 이키 엑멕, 비르 데 시밋.",
+   "ko": "매일 아침 빵 두 개, 시미트 하나요.",
+   "note": "bir de = 그리고 또",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Anlamadım. Ben sabah dokuzdan önce kalkmıyorum!",
+   "rd": "안라마듬. 벤 사바흐 도쿠즈단 왼제 칼크므요룸!",
+   "ko": "무슨 말씀인지. 저 아침 아홉 시 전엔 안 일어나요!",
+   "note": "anlamadım = 못 알아들었어요",
+   "tags": [
+    "expr:anlamadım"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Biliyorum. Ekmeği yedide arkadaşınız alıyor, merdivende.",
+   "rd": "빌리요룸. 엑메이 예디데 아르카다시느즈 알르요르, 메르디벤데.",
+   "ko": "알죠. 빵은 일곱 시에 친구분이 받아 가세요, 계단에서.",
+   "note": "merdiven = 계단",
+   "tags": [],
+   "new": [
+    "merdiven"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Arkadaşım mı? Hangi arkadaşım, nasıl biri?",
+   "rd": "아르카다심 므? 한기 아르카다심, 나슬 비리?",
+   "ko": "제 친구요? 어떤 친구요, 어떻게 생겼어요?",
+   "note": "nasıl biri = 어떤 사람",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Can Bey. \"Hesaba yaz\" diyor, çok tatlı çocuk.",
+   "rd": "잔 베이. \"헤사바 야즈\" 디요르, 촉 타틀르 초죽.",
+   "ko": "잔 씨요. 「달아 놓으세요」 하던데요, 아주 착한 청년이에요.",
+   "note": "hesaba yaz = 외상 달아 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Günaydın! Ne var, sabah sabah niye bağırıyorsun?",
+   "rd": "귀나이든! 네 바르, 사바흐 사바흐 니예 바으르요르순?",
+   "ko": "좋은 아침! 뭔데, 아침부터 왜 소리 질러?",
+   "note": "sabah sabah = 아침부터",
+   "tags": [
+    "expr:günaydın"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Can! Aylardır benim paramla mı kahvaltı yapıyorsun?",
+   "rd": "잔! 아일라르드르 베님 파람라 므 카흐발트 야프요르순?",
+   "ko": "잔! 몇 달째 내 돈으로 아침 먹고 있었어?",
+   "note": "aylardır = 몇 달째",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Yok ya, abartma. Sadece üç ay.",
+   "rd": "욕 야, 아바르트마. 사데제 위치 아이.",
+   "ko": "아니 뭘, 오버하지 마. 석 달뿐이야.",
+   "note": "abartmak = 오버하다",
+   "tags": [
+    "expr:yok ya"
+   ],
+   "new": [
+    "abartmak"
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Üç ay mı?! Ben sana ne yaptım?",
+   "rd": "위치 아이 므?! 벤 사나 네 얍틈?",
+   "ko": "석 달이라고?! 내가 너한테 뭘 잘못했어?",
+   "note": "ne yaptım = 뭘 했어",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Neyse. Yarın peynir de geliyor.",
+   "rd": "네이세. 야른 페이니르 데 겔리요르.",
+   "ko": "아무튼. 내일부터 치즈도 와.",
+   "note": "neyse = 아무튼",
+   "tags": [
+    "expr:neyse"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

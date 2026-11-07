@@ -1,0 +1,138 @@
+{
+ "id": "r1_travel_a3",
+ "region": "R1",
+ "island": "travel",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "love"
+ ],
+ "domain": [
+  "travel",
+  "love"
+ ],
+ "title": "아이스크림 장수",
+ "emoji": "🍦",
+ "scene": "아이스크림 장수의 장난에 나만 계속 당하고, Elif 가 자기 걸 나눠 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Dondurmacı"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "yok artık·ne yapalım 으로 장난 받아치기",
+ "expressions": [
+  "buyurun",
+  "yok artık",
+  "hadi",
+  "ne yapalım",
+  "aman"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Buyurun, dondurma! Alın, alın!",
+   "rd": "부유룬, 돈두르마! 알른, 알른!",
+   "ko": "자, 아이스크림! 받으세요, 받으세요!",
+   "note": "dondurma = 튀르키예 쫀득 아이스크림",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": [
+    "dondurma"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Hani dondurma? Yok artık!",
+   "rd": "하니 돈두르마? 욕 아르특!",
+   "ko": "아이스크림 어디 갔어요? 말도 안 돼!",
+   "note": "hani? = 어디 갔어?",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Alın! Hadi, ne oldu?",
+   "rd": "알른! 하디, 네 올두?",
+   "ko": "받으세요! 자, 왜 그러세요?",
+   "note": "장수가 콘을 또 빼 간다",
+   "tags": [
+    "expr:hadi",
+    "expr:ne oldu"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Elif, bu adam benimle oynuyor!",
+   "rd": "엘리프, 부 아담 베님레 오이누요르!",
+   "ko": "엘리프, 이 아저씨 나 갖고 놀아!",
+   "note": "oynamak = 놀다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Ne yapalım? Al, yarısı senin.",
+   "rd": "네 야팔름? 알, 야르스 세닌.",
+   "ko": "어쩌겠어. 자, 반은 네 거.",
+   "note": "yarısı = 그 절반",
+   "tags": [
+    "expr:ne yapalım"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Ama sen dondurmayı çok seviyorsun.",
+   "rd": "아마 센 돈두르마이으 촉 세비요르순.",
+   "ko": "근데 너 아이스크림 엄청 좋아하잖아.",
+   "note": "seviyorsun = 좋아한다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Evet, ama bugün seni daha… Aman, eriyor!",
+   "rd": "에벳, 아마 부귄 세니 다하… 아만, 에리요르!",
+   "ko": "응, 근데 오늘은 네가 더… 어머, 녹는다!",
+   "note": "erimek = 녹다 — 말하다 말고 돌린다",
+   "tags": [
+    "expr:aman",
+    "simkung"
+   ],
+   "new": [
+    "erimek"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Daha ne?!",
+   "rd": "다하 네?!",
+   "ko": "더 뭐?!",
+   "note": "daha ne? = 더 뭐?",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

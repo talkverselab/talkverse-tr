@@ -1,0 +1,171 @@
+{
+ "id": "r2_work_b5",
+ "region": "R2",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_abroad"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "빈 화면",
+ "emoji": "🌃",
+ "scene": "밤 열 시 텅 빈 사무실, 야근 중이라던 Emre 의 화면이 이상하다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "hâlâ·hıhı·neden 으로 야근 수다 떨기",
+ "expressions": [
+  "hıhı",
+  "sağ ol",
+  "ister misin",
+  "yok"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Saat on oldu. Sen hâlâ burada mısın?",
+   "rd": "사앗 온 올두. 센 할라 부라다 므슨?",
+   "ko": "열 시 됐어. 너 아직 여기 있어?",
+   "note": "hâlâ = 아직",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Evet. İş çok.",
+   "rd": "에벳. 이시 촉.",
+   "ko": "응. 일 많아.",
+   "note": "iş = 일",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Müdür senden de rapor mu istedi?",
+   "rd": "뮈뒤르 센덴 데 라포르 무 이스테디?",
+   "ko": "부장님이 너한테도 보고서 달래?",
+   "note": "rapor = 보고서",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Hıhı.",
+   "rd": "흐흐.",
+   "ko": "응응.",
+   "note": "hıhı = 응응",
+   "tags": [
+    "expr:hıhı"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Bana da. Bu sabaha kadar bitmez.",
+   "rd": "바나 다. 부 사바하 카다르 비트메즈.",
+   "ko": "나도. 이거 아침까지 안 끝나.",
+   "note": "sabaha kadar = 아침까지",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Tost ister misin? Aşağıdan aldım.",
+   "rd": "토스트 이스테르 미신? 아샤으단 알듬.",
+   "ko": "토스트 먹을래? 밑에서 샀어.",
+   "note": "ister misin = 먹을래?",
+   "tags": [
+    "expr:ister misin"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Sağ ol. Dur, ekranın niye boş?",
+   "rd": "사 올. 두르, 엑라는 니예 보시?",
+   "ko": "고마워. 잠깐… 네 화면 왜 비어 있어?",
+   "note": "ekran = 화면",
+   "tags": [
+    "expr:sağ ol"
+   ],
+   "new": [
+    "ekran"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Boş mu? Bilmem.",
+   "rd": "보시 무? 빌멤.",
+   "ko": "비었어? 몰라.",
+   "note": "boş = 빈",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Emre, raporun yok. İşin de yok, değil mi?",
+   "rd": "엠레, 라포룬 욕. 이신 데 욕, 데일 미?",
+   "ko": "Emre, 너 보고서 없지. 일도 없지, 그치?",
+   "note": "değil mi = 그렇지? — 반전: 일은 핑계였다",
+   "tags": [
+    "expr:yok"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Yok.",
+   "rd": "욕.",
+   "ko": "없어.",
+   "note": "yok = 없다",
+   "tags": [
+    "expr:yok"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "O zaman niye buradasın?",
+   "rd": "오 자만 니예 부라다슨?",
+   "ko": "그럼 왜 여기 있는 건데?",
+   "note": "niye = 왜",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Sen gidince ben de giderim.",
+   "rd": "센 기딘제 벤 데 기데림.",
+   "ko": "너 가면 나도 가려고.",
+   "note": "gidince = 가면",
+   "tags": [
+    "simkung",
+    "form:-ince"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

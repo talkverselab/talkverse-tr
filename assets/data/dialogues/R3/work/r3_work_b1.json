@@ -1,0 +1,203 @@
+{
+ "id": "r3_work_b1",
+ "region": "R3",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_abroad"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "내일 일찍 나간다고",
+ "emoji": "🎂",
+ "scene": "「내일 회사에서 나간다」 는 한마디가 퇴사 소문으로 번져 인상안과 케이크까지 온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre",
+  "C": "Çaycı",
+  "D": "İK",
+  "E": "Müdür"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "işten ayrılmak 의 뜻 구별, 소문 수습하기",
+ "expressions": [
+  "ciddi misin",
+  "neyse",
+  "görüşürüz",
+  "bir dakika",
+  "aman"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Çayınız hocam. Yarın da getireyim mi?",
+   "rd": "차이으느즈 호잠. 야른 다 게티레임 미?",
+   "ko": "차 왔습니다, 선생님. 내일도 갖다 드릴까요?",
+   "note": "getireyim mi = 갖다 드릴까요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Yarın gerek yok amca. Ben işten ayrılıyorum.",
+   "rd": "야른 게렉 욕 암자. 벤 이시텐 아이를르요룸.",
+   "ko": "내일은 괜찮아요, 아저씨. 저 회사에서 나가거든요.",
+   "note": "işten ayrılmak = 퇴사하다 — A 는 「일찍 나간다」 는 뜻",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Aman hocam! Nasıl olur? Kimseye söylemem, merak etmeyin.",
+   "rd": "아만 호잠! 나슬 올루르? 킴세예 쇠일레멤, 메락 에트메인.",
+   "ko": "아이고, 선생님! 어쩌다가요? 아무한테도 말 안 할게요, 걱정 마세요.",
+   "note": "merak etmeyin = 걱정 마세요",
+   "tags": [
+    "expr:aman"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Söylenecek bir şey yok ki. Neyse, görüşürüz.",
+   "rd": "쇠일레네젝 비르 셰이 욕 키. 네이세, 괴뤼쉬뤼즈.",
+   "ko": "말할 것도 없는데요. 아무튼, 또 봬요.",
+   "note": "neyse = 아무튼",
+   "tags": [
+    "expr:neyse",
+    "expr:görüşürüz"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "{name}, ne demek gidiyorsun? Ciddi misin? Neden bana söylemedin?",
+   "rd": "{name}, 네 데멕 기디요르순? 지디 미신? 네덴 바나 쇠일레메딘?",
+   "ko": "{name}, 간다니 무슨 말이야? 진심이야? 왜 나한테 말 안 했어?",
+   "note": "ciddi misin = 진심이야?",
+   "tags": [
+    "expr:ciddi misin"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Evet, gidiyorum. Ne oldu ki?",
+   "rd": "에벳, 기디요룸. 네 올두 키?",
+   "ko": "응, 가는데. 왜?",
+   "note": "ne oldu ki = 왜, 뭔 일 있어?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "“Ne oldu ki” mi? İki yıldır birlikte çalışıyoruz ya.",
+   "rd": "네 올두 키 미? 이키 이을드르 비를릭테 찰르시요루즈 야.",
+   "ko": "「왜」 라니? 우리 2년을 같이 일했잖아.",
+   "note": "birlikte = 같이",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "tl": "Şu kâğıtları imzalamanız lazım. Kartınızı da alalım.",
+   "rd": "슈 카으틀라르 임잘라마느즈 라즘. 카르트느즈 다 알랄름.",
+   "ko": "이 서류에 서명해 주셔야 해요. 출입증도 받을게요.",
+   "note": "kart = 출입증 — 반전: 인사팀이 왔다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Hangi kâğıtlar? Kartımı niye veriyorum? Bir dakika!",
+   "rd": "한기 카으틀라르? 카르트므 니예 베리요룸? 비르 다키카!",
+   "ko": "무슨 서류요? 왜 출입증을 드려요? 잠깐만요!",
+   "note": "hangi = 어느",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "E",
+   "tl": "{name}, gitmeyin. Yüzde yirmi zam, tamam mı?",
+   "rd": "{name}, 기트메인. 위즈데 이르미 잠, 타맘 므?",
+   "ko": "{name} 씨, 가지 마세요. 20% 인상, 어때요?",
+   "note": "yüzde = 퍼센트",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Yüzde yirmi mi? Şey, müdürüm, ben aslında…",
+   "rd": "위즈데 이르미 미? 셰이, 뮈뒤륌, 벤 아슬른다…",
+   "ko": "20%요? 저, 부장님, 사실 저는…",
+   "note": "aslında = 사실은",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "E",
+   "tl": "Tamam, otuz. Bu son fiyat.",
+   "rd": "타맘, 오투즈. 부 손 피얏.",
+   "ko": "좋아요, 30%. 이게 마지막 가격이에요.",
+   "note": "son fiyat = 마지막 가격",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "tl": "Pasta geldi hocam. Son çaylar sizden, değil mi?",
+   "rd": "파스타 겔디 호잠. 손 차일라르 시즈덴, 데일 미?",
+   "ko": "케이크 왔습니다, 선생님. 마지막 차는 선생님이 쏘시는 거죠?",
+   "note": "son = 마지막",
+   "tags": [
+    "callback:r2_work_b2"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "Dur, dur… sen yarın nereye gidiyorsun aslında?",
+   "rd": "두르, 두르… 센 야른 네레예 기디요르순 아슬른다?",
+   "ko": "잠깐, 잠깐… 너 내일 사실 어디 가는 거야?",
+   "note": "nereye = 어디로",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "tl": "Dişçiye. Ama sessiz ol, zam otuz.",
+   "rd": "디시치예. 아마 세시즈 올, 잠 오투즈.",
+   "ko": "치과. 근데 조용히 해, 인상 30%야.",
+   "note": "dişçi = 치과 의사",
+   "tags": [],
+   "new": [
+    "dişçi"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

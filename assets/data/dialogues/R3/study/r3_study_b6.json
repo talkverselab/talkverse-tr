@@ -1,0 +1,216 @@
+{
+ "id": "r3_study_b6",
+ "region": "R3",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "손바닥 컨닝",
+ "emoji": "🖐️",
+ "scene": "시험장, 손바닥에 적은 터키어 표현 하나로 컨닝 소동이 반 전체로 번진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Gözetmen",
+  "D": "Hoca"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "tekrar eder misiniz·yavaş lütfen·anlamadım 를 시험장에서 쓰기",
+ "expressions": [
+  "tekrar eder misiniz",
+  "yavaş lütfen",
+  "anlamadım",
+  "eyvah",
+  "allah allah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Elindeki ne? Sınava on dakika var.",
+   "rd": "엘린데키 네? 스나바 온 다키카 바르.",
+   "ko": "손에 그거 뭐야? 시험까지 10분 남았어.",
+   "note": "elindeki = 손에 있는 것",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Hiç. Türkçe kelimeler. Bazen aklımdan çıkıyor.",
+   "rd": "히치. 튀르크체 켈리멜레르. 바젠 아클름단 츠크요르.",
+   "ko": "아무것도 아냐. 터키어 단어들. 가끔 까먹어서.",
+   "note": "aklımdan çıkıyor = 까먹는다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Eline mi yazdın? Kopya sanırlar, sil hemen.",
+   "rd": "엘리네 미 야즈든? 콥야 사느를라르, 실 헤멘.",
+   "ko": "손에 썼어? 컨닝인 줄 알아, 당장 지워.",
+   "note": "kopya = 컨닝",
+   "tags": [],
+   "new": [
+    "kopya"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Kopya değil ki. Sadece “Tekrar eder misiniz” yazıyor.",
+   "rd": "콥야 데일 키. 사데제 텍라르 에데르 미시니즈 야즈요르.",
+   "ko": "컨닝 아니야. 「다시 말씀해 주시겠어요」 만 적혀 있어.",
+   "note": "sadece = 그냥, ~만",
+   "tags": [
+    "expr:tekrar eder misiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Sessiz olun. Çantalar öne, telefonlar kapalı. Başlıyoruz.",
+   "rd": "세시즈 올룬. 찬탈라르 외네, 텔레폰라르 카팔르. 바실르요루즈.",
+   "ko": "조용히 하세요. 가방은 앞으로, 휴대폰은 끄세요. 시작합니다.",
+   "note": "kapalı = 꺼진",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Hocam, bu soru ne demek? Anlamadım.",
+   "rd": "호잠, 부 소루 네 데멕? 안라마듬.",
+   "ko": "선생님, 이 문제 무슨 뜻이에요? 못 알아들었어요.",
+   "note": "anlamadım = 못 알아들었어요",
+   "tags": [
+    "expr:anlamadım"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Elinizi gösterin. Bu ne? Kopya mı?",
+   "rd": "엘리니지 괴스테린. 부 네? 콥야 므?",
+   "ko": "손 보여 주세요. 이게 뭐예요? 컨닝이에요?",
+   "note": "göstermek = 보여 주다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Hayır, bakın: “Tekrar eder misiniz, yavaş lütfen.”",
+   "rd": "하이으르, 바큰 텍라르 에데르 미시니즈, 야바시 뤼트펜.",
+   "ko": "아니에요, 보세요: 「다시 말씀해 주시겠어요, 천천히요.」",
+   "note": "bakın = 보세요",
+   "tags": [
+    "expr:tekrar eder misiniz",
+    "expr:yavaş lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "tl": "Herkes ellerini açsın! Hemen! Bütün sınıf!",
+   "rd": "헤르케스 엘레리니 아치슨! 헤멘! 뷔튄 스느프!",
+   "ko": "다들 손 펴세요! 당장요! 반 전체요!",
+   "note": "açsın = 펴세요 — 반전: 일이 커진다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Eyvah. Arkadakinin kolu dolu. Öndekinin ayakkabısında da formül var.",
+   "rd": "에이바흐. 아르카다키닌 콜루 돌루. 왼데키닌 아야카브슨다 다 포르뮐 바르.",
+   "ko": "헉. 뒷사람 팔이 빽빽해. 앞사람은 신발에도 공식이 있어.",
+   "note": "arkadaki = 뒤에 있는 사람",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "Hocam, gelin! Otuz kişiden yirmisinde kopya var!",
+   "rd": "호잠, 겔린! 오투즈 키시덴 이르미신데 콥야 바르!",
+   "ko": "교수님, 와 주세요! 서른 명 중 스무 명이 컨닝이에요!",
+   "note": "otuz kişiden = 서른 명 중",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "D",
+   "tl": "Allah allah! Kim başlattı bunu?",
+   "rd": "알라흐 알라흐! 킴 바실라트 부누?",
+   "ko": "세상에! 누가 시작한 거예요?",
+   "note": "başlatmak = 시작시키다",
+   "tags": [
+    "expr:allah allah"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "tl": "Bu öğrenci. Elinde “Yavaş lütfen” yazıyor.",
+   "rd": "부 외렌지. 엘린데 야바시 뤼트펜 야즈요르.",
+   "ko": "이 학생이요. 손에 「천천히요」 라고 적혀 있어요.",
+   "note": "elinde = 손에",
+   "tags": [
+    "expr:yavaş lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "D",
+   "tl": "Sınav iptal. Yarın tekrar, eller yıkanmış gelsin.",
+   "rd": "스나브 입탈. 야른 텍라르, 엘레르 이으칸므시 겔신.",
+   "ko": "시험 취소입니다. 내일 다시, 손 씻고 오세요.",
+   "note": "iptal = 취소",
+   "tags": [],
+   "new": [
+    "iptal"
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "tl": "Zeynep, herkes bana bakıyor. Alkışlıyorlar!",
+   "rd": "제이넵, 헤르케스 바나 바크요르. 알크실르요를라르!",
+   "ko": "Zeynep, 다들 날 봐. 박수 쳐!",
+   "note": "alkışlamak = 박수 치다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "tl": "Kimse çalışmamıştı. Yarın da eline yaz, lütfen.",
+   "rd": "킴세 찰르시마므시트. 야른 다 엘리네 야즈, 뤼트펜.",
+   "ko": "아무도 공부 안 했거든. 내일도 손에 써 줘, 제발.",
+   "note": "çalışmamıştı = 공부 안 했었다",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

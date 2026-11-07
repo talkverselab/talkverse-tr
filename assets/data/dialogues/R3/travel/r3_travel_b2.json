@@ -1,0 +1,232 @@
+{
+ "id": "r3_travel_b2",
+ "region": "R3",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel",
+  "culture"
+ ],
+ "title": "내일 아홉 시 출근",
+ "emoji": "🫖",
+ "scene": "그랜드 바자르에서 찻잔 세트 내기를 하다가, 관광객이 나를 점원으로 착각한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Satıcı",
+  "D": "Turist"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "çok pahalı·helal olsun 으로 흥정하고 팔기",
+ "expressions": [
+  "hadi",
+  "hoş geldiniz",
+  "aman",
+  "çok pahalı",
+  "affedersiniz",
+  "şey",
+  "harika",
+  "yok artık",
+  "helal olsun"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bahse girer misin? Bu çay takımını bin liraya alamazsın.",
+   "rd": "바흐세 기레르 미신? 부 차이 타크므느 빈 리라야 알라마즈슨.",
+   "ko": "내기할래? 넌 이 찻잔 세트 천 리라에 못 사.",
+   "note": "bahis = 내기 · takım = 세트",
+   "tags": [],
+   "new": [
+    "bahis"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Alırım. O çantadan sonra her şeyi öğrendim, izle beni.",
+   "rd": "알르름. 오 찬타단 손라 헤르 셰이 외렌딤, 이즐레 베니.",
+   "ko": "사지. 그 가방 이후로 다 배웠어, 잘 봐.",
+   "note": "izle = 지켜봐",
+   "tags": [
+    "callback:r1_travel_b1"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Üstünde beş yüz yazan çantayı mı diyorsun? Hadi bakalım.",
+   "rd": "위스튄데 베시 위즈 야잔 찬타이으 므 디요르순? 하디 바칼름.",
+   "ko": "위에 500이라고 쓰여 있던 그 가방 말이야? 어디 해 봐.",
+   "note": "hadi bakalım = 어디 한번 해 봐",
+   "tags": [
+    "expr:hadi",
+    "callback:r1_travel_b1"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Hoş geldiniz! Bu takım el yapımı, size özel üç bin.",
+   "rd": "호시 겔디니즈! 부 타큼 엘 야프므, 시제 외젤 위치 빈.",
+   "ko": "어서 오세요! 이 세트 수제예요, 손님만 특별히 3천.",
+   "note": "el yapımı = 수제",
+   "tags": [
+    "expr:hoş geldiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Üç bin mi? Aman, çok pahalı. İyi günler, ben gidiyorum.",
+   "rd": "위치 빈 미? 아만, 촉 파할르. 이이 귄레르, 벤 기디요룸.",
+   "ko": "3천이요? 아이고, 너무 비싸요. 안녕히 계세요, 갑니다.",
+   "note": "iyi günler = 좋은 하루 되세요",
+   "tags": [
+    "expr:aman",
+    "expr:çok pahalı"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Durun, durun! Nereye? Gelin, oturun, bir çay içelim.",
+   "rd": "두룬, 두룬! 네레예? 겔린, 오투룬, 비르 차이 이첼림.",
+   "ko": "잠깐, 잠깐만요! 어디 가세요? 오세요, 앉으세요, 차 한잔해요.",
+   "note": "içelim = 마십시다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Çay içmem. Bin lira, son söz, yoksa karşı dükkâna gidiyorum.",
+   "rd": "차이 이치멤. 빈 리라, 손 쇠즈, 욕사 카르시 뒤카나 기디요룸.",
+   "ko": "차 안 마셔요. 천 리라, 마지막 말이에요, 아니면 맞은편 가게 가요.",
+   "note": "dükkân = 가게",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Bin beş yüz, ama kimseye söylemeyin. Karşı dükkân kardeşimin zaten.",
+   "rd": "빈 베시 위즈, 아마 킴세예 쇠일레메인. 카르시 뒤칸 카르데시민 자텐.",
+   "ko": "1,500, 근데 아무한테도 말하지 마세요. 맞은편 가게는 어차피 제 동생 거예요.",
+   "note": "zaten = 어차피",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "D",
+   "tl": "Affedersiniz, bu takım ne kadar? Siz burada mı çalışıyorsunuz?",
+   "rd": "아페데르시니즈, 부 타큼 네 카다르? 시즈 부라다 므 찰르시요르수누즈?",
+   "ko": "실례합니다, 이 세트 얼마예요? 여기서 일하세요?",
+   "note": "affedersiniz = 실례합니다",
+   "tags": [
+    "expr:affedersiniz",
+    "expr:ne kadar"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Ben mi? Şey, evet, üç bin lira. Çok özel, el yapımı.",
+   "rd": "벤 미? 셰이, 에벳, 위치 빈 리라. 촉 외젤, 엘 야프므.",
+   "ko": "저요? 어, 네, 3천 리라요. 아주 특별해요, 수제예요.",
+   "note": "반전: 점원 행세를 시작한다",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "D",
+   "tl": "Harika, alıyorum! İki tane lütfen. Kart olur mu?",
+   "rd": "하리카, 알르요룸! 이키 타네 뤼트펜. 카르트 올루르 무?",
+   "ko": "좋아요, 살게요! 두 개요. 카드 되죠?",
+   "note": "kart = 카드",
+   "tags": [
+    "expr:harika",
+    "expr:lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Yok artık! Sen ne yapıyorsun? Adam altı bin verdi!",
+   "rd": "욕 아르특! 센 네 야프요르순? 아담 알트 빈 베르디!",
+   "ko": "말도 안 돼! 너 뭐 하는 거야? 저 사람 6천 냈어!",
+   "note": "altı bin = 6천",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "tl": "Helal olsun! Otuz yıldır burada böyle satan görmedim.",
+   "rd": "헬랄 올순! 오투즈 이을드르 부라다 뵈일레 사탄 괴르메딤.",
+   "ko": "대단합니다! 30년째 여기 있지만 이렇게 파는 사람은 처음 봐요.",
+   "note": "helal olsun = 인정, 대단하다",
+   "tags": [
+    "expr:helal olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Peki benim takımım ne olacak? Bin lira demiştik, değil mi?",
+   "rd": "페키 베님 타크믐 네 올라작? 빈 리라 데미시틱, 데일 미?",
+   "ko": "그럼 제 세트는요? 천 리라라고 했었죠?",
+   "note": "demiştik = 말했었다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "tl": "Takım sizin, bedava. Yarın sabah dokuzda dükkândasınız, geç kalmayın.",
+   "rd": "타큼 시진, 베다바. 야른 사바흐 도쿠즈다 뒤칸다스느즈, 게치 칼마이은.",
+   "ko": "세트는 손님 거예요, 공짜로. 내일 아침 아홉 시에 가게로 나오세요, 늦지 말고요.",
+   "note": "bedava = 공짜",
+   "tags": [],
+   "new": [
+    "bedava"
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "tl": "Bahsi kazandın. Ama galiba artık burada yaşıyorsun.",
+   "rd": "바흐시 카잔든. 아마 갈리바 아르특 부라다 야시요르순.",
+   "ko": "내기는 네가 이겼어. 근데 너 이제 여기 사는 것 같다.",
+   "note": "galiba = 아마",
+   "tags": [
+    "expr:galiba"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

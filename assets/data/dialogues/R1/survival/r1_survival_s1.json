@@ -1,0 +1,128 @@
+{
+ "id": "r1_survival_s1",
+ "region": "R1",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "「네」만 했을 뿐인데",
+ "emoji": "🥯",
+ "scene": "시미트 수레에서 시미트 하나만 사려는데, 뭘 물어도 evet 만 나온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Simitçi"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "evet·lütfen·ne kadar 로 가게에서 살아남기",
+ "expressions": [
+  "hoş geldiniz",
+  "bir dakika",
+  "afiyet olsun",
+  "ne kadar"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hoş geldiniz! Simit, değil mi?",
+   "rd": "호시 겔디니즈! 시밋, 데일 미?",
+   "ko": "어서 오세요! 시미트 맞죠?",
+   "note": "değil mi? = 그렇죠?",
+   "tags": [
+    "expr:hoş geldiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Evet, evet. Bir simit, lütfen.",
+   "rd": "에벳, 에벳. 비르 시밋, 뤼트펜.",
+   "ko": "네, 네. 시미트 하나요.",
+   "note": "lütfen = 부탁해요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Çay da ister misiniz?",
+   "rd": "차이 다 이스테르 미시니즈?",
+   "ko": "차도 드릴까요?",
+   "note": "ister misiniz? = ~하시겠어요?",
+   "tags": [
+    "form:-misiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Evet… şey, evet.",
+   "rd": "에벳… 셰이, 에벳.",
+   "ko": "네… 저, 네.",
+   "note": "şey = 저기, 그게(말 고를 때)",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Peynir? Zeytin? Yumurta?",
+   "rd": "페이니르? 제이틴? 유무르타?",
+   "ko": "치즈? 올리브? 달걀?",
+   "note": "반전: 묻는 대로 다 나온다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Evet, evet, evet… Bir dakika!",
+   "rd": "에벳, 에벳, 에벳… 비르 다키카!",
+   "ko": "네, 네, 네… 잠깐만요!",
+   "note": "bir dakika = 잠깐만요",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Buyurun, kahvaltı hazır. Afiyet olsun!",
+   "rd": "부유룬, 카흐발트 하즈르. 아피옛 올순!",
+   "ko": "자, 아침 식사 나왔습니다. 맛있게 드세요!",
+   "note": "afiyet olsun = 맛있게 드세요",
+   "tags": [
+    "expr:afiyet olsun"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Ne kadar? Ben sadece simit…",
+   "rd": "네 카다르? 벤 사데제 시밋…",
+   "ko": "얼마예요? 저는 그냥 시미트만…",
+   "note": "ne kadar = 얼마예요",
+   "tags": [
+    "expr:ne kadar"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

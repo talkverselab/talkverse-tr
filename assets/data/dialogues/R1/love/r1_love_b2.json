@@ -1,0 +1,131 @@
+{
+ "id": "r1_love_b2",
+ "region": "R1",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "culture"
+ ],
+ "title": "훈수 부대",
+ "emoji": "🎲",
+ "scene": "찻집 마당, Elif 가 번호를 걸고 타블라를 하자는데 옆 테이블 아저씨들이 몰려온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Amca"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "hadi·olur·tamam mı 로 내기 걸기",
+ "expressions": [
+  "hadi",
+  "olur",
+  "ne alaka"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Tavla biliyor musun? Hadi, oynayalım.",
+   "rd": "타블라 빌리요르 무순? 하디, 오이나얄름.",
+   "ko": "타블라 할 줄 알아? 자, 한 판 하자.",
+   "note": "tavla = 터키식 주사위 보드게임",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": [
+    "tavla"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Biraz biliyorum. Ne için oynuyoruz?",
+   "rd": "비라즈 빌리요룸. 네 이친 오이누요루즈?",
+   "ko": "조금 알아. 뭐 걸고 해?",
+   "note": "ne için = 뭘 위해",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Kaybeden numarasını verir. Tamam mı?",
+   "rd": "카이베덴 누마라스느 베리르. 타맘 므?",
+   "ko": "진 사람이 번호 주기. 됐지?",
+   "note": "kaybeden = 진 사람",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Olur. Ama ben çok kötüyüm.",
+   "rd": "올루르. 아마 벤 촉 쾨튀윔.",
+   "ko": "좋아. 근데 나 진짜 못해.",
+   "note": "olur = 좋아",
+   "tags": [
+    "expr:olur"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Evladım, onu oynama! Şunu oyna, şunu!",
+   "rd": "에블라듬, 오누 오이나마! 슈누 오이나, 슈누!",
+   "ko": "얘야, 그거 말고! 이거, 이거 둬!",
+   "note": "evladım = 얘야(남녀 공통)",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Ne alaka amca? Masada beş amca var!",
+   "rd": "네 알라카 암자? 마사다 베시 암자 바르!",
+   "ko": "아저씨, 이게 뭐예요? 테이블에 아저씨만 다섯이잖아요!",
+   "note": "ne alaka = 뭔 소리야 — 반전: 훈수가 불어난다",
+   "tags": [
+    "expr:ne alaka"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Kazandık evladım, kazandık!",
+   "rd": "카잔득 에블라듬, 카잔득!",
+   "ko": "이겼다, 얘야, 우리가 이겼어!",
+   "note": "kazandık = 우리가 이겼다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Bile bile kaybettim. Al, numaram.",
+   "rd": "빌레 빌레 카이베팀. 알, 누마람.",
+   "ko": "일부러 진 거야. 자, 내 번호.",
+   "note": "bile bile = 일부러",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

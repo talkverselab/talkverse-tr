@@ -1,0 +1,123 @@
+{
+ "id": "r1_friends_a1",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "travel"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "사진 먼저",
+ "emoji": "🐦",
+ "scene": "페리 갑판, 시미트를 들고 사진부터 찍겠다는 나를 Can 이 말린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "bir dakika·eyvah 로 다급할 때 말하기",
+ "expressions": [
+  "bir dakika",
+  "hadi ya",
+  "eyvah",
+  "bak"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Simitini yemeyecek misin?",
+   "rd": "시미티니 예메예젝 미신?",
+   "ko": "네 시미트 안 먹을 거야?",
+   "note": "-meyecek misin? = 안 ~할 거야?",
+   "tags": [
+    "form:-meyecek misin"
+   ],
+   "new": [
+    "simit"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Bir dakika! Önce fotoğraf çekiyorum.",
+   "rd": "비르 다키카! 왼제 포토라프 체키요룸.",
+   "ko": "잠깐만! 사진부터 찍고.",
+   "note": "fotoğraf çekmek = 사진 찍다",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Hadi ya, elinde tutma! Bak, martılar.",
+   "rd": "하디 야, 엘린데 투트마! 박, 마르틀라르.",
+   "ko": "에이, 손에 들고 있지 마! 봐, 갈매기.",
+   "note": "martı = 갈매기",
+   "tags": [
+    "expr:hadi ya",
+    "expr:bak"
+   ],
+   "new": [
+    "martı"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Eyvah! Simitim gitti!",
+   "rd": "에이바흐! 시미팀 기티!",
+   "ko": "헉! 내 시미트 갔어!",
+   "note": "eyvah = 헉, 큰일 났다",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Bir tane değil, hepsi geliyor!",
+   "rd": "비르 타네 데일, 헵시 겔리요르!",
+   "ko": "한 마리가 아니야, 다 몰려온다!",
+   "note": "hepsi = 전부 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Kafamda martı var! Can, yardım et!",
+   "rd": "카팜다 마르트 바르! 잔, 야르듬 엣!",
+   "ko": "내 머리에 갈매기 있어! 잔, 좀 도와줘!",
+   "note": "yardım et = 도와줘",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Bir dakika! Önce fotoğraf çekiyorum.",
+   "rd": "비르 다키카! 왼제 포토라프 체키요룸.",
+   "ko": "잠깐만! 사진부터 찍고.",
+   "note": "앞에서 한 말을 그대로 돌려준다",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

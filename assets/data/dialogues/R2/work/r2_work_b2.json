@@ -1,0 +1,175 @@
+{
+ "id": "r2_work_b2",
+ "region": "R2",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_abroad"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "오늘 차는 내가",
+ "emoji": "🍵",
+ "scene": "입사 첫날, 차 한 잔 쏜다고 한 말이 çaycı 를 타고 건물 전체로 번진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre",
+  "C": "Çaycı",
+  "D": "Müdür"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "çaylar benden 으로 한턱내기 — 그리고 수습하기",
+ "expressions": [
+  "hoş geldiniz",
+  "hocam",
+  "tabii",
+  "bir dakika",
+  "bilmem"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Hoş geldiniz hocam! Çay alır mısınız?",
+   "rd": "호시 겔디니즈 호잠! 차이 알르르 므스느즈?",
+   "ko": "어서 오세요, 선생님! 차 드릴까요?",
+   "note": "hocam = 선생님(직장에서도 두루 쓰는 호칭)",
+   "tags": [
+    "expr:hoş geldiniz",
+    "expr:hocam"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Evet, lütfen. Emre'ye de bir çay.",
+   "rd": "에벳, 뤼트펜. 엠레예 데 비르 차이.",
+   "ko": "네, 주세요. Emre 것도 한 잔이요.",
+   "note": "Emre'ye de = Emre 에게도",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Bugün ilk günün. Çaylar senden mi?",
+   "rd": "부귄 일크 귀뉜. 차일라르 센덴 미?",
+   "ko": "오늘 첫날이잖아. 차는 네가 쏘는 거야?",
+   "note": "senden = 너한테서(네가 쏘는)",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Tabii! Bugün çaylar benden!",
+   "rd": "타비이! 부귄 차일라르 벤덴!",
+   "ko": "당연하지! 오늘 차는 내가 쏜다!",
+   "note": "çaylar benden = 차는 내가 쏜다",
+   "tags": [
+    "expr:tabii",
+    "form:-den"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Çaylar {name} hocamdan! Duydunuz mu?",
+   "rd": "차일라르 {name} 호잠단! 두이두누즈 무?",
+   "ko": "차는 {name} 선생님이 쏘신답니다! 다들 들으셨죠?",
+   "note": "duydunuz mu = 들으셨어요?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Bir dakika… kaç kişi duydu?",
+   "rd": "비르 다키카… 카치 키시 두이두?",
+   "ko": "잠깐만요… 몇 명이나 들었어요?",
+   "note": "kaç kişi = 몇 명",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Bu katta yirmi kişi var. Bina altı kat.",
+   "rd": "부 카타 이르미 키시 바르. 비나 알트 캇.",
+   "ko": "이 층에만 스무 명이야. 건물은 6층이고.",
+   "note": "kat = 층",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Üçüncü kat da istiyor! Hocam, otuz çay daha!",
+   "rd": "위췬쥐 캇 다 이스티요르! 호잠, 오투즈 차이 다하!",
+   "ko": "3층도 달래요! 선생님, 서른 잔 더요!",
+   "note": "daha = 더 — 반전: 위아래 층까지 번진다",
+   "tags": [
+    "expr:hocam"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "D",
+   "tl": "Hoş geldiniz {name}, ne güzel düşünce! Ben de içeyim.",
+   "rd": "호시 겔디니즈 {name}, 네 귀젤 뒤쉰제! 벤 데 이체임.",
+   "ko": "어서 와요, {name} 씨, 참 좋은 생각이네요! 저도 한 잔 하죠.",
+   "note": "içeyim = 마실게요",
+   "tags": [
+    "expr:hoş geldiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Emre, bir çay ne kadar?",
+   "rd": "엠레, 비르 차이 네 카다르?",
+   "ko": "Emre, 차 한 잔에 얼마야?",
+   "note": "ne kadar = 얼마",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Bilmem. Hesap geldi, ona bak.",
+   "rd": "빌멤. 헤삽 겔디, 오나 박.",
+   "ko": "몰라. 계산서 왔네, 그거 봐.",
+   "note": "hesap = 계산서",
+   "tags": [
+    "expr:bilmem"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Yüz yirmi yedi çay hocam. Yarın da devam mı?",
+   "rd": "위즈 이르미 예디 차이 호잠. 야른 다 데밤 므?",
+   "ko": "127잔입니다, 선생님. 내일도 이어서요?",
+   "note": "devam = 계속",
+   "tags": [
+    "expr:hocam"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

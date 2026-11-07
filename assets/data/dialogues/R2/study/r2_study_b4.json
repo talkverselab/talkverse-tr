@@ -1,0 +1,170 @@
+{
+ "id": "r2_study_b4",
+ "region": "R2",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "손을 외웠어",
+ "emoji": "✍️",
+ "scene": "시험 전날 도서관, 말없이 그림만 그리던 Zeynep 의 공책에 낯익은 손이 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "hadi ya·vay be·bilmem 으로 놀리고 들키기",
+ "expressions": [
+  "hadi ya",
+  "vay be",
+  "bilmem",
+  "olmaz"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Yarın sınav var, sen ne çiziyorsun?",
+   "rd": "야른 스나브 바르, 센 네 치지요르순?",
+   "ko": "내일 시험인데 넌 뭘 그려?",
+   "note": "çizmek = 그리다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Hiç. Ders çalışıyorum.",
+   "rd": "히치. 데르스 찰르시요룸.",
+   "ko": "아무것도. 공부 중이야.",
+   "note": "hiç = 아무것도",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Defterin ders gibi durmuyor. Ver bakayım.",
+   "rd": "데프테린 데르스 기비 두르무요르. 베르 바카이음.",
+   "ko": "공책이 공부 같아 보이진 않는데. 줘 봐.",
+   "note": "ver bakayım = 줘 봐",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Olmaz. Sen kitabına bak.",
+   "rd": "올마즈. 센 키타브나 박.",
+   "ko": "안 돼. 넌 네 책이나 봐.",
+   "note": "olmaz = 안 돼",
+   "tags": [
+    "expr:olmaz"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Hadi ya, bir sayfa. Kedi mi çizdin?",
+   "rd": "하디 야, 비르 사이파. 케디 미 치즈딘?",
+   "ko": "에이, 한 장만. 고양이 그렸어?",
+   "note": "hadi ya = 에이",
+   "tags": [
+    "expr:hadi ya"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "El. Yarın çizim sınavı, el çalışıyorum.",
+   "rd": "엘. 야른 치짐 스나브, 엘 찰르시요룸.",
+   "ko": "손. 내일 그리기 시험이라 손 연습 중이야.",
+   "note": "el = 손",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Vay be, çok güzel. Bu kimin eli?",
+   "rd": "바이 베, 촉 귀젤. 부 키민 엘리?",
+   "ko": "와, 진짜 잘 그렸다. 이거 누구 손이야?",
+   "note": "kimin = 누구의",
+   "tags": [
+    "expr:vay be"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Bilmem. Bir el işte.",
+   "rd": "빌멤. 비르 엘 이시테.",
+   "ko": "몰라. 그냥 손이야.",
+   "note": "işte = 그냥, 뭐",
+   "tags": [
+    "expr:bilmem"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Dur, bu yara benim elimde var!",
+   "rd": "두르, 부 야라 베님 엘림데 바르!",
+   "ko": "잠깐, 이 흉터 내 손에도 있는데!",
+   "note": "yara = 상처 — 반전",
+   "tags": [],
+   "new": [
+    "yara"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Model lazımdı. Sen de uyuyordun.",
+   "rd": "모델 라즘드. 센 데 우유요르둔.",
+   "ko": "모델이 필요했어. 너 마침 자고 있었고.",
+   "note": "uyuyordun = 자고 있었다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Kaç sayfa bu? Zeynep, yirmi sayfa var!",
+   "rd": "카치 사이파 부? 제이넵, 이르미 사이파 바르!",
+   "ko": "이거 몇 장이야? Zeynep, 스무 장이나 있잖아!",
+   "note": "kaç sayfa = 몇 장",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Elini ezberledim. Sınavda lazım olur.",
+   "rd": "엘리니 에즈베를레딤. 스나브다 라즘 올루르.",
+   "ko": "네 손 외웠어. 시험에 필요할 거야.",
+   "note": "ezberlemek = 외우다",
+   "tags": [
+    "simkung"
+   ],
+   "new": [
+    "ezberlemek"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

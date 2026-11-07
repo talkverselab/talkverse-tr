@@ -1,0 +1,130 @@
+{
+ "id": "r1_life_b3",
+ "region": "R1",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "돌무쉬 경리",
+ "emoji": "🚐",
+ "scene": "합승 미니버스 앞자리에 앉았더니 뒷사람들 돈이 전부 내 손을 거친다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Yolcu",
+  "C": "Şoför"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "verir misiniz·kaç kişi 로 돌무쉬 요금 전달하기",
+ "expressions": [
+  "affedersiniz",
+  "buyurun",
+  "tabii",
+  "bir dakika",
+  "hadi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Affedersiniz, bunu şoföre verir misiniz?",
+   "rd": "아페데르시니즈, 부누 쇼푀레 베리르 미시니즈?",
+   "ko": "실례합니다, 이것 좀 기사님께 전해 주시겠어요?",
+   "note": "şoför = 기사",
+   "tags": [
+    "expr:affedersiniz"
+   ],
+   "new": [
+    "şoför"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Tabii. Buyurun, bu para sizin.",
+   "rd": "타비이. 부유룬, 부 파라 시진.",
+   "ko": "네. 여기요, 이 돈 기사님 거예요.",
+   "note": "bu para = 이 돈",
+   "tags": [
+    "expr:buyurun",
+    "expr:tabii"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Kaç kişi?",
+   "rd": "카치 키시?",
+   "ko": "몇 명이요?",
+   "note": "kaç kişi? = 몇 명?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "İki kişi! Bir de arkadan para geliyor.",
+   "rd": "이키 키시! 비르 데 아르카단 파라 겔리요르.",
+   "ko": "두 명이요! 뒤에서 돈 또 와요.",
+   "note": "arkadan = 뒤에서",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Bir dakika! Bu kimin, bu kimin?",
+   "rd": "비르 다키카! 부 키민, 부 키민?",
+   "ko": "잠깐만요! 이건 누구 거, 이건 누구 거예요?",
+   "note": "bu kimin = 이건 누구 거",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Üç kişi! Üstünü arkaya verin, hadi!",
+   "rd": "위치 키시! 위스튀뉘 아르카야 베린, 하디!",
+   "ko": "세 명이요! 거스름돈 뒤로 넘겨요, 얼른!",
+   "note": "üstü = 거스름돈 — 반전: 내가 경리가 됐다",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Ben sadece eve gidiyorum!",
+   "rd": "벤 사데제 에베 기디요룸!",
+   "ko": "저는 그냥 집에 가는 중이라고요!",
+   "note": "sadece = 그냥, 단지",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Yarın sekizde gelin. İşe başladınız.",
+   "rd": "야른 세키즈데 겔린. 이셰 바실라드느즈.",
+   "ko": "내일 여덟 시에 오세요. 채용됐습니다.",
+   "note": "işe başladınız = 일 시작하셨어요",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

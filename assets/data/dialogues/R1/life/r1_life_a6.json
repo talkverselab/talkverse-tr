@@ -1,0 +1,133 @@
+{
+ "id": "r1_life_a6",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "양말 한 짝이 아니었다",
+ "emoji": "🧦",
+ "scene": "빨래 줄에서 떨어진 양말을 찾으러 아랫집에 내려갔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Komşu"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "düştü·hangisi 로 이웃에게 빨래 찾아오기",
+ "expressions": [
+  "merhaba",
+  "buyurun",
+  "gerçekten mi",
+  "şey",
+  "eyvah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Merhaba, çorabım balkonunuza düştü.",
+   "rd": "메르하바, 초라븜 발코누누자 뒤시튀.",
+   "ko": "안녕하세요, 제 양말이 댁 발코니에 떨어졌어요.",
+   "note": "çorap = 양말, balkon = 발코니",
+   "tags": [
+    "expr:merhaba"
+   ],
+   "new": [
+    "çorap",
+    "balkon"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Buyurun, girin. Hangisi?",
+   "rd": "부유룬, 기린. 한기시?",
+   "ko": "들어오세요. 어느 거요?",
+   "note": "hangisi = 어느 것",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Hangisi mi? Bir kırmızı çorap.",
+   "rd": "한기시 미? 비르 크르므즈 초랍.",
+   "ko": "어느 거냐고요? 빨간 양말 한 짝이요.",
+   "note": "kırmızı = 빨간",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Burada üç çorap var.",
+   "rd": "부라다 위치 초랍 바르.",
+   "ko": "여기 양말 세 짝 있는데요.",
+   "note": "burada = 여기에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Üç mü? Gerçekten mi?",
+   "rd": "위치 뮈? 게르첵텐 미?",
+   "ko": "세 짝요? 진짜요?",
+   "note": "gerçekten mi? = 진짜요?",
+   "tags": [
+    "expr:gerçekten mi"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Bir de pantolon, bir de… şey.",
+   "rd": "비르 데 판톨론, 비르 데… 셰이.",
+   "ko": "바지도 있고요. 그리고… 그거요.",
+   "note": "bir de = ~도 하나 더 — 반전",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Eyvah! Ne zamandan beri?",
+   "rd": "에이바흐! 네 자만단 베리?",
+   "ko": "헉! 언제부터요?",
+   "note": "ne zamandan beri = 언제부터",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Bir aydır. Kutu doldu, buyurun.",
+   "rd": "비르 아이드르. 쿠투 돌두, 부유룬.",
+   "ko": "한 달째요. 상자가 꽉 찼어요, 여기요.",
+   "note": "bir aydır = 한 달째",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

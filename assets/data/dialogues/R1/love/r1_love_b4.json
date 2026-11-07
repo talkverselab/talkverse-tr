@@ -1,0 +1,133 @@
+{
+ "id": "r1_love_b4",
+ "region": "R1",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "culture"
+ ],
+ "title": "아저씨, 쟤한테요",
+ "emoji": "🫖",
+ "scene": "삐친 Elif 가 나와는 말을 안 하고 찻집 아저씨를 통해서만 말한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Çaycı"
+ },
+ "register": "mixed",
+ "twist": 5,
+ "twist_type": "ignore",
+ "flags": [
+  "romance"
+ ],
+ "goal": "kusura bakmayın·özür dilerim·çok özledim 으로 화해하기",
+ "expressions": [
+  "günaydın",
+  "kusura bakmayın",
+  "özür dilerim",
+  "çok özledim"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Elif, günaydın! Çay ister misin?",
+   "rd": "엘리프, 귀나이든! 차이 이스테르 미신?",
+   "ko": "Elif, 좋은 아침! 차 마실래?",
+   "note": "günaydın = 좋은 아침",
+   "tags": [
+    "expr:günaydın"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Abi, ona söyle: konuşmuyorum.",
+   "rd": "아비, 오나 쇠일레 코누시무요룸.",
+   "ko": "아저씨, 쟤한테 전해 주세요. 말 안 한다고.",
+   "note": "ona söyle = 쟤한테 말해",
+   "tags": [
+    "expr:abi"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Elif Hanım konuşmuyor. Kusura bakmayın.",
+   "rd": "엘리프 하늠 코누시무요르. 쿠수라 박마이은.",
+   "ko": "Elif 씨가 말씀을 안 하신답니다. 죄송합니다.",
+   "note": "kusura bakmayın = 죄송합니다",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Ne oldu? Ben ne yaptım?",
+   "rd": "네 올두? 벤 네 얍틈?",
+   "ko": "왜 그래? 나 뭐 했어?",
+   "note": "ne oldu = 무슨 일이야",
+   "tags": [
+    "expr:ne oldu"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Abi, söyle: dün gece yazdım, cevap yok.",
+   "rd": "아비, 쇠일레 뒨 게제 야즈듬, 제밥 욕.",
+   "ko": "아저씨, 전해 주세요. 어젯밤에 문자했는데 답이 없었다고.",
+   "note": "반전: 아직도 나를 안 쳐다본다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Uyuyordum ya! Özür dilerim, Elif.",
+   "rd": "우유요르둠 야! 외쥐르 딜레림, 엘리프.",
+   "ko": "자고 있었잖아! 미안해, Elif.",
+   "note": "uyuyordum = 자고 있었다",
+   "tags": [
+    "expr:özür dilerim"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Abi, ona söyle… çok özledim.",
+   "rd": "아비, 오나 쇠일레… 촉 외즐레딤.",
+   "ko": "아저씨, 쟤한테 전해 주세요… 너무 보고 싶었다고.",
+   "note": "çok özledim = 너무 보고 싶었어",
+   "tags": [
+    "expr:çok özledim",
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Onu kendin söyle kızım. Çay soğuyor.",
+   "rd": "오누 켄딘 쇠일레 크즘. 차이 소우요르.",
+   "ko": "그건 네가 직접 말해라, 얘야. 차 식는다.",
+   "note": "kendin = 네가 직접",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

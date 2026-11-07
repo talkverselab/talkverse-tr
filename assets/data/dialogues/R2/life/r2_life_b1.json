@@ -1,0 +1,180 @@
+{
+ "id": "r2_life_b1",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "새 층이 생겼다",
+ "emoji": "🛋️",
+ "scene": "이삿날, 소파가 계단에 끼었고 건물 사람들이 전부 훈수를 둔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Can",
+  "C": "Kapıcı",
+  "D": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "çek·dur·sağa·sola 로 같이 옮기며 지시하기",
+ "expressions": [
+  "kanka",
+  "bilmem",
+  "hadi",
+  "olmaz",
+  "canım",
+  "ne yapalım"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Kanka, bu koltuk neden bu kadar ağır?",
+   "rd": "칸카, 부 콜툭 네덴 부 카다르 아으르?",
+   "ko": "야, 이 소파 왜 이렇게 무거워?",
+   "note": "koltuk = 소파, 안락의자",
+   "tags": [
+    "expr:kanka"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Bilmem, ama asansör yok. Hadi, çek!",
+   "rd": "빌멤, 아마 아산쇠르 욕. 하디, 첵!",
+   "ko": "몰라, 근데 엘리베이터가 없어. 자, 당겨!",
+   "note": "çek = 당겨",
+   "tags": [
+    "expr:bilmem",
+    "expr:hadi",
+    "callback:r0_life_a4"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Çekiyorum! Dur, dur, duvara takıldı!",
+   "rd": "체키요룸! 두르, 두르, 두바라 타클드!",
+   "ko": "당기고 있어! 잠깐, 잠깐, 벽에 걸렸어!",
+   "note": "takıldı = 걸렸다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Olmaz öyle. Sağa çevirin, sağa!",
+   "rd": "올마즈 외일레. 사아 체비린, 사아!",
+   "ko": "그렇게는 안 돼요. 오른쪽으로 돌려요, 오른쪽!",
+   "note": "sağa = 오른쪽으로",
+   "tags": [
+    "expr:olmaz"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "D",
+   "tl": "Sola, canım, sola! Ben otuz yıldır buradayım.",
+   "rd": "솔라, 자늠, 솔라! 벤 오투즈 이을드르 부라다이음.",
+   "ko": "왼쪽으로, 얘야, 왼쪽! 나 여기서 30년 살았어.",
+   "note": "sola = 왼쪽으로",
+   "tags": [
+    "expr:canım"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Sağ mı, sol mu? Elim sıkıştı!",
+   "rd": "사 므, 솔 무? 엘림 스크시트!",
+   "ko": "오른쪽이에요, 왼쪽이에요? 손 끼었어요!",
+   "note": "sıkıştı = 끼었다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Kıpırdamıyor. Koltuk burada yaşıyor artık.",
+   "rd": "크프르다므요르. 콜툭 부라다 야시요르 아르특.",
+   "ko": "꿈쩍도 안 해. 소파는 이제 여기 사는 거야.",
+   "note": "kıpırdamak = 꿈쩍하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Kimse çıkamıyor, kimse inemiyor. Merdiven kapandı.",
+   "rd": "킴세 츠카므요르, 킴세 이네미요르. 메르디벤 카판드.",
+   "ko": "아무도 못 올라가고, 못 내려가요. 계단이 막혔어요.",
+   "note": "merdiven = 계단 — 반전",
+   "tags": [],
+   "new": [
+    "merdiven"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "D",
+   "tl": "Aman, ne yapalım? Madem öyle, çay getiriyorum.",
+   "rd": "아만, 네 야팔름? 마뎀 외일레, 차이 게티리요룸.",
+   "ko": "아이고, 어쩌겠어? 그럼 차 가져올게.",
+   "note": "madem öyle = 그렇다면",
+   "tags": [
+    "expr:ne yapalım",
+    "expr:aman"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Teyze, merdivende çay mı içeceğiz?",
+   "rd": "테이제, 메르디벤데 차이 므 이체제이즈?",
+   "ko": "아주머니, 계단에서 차를 마신다고요?",
+   "note": "içeceğiz = 마실 거다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Koltuk var ya. Börek de var mı?",
+   "rd": "콜툭 바르 야. 뵈렉 데 바르 므?",
+   "ko": "소파 있잖아. 뵈렉도 있어?",
+   "note": "börek = 얇은 반죽 파이",
+   "tags": [],
+   "new": [
+    "börek"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Hayırlı olsun. Binanın yeni salonu burası.",
+   "rd": "하이으를르 올순. 비나는 예니 살로누 부라스.",
+   "ko": "축하합니다. 여기가 건물의 새 거실이에요.",
+   "note": "hayırlı olsun = 잘됐네요, 축하해요",
+   "tags": [
+    "expr:olsun"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

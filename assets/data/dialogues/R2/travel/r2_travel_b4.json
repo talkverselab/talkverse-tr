@@ -1,0 +1,181 @@
+{
+ "id": "r2_travel_b4",
+ "region": "R2",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "love"
+ ],
+ "domain": [
+  "travel",
+  "love"
+ ],
+ "title": "한 바퀴 더",
+ "emoji": "⛴️",
+ "scene": "여행 마지막 저녁 페리, 내일 떠나는 나에게 Elif 가 내리지 말자고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "şaka şaka·inşallah 로 마지막 저녁 대화하기",
+ "expressions": [
+  "ne demek",
+  "ciddi misin",
+  "şaka şaka",
+  "inşallah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Al, çayın. Bu sefer dökme.",
+   "rd": "알, 차이은. 부 세페르 됙메.",
+   "ko": "자, 네 차. 이번엔 쏟지 마.",
+   "note": "dökmek = 쏟다 · bu sefer = 이번엔",
+   "tags": [],
+   "new": [
+    "dökmek"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Dökmem. Beni özleyeceksin, değil mi?",
+   "rd": "됙멤. 베니 외즐레예젝신, 데일 미?",
+   "ko": "안 쏟아. 나 보고 싶을 거지?",
+   "note": "özlemek = 보고 싶어 하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Seni kim unutur? Uçağın saat kaçta?",
+   "rd": "세니 킴 우누투르? 우차은 사앗 카치타?",
+   "ko": "널 누가 잊겠어? 비행기 몇 시야?",
+   "note": "uçak = 비행기",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Yarın sabah yedide. Çantam hâlâ boş.",
+   "rd": "야른 사바흐 예디데. 찬탐 할라 보시.",
+   "ko": "내일 아침 일곱 시. 가방 아직 텅 비었어.",
+   "note": "hâlâ = 아직도",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "İyi. Boş kalsın.",
+   "rd": "이이. 보시 칼슨.",
+   "ko": "잘됐네. 비워 둬.",
+   "note": "kalsın = 그대로 둬",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Ne demek boş kalsın? Elif, ciddi misin?",
+   "rd": "네 데멕 보시 칼슨? 엘리프, 지디 미신?",
+   "ko": "비워 두라니 무슨 말이야? 엘리프, 진심이야?",
+   "note": "ne demek = 무슨 말이야",
+   "tags": [
+    "expr:ne demek",
+    "expr:ciddi misin"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Şaka şaka. Hadi bak, güneş batıyor.",
+   "rd": "샤카 샤카. 하디 박, 귀네시 바트요르.",
+   "ko": "농담이야. 자 봐, 해 진다.",
+   "note": "batmak = 지다",
+   "tags": [
+    "expr:şaka şaka",
+    "expr:hadi",
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Çok güzel. Keşke bu vapur hiç durmasa.",
+   "rd": "촉 귀젤. 케시케 부 바푸르 히치 두르마사.",
+   "ko": "진짜 예쁘다. 이 배가 안 멈췄으면.",
+   "note": "keşke = ~라면 좋을 텐데 · vapur = 여객선",
+   "tags": [
+    "expr:çok güzel",
+    "form:keşke -se"
+   ],
+   "new": [
+    "vapur"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Vapur durur. Karaköy'de herkes iner.",
+   "rd": "바푸르 두루르. 카라쾨이데 헤르케스 이네르.",
+   "ko": "배는 서지. 카라쾨이에서 다 내려.",
+   "note": "iner = 내린다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Evet… herkes iner.",
+   "rd": "에벳… 헤르케스 이네르.",
+   "ko": "응… 다 내리지.",
+   "note": "herkes = 모두",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Ben inmem. Bir tur daha, sen de kal.",
+   "rd": "벤 인멤. 비르 투르 다하, 센 데 칼.",
+   "ko": "난 안 내려. 한 바퀴 더, 너도 있어.",
+   "note": "tur = 한 바퀴 — 반전",
+   "tags": [
+    "simkung"
+   ],
+   "new": [
+    "tur"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Uçağı kaçırırım, inşallah.",
+   "rd": "우차으 카츠르름, 인샬라흐.",
+   "ko": "비행기 놓치면 좋겠다.",
+   "note": "inşallah = 그러길 바라",
+   "tags": [
+    "expr:inşallah",
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

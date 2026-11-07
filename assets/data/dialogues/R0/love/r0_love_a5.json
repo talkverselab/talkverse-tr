@@ -1,0 +1,136 @@
+{
+ "id": "r0_love_a5",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "포크는 두 개",
+ "emoji": "🍰",
+ "scene": "디저트 가게, Elif 를 보다가 혼잣말한 tatlı 를 종업원이 주문으로 듣는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Garson"
+ },
+ "register": "mixed",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "goal": "tatlı 의 두 뜻과 bence·bilmem 으로 주문하기",
+ "expressions": [
+  "buyurun",
+  "bence",
+  "bilmem",
+  "eyvah",
+  "şey",
+  "lütfen"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Buyurun, tatlı ister misiniz?",
+   "rd": "부유룬, 타틀르 이스테르 미시니즈?",
+   "ko": "네, 디저트 드릴까요?",
+   "note": "tatlı = 디저트, 달콤한, 귀여운",
+   "tags": [
+    "expr:buyurun"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Bence baklava. Sen ne istiyorsun?",
+   "rd": "벤제 바클라바. 센 네 이스티요르순?",
+   "ko": "난 바클라바. 넌 뭐 먹을래?",
+   "note": "bence = 내 생각엔",
+   "tags": [
+    "expr:bence"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Bilmem… çok tatlı.",
+   "rd": "빌멤… 촉 타틀르.",
+   "ko": "글쎄… 너무 달콤해.",
+   "note": "Elif 를 보다가 나온 혼잣말",
+   "tags": [
+    "expr:bilmem"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Hangisi tatlı? Baklava mı?",
+   "rd": "한기시 타틀르? 바클라바 므?",
+   "ko": "어느 쪽이 달콤해요? 바클라바요?",
+   "note": "hangisi = 어느 것",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Yok, yok, Elif. Eyvah!",
+   "rd": "욕, 욕, 엘리프. 에이바흐!",
+   "ko": "아뇨, 아뇨… Elif 요. 헉!",
+   "note": "반전: 입 밖으로 나와 버렸다",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Ne? Ben mi tatlıyım?",
+   "rd": "네? 벤 미 타틀르이음?",
+   "ko": "뭐? 내가 달콤하다고?",
+   "note": "tatlıyım = 나는 달콤하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Şey… ben baklava demek istedim.",
+   "rd": "셰이… 벤 바클라바 데멕 이스테딤.",
+   "ko": "저… 바클라바라고 하려던 거야.",
+   "note": "demek istedim = 말하려고 했다",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Bir baklava, iki çatal lütfen.",
+   "rd": "비르 바클라바, 이키 차탈 뤼트펜.",
+   "ko": "바클라바 하나, 포크 두 개요.",
+   "note": "çatal = 포크",
+   "tags": [
+    "expr:lütfen",
+    "simkung"
+   ],
+   "new": [
+    "çatal"
+   ]
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

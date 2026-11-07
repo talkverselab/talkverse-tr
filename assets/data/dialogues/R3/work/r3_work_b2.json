@@ -1,0 +1,203 @@
+{
+ "id": "r3_work_b2",
+ "region": "R3",
+ "island": "work",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "work_abroad"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "발에 축복을",
+ "emoji": "🦶",
+ "scene": "거래처 댁 저녁 초대, 외워 간 인사를 마지막 순간에 헷갈린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Emre",
+  "C": "Müşteri"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "elinize sağlık·hoş bulduk 로 초대받은 집에서 인사하기",
+ "expressions": [
+  "hoş geldiniz",
+  "hoş bulduk",
+  "elinize sağlık",
+  "kusura bakmayın",
+  "öldüm",
+  "teşekkür ederim"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Müşteri yarın imza atacak. Bu akşamki yemeği bozma.",
+   "rd": "뮈시테리 야른 임자 아타작. 부 악샴키 예메이 보즈마.",
+   "ko": "고객이 내일 서명해. 오늘 저녁 망치지 마.",
+   "note": "imza atmak = 서명하다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Merak etme. Üç cümle ezberledim, hepsi çok kibar.",
+   "rd": "메락 에트메. 위치 쥠레 에즈베를레딤, 헵시 촉 키바르.",
+   "ko": "걱정 마. 세 문장 외웠어, 다 아주 공손해.",
+   "note": "kibar = 공손한",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Bir tanesi yeter. Yemekten sonra “Elinize sağlık” de.",
+   "rd": "비르 타네시 예테르. 예멕텐 손라 엘리니제 살륵 데.",
+   "ko": "하나면 돼. 식사 후에 「Elinize sağlık」 라고 해.",
+   "note": "elinize sağlık = 음식 잘 먹었습니다",
+   "tags": [
+    "expr:elinize sağlık"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Hoş geldiniz! Hepsini ben yaptım. Buyurun, oturun.",
+   "rd": "호시 겔디니즈! 헵시니 벤 얍틈. 부유룬, 오투룬.",
+   "ko": "어서 오세요! 전부 제가 만들었어요. 앉으세요.",
+   "note": "buyurun = 어서요",
+   "tags": [
+    "expr:hoş geldiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Hoş bulduk. Evin kokusu bile harika.",
+   "rd": "호시 불둑. 에빈 코쿠수 빌레 하리카.",
+   "ko": "반갑습니다. 집 냄새부터 끝내주네요.",
+   "note": "hoş bulduk = hoş geldiniz 의 대답",
+   "tags": [
+    "expr:hoş bulduk"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Bir tabak daha alır mısınız? Çok az yediniz.",
+   "rd": "비르 타박 다하 알르르 므스느즈? 촉 아즈 예디니즈.",
+   "ko": "한 접시 더 드실래요? 너무 조금 드셨어요.",
+   "note": "tabak = 접시",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Üç tabak yedim. Artık kalkamıyorum. Çok teşekkür ederim.",
+   "rd": "위치 타박 예딤. 아르특 칼카므요룸. 촉 테셰퀴르 에데림.",
+   "ko": "세 접시 먹었어요. 이제 못 일어나겠어요. 정말 감사합니다.",
+   "note": "kalkamıyorum = 못 일어나요",
+   "tags": [
+    "expr:teşekkür ederim"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Şimdi söyle. Hadi, tam zamanı.",
+   "rd": "심디 쇠일레. 하디, 탐 자마느.",
+   "ko": "지금 말해. 얼른, 딱 지금이야.",
+   "note": "tam zamanı = 딱 지금",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Hanımefendi… ayağınıza sağlık!",
+   "rd": "하느메펜디… 아야으느자 살륵!",
+   "ko": "사모님… 발에 축복이 있기를!",
+   "note": "ayağınıza sağlık = 와 줘서 고맙다는 인사 — 음식엔 안 쓴다, 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "Ayağıma mı? Yemeği ayağımla mı yaptım ben?",
+   "rd": "아야으마 므? 예메이 아야음라 므 얍틈 벤?",
+   "ko": "제 발이요? 제가 음식을 발로 만들었나요?",
+   "note": "ayak = 발",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "“Elinize” demek istedi. Kusura bakmayın.",
+   "rd": "엘리니제 데멕 이스테디. 쿠수라 박마이은.",
+   "ko": "「손에」 라고 하려던 거예요. 죄송합니다.",
+   "note": "demek istedi = 말하려고 했다",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Evet, eller! Ama ayaklarınız da çok güzel.",
+   "rd": "에벳, 엘레르! 아마 아야클라르느즈 다 촉 귀젤.",
+   "ko": "네, 손이요! 근데 발도 아주 예쁘세요.",
+   "note": "eller = 손들",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "tl": "Öldüm gülmekten! Hadi, sözleşmeyi getirin.",
+   "rd": "욀뒴 귈멕텐! 하디, 쇠즐레시메이 게티린.",
+   "ko": "웃겨 죽겠네! 자, 계약서 가져오세요.",
+   "note": "sözleşme = 계약서",
+   "tags": [
+    "expr:öldüm"
+   ],
+   "new": [
+    "sözleşme"
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "tl": "Şimdi mi? Yarın değil miydi?",
+   "rd": "심디 미? 야른 데일 미이디?",
+   "ko": "지금요? 내일 아니었어요?",
+   "note": "değil miydi = 아니었어요?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "tl": "Bugün imzalayalım. Ama ayağımla imzalarım, haberiniz olsun.",
+   "rd": "부귄 임잘라얄름. 아마 아야음라 임잘라름, 하베리니즈 올순.",
+   "ko": "오늘 서명하죠. 근데 발로 할 거예요, 알아 두세요.",
+   "note": "haberiniz olsun = 알아 두세요",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

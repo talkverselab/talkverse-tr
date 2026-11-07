@@ -1,0 +1,144 @@
+{
+ "id": "r1_life_c1",
+ "region": "R1",
+ "island": "life",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "쾨프테 실종 사건",
+ "emoji": "🧆",
+ "scene": "아파트 단톡방. 발코니에 식히던 Teyze 의 쾨프테가 사라졌다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Teyze",
+  "C": "Komşu",
+  "D": "Kapıcı"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "nerede·ne zaman 으로 단톡방에서 말 받기",
+ "expressions": [
+  "eyvah",
+  "aman"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Köftelerim nerede?! Balkonda soğuyordu!",
+   "rd": "쾨프텔레림 네레데?! 발콘다 소우요르두!",
+   "ko": "내 쾨프테 어디 갔어?! 발코니에서 식히고 있었는데!",
+   "note": "soğuyordu = 식고 있었다",
+   "tags": [],
+   "new": [
+    "köfte"
+   ],
+   "at": "19:02",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "tl": "Balkonunuzda bir kedi gördüm. Büyük.",
+   "rd": "발코누누즈다 비르 케디 괴르뒴. 뷔윅.",
+   "ko": "댁 발코니에서 고양이 봤어요. 큰 놈이요.",
+   "note": "gördüm = 봤다",
+   "tags": [],
+   "new": [],
+   "at": "19:03",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Eyvah. Patron mu?",
+   "rd": "에이바흐. 파트론 무?",
+   "ko": "헉. 파트론이에요?",
+   "note": "eyvah = 헉, 큰일이다",
+   "tags": [
+    "expr:eyvah",
+    "callback:r1_life_a5"
+   ],
+   "new": [],
+   "at": "19:03",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Patron kim?!",
+   "rd": "파트론 킴?!",
+   "ko": "파트론이 누구야?!",
+   "note": "kim = 누구",
+   "tags": [],
+   "new": [],
+   "at": "19:04",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "D",
+   "tl": "Kedi şimdi asansörde. Köfte de ağzında.",
+   "rd": "케디 심디 아산쇠르데. 쾨프테 데 아즌다.",
+   "ko": "고양이 지금 엘리베이터에 있어요. 입에 쾨프테도 물고요.",
+   "note": "ağzında = 입에",
+   "tags": [],
+   "new": [],
+   "at": "19:06",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Çıkarın onu! Asansör ne zaman çalışır?",
+   "rd": "츠카른 오누! 아산쇠르 네 자만 찰르시르?",
+   "ko": "꺼내 주세요! 엘리베이터 언제 돼요?",
+   "note": "çıkarın = 꺼내 주세요",
+   "tags": [],
+   "new": [],
+   "at": "19:06",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "D",
+   "tl": "Yarın.",
+   "rd": "야른.",
+   "ko": "내일요.",
+   "note": "yarın = 내일 — 반전: 고양이가 갇혔다",
+   "tags": [
+    "callback:r0_life_a4"
+   ],
+   "new": [],
+   "at": "19:07",
+   "stamp": "😂",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Aman, zavallı… Yarın ona da yaparım.",
+   "rd": "아만, 자발르… 야른 오나 다 야파름.",
+   "ko": "아이고, 불쌍해라… 내일 걔 것도 만들어야지.",
+   "note": "zavallı = 불쌍한",
+   "tags": [
+    "expr:aman"
+   ],
+   "new": [],
+   "at": "19:08",
+   "stamp": "🧆",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "id": "r2_friends_b2",
+ "region": "R2",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "travel",
+  "culture"
+ ],
+ "title": "레몬 향 음료",
+ "emoji": "🍋",
+ "scene": "장거리 버스에서 차장이 내민 콜로냐를 음료로 알고 컵을 내밀었다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Muavin"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "버스 서비스 받기, 콜로냐 문화 알기",
+ "expressions": [
+  "dur",
+  "lütfen",
+  "bir dakika",
+  "eyvah",
+  "ne demek"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Bu otobüs çok güzel. Uçak gibi!",
+   "rd": "부 오토뷔스 촉 귀젤. 우착 기비!",
+   "ko": "이 버스 진짜 좋다. 비행기 같아!",
+   "note": "gibi = ~처럼",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Dur, daha görmedin. Şimdi servis başlıyor.",
+   "rd": "두르, 다하 괴르메딘. 심디 세르비스 바실르요르.",
+   "ko": "잠깐, 아직 멀었어. 이제 서비스 시작이야.",
+   "note": "daha = 아직",
+   "tags": [
+    "expr:dur"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Kolonya alır mısınız, efendim?",
+   "rd": "콜론야 알르르 므스느즈, 에펜딤?",
+   "ko": "콜로냐 드릴까요, 손님?",
+   "note": "kolonya = 레몬 향 알코올 손 세정 향수",
+   "tags": [],
+   "new": [
+    "kolonya"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Evet, lütfen. Şu bardağa koyun.",
+   "rd": "에벳, 뤼트펜. 슈 바르다아 코윤.",
+   "ko": "네, 부탁해요. 이 컵에 따라 주세요.",
+   "note": "şu = 이, 저 · bardak = 컵",
+   "tags": [
+    "expr:lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Bardağa mı? Emin misiniz, efendim?",
+   "rd": "바르다아 므? 에민 미시니즈, 에펜딤?",
+   "ko": "컵에요? 확실하세요, 손님?",
+   "note": "emin misiniz = 확실하세요?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Tabii, çok susadım. Limonlu, değil mi?",
+   "rd": "타비이, 촉 수사듬. 리몬루, 데일 미?",
+   "ko": "그럼요, 목말라서요. 레몬 맛이죠?",
+   "note": "susamak = 목마르다",
+   "tags": [],
+   "new": [
+    "susamak"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Bir dakika, sen ne yapıyorsun orada?",
+   "rd": "비르 다키카, 센 네 야프요르순 오라다?",
+   "ko": "잠깐만, 너 거기서 뭐 해?",
+   "note": "orada = 거기서",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Limon güzel de… neden boğazım yanıyor?",
+   "rd": "리몬 귀젤 데… 네덴 보아즘 야느요르?",
+   "ko": "레몬은 좋은데… 왜 목이 타지?",
+   "note": "boğaz = 목구멍 — 반전",
+   "tags": [],
+   "new": [
+    "boğaz"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Eyvah! O içilmez, ellerine sürülür!",
+   "rd": "에이바흐! 오 이칠메즈, 엘레리네 쉬륄뤼르!",
+   "ko": "헉! 그거 마시는 거 아니야, 손에 바르는 거야!",
+   "note": "içilmez = 마시는 게 아니다(수동)",
+   "tags": [
+    "expr:eyvah",
+    "form:-ilmez"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Ne demek? Bu parfüm mü şimdi?!",
+   "rd": "네 데멕? 부 파르퓜 뮈 심디?!",
+   "ko": "뭐라고? 이게 향수라고?!",
+   "note": "ne demek = 뭐라고?",
+   "tags": [
+    "expr:ne demek"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "Yanına bisküvi de ister misiniz, efendim?",
+   "rd": "야느나 비스퀴비 데 이스테르 미시니즈, 에펜딤?",
+   "ko": "곁들여 비스킷도 드릴까요, 손님?",
+   "note": "yanına = 곁들여",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

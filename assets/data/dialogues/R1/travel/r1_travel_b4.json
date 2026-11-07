@@ -1,0 +1,135 @@
+{
+ "id": "r1_travel_b4",
+ "region": "R1",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "바다 보러 앙카라",
+ "emoji": "🚌",
+ "scene": "안탈리아와 앙카라를 헷갈린 채 밤 버스를 타고 바다를 찾는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Görevli",
+  "C": "Muavin"
+ },
+ "register": "polite",
+ "twist": 8,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "nereye·emin misiniz 로 버스표 사기",
+ "expressions": [
+  "hoş geldiniz",
+  "lütfen",
+  "çok güzel",
+  "allah allah",
+  "buyurun",
+  "günaydın"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hoş geldiniz. Nereye gidiyorsunuz?",
+   "rd": "호시 겔디니즈. 네레예 기디요르수누즈?",
+   "ko": "어서 오세요. 어디로 가세요?",
+   "note": "nereye = 어디로",
+   "tags": [
+    "expr:hoş geldiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Ankara'ya bir bilet, lütfen.",
+   "rd": "안카라야 비르 빌렛, 뤼트펜.",
+   "ko": "앙카라행 한 장 주세요.",
+   "note": "bilet = 표",
+   "tags": [
+    "expr:lütfen"
+   ],
+   "new": [
+    "bilet"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Ankara? Emin misiniz?",
+   "rd": "안카라? 에민 미시니즈?",
+   "ko": "앙카라요? 확실해요?",
+   "note": "emin misiniz? = 확실하세요?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Evet. Deniz çok güzel, değil mi?",
+   "rd": "에벳. 데니즈 촉 귀젤, 데일 미?",
+   "ko": "네. 바다 너무 좋잖아요, 그렇죠?",
+   "note": "deniz = 바다",
+   "tags": [
+    "expr:çok güzel"
+   ],
+   "new": [
+    "deniz"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Allah allah… Buyurun, gece on bir.",
+   "rd": "알라흐 알라흐… 부유룬, 게제 온 비르.",
+   "ko": "거참… 여기요, 밤 11시 차입니다.",
+   "note": "allah allah = 거참 이상하네",
+   "tags": [
+    "expr:allah allah",
+    "expr:buyurun"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Günaydın! Ankara'ya hoş geldiniz.",
+   "rd": "귀나이든! 안카라야 호시 겔디니즈.",
+   "ko": "좋은 아침입니다! 앙카라에 오신 걸 환영합니다.",
+   "note": "günaydın = 좋은 아침",
+   "tags": [
+    "expr:günaydın",
+    "expr:hoş geldiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Deniz nerede? Burası neresi?",
+   "rd": "데니즈 네레데? 부라스 네레시?",
+   "ko": "바다 어디 있어요? 여기 어디예요?",
+   "note": "burası neresi? = 여기 어디예요?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Deniz Antalya'da. Burası Ankara.",
+   "rd": "데니즈 안탈야다. 부라스 안카라.",
+   "ko": "바다는 안탈리아에 있죠. 여긴 앙카라고요.",
+   "note": "반전: 도시를 헷갈렸다",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "id": "r0_travel_c1",
+ "region": "R0",
+ "island": "travel",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel",
+  "friends"
+ ],
+ "title": "공항에서 기다리는 중",
+ "emoji": "🐈",
+ "scene": "공항에 데리러 온다던 Elif 가 답은 안 하고 고양이 사진만 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "geldim·bekle 로 채팅 재촉하기",
+ "expressions": [
+  "geldim",
+  "bak",
+  "bekle"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Geldim! Neredesin?",
+   "rd": "겔딤! 네레데신?",
+   "ko": "도착! 어디야?",
+   "note": "neredesin = 어디야",
+   "tags": [
+    "expr:geldim"
+   ],
+   "new": [],
+   "at": "14:02",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Bak, kedi! 😍",
+   "rd": "박, 케디!",
+   "ko": "봐, 고양이! 😍",
+   "note": "kedi = 고양이",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": [
+    "kedi"
+   ],
+   "at": "14:20",
+   "stamp": "😍",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Çok güzel. Elif, neredesin?",
+   "rd": "촉 귀젤. 엘리프, 네레데신?",
+   "ko": "귀엽다. 엘리프, 어디야?",
+   "note": "çok güzel = 너무 좋다",
+   "tags": [
+    "expr:çok güzel"
+   ],
+   "new": [],
+   "at": "14:21",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Bu da başka kedi.",
+   "rd": "부 다 바시카 케디.",
+   "ko": "이건 다른 고양이.",
+   "note": "başka = 다른",
+   "tags": [],
+   "new": [],
+   "at": "14:40",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Elif! Açım, bir saattir bekliyorum!",
+   "rd": "엘리프! 아츰, 비르 사아티르 베클리요룸!",
+   "ko": "엘리프! 배고파, 한 시간째 기다려!",
+   "note": "bir saattir = 한 시간째",
+   "tags": [
+    "form:-dir"
+   ],
+   "new": [],
+   "at": "15:05",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Mama aldım.",
+   "rd": "마마 알듬.",
+   "ko": "사료 샀어.",
+   "note": "mama = 사료 — 반전: 또 고양이 얘기",
+   "tags": [],
+   "new": [
+    "mama"
+   ],
+   "at": "15:30",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Bana mı?!",
+   "rd": "바나 므?!",
+   "ko": "나 주려고?!",
+   "note": "bana mı? = 나한테?",
+   "tags": [],
+   "new": [],
+   "at": "15:30",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Kediye. Sen bekle 😘",
+   "rd": "케디예. 센 베클레",
+   "ko": "고양이 거. 넌 기다려 😘",
+   "note": "bekle = 기다려",
+   "tags": [
+    "expr:bekle"
+   ],
+   "new": [],
+   "at": "15:31",
+   "stamp": "😘",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

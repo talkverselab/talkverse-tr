@@ -1,0 +1,136 @@
+{
+ "id": "r0_life_a1",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "빈 접시는 안 돼",
+ "emoji": "🍽️",
+ "scene": "옆집 Teyze 가 돌마 한 접시를 들고 왔다. 문제는 접시를 돌려줄 때다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "yemek yedin mi·sağ olun 으로 이웃의 음식 공세 받기",
+ "expressions": [
+  "canım",
+  "sağ olun",
+  "teşekkürler",
+  "tamam",
+  "ne demek",
+  "eyvah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Canım, yemek yedin mi?",
+   "rd": "자늠, 예멕 예딘 미?",
+   "ko": "얘야, 밥 먹었니?",
+   "note": "yemek yedin mi? = 밥 먹었니?",
+   "tags": [
+    "expr:canım"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Evet, yedim. Sağ olun.",
+   "rd": "에벳, 예딤. 사 올룬.",
+   "ko": "네, 먹었어요. 고맙습니다.",
+   "note": "sağ olun = 고맙습니다",
+   "tags": [
+    "expr:sağ olun"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Yok, sen yemedin. Al, dolma.",
+   "rd": "욕, 센 예메딘. 알, 돌마.",
+   "ko": "아니, 넌 안 먹었어. 자, 돌마.",
+   "note": "dolma = 속을 채운 채소 요리",
+   "tags": [],
+   "new": [
+    "dolma"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Tamam, teyze. Çok teşekkürler.",
+   "rd": "타맘, 테이제. 촉 테셰퀴를레르.",
+   "ko": "네, 아주머니. 정말 감사합니다.",
+   "note": "teyze = 아주머니, 이모",
+   "tags": [
+    "expr:teşekkürler",
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Ama tabak boş dönmez, ha.",
+   "rd": "아마 타박 보시 된메즈, 하.",
+   "ko": "근데 접시는 빈 채로 돌아오면 안 된다.",
+   "note": "tabak = 접시 — 반전: 돌려줄 땐 음식을 담아서",
+   "tags": [],
+   "new": [
+    "tabak"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Ne demek? Ben yemek yapamam!",
+   "rd": "네 데멕? 벤 예멕 야파맘!",
+   "ko": "무슨 말씀이에요? 저 요리 못 해요!",
+   "note": "yemek yapamam = 요리 못 해요",
+   "tags": [
+    "expr:ne demek"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Sen doldur, ben yine doldururum.",
+   "rd": "센 돌두르, 벤 이네 돌두루룸.",
+   "ko": "네가 채워 오면, 내가 또 채워 주지.",
+   "note": "doldurmak = 채우다",
+   "tags": [],
+   "new": [
+    "doldurmak"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Eyvah… Bu hiç bitmez.",
+   "rd": "에이바흐… 부 히치 비트메즈.",
+   "ko": "헉… 이거 끝이 없겠네요.",
+   "note": "bitmez = 안 끝난다",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

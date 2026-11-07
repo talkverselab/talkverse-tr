@@ -1,0 +1,166 @@
+{
+ "id": "r2_friends_b8",
+ "region": "R2",
+ "island": "friends",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "friends",
+  "culture"
+ ],
+ "title": "따님을 원합니다",
+ "emoji": "📞",
+ "scene": "과제 때문에 Zeynep 을 찾았을 뿐인데 전화를 받은 건 아버지였다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Baba"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "전화 예절, kız istemek 의 뜻 알기",
+ "expressions": [
+  "merhaba",
+  "kusura bakmayın",
+  "hayırdır"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Alo, buyurun, kimsiniz?",
+   "rd": "알로, 부유룬, 킴시니즈?",
+   "ko": "여보세요, 누구시죠?",
+   "note": "kimsiniz = 누구세요",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Merhaba efendim, ben {name}. Zeynep'in arkadaşıyım.",
+   "rd": "메르하바 에펜딤, 벤 {name}. 제이네핀 아르카다시이음.",
+   "ko": "안녕하세요, 저 {name}입니다. 제이넵 친구예요.",
+   "note": "arkadaşıyım = 친구입니다",
+   "tags": [
+    "expr:merhaba"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Memnun oldum. Zeynep şu an mutfakta.",
+   "rd": "멤눈 올둠. 제이넵 슈 안 무트팍타.",
+   "ko": "반갑습니다. 제이넵은 지금 부엌에 있어요.",
+   "note": "şu an = 지금",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Kusura bakmayın, çok önemli bir konu var.",
+   "rd": "쿠수라 박마이은, 촉 외넴리 비르 코누 바르.",
+   "ko": "죄송해요, 아주 중요한 일이 있어서요.",
+   "note": "kusura bakmayın = 죄송합니다",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Hayırdır? Ne istemiştiniz?",
+   "rd": "하이으르드르? 네 이스테미시티니즈?",
+   "ko": "무슨 일이죠? 뭘 원하시나요?",
+   "note": "istemiştiniz = 원하셨나요(공손)",
+   "tags": [
+    "expr:hayırdır"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Kızınızı istiyorum, efendim. Hemen, bugün!",
+   "rd": "크즈느즈 이스티요룸, 에펜딤. 헤멘, 부귄!",
+   "ko": "따님을 원합니다. 지금, 오늘요!",
+   "note": "kız istemek = 청혼하러 가다 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "tl": "Efendim?! Anneniz babanız biliyor mu?",
+   "rd": "에펜딤?! 안네니즈 바바느즈 빌리요르 무?",
+   "ko": "네?! 부모님은 아십니까?",
+   "note": "efendim? = 네?(되묻기)",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Hayır, onlar bilmiyor. Sadece ikimiz konuştuk.",
+   "rd": "하이으르, 온라르 빌미요르. 사데제 이키미즈 코누시툭.",
+   "ko": "아뇨, 부모님은 몰라요. 저희 둘이서만 얘기했어요.",
+   "note": "ikimiz = 우리 둘",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "tl": "Zeynep! Kızım, gel buraya hemen!",
+   "rd": "제이넵! 크즘, 겔 부라야 헤멘!",
+   "ko": "제이넵! 얘야, 당장 이리 와 봐!",
+   "note": "gel buraya = 이리 와",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "tl": "Baba, ver telefonu. Alo, sen ne yaptın?",
+   "rd": "바바, 베르 텔레포누. 알로, 센 네 얍튼?",
+   "ko": "아빠, 전화 줘. 여보세요, 너 뭐 한 거야?",
+   "note": "ver = 줘",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Ödev için seni istedim! Kötü bir şey mi dedim?",
+   "rd": "외데브 이친 세니 이스테딤! 쾨튀 비르 셰이 미 데딤?",
+   "ko": "과제 때문에 널 찾았지! 나 뭐 나쁜 말 했어?",
+   "note": "ödev = 과제",
+   "tags": [],
+   "new": [
+    "ödev"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "tl": "Beni istemişsin. Babam \"Baban nerede\" diyor.",
+   "rd": "베니 이스테미시신. 바밤 \"바반 네레데\" 디요르.",
+   "ko": "네가 나한테 청혼했대. 아빠가 「네 아버지 어디 계시냐」 하셔.",
+   "note": "istemişsin = 청했다더라",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

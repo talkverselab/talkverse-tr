@@ -1,0 +1,228 @@
+{
+ "id": "r3_travel_b6",
+ "region": "R3",
+ "island": "travel",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "travel",
+  "love"
+ ],
+ "domain": [
+  "travel",
+  "love"
+ ],
+ "title": "봐, 고양이",
+ "emoji": "🐈",
+ "scene": "공항 이별, 넴루트에서 한 말을 물을 때마다 Elif 는 고양이가 있다며 말을 돌린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Anons"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "ignore",
+ "flags": [
+  "romance"
+ ],
+ "goal": "bak·hayırdır·yok artık 으로 대답을 재촉하기",
+ "expressions": [
+  "bak",
+  "hayırdır",
+  "ne oldu",
+  "yok artık",
+  "lütfen"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Nemrut'ta söylediğin şeyi konuşacak mıyız, yoksa unuttun mu?",
+   "rd": "넴루타 쇠일레디인 셰이 코누샤작 므이으즈, 욕사 우누툰 무?",
+   "ko": "넴루트에서 네가 한 말 얘기할 거야, 아니면 잊었어?",
+   "note": "söylediğin şey = 네가 한 말",
+   "tags": [
+    "callback:r3_travel_b5"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Bak, kedi! Havalimanında kedi var, inanamıyorum, çok tatlı.",
+   "rd": "박, 케디! 하발리마는다 케디 바르, 이나나므요룸, 촉 타틀르.",
+   "ko": "봐, 고양이! 공항에 고양이가 있어, 믿기지가 않아, 너무 귀여워.",
+   "note": "havalimanı = 공항 · inanamıyorum = 믿기지 않아",
+   "tags": [
+    "expr:bak",
+    "callback:r0_travel_c1"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Elif, kedi güzel ama cevap vermedin. Uçağım bir saat sonra.",
+   "rd": "엘리프, 케디 귀젤 아마 제밥 베르메딘. 우차음 비르 사앗 손라.",
+   "ko": "엘리프, 고양이 예쁜데 대답 안 했잖아. 비행기 한 시간 뒤야.",
+   "note": "cevap = 대답",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Bir saat mi? Çok vakit var. Su alalım mı, simit alalım mı?",
+   "rd": "비르 사앗 미? 촉 바킷 바르. 수 알랄름 므, 시밋 알랄름 므?",
+   "ko": "한 시간? 시간 많네. 물 살까, 시미트 살까?",
+   "note": "vakit = 시간",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Simit istemiyorum, seni dinlemek istiyorum. Bir kez olsun ciddi ol.",
+   "rd": "시밋 이스테미요룸, 세니 딘레멕 이스티요룸. 비르 케즈 올순 지디 올.",
+   "ko": "시미트 필요 없어, 네 말이 듣고 싶어. 한 번만이라도 진지해 봐.",
+   "note": "bir kez olsun = 한 번만이라도",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Çok ciddiyim. Bak, bu simit yüz lira, yok artık!",
+   "rd": "촉 지디임. 박, 부 시밋 위즈 리라, 욕 아르특!",
+   "ko": "나 완전 진지해. 봐, 이 시미트 100리라래, 말도 안 돼!",
+   "note": "ciddiyim = 나 진지해",
+   "tags": [
+    "expr:bak",
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Üç gündür mesajlarıma da bakmıyorsun. Hayırdır, ne oldu sana?",
+   "rd": "위치 귄뒤르 메사즐라르마 다 박므요르순. 하이으르드르, 네 올두 사나?",
+   "ko": "사흘째 내 메시지도 안 보잖아. 왜 그래, 무슨 일이야?",
+   "note": "hayırdır = 왜 그래",
+   "tags": [
+    "expr:hayırdır",
+    "expr:ne oldu"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Bakıyorum, hepsini okudum. Bak, oradaki kedi sana bakıyor.",
+   "rd": "바크요룸, 헵시니 오쿠둠. 박, 오라다키 케디 사나 바크요르.",
+   "ko": "보고 있어, 다 읽었어. 봐, 저기 고양이가 너 쳐다봐.",
+   "note": "oradaki = 저기 있는",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "tl": "{city} uçağının son yolcuları, lütfen kapıya geliniz.",
+   "rd": "{city} 우차으는 손 욜줄라르, 뤼트펜 카프야 겔리니즈.",
+   "ko": "{city}행 비행기 마지막 승객께서는 탑승구로 오시기 바랍니다.",
+   "note": "geliniz = 오십시오(안내 방송)",
+   "tags": [
+    "expr:lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Tamam, gidiyorum. Son kez soruyorum, Elif, bana bir şey söyleyecek misin?",
+   "rd": "타맘, 기디요룸. 손 케즈 소루요룸, 엘리프, 바나 비르 셰이 쇠일레예젝 미신?",
+   "ko": "알았어, 간다. 마지막으로 물을게, 엘리프, 나한테 할 말 있어?",
+   "note": "son kez = 마지막으로",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Bak, kedi.",
+   "rd": "박, 케디.",
+   "ko": "봐, 고양이.",
+   "note": "반전: 끝까지 말을 돌린다",
+   "tags": [
+    "expr:bak"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Kedi yok! Etrafta hiç kedi yok, başından beri yok!",
+   "rd": "케디 욕! 에트라프타 히치 케디 욕, 바신단 베리 욕!",
+   "ko": "고양이 없어! 주위에 고양이 하나도 없어, 처음부터 없었어!",
+   "note": "başından beri = 처음부터",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Biliyorum. Hiç kedi yoktu.",
+   "rd": "빌리요룸. 히치 케디 욕투.",
+   "ko": "알아. 고양이 원래 없었어.",
+   "note": "yoktu = 없었다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Neden yapıyorsun bunu? Bir şey söyle, lütfen.",
+   "rd": "네덴 야프요르순 부누? 비르 셰이 쇠일레, 뤼트펜.",
+   "ko": "왜 이러는 건데? 뭐라도 말해 줘, 제발.",
+   "note": "bir şey söyle = 뭐라도 말해",
+   "tags": [
+    "expr:lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Söylersem gidemezsin. Dönüş biletini al, sonra söylerim.",
+   "rd": "쇠일레르셈 기데메즈신. 되뉘시 빌레티니 알, 손라 쇠일레림.",
+   "ko": "말하면 너 못 가. 돌아오는 표 끊어, 그럼 말할게.",
+   "note": "dönüş bileti = 돌아오는 표",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "tl": "Aldım bile. Bak, kedi.",
+   "rd": "알듬 빌레. 박, 케디.",
+   "ko": "벌써 샀거든. 봐, 고양이.",
+   "note": "bile = 벌써",
+   "tags": [
+    "expr:bak",
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

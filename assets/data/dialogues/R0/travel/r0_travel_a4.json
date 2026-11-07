@@ -1,0 +1,128 @@
+{
+ "id": "r0_travel_a4",
+ "region": "R0",
+ "island": "travel",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "풍선은 못 깨워도",
+ "emoji": "🎈",
+ "scene": "카파도키아 새벽 다섯 시, 풍선이 떠도 Elif 는 꿈쩍도 안 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "hıhı·sorun yok·geldim 으로 아침에 친구 깨우기",
+ "expressions": [
+  "hıhı",
+  "sorun yok",
+  "geldim"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Elif, kalk! Saat beş oldu.",
+   "rd": "엘리프, 칼크! 사앗 베시 올두.",
+   "ko": "엘리프, 일어나! 다섯 시야.",
+   "note": "kalk = 일어나",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Beş dakika daha…",
+   "rd": "베시 다키카 다하…",
+   "ko": "5분만 더…",
+   "note": "daha = 더",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Bak, balonlar havada! Çok güzel!",
+   "rd": "박, 발론라르 하바다! 촉 귀젤!",
+   "ko": "봐, 풍선 떴어! 완전 예뻐!",
+   "note": "balon = 풍선",
+   "tags": [
+    "expr:bak",
+    "expr:çok güzel"
+   ],
+   "new": [
+    "balon"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "tl": "Hıhı.",
+   "rd": "흐흐.",
+   "ko": "응응.",
+   "note": "hıhı = 응응(듣는 척)",
+   "tags": [
+    "expr:hıhı"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Elif, bu hayatta bir kez olur!",
+   "rd": "엘리프, 부 하야타 비르 케즈 올루르!",
+   "ko": "엘리프, 이런 건 평생 한 번이야!",
+   "note": "bir kez = 한 번",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Sorun yok. Bana anlatırsın.",
+   "rd": "소룬 욕. 바나 안라트르슨.",
+   "ko": "괜찮아. 나중에 얘기해 줘.",
+   "note": "sorun yok = 문제없어 — 반전: 안 일어난다",
+   "tags": [
+    "expr:sorun yok"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Peki. Kahvaltı hazır, ben gidiyorum.",
+   "rd": "페키. 카흐발트 하즈르, 벤 기디요룸.",
+   "ko": "알았어. 아침 다 됐대, 나 간다.",
+   "note": "kahvaltı = 아침 식사",
+   "tags": [],
+   "new": [
+    "kahvaltı"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Kahvaltı mı?! Geldim!",
+   "rd": "카흐발트 므?! 겔딤!",
+   "ko": "아침?! 나 간다!",
+   "note": "geldim = 지금 가(벌써 온 셈 치는 말)",
+   "tags": [
+    "expr:geldim"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

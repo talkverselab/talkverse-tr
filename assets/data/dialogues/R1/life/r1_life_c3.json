@@ -1,0 +1,139 @@
+{
+ "id": "r1_life_c3",
+ "region": "R1",
+ "island": "life",
+ "kind": "chat",
+ "draft": true,
+ "purpose": [
+  "study_abroad",
+  "work_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "읽기만 하는 집주인",
+ "emoji": "🧾",
+ "scene": "보일러가 고장 났는데 집주인이 답이 없다. 딱 한 번 빼고",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ev sahibi"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "bozuk·yok artık 으로 집주인에게 메시지 보내기",
+ "expressions": [
+  "merhaba",
+  "yok artık",
+  "geçmiş olsun"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Merhaba. Kombi bozuk, ev çok soğuk.",
+   "rd": "메르하바. 콤비 보죽, 에브 촉 소욱.",
+   "ko": "안녕하세요. 보일러가 고장 나서 집이 너무 추워요.",
+   "note": "soğuk = 추운",
+   "tags": [
+    "expr:merhaba"
+   ],
+   "new": [],
+   "at": "08:10",
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Görüyor musunuz?",
+   "rd": "괴뤼요르 무수누즈?",
+   "ko": "보고 계세요?",
+   "note": "görüyor musunuz? = 보고 계세요?",
+   "tags": [],
+   "new": [],
+   "at": "12:30",
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Üç gündür sıcak su yok.",
+   "rd": "위치 귄뒤르 스작 수 욕.",
+   "ko": "사흘째 뜨거운 물이 안 나와요.",
+   "note": "sıcak su = 뜨거운 물",
+   "tags": [],
+   "new": [],
+   "at": "19:45",
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Mesajımı okudunuz, biliyorum.",
+   "rd": "메사즈므 오쿠두누즈, 빌리요룸.",
+   "ko": "메시지 읽으신 거 다 알아요.",
+   "note": "okudunuz = 읽으셨다",
+   "tags": [],
+   "new": [],
+   "at": "22:05",
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Bugün ayın biri. Kira?",
+   "rd": "부귄 아이은 비리. 키라?",
+   "ko": "오늘 1일이에요. 월세는요?",
+   "note": "ayın biri = 매달 1일 — 반전: 이때만 답한다",
+   "tags": [],
+   "new": [],
+   "at": "00:01",
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Yok artık! Şimdi mi yazıyorsunuz?!",
+   "rd": "욕 아르특! 심디 미 야즈요르수누즈?!",
+   "ko": "말도 안 돼! 이제야 답하세요?!",
+   "note": "yok artık = 말도 안 돼",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": [],
+   "at": "00:02",
+   "stamp": "🥶",
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Kombi ne olacak?",
+   "rd": "콤비 네 올라작?",
+   "ko": "보일러는 어떻게 돼요?",
+   "note": "ne olacak? = 어떻게 돼요?",
+   "tags": [],
+   "new": [],
+   "at": "00:02",
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Geçmiş olsun. Hesap numaramı biliyorsunuz.",
+   "rd": "게치미시 올순. 헤삽 누마라므 빌리요르수누즈.",
+   "ko": "고생 많으시네요. 계좌 번호는 아시죠.",
+   "note": "hesap numarası = 계좌 번호",
+   "tags": [
+    "expr:geçmiş olsun"
+   ],
+   "new": [],
+   "at": "00:03",
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

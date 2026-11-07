@@ -1,0 +1,179 @@
+{
+ "id": "r2_love_b8",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "travel"
+ ],
+ "title": "마지막 배",
+ "emoji": "🌉",
+ "scene": "밤 부둣가, Elif 가 자꾸 차를 한 잔 더 시키는 동안 마지막 페리가 떠난다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "galiba·hadi canım·bilmem 으로 시치미 떼기",
+ "expressions": [
+  "bak",
+  "bence",
+  "bilmem",
+  "eyvah",
+  "galiba",
+  "hadi canım"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Bak, şu ışıklar. Bence İstanbul'un en güzel yeri burası.",
+   "rd": "박, 슈 으시클라르. 벤제 이스탄불룬 엔 귀젤 예리 부라스.",
+   "ko": "봐, 저 불빛. 난 이스탄불에서 여기가 제일 좋아.",
+   "note": "ışık = 불빛",
+   "tags": [
+    "expr:bak",
+    "expr:bence"
+   ],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Çok güzel ya. Saat kaç oldu?",
+   "rd": "촉 귀젤 야. 사앗 카치 올두?",
+   "ko": "진짜 좋다. 몇 시 됐어?",
+   "note": "saat kaç = 몇 시",
+   "tags": [
+    "expr:çok güzel"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Bilmem. Bir çay daha içelim mi?",
+   "rd": "빌멤. 비르 차이 다하 이첼림 미?",
+   "ko": "몰라. 차 한 잔 더 마실까?",
+   "note": "bir çay daha = 차 한 잔 더",
+   "tags": [
+    "expr:bilmem"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Üçüncü çay! Vapur kaçta, biliyor musun?",
+   "rd": "위췬쥐 차이! 바푸르 카치타, 빌리요르 무순?",
+   "ko": "세 잔째야! 페리 몇 시인지 알아?",
+   "note": "kaçta = 몇 시에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Vapur mu? Daha çok var, merak etme.",
+   "rd": "바푸르 무? 다하 촉 바르, 메락 에트메.",
+   "ko": "페리? 아직 한참 남았어, 걱정 마.",
+   "note": "daha çok var = 아직 많이 남았다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Dur, şu giden vapur ne? Eyvah!",
+   "rd": "두르, 슈 기덴 바푸르 네? 에이바흐!",
+   "ko": "잠깐, 저기 가는 배 뭐야? 헉!",
+   "note": "şu giden = 저기 가는",
+   "tags": [
+    "expr:dur",
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Aa. Son vapur gitti galiba.",
+   "rd": "아아. 손 바푸르 기티 갈리바.",
+   "ko": "어머. 마지막 배 간 것 같네.",
+   "note": "son = 마지막",
+   "tags": [
+    "expr:galiba"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Galiba mı? Sen saati biliyordun, değil mi?",
+   "rd": "갈리바 므? 센 사아티 빌리요르둔, 데일 미?",
+   "ko": "같네? 너 시간 알고 있었지?",
+   "note": "biliyordun = 알고 있었다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Neden öyle diyorsun? Hadi canım…",
+   "rd": "네덴 외일레 디요르순? 하디 자늠…",
+   "ko": "왜 그런 말을 해? 에이 설마…",
+   "note": "hadi canım = 에이 설마",
+   "tags": [
+    "expr:hadi canım"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Telefonunda alarm çaldı. \"Son vapur\" yazıyordu.",
+   "rd": "텔레포눈다 알라르므 찰드. \"손 바푸르\" 야즈요르두.",
+   "ko": "네 폰에 알람 울렸어. 「마지막 배」라고 떠 있던데.",
+   "note": "alarm çalmak = 알람이 울리다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Evet, biliyordum. Sen gitme diye.",
+   "rd": "에벳, 빌리요르둠. 센 기트메 디예.",
+   "ko": "응, 알고 있었어. 너 가지 말라고.",
+   "note": "gitme diye = 가지 말라고 — 반전",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Eve yürüyerek dört saat. Hadi, bir çay daha.",
+   "rd": "에베 위뤼예렉 되르트 사앗. 하디, 비르 차이 다하.",
+   "ko": "집까지 걸어서 네 시간. 자, 한 잔 더.",
+   "note": "yürüyerek = 걸어서",
+   "tags": [
+    "expr:hadi"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

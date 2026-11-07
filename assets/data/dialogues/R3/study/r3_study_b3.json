@@ -1,0 +1,204 @@
+{
+ "id": "r3_study_b3",
+ "region": "R3",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "장학금이 부르사로",
+ "emoji": "🚌",
+ "scene": "burs(장학금) 합격 전화를 도시 Bursa 로 잘못 듣고 짐을 싼다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Sekreter"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "bursa(장학금에) 와 Bursa 구별, bilmiyorum ki·ne yapalım 로 받아치기",
+ "expressions": [
+  "bilmiyorum ki",
+  "ne yapalım",
+  "olsun",
+  "şey"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "tl": "Alo, {name}? Bursa başvurmuştunuz, değil mi?",
+   "rd": "알로, {name}? 부르사 바시부르무시투누즈, 데일 미?",
+   "ko": "여보세요, {name} 씨? 장학금 신청하셨죠?",
+   "note": "bursa = burs(장학금)+에 — 도시 Bursa 와 소리가 같다",
+   "tags": [],
+   "new": [
+    "burs"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Bursa mı? Şey… evet, evet.",
+   "rd": "부르사 므? 셰이… 에벳, 에벳.",
+   "ko": "부르사요? 저… 네, 네.",
+   "note": "Bursa = 튀르키예 도시",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "tl": "Müjde, çıktı! Pazartesi başlıyor, hayırlı olsun.",
+   "rd": "뮈즈데, 측트! 파자르테시 바실르요르, 하이으를르 올순.",
+   "ko": "기쁜 소식이에요, 됐어요! 월요일부터 시작이고요, 축하해요.",
+   "note": "müjde = 좋은 소식",
+   "tags": [
+    "expr:olsun"
+   ],
+   "new": [
+    "müjde"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Zeynep, beni Bursa'ya gönderiyorlar! Pazartesi!",
+   "rd": "제이넵, 베니 부르사야 괸데리요를라르! 파자르테시!",
+   "ko": "Zeynep, 나 부르사로 보낸대! 월요일에!",
+   "note": "göndermek = 보내다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Ne? Neden Bursa? Bölüm mü değişti?",
+   "rd": "네? 네덴 부르사? 뵐륌 뮈 데이시티?",
+   "ko": "뭐? 왜 부르사? 학과가 바뀐 거야?",
+   "note": "değişmek = 바뀌다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Bilmiyorum ki. Bileti aldım bile, pazar sabahı otobüs.",
+   "rd": "빌미요룸 키. 빌레티 알듬 빌레, 파자르 사바흐 오토뷔스.",
+   "ko": "나도 몰라. 표도 벌써 샀어, 일요일 아침 버스.",
+   "note": "bile = 벌써",
+   "tags": [
+    "expr:bilmiyorum ki"
+   ],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Bursa'yı hiç sevmem. Çok uzak.",
+   "rd": "부르사이으 히치 세브멤. 촉 우작.",
+   "ko": "나 부르사 하나도 안 좋아해. 너무 멀어.",
+   "note": "hiç sevmem = 전혀 안 좋아해",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Otobüsle üç saat, Zeynep. Çok yakın.",
+   "rd": "오토뷔슬레 위치 사앗, 제이넵. 촉 야큰.",
+   "ko": "버스로 세 시간이야, Zeynep. 아주 가까워.",
+   "note": "yakın = 가까운",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Olsun. Yine de uzak.",
+   "rd": "올순. 이네 데 우작.",
+   "ko": "상관없어. 그래도 멀어.",
+   "note": "yine de = 그래도",
+   "tags": [
+    "expr:olsun",
+    "simkung"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "tl": "{name}, burs formunu imzalamadınız. Para yatmayacak!",
+   "rd": "{name}, 부르스 포르무누 임잘라마드느즈. 파라 야트마야작!",
+   "ko": "{name} 씨, 장학금 서류 서명 안 하셨어요. 돈 안 들어와요!",
+   "note": "yatmak = (돈이) 들어오다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "tl": "Burs mu? Hangi burs? Ben Bursa'ya gidiyorum!",
+   "rd": "부르스 무? 한기 부르스? 벤 부르사야 기디요룸!",
+   "ko": "장학금이요? 무슨 장학금이요? 저 부르사 가는데요!",
+   "note": "hangi = 어느 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "tl": "Bursa mı? Burs dedim canım, burs! Her ay para!",
+   "rd": "부르사 므? 부르스 데딤 자늠, 부르스! 헤르 아이 파라!",
+   "ko": "부르사요? 장학금이라고 했잖아요, 장학금! 매달 돈이요!",
+   "note": "her ay = 매달",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Yani gitmiyorsun. Peki bilet ne olacak?",
+   "rd": "야니 기트미요르순. 페키 빌렛 네 올라작?",
+   "ko": "그러니까 안 가는 거네. 그럼 표는 어떻게 돼?",
+   "note": "yani = 그러니까",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "tl": "Geri almıyorlar. Ne yapalım, boşa gitti.",
+   "rd": "게리 알므요를라르. 네 야팔름, 보샤 기티.",
+   "ko": "환불 안 된대. 어쩌겠어, 날렸지 뭐.",
+   "note": "ne yapalım = 어쩌겠어",
+   "tags": [
+    "expr:ne yapalım"
+   ],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "tl": "Bir bilet daha alırım. Zaten Bursa'yı severim.",
+   "rd": "비르 빌렛 다하 알르름. 자텐 부르사이으 세베림.",
+   "ko": "표 한 장 더 사면 되지. 나 원래 부르사 좋아해.",
+   "note": "zaten = 원래",
+   "tags": [
+    "simkung"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "id": "r1_culture_a3",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "love"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "보는 사람 누구야",
+ "emoji": "🧿",
+ "scene": "Elif 가 내 가방에 나자르를 달아 주며 설명하다가 말이 샌다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "ne demek·bilmem 으로 뜻 묻고 얼버무리기",
+ "expressions": [
+  "dur",
+  "şey",
+  "ne demek",
+  "yani",
+  "maşallah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Dur! Çantana bir şey takıyorum.",
+   "rd": "두르! 찬타나 비르 셰이 타크요룸.",
+   "ko": "잠깐! 네 가방에 뭐 달아 줄게.",
+   "note": "takmak = 달다",
+   "tags": [
+    "expr:dur",
+    "expr:şey"
+   ],
+   "new": [
+    "çanta"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Bu ne? Mavi bir göz mü?",
+   "rd": "부 네? 마비 비르 괴즈 뮈?",
+   "ko": "이거 뭐야? 파란 눈이야?",
+   "note": "göz = 눈",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Nazar boncuğu. Seni nazardan korur.",
+   "rd": "나자르 본주우. 세니 나자르단 코루르.",
+   "ko": "나자르 구슬. 나쁜 눈길에서 널 지켜 줘.",
+   "note": "nazar = 시샘하는 눈길",
+   "tags": [],
+   "new": [
+    "nazar",
+    "boncuk"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Nazar ne demek?",
+   "rd": "나자르 네 데멕?",
+   "ko": "나자르가 무슨 뜻이야?",
+   "note": "ne demek = 무슨 뜻이야",
+   "tags": [
+    "expr:ne demek"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Biri sana çok bakar, sonra başın ağrır.",
+   "rd": "비리 사나 촉 바카르, 손라 바신 아르르.",
+   "ko": "누가 널 너무 쳐다보면 머리가 아파져.",
+   "note": "başın ağrır = 머리가 아프다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Kim bana çok bakıyor?",
+   "rd": "킴 바나 촉 바크요르?",
+   "ko": "누가 날 그렇게 쳐다보는데?",
+   "note": "kim = 누구",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Ben değilim! Yani bazen…",
+   "rd": "벤 데일림! 야니 바젠…",
+   "ko": "나는 아니야! 그러니까 가끔…",
+   "note": "bazen = 가끔 — 들켰다",
+   "tags": [
+    "simkung",
+    "expr:yani"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Maşallah de o zaman!",
+   "rd": "마샬라흐 데 오 자만!",
+   "ko": "그럼 「마샬라」 해 줘!",
+   "note": "maşallah = 눈길을 막는 말",
+   "tags": [
+    "expr:maşallah"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

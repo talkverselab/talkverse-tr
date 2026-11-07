@@ -1,0 +1,131 @@
+{
+ "id": "r1_travel_a5",
+ "region": "R1",
+ "island": "travel",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel",
+  "culture"
+ ],
+ "title": "이게 살살이에요",
+ "emoji": "🧼",
+ "scene": "하맘 때밀이가 시작되고, 「살살요」 라고 해도 소용이 없다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Keseci"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "yavaş lütfen·merak etmeyin 으로 하맘에서 부탁하기",
+ "expressions": [
+  "hoş geldiniz",
+  "yavaş lütfen",
+  "aman",
+  "harika"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "Hoş geldiniz. Kese istiyorsunuz, değil mi?",
+   "rd": "호시 겔디니즈. 케세 이스티요르수누즈, 데일 미?",
+   "ko": "어서 오세요. 때밀이 하시는 거죠?",
+   "note": "kese = 때밀이 수건·때밀이",
+   "tags": [
+    "expr:hoş geldiniz"
+   ],
+   "new": [
+    "kese"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Evet, ama yavaş lütfen. İlk kez.",
+   "rd": "에벳, 아마 야바시 뤼트펜. 일크 케즈.",
+   "ko": "네. 근데 살살요. 처음이에요.",
+   "note": "yavaş lütfen = 살살요, 천천히요",
+   "tags": [
+    "expr:yavaş lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Tamam, merak etmeyin. Başlıyorum.",
+   "rd": "타맘, 메락 에트메인. 바실르요룸.",
+   "ko": "네, 걱정 마세요. 시작합니다.",
+   "note": "merak etmeyin = 걱정 마세요",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Aman! Yavaş lütfen, çok yavaş!",
+   "rd": "아만! 야바시 뤼트펜, 촉 야바시!",
+   "ko": "아이고! 살살요, 아주 살살!",
+   "note": "aman = 아이고",
+   "tags": [
+    "expr:aman",
+    "expr:yavaş lütfen"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "tl": "Bu yavaş zaten.",
+   "rd": "부 야바시 자텐.",
+   "ko": "이게 살살인데요.",
+   "note": "zaten = 이미, 어차피 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "tl": "Ya normali nasıl?",
+   "rd": "야 노르말리 나슬?",
+   "ko": "그럼 보통은 어떤데요?",
+   "note": "normal = 보통 · ya …? = 그럼 …는?",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Görmek ister misiniz?",
+   "rd": "괴르멕 이스테르 미시니즈?",
+   "ko": "보여 드릴까요?",
+   "note": "görmek = 보다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "tl": "Hayır! Bu çok güzel, harika!",
+   "rd": "하이으르! 부 촉 귀젤, 하리카!",
+   "ko": "아니요! 이거 너무 좋아요, 최고예요!",
+   "note": "harika = 끝내줘요",
+   "tags": [
+    "expr:çok güzel",
+    "expr:harika"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

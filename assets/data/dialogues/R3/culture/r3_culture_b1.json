@@ -1,0 +1,229 @@
+{
+ "id": "r3_culture_b1",
+ "region": "R3",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "리본은 누가 잘랐나",
+ "emoji": "🎀",
+ "scene": "Elif 사촌의 약혼식, 반지와 가위가 든 쟁반을 내가 들고 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Elif",
+  "C": "Dede",
+  "D": "Teyze"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "eyvah·kusura bakmayın·neyse 로 잔칫날 사고 수습하기",
+ "expressions": [
+  "aynen",
+  "tamam",
+  "şey",
+  "bir dakika",
+  "dur",
+  "eyvah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "tl": "{name}, sana önemli bir görev veriyorum. Tepsiyi sen tutacaksın.",
+   "rd": "{name}, 사나 외넴리 비르 괴레브 베리요룸. 텝시이 센 투타작슨.",
+   "ko": "{name}, 너한테 중요한 임무를 줄게. 쟁반은 네가 들어.",
+   "note": "görev = 임무",
+   "tags": [],
+   "new": [
+    "tepsi"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "tl": "Ne tepsisi? Üstünde yüzükler ve makas var, değil mi?",
+   "rd": "네 텝시시? 위스튄데 위쥐클레르 베 마카스 바르, 데일 미?",
+   "ko": "무슨 쟁반? 위에 반지랑 가위 있는 거, 맞지?",
+   "note": "yüzük = 반지",
+   "tags": [],
+   "new": [
+    "yüzük",
+    "makas"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "tl": "Aynen. Yüzükler kırmızı bir kurdeleyle bağlı. Dede konuşur, sonra keser.",
+   "rd": "아이넨. 위쥐클레르 크르므즈 비르 쿠르델레일레 발르. 데데 코누슈르, 손라 케세르.",
+   "ko": "맞아. 반지는 빨간 리본으로 묶여 있어. 할아버지가 말하고 나서 자르셔.",
+   "note": "kurdele = 리본",
+   "tags": [
+    "expr:aynen"
+   ],
+   "new": [
+    "kurdele"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "tl": "Tamam, çok kolay. Ben sadece tutuyorum, hiçbir şeye dokunmuyorum.",
+   "rd": "타맘, 촉 콜라이. 벤 사데제 투투요룸, 히치비르 셰예 도쿤무요룸.",
+   "ko": "알았어, 쉽네. 난 들고만 있고, 아무것도 안 건드려.",
+   "note": "dokunmak = 건드리다",
+   "tags": [
+    "expr:tamam"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "tl": "Değerli misafirler! İki aile bugün çok mutlu. Size bir şey anlatayım.",
+   "rd": "데에를리 미사피를레르! 이키 아일레 부귄 촉 무틀루. 시제 비르 셰이 안라타이음.",
+   "ko": "귀한 손님 여러분! 두 집안이 오늘 정말 기쁩니다. 얘기 하나 해 드리지요.",
+   "note": "değerli = 귀한",
+   "tags": [
+    "expr:şey"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "tl": "Şimdi uzun konuşacak, yirmi dakika sürer. Kolun ağrıyor mu?",
+   "rd": "심디 우준 코누샤작, 이르미 다키카 쉬레르. 콜룬 아르요르 무?",
+   "ko": "이제 길게 하실 거야, 20분은 걸려. 팔 아파?",
+   "note": "sürmek = 걸리다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Ağrımıyor ama makas kayıyor. Elif, bir dakika, tutar mısın?",
+   "rd": "아르므요르 아마 마카스 카이으요르. 엘리프, 비르 다키카, 투타르 므슨?",
+   "ko": "안 아픈데 가위가 미끄러져. Elif, 잠깐만, 잡아 줄래?",
+   "note": "kaymak = 미끄러지다",
+   "tags": [
+    "expr:bir dakika"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "tl": "Dur, dur! Öyle tutma, kurdeleye değiyor!",
+   "rd": "두르, 두르! 외일레 투트마, 쿠르델레예 데이요르!",
+   "ko": "잠깐, 잠깐! 그렇게 잡지 마, 리본에 닿잖아!",
+   "note": "değmek = 닿다",
+   "tags": [
+    "expr:dur"
+   ],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "tl": "Eyvah! Kesildi! Elif, kurdele kesildi!",
+   "rd": "에이바흐! 케실디! 엘리프, 쿠르델레 케실디!",
+   "ko": "헉! 잘렸어! Elif, 리본 잘렸어!",
+   "note": "kesildi = 잘렸다 — 반전",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "tl": "Aman! Kim kesti? Dede daha bitirmedi ki!",
+   "rd": "아만! 킴 케스티? 데데 다하 비티르메디 키!",
+   "ko": "아이고! 누가 잘랐어? 할아버지 아직 안 끝나셨는데!",
+   "note": "daha = 아직",
+   "tags": [
+    "expr:aman"
+   ],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "tl": "Ne oldu? Neden herkes alkışlıyor? Ben daha konuşacaktım!",
+   "rd": "네 올두? 네덴 헤르케스 알크실르요르? 벤 다하 코누샤작틈!",
+   "ko": "무슨 일이냐? 왜 다들 박수를 쳐? 나 아직 할 말 있는데!",
+   "note": "alkışlamak = 박수 치다",
+   "tags": [
+    "expr:ne oldu"
+   ],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Kusura bakmayın! Kurdeleyi yeniden bağlayalım, tekrar kesersiniz!",
+   "rd": "쿠수라 박마이은! 쿠르델레이 예니덴 발라얄름, 텍라르 케세르시니즈!",
+   "ko": "죄송합니다! 리본 다시 묶을게요, 다시 자르시면 돼요!",
+   "note": "yeniden = 다시",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "tl": "Bağlayamazsın, yüzükler yere düştü. Biri masanın altına gitti.",
+   "rd": "발라야마즈슨, 위쥐클레르 예레 뒤시튀. 비리 마사는 알트나 기티.",
+   "ko": "못 묶어, 반지가 바닥에 떨어졌어. 하나는 테이블 밑으로 갔고.",
+   "note": "bağlayamazsın = 못 묶는다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 14,
+   "speaker": "D",
+   "tl": "Herkes dursun! Kimse hareket etmesin, yüzük yerde!",
+   "rd": "헤르케스 두르순! 킴세 하레켓 에트메신, 위쥑 예르데!",
+   "ko": "다들 멈춰요! 아무도 움직이지 마, 반지가 바닥에 있어!",
+   "note": "hareket etmek = 움직이다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "tl": "Neyse. Konuşmam bitmedi. Hepiniz oturun, yeniden başlıyorum.",
+   "rd": "네이세. 코누시맘 비트메디. 헤피니즈 오투룬, 예니덴 바실르요룸.",
+   "ko": "됐다. 내 말 안 끝났어. 다들 앉아, 처음부터 다시 한다.",
+   "note": "neyse = 아무튼",
+   "tags": [
+    "expr:neyse"
+   ],
+   "new": []
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "tl": "Eline sağlık, {name}. Şimdi kırk dakika.",
+   "rd": "엘리네 살륵, {name}. 심디 크르크 다키카.",
+   "ko": "수고했다, {name}. 이제 40분이다.",
+   "note": "eline sağlık = 수고했어(비꼼)",
+   "tags": [
+    "expr:eline sağlık"
+   ],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

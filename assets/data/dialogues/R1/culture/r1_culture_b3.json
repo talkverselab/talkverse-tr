@@ -1,0 +1,128 @@
+{
+ "id": "r1_culture_b3",
+ "region": "R1",
+ "island": "culture",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "making_friends",
+  "media"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "밤 12시의 초인종",
+ "emoji": "🪕",
+ "scene": "Zeynep 이 밤에 사즈를 치는데, 옆집 사람이 문을 두드린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Komşu"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "kusura bakmayın 으로 이웃에게 사과하기",
+ "expressions": [
+  "boş ver",
+  "eyvah",
+  "kusura bakmayın"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Zeynep, saat on iki. Komşular uyuyor.",
+   "rd": "제이넵, 사앗 온 이키. 콤슐라르 우유요르.",
+   "ko": "Zeynep, 12시야. 이웃들 자.",
+   "note": "komşu = 이웃",
+   "tags": [],
+   "new": [
+    "komşu"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Boş ver. Sadece bir türkü.",
+   "rd": "보시 베르. 사데제 비르 튀르퀴.",
+   "ko": "신경 쓰지 마. 민요 하나만.",
+   "note": "türkü = 튀르키예 민요",
+   "tags": [
+    "expr:boş ver"
+   ],
+   "new": [
+    "türkü",
+    "saz"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Eyvah, kapı çalıyor!",
+   "rd": "에이바흐, 카프 찰르요르!",
+   "ko": "헉, 초인종 울린다!",
+   "note": "kapı çalıyor = 누가 왔다",
+   "tags": [
+    "expr:eyvah"
+   ],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Bu ses ne? Saat kaç biliyor musunuz?",
+   "rd": "부 세스 네? 사앗 카치 빌리요르 무수누즈?",
+   "ko": "이 소리 뭡니까? 몇 시인지 아세요?",
+   "note": "ses = 소리",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Kusura bakmayın! Hemen bitiriyoruz.",
+   "rd": "쿠수라 박마이은! 헤멘 비티리요루즈.",
+   "ko": "죄송합니다! 바로 끝낼게요.",
+   "note": "kusura bakmayın = 죄송합니다",
+   "tags": [
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "Hayır. O türküyü babam çalardı.",
+   "rd": "하이으르. 오 튀르퀴위 바밤 찰라르드.",
+   "ko": "아니요. 그 노래, 우리 아버지가 치시던 거예요.",
+   "note": "çalardı = 치곤 했다 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "tl": "Bir daha çalayım mı?",
+   "rd": "비르 다하 찰라이음 므?",
+   "ko": "한 번 더 칠까요?",
+   "note": "bir daha = 한 번 더",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Çalın. Ben de sazımı getiriyorum.",
+   "rd": "찰른. 벤 데 사즈므 게티리요룸.",
+   "ko": "치세요. 나도 내 사즈 가져올게요.",
+   "note": "getiriyorum = 가져온다",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}

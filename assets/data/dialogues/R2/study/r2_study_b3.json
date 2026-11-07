@@ -1,0 +1,162 @@
+{
+ "id": "r2_study_b3",
+ "region": "R2",
+ "island": "study",
+ "kind": "long",
+ "draft": true,
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "5분 뒤 돌아옴",
+ "emoji": "🚪",
+ "scene": "교수 면담을 가니 문에 「5분 뒤 돌아옴」 쪽지가 붙어 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Zeynep",
+  "C": "Sekreter"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "yok artık·ee·az önce 로 사람 찾아다니기",
+ "expressions": [
+  "ee",
+  "affedersiniz",
+  "yok artık"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "tl": "Hocanın kapısında “Beş dakikaya dönerim” yazıyor.",
+   "rd": "호자는 카프슨다 베시 다키카야 되네림 야즈요르.",
+   "ko": "교수님 문에 「5분 뒤 돌아옴」 이라고 써 있어.",
+   "note": "dönerim = 돌아온다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "tl": "Ee? Bekle o zaman.",
+   "rd": "에에? 베클레 오 자만.",
+   "ko": "그래서? 그럼 기다려.",
+   "note": "ee = 그래서?",
+   "tags": [
+    "expr:ee"
+   ],
+   "new": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "tl": "Bekledim. Bir saat oldu.",
+   "rd": "베클레딤. 비르 사앗 올두.",
+   "ko": "기다렸어. 한 시간 됐어.",
+   "note": "bir saat = 한 시간",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "tl": "Affedersiniz, kimi bekliyorsunuz?",
+   "rd": "아페데르시니즈, 키미 베클리요르수누즈?",
+   "ko": "실례합니다, 누구 기다리세요?",
+   "note": "kimi = 누구를",
+   "tags": [
+    "expr:affedersiniz"
+   ],
+   "new": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "tl": "Hocamı. Kapıda beş dakika yazıyor.",
+   "rd": "호자므. 카프다 베시 다키카 야즈요르.",
+   "ko": "교수님이요. 문에 5분이라고 써 있어서요.",
+   "note": "yazıyor = 쓰여 있다",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "tl": "O yazı üç yıldır orada.",
+   "rd": "오 야즈 위치 이을드르 오라다.",
+   "ko": "그 쪽지, 3년째 거기 붙어 있어요.",
+   "note": "üç yıldır = 3년째 — 반전",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "tl": "Yok artık! Hoca nerede peki?",
+   "rd": "욕 아르특! 호자 네레데 페키?",
+   "ko": "말도 안 돼요! 그럼 교수님은 어디 계세요?",
+   "note": "peki = 그럼",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": []
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "tl": "Az önce kantine gitti. Çabuk olun.",
+   "rd": "아즈 왼제 칸티네 기티. 차북 올룬.",
+   "ko": "방금 매점에 가셨어요. 서두르세요.",
+   "note": "az önce = 방금",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Kantindeyim. Hoca yok, ama masası var.",
+   "rd": "칸틴데임. 호자 욕, 아마 마사스 바르.",
+   "ko": "나 매점이야. 교수님은 없고 자리만 있어.",
+   "note": "masa = 테이블",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Çayı hâlâ sıcak! Buradaydı!",
+   "rd": "차이으 할라 스작! 부라다이드!",
+   "ko": "차가 아직 뜨거워! 여기 있었어!",
+   "note": "sıcak = 뜨거운",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "tl": "Bardağın altında bir kâğıt var.",
+   "rd": "바르다은 알튼다 비르 카읏 바르.",
+   "ko": "잔 밑에 종이가 있어.",
+   "note": "altında = 밑에",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "tl": "Okuyayım. “Beş dakikaya dönerim.”",
+   "rd": "오쿠야이음. 베시 다키카야 되네림.",
+   "ko": "읽어 볼게. 「5분 뒤 돌아옴.」",
+   "note": "okuyayım = 읽어 볼게",
+   "tags": [],
+   "new": []
+  }
+ ],
+ "review": {
+  "draft": "claude 2026-11-07"
+ }
+}
