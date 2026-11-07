@@ -77,7 +77,7 @@ class _ProgressScreenState extends State<ProgressScreen> {
                 ),
                 const SizedBox(height: 10),
                 _StatCard(
-                  label: tr('빈도 단어 (DB)'),
+                  label: tr('절벽 단어'),
                   badge: 'W',
                   done: _wordsTotal,
                   total: _wordsTotal,

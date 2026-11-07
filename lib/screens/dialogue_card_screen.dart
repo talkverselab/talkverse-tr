@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../services/ko_reading.dart';
+import '../widgets/lemma_text.dart';
+
 import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
@@ -158,9 +161,9 @@ class _CardText extends StatelessWidget {
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text('$name · ${t.num}', style: const TextStyle(fontSize: 11, color: AppColors.muted)),
                 const SizedBox(height: 8),
-                Text(LearnerPrefs.fill(t.tl), style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.beni, height: 1.3)),
+                LemmaText(text: LearnerPrefs.fill(t.tl), lemmas: t.lemmas, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.beni, height: 1.3)),
                 if (t.reading.isNotEmpty && t.reading != t.tl) ...[const SizedBox(height: 6), Text(LearnerPrefs.fill(t.reading), style: const TextStyle(fontSize: 15, color: AppColors.ai, fontWeight: FontWeight.w700))],
-                if (t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd), style: const TextStyle(fontSize: 13, color: AppColors.muted)),
+                if (t.rd.isNotEmpty) KoReadingText(LearnerPrefs.fill(t.rd), style: const TextStyle(fontSize: 13, color: AppColors.muted)),
                 const SizedBox(height: 12),
                 const BrushDivider(height: 2),
                 const SizedBox(height: 10),

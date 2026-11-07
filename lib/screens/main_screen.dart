@@ -6,6 +6,7 @@ import '../main.dart';
 import '../widgets/spanish_decor.dart';
 import 'chunk_search_screen.dart';
 import 'affix_screens.dart';
+import 'about_screen.dart';
 import 'conversation_screen.dart';
 import 'dialogue_screen.dart';
 import 'episode_screen.dart';
@@ -32,14 +33,12 @@ class _MainScreenState extends State<MainScreen> {
 
   static const List<Widget> _screens = [
     HomeScreen(),
-    ConversationScreen(),
     ProgressScreen(),
     ProfileScreen(),
   ];
 
   static List<NavigationDestination> get _tabs => [
     NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home), label: tr('홈')),
-    NavigationDestination(icon: Icon(Icons.menu_book_outlined), selectedIcon: Icon(Icons.menu_book), label: tr('학습')),
     NavigationDestination(icon: Icon(Icons.bar_chart_outlined), selectedIcon: Icon(Icons.bar_chart), label: tr('진행')),
     NavigationDestination(icon: Icon(Icons.person_outline), selectedIcon: Icon(Icons.person), label: tr('프로필')),
   ];
@@ -87,6 +86,27 @@ class _MainScreenState extends State<MainScreen> {
                     for (final t in _tabs)
                       NavigationRailDestination(icon: t.icon, selectedIcon: t.selectedIcon, label: Text(t.label)),
                   ],
+                  // 맨 아래 「앱 소개」 — 절벽구간 설명
+                  trailing: Expanded(
+                    child: Align(
+                      alignment: Alignment.bottomCenter,
+                      child: Padding(
+                        padding: const EdgeInsets.only(bottom: 16),
+                        child: InkWell(
+                          onTap: () => openPane(context, (_) => const AboutScreen()),
+                          borderRadius: BorderRadius.circular(8),
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+                            child: Column(mainAxisSize: MainAxisSize.min, children: [
+                              const Icon(Icons.info_outline, color: AppColors.muted, size: 22),
+                              const SizedBox(height: 4),
+                              Text(tr('앱 소개'), style: const TextStyle(color: AppColors.muted, fontSize: 11, fontWeight: FontWeight.w600)),
+                            ]),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
                 const VerticalDivider(width: 1, thickness: 1, color: AppColors.line),
                 SizedBox(width: left, child: stack),
@@ -156,7 +176,7 @@ class HomeScreen extends StatelessWidget {
                           Row(
                             children: const [
                               Text(
-                                '¡Hola!',
+                                'Merhaba!',
                                 style: TextStyle(
                                   fontSize: 28,
                                   fontWeight: FontWeight.w700,
@@ -206,23 +226,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
                 const _TodayMission(),
-                const SizedBox(height: 22),
-                Row(
-                  children: [
-                    SolMark(size: 22, color: AppColors.rojo),
-                    SizedBox(width: 8),
-                    Text(
-                      tr('메인 메뉴'),
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.w600,
-                        color: AppColors.tinta,
-                        letterSpacing: -0.1,
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 10),
+                const SizedBox(height: 12),
                 _MenuGrid(),
                 const SizedBox(height: 28),
                 const BandDivider(),
@@ -360,51 +364,69 @@ class _TodayMissionState extends State<_TodayMission> {
   }
 }
 
+/// 메뉴 — 문법 → 회화 → 단어 → 에피소드(일본어앱 2026-11-07 순서. 기초·참고는 터키어에 아직 메뉴가 없다).
 class _MenuGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final items = <_MenuItem>[
-      _MenuItem(label: tr('회화'), sub: 'Konuşma', badge: 'Ch', color: AppColors.rojo,
-        builder: (_) => const DialogueHomeScreen()),
-      _MenuItem(label: tr('문법'), sub: 'Dilbilgisi', badge: 'G', color: AppColors.rojoDeep,
-        builder: (_) => const GrammarHubScreen()),
-      _MenuItem(label: tr('문장 카드'), sub: 'Cümleler', badge: 'S', color: AppColors.tinta,
-        builder: (_) => const SentenceFlashcardScreen()),
-      _MenuItem(label: tr('말하기'), sub: 'Konuşma', badge: '🎙', color: AppColors.rojo,
-        builder: (_) => const SpeakingPracticeScreen()),
-      _MenuItem(label: tr('청크 검색'), sub: 'Arama', badge: '🔍', color: AppColors.gualdaDeep,
-        builder: (_) => const ChunkSearchScreen()),
-      _MenuItem(label: tr('동사 활용'), sub: 'Çekim', badge: 'V', color: AppColors.irregular,
-        builder: (_) => const VerbScreen()),
-      _MenuItem(label: tr('단어'), sub: 'Kelime', badge: 'W', color: AppColors.oliva,
-        builder: (_) => const TopicVocabScreen()),
-      _MenuItem(label: tr('표현'), sub: 'İfade', badge: 'E', color: AppColors.rojoLight,
-        builder: (_) => TopicVocabScreen(
-            title: tr('주제별 표현'),
-            asset: 'assets/data/vocab/travel_expressions.json')),
-      _MenuItem(label: tr('접사'), sub: 'Ekler', badge: '-ler', color: AppColors.ai,
-        builder: (_) => const AffixDictionaryScreen()),
-      _MenuItem(label: tr('빈도 단어'), sub: 'Sıklık', badge: 'F', color: AppColors.mar,
-        builder: (_) => const WordFreqScreen()),
-      _MenuItem(label: tr('성·수'), sub: 'Cinsiyet', badge: 'el/la', color: AppColors.mar,
-        builder: (_) => _ComingSoon(title: tr('성·수 일치'))),
-      _MenuItem(label: tr('발음'), sub: 'Telaffuz', badge: 'rr', color: AppColors.er,
-        builder: (_) => _ComingSoon(title: tr('발음 (rr · ñ · 강세)'))),
-      _MenuItem(label: tr('단어 카드'), sub: 'Kartlar', badge: 'R', color: AppColors.gualdaDeep,
-        builder: (_) => const WordFlashcardScreen()),
+    final sections = <(String, List<_MenuItem>)>[
+      (tr('문법'), [
+        _MenuItem(label: tr('문법'), sub: 'Dilbilgisi', badge: 'G', color: AppColors.rojoDeep,
+          builder: (_) => const GrammarHubScreen()),
+        _MenuItem(label: tr('접사'), sub: 'Ekler', badge: '-ler', color: AppColors.ai,
+          builder: (_) => const AffixDictionaryScreen()),
+        _MenuItem(label: tr('동사 활용'), sub: 'Çekim', badge: 'V', color: AppColors.irregular,
+          builder: (_) => const VerbScreen()),
+      ]),
+      (tr('회화'), [
+        _MenuItem(label: tr('회화'), sub: 'Konuşma', badge: 'Ch', color: AppColors.rojo,
+          builder: (_) => const DialogueHomeScreen()),
+        _MenuItem(label: tr('문장 말하기'), sub: tr('한글 보고 터키어로 · 10초/5초/2초'), badge: '🎙', color: AppColors.rojo,
+          builder: (_) => const SpeakingPracticeScreen()),
+        _MenuItem(label: tr('문장 카드'), sub: 'Cümleler', badge: 'S', color: AppColors.tinta,
+          builder: (_) => const SentenceFlashcardScreen()),
+        _MenuItem(label: tr('청크 검색'), sub: 'Arama', badge: '🔍', color: AppColors.gualdaDeep,
+          builder: (_) => const ChunkSearchScreen()),
+      ]),
+      (tr('단어'), [
+        _MenuItem(label: tr('절벽 단어'), sub: tr('R1~R5 · 빈도 2,000'), badge: 'F', color: AppColors.mar,
+          builder: (_) => const WordFreqScreen()),
+        _MenuItem(label: tr('단어'), sub: 'Kelime', badge: 'W', color: AppColors.oliva,
+          builder: (_) => const TopicVocabScreen()),
+        _MenuItem(label: tr('표현'), sub: 'İfade', badge: 'E', color: AppColors.rojoLight,
+          builder: (_) => TopicVocabScreen(
+              title: tr('주제별 표현'),
+              asset: 'assets/data/vocab/travel_expressions.json')),
+        _MenuItem(label: tr('단어 카드'), sub: 'Kartlar', badge: 'R', color: AppColors.gualdaDeep,
+          builder: (_) => const WordFlashcardScreen()),
+      ]),
+      (tr('에피소드'), [
+        _MenuItem(label: tr('에피소드'), sub: 'Bölümler', badge: 'Ep', color: AppColors.rojoDeep,
+          builder: (_) => const ConversationScreen()),
+      ]),
     ];
 
-    return GridView.builder(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 3,
-        mainAxisSpacing: 10,
-        crossAxisSpacing: 10,
-        mainAxisExtent: 150, // 고정 높이 — 아이패드 왼쪽 좁은 칸(300~440)에서 비율로 잡으면 아래가 넘친다
-      ),
-      itemCount: items.length,
-      itemBuilder: (context, i) => _MenuTile(item: items[i]),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        for (final (title, items) in sections) ...[
+          Padding(
+            padding: const EdgeInsets.only(top: 10, bottom: 8),
+            child: Text(title, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: AppColors.tinta, letterSpacing: -0.1)),
+          ),
+          GridView.builder(
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 3,
+              mainAxisSpacing: 10,
+              crossAxisSpacing: 10,
+              mainAxisExtent: 150, // 고정 높이 — 아이패드 왼쪽 좁은 칸(300~440)에서 비율로 잡으면 아래가 넘친다
+            ),
+            itemCount: items.length,
+            itemBuilder: (context, i) => _MenuTile(item: items[i]),
+          ),
+        ],
+      ],
     );
   }
 }
@@ -462,29 +484,12 @@ class _MenuTile extends StatelessWidget {
               Text(
                 item.sub,
                 style: const TextStyle(fontSize: 10, color: AppColors.tintaLight),
+                textAlign: TextAlign.center,
+                maxLines: 2,
                 overflow: TextOverflow.ellipsis,
               ),
             ],
           ),
-        ),
-      ),
-    );
-  }
-}
-
-class _ComingSoon extends StatelessWidget {
-  final String title;
-  const _ComingSoon({required this.title});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppColors.cal,
-      appBar: AppBar(title: Text(title)),
-      body: Center(
-        child: Text(
-          tr('Próximamente · 준비 중'),
-          style: TextStyle(color: AppColors.tintaLight, letterSpacing: 2),
         ),
       ),
     );

@@ -15,7 +15,7 @@ class LemmaChips extends StatelessWidget {
   final bool compact;
   const LemmaChips({super.key, required this.turn, this.compact = false});
 
-  static Future<Map<String, WordRow>> _lookup(List<String> bases) async {
+  static Future<Map<String, WordRow>> lookup(List<String> bases) async {
     if (bases.isEmpty) return const {};
     final rows = await (appDb.select(appDb.words)..where((w) => w.word.isIn(bases))).get();
     return {for (final r in rows) r.word: r};
@@ -28,7 +28,7 @@ class LemmaChips extends StatelessWidget {
     if (lemmas.isEmpty) return const SizedBox.shrink();
     return FutureBuilder<Map<String, WordRow>>(
       key: ValueKey('${turn.num}:${turn.tl}'),
-      future: _lookup([for (final l in lemmas) l.base]),
+      future: lookup([for (final l in lemmas) l.base]),
       builder: (context, snap) {
         final found = snap.data ?? const {};
         final chips = [
@@ -37,7 +37,7 @@ class LemmaChips extends StatelessWidget {
               label: l.base,
               gloss: found[l.base]?.meaningKo,
               compact: compact,
-              onTap: found[l.base] == null ? null : () => _showWord(context, found[l.base]!),
+              onTap: found[l.base] == null ? null : () => showWord(context, found[l.base]!),
             ),
           if (snap.connectionState == ConnectionState.done && found.isEmpty)
             Padding(
@@ -57,7 +57,7 @@ class LemmaChips extends StatelessWidget {
     );
   }
 
-  static Future<void> _showWord(BuildContext context, WordRow w) => showModalBottomSheet(
+  static Future<void> showWord(BuildContext context, WordRow w) => showModalBottomSheet(
         context: context,
         showDragHandle: true,
         backgroundColor: AppColors.washi,

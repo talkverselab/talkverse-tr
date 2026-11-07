@@ -1,8 +1,10 @@
 // 아이패드 두 화면 + 만화책 읽기형 회화 확인용 스크린샷 흐름 — 2026-11-03(몽골어앱 dialogue_pane_test 를 옮김).
 // 실행: python3 tools/pane_shots.py <아이패드 UDID> <출력폴더> integration_test/dialogue_pane_test.dart
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
+import 'package:turkish_universe/widgets/lemma_text.dart';
 import 'package:turkish_universe/core/l10n.dart';
 import 'package:turkish_universe/data/db/app_database.dart';
 import 'package:turkish_universe/data/db/seed_loader.dart';
@@ -44,7 +46,7 @@ void main() {
     await wait(t, 1500);
     await shot(t, '01_home_wide');
 
-    await t.tap(find.text('회화').first);
+    await t.tap(find.text('회화').last); // first 는 섹션 머리글
     await wait(t, 2500);
     await shot(t, '02_dialogue_home_right');
 
@@ -66,6 +68,32 @@ void main() {
     await shot(t, '04c_lemma_sheet');
     await t.tapAt(const Offset(600, 200));
     await wait(t, 800);
+
+    // 문장 레마 탭 → 단어창: 밑줄 낱말 자리를 실제로 눌러 본다
+    final rp = t.renderObject<RenderParagraph>(find.descendant(of: find.byType(LemmaText).last, matching: find.byType(RichText)));
+    var off = 0;
+    TextSpan? hit;
+    (rp.text as TextSpan).visitChildren((s) {
+      if (s is TextSpan && s.recognizer != null) {
+        hit = s;
+        return false;
+      }
+      if (s is TextSpan && s.children == null) off += s.text?.length ?? 0;
+      return true;
+    });
+    final box = rp.getBoxesForSelection(TextSelection(baseOffset: off, extentOffset: off + hit!.text!.length)).first.toRect();
+    await t.tapAt(rp.localToGlobal(box.center));
+    await wait(t, 1200);
+    await shot(t, '04d_lemma_tap_sheet');
+    await t.tapAt(const Offset(600, 200));
+    await wait(t, 800);
+
+    // 독음은 기본 미표시 — 켜면 안내
+    await t.tap(find.byTooltip('한글독음 표시').first);
+    await wait(t, 600);
+    await shot(t, '04e_reading_on');
+    await t.tap(find.byTooltip('한글독음 숨기기').first);
+    await wait(t, 3500);
 
     await t.tap(find.byIcon(Icons.play_arrow_rounded));
     await wait(t, 6000);
@@ -96,6 +124,28 @@ void main() {
     await shot(t, '12_affix_quiz');
     await t.pageBack();
     await wait(t, 1200);
+
+    // 절벽 단어 · 앱 소개(2026-11-07)
+    await t.tap(rail('홈'));
+    await wait(t, 1000);
+    await shot(t, '13_home_menu');
+    await t.ensureVisible(find.text('절벽 단어').last);
+    await wait(t, 500);
+    await shot(t, '13b_home_menu_lower');
+    await t.tap(find.text('절벽 단어').last);
+    await wait(t, 2500);
+    await shot(t, '14_cliff_words');
+    await t.tap(find.text('R5 · 569-2000'));
+    await wait(t, 1500);
+    await shot(t, '15_cliff_r5');
+    await t.tap(find.textContaining('회화 단어 포함'));
+    await wait(t, 800);
+    await t.tap(find.text('회화').last);
+    await wait(t, 1500);
+    await shot(t, '16_cliff_conv');
+    await t.tap(find.descendant(of: find.byType(NavigationRail), matching: find.text('앱 소개')));
+    await wait(t, 1500);
+    await shot(t, '17_about');
 
     await t.tap(rail('진행'));
     await wait(t, 1500);

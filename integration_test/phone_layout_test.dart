@@ -42,7 +42,7 @@ void main() {
     await AchievementService.instance.load();
     await t.pumpWidget(const TurkishUniverseApp());
     await wait(t, 1500);
-    await t.tap(find.text('회화').first);
+    await t.tap(find.text('회화').last); // first 는 섹션 머리글
     await wait(t, 1500);
     await t.tap(find.text('사랑').first);
     await wait(t, 1500);
@@ -54,5 +54,25 @@ void main() {
     await shot(t, 'p2_playing');
     await t.tap(find.byIcon(Icons.pause_rounded));
     await wait(t, 500);
+
+    // 절벽 단어 타일·앱 소개도 폰 폭에서 넘치지 않는지
+    Navigator.of(t.element(find.byIcon(Icons.play_arrow_rounded))).popUntil((r) => r.isFirst);
+    await wait(t, 1500);
+    await t.ensureVisible(find.text('절벽 단어').last);
+    await wait(t, 500);
+    await t.tap(find.text('절벽 단어').last);
+    await wait(t, 2500);
+    await t.tap(find.textContaining('회화 단어 포함'));
+    await wait(t, 800);
+    await t.fling(find.byType(ListView).last, const Offset(0, -2000), 3000);
+    await wait(t, 1500);
+    Navigator.of(t.element(find.textContaining('회화 단어 포함'))).pop();
+    await wait(t, 1000);
+    await t.tap(find.text('프로필'));
+    await wait(t, 1000);
+    await t.ensureVisible(find.text('앱 소개'));
+    await wait(t, 500);
+    await t.tap(find.text('앱 소개'));
+    await wait(t, 1500);
   });
 }
