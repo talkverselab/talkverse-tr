@@ -113,7 +113,7 @@ def main():
                 E(f'턴 {i} 브랜드 이름')
             if d['kind'] == 'chat' and t.get('ui') != 'bubble':
                 E(f'턴 {i} 채팅 ui=bubble 없음')
-            for em in [t['emotion']] * ('emotion' in t) + [x[0] for x in t.get('segs', [])]:
+            for em in ([t['emotion']] if 'emotion' in t else []) + [x[0] for x in t.get('segs', [])]:
                 if em not in EMOTIONS:
                     E(f'턴 {i} 감정 값 오류 {em}')
             if 'segs' in t and re.sub(r'\W', '', ''.join(x[1] for x in t['segs'])) != re.sub(r'\W', '', tl):
