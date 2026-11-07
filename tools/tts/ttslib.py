@@ -21,6 +21,32 @@ def _josa(word, j):
     return j if (j in BATCHIM) == has else JOSA.get(j, j)
 
 
+LANG = 'Turkish'
+
+
+def spoken(s):
+    """음성 모델이 읽을 글: 「…」은 읽게 하지 않는다(늘어짐, DIALOGUE_AUDIO §5). 앞은 지우고 문장 안은 쉼표, 끝은 마침표."""
+    s = re.sub(r'^[\s…]+', '', s)
+    s = re.sub(r'\s*…+\s*$', '.', s)
+    return re.sub(r'\s*…+\s*(?=[?!])', ' ', re.sub(r'\s*…+\s+', ', ', s)).strip()
+
+
+def merge_short(segs):
+    """네 글자 미만 조각은 뒤 조각과 한 조각으로(§5 — 통째로 빠지거나 폭주한다). 감정은 뒤 조각을 따른다."""
+    out = []; hold = ''
+    for e, x in segs:
+        x = (hold + ' ' + x).strip(); hold = ''
+        if len(re.sub(r'\W', '', x)) < 4:
+            hold = x
+        else:
+            out.append((e, x))
+    if hold and out:
+        out[-1] = (out[-1][0], out[-1][1] + ' ' + hold)
+    elif hold:
+        out.append((segs[-1][0], hold))
+    return out
+
+
 def fills(P, g):
     out = {}
     for k, x in V['fill'].items():
@@ -51,8 +77,8 @@ def turns(ep):
         T = P['turns'][str(t['num'])]; row = {'num': t['num'], 'speaker': t['speaker']}
         for g in 'mf':
             X = T.get(g) or {}; F = fills(P, g)
-            segs = [(s[0], fill(s[-1], F, 'text').strip()) for s in (X.get('segs') or T['segs'])]
-            segs = [s for s in segs if SIL.sub('', s[1])]
+            segs = [(s[0], spoken(fill(s[-1], F, 'text'))) for s in (X.get('segs') or T['segs'])]
+            segs = merge_short([s for s in segs if SIL.sub('', s[1])])
             row[g] = {'voice': ('am' if g == 'm' else 'af') if t['speaker'] == 'A' else P['cast'][t['speaker']],
                       'text': fill(X.get('text') or t['tl'], F, 'text'), 'reading': '',
                       'rd': fill(X.get('rd') or t.get('rd', ''), F, 'rd'), 'ko': fill(X.get('ko') or t.get('ko', ''), F, 'ko'), 'segs': segs}
@@ -72,6 +98,11 @@ def seg_files(ep):
             for i, (emo, text) in enumerate(x['segs']):
                 out.append((f"{r['num']:02d}_{i}_{tag}.wav", x['voice'], emo, text))
     return out
+
+
+def job(ep, name, voice, emo, text, out=None):
+    """조각 하나의 PC 작업(MOSS)."""
+    return {'out': out or f'tr/{ep}/{name}', 'text': text, 'language': LANG, 'reference': f'out/ref_tr/{voice}_{emo}.wav'}
 
 
 def planned():

@@ -1,0 +1,148 @@
+{
+"r0_love_a1": [
+{
+"turn": 1,
+"voice": "m",
+"speaker": "elif",
+"emotion": "polite",
+"key": "audio/tr/r0_love_a1/01_m.mp4",
+"sha1": "c4700e312022f239ce63a23931c01527a46c9f94",
+"ms": 1604
+},
+{
+"turn": 1,
+"voice": "f",
+"speaker": "elif",
+"emotion": "polite",
+"key": "audio/tr/r0_love_a1/01_f.mp4",
+"sha1": "c4700e312022f239ce63a23931c01527a46c9f94",
+"ms": 1604
+},
+{
+"turn": 2,
+"voice": "m",
+"speaker": "am",
+"emotion": "polite",
+"key": "audio/tr/r0_love_a1/02_m.mp4",
+"sha1": "ed3e34796268f35e040a7f7b33d2f7d42886c439",
+"ms": 1534
+},
+{
+"turn": 2,
+"voice": "f",
+"speaker": "af",
+"emotion": "polite",
+"key": "audio/tr/r0_love_a1/02_f.mp4",
+"sha1": "7823fed76bfbe10a7895c7eb0f0a54a2c2b503fc",
+"ms": 1538
+},
+{
+"turn": 3,
+"voice": "m",
+"speaker": "elif",
+"emotion": "amused",
+"key": "audio/tr/r0_love_a1/03_m.mp4",
+"sha1": "2f2c05c2d9ae4da806dadc6b5c9bfbb690866cd0",
+"ms": 2313
+},
+{
+"turn": 3,
+"voice": "f",
+"speaker": "elif",
+"emotion": "amused",
+"key": "audio/tr/r0_love_a1/03_f.mp4",
+"sha1": "2f2c05c2d9ae4da806dadc6b5c9bfbb690866cd0",
+"ms": 2313
+},
+{
+"turn": 4,
+"voice": "m",
+"speaker": "am",
+"emotion": "surprised",
+"key": "audio/tr/r0_love_a1/04_m.mp4",
+"sha1": "0f23e3da485f8341ef9187f79bc8c202a0b7438d",
+"ms": 1433
+},
+{
+"turn": 4,
+"voice": "f",
+"speaker": "af",
+"emotion": "surprised",
+"key": "audio/tr/r0_love_a1/04_f.mp4",
+"sha1": "4eef9fc30e6e218691c8a44e0b0c5aa2e65d7abe",
+"ms": 1434
+},
+{
+"turn": 5,
+"voice": "m",
+"speaker": "elif",
+"emotion": "shy",
+"key": "audio/tr/r0_love_a1/05_m.mp4",
+"sha1": "9045616d52da56e9987391b173ade8e95ddc1582",
+"ms": 2410
+},
+{
+"turn": 5,
+"voice": "f",
+"speaker": "elif",
+"emotion": "shy",
+"key": "audio/tr/r0_love_a1/05_f.mp4",
+"sha1": "9045616d52da56e9987391b173ade8e95ddc1582",
+"ms": 2410
+},
+{
+"turn": 6,
+"voice": "m",
+"speaker": "am",
+"emotion": "flustered",
+"key": "audio/tr/r0_love_a1/06_m.mp4",
+"sha1": "8427e71e351c2cf0ad9c6c6919d07f74862a4d5c",
+"ms": 1529
+},
+{
+"turn": 6,
+"voice": "f",
+"speaker": "af",
+"emotion": "flustered",
+"key": "audio/tr/r0_love_a1/06_f.mp4",
+"sha1": "c05c4791a5a5fad39ac2fa27481a9e1bab0fc3b7",
+"ms": 1751
+},
+{
+"turn": 7,
+"voice": "m",
+"speaker": "elif",
+"emotion": "shy+gentle",
+"key": "audio/tr/r0_love_a1/07_m.mp4",
+"sha1": "eb7d0a1276d06f3a71eb7e2cc57f2e6d6d023fc4",
+"ms": 1739
+},
+{
+"turn": 7,
+"voice": "f",
+"speaker": "elif",
+"emotion": "shy+gentle",
+"key": "audio/tr/r0_love_a1/07_f.mp4",
+"sha1": "eb7d0a1276d06f3a71eb7e2cc57f2e6d6d023fc4",
+"ms": 1739
+},
+{
+"turn": 8,
+"voice": "m",
+"speaker": "am",
+"emotion": "flustered",
+"key": "audio/tr/r0_love_a1/08_m.mp4",
+"sha1": "1d27e9f53dfa76e789aa7bac385ac3b07dc7d3d3",
+"ms": 2137
+},
+{
+"turn": 8,
+"voice": "f",
+"speaker": "af",
+"emotion": "flustered",
+"key": "audio/tr/r0_love_a1/08_f.mp4",
+"sha1": "16c266014b6f3915d73949bace425674bf13c333",
+"ms": 2760
+}
+]
+}

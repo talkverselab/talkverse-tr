@@ -19,7 +19,7 @@ def main():
             x, E = L.V['voices'][v], L.V['emotions'][e]
             vox.append({'out': f'ref_tr/{v}_{e}.wav', 'text': E['ref'], 'instruct': f"{x['desc']}, {E['instruct']}", 'reference': f'out/ref_tr/{v}_base.wav'})
         json.dump(vox, open(f'{out}/vox_jobs.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0); print(len(vox), 'vox'); return
-    moss = [{'out': f'tr/{ep}/{f}', 'text': text, 'language': 'Turkish', 'reference': f'out/ref_tr/{v}_{e}.wav'} for ep in eps for f, v, e, text in L.seg_files(ep)]
+    moss = [L.job(ep, f, v, e, text) for ep in eps for f, v, e, text in L.seg_files(ep)]
     json.dump(moss, open(f'{out}/moss_jobs.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0); print(len(moss), 'moss')
 
 

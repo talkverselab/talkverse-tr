@@ -1,51 +1,171 @@
-{"_meta":"터키어 회화 음성 — 목소리·감정·자리 채움. 일본어앱 data/tts/voices.json 과 같은 틀. 터키어는 성별로 말이 안 바뀌어 남·여판 차이는 이름뿐.",
- "base_text":"Bugün öğleden sonra toplantım var, o yüzden belgeleri şimdiden hazırlıyorum. Sonra birlikte akşam yemeğine gidelim mi?",
- "voices":{
-  "am":{"desc":"A young Turkish man in his twenties, clear and gentle voice, standard Istanbul accent"},
-  "af":{"desc":"A young Turkish woman in her twenties, clear and soft voice, standard Istanbul accent"},
-  "elif":{"desc":"A Turkish woman in her early twenties, bright, quick and talkative voice, slightly playful"},
-  "can":{"desc":"A Turkish man in his early twenties, relaxed, easygoing and mischievous voice"},
-  "zeynep":{"desc":"A Turkish woman in her early twenties, calm, low-key and thoughtful voice"},
-  "emre":{"desc":"A Turkish man in his mid twenties, deep, direct and quietly warm voice"},
-  "staff":{"desc":"A Turkish woman in her twenties, polite, clear service voice"},
-  "waiter":{"desc":"A Turkish man in his thirties, polite, brisk restaurant waiter voice"},
-  "vendor":{"desc":"A Turkish man in his fifties, loud, cheerful bazaar-vendor voice"},
-  "taxi":{"desc":"A Turkish man in his forties, rough, chatty taxi driver voice"},
-  "teyze":{"desc":"A Turkish woman in her fifties, warm, talkative neighbourhood auntie voice"},
-  "boss":{"desc":"A Turkish woman in her forties, composed, firm but kind voice"},
-  "hoca":{"desc":"A Turkish man in his fifties, calm, articulate professor voice"},
-  "mom":{"desc":"A Turkish woman in her fifties, warm, caring mother's voice"},
-  "dad":{"desc":"A Turkish man in his fifties, deep, steady father's voice"},
-  "man_y":{"desc":"A Turkish man around twenty, natural and clear voice"},
-  "man_m":{"desc":"A Turkish man in his forties, steady and calm voice"},
-  "man_o":{"desc":"A Turkish man in his seventies, aged and gentle voice"},
-  "woman_y":{"desc":"A Turkish woman around twenty, natural and clear voice"},
-  "woman_m":{"desc":"A Turkish woman in her forties, composed and kind voice"},
-  "woman_o":{"desc":"A Turkish woman in her seventies, aged and warm voice"},
-  "kid":{"desc":"A Turkish child around eight years old, high and lively voice"},
-  "announce":{"desc":"A Turkish woman, neutral public-announcement voice, even and clear"}
+{
+ "_meta": "터키어 회화 음성 — 목소리·감정·자리 채움. 일본어앱 data/tts/voices.json 과 같은 틀. 터키어는 성별로 말이 안 바뀌어 남·여판 차이는 이름뿐.",
+ "base_text": "Bugün öğleden sonra toplantım var, o yüzden belgeleri şimdiden hazırlıyorum. Sonra birlikte akşam yemeğine gidelim mi?",
+ "voices": {
+  "am": {
+   "desc": "A young Turkish man in his twenties, clear and gentle voice, standard Istanbul accent"
+  },
+  "af": {
+   "desc": "A young Turkish woman in her twenties, clear and soft voice, standard Istanbul accent"
+  },
+  "elif": {
+   "desc": "A Turkish woman in her early twenties, bright, quick and talkative voice, slightly playful"
+  },
+  "can": {
+   "desc": "A Turkish man in his early twenties, relaxed, easygoing and mischievous voice"
+  },
+  "zeynep": {
+   "desc": "A Turkish woman in her early twenties, calm, low-key and thoughtful voice"
+  },
+  "emre": {
+   "desc": "A Turkish man in his mid twenties, deep, direct and quietly warm voice"
+  },
+  "staff": {
+   "desc": "A Turkish woman in her twenties, polite, clear service voice"
+  },
+  "waiter": {
+   "desc": "A Turkish man in his thirties, polite, brisk restaurant waiter voice"
+  },
+  "vendor": {
+   "desc": "A Turkish man in his fifties, loud, cheerful bazaar-vendor voice"
+  },
+  "taxi": {
+   "desc": "A Turkish man in his forties, rough, chatty taxi driver voice"
+  },
+  "teyze": {
+   "desc": "A Turkish woman in her fifties, warm, talkative neighbourhood auntie voice"
+  },
+  "boss": {
+   "desc": "A Turkish woman in her forties, composed, firm but kind voice"
+  },
+  "hoca": {
+   "desc": "A Turkish man in his fifties, calm, articulate professor voice"
+  },
+  "mom": {
+   "desc": "A Turkish woman in her fifties, warm, caring mother's voice"
+  },
+  "dad": {
+   "desc": "A Turkish man in his fifties, deep, steady father's voice"
+  },
+  "man_y": {
+   "desc": "A Turkish man around twenty, natural and clear voice"
+  },
+  "man_m": {
+   "desc": "A Turkish man in his forties, steady and calm voice"
+  },
+  "man_o": {
+   "desc": "A Turkish man in his seventies, aged and gentle voice"
+  },
+  "woman_y": {
+   "desc": "A Turkish woman around twenty, natural and clear voice"
+  },
+  "woman_m": {
+   "desc": "A Turkish woman in her forties, composed and kind voice"
+  },
+  "woman_o": {
+   "desc": "A Turkish woman in her seventies, aged and warm voice"
+  },
+  "kid": {
+   "desc": "A Turkish child around eight years old, high and lively voice"
+  },
+  "announce": {
+   "desc": "A Turkish woman, neutral public-announcement voice, even and clear"
+  }
  },
- "emotions":{
-  "neutral":{"instruct":"calm and natural, everyday tone","ref":"Bugün öğleden sonra toplantı var, o yüzden belgeleri şimdiden hazırlıyorum."},
-  "polite":{"instruct":"polite and professional, like a clerk or station staff","ref":"Hoş geldiniz efendim, buyurun. Size nasıl yardımcı olabilirim? Teşekkür ederiz."},
-  "stiff":{"instruct":"very nervous and stiff, formal and overly polite","ref":"Zaman ayırdığınız için çok teşekkür ederim. Elimden geleni yapacağım efendim."},
-  "cheerful":{"instruct":"cheerful, bright and friendly","ref":"Ay geldin mi? Süper! Bugün hava da çok güzel, keyfim yerinde!"},
-  "amused":{"instruct":"amused, laughing warmly, relaxed","ref":"Çok komiksin ya! Tamam tamam, öyle yapalım, güldürme beni."},
-  "teasing":{"instruct":"teasing, playful and mischievous","ref":"Ne o, yüzün kızardı mı? Hadi söyle, kimseye demem, söz."},
-  "excited":{"instruct":"excited, bursting with energy, bright and loud","ref":"Oldu! Başardım! İnanamıyorum, gerçekten çok mutluyum!"},
-  "surprised":{"instruct":"surprised, caught off guard, voice jumps","ref":"Ne? Gerçekten mi? Bir dakika, o ne demek şimdi?"},
-  "shout":{"instruct":"surprised and loud, an exaggerated comic retort","ref":"Ne demek şimdi? Hemen şimdi mi? Yok artık, olur mu öyle şey!"},
-  "tsukkomi":{"instruct":"a quick sharp comic retort, exasperated but fond","ref":"Hayır, öyle değil! Neden burada yapıyorsun bunu? Ne alaka şimdi ya!"},
-  "annoyed":{"instruct":"annoyed, irritated, sighing","ref":"Of ya, yine mi bu konu? Artık yeter, konuşmayalım şunu."},
-  "sad":{"instruct":"sad, quiet, voice slightly trembling","ref":"Yok bir şey… Sadece biraz yoruldum. Sen merak etme."},
-  "worried":{"instruct":"worried and anxious, hesitant","ref":"İyi misin? Hasta mısın yoksa? Doktora gitsek mi acaba?"},
-  "flustered":{"instruct":"flustered and embarrassed, stammering, unsure","ref":"Şey… yani… bir dakika… nasıl desem bilmiyorum ki…"},
-  "shy":{"instruct":"shy, soft, slightly trailing off","ref":"Şey… ben de seni… yani… o zaman, birlikte gidelim mi…"},
-  "gentle":{"instruct":"gentle, warm and tender, quiet","ref":"Sorun yok, yavaş yavaş yaparsın. Ben buradayım, merak etme."}
+ "emotions": {
+  "neutral": {
+   "instruct": "calm and natural, everyday tone, natural conversational pace, subtle",
+   "ref": "Bugün öğleden sonra toplantı var, o yüzden belgeleri şimdiden hazırlıyorum."
+  },
+  "polite": {
+   "instruct": "polite and professional, like a clerk or station staff, natural conversational pace, subtle",
+   "ref": "Hoş geldiniz efendim, buyurun. Size nasıl yardımcı olabilirim? Teşekkür ederiz."
+  },
+  "stiff": {
+   "instruct": "very nervous and stiff, formal and overly polite, natural conversational pace, subtle",
+   "ref": "Zaman ayırdığınız için çok teşekkür ederim. Elimden geleni yapacağım efendim."
+  },
+  "cheerful": {
+   "instruct": "cheerful, bright and friendly, natural conversational pace, subtle",
+   "ref": "Ay geldin mi? Süper! Bugün hava da çok güzel, keyfim yerinde!"
+  },
+  "amused": {
+   "instruct": "amused, laughing warmly, relaxed, natural conversational pace, subtle",
+   "ref": "Çok komiksin ya! Tamam tamam, öyle yapalım, güldürme beni."
+  },
+  "teasing": {
+   "instruct": "teasing, playful and mischievous, natural conversational pace, subtle",
+   "ref": "Ne o, yüzün kızardı mı? Hadi söyle, kimseye demem, söz."
+  },
+  "excited": {
+   "instruct": "excited, bursting with energy, bright and loud, natural conversational pace, subtle",
+   "ref": "Oldu! Başardım! İnanamıyorum, gerçekten çok mutluyum!"
+  },
+  "surprised": {
+   "instruct": "surprised, caught off guard, voice jumps, natural conversational pace, subtle",
+   "ref": "Ne? Gerçekten mi? Bir dakika, o ne demek şimdi?"
+  },
+  "shout": {
+   "instruct": "raised voice, comic disbelief, not screaming, natural conversational pace, subtle",
+   "ref": "Ne? Şimdi mi? Ben ne yapacağım peki?"
+  },
+  "tsukkomi": {
+   "instruct": "a quick sharp comic retort, exasperated but fond, natural conversational pace, subtle",
+   "ref": "Hayır, öyle değil! Neden burada yapıyorsun bunu? Ne alaka şimdi ya!"
+  },
+  "annoyed": {
+   "instruct": "annoyed, irritated, sighing, natural conversational pace, subtle",
+   "ref": "Of ya, yine mi bu konu? Artık yeter, konuşmayalım şunu."
+  },
+  "sad": {
+   "instruct": "sad, quiet, voice slightly trembling, natural conversational pace, subtle",
+   "ref": "Sadece biraz yoruldum. Önemli bir şey yok."
+  },
+  "worried": {
+   "instruct": "worried and anxious, hesitant, natural conversational pace, subtle",
+   "ref": "İyi misin? Doktora gitsek mi acaba?"
+  },
+  "flustered": {
+   "instruct": "flustered and embarrassed, stammering, unsure, natural conversational pace, subtle",
+   "ref": "Şey, yani, nasıl desem bilmiyorum."
+  },
+  "shy": {
+   "instruct": "shy, soft, slightly trailing off, natural conversational pace, subtle",
+   "ref": "Şey… ben de seni… yani… o zaman, birlikte gidelim mi…"
+  },
+  "gentle": {
+   "instruct": "gentle, warm and tender, quiet, natural conversational pace, subtle",
+   "ref": "Sorun yok, yavaş yavaş yaparsın. Ben buradayım, merak etme."
+  }
  },
- "fill":{
-  "{name}":{"m":{"text":"Aleks","rd":"알렉스","ko":"알렉스"},"f":{"text":"Emma","rd":"에마","ko":"에마"}},
-  "{country}":{"text":"Kanada","rd":"카나다","ko":"캐나다"},
-  "{city}":{"text":"Toronto","rd":"토론토","ko":"토론토"},
-  "{lang}":{"text":"İngilizce","rd":"인길리제","ko":"영어"}
- }}
+ "fill": {
+  "{name}": {
+   "m": {
+    "text": "Aleks",
+    "rd": "알렉스",
+    "ko": "알렉스"
+   },
+   "f": {
+    "text": "Emma",
+    "rd": "에마",
+    "ko": "에마"
+   }
+  },
+  "{country}": {
+   "text": "Kanada",
+   "rd": "카나다",
+   "ko": "캐나다"
+  },
+  "{city}": {
+   "text": "Toronto",
+   "rd": "토론토",
+   "ko": "토론토"
+  },
+  "{lang}": {
+   "text": "İngilizce",
+   "rd": "인길리제",
+   "ko": "영어"
+  }
+ },
+ "rate": 13.2
+}
