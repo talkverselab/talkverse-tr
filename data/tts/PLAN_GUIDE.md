@@ -1,5 +1,7 @@
 # 회화 음성 감정 계획 작성법 (터키어)
 
+**2026-11-07 이후 쓰는 회화는 손으로 적지 않는다** — 턴의 `emotion`·`segs` 를 `tools/tts/plan_from_dialogue.py` 가 읽어 이 계획을 만든다(`make_jobs.py`·`run_all.py` 는 그 전에 자동으로 부른다). 조연 목소리가 이름표에 없으면 편에 `"cast":{"C":"man_o"}` 를 적는다. 아래는 계획 파일의 모양과 감정·목소리 규칙이다.
+
 편마다 `data/tts/plan/<편id>.json` 한 파일. 검사 `python3 tools/tts/check_plan.py <편id>...`. 일본어앱 `data/tts/PLAN_GUIDE.md` 와 같은 틀.
 
 ```json

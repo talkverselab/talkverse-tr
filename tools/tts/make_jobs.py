@@ -5,10 +5,12 @@
   python3 tools/tts/make_jobs.py <출력폴더> <편id>...          문장 조각 → moss_jobs.json (out/tr/<편>/<턴>_<조각>_<c|m|f>.wav)"""
 import json, sys
 import ttslib as L
+import plan_from_dialogue as PD
 
 
 def main():
     out, eps = sys.argv[1], sys.argv[2:]
+    PD.sync([e for e in eps if e != '--refs'] or None)  # 회화 파일의 감정 열 → 계획(열이 없는 편은 있던 계획을 그대로 쓴다)
     if eps and eps[0] == '--refs':
         ids = eps[1:] or L.planned()
         need = sorted({(v, e) for ep in ids for _, v, e, _ in L.seg_files(ep)})
