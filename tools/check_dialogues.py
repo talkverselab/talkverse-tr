@@ -18,6 +18,7 @@ TURNS = {'R0': (6, 8), 'R1': (6, 8), 'R2': (8, 12), 'R3': (12, 16), 'R4': (12, 1
 WORDS = {'R0': (2, 7), 'R1': (2, 7), 'R2': (3, 10), 'R3': (4, 14), 'R4': (4, 14)}
 SENT = {'R0': 2, 'R1': 2, 'R2': 2, 'R3': 3, 'R4': 3}
 TWISTS = {'chaos', 'slip', 'reveal', 'emotion', 'ignore'}
+EMOTIONS = set(json.load(open(ROOT / 'data/tts/voices.json', encoding='utf-8'))['emotions'])  # 턴 emotion·segs 가 있으면 검사(11-07 이후 쓰는 회화는 필수)
 KINDS = {'survival', 'short', 'long', 'chat'}
 ISLANDS = {'survival', 'friends', 'love', 'life', 'travel', 'culture', 'work', 'study'}
 REGISTERS = {'polite', 'casual', 'chat', 'mixed'}
@@ -112,6 +113,11 @@ def main():
                 E(f'턴 {i} 브랜드 이름')
             if d['kind'] == 'chat' and t.get('ui') != 'bubble':
                 E(f'턴 {i} 채팅 ui=bubble 없음')
+            for em in [t['emotion']] * ('emotion' in t) + [x[0] for x in t.get('segs', [])]:
+                if em not in EMOTIONS:
+                    E(f'턴 {i} 감정 값 오류 {em}')
+            if 'segs' in t and re.sub(r'\W', '', ''.join(x[1] for x in t['segs'])) != re.sub(r'\W', '', tl):
+                E(f'턴 {i} segs 를 이으면 tl 과 다름')
             if not t.get('rd_manual'):
                 r = rd_tr.rd(tl)
                 if fix:

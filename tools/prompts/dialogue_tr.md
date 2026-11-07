@@ -34,5 +34,6 @@ A = 학습자(`{name}`, 국적·성별 고정 금지, 변수 `{name}`·`{country
 
 ## 칸
 `id`(`r1_friends_a1`) `region` `island` `kind` `draft:true` `purpose[]`(travel·study_abroad·work_abroad·media·love·making_friends) `domain[]`(life·friends·love·work·study·culture·travel) `title`(한국어, 짧게) `emoji` `scene`(장면 한 줄) `speakers{"A":"{name}","B":…}` `register` `twist` `twist_type` `flags[]` `goal` `expressions[]` `review{"draft":"claude 2026-11-07"}` `turns[{num,speaker,tl,rd,ko,note,tags[],new[]}]`.
+**감정(2026-11-07 사용자 지시, 이후 쓰는 회화부터):** 턴마다 `emotion` 을 넣는다. 값은 neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle(`data/tts/PLAN_GUIDE.md`). 한 턴에서 감정이 바뀌면 `segs`(`[감정, 본문]` 목록, 이어 붙이면 tl)로 나눈다. neutral 만 쓰지 말 것.
 note = 턴 핵심 하나 「X = 뜻」. tags = `expr:…`·`form:…`·`simkung`·`callback:…`. new = 새 낱말 기본형. rd 는 비우고 `python3 tools/check_dialogues.py --fix-rd <파일>` 로 채운다.
 파일: `assets/data/dialogues/R<레벨>/<주제>/<id>.json`. 이 폴더는 pubspec 에 아직 안 올라가서 앱에 나오지 않는다(리뷰 통과 뒤 연결).
