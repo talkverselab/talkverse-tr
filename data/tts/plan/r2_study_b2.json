@@ -1,0 +1,137 @@
+{
+"ep": "r2_study_b2",
+"cast": {
+"B": "woman_y",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"surprised",
+"Bu koku ne?"
+],
+[
+"annoyed",
+"Bütün koridor biliyor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Menemen yapıyorum. Hadi, ekmek getir."
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Yurtta ocak yasak!"
+],
+[
+"teasing",
+"Bu arada, soğanlı mı?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Tabii ki soğanlı."
+],
+[
+"annoyed",
+"Ne var?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Soğanlı menemen mi? Ciddi misin?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"tsukkomi",
+"Ne alaka?"
+],
+[
+"stiff",
+"Menemen soğanlı olur."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Arkadaşlar! Burada soğanlı menemen var!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Bağırma!"
+],
+[
+"flustered",
+"Neden herkes kapıda?!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"amused",
+"Yarısı soğanlı, yarısı soğansız diyor."
+],
+[
+"worried",
+"Kavga başladı."
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Durun! Yurtta ocak yasak, kim yaptı bunu?!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Ben yaptım."
+],
+[
+"worried",
+"Özür dilerim, ama…"
+]
+]
+},
+"12": {
+"segs": [
+[
+"stiff",
+"Soğanlı mı?"
+],
+[
+"annoyed",
+"Ocak yasak, soğansız menemen de yasak."
+]
+]
+}
+}
+}

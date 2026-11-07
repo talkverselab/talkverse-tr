@@ -1,0 +1,141 @@
+{
+"ep": "r2_life_b3",
+"cast": {
+"B": "man_m",
+"C": "man_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Hoş geldiniz, usta."
+],
+[
+"worried",
+"Kombi su akıtıyor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Hoş bulduk."
+],
+[
+"cheerful",
+"Önemli değil, on dakikalık iş."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Harika."
+],
+[
+"polite",
+"Çay ister misiniz?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Olur."
+],
+[
+"stiff",
+"Bir dakika, bu parça burada yok."
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Yani ne oldu? Sorun mu var?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Sorun yok."
+],
+[
+"cheerful",
+"Kuzenimi çağırıyorum, o bilir."
+]
+]
+},
+"7": {
+"segs": [
+[
+"neutral",
+"Merhaba."
+],
+[
+"surprised",
+"Usta, su neden tavana gidiyor?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Tavana mı?!"
+],
+[
+"flustered",
+"Daha önce sadece yere akıyordu!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"stiff",
+"Olmaz böyle."
+],
+[
+"polite",
+"Amcamı çağıralım, o usta."
+]
+]
+},
+"10": {
+"segs": [
+[
+"worried",
+"Kaç kişi geleceksiniz?"
+],
+[
+"annoyed",
+"Kombi ne olacak?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"neutral",
+"Dört kişi. Kombi yarın."
+]
+]
+},
+"12": {
+"segs": [
+[
+"polite",
+"Çay şekerli olsun, lütfen."
+]
+]
+}
+}
+}

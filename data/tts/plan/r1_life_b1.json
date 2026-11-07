@@ -1,0 +1,72 @@
+{
+"ep": "r1_life_b1",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"surprised",
+"Oha, elektrik gitti! Yemek ne olacak?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"tsukkomi",
+"Önce yemek mi? Bir dakika, telefon nerede?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Bu mahallede hep böyle. Yarım saat sürer."
+]
+]
+},
+"4": {
+"segs": [
+[
+"teasing",
+"Tamam. Karanlıkta yemek yiyelim, çok romantik."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Bir dakika. Komşularda ışık var."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Hadi ya. Üst katta da var."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Bir tek sende yok. Faturayı ödedin mi?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Fatura? Hangi fatura?"
+]
+]
+}
+}
+}

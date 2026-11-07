@@ -1,0 +1,110 @@
+{
+"ep": "r2_life_b1",
+"cast": {
+"B": "can",
+"C": "man_m",
+"D": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"annoyed",
+"Kanka, bu koltuk neden bu kadar ağır?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Bilmem, ama asansör yok."
+],
+[
+"excited",
+"Hadi, çek!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shout",
+"Çekiyorum! Dur, dur, duvara takıldı!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Olmaz öyle. Sağa çevirin, sağa!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Sola, canım, sola! Ben otuz yıldır buradayım."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Sağ mı, sol mu? Elim sıkıştı!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Kıpırdamıyor. Koltuk burada yaşıyor artık."
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Kimse çıkamıyor, kimse inemiyor. Merdiven kapandı."
+]
+]
+},
+"9": {
+"segs": [
+[
+"amused",
+"Aman, ne yapalım? Madem öyle, çay getiriyorum."
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Teyze, merdivende çay mı içeceğiz?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Koltuk var ya. Börek de var mı?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"polite",
+"Hayırlı olsun. Binanın yeni salonu burası."
+]
+]
+}
+}
+}

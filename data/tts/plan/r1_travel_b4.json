@@ -1,0 +1,73 @@
+{
+"ep": "r1_travel_b4",
+"cast": {
+"B": "staff",
+"C": "man_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Hoş geldiniz. Nereye gidiyorsunuz?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Ankara'ya bir bilet, lütfen."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Ankara? Emin misiniz?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Evet. Deniz çok güzel, değil mi?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Allah allah… Buyurun, gece on bir."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Günaydın! Ankara'ya hoş geldiniz."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Deniz nerede? Burası neresi?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Deniz Antalya'da. Burası Ankara."
+]
+]
+}
+}
+}

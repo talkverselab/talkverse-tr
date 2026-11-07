@@ -1,0 +1,77 @@
+{
+"ep": "r1_love_b2",
+"cast": {
+"B": "elif",
+"C": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"Tavla biliyor musun? Hadi, oynayalım."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Biraz biliyorum. Ne için oynuyoruz?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Kaybeden numarasını verir. Tamam mı?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Olur."
+],
+[
+"shy",
+"Ama ben çok kötüyüm."
+]
+]
+},
+"5": {
+"segs": [
+[
+"shout",
+"Evladım, onu oynama! Şunu oyna, şunu!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"tsukkomi",
+"Ne alaka amca? Masada beş amca var!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Kazandık evladım, kazandık!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Bile bile kaybettim. Al, numaram."
+]
+]
+}
+}
+}

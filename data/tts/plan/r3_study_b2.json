@@ -1,0 +1,141 @@
+{
+"ep": "r3_study_b2",
+"cast": {
+"B": "zeynep",
+"C": "staff"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Hocadan yine mail geldi. Üç dakikada cevap yazdı."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Ama hoca hiç ortada yok. Garip, değil mi?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Evet. Kapıda hâlâ “Beş dakikaya dönerim” yazıyor."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Mailde ne diyor peki? Yine aynı şey mi?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"“Kendinize iyi bakın, tezinizi perşembe getirin.” Çok kibar."
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Perşembe kime getireceksin? Kapıya mı?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Hoş geldiniz. Tezinizi getirdiniz mi? Buraya bırakın, lütfen."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Size mi?"
+],
+[
+"worried",
+"Hocam okuyacak, değil mi?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"stiff",
+"Önceki hâlini okudum. Üçüncü sayfada “de” ayrı yazılır."
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Bir dakika… o cümleyi dün mailde gördüm. Hocadan geldi!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"polite",
+"Hoca iki yıl önce emekli oldu, canım. Maili ben yazıyorum."
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Ne?!"
+],
+[
+"shout",
+"Peki notlarımı kim veriyor?!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"polite",
+"Geçen dönem seksen verdim. Hak ettiniz."
+]
+]
+},
+"14": {
+"segs": [
+[
+"surprised",
+"Yok artık."
+],
+[
+"tsukkomi",
+"Bütün bölümü sekreter mi yönetiyor?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"polite",
+"Beş dakikaya dönerim. Tezi masaya bırakın."
+]
+]
+}
+}
+}

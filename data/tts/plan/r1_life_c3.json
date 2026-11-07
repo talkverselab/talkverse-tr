@@ -1,0 +1,80 @@
+{
+"ep": "r1_life_c3",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Merhaba. Kombi bozuk, ev çok soğuk."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Görüyor musunuz?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Üç gündür sıcak su yok."
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Mesajımı okudunuz, biliyorum."
+]
+]
+},
+"5": {
+"segs": [
+[
+"stiff",
+"Bugün ayın biri. Kira?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"Yok artık!"
+],
+[
+"annoyed",
+"Şimdi mi yazıyorsunuz?!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"annoyed",
+"Kombi ne olacak?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Geçmiş olsun."
+],
+[
+"stiff",
+"Hesap numaramı biliyorsunuz."
+]
+]
+}
+}
+}

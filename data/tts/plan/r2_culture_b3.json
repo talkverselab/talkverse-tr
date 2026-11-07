@@ -1,0 +1,105 @@
+{
+"ep": "r2_culture_b3",
+"cast": {
+"B": "vendor",
+"C": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"stiff",
+"Dükkâna giriyoruz. Sen hiç konuşma, ben hallederim."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Tamam. Sadece küçük bir halı istiyoruz, değil mi?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Hoş geldiniz! Buyurun, çay mı, kahve mi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Almıyoruz, sadece bakıyoruz. Küçük halı ne kadar?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Bu el yapımı, çok eski. On bin lira."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"On bin mi? Çok pahalı, hadi {name}, gidiyoruz."
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Ama bakın, bu kırmızı olan… vay, çok güzel!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"annoyed",
+"{name}. Konuşma demiştim."
+]
+]
+},
+"9": {
+"segs": [
+[
+"excited",
+"Çocuklar, bütün halıları açın! Misafir bu işi biliyor!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Hayır, bir dakika! Yerde yer kalmadı!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"excited",
+"İki halı yirmi bin! Üçüncüsü benden hediye!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"tsukkomi",
+"Tebrikler. Üç halın var ama yerin yok."
+]
+]
+}
+}
+}

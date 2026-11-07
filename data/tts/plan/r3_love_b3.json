@@ -1,0 +1,145 @@
+{
+"ep": "r3_love_b3",
+"cast": {
+"B": "emre",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Bu akşam maç var. Mahalle kahvesinde izliyoruz, gel."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Futboldan hiç anlamam ama olur. Ben kimi tutuyorum?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Beni dinle. Sarılar bizim, onları tut. Başka bir şey söyleme."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Tamam, anladım. Sarılar bizim, başka bir şey yok."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Hoş geldin! Emre'nin arkadaşı mısın? Çay, kahve, ne istersen söyle."
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Sağ olun. Bir çay lütfen. Maç başladı mı?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Başladı. Sakın bağırma, burada herkes çok ciddi."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Gol! Vay be, harika gol! Yaşasın!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"stiff",
+"Bir dakika. O gol onların golü. Sen kimi tutuyorsun?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Eyvah. Ben hepsine sevindim. Gol güzel bir şey, değil mi?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"shout",
+"Gençler, duydunuz mu? Bu masada karşı takımdan biri var!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"worried",
+"Emre, otuz kişi bana bakıyor. Eve gitmeli miyim şimdi?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"gentle",
+"Amca, bir dakika. O benimle geldi, benimle de çıkar."
+]
+]
+},
+"14": {
+"segs": [
+[
+"amused",
+"Tamam Emre, sen bilirsin. Hadi oturun, ikinci yarı başlıyor."
+]
+]
+},
+"15": {
+"segs": [
+[
+"shy",
+"Benimle geldi, benimle çıkar. Bunu bir daha söyler misin?"
+]
+]
+},
+"16": {
+"segs": [
+[
+"neutral",
+"Sarılar bizim."
+],
+[
+"shy",
+"Sen de bizimsin."
+],
+[
+"gentle",
+"Otur."
+]
+]
+}
+}
+}

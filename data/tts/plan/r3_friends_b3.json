@@ -1,0 +1,137 @@
+{
+"ep": "r3_friends_b3",
+"cast": {
+"B": "can",
+"C": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Bak, masada yer var. Pilav da geldi, gel otur."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Düğün çok kalabalık. Zeynep'i görebiliyor musun?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Zeynep'i boş ver, önce yiyelim. Et çok güzel."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Can, ben gelini tanımıyorum. Sen tanıyor musun?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Ben de tanımıyorum. Zeynep'in kuzeni, o kadar."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Hoş geldiniz evladım! Siz damat tarafından mısınız?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Evet… şey, galiba. Çok güzel düğün, maşallah."
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Sağ olun. Hadi, takı zamanı, sıra sizde."
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Can, bende sadece iki yüz lira var!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"amused",
+"Ver, ver. Yemeğini yedik, ayıp olur."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Bak, Zeynep yazmış: \"Neredesiniz? Düğün Mavi Salon'da başladı.\""
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Mavi mi? Can, burası Kırmızı Salon!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"flustered",
+"Eyvah. Yani yanlış düğünde yedik, para da taktık."
+]
+]
+},
+"14": {
+"segs": [
+[
+"shout",
+"Yanlış gelin! İki yüz lira! Hemen gidelim!"
+]
+]
+},
+"15": {
+"segs": [
+[
+"cheerful",
+"Evladım, nereye? Halay başlıyor, gelin sizi çağırıyor."
+]
+]
+},
+"16": {
+"segs": [
+[
+"amused",
+"Gel. Parayı taktık, pastayı yemeden gitmiyorum."
+]
+]
+}
+}
+}

@@ -1,0 +1,106 @@
+{
+"ep": "r2_study_b6",
+"cast": {
+"B": "zeynep",
+"C": "staff",
+"D": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"stiff",
+"Öğrenci belgesi için dekanlıktan imza lazım."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Tamam. Dekanlık nerede?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"stiff",
+"Önce bölüm sekreteri imzalasın. Sonra gelin."
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Ama sekreter sizden istiyor!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"stiff",
+"Olmaz, önce dekanlık. Kural bu."
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Bu kata kaçıncı gelişin?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Altıncı. Kapıda bana “Hoş geldin” diyorlar."
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Bekle, ikisini telefonla bağlayalım. Hadi."
+]
+]
+},
+"9": {
+"segs": [
+[
+"polite",
+"Alo? Önce siz imzalayın, kusura bakmayın."
+]
+]
+},
+"10": {
+"segs": [
+[
+"shy",
+"Bir dakika, bu ses… geçen yaz düğünde tanışmadık mı?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"annoyed",
+"Zeynep, bir saattir konuşuyorlar. İmza ne oldu?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"stiff",
+"Hangi imza? O belge geçen yıl kalktı."
+]
+]
+}
+}
+}

@@ -1,0 +1,72 @@
+{
+"ep": "r0_friends_a3",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Bir çay daha?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Yok, sağ ol. Yeter."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Buyur, taze çay."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Can, bu altıncı çay!"
+],
+[
+"annoyed",
+"Neden veriyorsun?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Kaşığı bardağın üstüne koymadın ki."
+]
+]
+},
+"6": {
+"segs": [
+[
+"tsukkomi",
+"Ne alaka? Kaşık ne demek?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Yeter demek."
+],
+[
+"teasing",
+"Altı çay, hesap sende."
+]
+]
+}
+}
+}

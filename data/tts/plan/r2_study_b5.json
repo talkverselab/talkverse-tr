@@ -1,0 +1,141 @@
+{
+"ep": "r2_study_b5",
+"cast": {
+"B": "zeynep",
+"C": "hoca"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Hocam, sunuma başlayabilir miyim?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Sunum mu?"
+],
+[
+"neutral",
+"Olur, başlayın."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Bugünkü konum Türk kahvesinin tarihi."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Türk kahvesi mi?"
+],
+[
+"polite",
+"Güzel, devam edin."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Kahve on altıncı yüzyılda İstanbul'a geldi."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"İlginç."
+],
+[
+"polite",
+"Sunumda kahvenin kimyası da var mı?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Kimya mı?"
+],
+[
+"flustered",
+"Anlamadım, hocam."
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Neredesin?"
+],
+[
+"shout",
+"Sıra sende, hoca çok kızgın!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"Hocam…"
+],
+[
+"flustered",
+"burası Türk Kültürü dersi değil mi?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"stiff",
+"Burası kimya."
+],
+[
+"cheerful",
+"Ama sunum iyiydi, seksen beş."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Eyvah!"
+],
+[
+"shout",
+"Zeynep, koşuyorum, az kaldı!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"annoyed",
+"Bizim hoca sıfır verdi."
+],
+[
+"teasing",
+"Kimyaya geç bence."
+]
+]
+}
+}
+}

@@ -1,0 +1,73 @@
+{
+"ep": "r1_travel_b2",
+"cast": {
+"B": "taxi",
+"C": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Merhaba. Sultanahmet'e lütfen."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Tabii. Ama önce bir dakika."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Neden duruyoruz? Burası neresi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Annem burada. Onu da alıyoruz."
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Hoş geldin, evladım! Aç mısın?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Şey… Sultanahmet nerede?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Sultanahmet kaçmaz. Hadi, yemek hazır."
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Geldik. Para yok, yemek var."
+]
+]
+}
+}
+}

@@ -1,0 +1,98 @@
+{
+"ep": "r0_travel_c3",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Selam! Denizle çok mutluyum 😍",
+"Selam! Denizle çok mutluyum"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Deniz kim?"
+],
+[
+"worried",
+"Neredesin sen?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Antalya'dayım."
+],
+[
+"gentle",
+"Her gün birlikteyiz."
+]
+]
+},
+"4": {
+"segs": [
+[
+"shout",
+"Her gün mü?!"
+],
+[
+"annoyed",
+"Kaç yaşında?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"tsukkomi",
+"Ne alaka?"
+],
+[
+"amused",
+"Deniz işte, su! 🌊",
+"Deniz işte, su!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Ha, deniz."
+],
+[
+"stiff",
+"Biliyordum tabii."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Kıskandın mı?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Yok ya."
+],
+[
+"shy",
+"Sadece çabuk dön."
+]
+]
+}
+}
+}

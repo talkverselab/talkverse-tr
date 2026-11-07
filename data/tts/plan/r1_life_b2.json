@@ -1,0 +1,84 @@
+{
+"ep": "r1_life_b2",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Merhaba. Kirayı konuşalım mı?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Tabii."
+],
+[
+"worried",
+"Ama önce kombi bozuk."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Yenisini alırız. Kira bin lira artar."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Efendim?"
+],
+[
+"annoyed",
+"Bir de pencere kapanmıyor."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Yeni pencere. İki bin lira."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Aman!"
+],
+[
+"annoyed",
+"Su da çok az geliyor."
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Üç bin. Başka sorun var mı?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Yok! Ev harika, çok güzel!"
+]
+]
+}
+}
+}

@@ -1,0 +1,136 @@
+{
+"ep": "r3_work_b4",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"surprised",
+"Bugün yine iki saat geç geldin. Müdür hiçbir şey demedi."
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Demez. Müdür beni çok seviyor, kanka."
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Geçen hafta kasanın yanında uyudun. Hiç kızmadı."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Yorgundum. Sabahtan beri pasta yiyordum."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Ben beş dakika geç kalınca maaşımdan kesiyor. Bu ne yani?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Sen de pasta ye, belki seni de sever."
+]
+]
+},
+"7": {
+"segs": [
+[
+"annoyed",
+"Can, dalga geçme. Sende bir şey var. Söyle."
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Hatırlıyor musun, kameradaki o geceyi? Pijamalı müdürü?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"annoyed",
+"Tabii ki hatırlıyorum. Bana bir dilim bile vermedin."
+]
+]
+},
+"10": {
+"segs": [
+[
+"amused",
+"O pijamayı ona ben aldım. Anneler Günü'nde."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Bir dakika… Anneler Günü mü? Müdür senin annen mi?!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Evet. Gece pastası annem, gündüz pastası ben."
+]
+]
+},
+"13": {
+"segs": [
+[
+"shout",
+"Yok artık! Bir yıldır sana annenin dedikodusunu yapıyorum!"
+]
+]
+},
+"14": {
+"segs": [
+[
+"amused",
+"Biliyorum. Her akşam anlatıyorum, çok gülüyoruz."
+]
+]
+},
+"15": {
+"segs": [
+[
+"sad",
+"Öldüm. Şimdi ben ne yapacağım?"
+]
+]
+},
+"16": {
+"segs": [
+[
+"teasing",
+"Hiç. Annem selam söyledi. Yarın beş dakika erken gel."
+]
+]
+}
+}
+}

@@ -1,0 +1,139 @@
+{
+"ep": "r3_travel_b4",
+"cast": {
+"B": "elif",
+"C": "man_m",
+"D": "teyze",
+"E": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"sad",
+"Çok kötüyüm. Kaptana sor, ne zaman duruyoruz?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Tamam, sakin ol, hemen gidiyorum. Su da getiririm."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Evladım, neden koşuyorsun? Otur, biraz çay iç."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Sağ olun, teyze. Ama kaplan nerede? Kaplanla konuşmam lazım!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shout",
+"Kaplan mı?! Aman Allah'ım! Teknede kaplan mı var?!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Evet, tabii var. Kaplan yoksa bu tekneyi kim sürüyor?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Kaplan sürüyor! Çocuklar, yukarı çıkın! Herkes yukarı, hemen!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Ne oluyor arkadaşlar? Neden herkes bağırıyor? Sakin olun!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"Çok şükür, kaplan sizsiniz! Arkadaşım çok kötü, ne zaman duruyoruz?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"tsukkomi",
+"Ben ne? Kaptan, efendim, kap-tan! Kaplan bu denizde ne yapsın?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Kaptan mı? Kaplan değil mi? Eyvah, ben ne dedim?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Öldüm! Ne yaptın sen? Bütün tekne yukarıda, teyze telefonda ağlıyor!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"shout",
+"Alo, sahil güvenlik mi? Teknede kaplan var, çabuk gelin!"
+]
+]
+},
+"14": {
+"segs": [
+[
+"shout",
+"Yok artık! Teyze, kapatın o telefonu! Kaplan yok, kaplan!"
+]
+]
+},
+"15": {
+"segs": [
+[
+"polite",
+"Burası sahil güvenlik. Kaptan, kaplan nasıl, sakin mi?"
+]
+]
+},
+"16": {
+"segs": [
+[
+"polite",
+"Kaplan sakin, efendim. Elinde su var."
+]
+]
+}
+}
+}

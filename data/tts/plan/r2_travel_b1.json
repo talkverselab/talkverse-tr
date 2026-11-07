@@ -1,0 +1,106 @@
+{
+"ep": "r2_travel_b1",
+"cast": {
+"B": "elif",
+"C": "man_m",
+"D": "woman_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Arkadaşlar, küçük bir sorun var. Motor durdu."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Nasıl durdu? Denizin ortasındayız!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Sakin ol. Kaptan, ne yapıyoruz şimdi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Merak etmeyin, kardeşimi aradım. Az kaldı, geliyor."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Elif, o ses ne? Müzik mi?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Yok artık! Kardeşi düğün gemisiyle geliyor!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Hoş geldiniz! Hadi atlayın, bizim masa boş."
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Bizi kimse çağırmadı ki!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"cheerful",
+"Önemli değil. Siz oynayın, ben motora bakıyorum."
+]
+]
+},
+"10": {
+"segs": [
+[
+"excited",
+"Hadi, gel! Bak, herkes sana bakıyor."
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Neden bana? Ben dans bilmiyorum ki!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"excited",
+"Aile fotoğrafı! Siz de ortaya, lütfen!"
+]
+]
+}
+}
+}

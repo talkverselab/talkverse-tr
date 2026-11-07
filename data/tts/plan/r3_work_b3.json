@@ -1,0 +1,128 @@
+{
+"ep": "r3_work_b3",
+"cast": {
+"B": "emre"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Müdür beni çağırdı. Ankara'daki ofiste yer açılmış."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Harika! Yani… daha çok para, değil mi?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Evet. Maaş daha iyi. Ev de veriyorlar."
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Ne zaman cevap vereceksin peki?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shy",
+"Cuma günü. Sence gideyim mi?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"Bence git. Bu fırsat her zaman gelmez."
+]
+]
+},
+"7": {
+"segs": [
+[
+"sad",
+"Hıhı. Çok kolay söyledin ama."
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Ne demek kolay? Ne söyleyeyim yani?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shy",
+"Bilmem. Her sabah sana çayı kim getirecek?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"neutral",
+"Amca getirir. Onun işi o."
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Masandaki çayı iki yıldır ben getiriyorum."
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Ne? Amca getiriyor sanıyordum. Neden hiç söylemedin?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"gentle",
+"Açık, tek şeker. Sabah dokuzda, soğumadan."
+]
+]
+},
+"14": {
+"segs": [
+[
+"shy",
+"Emre… kalmanı istersem? Yani…"
+]
+]
+},
+"15": {
+"segs": [
+[
+"gentle",
+"Cuma günü sorma. Bugün sor."
+]
+]
+}
+}
+}

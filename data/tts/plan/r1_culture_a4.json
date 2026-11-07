@@ -1,0 +1,77 @@
+{
+"ep": "r1_culture_a4",
+"cast": {
+"B": "teyze",
+"C": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Bir çay daha, yavrum?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Yok, teşekkür ederim. Üç bardak içtim."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Küçük bardak, yavrum. Al bakalım."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Zeynep, bu nasıl bitecek?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Kaşığı bardağın üstüne koy. Bitti demek."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Tamam, koydum. Hadi bakalım."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Aa, kaşık düşecek!"
+],
+[
+"gentle",
+"Al, yeni bardak."
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Ne yapalım. İç."
+]
+]
+}
+}
+}

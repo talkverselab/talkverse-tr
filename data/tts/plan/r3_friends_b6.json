@@ -1,0 +1,129 @@
+{
+"ep": "r3_friends_b6",
+"cast": {
+"B": "can",
+"C": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"sad",
+"Can, yarın sabah uçuyorum. Hesabı kapatmaya geldim."
+]
+]
+},
+"2": {
+"segs": [
+[
+"teasing",
+"Hangi hesap? Ben öyle bir şey bilmiyorum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Çay hesabı. Altı çayla başladı, hatırlıyor musun?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Hatırlıyorum. Bekle, gidip defteri getiriyorum."
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Bavulun hazır mı? Sana bir şey çizdim, uçakta bak."
+]
+]
+},
+"6": {
+"segs": [
+[
+"sad",
+"Zeynep, şimdi ağlatma beni. Daha gitmedim."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Ağlatmıyorum. Sen kendin ağlıyorsun, ben sadece çizdim."
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Buldum. Bak: üç yıl, dört yüz on iki çay."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Dört yüz on iki mi? Tamam, ne kadar? Hemen ödüyorum."
+]
+]
+},
+"10": {
+"segs": [
+[
+"stiff",
+"Olmaz. Parayı almıyorum. Bu borç burada kalacak."
+]
+]
+},
+"11": {
+"segs": [
+[
+"worried",
+"Ne demek kalacak? Yarın gidiyorum, Can, ciddi ol."
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Borcun var, o yüzden geri geleceksin. Defter burada duruyor."
+]
+]
+},
+"13": {
+"segs": [
+[
+"gentle",
+"Ben de imzaladım. Şahit benim."
+]
+]
+},
+"14": {
+"segs": [
+[
+"flustered",
+"Siz ikiniz… Yok artık. Şimdi ben ne diyeceğim?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"teasing",
+"Hiçbir şey. Ama acele et, faiz işliyor."
+]
+]
+}
+}
+}

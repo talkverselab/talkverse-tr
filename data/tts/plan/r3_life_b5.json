@@ -1,0 +1,180 @@
+{
+"ep": "r3_life_b5",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Elektrik gitti, ben de çatıya çıktım."
+],
+[
+"cheerful",
+"Gel, yıldızlar harika."
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Bu saatte çatıda ne yiyorsun? Kesin bir şey yiyorsun."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Çekirdek."
+],
+[
+"gentle",
+"Al, sana da bıraktım."
+],
+[
+"amused",
+"Üç tane."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Üç tane mi?"
+],
+[
+"amused",
+"Helal olsun sana, kanka."
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Bu mahalle hiç bu kadar sessiz olmaz. Teyze bile oyunda değil."
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Can, bir şey söyleyeceğim."
+],
+[
+"sad",
+"Annem aradı, eve dönmemi istiyor."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Eve mi? Ne zaman? Ciddi misin?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"sad",
+"Bilmiyorum. Belki bu yaz. Daha karar vermedim."
+]
+]
+},
+"9": {
+"segs": [
+[
+"stiff",
+"Hıhı."
+],
+[
+"sad",
+"Tamam."
+],
+[
+"gentle",
+"İyi olur, annen seni özlemiştir."
+]
+]
+},
+"10": {
+"segs": [
+[
+"sad",
+"Bu kadar mı? 'İyi olur' mu diyorsun?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"annoyed",
+"Ne diyeyim? 'Gitme' mi diyeyim?"
+],
+[
+"sad",
+"O senin hayatın."
+]
+]
+},
+"12": {
+"segs": [
+[
+"sad",
+"Bilmem."
+],
+[
+"shy",
+"Belki biri 'gitme' demeli."
+]
+]
+},
+"13": {
+"segs": [
+[
+"gentle",
+"Bak, ben yemeğimi kimseye vermem. Al, hepsi senin."
+]
+]
+},
+"14": {
+"segs": [
+[
+"shy",
+"Can… bu ne demek şimdi?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"flustered",
+"Bilmiyorum ki."
+],
+[
+"gentle",
+"Bak, ışıklar geldi."
+]
+]
+},
+"16": {
+"segs": [
+[
+"sad",
+"Yazık."
+],
+[
+"shy",
+"Karanlık daha güzeldi."
+]
+]
+}
+}
+}

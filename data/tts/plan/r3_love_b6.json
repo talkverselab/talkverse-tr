@@ -1,0 +1,145 @@
+{
+"ep": "r3_love_b6",
+"cast": {
+"B": "elif",
+"C": "waiter"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"stiff",
+"Bugün sana bir soru soracağım. Cevaptan kaçmak yok, tamam mı?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"teasing",
+"Hayırdır? Yine fal mı? Para çıkmayacak, biliyorum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Yok, fal değil. Annem soruyor: \"Arkadaşın yemek yedi mi?\""
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Annen hâlâ bunu mu soruyor? Çok tatlı. Yedim, söyle."
+]
+]
+},
+"5": {
+"segs": [
+[
+"shy",
+"Hayır, asıl soru şu: \"Arkadaşın\" demeli miyim? Ne diyeyim anneme?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Teyzen de \"Darısı başınıza\" demişti. Hâlâ ne demek bilmiyorum."
+]
+]
+},
+"7": {
+"segs": [
+[
+"tsukkomi",
+"Konuyu değiştirme! Halıcı bizi evli sanıyor, mahalle seni tanıyor."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Kediye de benim adımı verdin. Haklısın, çok şey oldu."
+]
+]
+},
+"9": {
+"segs": [
+[
+"sad",
+"Evet, hepsini ben yaptım. Hep ben başladım, hep ben sordum."
+]
+]
+},
+"10": {
+"segs": [
+[
+"worried",
+"Yani? Ne söylemek istiyorsun? Biraz korktum şimdi."
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Bu sefer sen söyle. Biz neyiz?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Bir dakika."
+],
+[
+"shout",
+"Garson!"
+],
+[
+"polite",
+"Affedersiniz, bakar mısınız?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"annoyed",
+"Ciddi misin? Ben sana soru soruyorum, sen garson çağırıyorsun!"
+]
+]
+},
+"14": {
+"segs": [
+[
+"polite",
+"Buyurun efendim, ne alırdınız?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"shy",
+"Bir baklava, iki çatal lütfen."
+]
+]
+},
+"16": {
+"segs": [
+[
+"gentle",
+"Tamam. Anneme yazıyorum: \"İki çatal.\""
+]
+]
+}
+}
+}

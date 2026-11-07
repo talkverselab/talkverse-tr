@@ -1,0 +1,76 @@
+{
+"ep": "r1_friends_a6",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Neyin var senin?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"sad",
+"Bir şey yok. Boş ver."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Tamam."
+],
+[
+"gentle",
+"Gözlerini kapat, hadi."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Bu ne? Simitte mum mu var?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"İyi ki doğdun. Üç ay önce söyledin."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Unutmadın mı?"
+],
+[
+"shy",
+"Ben ağlıyorum galiba."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Ağlama."
+],
+[
+"teasing",
+"Üfle hadi, ben yiyeceğim."
+]
+]
+}
+}
+}

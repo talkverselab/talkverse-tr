@@ -1,0 +1,85 @@
+{
+"ep": "r1_culture_b5",
+"cast": {
+"B": "elif",
+"C": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Kahven hazır."
+],
+[
+"shy",
+"Bunu ben yaptım."
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Çok güzel kokuyor. Eline sağlık."
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"İç bakalım. Yüzüme bak."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Şey… bu kahve biraz tuzlu mu?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"tsukkomi",
+"Ne alaka?"
+],
+[
+"teasing",
+"İç, hepsini iç."
+]
+]
+},
+"6": {
+"segs": [
+[
+"sad",
+"Tamam, bitti. Öldüm ama bitti."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Elif, bu evlilik kahvesi! Hepsini mi içti?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Sus, Zeynep!"
+],
+[
+"shy",
+"Bir şey demek değil…"
+]
+]
+}
+}
+}

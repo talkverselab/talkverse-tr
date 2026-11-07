@@ -1,0 +1,68 @@
+{
+"ep": "r1_friends_b5",
+"cast": {
+"B": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Sınav nasıl geçti?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"sad",
+"Hiç sorma. Türkçe çok zor."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Bak, bu benim defterim."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Bu {lang}! Neden öğreniyorsun?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shy",
+"Seninle kendi dilinde konuşmak için."
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Gerçekten mi?"
+],
+[
+"cheerful",
+"İlk ne öğrendin?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Aptal demeyi. Sana lazım."
+]
+]
+}
+}
+}

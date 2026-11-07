@@ -1,0 +1,73 @@
+{
+"ep": "r1_travel_b1",
+"cast": {
+"B": "vendor",
+"C": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Hoş geldiniz! Bu çanta çok güzel."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Güzel. Ne kadar?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Sizin için bin lira."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Çok pahalı! Sekiz yüz olur mu?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Aman! Dokuz yüz, son fiyat."
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Tamam, dokuz yüz! Bak Elif, harika!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Harika… ama üstünde beş yüz yazıyor."
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"O eski fiyat. Çay içer misiniz?"
+]
+]
+}
+}
+}

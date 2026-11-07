@@ -1,0 +1,148 @@
+{
+"ep": "r3_travel_b5",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Saat üç, hava buz gibi."
+],
+[
+"surprised",
+"Elif, gerçekten uyanık mısın?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Uyanığım. Şaşırma, ben de şaşırdım. Bak, çayı bile kendim aldım."
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Kapadokya'da balon için bile kalkmadın. Kahvaltı deyince kalktın."
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Aynen, çünkü kahvaltı vardı. Burada kahvaltı da yok, yol da zor."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"O zaman neden geldin? Üç saat dağa çıktık, taşlara bakacağız."
+]
+]
+},
+"6": {
+"segs": [
+[
+"shy",
+"Bilmem ki… Taşları çok seviyorum herhalde."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Dün «taş taştır» diyordun."
+],
+[
+"gentle",
+"Üşüyorsun, gel, ceketimi al."
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Sen üşürsün."
+],
+[
+"shy",
+"Yarısı senin, gel yanıma, böyle oturalım."
+]
+]
+},
+"9": {
+"segs": [
+[
+"excited",
+"Bak, güneş geliyor."
+],
+[
+"gentle",
+"Elif, bu dağ gerçekten çok güzel…"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shy",
+"Hiç bakmıyorum ki. Yani bakıyorum… ama dağa değil."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Ne demek dağa değil?"
+],
+[
+"flustered",
+"Elif, ben… şey…"
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Sus. Ben sabah uyanmam, biliyorsun."
+],
+[
+"shy",
+"Neden kalktım, bir düşün."
+]
+]
+},
+"13": {
+"segs": [
+[
+"gentle",
+"Düşündüm. Sanırım anladım."
+],
+[
+"teasing",
+"Ama bir daha söyler misin?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"teasing",
+"Olmaz. Şimdi kahvaltı, sonra belki."
+]
+]
+}
+}
+}

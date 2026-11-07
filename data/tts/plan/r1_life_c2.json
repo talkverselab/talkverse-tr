@@ -1,0 +1,81 @@
+{
+"ep": "r1_life_c2",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Naber? Hâlâ uyumadın mı?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"sad",
+"Uyuyamıyorum. Evimi özledim."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Neyi özledin? Annenin yemeğini mi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"sad",
+"O da. Burada kimsem yok ya."
+]
+]
+},
+"5": {
+"segs": [
+[
+"tsukkomi",
+"Hadi canım."
+],
+[
+"gentle",
+"Ya ben?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Sen yemeğimi yiyorsun."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Aynen."
+],
+[
+"gentle",
+"Aile işi bu."
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Öldüm 😂 İyi geceler, kanka.",
+"Öldüm İyi geceler, kanka."
+]
+]
+}
+}
+}

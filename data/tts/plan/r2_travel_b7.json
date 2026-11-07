@@ -1,0 +1,109 @@
+{
+"ep": "r2_travel_b7",
+"cast": {
+"B": "man_o",
+"C": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Niyet tut, evladım. Tavşan senin için seçecek."
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Elif, ben buna inanmıyorum ki. Bu bir tavşan."
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Sus, sus. Bu tavşan her şeyi biliyor."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Bak, kâğıdı aldı. Hadi aç, oku."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"«Yanındaki kişi seni çok düşünüyor.» Gerçekten mi?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Vay be! Sence kim o?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Yanımda kim var? Bu amca mı?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Ben evliyim, evladım. Bir daha seçelim."
+]
+]
+},
+"9": {
+"segs": [
+[
+"shy",
+"«Yanındaki kişi bugün çok güzel.» Bu kâğıt garip."
+]
+]
+},
+"10": {
+"segs": [
+[
+"shy",
+"Hiç garip değil. Tavşan çok akıllı."
+]
+]
+},
+"11": {
+"segs": [
+[
+"teasing",
+"Elif kızım, tavşan yoruldu. Yüz lira az."
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Yüz lira mı?"
+],
+[
+"gentle",
+"Bana bedava söyleseydin."
+]
+]
+}
+}
+}

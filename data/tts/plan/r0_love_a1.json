@@ -1,0 +1,76 @@
+{
+"ep": "r0_love_a1",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Pardon, burası boş mu?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Evet, boş. Buyurun."
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Aslında bütün masalar boş."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Ha? Gerçekten mi?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shy",
+"Evet. Ama ben buraya oturmak istedim."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Şey… neden burası?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"shy",
+"Bilmem…"
+],
+[
+"gentle",
+"sen buradasın ya."
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Çay ister misin? Sen de… yani."
+]
+]
+}
+}
+}

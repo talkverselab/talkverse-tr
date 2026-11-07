@@ -1,0 +1,139 @@
+{
+"ep": "r3_study_b1",
+"cast": {
+"B": "zeynep",
+"C": "man_m",
+"D": "taxi",
+"E": "hoca"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Maketi sana veriyorum. Üç aylık emek, lütfen dikkat et."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Merak etme. Bebek gibi taşırım, ne olacak?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Jüri saat ikide. Dolmuşta kucağından indirme, tamam mı?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Tamam, tamam. Sen git, ben arkadan gelirim."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Bu arkadan mı geldi? Ver, öne uzatayım."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Hayır, bu para değil! Bir dakika, lütfen!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Uzat arkadaş, şoföre gidiyor! Hadi!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Bu ne? Kaç kişi? Üstünü nereye vereyim?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shout",
+"Şoför bey, o bir maket! Bana geri verin!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"annoyed",
+"Arkaya verin! Öğrenci mi, tam mı?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"sad",
+"Zeynep… kötü bir haberim var. Maketin bir köşesi yok."
+]
+]
+},
+"12": {
+"segs": [
+[
+"shout",
+"Ne demek yok? Nereye gitti? Neredesin sen?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"stiff",
+"Zeynep Hanım, bu kırık köşe çok cesur. Ne anlatıyor?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"flustered",
+"Şey… hocam, şehrin kalabalığını anlatıyor."
+]
+]
+},
+"15": {
+"segs": [
+[
+"excited",
+"Harika. Yıllardır böyle maket görmedim. Doksan beş."
+]
+]
+},
+"16": {
+"segs": [
+[
+"annoyed",
+"Seninle konuşmuyorum. Ama dolmuş parası benden."
+]
+]
+}
+}
+}

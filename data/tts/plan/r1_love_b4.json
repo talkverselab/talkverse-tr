@@ -1,0 +1,73 @@
+{
+"ep": "r1_love_b4",
+"cast": {
+"B": "elif",
+"C": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Elif, günaydın! Çay ister misin?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"stiff",
+"Abi, ona söyle: konuşmuyorum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Elif Hanım konuşmuyor. Kusura bakmayın."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Ne oldu? Ben ne yaptım?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Abi, söyle: dün gece yazdım, cevap yok."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Uyuyordum ya! Özür dilerim, Elif."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shy",
+"Abi, ona söyle… çok özledim."
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Onu kendin söyle kızım. Çay soğuyor."
+]
+]
+}
+}
+}

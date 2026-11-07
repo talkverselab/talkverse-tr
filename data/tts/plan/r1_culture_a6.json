@@ -1,0 +1,92 @@
+{
+"ep": "r1_culture_a6",
+"cast": {
+"B": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Merhaba, teyze! Ben geldim."
+]
+]
+},
+"2": {
+"segs": [
+[
+"stiff",
+"Sus, yavrum."
+],
+[
+"excited",
+"Şimdi söyleyecek."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Teyze, mutfakta bir koku var."
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Sus dedim!"
+],
+[
+"surprised",
+"Çocuk onun değilmiş!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Teyze, yemek yanıyor galiba."
+]
+]
+},
+"6": {
+"segs": [
+[
+"annoyed",
+"Reklamda konuşuruz."
+],
+[
+"excited",
+"Bak, ağlıyor!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"neutral",
+"Tamam, reklam geldi."
+],
+[
+"tsukkomi",
+"Yemek yandı."
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Olsun."
+],
+[
+"cheerful",
+"Bugün dizi çok güzeldi."
+]
+]
+}
+}
+}

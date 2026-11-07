@@ -1,0 +1,86 @@
+{
+"ep": "r1_culture_a5",
+"cast": {
+"B": "zeynep",
+"C": "man_o",
+"D": "kid"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Bayramın kutlu olsun! Hazır mısın?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Hazırım."
+],
+[
+"neutral",
+"Ne yapacağım?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Büyüklerin elini öp, alnına koy."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Bayramınız kutlu olsun, dede!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Maşallah! Al yavrum, bu senin."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Para mı?"
+],
+[
+"excited",
+"Harika, sonra kim var?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"{name}, dur! O çocuk sekiz yaşında!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Param yok."
+],
+[
+"polite",
+"Şeker ister misin?"
+]
+]
+}
+}
+}

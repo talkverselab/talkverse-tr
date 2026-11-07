@@ -1,0 +1,73 @@
+{
+"ep": "r1_friends_b1",
+"cast": {
+"B": "can",
+"C": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Bak, yukarıdan sepet iniyor!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"İçinde ne var? Para mı?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Yaşasın, para! Simitçi aşağıda, hemen geliyorum!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Can, dur! O kimin parası?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Geldim! Buyur, sıcak simit."
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"Evladım! Ekmeğim nerede?!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Eyvah! Can, o para teyzenindi!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Bak, sepet yine iniyor. İçinde terlik var."
+]
+]
+}
+}
+}

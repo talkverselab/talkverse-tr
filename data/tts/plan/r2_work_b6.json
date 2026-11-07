@@ -1,0 +1,110 @@
+{
+"ep": "r2_work_b6",
+"cast": {
+"B": "can",
+"C": "woman_m",
+"D": "boss"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Kolay gelsin. Fincanıma bakar mısınız?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Can, bu ne demek? Temiz fincan mı istiyor?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Yok, fal istiyor. Bak, kolay, bir şey söyle."
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Şey… burada bir yol görüyorum."
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Yol mu? Oğlum Almanya'dan geliyor!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Evet… bir de para var, çok para."
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Maaşım bugün geldi! Kızlar, gelin, fincanları getirin!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Kapıya kadar kuyruk var. Kaç kahve yaptım ben?!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Can, ne yapalım? Ben fal bilmiyorum ki!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"stiff",
+"Burada ne oluyor?"
+],
+[
+"surprised",
+"Dur, kasa dolu."
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Müdürüm, özür dilerim, ben sadece…"
+]
+]
+},
+"12": {
+"segs": [
+[
+"stiff",
+"Yarın fal da menüde. Elli lira."
+]
+]
+}
+}
+}

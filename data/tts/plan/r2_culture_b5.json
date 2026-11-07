@@ -1,0 +1,105 @@
+{
+"ep": "r2_culture_b5",
+"cast": {
+"B": "woman_m",
+"C": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Bu falcı her şeyi biliyor. Fincanı ona ver."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Hoş geldiniz. Kahveniz bittiyse fincanı kapatın."
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Kapattım. Ben fala inanmıyorum ama…"
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Bakıyorum… Siz bu sabah geç kaldınız."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Vay, doğru! Bunu nasıl bildiniz?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"Bir komşunuz var. Sizden tabak bekliyor."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Yok artık! Tabağı da mı gördünüz?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Bir de mikrofon görüyorum. On lira…"
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Zeynep, bu kadın gerçekten biliyor! Korkuyorum!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"annoyed",
+"Abla, yeter. Fazla oldu."
+]
+]
+},
+"11": {
+"segs": [
+[
+"shout",
+"Ablan mı?! Ona her şeyi sen mi anlattın?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"polite",
+"Beş yüz lira. Kardeşimin arkadaşına indirim yok."
+]
+]
+}
+}
+}

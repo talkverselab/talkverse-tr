@@ -1,0 +1,106 @@
+{
+"ep": "r2_travel_b8",
+"cast": {
+"B": "man_o",
+"C": "elif",
+"D": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Evladım, şunu bir dakika tutar mısın? Hemen geliyorum."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Ben mi? Ama ben balık tutmayı bilmiyorum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Bir şey olmaz. Burada iki saattir balık yok."
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Bak, ip hareket ediyor! Çekiyor, çekiyor!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shout",
+"Eyvah, çok güçlü! Elif, yardım et!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"Bırakma! Abi, yardım edin, tutun şunu!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Geldim, tutun! Çay sonra, önce balık!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Eyvah… İp vapura takıldı galiba!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shout",
+"Yok artık! Vapur gidiyor, sen de gidiyorsun!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Bırak, bırak! Olta gitsin, sen kal!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"cheerful",
+"Geldim. Ee, oltam nerede?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Oltanız Kadıköy'e gidiyor."
+]
+]
+}
+}
+}

@@ -1,0 +1,112 @@
+{
+"ep": "r2_travel_b4",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"Al, çayın. Bu sefer dökme."
+]
+]
+},
+"2": {
+"segs": [
+[
+"teasing",
+"Dökmem. Beni özleyeceksin, değil mi?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Seni kim unutur? Uçağın saat kaçta?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"sad",
+"Yarın sabah yedide. Çantam hâlâ boş."
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"İyi. Boş kalsın."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Ne demek boş kalsın? Elif, ciddi misin?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Şaka şaka."
+],
+[
+"gentle",
+"Hadi bak, güneş batıyor."
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Çok güzel. Keşke bu vapur hiç durmasa."
+]
+]
+},
+"9": {
+"segs": [
+[
+"sad",
+"Vapur durur. Karaköy'de herkes iner."
+]
+]
+},
+"10": {
+"segs": [
+[
+"sad",
+"Evet… herkes iner."
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Ben inmem."
+],
+[
+"shy",
+"Bir tur daha, sen de kal."
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Uçağı kaçırırım, inşallah."
+]
+]
+}
+}
+}

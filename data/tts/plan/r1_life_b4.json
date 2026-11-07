@@ -1,0 +1,76 @@
+{
+"ep": "r1_life_b4",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Geçmiş olsun! Kapıyı aç, çorba getirdim."
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Gerçekten mi? Can, sen harikasın."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Annem yaptı. Sana selam söyledi."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Bir dakika. Bu çorba neden yarım?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Yolda kontrol ettim. Sıcak mı diye."
+]
+]
+},
+"6": {
+"segs": [
+[
+"tsukkomi",
+"Ciddi misin? Yarısını mı yedin?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Ama bugün kafede masan boştu."
+],
+[
+"shy",
+"Hoşuma gitmedi."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Şey… Yarısı bile yeter."
+]
+]
+}
+}
+}

@@ -1,0 +1,76 @@
+{
+"ep": "r1_life_a3",
+"cast": {
+"B": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Merhaba. Karım çok ağrıyor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Geçmiş olsun. Eşiniz nerede?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"flustered",
+"Eşim yok! Burası ağrıyor!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Ha, karnınız! 'Karım' değil, 'karnım'."
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Aman, pardon. Dün on dolma yedim."
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Buyurun, ilaç. Günde iki kere."
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Teşekkür ederim. Ne kadar?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Yüz lira."
+],
+[
+"teasing",
+"Eşinize de selam söyleyin."
+]
+]
+}
+}
+}

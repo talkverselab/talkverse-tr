@@ -1,0 +1,86 @@
+{
+"ep": "r1_love_c3",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"Elif? Üç yıl önceki fotoğrafımı beğendin."
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Ben mi? Yok ya!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Şimdi bir tane daha!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Eyvah!"
+],
+[
+"shout",
+"Kedi yaptı, kedi! 🐈",
+"Kedi yaptı, kedi!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"On beş beğeni geldi."
+],
+[
+"teasing",
+"Kedi çok çalışıyor. 😂",
+"Kedi çok çalışıyor."
+]
+]
+},
+"6": {
+"segs": [
+[
+"shy",
+"Tamam. Evde kedi yok."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Ee? Saat iki, ne yapıyorsun?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Seni düşünüyorum."
+],
+[
+"flustered",
+"İyi geceler!"
+]
+]
+}
+}
+}

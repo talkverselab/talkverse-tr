@@ -1,0 +1,170 @@
+{
+"ep": "r3_culture_b2",
+"cast": {
+"B": "elif",
+"C": "vendor",
+"D": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"{name}, dün akşam diziyi izledin mi?"
+],
+[
+"excited",
+"Sen televizyondaydın!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Evet! Üç saniye çıktım. Sadece kapıyı çalıp mektubu veriyorum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"O mektup bütün aileyi yıktı, farkında mısın?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"tsukkomi",
+"Ne alaka?"
+],
+[
+"neutral",
+"Bana bunu ver dediler, ben de verdim."
+]
+]
+},
+"5": {
+"segs": [
+[
+"sad",
+"Teyzem ağladı."
+],
+[
+"worried",
+"Sabahtan beri seni soruyor, bence evden çıkma."
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Hadi canım, o sadece dizi. Ekmek alıp geliyorum, bir şey olmaz."
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Merhaba! Bir ekmek lütfen. Bugün hava da çok güzel."
+]
+]
+},
+"8": {
+"segs": [
+[
+"annoyed",
+"Sana ekmek yok. O gelin sana ne yaptı?"
+],
+[
+"shout",
+"Çık dükkânımdan!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Ne?"
+],
+[
+"tsukkomi",
+"Beyefendi, o bir dizi!"
+],
+[
+"flustered",
+"Ben sadece mektubu getirdim!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Buldum seni!"
+],
+[
+"annoyed",
+"Utanmıyor musun?"
+],
+[
+"sad",
+"O gelin üç gündür ağlıyor!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Teyze, ben o kadını tanımıyorum! O oyuncu, gerçek değil!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"annoyed",
+"Gerçek değilmiş! Ben gözümle gördüm, ekrandan bana baktın!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"gentle",
+"Teyze, sakin ol."
+],
+[
+"polite",
+"{name} özür dilemek için geldi, değil mi?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"sad",
+"Evet… özür dilerim."
+],
+[
+"cheerful",
+"Ama haftaya yine çıkıyorum, bir mektup daha var."
+]
+]
+},
+"15": {
+"segs": [
+[
+"sad",
+"Elif, tut beni."
+]
+]
+}
+}
+}

@@ -1,0 +1,105 @@
+{
+"ep": "r2_travel_b5",
+"cast": {
+"B": "man_m",
+"C": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Arkadaşlar, sağda gördüğünüz bina iki bin yıllık."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Pardon, bir şey soracağım. Tuvalet nerede?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Güzel soru. Solda gördüğünüz kapı çok eski."
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Sana cevap vermedi. Bir daha sor."
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Affedersiniz, lütfen! Tuvalet bu tarafta mı?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"O taraf eski şehir. Hadi, yürüyoruz arkadaşlar!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"sad",
+"Elif, ölüyorum. Bu adam beni duymuyor."
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Aman, ne yapalım? Yüksek sesle sor."
+]
+]
+},
+"9": {
+"segs": [
+[
+"shout",
+"Tuvalet nerede, arkadaşlar?!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"polite",
+"Ah, güzel soru. Romalılar da aynı şeyi sordu."
+]
+]
+},
+"11": {
+"segs": [
+[
+"excited",
+"Bak, gösteriyor! Tuvalet orada, koş!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"polite",
+"Yalnız iki bin yıldır kapalı, arkadaşlar."
+]
+]
+}
+}
+}

@@ -1,0 +1,142 @@
+{
+"ep": "r3_work_b6",
+"cast": {
+"B": "emre",
+"C": "boss",
+"D": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Günaydın müdürüm. Altıncı kat, değil mi?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"stiff",
+"Evet, toplantıya geç kaldık. Emre, rapor hazır mı?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Hazır müdürüm."
+],
+[
+"surprised",
+"Bir dakika, asansör niye durdu?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Eyvah. Elektrik gitti galiba hocam. Tepsi de elimde."
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Nasıl yani? Kapı açılmıyor! Alo, kimse var mı?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"Panik yok. Toplantıyı burada yapalım. Emre, başla."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Burada mı müdürüm? Ciddi misiniz?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Dört kişiyiz, çay da var. Daha ne lazım?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"polite",
+"Çok şükür dört bardak var. Buyurun hocam."
+]
+]
+},
+"10": {
+"segs": [
+[
+"worried",
+"Müdürüm, izninizle… ben çıkmak istiyorum."
+]
+]
+},
+"11": {
+"segs": [
+[
+"stiff",
+"Önce karar. Yeni projeyi kim alsın? Amca, sen ne dersin?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"{name} hocam alsın müdürüm. Herkesin işini bilir."
+]
+]
+},
+"13": {
+"segs": [
+[
+"amused",
+"Ben de {name} diyorum. Kesinlikle."
+]
+]
+},
+"14": {
+"segs": [
+[
+"shout",
+"Ne?! Daha kapı açılmadı, ben proje müdürü mü oldum?!"
+]
+]
+},
+"15": {
+"segs": [
+[
+"cheerful",
+"Açıldı işte. Terfi hayırlı olsun hocam."
+]
+]
+},
+"16": {
+"segs": [
+[
+"stiff",
+"Toplantı bitti. Çaylar {name} hocamdan."
+]
+]
+}
+}
+}

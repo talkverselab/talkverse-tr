@@ -1,0 +1,109 @@
+{
+"ep": "r2_culture_b2",
+"cast": {
+"B": "zeynep",
+"C": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Kalk, halay başlıyor. Oturmak yasak."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Ben bilmiyorum ki. Hiç yapmadım."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Çok kolay. Elimi tut, üç adım sağa, bir sola."
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Üç sağa, bir sola… Vay be, yapıyorum!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Aynen. Sadece en başa gitme, orası önemli."
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Gel, gel! Al mendili, bugün başa sen geç!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Ne yapacağım? Zeynep, yardım et!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Mendili salla ve yürü. Herkes arkandan gelir."
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"Herkes mi? Arkamda kaç kişi var?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"neutral",
+"Yüz elli."
+],
+[
+"surprised",
+"Neden mutfağa giriyorsun?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"shout",
+"Bilmiyorum, durmuyorlar! Çıkış nerede?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Aşçılar da katıldı. Devam et."
+]
+]
+}
+}
+}

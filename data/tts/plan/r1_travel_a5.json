@@ -1,0 +1,84 @@
+{
+"ep": "r1_travel_a5",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Hoş geldiniz. Kese istiyorsunuz, değil mi?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Evet, ama yavaş lütfen."
+],
+[
+"worried",
+"İlk kez."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Tamam, merak etmeyin."
+],
+[
+"neutral",
+"Başlıyorum."
+]
+]
+},
+"4": {
+"segs": [
+[
+"shout",
+"Aman! Yavaş lütfen, çok yavaş!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"stiff",
+"Bu yavaş zaten."
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Ya normali nasıl?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Görmek ister misiniz?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Hayır!"
+],
+[
+"flustered",
+"Bu çok güzel, harika!"
+]
+]
+}
+}
+}

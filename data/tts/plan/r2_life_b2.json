@@ -1,0 +1,109 @@
+{
+"ep": "r2_life_b2",
+"cast": {
+"B": "teyze",
+"C": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Fincanını kapat, canım. Soğusun, bakalım."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Teyze, ben fala inanmıyorum ki."
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Sus, bak! Burada bir kalp var."
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Hadi ya! Kim var orada?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Biri seni düşünüyor. Uzun boylu, iyi çocuk."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Fincan bunu nereden biliyor?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Fincan bilmez, ben bilirim."
+],
+[
+"excited",
+"Yeğenim!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Şimdi anladım. Fal yok, yeğen var."
+]
+]
+},
+"9": {
+"segs": [
+[
+"teasing",
+"Kafede çalışıyor. Yemeği de çok sever."
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Bir dakika… Kafede çalışan, yemeği çok seven?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"cheerful",
+"Teyze, kapı açıktı. Yemek var mı?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shout",
+"Can?! Fincandaki sen misin?!"
+]
+]
+}
+}
+}

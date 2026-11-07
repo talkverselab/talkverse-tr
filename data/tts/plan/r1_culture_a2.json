@@ -1,0 +1,77 @@
+{
+"ep": "r1_culture_a2",
+"cast": {
+"B": "zeynep",
+"C": "mom"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Hoş geldin! Gir, gir."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Hoş bulduk. Ayakkabıları çıkarayım mı?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Tabii. Bizde herkes çıkarır."
+]
+]
+},
+"4": {
+"segs": [
+[
+"shy",
+"Şey… çıkarmasam olmaz mı?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"tsukkomi",
+"Olmaz, annem içeride."
+],
+[
+"teasing",
+"Hadi."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Tamam, tamam. Çıkardım."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"{name}, parmağın bize selam veriyor."
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Hoş geldin, yavrum. Çorap getireyim mi?"
+]
+]
+}
+}
+}

@@ -1,0 +1,73 @@
+{
+"ep": "r0_travel_c2",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Elif, kayboldum."
+]
+]
+},
+"2": {
+"segs": [
+[
+"tsukkomi",
+"Yine mi? Ne görüyorsun?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Baharat. Çok baharat."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Başka? Kapı var mı?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Bir adam çay verdi 😊",
+"Bir adam çay verdi"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"İçme, oturma, hemen çık!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"İçtim. Şimdi bir halım var."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Yok artık! Geliyorum, hiç konuşma!"
+]
+]
+}
+}
+}

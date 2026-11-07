@@ -1,0 +1,81 @@
+{
+"ep": "r1_life_b3",
+"cast": {
+"B": "woman_m",
+"C": "taxi"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Affedersiniz, bunu şoföre verir misiniz?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Tabii. Buyurun, bu para sizin."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Kaç kişi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"shout",
+"İki kişi!"
+],
+[
+"neutral",
+"Bir de arkadan para geliyor."
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Bir dakika! Bu kimin, bu kimin?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"Üç kişi!"
+],
+[
+"annoyed",
+"Üstünü arkaya verin, hadi!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Ben sadece eve gidiyorum!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Yarın sekizde gelin. İşe başladınız."
+]
+]
+}
+}
+}

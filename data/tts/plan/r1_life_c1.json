@@ -1,0 +1,78 @@
+{
+"ep": "r1_life_c1",
+"cast": {
+"B": "teyze",
+"C": "woman_m",
+"D": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"shout",
+"Köftelerim nerede?! Balkonda soğuyordu!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Balkonunuzda bir kedi gördüm. Büyük."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Eyvah. Patron mu?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Patron kim?!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Kedi şimdi asansörde. Köfte de ağzında."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Çıkarın onu! Asansör ne zaman çalışır?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Yarın."
+]
+]
+},
+"8": {
+"segs": [
+[
+"sad",
+"Aman, zavallı…"
+],
+[
+"gentle",
+"Yarın ona da yaparım."
+]
+]
+}
+}
+}

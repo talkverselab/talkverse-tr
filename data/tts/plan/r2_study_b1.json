@@ -1,0 +1,113 @@
+{
+"ep": "r2_study_b1",
+"cast": {
+"B": "zeynep",
+"C": "hoca"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Dün neredeydin? Seni kantinde bekledim."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Kusura bakma, telefonum kapalıydı."
+],
+[
+"neutral",
+"Ders çalıştım."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Yorgun görünüyorsun. Ne oldu?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"sad",
+"Dün akşama kadar sınıfta kaldım."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Ne?! Yok artık, bütün derslerden mi?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Evet, bütün dersler. Hoca gitti, ben kaldım."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Geçmiş olsun. Üzülme, bütünleme var."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"O ne?"
+],
+[
+"cheerful",
+"Sınıf çok güzeldi, yine kalırım."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Ciddi misin? Bir daha mı kalacaksın?!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"{name}, duydum. Üzülmeyin, yaz okulu var."
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Hocam, ne yaz okulu? Ben sadece sınıfta oturdum!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"Şimdi öğrendin. Kalmak başka, oturmak başka."
+]
+]
+}
+}
+}

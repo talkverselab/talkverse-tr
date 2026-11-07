@@ -1,0 +1,72 @@
+{
+"ep": "r0_travel_a4",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Elif, kalk! Saat beş oldu."
+]
+]
+},
+"2": {
+"segs": [
+[
+"annoyed",
+"Beş dakika daha…"
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Bak, balonlar havada! Çok güzel!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Hıhı."
+]
+]
+},
+"5": {
+"segs": [
+[
+"shout",
+"Elif, bu hayatta bir kez olur!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Sorun yok. Bana anlatırsın."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Peki. Kahvaltı hazır, ben gidiyorum."
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Kahvaltı mı?! Geldim!"
+]
+]
+}
+}
+}

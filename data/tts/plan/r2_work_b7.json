@@ -1,0 +1,125 @@
+{
+"ep": "r2_work_b7",
+"cast": {
+"B": "can",
+"C": "boss"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"annoyed",
+"Yine bir dilim pasta eksik."
+],
+[
+"stiff",
+"Kim yiyor bunu?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Ben değilim!"
+],
+[
+"annoyed",
+"Bana niye bakıyorsunuz?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Can, ağzında pasta var."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"O bugünkü."
+],
+[
+"flustered",
+"Geceki ben değilim, valla."
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Tamam, kameraya bakalım. Gece kim geldi?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Hadi, saat ikiye git…"
+],
+[
+"surprised",
+"dur, dur!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Yok artık."
+],
+[
+"worried",
+"O kim?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Pijamalı biri. Mutfağa girdi."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Eyvah, yüzü…"
+],
+[
+"shout",
+"bu müdür!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"stiff",
+"Ee, hırsızı buldunuz mu?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"polite",
+"Bulamadık müdürüm."
+],
+[
+"amused",
+"Ama bana bir dilim pasta lazım."
+]
+]
+}
+}
+}

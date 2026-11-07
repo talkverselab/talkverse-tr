@@ -1,0 +1,109 @@
+{
+"ep": "r2_friends_b4",
+"cast": {
+"B": "can",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Günaydın! Bu ayın ekmek parası altı yüz lira."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Ne ekmeği? Ben ekmek almıyorum ki."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Her sabah iki ekmek, bir de simit."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Anlamadım."
+],
+[
+"annoyed",
+"Ben sabah dokuzdan önce kalkmıyorum!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Biliyorum. Ekmeği yedide arkadaşınız alıyor, merdivende."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Arkadaşım mı? Hangi arkadaşım, nasıl biri?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Can Bey. \"Hesaba yaz\" diyor, çok tatlı çocuk."
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Günaydın! Ne var, sabah sabah niye bağırıyorsun?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shout",
+"Can! Aylardır benim paramla mı kahvaltı yapıyorsun?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"amused",
+"Yok ya, abartma. Sadece üç ay."
+]
+]
+},
+"11": {
+"segs": [
+[
+"shout",
+"Üç ay mı?! Ben sana ne yaptım?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"Neyse. Yarın peynir de geliyor."
+]
+]
+}
+}
+}

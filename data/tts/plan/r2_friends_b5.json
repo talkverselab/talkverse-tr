@@ -1,0 +1,133 @@
+{
+"ep": "r2_friends_b5",
+"cast": {
+"B": "elif",
+"C": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Fincanı ters çevir, soğusun."
+],
+[
+"teasing",
+"Falına bakıyorum."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Gerçekten mi?"
+],
+[
+"neutral",
+"Sen fal biliyor musun?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Tabii ki! Bizim ailede herkes bilir."
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Ee? Ne görüyorsun, söyle hadi."
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Bak, burada bir yol var."
+],
+[
+"neutral",
+"Uzun bir yol."
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Vay! Ben yazın ülkeme gidiyorum!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"neutral",
+"Bir de kuş var."
+],
+[
+"cheerful",
+"Yakında güzel haber geliyor."
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Harika! Para mı, aşk mı?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"stiff",
+"Elif, o fincan onun değil."
+],
+[
+"neutral",
+"Can'ın."
+]
+]
+},
+"10": {
+"segs": [
+[
+"tsukkomi",
+"Ne alaka?"
+],
+[
+"flustered",
+"Ben fincanı ondan aldım!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"sad",
+"O zaman yol, kuş, para… hepsi Can'ın mı?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"stiff",
+"Hepsi Can'ın."
+],
+[
+"teasing",
+"O yol da mutfağa gidiyor."
+]
+]
+}
+}
+}

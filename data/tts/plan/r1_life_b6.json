@@ -1,0 +1,80 @@
+{
+"ep": "r1_life_b6",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Can, çok önemli bir şey söyleyeceğim."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Hıhı, söyle."
+],
+[
+"excited",
+"Bu tatlı harika, ya."
+]
+]
+},
+"3": {
+"segs": [
+[
+"sad",
+"Ev sahibi kirayı iki katına çıkardı."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Hıhı. Olur, olur."
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Bir de Patron yatağımda doğurdu."
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Aynen, aynen."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Can! Ben yarın aya gidiyorum!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Güzel."
+],
+[
+"cheerful",
+"Tatlını yiyecek misin?"
+]
+]
+}
+}
+}

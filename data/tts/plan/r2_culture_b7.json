@@ -1,0 +1,143 @@
+{
+"ep": "r2_culture_b7",
+"cast": {
+"B": "zeynep",
+"C": "man_o",
+"D": "man_m",
+"E": "waiter"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Yemek çok güzeldi."
+],
+[
+"neutral",
+"Hesabı bölüşelim mi?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Sus!"
+],
+[
+"stiff",
+"Burada öyle bir şey söyleme."
+]
+]
+},
+"3": {
+"segs": [
+[
+"shout",
+"Garson!"
+],
+[
+"polite",
+"Hesap lütfen, bana getir."
+]
+]
+},
+"4": {
+"segs": [
+[
+"shout",
+"Yok, olmaz!"
+],
+[
+"stiff",
+"Bu akşam ben ödüyorum."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Elini çek, kardeşim!"
+],
+[
+"shout",
+"Çek dedim!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Zeynep, kavga mı var?"
+],
+[
+"neutral",
+"Ben ödeyeyim, biter."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Sakın!"
+],
+[
+"teasing",
+"O zaman üçüncü kişi olursun."
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Kusura bakmayın, hesap ödendi efendim."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Ne?"
+],
+[
+"worried",
+"Kim ödedi peki?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"polite",
+"Yan masadaki amca. Size selamı var."
+]
+]
+},
+"11": {
+"segs": [
+[
+"shout",
+"Ona tatlı gönderin! Hesabı da bana getirin!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Tebrikler."
+],
+[
+"tsukkomi",
+"Savaş artık iki masada."
+]
+]
+}
+}
+}

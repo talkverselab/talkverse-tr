@@ -1,0 +1,72 @@
+{
+"ep": "r1_culture_b4",
+"cast": {
+"B": "taxi"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Hoş geldiniz. Nereye gidiyoruz?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Havalimanına, lütfen. Uçak saat beşte."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Tabii. Siz hangi takımı tutuyorsunuz?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Takım mı? Bilmem, futbol izlemiyorum."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Hiç mi? Yok artık, bu olmaz!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Neden dönüyorsunuz? Havalimanı orada!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Bugün büyük maç var. Uçak bekler."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Uçak beklemez, beyefendi!"
+]
+]
+}
+}
+}

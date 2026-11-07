@@ -1,0 +1,163 @@
+{
+"ep": "r3_life_b2",
+"cast": {
+"B": "man_m",
+"C": "can",
+"D": "woman_m",
+"E": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Merhaba. Ev satılıyor, haberiniz olsun. Bugün biri görmeye geliyor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Ne?! Ev satılıyor mu?"
+],
+[
+"worried",
+"Ben nereye gideceğim?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Kanka, dur."
+],
+[
+"teasing",
+"Alıcı evi beğenmezse almaz. Anladın mı?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Anladım."
+],
+[
+"excited",
+"Asansör yok, kombi bozuk, su az. Hepsini söyleriz."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"İyi günler. Ne güzel ev. Burası ne kadar sessiz!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Sessiz mi?"
+],
+[
+"teasing",
+"Gece üçte yan daireden 'Vur!' sesi gelir."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Asansör de yok. Kapıcı iki yıldır 'yarın' diyor."
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Merdiven sağlığa iyi gelir. Ben spor yapmayı severim."
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"Kombi de bozuk. Dört kişi geldi, hiçbiri çözemedi."
+]
+]
+},
+"10": {
+"segs": [
+[
+"teasing",
+"Bir de kedi var. Çok büyük, köfte çalıyor."
+]
+]
+},
+"11": {
+"segs": [
+[
+"excited",
+"Kedi mi? Bayıldım! Ben kedileri çok severim."
+]
+]
+},
+"12": {
+"segs": [
+[
+"cheerful",
+"Hoş geldiniz! Yemek yediniz mi? Buyurun, dolma."
+]
+]
+},
+"13": {
+"segs": [
+[
+"excited",
+"Elinize sağlık! Bu ev kaç para? Hemen alıyorum."
+]
+]
+},
+"14": {
+"segs": [
+[
+"surprised",
+"Yok artık."
+],
+[
+"sad",
+"Kanka, planımız dolmaya yenildi."
+]
+]
+},
+"15": {
+"segs": [
+[
+"polite",
+"Kusura bakmayın, ev satıldı. Teyze biraz önce aldı."
+]
+]
+},
+"16": {
+"segs": [
+[
+"gentle",
+"Hayırlı olsun, canım."
+],
+[
+"cheerful",
+"Yeni kira: her akşam gel, yemek ye."
+]
+]
+}
+}
+}

@@ -1,0 +1,109 @@
+{
+"ep": "r2_life_b8",
+"cast": {
+"B": "can",
+"C": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Can, dinle. Yan daireden yine ses geliyor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Gece üçte mi? Ne sesi?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Bağırıyor, 'Vur, arkanda!' diye."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Teyze mi? Yok artık."
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Her gece! Bir de 'Öldüm' diyor."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Eyvah."
+],
+[
+"worried",
+"Polisi arayalım mı?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Dur, önce kapıyı çalalım. Hadi, gel."
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Aa, gelin, gelin! Kapıyı kapatın, oyun başladı."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Teyze, kulağındaki ne? Bilgisayar mı oynuyorsun?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"excited",
+"Dur kanka, takım bekliyor. Dünyada beşinciyim!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Dünyada beşinci mi? Gerçekten mi?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"cheerful",
+"Evet. {name}, otur, bize bir kişi lazım."
+]
+]
+}
+}
+}

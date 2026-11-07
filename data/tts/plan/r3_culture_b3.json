@@ -1,0 +1,146 @@
+{
+"ep": "r3_culture_b3",
+"cast": {
+"B": "zeynep",
+"C": "man_o",
+"D": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"amused",
+"Dedem burada her gün tavla oynar. Sakın yenme, küser."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Merak etme. Kuralları daha dün öğrendim, yenmem imkânsız."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Hoş geldin, yavrum! Otur bakalım. Zarı at, korkma."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Attım. Altı altı mı? Bu iyi bir şey mi?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Allah allah."
+],
+[
+"neutral",
+"Bir daha at."
+],
+[
+"shout",
+"Yine mi altı altı?!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"{name}, sana söyledim. Yavaş oyna, biraz kötü oyna."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Elimde değil ki, zar kendi geliyor! Bak, yine oldu!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Yedi yıldır bu masada beni kimse yenmedi."
+]
+]
+},
+"9": {
+"segs": [
+[
+"shout",
+"Millet, gelin! Dedeyi biri yeniyor!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Neden herkes etrafımda? Zeynep, biz çay içmeye gelmiştik!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"excited",
+"Bir el daha! Hadi, ben daha yeni ısınıyordum!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"Kaybeden ısmarlar, dede. Yirmi iki çay yazıyorum."
+]
+]
+},
+"13": {
+"segs": [
+[
+"stiff",
+"Yaz. Ama {name} yarın yan kahveye karşı oynayacak."
+]
+]
+},
+"14": {
+"segs": [
+[
+"flustered",
+"Ne? Yan kahve mi? Dede, ben kuralları bile bilmiyorum!"
+]
+]
+},
+"15": {
+"segs": [
+[
+"amused",
+"Geç kaldın. Dedem seni takıma yazdı."
+]
+]
+},
+"16": {
+"segs": [
+[
+"teasing",
+"Çayın bizden, şampiyon."
+]
+]
+}
+}
+}

@@ -1,0 +1,117 @@
+{
+"ep": "r2_work_b4",
+"cast": {
+"B": "emre",
+"C": "boss"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Müdür geldi. Üç gün hastaydı."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Ne diyeyim? Türkçede bir şey var, değil mi?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Var tabii, çok kolay. Hadi, git söyle."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Dur, bekle…"
+],
+[
+"cheerful",
+"tamam, hatırladım."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Günaydın. Bugün biraz daha iyiyim."
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"Müdürüm… başınız sağ olsun."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Ne?! Kim öldü?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Yok, şey… siz?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Ben mi?"
+],
+[
+"annoyed",
+"Ben buradayım!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"polite",
+"“Geçmiş olsun” diyecekti müdürüm. Kusura bakmayın."
+]
+]
+},
+"11": {
+"segs": [
+[
+"annoyed",
+"Allah allah. Bugün kimse benimle konuşmasın."
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Olsun müdürüm."
+],
+[
+"cheerful",
+"Çok şükür yaşıyorsunuz."
+]
+]
+}
+}
+}

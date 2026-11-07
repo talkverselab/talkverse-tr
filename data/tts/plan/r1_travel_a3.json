@@ -1,0 +1,85 @@
+{
+"ep": "r1_travel_a3",
+"cast": {
+"B": "elif",
+"C": "vendor"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Buyurun, dondurma! Alın, alın!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Hani dondurma?"
+],
+[
+"annoyed",
+"Yok artık!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Alın! Hadi, ne oldu?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Elif, bu adam benimle oynuyor!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Ne yapalım?"
+],
+[
+"gentle",
+"Al, yarısı senin."
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Ama sen dondurmayı çok seviyorsun."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shy",
+"Evet, ama bugün seni daha…"
+],
+[
+"flustered",
+"Aman, eriyor!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Daha ne?!"
+]
+]
+}
+}
+}

@@ -1,0 +1,84 @@
+{
+"ep": "r0_love_a4",
+"cast": {
+"B": "emre"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Selam Emre! Naber, ne yapıyorsun?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Gel canım, gel. Aç mısın?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Canım mı?"
+],
+[
+"shy",
+"Şey, evet, biraz açım."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Sana demedim. Kediye dedim."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Anladım. Ben gidiyorum o zaman."
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Dur."
+],
+[
+"gentle",
+"Bu kedi kimseye gelmez."
+]
+]
+},
+"7": {
+"segs": [
+[
+"annoyed",
+"Ee? Yani?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Sana geldi."
+],
+[
+"shy",
+"Ben de."
+]
+]
+}
+}
+}

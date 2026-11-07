@@ -1,0 +1,157 @@
+{
+"ep": "r3_study_b5",
+"cast": {
+"B": "zeynep",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Merhaba, ikamet için geldim. Randevum var."
+]
+]
+},
+"2": {
+"segs": [
+[
+"stiff",
+"Sıra numaranızı alın, bekleyin."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Aldım. Yüz kırk yedi."
+],
+[
+"annoyed",
+"İki saattir bekliyorum."
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Şu an öğle arası, bekleyin."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Ama saat dört!"
+],
+[
+"tsukkomi",
+"Öğle arası mı şimdi?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"Şu an öğle arası, bekleyin."
+]
+]
+},
+"7": {
+"segs": [
+[
+"annoyed",
+"Bana bakmıyor bile, Zeynep. Üç dakikadır çayını karıştırıyor."
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Ona ne dedin? İlk kelimen neydi?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"annoyed",
+"“Merhaba” dedim. Sonra “Randevum var” dedim. Çok kibardım."
+]
+]
+},
+"10": {
+"segs": [
+[
+"stiff",
+"Yanlış."
+],
+[
+"gentle",
+"Önce “Kolay gelsin” de, sonra konuş."
+]
+]
+},
+"11": {
+"segs": [
+[
+"tsukkomi",
+"Ne alaka?"
+],
+[
+"surprised",
+"O kadar kolay mı yani?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"Dene. Kaybedecek neyin var?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"polite",
+"Kolay gelsin…"
+]
+]
+},
+"14": {
+"segs": [
+[
+"gentle",
+"Sağ ol evladım. Buyur, ver bakayım kâğıtları."
+]
+]
+},
+"15": {
+"segs": [
+[
+"excited",
+"Zeynep, baktı! Yüzüme baktı! Konuştu!"
+]
+]
+},
+"16": {
+"segs": [
+[
+"stiff",
+"Fotoğraf eksik. Yarın gel."
+],
+[
+"amused",
+"Hadi, kolay gelsin."
+]
+]
+}
+}
+}

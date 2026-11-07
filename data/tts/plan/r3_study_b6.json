@@ -1,0 +1,138 @@
+{
+"ep": "r3_study_b6",
+"cast": {
+"B": "zeynep",
+"C": "woman_m",
+"D": "hoca"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Elindeki ne? Sınava on dakika var."
+]
+]
+},
+"2": {
+"segs": [
+[
+"shy",
+"Hiç. Türkçe kelimeler. Bazen aklımdan çıkıyor."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Eline mi yazdın? Kopya sanırlar, sil hemen."
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Kopya değil ki. Sadece “Tekrar eder misiniz” yazıyor."
+]
+]
+},
+"5": {
+"segs": [
+[
+"stiff",
+"Sessiz olun. Çantalar öne, telefonlar kapalı. Başlıyoruz."
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Hocam, bu soru ne demek? Anlamadım."
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Elinizi gösterin. Bu ne? Kopya mı?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Hayır, bakın: “Tekrar eder misiniz, yavaş lütfen.”"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shout",
+"Herkes ellerini açsın! Hemen! Bütün sınıf!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Eyvah. Arkadakinin kolu dolu. Öndekinin ayakkabısında da formül var."
+]
+]
+},
+"11": {
+"segs": [
+[
+"shout",
+"Hocam, gelin! Otuz kişiden yirmisinde kopya var!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Allah allah! Kim başlattı bunu?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"stiff",
+"Bu öğrenci. Elinde “Yavaş lütfen” yazıyor."
+]
+]
+},
+"14": {
+"segs": [
+[
+"stiff",
+"Sınav iptal. Yarın tekrar, eller yıkanmış gelsin."
+]
+]
+},
+"15": {
+"segs": [
+[
+"excited",
+"Zeynep, herkes bana bakıyor. Alkışlıyorlar!"
+]
+]
+},
+"16": {
+"segs": [
+[
+"amused",
+"Kimse çalışmamıştı. Yarın da eline yaz, lütfen."
+]
+]
+}
+}
+}

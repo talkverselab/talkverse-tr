@@ -1,0 +1,74 @@
+{
+"ep": "r0_travel_c4",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Uyudun mu?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Yok. Yanımdaki kadın omzumda uyuyor 😅",
+"Yok. Yanımdaki kadın omzumda uyuyor"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Ben üç sıra arkandayım."
+]
+]
+},
+"4": {
+"segs": [
+[
+"teasing",
+"Biliyorum. Seni görüyorum."
+]
+]
+},
+"5": {
+"segs": [
+[
+"shy",
+"Benim omzum boş."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Ciddi misin?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Kolonya da var 😌",
+"Kolonya da var"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Geliyorum."
+]
+]
+}
+}
+}

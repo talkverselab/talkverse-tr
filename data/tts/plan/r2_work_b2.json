@@ -1,0 +1,106 @@
+{
+"ep": "r2_work_b2",
+"cast": {
+"B": "emre",
+"C": "man_o",
+"D": "boss"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Hoş geldiniz hocam! Çay alır mısınız?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Evet, lütfen. Emre'ye de bir çay."
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Bugün ilk günün. Çaylar senden mi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Tabii! Bugün çaylar benden!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shout",
+"Çaylar {name} hocamdan! Duydunuz mu?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Bir dakika… kaç kişi duydu?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Bu katta yirmi kişi var. Bina altı kat."
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Üçüncü kat da istiyor! Hocam, otuz çay daha!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"cheerful",
+"Hoş geldiniz {name}, ne güzel düşünce! Ben de içeyim."
+]
+]
+},
+"10": {
+"segs": [
+[
+"worried",
+"Emre, bir çay ne kadar?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Bilmem. Hesap geldi, ona bak."
+]
+]
+},
+"12": {
+"segs": [
+[
+"polite",
+"Yüz yirmi yedi çay hocam. Yarın da devam mı?"
+]
+]
+}
+}
+}

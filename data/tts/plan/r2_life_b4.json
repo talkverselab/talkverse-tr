@@ -1,0 +1,104 @@
+{
+"ep": "r2_life_b4",
+"cast": {
+"B": "staff"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Hoş geldiniz. Nasıl olsun?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Bilmiyorum. Biraz kısa, ama çok değil."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Anladım. Arkası kısa mı, uzun mu?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"shy",
+"Şey, kesin değil. Düşünüyorum."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Kesin mi? Tamam, kesiyorum!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Hayır, bir dakika! Kesin değil!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Ne demek 'kesin değil'? Kestim bile."
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Aman! Ne kadar kestiniz?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Az. Yani şurası az."
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Ya burası? Burası neden yok?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"polite",
+"Önemli değil. Saç büyür, inşallah."
+]
+]
+},
+"12": {
+"segs": [
+[
+"sad",
+"Peki… şapka da satıyor musunuz?"
+]
+]
+}
+}
+}

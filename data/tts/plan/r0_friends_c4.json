@@ -1,0 +1,73 @@
+{
+"ep": "r0_friends_c4",
+"cast": {
+"B": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Zeynep, sınav saat kaçta?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Dokuzda."
+]
+]
+},
+"3": {
+"segs": [
+[
+"flustered",
+"Eyvah, saat sekiz buçuk! Geliyorum!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Yoldayım! Yine pijamayla çıktım!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Okuldayım. Kapı kapalı, polis bakıyor."
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Normal. Bugün pazar."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Yok artık! Neden söylemedin?!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Sormadın 😐",
+"Sormadın"
+]
+]
+}
+}
+}

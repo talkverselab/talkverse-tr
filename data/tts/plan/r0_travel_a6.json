@@ -1,0 +1,84 @@
+{
+"ep": "r0_travel_a6",
+"cast": {
+"B": "staff"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Çantanız iki kilo fazla."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Ne kadar?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Yüz dolar, efendim."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Çok pahalı!"
+],
+[
+"flustered",
+"Bir dakika…"
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Ne yapıyorsunuz?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Hepsini giyiyorum."
+],
+[
+"cheerful",
+"Çanta şimdi nasıl?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Çanta tamam."
+],
+[
+"tsukkomi",
+"Siz kapıdan geçemezsiniz."
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Geçerim. Yan yan geçerim."
+]
+]
+}
+}
+}

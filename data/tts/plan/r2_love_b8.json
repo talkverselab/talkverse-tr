@@ -1,0 +1,108 @@
+{
+"ep": "r2_love_b8",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Bak, şu ışıklar. Bence İstanbul'un en güzel yeri burası."
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Çok güzel ya. Saat kaç oldu?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Bilmem. Bir çay daha içelim mi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Üçüncü çay! Vapur kaçta, biliyor musun?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Vapur mu? Daha çok var, merak etme."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Dur, şu giden vapur ne? Eyvah!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Aa. Son vapur gitti galiba."
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Galiba mı? Sen saati biliyordun, değil mi?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Neden öyle diyorsun? Hadi canım…"
+]
+]
+},
+"10": {
+"segs": [
+[
+"teasing",
+"Telefonunda alarm çaldı. \"Son vapur\" yazıyordu."
+]
+]
+},
+"11": {
+"segs": [
+[
+"shy",
+"Evet, biliyordum."
+],
+[
+"gentle",
+"Sen gitme diye."
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Eve yürüyerek dört saat. Hadi, bir çay daha."
+]
+]
+}
+}
+}

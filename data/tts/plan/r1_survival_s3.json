@@ -1,0 +1,96 @@
+{
+"ep": "r1_survival_s3",
+"cast": {
+"B": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Buyurun, ne oldu?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Karnım ağrıyor. Çok ağrıyor."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Geçmiş olsun."
+],
+[
+"polite",
+"Bugün ne yediniz?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Sabah simit, öğlen kebap, akşam midye."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Hepsi bugün mü?"
+],
+[
+"polite",
+"Başka?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Şey…"
+],
+[
+"shy",
+"şimdi de baklava."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Allah allah!"
+],
+[
+"shout",
+"Bırakın o kutuyu!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Olmaz."
+],
+[
+"cheerful",
+"Çok güzel…"
+],
+[
+"amused",
+"size de bir tane?"
+]
+]
+}
+}
+}

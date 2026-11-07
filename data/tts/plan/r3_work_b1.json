@@ -1,0 +1,131 @@
+{
+"ep": "r3_work_b1",
+"cast": {
+"B": "emre",
+"C": "man_o",
+"D": "woman_m",
+"E": "boss"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Çayınız hocam. Yarın da getireyim mi?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Yarın gerek yok amca. Ben işten ayrılıyorum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"sad",
+"Aman hocam! Nasıl olur? Kimseye söylemem, merak etmeyin."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Söylenecek bir şey yok ki. Neyse, görüşürüz."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"{name}, ne demek gidiyorsun? Ciddi misin? Neden bana söylemedin?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Evet, gidiyorum. Ne oldu ki?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"sad",
+"“Ne oldu ki” mi? İki yıldır birlikte çalışıyoruz ya."
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Şu kâğıtları imzalamanız lazım. Kartınızı da alalım."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Hangi kâğıtlar? Kartımı niye veriyorum? Bir dakika!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"worried",
+"{name}, gitmeyin. Yüzde yirmi zam, tamam mı?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Yüzde yirmi mi? Şey, müdürüm, ben aslında…"
+]
+]
+},
+"12": {
+"segs": [
+[
+"stiff",
+"Tamam, otuz. Bu son fiyat."
+]
+]
+},
+"13": {
+"segs": [
+[
+"cheerful",
+"Pasta geldi hocam. Son çaylar sizden, değil mi?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"surprised",
+"Dur, dur… sen yarın nereye gidiyorsun aslında?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"teasing",
+"Dişçiye. Ama sessiz ol, zam otuz."
+]
+]
+}
+}
+}

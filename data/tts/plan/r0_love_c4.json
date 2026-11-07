@@ -1,0 +1,82 @@
+{
+"ep": "r0_love_c4",
+"cast": {
+"B": "mom"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Elif, naber? Uyuyor musun?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Uyumuyorum. Yemek yedin mi?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shy",
+"Yedim 😊 Bugün çok güzeldin.",
+"Yedim Bugün çok güzeldin."
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Sağ ol evladım."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Evladım mı?"
+],
+[
+"tsukkomi",
+"😂 Ne alaka?",
+"Ne alaka?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"Ben annesiyim."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Eyvah! Özür dilerim, teyze!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Telefon bende."
+],
+[
+"teasing",
+"Bir daha söyle: güzel miydim?"
+]
+]
+}
+}
+}

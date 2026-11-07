@@ -1,0 +1,74 @@
+{
+"ep": "r0_love_c2",
+"cast": {
+"B": "emre"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Selam! Naber?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Emre? Mesajı gördün. 👀",
+"Emre? Mesajı gördün."
+]
+]
+},
+"3": {
+"segs": [
+[
+"sad",
+"Tamam, boş ver. İyi geceler."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Günaydın."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Günaydın mı? On saat oldu! 😤",
+"Günaydın mı? On saat oldu!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"Yazmayı sevmem."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Ama okudun, değil mi?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Üç kere okudum."
+]
+]
+}
+}
+}

@@ -1,0 +1,169 @@
+{
+"ep": "r3_love_b2",
+"cast": {
+"B": "elif",
+"C": "vendor"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Elif, şu küçük halı çok güzel. Annem için alabilirim."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Belli etme! Beğendiğini görürse fiyat hemen iki katına çıkar."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Hoş geldiniz! Çay içer misiniz? Bu halı sadece on bin lira."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"On bin mi? Çok pahalı!"
+],
+[
+"polite",
+"Biraz indirim yapar mısınız, lütfen?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"tsukkomi",
+"Hadi canım, on bin ne?"
+],
+[
+"annoyed",
+"Yan dükkânda bunun aynısı üç bin."
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Eşiniz çok sert, maşallah!"
+],
+[
+"cheerful",
+"Yeni evlilere özel fiyat yapalım mı?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Eşim mi? Bir dakika, biz aslında…"
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Evet, yeni evliyiz. Ne kadar oluyor, söyleyin."
+]
+]
+},
+"9": {
+"segs": [
+[
+"excited",
+"Yeni evliler!"
+],
+[
+"shout",
+"Çocuklar, çabuk gelin! Tatlı getirin, çay getirin!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Elif, bütün çarşı geliyor!"
+],
+[
+"worried",
+"Şimdi ne diyeceğiz?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"excited",
+"Düğün nerede oldu? Fotoğraf var mı? Hadi, görelim!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Şey… çok küçük bir düğündü. Sadece kedimiz vardı."
+]
+]
+},
+"13": {
+"segs": [
+[
+"surprised",
+"Kediniz de mi var?"
+],
+[
+"excited",
+"Harika! Halıyı iki bine verdim gitti!"
+]
+]
+},
+"14": {
+"segs": [
+[
+"amused",
+"Halıyı aldık, çıktık."
+],
+[
+"teasing",
+"Bu arada ne zaman evlendik biz?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"shy",
+"Bilmem ki. Ama \"eşim\" demek hoşuma gitti."
+]
+]
+},
+"16": {
+"segs": [
+[
+"cheerful",
+"Hadi, kedi bulalım."
+],
+[
+"shy",
+"Yalan olmasın."
+]
+]
+}
+}
+}

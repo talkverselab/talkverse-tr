@@ -1,0 +1,88 @@
+{
+"ep": "r1_love_b3",
+"cast": {
+"B": "emre"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Emre, harika haber! Haftaya evleniyorum!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Ne?"
+],
+[
+"sad",
+"Kiminle?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Yalnız!"
+],
+[
+"cheerful",
+"Küçük ama çok güzel."
+]
+]
+},
+"4": {
+"segs": [
+[
+"worried",
+"Kim küçük? Ne diyorsun sen?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Ev! Yeni ev, çok güzel!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Ev mi?"
+],
+[
+"amused",
+"O \"taşınıyorum\" demek."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Eyvah."
+],
+[
+"neutral",
+"Evleniyorum ne demek peki?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Bir an kalbim durdu demek."
+]
+]
+}
+}
+}

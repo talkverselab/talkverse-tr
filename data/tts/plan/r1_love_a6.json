@@ -1,0 +1,73 @@
+{
+"ep": "r1_love_a6",
+"cast": {
+"B": "elif",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Pardon, bunu öne verir misiniz?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Öne mi? Tabii, buyurun."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Bunu da lütfen. İki kişi!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Tamam… bir dakika, bir dakika!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shout",
+"Arkadan yüz lira var! Üstü sizde!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Yavaş lütfen! Ben şoför değilim!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Aa, durağım! Siz inmiyor musunuz?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Aslında üç durak önce… neyse, görüşürüz!"
+]
+]
+}
+}
+}

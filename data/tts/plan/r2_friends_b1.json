@@ -1,0 +1,100 @@
+{
+"ep": "r2_friends_b1",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Sesin neden böyle? Hasta mısın?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Biraz üşüttüm, önemli değil."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Bir dakika, annem arıyor."
+],
+[
+"cheerful",
+"Sana selamı var."
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Aman, hasta olduğumu söyleme! Annen hemen korkuyor."
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Söyledim bile. \"Çorba yapıyorum\" diyor."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Olsun, çorba iyi. Sağ olsun."
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Şimdi teyzemi aradı. O da ıhlamur getiriyor."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Yok artık! Teyzen nereden çıktı şimdi?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"amused",
+"Annem yola çıktı. Arabada dört kişi var."
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Ben sadece üşüttüm! Onlara söyle, lütfen!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Söyledim. Annem \"Sakın ölme, geliyoruz\" diyor."
+]
+]
+}
+}
+}

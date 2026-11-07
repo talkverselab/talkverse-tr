@@ -1,0 +1,129 @@
+{
+"ep": "r3_study_b4",
+"cast": {
+"B": "man_m",
+"C": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Yurtta kimse kaldı mı? Bayramda ne yapacaksın?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"sad",
+"Hiç. Herkes memlekete gitti. Koridor bomboş."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Bize gelseydin. Annem seni sordu."
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Olsun, ben ders çalışırım. Sana iyi bayramlar."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Işığı gördüm, geldim. {name}, hâlâ burada mısınız?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"sad",
+"Evet. Uçak bileti çok pahalı. Burada kalıyorum."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Yurtta bir siz kaldınız, bir de ben."
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Kusura bakmayın, ışığı kapatayım o zaman."
+]
+]
+},
+"9": {
+"segs": [
+[
+"gentle",
+"Kapatmayın. Şunu tutun, eşim size gönderdi."
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Baklava mı? Bana mı? Yok artık, eşinizin eline sağlık!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Bir de bu var. Mutfağın anahtarı. Bu gece ocak serbest."
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Hocam, siz yasak demiştiniz! Hem de iki kez!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"amused",
+"Bayramda yurt boş, kurallar da izinli."
+]
+]
+},
+"14": {
+"segs": [
+[
+"sad",
+"Yurtta kimse kalmadı, biraz üzülüyordum…"
+]
+]
+},
+"15": {
+"segs": [
+[
+"gentle",
+"Kimse kalmadı mı? Siz kaldınız ya. Menemen yapın, soğanlı olsun."
+]
+]
+}
+}
+}

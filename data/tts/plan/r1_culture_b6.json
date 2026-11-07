@@ -1,0 +1,88 @@
+{
+"ep": "r1_culture_b6",
+"cast": {
+"B": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Hoş geldin, yavrum. Elini uzat."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Hoş bulduk, teyze."
+],
+[
+"neutral",
+"Bu ne?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Kolonya. Bizde misafire önce bu verilir."
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Çok güzel!"
+],
+[
+"neutral",
+"Limon mu?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Limon. Buyur, lokum da al."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Lokumun üstüne döküyorum. Afiyet olsun!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Yavrum, ne yapıyorsun?"
+],
+[
+"tsukkomi",
+"O ele dökülür!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Anladım."
+],
+[
+"amused",
+"Ama lokum fena değil."
+]
+]
+}
+}
+}

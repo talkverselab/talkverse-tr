@@ -1,0 +1,132 @@
+{
+"ep": "r2_love_b4",
+"cast": {
+"B": "emre"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Aç kapıyı. Çorba getirdim."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Emre?"
+],
+[
+"neutral",
+"Hasta olduğumu kim söyledi?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Dün sesin kötüydü. Geçmiş olsun."
+]
+]
+},
+"4": {
+"segs": [
+[
+"tsukkomi",
+"Bir dakika, sen yemek yapmayı bilmiyorsun ki."
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Bilmiyorum. Annemi aradım."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Vay!"
+],
+[
+"cheerful",
+"Bu çorba gerçekten güzel olmuş."
+]
+]
+},
+"7": {
+"segs": [
+[
+"neutral",
+"Dördüncüsü bu."
+],
+[
+"sad",
+"Üç tencere yandı."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Yok artık!"
+],
+[
+"amused",
+"Annen ne dedi?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"amused",
+"Hiç sorma."
+],
+[
+"sad",
+"Annem hâlâ telefonda ağlıyor."
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"Neden bu kadar uğraştın?"
+],
+[
+"polite",
+"Ben iyiyim, yarın geçer."
+]
+]
+},
+"11": {
+"segs": [
+[
+"shy",
+"Hemen iyileşme. Yarın yine geleceğim."
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Yarın yine mi?"
+],
+[
+"amused",
+"Beşinci tencere…"
+]
+]
+}
+}
+}

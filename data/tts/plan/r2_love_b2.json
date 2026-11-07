@@ -1,0 +1,109 @@
+{
+"ep": "r2_love_b2",
+"cast": {
+"B": "elif",
+"C": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Hey, aşağıdaki! Yeni komşu sen misin?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Evet, benim! Bu sepet ne?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"İçinde not var. Oku, cevap yaz, gönder."
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Bak: \"Akşam çay içelim mi?\" Olur, yazıyorum."
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Evladım, sepet bende! \"Olur\" yazıyor, ne olur?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Teyze, lütfen! O sepet bana gelecek!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Aa, çay mı? Ben de gelirim, börek yaptım!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Elif, bu ne? Üst kat da bakıyor!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"excited",
+"Üst kat da geliyor! Bütün bina çay içecek!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"annoyed",
+"Of!"
+],
+[
+"shy",
+"Ben seninle baş başa içmek istemiştim."
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Sepet geldi. \"Yarın, sadece ikimiz.\""
+]
+]
+},
+"12": {
+"segs": [
+[
+"cheerful",
+"Okudum! Olur, ben de gelirim!"
+]
+]
+}
+}
+}

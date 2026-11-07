@@ -1,0 +1,133 @@
+{
+"ep": "r2_friends_b8",
+"cast": {
+"B": "zeynep",
+"C": "dad"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"stiff",
+"Alo, buyurun, kimsiniz?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Merhaba efendim, ben {name}. Zeynep'in arkadaşıyım."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Memnun oldum."
+],
+[
+"neutral",
+"Zeynep şu an mutfakta."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Kusura bakmayın, çok önemli bir konu var."
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Hayırdır?"
+],
+[
+"stiff",
+"Ne istemiştiniz?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Kızınızı istiyorum, efendim."
+],
+[
+"excited",
+"Hemen, bugün!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Efendim?!"
+],
+[
+"stiff",
+"Anneniz babanız biliyor mu?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Hayır, onlar bilmiyor. Sadece ikimiz konuştuk."
+]
+]
+},
+"9": {
+"segs": [
+[
+"shout",
+"Zeynep! Kızım, gel buraya hemen!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"annoyed",
+"Baba, ver telefonu."
+],
+[
+"tsukkomi",
+"Alo, sen ne yaptın?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Ödev için seni istedim!"
+],
+[
+"worried",
+"Kötü bir şey mi dedim?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"annoyed",
+"Beni istemişsin."
+],
+[
+"amused",
+"Babam \"Baban nerede\" diyor."
+]
+]
+}
+}
+}

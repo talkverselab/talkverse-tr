@@ -1,0 +1,141 @@
+{
+"ep": "r2_culture_b4",
+"cast": {
+"B": "elif",
+"C": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"surprised",
+"Bu tabak ne?"
+],
+[
+"cheerful",
+"Çok güzel kokuyor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Komşu börek getirdi. Tabağı boş götüreceğim."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Boş mu?"
+],
+[
+"stiff",
+"Olmaz, tabak boş dönmez {name}."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Ciddi misin?"
+],
+[
+"neutral",
+"Neden peki?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"stiff",
+"Ayıp olur."
+],
+[
+"gentle",
+"İçine bir şey koy, öyle götür."
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Elinize sağlık!"
+],
+[
+"cheerful",
+"Tabağın içinde elma var."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Aa, zahmet ettin!"
+],
+[
+"gentle",
+"Bekle yavrum, hemen geliyorum."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Elif, tabak geri geldi! İçinde dolma var!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"Eyvah."
+],
+[
+"teasing",
+"Şimdi senin sıran."
+]
+]
+},
+"10": {
+"segs": [
+[
+"annoyed",
+"Bir hafta oldu, bu sekizinci tabak!"
+],
+[
+"shout",
+"Mutfakta yer yok!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Dayan."
+],
+[
+"worried",
+"Bir tabak daha geliyor, kokusu kapıda."
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Yavrum, üst kat da senden tabak bekliyor."
+]
+]
+}
+}
+}

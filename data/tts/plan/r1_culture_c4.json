@@ -1,0 +1,81 @@
+{
+"ep": "r1_culture_c4",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Neredesin? Konser başlıyor!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"annoyed",
+"Elif? Hadi ya, cevap ver."
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Okudun, gördüm! Ne oldu?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"sad",
+"Tamam, giriyorum. Biletin kapıda."
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Reklam çıktı!"
+],
+[
+"neutral",
+"Teyzemdeyim, telefon yasak."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Ne? Konser ne olacak?!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Çocuk onunmuş!"
+],
+[
+"cheerful",
+"Reklam bitti, görüşürüz 😱",
+"Reklam bitti, görüşürüz"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Elif? Elif!!"
+]
+]
+}
+}
+}

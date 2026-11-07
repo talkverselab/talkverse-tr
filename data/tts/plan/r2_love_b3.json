@@ -1,0 +1,108 @@
+{
+"ep": "r2_love_b3",
+"cast": {
+"B": "emre"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Yine sen! Her sabah bu vapurda mısın?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"shy",
+"Hıhı. Sekiz on beş vapuru."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"İş karşıda herhalde. Ofisin nerede?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"shy",
+"Boş ver. Çay alayım mı?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Konuyu değiştirme! Nerede iniyorsun sen?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"İnmiyorum. Geri dönüyorum."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Ne demek geri dönüyorum? Ofisin nerede?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Kadıköy'de. Evimin yanında, yürüyerek beş dakika."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"O zaman neden her sabah buradasın?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shy",
+"Üç ay önce seni burada gördüm. Sonra işte…"
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Ama sen denizi hiç sevmezsin ki!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Evet, hâlâ midem bulanıyor."
+],
+[
+"shy",
+"Çay alayım mı?"
+]
+]
+}
+}
+}

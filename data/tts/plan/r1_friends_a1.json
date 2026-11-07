@@ -1,0 +1,72 @@
+{
+"ep": "r1_friends_a1",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Simitini yemeyecek misin?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Bir dakika! Önce fotoğraf çekiyorum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Hadi ya, elinde tutma!"
+],
+[
+"worried",
+"Bak, martılar."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Eyvah!"
+],
+[
+"shout",
+"Simitim gitti!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shout",
+"Bir tane değil, hepsi geliyor!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"Kafamda martı var! Can, yardım et!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Bir dakika! Önce fotoğraf çekiyorum."
+]
+]
+}
+}
+}

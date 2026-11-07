@@ -1,0 +1,162 @@
+{
+"ep": "r3_travel_b2",
+"cast": {
+"B": "elif",
+"C": "vendor",
+"D": "woman_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"Bahse girer misin? Bu çay takımını bin liraya alamazsın."
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Alırım. O çantadan sonra her şeyi öğrendim, izle beni."
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Üstünde beş yüz yazan çantayı mı diyorsun? Hadi bakalım."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Hoş geldiniz! Bu takım el yapımı, size özel üç bin."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Üç bin mi?"
+],
+[
+"annoyed",
+"Aman, çok pahalı."
+],
+[
+"stiff",
+"İyi günler, ben gidiyorum."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Durun, durun! Nereye?"
+],
+[
+"gentle",
+"Gelin, oturun, bir çay içelim."
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Çay içmem. Bin lira, son söz, yoksa karşı dükkâna gidiyorum."
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Bin beş yüz, ama kimseye söylemeyin."
+],
+[
+"teasing",
+"Karşı dükkân kardeşimin zaten."
+]
+]
+},
+"9": {
+"segs": [
+[
+"polite",
+"Affedersiniz, bu takım ne kadar? Siz burada mı çalışıyorsunuz?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Ben mi?"
+],
+[
+"polite",
+"Şey, evet, üç bin lira. Çok özel, el yapımı."
+]
+]
+},
+"11": {
+"segs": [
+[
+"excited",
+"Harika, alıyorum! İki tane lütfen. Kart olur mu?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shout",
+"Yok artık!"
+],
+[
+"surprised",
+"Sen ne yapıyorsun? Adam altı bin verdi!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"excited",
+"Helal olsun! Otuz yıldır burada böyle satan görmedim."
+]
+]
+},
+"14": {
+"segs": [
+[
+"polite",
+"Peki benim takımım ne olacak? Bin lira demiştik, değil mi?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"amused",
+"Takım sizin, bedava. Yarın sabah dokuzda dükkândasınız, geç kalmayın."
+]
+]
+},
+"16": {
+"segs": [
+[
+"teasing",
+"Bahsi kazandın. Ama galiba artık burada yaşıyorsun."
+]
+]
+}
+}
+}

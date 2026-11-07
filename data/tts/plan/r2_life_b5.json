@@ -1,0 +1,116 @@
+{
+"ep": "r2_life_b5",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"surprised",
+"Can? Gece yarısı kapımın önünde ne yapıyorsun?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Hoş geldin."
+],
+[
+"shy",
+"Ben değil, Patron bekliyordu."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Hoş bulduk."
+],
+[
+"surprised",
+"Bir hafta kapımda mı bekledi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Her gün buraya geldi. Yemeğini de ben verdim."
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Vay be. Patron beni özlemiş yani."
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Çok özledi. Bütün gün kapıya bakıyordu."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Kedi mi kapıya baktı, sen mi?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Kedi, tabii ki."
+],
+[
+"tsukkomi",
+"Ne alaka?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"teasing",
+"Peki o elindeki ne?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shy",
+"Hiç. Patron senin için aldı."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Kedi… simit mi aldı?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Evet. Yarısını yolda kontrol ettim."
+]
+]
+}
+}
+}

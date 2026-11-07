@@ -1,0 +1,81 @@
+{
+"ep": "r0_culture_c1",
+"cast": {
+"B": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Bu akşam final var."
+],
+[
+"worried",
+"Sakın söyleme!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"teasing",
+"Söylemem."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Ben yarın izleyeceğim. Söz mü?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Söz."
+],
+[
+"teasing",
+"Profil fotoğrafıma bakma."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Neden bakmayayım? Ne var?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Hiç. İyi geceler 🙂",
+"Hiç. İyi geceler"
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Zeynep! Doktor öldü mü?!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Bakma dedim."
+]
+]
+}
+}
+}

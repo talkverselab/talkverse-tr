@@ -1,0 +1,129 @@
+{
+"ep": "r3_study_b3",
+"cast": {
+"B": "zeynep",
+"C": "staff"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Alo, {name}? Bursa başvurmuştunuz, değil mi?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Bursa mı? Şey… evet, evet."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Müjde, çıktı! Pazartesi başlıyor, hayırlı olsun."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Zeynep, beni Bursa'ya gönderiyorlar! Pazartesi!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Ne? Neden Bursa? Bölüm mü değişti?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Bilmiyorum ki. Bileti aldım bile, pazar sabahı otobüs."
+]
+]
+},
+"7": {
+"segs": [
+[
+"sad",
+"Bursa'yı hiç sevmem. Çok uzak."
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Otobüsle üç saat, Zeynep. Çok yakın."
+]
+]
+},
+"9": {
+"segs": [
+[
+"shy",
+"Olsun. Yine de uzak."
+]
+]
+},
+"10": {
+"segs": [
+[
+"worried",
+"{name}, burs formunu imzalamadınız. Para yatmayacak!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Burs mu? Hangi burs? Ben Bursa'ya gidiyorum!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"tsukkomi",
+"Bursa mı? Burs dedim canım, burs! Her ay para!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"gentle",
+"Yani gitmiyorsun. Peki bilet ne olacak?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"sad",
+"Geri almıyorlar. Ne yapalım, boşa gitti."
+]
+]
+},
+"15": {
+"segs": [
+[
+"shy",
+"Bir bilet daha alırım. Zaten Bursa'yı severim."
+]
+]
+}
+}
+}

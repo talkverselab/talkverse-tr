@@ -1,0 +1,144 @@
+{
+"ep": "r3_love_b5",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Elif, çantan düştü. Dur, toplayayım. Bu defter senin mi?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Ver onu! Hemen ver. Açma lütfen, önemli bir şey değil."
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Önemli değilse yüzün neden bu kadar kırmızı?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Sıcaktan. Bugün hava çok sıcak, değil mi?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Hava on derece, Elif. Tamam, açıyorum. Ne var bunda?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"Aman!"
+],
+[
+"flustered",
+"Sana yalvarıyorum, sayfayı çevirme. Ölüyorum şu an."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Bir dakika… bu benim dilim! Neden burada {lang} kelimeler var?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Şey… altı aydır her gece öğreniyorum. Kursa gidiyorum, gizli gizli."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Altı aydır mı? Ciddi misin?"
+],
+[
+"gentle",
+"Neden bana hiç söylemedin?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shy",
+"Söylersem gülersin. Çok kötü konuşuyorum, hocam bile utanıyor."
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Peki neden öğreniyorsun? İş için mi, tatil için mi?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Hayır, senin annenle konuşmak için. Bir gün tanışırsak diye…"
+]
+]
+},
+"13": {
+"segs": [
+[
+"gentle",
+"Elif… ilk sayfada ne yazıyor? Bana oku, lütfen."
+]
+]
+},
+"14": {
+"segs": [
+[
+"shy",
+"Öğrendiğim ilk cümle. Annem söyledi, ilk bunu öğren dedi."
+]
+]
+},
+"15": {
+"segs": [
+[
+"gentle",
+"Hangi cümle? Bak, gülmüyorum. Söz veriyorum, gülmüyorum."
+]
+]
+},
+"16": {
+"segs": [
+[
+"shy",
+"\"Yemek yedin mi?\" Bunu {lang} söyleyebiliyorum artık."
+]
+]
+}
+}
+}

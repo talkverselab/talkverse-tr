@@ -1,0 +1,80 @@
+{
+"ep": "r1_life_a2",
+"cast": {
+"B": "vendor"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Hoş geldiniz! Ekmek ve süt, değil mi?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Evet…"
+],
+[
+"flustered",
+"Eyvah, param evde kaldı!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Sorun yok. Deftere yazıyorum, {name}."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Adımı nereden biliyorsunuz?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Teyze söyledi. Yemek yapmıyorsunuz, değil mi?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"tsukkomi",
+"Yok artık!"
+],
+[
+"worried",
+"Başka ne biliyorsunuz?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Dün gece üç çikolata aldınız."
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Şey… onlar kedi için."
+]
+]
+}
+}
+}

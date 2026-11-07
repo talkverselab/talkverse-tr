@@ -1,0 +1,82 @@
+{
+"ep": "r1_travel_b6",
+"cast": {
+"B": "man_m",
+"C": "teyze",
+"D": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Sakin olun. Hava bugün çok güzel."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Kaptan, kahvaltı var mı?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Elif, lütfen!"
+],
+[
+"gentle",
+"Aşağı bak, çok güzel."
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Şey… iniyoruz."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Nereye? Orası birinin bahçesi!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Hoş geldiniz! Yine mi bahçeme indiniz?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Kusura bakmayın."
+],
+[
+"cheerful",
+"Çay var mı?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Gördün mü? Kahvaltı var."
+]
+]
+}
+}
+}

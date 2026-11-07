@@ -1,0 +1,80 @@
+{
+"ep": "r0_culture_a1",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Fincanı ver. Falına bakacağım."
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Para var mı? Aşk var mı?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Para yok. Bir harf var: E."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"E mi? Emre mi?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"tsukkomi",
+"Hayır!"
+],
+[
+"gentle",
+"Bu kişi sana çok yakın."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Aynen, Emre yakın oturuyor."
+]
+]
+},
+"7": {
+"segs": [
+[
+"annoyed",
+"Of, E diyorum {name}."
+],
+[
+"shy",
+"Bir düşün."
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Emre'yi mi arayayım?"
+]
+]
+}
+}
+}

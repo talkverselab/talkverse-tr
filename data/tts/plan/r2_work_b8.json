@@ -1,0 +1,105 @@
+{
+"ep": "r2_work_b8",
+"cast": {
+"B": "emre",
+"C": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"sad",
+"Müdüre üç mail attım. Cevap yok."
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Üç mü? Az bile, ben on attım."
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Yanına gidiyorum, “Mail at” diyor."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Kolay gelsin. Çay alır mısınız hocam?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Sağ olun. Amca, müdür neden cevap vermiyor?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Mail mi? Müdür bey bilgisayar açmaz ki hocam."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Ne?! İzin lazım, ben ne yapacağım?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Kâğıda yazın, tepsiye koyun. Bardağın altına."
+]
+]
+},
+"9": {
+"segs": [
+[
+"tsukkomi",
+"Ne alaka? Bu ne şimdi?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"cheerful",
+"Buyurun hocam, imzalandı. Üç gün yazmıştınız, beş verdi."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Yok artık! Amca, zam da oluyor mu?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Zam için büyük tepsi lazım."
+]
+]
+}
+}
+}

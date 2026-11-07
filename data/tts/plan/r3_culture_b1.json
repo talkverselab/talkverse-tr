@@ -1,0 +1,138 @@
+{
+"ep": "r3_culture_b1",
+"cast": {
+"B": "elif",
+"C": "man_o",
+"D": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"{name}, sana önemli bir görev veriyorum. Tepsiyi sen tutacaksın."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Ne tepsisi? Üstünde yüzükler ve makas var, değil mi?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Aynen. Yüzükler kırmızı bir kurdeleyle bağlı. Dede konuşur, sonra keser."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Tamam, çok kolay. Ben sadece tutuyorum, hiçbir şeye dokunmuyorum."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Değerli misafirler! İki aile bugün çok mutlu. Size bir şey anlatayım."
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Şimdi uzun konuşacak, yirmi dakika sürer. Kolun ağrıyor mu?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Ağrımıyor ama makas kayıyor. Elif, bir dakika, tutar mısın?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Dur, dur! Öyle tutma, kurdeleye değiyor!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shout",
+"Eyvah! Kesildi! Elif, kurdele kesildi!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Aman! Kim kesti? Dede daha bitirmedi ki!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Ne oldu? Neden herkes alkışlıyor? Ben daha konuşacaktım!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Kusura bakmayın! Kurdeleyi yeniden bağlayalım, tekrar kesersiniz!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"worried",
+"Bağlayamazsın, yüzükler yere düştü. Biri masanın altına gitti."
+]
+]
+},
+"14": {
+"segs": [
+[
+"shout",
+"Herkes dursun! Kimse hareket etmesin, yüzük yerde!"
+]
+]
+},
+"15": {
+"segs": [
+[
+"annoyed",
+"Neyse. Konuşmam bitmedi. Hepiniz oturun, yeniden başlıyorum."
+]
+]
+},
+"16": {
+"segs": [
+[
+"tsukkomi",
+"Eline sağlık, {name}. Şimdi kırk dakika."
+]
+]
+}
+}
+}

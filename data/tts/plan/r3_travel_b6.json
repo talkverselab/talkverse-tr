@@ -1,0 +1,145 @@
+{
+"ep": "r3_travel_b6",
+"cast": {
+"B": "elif",
+"C": "announce"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Nemrut'ta söylediğin şeyi konuşacak mıyız, yoksa unuttun mu?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Bak, kedi! Havalimanında kedi var, inanamıyorum, çok tatlı."
+]
+]
+},
+"3": {
+"segs": [
+[
+"sad",
+"Elif, kedi güzel ama cevap vermedin. Uçağım bir saat sonra."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Bir saat mi? Çok vakit var. Su alalım mı, simit alalım mı?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Simit istemiyorum, seni dinlemek istiyorum. Bir kez olsun ciddi ol."
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Çok ciddiyim. Bak, bu simit yüz lira, yok artık!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"sad",
+"Üç gündür mesajlarıma da bakmıyorsun. Hayırdır, ne oldu sana?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Bakıyorum, hepsini okudum. Bak, oradaki kedi sana bakıyor."
+]
+]
+},
+"9": {
+"segs": [
+[
+"polite",
+"{city} uçağının son yolcuları, lütfen kapıya geliniz."
+]
+]
+},
+"10": {
+"segs": [
+[
+"sad",
+"Tamam, gidiyorum. Son kez soruyorum, Elif, bana bir şey söyleyecek misin?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"sad",
+"Bak, kedi."
+]
+]
+},
+"12": {
+"segs": [
+[
+"shout",
+"Kedi yok! Etrafta hiç kedi yok, başından beri yok!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"sad",
+"Biliyorum. Hiç kedi yoktu."
+]
+]
+},
+"14": {
+"segs": [
+[
+"sad",
+"Neden yapıyorsun bunu? Bir şey söyle, lütfen."
+]
+]
+},
+"15": {
+"segs": [
+[
+"shy",
+"Söylersem gidemezsin."
+],
+[
+"gentle",
+"Dönüş biletini al, sonra söylerim."
+]
+]
+},
+"16": {
+"segs": [
+[
+"gentle",
+"Aldım bile."
+],
+[
+"teasing",
+"Bak, kedi."
+]
+]
+}
+}
+}

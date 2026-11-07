@@ -1,0 +1,137 @@
+{
+"ep": "r3_life_b4",
+"cast": {
+"B": "vendor",
+"C": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Merhaba. Bugün maaş aldım. Defterdeki borcumu ödemeye geldim."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Hoş geldiniz. Bir bakayım… Sizin borcunuz yok ki."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Nasıl yok? Üç aydır her gün yazdınız. Ekmek, süt, çikolata."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Evet, yazdım. Sonra da sildim. Bakın, hepsinin üstü çizili."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Şaka mı bu? Bir yanlışlık var herhalde."
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Yanlışlık yok, çünkü para geldi. Her ayın başında."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Kimden? Burada kimseyi tanımıyorum ki. Kim benim için öder?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Söyleyemem, söz verdim. Ama bu mahallede herkesi doyurmak isteyen biri."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Bir dakika. Her hafta bana tabak getiren biri mi?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"polite",
+"Ben bir şey demedim. Ekmeğiniz, buyurun."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Teyze! Bakkaldaki borcumu siz mi ödediniz?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Hangi borç? Aman, sen yemek yedin mi?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"sad",
+"Teyze, lütfen. Neden? Beni tanımıyorsunuz bile."
+]
+]
+},
+"14": {
+"segs": [
+[
+"gentle",
+"Oğlum da yıllarca uzakta okudu, canım. Orada biri ona da tabak verdi."
+]
+]
+},
+"15": {
+"segs": [
+[
+"shy",
+"Teyze… şey… ne diyeceğimi bilmiyorum."
+]
+]
+},
+"16": {
+"segs": [
+[
+"gentle",
+"Ağlama. Tabak boş dönmez, unutma."
+]
+]
+}
+}
+}

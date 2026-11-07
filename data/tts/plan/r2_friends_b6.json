@@ -1,0 +1,105 @@
+{
+"ep": "r2_friends_b6",
+"cast": {
+"B": "elif",
+"C": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"İddiaya var mısın? Zeynep'e tek kelime söyletemezsin."
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Olur! Kaybeden künefe ısmarlar."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Zeynep, bu elbise sana çok yakışmış."
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Bakmadı bile. Bir sıfır."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Bence tasarımın çok kötü, Zeynep."
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Aman, o bakışı gördün mü? Ama ses yok."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Zeynep, kedi çantanı götürüyor!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Çantayı verdi gitti. Yine tek kelime yok!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"annoyed",
+"Yok artık! Bu kız insan değil."
+]
+]
+},
+"10": {
+"segs": [
+[
+"stiff",
+"Bitti. Bir saat tamam."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Ne bir saati? Sen konuştun!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"Can'la iddiam vardı. Künefe ondan."
+]
+]
+}
+}
+}

@@ -1,0 +1,130 @@
+{
+"ep": "r3_life_b3",
+"cast": {
+"B": "man_m",
+"C": "woman_m",
+"D": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Bir ricam var. Bugün köye gidiyorum, binaya bakar mısınız?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Ben mi? Olur, ne var ki? Sadece bir gün."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Çok kolay. Anahtarlar burada. Sabah ekmekler, akşam çöpler."
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Günaydın. Yedinci kata iki ekmek, bir gazete. Hemen, lütfen."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Hemen mi? Asansör yok ki! Tamam, geliyorum."
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Canım, musluğum damlıyor. Bir de kavanoz açılmıyor, gel."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Teyze, ben kapıcı değilim! Sadece bugün için…"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Bugün kapıcı sensin. Hadi, ekmek de istiyorum."
+]
+]
+},
+"9": {
+"segs": [
+[
+"annoyed",
+"Kapıcı! Yan dairenin köpeği yine havlıyor. Bir şey yapın!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Bir dakika! Bu ekmek kimin, bu çöp kimin?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"annoyed",
+"Bana çöp getirdiniz! Ekmeğim nerede?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Ekmek çöpe gitmiş, canım. Patron yiyor."
+]
+]
+},
+"13": {
+"segs": [
+[
+"sad",
+"Ölüyorum. Yedi kat, on kere. Bacaklarım yok artık."
+]
+]
+},
+"14": {
+"segs": [
+[
+"cheerful",
+"Merhaba, ben geldim! Bina nasıl? Asansör ne oldu?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"stiff",
+"Yarın. Kolay gelsin."
+]
+]
+}
+}
+}

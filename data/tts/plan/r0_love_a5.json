@@ -1,0 +1,81 @@
+{
+"ep": "r0_love_a5",
+"cast": {
+"B": "elif",
+"C": "waiter"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Buyurun, tatlı ister misiniz?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Bence baklava. Sen ne istiyorsun?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shy",
+"Bilmem… çok tatlı."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Hangisi tatlı? Baklava mı?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Yok, yok, Elif."
+],
+[
+"surprised",
+"Eyvah!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Ne?"
+],
+[
+"teasing",
+"Ben mi tatlıyım?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Şey… ben baklava demek istedim."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Bir baklava, iki çatal lütfen."
+]
+]
+}
+}
+}

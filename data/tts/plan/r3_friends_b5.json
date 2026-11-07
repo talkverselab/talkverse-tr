@@ -1,0 +1,165 @@
+{
+"ep": "r3_friends_b5",
+"cast": {
+"B": "elif",
+"C": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Elif, Bulut neden bu kadar şişman?"
+],
+[
+"neutral",
+"Ona az veriyorum."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Bulut kim?"
+],
+[
+"neutral",
+"Şu sarı kedi mi?"
+],
+[
+"amused",
+"Onun adı Tombik."
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Hayır, o benim kedim. Ben ona Bulut diyorum."
+]
+]
+},
+"4": {
+"segs": [
+[
+"teasing",
+"Canım, o benim balkonuma geliyor. Her öğlen tavuk yiyor."
+]
+]
+},
+"5": {
+"segs": [
+[
+"tsukkomi",
+"Ne alaka?"
+],
+[
+"annoyed",
+"Her sabah benimle kahvaltı yapıyor, bu kedi."
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Bir dakika, bakayım."
+],
+[
+"surprised",
+"Bu, Can'ın kafesindeki Paşa değil mi?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Paşa mı? Sabah bende, öğlen sende, akşam kafede mi?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Aa, Pamuk!"
+],
+[
+"gentle",
+"Gel oğlum, gel, tavuğun hazır."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Pamuk mu?! Teyze, bu kedi sizin mi?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"Dört yıldır benim kedim, evladım. Geceleri bende yatıyor."
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Yani dört ev, dört isim, dört yemek. Maşallah!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"sad",
+"Ben onu kurtardım sanıyordum! \"Aç, zavallı\" diyordum."
+]
+]
+},
+"13": {
+"segs": [
+[
+"amused",
+"Size de o yüzle mi baktı? Herkese öyle bakıyor."
+]
+]
+},
+"14": {
+"segs": [
+[
+"amused",
+"Bu kedi hepimizden iyi yaşıyor, valla. İşi de yok."
+]
+]
+},
+"15": {
+"segs": [
+[
+"worried",
+"Peki bu sabah neredeydi? Bana gelmedi."
+]
+]
+},
+"16": {
+"segs": [
+[
+"neutral",
+"Eczanede."
+],
+[
+"amused",
+"Orada adı Müdür Bey."
+]
+]
+}
+}
+}

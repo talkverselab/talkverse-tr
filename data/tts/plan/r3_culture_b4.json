@@ -1,0 +1,120 @@
+{
+"ep": "r3_culture_b4",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Bugün kahveler benden. Geçen hafta sen ısmarlamıştın, borcum kalmasın."
+]
+]
+},
+"2": {
+"segs": [
+[
+"tsukkomi",
+"Borç mu? Yok artık, kahvede borç olmaz."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Nasıl olmaz? Ben hesap tutuyorum, kafamda her şey yazıyor."
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Bizde bir söz var: Bir fincan kahvenin kırk yıl hatırı vardır."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Kırk yıl mı? Bir kahve için mi? Ne demek bu?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Yani bana kahve ısmarlayan beni kırk yıl unutamaz."
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Çok pahalı bir kahveymiş. O zaman ben ödemeyeyim, olur mu?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Geç kaldın, garson getirdi bile. Al, iç, kaçış yok."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Peki bu kırk yıl ne zaman başlıyor? Bugün mü?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"teasing",
+"Geçen hafta başladı, unuttun mu? Ben hesapladım."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Hesapladın mı? Neyi hesapladın, Elif?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Otuz dokuz yıl, elli bir haftamız kaldı."
+]
+]
+},
+"13": {
+"segs": [
+[
+"flustered",
+"Bu bir matematik sorusu mu, yoksa başka bir şey mi?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"gentle",
+"Kahveni iç, {name}. Fincan sana söyler."
+]
+]
+}
+}
+}

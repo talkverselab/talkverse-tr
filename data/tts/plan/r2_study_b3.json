@@ -1,0 +1,109 @@
+{
+"ep": "r2_study_b3",
+"cast": {
+"B": "zeynep",
+"C": "staff"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Hocanın kapısında “Beş dakikaya dönerim” yazıyor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Ee? Bekle o zaman."
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Bekledim. Bir saat oldu."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Affedersiniz, kimi bekliyorsunuz?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Hocamı. Kapıda beş dakika yazıyor."
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"O yazı üç yıldır orada."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Yok artık! Hoca nerede peki?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Az önce kantine gitti. Çabuk olun."
+]
+]
+},
+"9": {
+"segs": [
+[
+"amused",
+"Kantindeyim. Hoca yok, ama masası var."
+]
+]
+},
+"10": {
+"segs": [
+[
+"excited",
+"Çayı hâlâ sıcak! Buradaydı!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Bardağın altında bir kâğıt var."
+]
+]
+},
+"12": {
+"segs": [
+[
+"neutral",
+"Okuyayım."
+],
+[
+"annoyed",
+"“Beş dakikaya dönerim.”"
+]
+]
+}
+}
+}

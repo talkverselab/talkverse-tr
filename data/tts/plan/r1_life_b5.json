@@ -1,0 +1,84 @@
+{
+"ep": "r1_life_b5",
+"cast": {
+"B": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Buyur, canım, otur. Mantı yaptım."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Sağ olun, teyze. Çok güzel kokuyor."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Ee? Beğendin mi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Çok güzel."
+],
+[
+"polite",
+"Başınız sağ olsun!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Allah Allah! Kim öldü?!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Kimse! Yani yemek çok güzel!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"tsukkomi",
+"Yavrum, 'elinize sağlık' denir."
+],
+[
+"amused",
+"Mantı ölmedi!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Ölmedi mi?"
+],
+[
+"amused",
+"Ben hepsini yedim."
+]
+]
+}
+}
+}

@@ -1,0 +1,82 @@
+{
+"ep": "r0_friends_c2",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"flustered",
+"Can, evime bir kedi girdi 😅",
+"Can, evime bir kedi girdi"
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Süper! Süt ver."
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Verdim. Şimdi yatağımda uyuyor."
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Maşallah."
+],
+[
+"amused",
+"Adını da koy."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Bir dakika… iki kedi var."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Hadi canım!"
+],
+[
+"worried",
+"Kapıyı kapat."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Yedi oldu. Ben dışarıdayım."
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Kirayı onlardan al 😂",
+"Kirayı onlardan al"
+]
+]
+}
+}
+}

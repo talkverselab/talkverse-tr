@@ -1,0 +1,105 @@
+{
+"ep": "r2_study_b7",
+"cast": {
+"B": "zeynep",
+"C": "hoca"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Evet, soru var mı?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"teasing",
+"Sor hadi. Türkçen gelişsin."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Çok korkuyorum. Yanlış söylerim."
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Önce “Hocam” de, sonra sor. Bu kadar."
+]
+]
+},
+"5": {
+"segs": [
+[
+"shy",
+"Tamam… Kocam, bir sorum var."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Efendim? Ne dediniz?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Kocam… yani kocam, sınav ne zaman?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Öldüm. Bütün sınıf sana bakıyor."
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"Ne oldu? Ne dedim ben?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"teasing",
+"Hocaya “kocam” dedin. Hem de iki kez."
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Eyvah! Hocam, özür dilerim, ben…"
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Sınav cuma. Eşim duymasın yeter."
+]
+]
+}
+}
+}

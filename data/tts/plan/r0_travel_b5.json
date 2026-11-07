@@ -1,0 +1,85 @@
+{
+"ep": "r0_travel_b5",
+"cast": {
+"B": "elif",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Burada ayakkabı olmaz. Lütfen çıkarın."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Tamam."
+],
+[
+"excited",
+"Elif, burası çok güzel!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Dikkat et, kayıyor."
+],
+[
+"gentle",
+"Al, elimi tut."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Çok mu kayıyor?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Çok!"
+],
+[
+"gentle",
+"Hiç bırakma."
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Ama bak, çocuklar oynuyor."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shy",
+"Evet… kaymıyor zaten."
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Bırakmıyorum."
+]
+]
+}
+}
+}

@@ -1,0 +1,105 @@
+{
+"ep": "r2_culture_b8",
+"cast": {
+"B": "vendor",
+"C": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Hello my friend! Where are you from?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Merhaba, Türkçe öğreniyorum. Kekik var mı?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Yes yes, very good price! Special for you!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Lütfen Türkçe konuşun. Kekik istiyorum, kekik."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Apple tea? Very good, my friend!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Bırak, seni duymuyor. Kendi şarkısını söylüyor."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Tamam, bak şimdi. Do you have thyme?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Efendim? Ne diyorsunuz, anlamadım."
+]
+]
+},
+"9": {
+"segs": [
+[
+"annoyed",
+"İngilizce sordum. Siz İngilizce bilmiyor musunuz?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"amused",
+"Yok ya, on cümle biliyorum. Ne istemiştiniz?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"shout",
+"Kekik! Yarım saattir kekik diyorum!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"cheerful",
+"Kekik yok. Apple tea, my friend?"
+]
+]
+}
+}
+}

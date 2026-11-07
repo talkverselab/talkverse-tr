@@ -1,0 +1,80 @@
+{
+"ep": "r1_love_b5",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Bu kedi senin mi? Çok tatlı."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Sokağın kedisi."
+],
+[
+"shy",
+"Ama adını ben koydum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Harika! Adı ne?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"shy",
+"Söylemem."
+],
+[
+"teasing",
+"Sonra gülersin."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Gülmem, valla. Hadi, söyle."
+]
+]
+},
+"6": {
+"segs": [
+[
+"shy",
+"Adı {name}."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Yok artık! Neden benim adım?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Güzel, ama beni hiç aramıyor."
+]
+]
+}
+}
+}

@@ -1,0 +1,149 @@
+{
+"ep": "r2_culture_b1",
+"cast": {
+"B": "teyze",
+"C": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Demek bugün gidiyorsun, yavrum."
+],
+[
+"sad",
+"Çok özleyeceğiz."
+]
+]
+},
+"2": {
+"segs": [
+[
+"sad",
+"Ben de sizi özleyeceğim."
+],
+[
+"polite",
+"Börekleriniz için elinize sağlık."
+]
+]
+},
+"3": {
+"segs": [
+[
+"gentle",
+"Estağfurullah."
+],
+[
+"polite",
+"Bavulların hazır mı, taksi geldi mi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Geldi."
+],
+[
+"cheerful",
+"Hadi gidelim, uçak beklemez."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Tamam, görüşürüz."
+],
+[
+"gentle",
+"Kendinize iyi bakın."
+]
+]
+},
+"6": {
+"segs": [
+[
+"gentle",
+"Sen git, yavrum."
+],
+[
+"stiff",
+"Sakın arkana bakma."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Neden?"
+],
+[
+"surprised",
+"Arkamda ne var?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Su gibi git, su gibi gel!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shout",
+"Aman!"
+],
+[
+"flustered",
+"Her yerim su oldu, ben ne yaptım?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"amused",
+"Kızma!"
+],
+[
+"cheerful",
+"Yolun açık olsun diye yapılır, çok güzel bir şey."
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Güzel ama…"
+],
+[
+"tsukkomi",
+"suyu bana mı atmak gerekiyor?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Gözlüğüm evde kaldı."
+],
+[
+"cheerful",
+"Sen yine gel, bir daha atarım."
+]
+]
+}
+}
+}

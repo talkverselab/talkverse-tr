@@ -1,0 +1,86 @@
+{
+"ep": "r0_love_c1",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Selam! Bu kedi senin mi?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Selam."
+],
+[
+"neutral",
+"Yok, arkadaşımın kedisi."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Ha."
+],
+[
+"cheerful",
+"Tamam, görüşürüz 👋",
+"Tamam, görüşürüz"
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Dur!"
+],
+[
+"tsukkomi",
+"Ne alaka?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Ben kedi için yazdım."
+]
+]
+},
+"6": {
+"segs": [
+[
+"sad",
+"Öldüm. Ya ben?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Şaka şaka 😂",
+"Şaka şaka"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Üç gündür fotoğrafına bakıyorum."
+]
+]
+}
+}
+}

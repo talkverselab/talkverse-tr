@@ -1,0 +1,109 @@
+{
+"ep": "r2_love_b5",
+"cast": {
+"B": "elif",
+"C": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Hadi gel, ablamın düğünü var. Kimse seni tanımıyor, sorun yok."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Beni ne diye tanıtacaksın?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Elif, bu kim kızım? Çok tatlı!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Arkadaşım teyze. Sadece arkadaş."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Hıhı, arkadaş. Darısı başınıza, evladım!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Elif, darısı ne demek?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Hiç sorma. Hadi, gülüyoruz."
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Hadi, halaya! Sen en öne geç, evladım!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Elif, yüz kişi bakıyor! Elimi bırakma!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"Merak etme, bırakmam."
+]
+]
+},
+"11": {
+"segs": [
+[
+"shy",
+"Halay bitti. Elif, elim hâlâ sende."
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Biliyorum."
+],
+[
+"shy",
+"Arkadaşlar böyle yapar."
+]
+]
+}
+}
+}

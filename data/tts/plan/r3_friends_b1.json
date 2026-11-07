@@ -1,0 +1,136 @@
+{
+"ep": "r3_friends_b1",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Hoş geldin! Çabuk mutfağa gel, bugün ablamı istemeye geliyorlar."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"İstemeye mi? Ben o kelimeden korkuyorum, biliyorsun."
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Sakin ol, bugün kimse seni istemiyor. Tepsiyi sen taşıyacaksın."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Tamam ama kural ne? Kahveyi kime vereceğim?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Bak, tuzlu kahve damadın. Üç kaşık tuz koydum, ona ver."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Neden tuz? Bu adama düşman mısınız?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Gelenek bu! Damat içer ve susar, yani sabırlı demek."
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Anladım. Hangi fincandı, sağdaki mi, soldaki mi?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Sağdaki! Hayır, dur, senin sağın mı benim sağım mı?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"neutral",
+"Geç kaldın, verdim bile. Yaşlı amca kahvesini içiyor."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Yaşlı amca mı? Eyvah! O damadın babası!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"worried",
+"Yüzü kıpkırmızı oldu ama hiçbir şey demiyor."
+]
+]
+},
+"13": {
+"segs": [
+[
+"worried",
+"Damat nasıl? O bir şey fark etti mi?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"worried",
+"Damat mutlu, \"Ne güzel kahve\" diyor. Baba bana bakıyor."
+]
+]
+},
+"15": {
+"segs": [
+[
+"sad",
+"Bittik. Ablam beni öldürecek, düğün de bitti."
+]
+]
+},
+"16": {
+"segs": [
+[
+"surprised",
+"Bir dakika… \"Bir fincan daha\" diyor."
+]
+]
+}
+}
+}

@@ -1,0 +1,126 @@
+{
+"ep": "r2_life_b6",
+"cast": {
+"B": "man_m",
+"C": "man_o",
+"D": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"stiff",
+"Toplantı başladı."
+],
+[
+"annoyed",
+"Aidat yine mi artıyor?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"sad",
+"Asansör bozuk, kapı bozuk, ben de yorgunum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Affedersiniz, bir şey söyleyebilir miyim?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Sonra, canım."
+],
+[
+"stiff",
+"Önce çöpü konuşalım."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Üst kat hep su döküyor, teyze!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Ben mi?"
+],
+[
+"annoyed",
+"Balkonu yıkadım, ayıp oluyor!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Bakın, ben sadece…"
+]
+]
+},
+"8": {
+"segs": [
+[
+"sad",
+"Kimse yönetici olmak istemiyor mu?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Şey, ben bir şey…"
+]
+]
+},
+"10": {
+"segs": [
+[
+"excited",
+"Bak, {name} konuşuyor!"
+],
+[
+"cheerful",
+"O olsun."
+]
+]
+},
+"11": {
+"segs": [
+[
+"cheerful",
+"Kesinlikle."
+],
+[
+"excited",
+"Hayırlı olsun, yönetici!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"sad",
+"Ben sadece tuvaleti soracaktım."
+]
+]
+}
+}
+}

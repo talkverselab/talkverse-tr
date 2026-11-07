@@ -1,0 +1,76 @@
+{
+"ep": "r0_love_b1",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"surprised",
+"Kahve bitti. Fincanı neden alıyorsun?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"teasing",
+"Sus, falına bakıyorum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Ee? Para var mı, para?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"teasing",
+"Yok, hiç yok. Kusura bakma."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Of. Başka ne var?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Dur, burada biri var."
+],
+[
+"amused",
+"Çok güzel."
+]
+]
+},
+"7": {
+"segs": [
+[
+"excited",
+"Kim o? Nasıl biri?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Bilmem… saçı benim gibi."
+]
+]
+}
+}
+}

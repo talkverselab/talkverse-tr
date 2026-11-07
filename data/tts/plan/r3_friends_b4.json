@@ -1,0 +1,137 @@
+{
+"ep": "r3_friends_b4",
+"cast": {
+"B": "zeynep",
+"C": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"Can, bugün derste ne oldu, duydun mu?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Zeynep, lütfen. Söylersen seninle bir daha konuşmam."
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Ne oldu, ne oldu? Anlat, çay getiriyorum."
+]
+]
+},
+"4": {
+"segs": [
+[
+"teasing",
+"{name} sınav kâğıdına bakmak için hocanın yanına gitti."
+]
+]
+},
+"5": {
+"segs": [
+[
+"sad",
+"Hepsi bir harf yüzünden oldu. Bir harf, Can!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Hangi harf? Valla merak ettim, söyle hadi."
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"\"Hocam\" diyecekti. Bütün sınıfın önünde \"Kocam\" dedi."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Yok artık! \"Kocam, notuma bakabilir miyim?\" mi dedin?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"sad",
+"Aynen öyle. Öldüm, ben artık okula gidemem."
+]
+]
+},
+"10": {
+"segs": [
+[
+"teasing",
+"Önce karın ağrıdı, şimdi kocan çıktı. Ailen büyüyor, maşallah!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"annoyed",
+"Gülme, Can! Hoca bana hiçbir şey demedi, sadece baktı."
+]
+]
+},
+"12": {
+"segs": [
+[
+"amused",
+"Sen kaçtıktan sonra dedi: \"Eşim bunu duymasın.\""
+]
+]
+},
+"13": {
+"segs": [
+[
+"surprised",
+"Ne?! Bütün sınıf duydu mu? Kaç kişi güldü?"
+]
+]
+},
+"14": {
+"segs": [
+[
+"amused",
+"Kırk kişi. Sınıf grubuna da yazmışlar."
+]
+]
+},
+"15": {
+"segs": [
+[
+"teasing",
+"Peki notun ne oldu? Kocan sana yardım etti mi?"
+]
+]
+},
+"16": {
+"segs": [
+[
+"sad",
+"Beş puan düştü. Ayrıldık."
+]
+]
+}
+}
+}

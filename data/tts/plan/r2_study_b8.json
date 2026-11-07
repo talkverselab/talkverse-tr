@@ -1,0 +1,108 @@
+{
+"ep": "r2_study_b8",
+"cast": {
+"B": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Zeynep, notlarını verir misin?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Hıhı."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Yarın kantinde kahve içelim mi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Hıhı."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Kulaklık takıyorsun. Beni hiç duymuyorsun, değil mi?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Hıhı."
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Tamam. Bana yüz lira borcun var."
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Hıhı."
+]
+]
+},
+"9": {
+"segs": [
+[
+"gentle",
+"Bu dönem tek arkadaşım sensin."
+],
+[
+"sad",
+"Neyse, duymuyorsun."
+]
+]
+},
+"10": {
+"segs": [
+[
+"teasing",
+"Yüz lira yalan."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Ne?! Duyuyor muydun?!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Kulaklıkta müzik yok. Üç haftadır seni dinliyorum."
+]
+]
+}
+}
+}

@@ -1,0 +1,174 @@
+{
+"ep": "r3_culture_b5",
+"cast": {
+"B": "zeynep",
+"C": "mom",
+"D": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Annem üç gündür bu yemek için uğraşıyor."
+],
+[
+"worried",
+"Sonunda güzel bir şey söyle."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Merak etme, ezberledim. Yemekten sonra söylenen çok güzel bir söz."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Buyurun, afiyet olsun. Tuzu biraz az oldu galiba, kusura bakmayın."
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Yok, harika! Hayatımda böyle bir yemek yemedim."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Estağfurullah."
+],
+[
+"gentle",
+"Bir tabak daha koyayım mı, yavrum?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Teşekkürler, doydum."
+],
+[
+"excited",
+"Bir dakika, güzel sözümü söyleyeceğim."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Hadi, sakin ol. Yavaş söyle, aklından çıkmasın."
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Başınız sağ olsun, hanımefendi."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Ne? Kim ölmüş? Kızım, kim ölmüş?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"annoyed",
+"Kimse ölmedi, baba!"
+],
+[
+"sad",
+"Yavrum, yemek o kadar kötü müydü?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"tsukkomi",
+"{name}, o söz cenazede söylenir."
+],
+[
+"worried",
+"Elinize sağlık olacaktı."
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Eyvah! Özür dilerim! İkisinde de sağ var, karıştı!"
+]
+]
+},
+"13": {
+"segs": [
+[
+"annoyed",
+"Bana kimse söylemiyor."
+],
+[
+"stiff",
+"Telefonu verin, ben arayacağım."
+]
+]
+},
+"14": {
+"segs": [
+[
+"polite",
+"Geçmiş olsun, dede!"
+],
+[
+"flustered",
+"Yani pardon, şey… kusura bakmayın!"
+]
+]
+},
+"15": {
+"segs": [
+[
+"sad",
+"Hiç konuşma artık, yavrum."
+],
+[
+"gentle",
+"Al, tatlını ye."
+]
+]
+},
+"16": {
+"segs": [
+[
+"amused",
+"Dedem akrabaları aramaya başladı."
+],
+[
+"teasing",
+"Tebrikler."
+]
+]
+}
+}
+}

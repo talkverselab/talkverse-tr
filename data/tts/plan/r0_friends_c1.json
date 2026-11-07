@@ -1,0 +1,77 @@
+{
+"ep": "r0_friends_c1",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Neredesin?"
+],
+[
+"teasing",
+"Kahven soğuyor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Yoldayım! Az kaldı."
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Hangi yoldasın?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Şey… büyük yolda."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Kanka, pencereye bak."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Yok artık! Neredesin sen?!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Evinin önünde. Pijaman çok güzel 😂",
+"Evinin önünde. Pijaman çok güzel"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Öldüm. Beş dakika!"
+]
+]
+}
+}
+}

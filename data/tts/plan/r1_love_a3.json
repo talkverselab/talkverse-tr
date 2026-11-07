@@ -1,0 +1,84 @@
+{
+"ep": "r1_love_a3",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"neutral",
+"Dur, annem arıyor."
+],
+[
+"annoyed",
+"Beşinci kez!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Hayırdır? Önemli bir şey mi?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"amused",
+"Yok ya, \"Yemek yedin mi?\" diyor."
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Çok tatlı."
+],
+[
+"cheerful",
+"Selam söyle."
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Annem de \"Selam {name}\" diyor."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Annen adımı nereden biliyor?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Bilmem ki…"
+],
+[
+"shy",
+"her gün senden bahsediyorum."
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Şimdi de \"O yedi mi?\" diyor."
+]
+]
+}
+}
+}

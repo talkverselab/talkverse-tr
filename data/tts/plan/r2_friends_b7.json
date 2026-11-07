@@ -1,0 +1,108 @@
+{
+"ep": "r2_friends_b7",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Alo, neredesin? Bütün gün ses yok."
+]
+]
+},
+"2": {
+"segs": [
+[
+"sad",
+"Evdeyim. İstanbul boş, herkes memlekete gitti."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Bayramda tek başına ne yapıyorsun?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"sad",
+"Hiç. Makarna yaptım, önemli değil."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Bayramda makarna mı? Yok artık."
+]
+]
+},
+"6": {
+"segs": [
+[
+"sad",
+"Olsun, ben alıştım. Sorun yok."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Annem sofrayı kurdu. Sana da tabak koymuş."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Bana mı? Ben oraya gelmiyorum ki…"
+]
+]
+},
+"9": {
+"segs": [
+[
+"gentle",
+"\"O da benim çocuğum\" diyor."
+],
+[
+"cheerful",
+"Kanka, pencereye bak."
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Can, aşağıda mısın?"
+],
+[
+"sad",
+"Ben ağlıyorum galiba."
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Ağlama, in."
+],
+[
+"cheerful",
+"Annemin elini öp, harçlık da var."
+]
+]
+}
+}
+}

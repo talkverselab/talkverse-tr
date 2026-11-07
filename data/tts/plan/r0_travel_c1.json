@@ -1,0 +1,78 @@
+{
+"ep": "r0_travel_c1",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Geldim! Neredesin?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"excited",
+"Bak, kedi! 😍",
+"Bak, kedi!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Çok güzel."
+],
+[
+"annoyed",
+"Elif, neredesin?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Bu da başka kedi."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Elif! Açım, bir saattir bekliyorum!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Mama aldım."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Bana mı?!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Kediye. Sen bekle 😘",
+"Kediye. Sen bekle"
+]
+]
+}
+}
+}

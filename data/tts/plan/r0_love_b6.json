@@ -1,0 +1,76 @@
+{
+"ep": "r0_love_b6",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Selam! Dans ediyor musun?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Ne? Anlamadım!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Dans! Dans edelim mi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"shout",
+"Ne dedin? Müzik çok yüksek!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"shout",
+"SENDEN HOŞLANIYORUM!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Müzik durdu. Herkes bize bakıyor."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Eyvah!"
+],
+[
+"excited",
+"Hadi, dans edelim, hemen!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Aslında ilk seferde duydum."
+]
+]
+}
+}
+}

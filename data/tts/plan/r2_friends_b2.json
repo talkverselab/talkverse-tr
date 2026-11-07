@@ -1,0 +1,121 @@
+{
+"ep": "r2_friends_b2",
+"cast": {
+"B": "elif",
+"C": "man_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Bu otobüs çok güzel."
+],
+[
+"excited",
+"Uçak gibi!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"teasing",
+"Dur, daha görmedin."
+],
+[
+"cheerful",
+"Şimdi servis başlıyor."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Kolonya alır mısınız, efendim?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Evet, lütfen. Şu bardağa koyun."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Bardağa mı?"
+],
+[
+"polite",
+"Emin misiniz, efendim?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Tabii, çok susadım. Limonlu, değil mi?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Bir dakika, sen ne yapıyorsun orada?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"neutral",
+"Limon güzel de…"
+],
+[
+"worried",
+"neden boğazım yanıyor?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Eyvah!"
+],
+[
+"shout",
+"O içilmez, ellerine sürülür!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Ne demek?"
+],
+[
+"shout",
+"Bu parfüm mü şimdi?!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"polite",
+"Yanına bisküvi de ister misiniz, efendim?"
+]
+]
+}
+}
+}

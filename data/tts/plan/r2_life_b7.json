@@ -1,0 +1,104 @@
+{
+"ep": "r2_life_b7",
+"cast": {
+"B": "staff"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Müşteri hizmetlerine hoş geldiniz. Size nasıl yardımcı olabilirim?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Merhaba. Üç gündür internet yok."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Üzgünüm. Modemi kapatıp açtınız mı?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Evet, on kere kapatıp açtım."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Anladım. Lütfen modemi kapatıp açın."
+]
+]
+},
+"6": {
+"segs": [
+[
+"annoyed",
+"Tekrar mı? Modem yanmıyor, sorun orada!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Modem yanmıyorsa, önce modemi açın."
+]
+]
+},
+"8": {
+"segs": [
+[
+"annoyed",
+"Ciddi misiniz? Beni dinliyor musunuz?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"polite",
+"Sizi çok iyi anlıyorum. Modemi kapatıp açtınız mı?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Allah Allah! Siz makine misiniz, insan mı?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"polite",
+"Görüşmemizi beş üzerinden puanlar mısınız?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"teasing",
+"Modemi kapatıp açın."
+]
+]
+}
+}
+}

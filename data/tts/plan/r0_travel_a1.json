@@ -1,0 +1,80 @@
+{
+"ep": "r0_travel_a1",
+"cast": {
+"B": "man_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Bir şey ister misiniz? Çay, su?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Kola, lütfen."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Tabii. Elinizi açın."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Elimi mi? Neden?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Buyurun, kolonya."
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"Hayır!"
+],
+[
+"tsukkomi",
+"Kola dedim, içmek için!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Aman, içmeyin!"
+],
+[
+"polite",
+"Su ister misiniz?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Su mu? Emin misiniz?"
+]
+]
+}
+}
+}

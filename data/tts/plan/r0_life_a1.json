@@ -1,0 +1,80 @@
+{
+"ep": "r0_life_a1",
+"cast": {
+"B": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Canım, yemek yedin mi?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Evet, yedim. Sağ olun."
+]
+]
+},
+"3": {
+"segs": [
+[
+"tsukkomi",
+"Yok, sen yemedin."
+],
+[
+"gentle",
+"Al, dolma."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Tamam, teyze. Çok teşekkürler."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Ama tabak boş dönmez, ha."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Ne demek?"
+],
+[
+"flustered",
+"Ben yemek yapamam!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Sen doldur, ben yine doldururum."
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Eyvah… Bu hiç bitmez."
+]
+]
+}
+}
+}

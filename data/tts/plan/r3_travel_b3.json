@@ -1,0 +1,139 @@
+{
+"ep": "r3_travel_b3",
+"cast": {
+"B": "taxi",
+"C": "man_o",
+"D": "elif",
+"E": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Ne güzel yol ya! Bak, dağlar, ağaçlar, her yer yeşil."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Bu otobüs neden duruyor? Burada köy bile yok ki."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Arkadaşlar, yolda yüz koyun var, biraz bekliyoruz."
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Yarım saat oldu, Allah allah. Koyunlar yolda oturuyor mu ne?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Kusura bakmayın, şoför bey. Şu kuzu hasta, köye kadar alır mısınız?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Tabii, ne demek. Arkada boş koltuk var, oraya koyun."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"O boş koltuk benim koltuğum! Çantam orada duruyor, bir dakika!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Çok şükür, yer var. Al, kucağına koyuyorum, bak seni sevdi."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Ne demek kucağıma? Hocam, bu hayvan neden telefonumu yiyor?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"excited",
+"Dur, kıpırdama, fotoğraf çekiyorum. Bayıldım, ikiniz de çok tatlısınız!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"polite",
+"Biletler lütfen. Kontrol var, herkes biletini göstersin."
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Biletim nerede? Koltuktaydı… Elif, kuzunun ağzında ne var?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"amused",
+"Eyvah. Biletini yedi, afiyet olsun. Son köşesi burada, al."
+]
+]
+},
+"14": {
+"segs": [
+[
+"polite",
+"Biletiniz yoksa inmeniz lazım. Kuralımız bu, kusura bakmayın."
+]
+]
+},
+"15": {
+"segs": [
+[
+"annoyed",
+"Ben inersem kuzu ne olacak? Onun da bileti yok!"
+]
+]
+},
+"16": {
+"segs": [
+[
+"polite",
+"Onun bileti karnında, efendim. Siz buyurun."
+]
+]
+}
+}
+}

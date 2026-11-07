@@ -1,0 +1,72 @@
+{
+"ep": "r1_friends_a4",
+"cast": {
+"B": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"flustered",
+"Zeynep, neden herkes bana para veriyor?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Öndesin ya. Şoföre ver."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Bir dakika… bu kimin parası?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Arkadaki teyzenin. Üstünü de istiyor."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Üstü mü? Ben nereden bileyim?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Bak, beş kişi daha para gönderdi."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Eyvah, hangisi kimin? Zeynep, yardım et!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Olmaz. Öne oturdun, artık banka sensin."
+]
+]
+}
+}
+}

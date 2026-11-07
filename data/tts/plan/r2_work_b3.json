@@ -1,0 +1,97 @@
+{
+"ep": "r2_work_b3",
+"cast": {
+"B": "emre",
+"C": "boss"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"stiff",
+"Bu ay satışlar düşük. Fikri olan var mı?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Bence müşterilere indirim mesajı gönderelim."
+]
+]
+},
+"3": {
+"segs": [
+[
+"stiff",
+"Başka? Hiç kimse yok mu?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Müdürüm, ben bir şey söyledim…"
+]
+]
+},
+"5": {
+"segs": [
+[
+"stiff",
+"Neyse. Kahveyi kim getirecekti?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"annoyed",
+"Emre, bu adam beni duyuyor mu?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Müdürüm, müşterilere indirim mesajı gönderelim."
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Harika, işte fikir budur! Helal olsun Emre!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"polite",
+"Fikir benim değil. {name} söyledi."
+]
+]
+},
+"10": {
+"segs": [
+[
+"stiff",
+"Kim? O da kim?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"gentle",
+"Boş ver. Ben duydum."
+]
+]
+}
+}
+}

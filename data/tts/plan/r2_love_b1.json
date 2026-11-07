@@ -1,0 +1,129 @@
+{
+"ep": "r2_love_b1",
+"cast": {
+"B": "elif",
+"C": "mom"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Bak, annem kahve yapıyor."
+],
+[
+"stiff",
+"Ne olursa olsun, iç."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Neden? Kahvede bir şey mi var?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"stiff",
+"Hiç sorma. Sadece iç ve gül."
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Hoş geldin evladım!"
+],
+[
+"gentle",
+"Buyur, kahven."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Hoş bulduk. Çok teşekkür ederim."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Elif…"
+],
+[
+"surprised",
+"bu kahve deniz gibi!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Sus, tuz var, iç."
+],
+[
+"worried",
+"Herkes sana bakıyor."
+]
+]
+},
+"8": {
+"segs": [
+[
+"excited",
+"Anne, abla, gelin! Bakın, içiyor!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"Elif, bu evde kaç kişi var?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"cheerful",
+"Bitti mi?"
+],
+[
+"gentle",
+"Maşallah, bir tane daha yapayım mı?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"shy",
+"Annem dedi ki: bunu içen gitmez."
+]
+]
+},
+"12": {
+"segs": [
+[
+"polite",
+"Elinize sağlık…"
+],
+[
+"flustered",
+"şimdi su, lütfen."
+]
+]
+}
+}
+}

@@ -1,0 +1,80 @@
+{
+"ep": "r1_survival_s2",
+"cast": {
+"B": "taxi"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Affedersiniz, Güneş Oteli nerede?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Güneş Oteli mi? Uzak, çok uzak."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Uzak mı? Ne kadar?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Üç yüz lira."
+],
+[
+"cheerful",
+"Binin, binin!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Çok pahalı!"
+],
+[
+"worried",
+"Ama… tamam, gidelim."
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Geldik! İşte Güneş Oteli."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Bir dakika… ben buradan bindim!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Evet. Yol kısa, fiyat aynı."
+]
+]
+}
+}
+}

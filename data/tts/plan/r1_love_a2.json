@@ -1,0 +1,76 @@
+{
+"ep": "r1_love_a2",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"shy",
+"Pardon, simidiniz çok güzel görünüyor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Yarısını ister misiniz? Buyurun."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Sağ olun!"
+],
+[
+"surprised",
+"Bir dakika, martı!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Eyvah! Yarısı gitti!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Bak, on martı daha geliyor!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Hadi kaçalım! Diğer yarısı bende!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Simidi at. Sen benimle gel."
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Tamam, hadi gidelim! Martılar, afiyet olsun!"
+]
+]
+}
+}
+}

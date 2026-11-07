@@ -1,0 +1,85 @@
+{
+"ep": "r0_culture_c3",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Uyudun mu?"
+],
+[
+"worried",
+"Fincan aklımdan çıkmıyor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Hangi fincan?"
+],
+[
+"surprised",
+"Ha, E harfi!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Emre'ye sordun mu?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Sordum. Ne alaka, dedi."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Of {name}."
+],
+[
+"teasing",
+"Başka E bilmiyor musun?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Bilmem… eczacı mı?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"shy",
+"Adım Elif."
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Yani… fincan haklıymış 😳",
+"Yani… fincan haklıymış"
+]
+]
+}
+}
+}

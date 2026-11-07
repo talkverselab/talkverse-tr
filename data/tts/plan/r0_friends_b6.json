@@ -1,0 +1,76 @@
+{
+"ep": "r0_friends_b6",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Can, bir çay, lütfen."
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Paşam, hoş geldin! Süt ister misin?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Can, ben de buradayım. Çay?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"gentle",
+"Aç mısın, canım? Gel, gel."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Beni görüyor musun?"
+],
+[
+"shout",
+"Bir dakika!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Paşa, duydun mu? Bir ses var."
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Miyav."
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Buyurun, efendim! Çay mı, süt mü?"
+]
+]
+}
+}
+}

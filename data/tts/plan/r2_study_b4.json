@@ -1,0 +1,104 @@
+{
+"ep": "r2_study_b4",
+"cast": {
+"B": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"amused",
+"Yarın sınav var, sen ne çiziyorsun?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"shy",
+"Hiç. Ders çalışıyorum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Defterin ders gibi durmuyor. Ver bakayım."
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Olmaz. Sen kitabına bak."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Hadi ya, bir sayfa. Kedi mi çizdin?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"El. Yarın çizim sınavı, el çalışıyorum."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Vay be, çok güzel. Bu kimin eli?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Bilmem. Bir el işte."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Dur, bu yara benim elimde var!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shy",
+"Model lazımdı. Sen de uyuyordun."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Kaç sayfa bu? Zeynep, yirmi sayfa var!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Elini ezberledim. Sınavda lazım olur."
+]
+]
+}
+}
+}

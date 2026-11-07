@@ -1,0 +1,129 @@
+{
+"ep": "r2_travel_b6",
+"cast": {
+"B": "man_y",
+"C": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Yirmi dakika mola var, efendim. Buyurun."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Yirmi dakika mı?"
+],
+[
+"cheerful",
+"Harika, ben yemek yiyeceğim."
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Evladım, otobüsün gidiyor galiba."
+]
+]
+},
+"4": {
+"segs": [
+[
+"shout",
+"Yok artık, durun!"
+],
+[
+"flustered",
+"Çantam, telefonum, her şey içinde!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"excited",
+"Hadi, atla! Kamyonla yakalarız."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Kamyonla mı? Ciddi misiniz?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Otuz yıldır bu yoldayım."
+],
+[
+"shout",
+"İyi tutun!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Bakın, orada! Daha hızlı, lütfen!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Aman, ne oluyor?"
+],
+[
+"shout",
+"Durun, kamyondan biri iniyor!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Benim, yolcu benim!"
+],
+[
+"annoyed",
+"Yirmi dakika demiştiniz!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"stiff",
+"Yirmi dakikaydı."
+],
+[
+"polite",
+"Geçmiş olsun, kolonya?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"worried",
+"Su mu? Emin misiniz?"
+]
+]
+}
+}
+}

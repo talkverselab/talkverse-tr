@@ -1,0 +1,104 @@
+{
+"ep": "r2_travel_b2",
+"cast": {
+"B": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Hoş geldin, evladım. Hadi otur, çorba hazır."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Elinize sağlık, teyze. Çok güzel kokuyor."
+]
+]
+},
+"3": {
+"segs": [
+[
+"tsukkomi",
+"Daha yemedin ki! Al, biraz daha."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Sağ olun. Bir tane yeter, gerçekten."
+]
+]
+},
+"5": {
+"segs": [
+[
+"tsukkomi",
+"Bir tane ne demek? Hiç yemedin, al al."
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Teyze, lütfen, duydum! Çok duydum!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Neyi duydun? Ben bir şey demedim ki."
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Yok, yok, duydum. Yani karnım…"
+]
+]
+},
+"9": {
+"segs": [
+[
+"worried",
+"Hasta mısın? Geçmiş olsun, çorba iyi gelir."
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Hayır, doydum! Evet, doydum, işte bu!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Ha, doydun mu? Olmaz, tatlı daha gelmedi."
+]
+]
+},
+"12": {
+"segs": [
+[
+"sad",
+"Duydum."
+]
+]
+}
+}
+}

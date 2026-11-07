@@ -1,0 +1,72 @@
+{
+"ep": "r0_friends_a2",
+"cast": {
+"B": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Zeynep, beni dinliyor musun?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"neutral",
+"Hıhı."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Bak, bu akşam sinemaya gidelim mi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Hıhı."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Ben yarın ölüyorum."
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Hıhı."
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Bütün paramı da sana bırakıyorum."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Ne kadar?"
+]
+]
+}
+}
+}

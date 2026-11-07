@@ -1,0 +1,88 @@
+{
+"ep": "r1_friends_a5",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Hayırdır?"
+],
+[
+"gentle",
+"Bugün hiç iyi değilsin."
+]
+]
+},
+"2": {
+"segs": [
+[
+"sad",
+"Bilmiyorum. Dün çok yedim, galiba."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Ne yedin ki?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Balık. Sonra da sütlü tatlı."
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Aman, balıkla süt olmaz!"
+],
+[
+"gentle",
+"Neren ağrıyor?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"sad",
+"Karım ağrıyor."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Yok artık, evlendin mi?"
+],
+[
+"teasing",
+"Geçmiş olsun."
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Hayır!"
+],
+[
+"flustered",
+"Karnım, karnım!"
+]
+]
+}
+}
+}

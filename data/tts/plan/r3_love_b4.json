@@ -1,0 +1,136 @@
+{
+"ep": "r3_love_b4",
+"cast": {
+"B": "emre"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"stiff",
+"Dur. Bugün sana bir şey söyleyeceğim. Bana bakma, denize bak."
+]
+]
+},
+"2": {
+"segs": [
+[
+"worried",
+"Hayırdır? Çok ciddi görünüyorsun, biraz korktum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"shy",
+"Ben konuşmayı bilmiyorum. O yüzden yazdım, oradan okuyacağım."
+]
+]
+},
+"4": {
+"segs": [
+[
+"amused",
+"Kâğıda mı yazdın? Emre, sen iki kelimeyi zor söylersin."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Üç gece uğraştım. Sus da dinle. \"Birincisi…\""
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Birincisi mi? Madde madde mi anlatıyorsun? Çok komik, devam et."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shy",
+"Gülme. \"Birincisi, sen gelince…\" Eyvah, kâğıt!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shout",
+"Rüzgâr aldı! Tutamadım, denize gidiyor!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"sad",
+"Yok artık. Üç gecelik iş uçtu gitti."
+]
+]
+},
+"10": {
+"segs": [
+[
+"excited",
+"Bak, bak! Martı kâğıdı yakaladı. Simit sandı galiba!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"amused",
+"Martıya söyle, okusun. Benden iyi okur."
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Neyse, boş ver kâğıdı. Ne yazıyordu, hatırlıyor musun?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"shy",
+"Hatırlamıyorum. Uzun bir şeydi, çok kelime vardı."
+]
+]
+},
+"14": {
+"segs": [
+[
+"gentle",
+"Hiçbirini mi hatırlamıyorsun? Bir kelime bile yeter bana."
+]
+]
+},
+"15": {
+"segs": [
+[
+"gentle",
+"\"Bu vapura sensiz binmek istemiyorum.\" Sonu buydu."
+]
+]
+},
+"16": {
+"segs": [
+[
+"shy",
+"İkincisini de yaz. Bu sefer cebinde tut."
+]
+]
+}
+}
+}

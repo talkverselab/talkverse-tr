@@ -1,0 +1,100 @@
+{
+"ep": "r2_culture_b6",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Kalabalık çok! Elimi tut, kaybolma."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Tuttum. Bu şarkıyı biliyor musun?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"excited",
+"Tabii ki! Herkes biliyor, sen de söyle!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Anlamadım ki. Ne diyor bu adam?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Diyor ki: Gözlerine bakınca susarım."
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Sen mi? Sen hiç susmazsın, valla."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shy",
+"Susarım."
+],
+[
+"gentle",
+"Bak, şimdi sana bakıyorum."
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Ee? Hâlâ konuşuyorsun ama."
+]
+]
+},
+"9": {
+"segs": [
+[
+"shy",
+"Şey…"
+]
+]
+},
+"10": {
+"segs": [
+[
+"teasing",
+"Konser bitti, Elif. Elimi bırakabilirsin."
+]
+]
+},
+"11": {
+"segs": [
+[
+"shy",
+"Kaybolma dedim ya."
+]
+]
+}
+}
+}

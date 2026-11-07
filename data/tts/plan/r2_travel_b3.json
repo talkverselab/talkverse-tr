@@ -1,0 +1,137 @@
+{
+"ep": "r2_travel_b3",
+"cast": {
+"B": "vendor",
+"C": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Merhaba. Bu cezve ne kadar?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Size özel, iki bin lira."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Çok pahalı!"
+],
+[
+"neutral",
+"Bin lira veririm."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Bin mi?"
+],
+[
+"sad",
+"Yok artık, çocuklarım aç kalır."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Arkadaşım buralı. Bana her şeyi anlattı."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Öyle mi?"
+],
+[
+"polite",
+"Bin sekiz yüz, son fiyat."
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Bin iki yüz."
+],
+[
+"annoyed",
+"Yoksa gidiyorum, bak!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"annoyed",
+"Gidin, gidin."
+],
+[
+"cheerful",
+"Bin yedi yüz, çay da benden."
+]
+]
+},
+"9": {
+"segs": [
+[
+"cheerful",
+"Amca, selam!"
+],
+[
+"teasing",
+"Yine turist mi yakaladın?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Amca mı?! Elif, bu adam senin amcan mı?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Aman!"
+],
+[
+"polite",
+"Elif'in arkadaşıysanız, bin lira tamam."
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Bin mi?"
+],
+[
+"tsukkomi",
+"Amca, o cezve beş yüz."
+]
+]
+}
+}
+}

@@ -1,0 +1,138 @@
+{
+"ep": "r3_life_b1",
+"cast": {
+"B": "can",
+"C": "man_m",
+"D": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Can, Patron üç gündür yok. İlan yazdım, bak."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"'Büyük kedi, bulana beş yüz lira.' Beş yüz mü? Çıldırdın mı?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"worried",
+"Ne yapayım? Çok merak ediyorum. Sen de bakar mısın?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"teasing",
+"Tamam, ama hazır ol. Bu mahalle parayı çok sever."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"{name}, kapıda bir çocuk var. Elinde kedi, para istiyor."
+]
+]
+},
+"6": {
+"segs": [
+[
+"surprised",
+"Patron mu? Bu kedi siyah ya! Patron sarı."
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Bir kedi daha geldi. Bir tane daha. Merdivene kadar sıra oldu."
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Kanka, bir sayayım… Yedi kedi, üç çocuk, bir de dede."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Dede mi? O neden burada? Kedisi bile yok!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"amused",
+"Elinde tavuk var. 'Bu da kedi sayılır mı?' diye soruyor."
+]
+]
+},
+"11": {
+"segs": [
+[
+"annoyed",
+"Kediler binaya girdi. Şimdi herkes bana bağırıyor."
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Eyvah! Beş yüz lirayı kime vereceğim şimdi?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"gentle",
+"Ne oluyor burada? Aman, Patron'u uyandıracaksınız."
+]
+]
+},
+"14": {
+"segs": [
+[
+"surprised",
+"Ne?! Patron sizde mi? Üç gündür mü?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"cheerful",
+"Tabii. Zayıflamış, köfte verdim. Şimdi kapıdan geçmiyor."
+]
+]
+},
+"16": {
+"segs": [
+[
+"teasing",
+"Beş yüz lira teyzenin. Köfte de benim."
+]
+]
+}
+}
+}

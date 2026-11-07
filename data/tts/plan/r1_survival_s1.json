@@ -1,0 +1,72 @@
+{
+"ep": "r1_survival_s1",
+"cast": {
+"B": "vendor"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Hoş geldiniz! Simit, değil mi?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Evet, evet. Bir simit, lütfen."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Çay da ister misiniz?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Evet… şey, evet."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Peynir? Zeytin? Yumurta?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Evet, evet, evet… Bir dakika!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"cheerful",
+"Buyurun, kahvaltı hazır. Afiyet olsun!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Ne kadar? Ben sadece simit…"
+]
+]
+}
+}
+}

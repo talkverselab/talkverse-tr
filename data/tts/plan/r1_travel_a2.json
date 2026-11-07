@@ -1,0 +1,73 @@
+{
+"ep": "r1_travel_a2",
+"cast": {
+"B": "man_m",
+"C": "man_y"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"İzmir mi? Gelin, gelin!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Bir dakika, ben sadece bakıyorum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"shout",
+"Oraya gitmeyin! Bizimki daha iyi!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Aman! Çantanızı verin, hadi!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Hayır, durun… Çantam nerede?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Çantanız otobüste. Kalkıyor, hadi!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Eyvah! O otobüs nereye gidiyor?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Bursa'ya. Çok güzel, görürsünüz."
+]
+]
+}
+}
+}

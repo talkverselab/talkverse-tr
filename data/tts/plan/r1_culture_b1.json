@@ -1,0 +1,73 @@
+{
+"ep": "r1_culture_b1",
+"cast": {
+"B": "elif",
+"C": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Para hazır mı? Sıra bize geliyor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Hazır. Geline mi takıyoruz?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Aynen. Sonra mikrofondan söylüyorlar."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Ne? Herkes duyuyor mu?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"amused",
+"Tabii, neden? Ne kadar getirdin?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"{name} adına on lira!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Eyvah! Müzik neden durdu?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Görüşürüz. Ben seni tanımıyorum."
+]
+]
+}
+}
+}

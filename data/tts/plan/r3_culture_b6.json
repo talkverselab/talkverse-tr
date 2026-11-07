@@ -1,0 +1,133 @@
+{
+"ep": "r3_culture_b6",
+"cast": {
+"B": "man_o",
+"C": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Usta, merhaba. Zeynep size bahsetmişti. Saz öğrenmek istiyorum."
+]
+]
+},
+"2": {
+"segs": [
+[
+"stiff",
+"Şu süpürgeyi al. Dükkânın önü çok kirli."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Tabii, hemen. Sonra derse başlıyoruz, değil mi?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Çay bitti. Aşağıdan iki çay getir, sıcak olsun."
+]
+]
+},
+"5": {
+"segs": [
+[
+"cheerful",
+"Nasıl gidiyor? Bir aydır oradasın, saz çaldın mı?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"sad",
+"Hiç sorma. Sazı elime bile almadım, sadece süpürüyorum."
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Usta böyle. Bana da iki ay hiç cevap vermedi."
+]
+]
+},
+"8": {
+"segs": [
+[
+"worried",
+"Usta, lütfen, bir dakika. Bugün sazı görebilir miyim, sadece bir kere?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"stiff",
+"Kapının önü yine kirlenmiş. Süpürge köşede."
+]
+]
+},
+"10": {
+"segs": [
+[
+"shout",
+"Usta, ben para veriyorum! Üç aydır süpürüyorum, beni hiç görmüyorsunuz!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"stiff",
+"Görmüyorum, doğru."
+],
+[
+"gentle",
+"Ama duyuyorum."
+]
+]
+},
+"12": {
+"segs": [
+[
+"surprised",
+"Ne duyuyorsunuz? Ben burada hiç ses çıkarmıyorum ki."
+]
+]
+},
+"13": {
+"segs": [
+[
+"gentle",
+"Süpürürken ritim tutuyorsun. İlk ay yanlıştı, şimdi doğru."
+]
+]
+},
+"14": {
+"segs": [
+[
+"excited",
+"Yok artık! Yani yarın saz çalabilirim, öyle mi?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"stiff",
+"Hayır. Yarın sazı sadece tutacaksın. Çalmak seneye."
+]
+]
+}
+}
+}

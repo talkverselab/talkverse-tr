@@ -1,0 +1,104 @@
+{
+"ep": "r2_work_b1",
+"cast": {
+"B": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Hoş geldiniz. Çay mı, kahve mi?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Fark etmez, teşekkür ederim."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Özgeçmişinizde “Türkçe: çok iyi” yazıyor."
+],
+[
+"excited",
+"Harika!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Evet, evet. Türkçem çok iyi."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"O zaman hızlı gidelim. Beş yıl sonra kendinizi nerede görüyorsunuz?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"flustered",
+"Tekrar eder misiniz?"
+],
+[
+"polite",
+"Yavaş lütfen."
+]
+]
+},
+"7": {
+"segs": [
+[
+"stiff",
+"Beş. Yıl. Sonra. Neredesiniz?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"flustered",
+"Şey, burada? Bu sandalyede?"
+]
+]
+},
+"9": {
+"segs": [
+[
+"stiff",
+"Bu özgeçmişi kim yazdı?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Bir arkadaşım. Türkçesi çok iyi."
+]
+]
+},
+"11": {
+"segs": [
+[
+"polite",
+"Arkadaşınızın numarasını alabilir miyim?"
+]
+]
+}
+}
+}

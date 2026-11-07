@@ -1,0 +1,84 @@
+{
+"ep": "r1_culture_a3",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Dur! Çantana bir şey takıyorum."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Bu ne?"
+],
+[
+"neutral",
+"Mavi bir göz mü?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Nazar boncuğu."
+],
+[
+"gentle",
+"Seni nazardan korur."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Nazar ne demek?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Biri sana çok bakar, sonra başın ağrır."
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"Kim bana çok bakıyor?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Ben değilim!"
+],
+[
+"shy",
+"Yani bazen…"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Maşallah de o zaman!"
+]
+]
+}
+}
+}

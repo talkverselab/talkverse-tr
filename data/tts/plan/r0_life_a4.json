@@ -1,0 +1,76 @@
+{
+"ep": "r0_life_a4",
+"cast": {
+"B": "man_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Günaydın. Asansör ne zaman çalışır?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Günaydın."
+],
+[
+"neutral",
+"Yarın."
+]
+]
+},
+"3": {
+"segs": [
+[
+"tsukkomi",
+"Dün de 'yarın' dediniz."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Doğru. Usta yarın geliyor."
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Geçen hafta da aynı şeyi dediniz."
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Aynen. Yarın."
+]
+]
+},
+"7": {
+"segs": [
+[
+"shout",
+"Ben sekizinci kattayım!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Kolay gelsin."
+]
+]
+}
+}
+}

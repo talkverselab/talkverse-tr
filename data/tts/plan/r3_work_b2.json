@@ -1,0 +1,149 @@
+{
+"ep": "r3_work_b2",
+"cast": {
+"B": "emre",
+"C": "woman_m"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"stiff",
+"Müşteri yarın imza atacak. Bu akşamki yemeği bozma."
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Merak etme. Üç cümle ezberledim, hepsi çok kibar."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Bir tanesi yeter. Yemekten sonra “Elinize sağlık” de."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"Hoş geldiniz! Hepsini ben yaptım. Buyurun, oturun."
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Hoş bulduk. Evin kokusu bile harika."
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Bir tabak daha alır mısınız? Çok az yediniz."
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Üç tabak yedim. Artık kalkamıyorum. Çok teşekkür ederim."
+]
+]
+},
+"8": {
+"segs": [
+[
+"stiff",
+"Şimdi söyle. Hadi, tam zamanı."
+]
+]
+},
+"9": {
+"segs": [
+[
+"polite",
+"Hanımefendi… ayağınıza sağlık!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Ayağıma mı?"
+],
+[
+"tsukkomi",
+"Yemeği ayağımla mı yaptım ben?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"“Elinize” demek istedi."
+],
+[
+"polite",
+"Kusura bakmayın."
+]
+]
+},
+"12": {
+"segs": [
+[
+"flustered",
+"Evet, eller!"
+],
+[
+"cheerful",
+"Ama ayaklarınız da çok güzel."
+]
+]
+},
+"13": {
+"segs": [
+[
+"amused",
+"Öldüm gülmekten!"
+],
+[
+"cheerful",
+"Hadi, sözleşmeyi getirin."
+]
+]
+},
+"14": {
+"segs": [
+[
+"surprised",
+"Şimdi mi? Yarın değil miydi?"
+]
+]
+},
+"15": {
+"segs": [
+[
+"cheerful",
+"Bugün imzalayalım."
+],
+[
+"teasing",
+"Ama ayağımla imzalarım, haberiniz olsun."
+]
+]
+}
+}
+}

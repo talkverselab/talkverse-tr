@@ -1,0 +1,73 @@
+{
+"ep": "r1_friends_b4",
+"cast": {
+"B": "can",
+"C": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"annoyed",
+"Bu kanepe neden bu kadar ağır?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Az kaldı! Sadece üç kat."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Dur! Kapıdan girmiyor."
+]
+]
+},
+"4": {
+"segs": [
+[
+"flustered",
+"Nasıl girmiyor? Can, çevir!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"worried",
+"Çeviremiyorum. Kanepenin altındayım."
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Ben de içeride kaldım. Kapı kapandı."
+]
+]
+},
+"7": {
+"segs": [
+[
+"worried",
+"Eyvah! Can, iyi misin?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"İyiyim. Çay getir, artık burada yaşıyorum."
+]
+]
+}
+}
+}

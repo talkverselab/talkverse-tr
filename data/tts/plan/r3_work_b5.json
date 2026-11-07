@@ -1,0 +1,174 @@
+{
+"ep": "r3_work_b5",
+"cast": {
+"B": "emre",
+"C": "man_m",
+"D": "boss"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"stiff",
+"Bugün sadece dinle. Fiyatı ben söyleyeceğim, tamam mı?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Tamam. Sessiz otururum. Ağzımı bile açmam."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Hoş geldiniz. Yıllık bakım için fiyatınız ne kadar?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Yıllık elli bin lira. Çok iyi bir fiyat."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Elli bin mi?"
+],
+[
+"shout",
+"Çok pahalı! Olmaz!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"shout",
+"{name}, ne yapıyorsun?"
+],
+[
+"annoyed",
+"Bu bizim fiyatımız!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"amused",
+"Haklı, bence de pahalı."
+],
+[
+"teasing",
+"Kırk bin olur mu?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Kırk mı?"
+],
+[
+"annoyed",
+"Yok, yok."
+],
+[
+"shout",
+"Otuz, son fiyat!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"shout",
+"Kendi fiyatımızı kırıyorsun! Dur artık!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"surprised",
+"Otuz bin mi?"
+],
+[
+"excited",
+"Bayıldım!"
+],
+[
+"cheerful",
+"Anlaştık."
+]
+]
+},
+"11": {
+"segs": [
+[
+"flustered",
+"Bir dakika… ben sizin tarafınızda değilim ki!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"polite",
+"Emre, toplantı nasıl gidiyor? Fiyatta anlaştınız mı?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"sad",
+"Müdürüm, hiç sormayın. Elli bin otuz oldu."
+]
+]
+},
+"14": {
+"segs": [
+[
+"shout",
+"Otuz mu?! Kim yaptı bunu?!"
+]
+]
+},
+"15": {
+"segs": [
+[
+"polite",
+"Ben de onu soracaktım."
+],
+[
+"amused",
+"Bu arkadaşın maaşı ne kadar?"
+]
+]
+},
+"16": {
+"segs": [
+[
+"sad",
+"Çok az."
+],
+[
+"amused",
+"Ama pazarlık yaparım."
+]
+]
+}
+}
+}

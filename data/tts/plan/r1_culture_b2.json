@@ -1,0 +1,84 @@
+{
+"ep": "r1_culture_b2",
+"cast": {
+"B": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"gentle",
+"Hoş geldin, yavrum. Mantı yapmayı biliyor musun?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"shy",
+"Bilmiyorum, teyze."
+],
+[
+"cheerful",
+"Ama öğrenmek istiyorum."
+]
+]
+},
+"3": {
+"segs": [
+[
+"stiff",
+"Daha küçük! Bir kaşığa kırk tane."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Kırk mı? Yok artık!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"gentle",
+"Aferin. Yemek yapmayı seviyor musun?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"cheerful",
+"Seviyorum."
+],
+[
+"polite",
+"Neden sordunuz, teyze?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Torunum yirmi sekiz yaşında. Bekâr."
+]
+]
+},
+"8": {
+"segs": [
+[
+"tsukkomi",
+"Ne alaka?"
+],
+[
+"flustered",
+"Ben mantı için geldim!"
+]
+]
+}
+}
+}

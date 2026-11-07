@@ -1,0 +1,85 @@
+{
+"ep": "r1_culture_b3",
+"cast": {
+"B": "zeynep",
+"C": "man_o"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Zeynep, saat on iki. Komşular uyuyor."
+]
+]
+},
+"2": {
+"segs": [
+[
+"gentle",
+"Boş ver. Sadece bir türkü."
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Eyvah, kapı çalıyor!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"annoyed",
+"Bu ses ne? Saat kaç biliyor musunuz?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Kusura bakmayın!"
+],
+[
+"polite",
+"Hemen bitiriyoruz."
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"Hayır."
+],
+[
+"sad",
+"O türküyü babam çalardı."
+]
+]
+},
+"7": {
+"segs": [
+[
+"gentle",
+"Bir daha çalayım mı?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"gentle",
+"Çalın."
+],
+[
+"cheerful",
+"Ben de sazımı getiriyorum."
+]
+]
+}
+}
+}

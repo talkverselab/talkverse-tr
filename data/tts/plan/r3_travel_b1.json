@@ -1,0 +1,138 @@
+{
+"ep": "r3_travel_b1",
+"cast": {
+"B": "taxi",
+"C": "staff",
+"D": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Pasaportun sende, değil mi? Bir daha sorayım, sonra ağlamayalım."
+]
+]
+},
+"2": {
+"segs": [
+[
+"amused",
+"Kesinlikle çantamda. Sen de çok düşünüyorsun ya."
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Alo, merhaba. Otelden arıyorum, pasaportunuz bizde kalmış."
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Eyvah! Ne demek bizde kalmış? Ben havalimanına gidiyorum!"
+]
+]
+},
+"5": {
+"segs": [
+[
+"polite",
+"Merak etmeyin, hocam. Döneriz, ama köprü şu an dolu."
+]
+]
+},
+"6": {
+"segs": [
+[
+"worried",
+"Ne kadar sürer? Uçak saat beşte, ne yapacağız şimdi?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"polite",
+"Bir dakika, bir fikrim var. Kuzenim motosikletle getirir."
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Söyleyin, köprüde bulsun. Sarı taksi, içinde ağlayan bir yabancı."
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Ağlamıyorum! Neyse, şimdi ağlıyorum. Elif, bak, o motosiklet mi?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"excited",
+"O bir simitçi! Hayır, dur… arkasında biri var, pasaport sallıyor!"
+]
+]
+},
+"11": {
+"segs": [
+[
+"polite",
+"Kuzenim aradı, sizi gördü. Ama pasaportu trafikte simitçiye vermiş."
+]
+]
+},
+"12": {
+"segs": [
+[
+"shout",
+"Simitçiye mi?! Yok artık! Neden simitçi benim pasaportumu taşıyor?"
+]
+]
+},
+"13": {
+"segs": [
+[
+"polite",
+"Hocam, camı açın, adam geliyor. Bir simit de alın, ayıp olmasın."
+]
+]
+},
+"14": {
+"segs": [
+[
+"excited",
+"Aldık! Pasaport elimizde, simit de sıcak. Çok şükür, yetişiyoruz!"
+]
+]
+},
+"15": {
+"segs": [
+[
+"surprised",
+"Bir dakika, mesaj geldi. Uçak iki saat geç kalkıyormuş."
+]
+]
+},
+"16": {
+"segs": [
+[
+"teasing",
+"Ağlayan sendin. Ben simidimi yiyorum."
+]
+]
+}
+}
+}

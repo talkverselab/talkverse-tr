@@ -1,0 +1,80 @@
+{
+"ep": "r1_friends_b2",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Tavla biliyor musun?"
+],
+[
+"teasing",
+"Kaybeden çayları öder."
+]
+]
+},
+"2": {
+"segs": [
+[
+"shy",
+"Bilmem, biraz."
+],
+[
+"cheerful",
+"Olur, oynayalım."
+]
+]
+},
+"3": {
+"segs": [
+[
+"teasing",
+"Korkma. Ben yavaş oynarım."
+]
+]
+},
+"4": {
+"segs": [
+[
+"excited",
+"Şeş beş! Yine kazandım."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Üç oyun üst üste! Sen kimsin?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Bana deden öğretti."
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Dedem mi? Ne zaman?!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Her sabah, parkta. \"Çayları Can ödesin\" dedi."
+]
+]
+}
+}
+}

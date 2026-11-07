@@ -1,0 +1,76 @@
+{
+"ep": "r1_life_a6",
+"cast": {
+"B": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Merhaba, çorabım balkonunuza düştü."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Buyurun, girin. Hangisi?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"surprised",
+"Hangisi mi? Bir kırmızı çorap."
+]
+]
+},
+"4": {
+"segs": [
+[
+"neutral",
+"Burada üç çorap var."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Üç mü? Gerçekten mi?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"stiff",
+"Bir de pantolon, bir de… şey."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Eyvah!"
+],
+[
+"worried",
+"Ne zamandan beri?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"annoyed",
+"Bir aydır. Kutu doldu, buyurun."
+]
+]
+}
+}
+}

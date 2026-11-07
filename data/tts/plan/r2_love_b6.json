@@ -1,0 +1,116 @@
+{
+"ep": "r2_love_b6",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Doğum günün kutlu olsun!"
+],
+[
+"cheerful",
+"Al, bu senin için."
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Türkçe kart mı yazdın?"
+],
+[
+"excited",
+"Vay be!"
+]
+]
+},
+"3": {
+"segs": [
+[
+"shy",
+"Evet, iki saat uğraştım. Hadi, oku."
+]
+]
+},
+"4": {
+"segs": [
+[
+"cheerful",
+"\"Sevgilim Elif\"…"
+],
+[
+"surprised",
+"bir dakika, ne yazmışsın sen?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Normal bir şey, değil mi? Mektuplarda öyle yazılıyor."
+]
+]
+},
+"6": {
+"segs": [
+[
+"teasing",
+"\"Sevgili Elif\" normal. \"Sevgilim Elif\" başka bir şey."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Eyvah, bir m harfi mi? Öldüm, ver sileyim!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"teasing",
+"Aman, dur! Önce geri kalanını okuyalım."
+]
+]
+},
+"9": {
+"segs": [
+[
+"flustered",
+"Hayır, lütfen, sesli okuma!"
+]
+]
+},
+"10": {
+"segs": [
+[
+"shy",
+"\"Seni her gün görmek istiyorum.\" Bu da mı yanlış?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"shy",
+"Şey… o doğru galiba."
+]
+]
+},
+"12": {
+"segs": [
+[
+"gentle",
+"Sakın silme. O harf kalsın."
+]
+]
+}
+}
+}

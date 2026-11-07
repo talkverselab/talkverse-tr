@@ -1,0 +1,101 @@
+{
+"ep": "r2_friends_b3",
+"cast": {
+"B": "can",
+"C": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"flustered",
+"Can, acil! Bir şişe su lazım!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Hayırdır? Kafandaki ne, köpük mü?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"flustered",
+"Duştaydım, sular kesildi. Gözüm yanıyor!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"surprised",
+"Aman! Sokakta böyle mi geldin?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"annoyed",
+"Evet. Üst komşu da kapıyı açmadı."
+]
+]
+},
+"6": {
+"segs": [
+[
+"amused",
+"Dur, çay suyu var. Ama sıcak."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Olmaz! Soğuk su yok mu burada?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Bir dakika. Bak, kapıda köpüklü iki kişi daha."
+]
+]
+},
+"9": {
+"segs": [
+[
+"surprised",
+"Üst komşu! O da mı köpüklü?"
+]
+]
+},
+"10": {
+"segs": [
+[
+"worried",
+"Evladım, su var mı? Bütün mahalle kesik."
+]
+]
+},
+"11": {
+"segs": [
+[
+"polite",
+"Tamam, sıraya girin."
+],
+[
+"teasing",
+"Kafa başı elli lira."
+]
+]
+}
+}
+}

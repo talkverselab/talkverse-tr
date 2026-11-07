@@ -1,0 +1,76 @@
+{
+"ep": "r1_culture_c2",
+"cast": {
+"B": "elif",
+"C": "teyze"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"teasing",
+"Seni aile grubuna ekledim 😂",
+"Seni aile grubuna ekledim"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Ne? Ben aile değilim ki."
+]
+]
+},
+"3": {
+"segs": [
+[
+"cheerful",
+"Günaydın! Hoş geldin, yavrum 🌹",
+"Günaydın! Hoş geldin, yavrum"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Günaydın, teyze. Teşekkür ederim."
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Eyvah, cevap verdin! Telefonu kapat!"
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Cumartesi herkes bize! {name} börek getirsin."
+]
+]
+},
+"7": {
+"segs": [
+[
+"flustered",
+"Börek mi? Elif, ne oluyor?!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Kırk kişiyiz, yavrum 🌹",
+"Kırk kişiyiz, yavrum"
+]
+]
+}
+}
+}

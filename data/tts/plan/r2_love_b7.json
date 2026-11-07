@@ -1,0 +1,124 @@
+{
+"ep": "r2_love_b7",
+"cast": {
+"B": "elif"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"worried",
+"Elif, üç gündür cevap yok. Ne oldu?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"flustered",
+"Hiç, şey, biraz işim vardı."
+]
+]
+},
+"3": {
+"segs": [
+[
+"annoyed",
+"Mesajları gördün ama. Mavi tik var."
+]
+]
+},
+"4": {
+"segs": [
+[
+"stiff",
+"Gördüm, evet. Cevap yazmadım, bilerek."
+]
+]
+},
+"5": {
+"segs": [
+[
+"surprised",
+"Bilerek mi, ciddi misin?"
+],
+[
+"sad",
+"Ben ne yaptım ki?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"neutral",
+"Hiçbir şey."
+],
+[
+"shy",
+"Ablam dedi: \"Üç gün yazma, o yazsın.\""
+]
+]
+},
+"7": {
+"segs": [
+[
+"tsukkomi",
+"Yok artık!"
+],
+[
+"annoyed",
+"Bu nasıl kural böyle?"
+]
+]
+},
+"8": {
+"segs": [
+[
+"shy",
+"Kural bu: kim önce yazarsa kaybeder."
+]
+]
+},
+"9": {
+"segs": [
+[
+"sad",
+"Ben sekiz mesaj yazdım. Kaybettim yani."
+]
+]
+},
+"10": {
+"segs": [
+[
+"gentle",
+"Hayır, ben kaybettim."
+],
+[
+"shy",
+"Telefonuma bak."
+]
+]
+},
+"11": {
+"segs": [
+[
+"surprised",
+"Bu ne? Yazıp göndermediğin on dört mesaj mı?"
+]
+]
+},
+"12": {
+"segs": [
+[
+"shy",
+"Hepsi sana."
+],
+[
+"gentle",
+"Üç gün çok uzunmuş."
+]
+]
+}
+}
+}

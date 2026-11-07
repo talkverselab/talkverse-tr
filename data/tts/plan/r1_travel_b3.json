@@ -1,0 +1,84 @@
+{
+"ep": "r1_travel_b3",
+"cast": {
+"B": "staff"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"polite",
+"Alo? On dört numaradan arıyorum."
+]
+]
+},
+"2": {
+"segs": [
+[
+"polite",
+"Buyurun efendim. Deniz görünen oda, değil mi?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"polite",
+"Evet."
+],
+[
+"annoyed",
+"Ama burada deniz yok."
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Sağa bakın, lütfen."
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Baktım."
+],
+[
+"surprised",
+"Allah allah, duvar var."
+]
+]
+},
+"6": {
+"segs": [
+[
+"polite",
+"Duvara iyi bakın. Güzel, değil mi?"
+]
+]
+},
+"7": {
+"segs": [
+[
+"tsukkomi",
+"Bu bir resim!"
+],
+[
+"shout",
+"Deniz resmi!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"polite",
+"Evet efendim. Deniz görünen oda."
+]
+]
+}
+}
+}

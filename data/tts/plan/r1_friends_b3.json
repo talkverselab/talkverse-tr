@@ -1,0 +1,81 @@
+{
+"ep": "r1_friends_b3",
+"cast": {
+"B": "zeynep",
+"C": "vendor"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"cheerful",
+"Buyurun! Taze domates, kilosu kırk lira!"
+]
+]
+},
+"2": {
+"segs": [
+[
+"cheerful",
+"Hadi, pazarlık yap."
+],
+[
+"teasing",
+"Sen de öğren."
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Kırk mı?"
+],
+[
+"surprised",
+"Çok pahalı!"
+]
+]
+},
+"4": {
+"segs": [
+[
+"polite",
+"Ee, kaç verirsiniz?"
+]
+]
+},
+"5": {
+"segs": [
+[
+"flustered",
+"Şey… elli?"
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Olur! Hemen, hemen, buyurun!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"tsukkomi",
+"Pazarlık aşağı gider, yukarı değil!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"amused",
+"Yarın yine gelin, size altmış!"
+]
+]
+}
+}
+}

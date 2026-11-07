@@ -1,0 +1,165 @@
+{
+"ep": "r3_friends_b2",
+"cast": {
+"B": "can",
+"C": "zeynep"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"excited",
+"Hayırlı olsun!"
+],
+[
+"teasing",
+"Neden bana söylemedin, kanka?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"surprised",
+"Ne hayırlı olsun? Neyin hayırlı olsun, Can?"
+]
+]
+},
+"3": {
+"segs": [
+[
+"neutral",
+"Mahallede herkes konuşuyor."
+],
+[
+"teasing",
+"Zeynep'le evleniyormuşsun."
+]
+]
+},
+"4": {
+"segs": [
+[
+"tsukkomi",
+"Ne alaka?"
+],
+[
+"neutral",
+"Ben sadece onunla kuyumcuya gittim."
+]
+]
+},
+"5": {
+"segs": [
+[
+"teasing",
+"Aynen! Teyze sizi orada görmüş, yüzüğe bakıyormuşsunuz."
+]
+]
+},
+"6": {
+"segs": [
+[
+"annoyed",
+"Zeynep'in yüzüğü kırıldı, tamir ettirdik."
+],
+[
+"shout",
+"Bu kadar!"
+]
+]
+},
+"7": {
+"segs": [
+[
+"teasing",
+"Sen öyle diyorsun. Manav sana indirim yapacakmış, düğün hediyesi."
+]
+]
+},
+"8": {
+"segs": [
+[
+"surprised",
+"Manav mı?"
+],
+[
+"shout",
+"Manava bunu kim söyledi?!"
+]
+]
+},
+"9": {
+"segs": [
+[
+"amused",
+"Eczacı. Eczacıya da kuaför söylemiş, herhalde."
+]
+]
+},
+"10": {
+"segs": [
+[
+"stiff",
+"Annem aradı."
+],
+[
+"annoyed",
+"Sen bir şey mi yaptın?"
+]
+]
+},
+"11": {
+"segs": [
+[
+"shout",
+"Ben hiçbir şey yapmadım! Mahalle yaptı, mahalle!"
+]
+]
+},
+"12": {
+"segs": [
+[
+"stiff",
+"Annem salon tutmuş. Kaporasını da vermiş."
+]
+]
+},
+"13": {
+"segs": [
+[
+"shout",
+"Yok artık!"
+],
+[
+"worried",
+"Zeynep, bir şey söyle, lütfen!"
+]
+]
+},
+"14": {
+"segs": [
+[
+"cheerful",
+"Bence iptal etmeyin."
+],
+[
+"amused",
+"Düğünde yemek var."
+]
+]
+},
+"15": {
+"segs": [
+[
+"stiff",
+"İptal ederiz."
+],
+[
+"teasing",
+"Ama kaporayı sen ödüyorsun."
+]
+]
+}
+}
+}

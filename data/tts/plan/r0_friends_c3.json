@@ -1,0 +1,85 @@
+{
+"ep": "r0_friends_c3",
+"cast": {
+"B": "can"
+},
+"turns": {
+"1": {
+"segs": [
+[
+"annoyed",
+"Can, paramı ne zaman veriyorsun?"
+]
+]
+},
+"2": {
+"segs": [
+[
+"annoyed",
+"Görüyorum, okudun."
+]
+]
+},
+"3": {
+"segs": [
+[
+"tsukkomi",
+"Can? Öldün mü?"
+]
+]
+},
+"4": {
+"segs": [
+[
+"sad",
+"Tamam, boş ver."
+]
+]
+},
+"5": {
+"segs": [
+[
+"neutral",
+"Neyse."
+],
+[
+"teasing",
+"Komşu çok börek getirdi."
+]
+]
+},
+"6": {
+"segs": [
+[
+"excited",
+"Geliyorum 🏃",
+"Geliyorum"
+]
+]
+},
+"7": {
+"segs": [
+[
+"surprised",
+"Oha!"
+],
+[
+"tsukkomi",
+"Telefonun çalışıyor demek!"
+]
+]
+},
+"8": {
+"segs": [
+[
+"cheerful",
+"Kapıdayım."
+],
+[
+"amused",
+"Hangi para?"
+]
+]
+}
+}
+}
