@@ -42,6 +42,8 @@ void main() {
     await AchievementService.instance.load();
     await t.pumpWidget(const TurkishUniverseApp());
     await wait(t, 1500);
+    await t.ensureVisible(find.text('회화').last); // 기초 묶음이 생겨 폰에서는 아래로 밀렸다
+    await wait(t, 500);
     await t.tap(find.text('회화').last); // first 는 섹션 머리글
     await wait(t, 1500);
     await t.tap(find.text('사랑').first);
@@ -70,9 +72,21 @@ void main() {
     await wait(t, 1000);
     await t.tap(find.text('프로필'));
     await wait(t, 1000);
-    await t.ensureVisible(find.text('앱 소개'));
+    await t.scrollUntilVisible(find.text('앱 소개'), 200, scrollable: find.byType(Scrollable).last); // 목록 아래쪽은 아직 안 그려져 있다
     await wait(t, 500);
     await t.tap(find.text('앱 소개'));
     await wait(t, 1500);
+    Navigator.of(t.element(find.text('1. 단어 기준'))).pop();
+    await wait(t, 800);
+    await t.tap(find.text('홈'));
+    await wait(t, 1000);
+    await t.ensureVisible(find.text('알파벳과 발음').last);
+    await wait(t, 500);
+    await t.tap(find.text('알파벳과 발음').last);
+    await wait(t, 1500);
+    await shot(t, 'p3_alphabet');
+    await t.tap(find.text('Ü ü').last);
+    await wait(t, 1800);
+    await shot(t, 'p4_alphabet_sheet');
   });
 }

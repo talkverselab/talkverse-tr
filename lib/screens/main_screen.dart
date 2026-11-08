@@ -6,6 +6,7 @@ import '../main.dart';
 import '../widgets/spanish_decor.dart';
 import 'chunk_search_screen.dart';
 import 'affix_screens.dart';
+import 'alphabet_screen.dart';
 import 'about_screen.dart';
 import 'conversation_screen.dart';
 import 'dialogue_screen.dart';
@@ -364,11 +365,15 @@ class _TodayMissionState extends State<_TodayMission> {
   }
 }
 
-/// 메뉴 — 문법 → 회화 → 단어 → 에피소드(일본어앱 2026-11-07 순서. 기초·참고는 터키어에 아직 메뉴가 없다).
+/// 메뉴 — 기초 → 문법 → 회화 → 단어 → 에피소드(일본어앱 순서, 기초 = 알파벳과 발음 2026-11-08).
 class _MenuGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final sections = <(String, List<_MenuItem>)>[
+      (tr('기초'), [
+        _MenuItem(label: tr('알파벳과 발음'), sub: tr('29자 · 모음조화'), badge: 'Çç', color: AppColors.beni,
+          builder: (_) => const AlphabetScreen()),
+      ]),
       (tr('문법'), [
         _MenuItem(label: tr('문법'), sub: 'Dilbilgisi', badge: 'G', color: AppColors.rojoDeep,
           builder: (_) => const GrammarHubScreen()),

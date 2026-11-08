@@ -244,7 +244,8 @@ class _WordTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final conv = w.region == 'conv';
-    final url = ArtService.instance.urlForSync(w.word, rank: conv ? null : w.rank);
+    // 낱말로만 찾는다 — 순위로 찾으면 그림 저장소의 옛 순위표와 어긋나 「-i」에 빵 그림이 붙는다
+    final url = ArtService.instance.urlForSync(w.word);
     return InkWell(
       onTap: () => TtsService.instance.speak(w.word.replaceAll('-', '')),
       borderRadius: BorderRadius.circular(8),

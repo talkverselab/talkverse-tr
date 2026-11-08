@@ -135,6 +135,8 @@ void main() {
     await t.tap(find.text('절벽 단어').last);
     await wait(t, 2500);
     await shot(t, '14_cliff_words');
+    await t.dragUntilVisible(find.text('R5 · 569-2000'), find.ancestor(of: find.text('R1 · 1-119'), matching: find.byType(Scrollable)).first, const Offset(-200, 0)); // 구간 칩은 가로 스크롤
+    await wait(t, 300);
     await t.tap(find.text('R5 · 569-2000'));
     await wait(t, 1500);
     await shot(t, '15_cliff_r5');
@@ -146,6 +148,8 @@ void main() {
     await t.tap(find.descendant(of: find.byType(NavigationRail), matching: find.text('앱 소개')));
     await wait(t, 1500);
     await shot(t, '17_about');
+    await t.pageBack(); // 앱 소개는 전체 화면으로 열린다
+    await wait(t, 1000);
 
     await t.tap(rail('진행'));
     await wait(t, 1500);
@@ -154,5 +158,29 @@ void main() {
     await t.tap(rail('프로필'));
     await wait(t, 1500);
     await shot(t, '09_profile');
+
+    // 알파벳과 발음(2026-11-08)
+    await t.tap(rail('홈'));
+    await wait(t, 1000);
+    await t.ensureVisible(find.text('알파벳과 발음').last); // 홈이 아래로 스크롤돼 있다
+    await wait(t, 500);
+    await t.tap(find.text('알파벳과 발음').last);
+    await wait(t, 1500);
+    await shot(t, '18_alphabet');
+    await t.tap(find.text('Ö ö').last);
+    await wait(t, 1800);
+    await shot(t, '19_alphabet_sheet_vowel');
+    Navigator.of(t.element(find.text('IPA [ø / œ]'))).pop();
+    await wait(t, 800);
+    await t.tap(find.text('Ç ç').last);
+    await wait(t, 1500);
+    await t.tap(find.text('자음 조음 위치 그림 보기'));
+    await wait(t, 1000);
+    await shot(t, '20_alphabet_sheet_consonant');
+    Navigator.of(t.element(find.text('IPA [tʃ]'))).pop();
+    await wait(t, 800);
+    await t.tap(find.text('모음조화'));
+    await wait(t, 1000);
+    await shot(t, '21_vowel_harmony');
   });
 }
