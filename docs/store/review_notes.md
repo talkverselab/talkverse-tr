@@ -1,7 +1,9 @@
 # 심사 메모 · 개인정보 답안 — 터키어유니버스 (2026-11-02, 한자 앱 문안을 옮김)
 
+> **2026-11-09**: 출시는 Talkverse 통합 앱 하나. 4.3 대비 문단·스크린샷 순서·새 상품 ID 는 `docs/STORE_PRODUCTS.md`. 아래 [인앱 구입] 문단은 새 상품 기준으로 고쳤다.
+
 > Talkverse ID 로그인(선택) + 평생 이용권 인앱 구입(비소모성) 이 들어간 판. 서버 = auth.talkverse.uk(Cloudflare).
-> ⚠ **이용권이 여는 범위가 아직 정해지지 않았다**(사용자 결정 대기). 아무것도 잠그지 않는 인앱 구입은 App Store 심사(지침 3.1.1)에서 거절될 수 있다 —
+> ⚠ **유료로 잠근 기능이 아직 없다**(사용자 결정 대기). 아무것도 잠그지 않는 인앱 구입은 App Store 심사(지침 3.1.1)에서 거절될 수 있다 —
 > 범위를 정하고 아래 [인앱 구입] 문단의 "어디서 사는지"를 채운 뒤 제출한다.
 
 ## App Store Connect "심사 정보 → 메모"
@@ -11,14 +13,14 @@
 - 로그인 화면: 프로필 탭 → 계정 → 로그인. Apple로 로그인 + 이메일 로그인(심사·테스트용).
 - 데모 계정(이메일 로그인): review@talkverse.uk / 비밀번호: <Doppler keys/prd TALKVERSE_REVIEW_ACCOUNT 에서 복사> — 평생 이용권(tr)이 들어 있습니다.
 - 계정 삭제: 프로필 탭 → 계정 → 계정 삭제(확인 창) → 서버에서 개인정보가 삭제되고 모든 기기에서 로그아웃됩니다.
-[인앱 구입] 비소모성 "평생 이용권"(com.talkverse.turkishUniverse.lifetime) 1개. 프로필 탭 → 평생 이용권 → [평생 이용권 구매] 로 구매, [이전 구매 복원] 으로 복원. <잠긴 화면에서 여는 경로 — 범위 확정 뒤 적기> Sandbox 계정으로 시험 가능, 로그인 없이도 구매·복원이 됩니다.
+[인앱 구입] 자동 갱신 구독 lang_tr_1m·lang_tr_3m·lang_tr_1y·all_1y, 비소모성 lang_tr_life·all_life(평생 = 서비스 운영 기간 동안). 프로필 탭 → 이용권 → 상품 선택, [구매 복원]. 결제 시트에 자동 갱신·해지 방법, 이용약관·개인정보처리방침 링크가 있습니다. <잠긴 화면에서 여는 경로 — 범위 확정 뒤 적기> Sandbox 계정으로 시험 가능, 로그인 없이도 구매·복원이 됩니다.
 [마이크·음성 인식] 말하기 연습에서만 씁니다. 기기의 음성 인식을 쓰며 녹음은 서버로 보내지 않습니다.
 
 [Sign-in] Optional. Every learning feature works without an account; sign-in is only for restoring purchases across devices.
 - Where: Profile tab → Account → Sign in (Sign in with Apple, or email sign-in for review/testing).
 - Demo account (email sign-in): review@talkverse.uk / password: <paste from Doppler> — it already owns the Lifetime Pass.
 - Account deletion: Profile tab → Account → Delete account (confirmation) → personal data is deleted server-side and all sessions are revoked.
-[IAP] One non-consumable "Lifetime Pass" (com.talkverse.turkishUniverse.lifetime). Profile tab → Lifetime Pass → [Buy] / [Restore purchases]. <where locked content opens the pass — fill in>. Works with a Sandbox account; sign-in is not required.
+[IAP] Auto-renewable subscriptions lang_tr_1m / lang_tr_3m / lang_tr_1y / all_1y and non-consumables lang_tr_life / all_life ("lifetime" = for as long as the service operates). Profile tab → Pass → choose a plan, [Restore purchases]. The sheet shows auto-renewal and cancellation terms with Terms of Use and Privacy Policy links. <where locked content opens the pass — fill in>. Works with a Sandbox account; sign-in is not required.
 [Microphone / speech] Used only in speaking practice, through the device's speech recognizer. Audio is not sent to our servers.
 ```
 
