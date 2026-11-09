@@ -9,11 +9,11 @@ twist: 6 emotion
 purpose: making_friends media
 goal: kusura bakmayın 으로 이웃에게 사과하기
 expressions: boş ver; eyvah; kusura bakmayın
-A | Zeynep, saat on iki. Komşular uyuyor. | Zeynep, 12시야. 이웃들 자. | komşu = 이웃 | emotion=worried
-B | Boş ver. Sadece bir türkü. | 신경 쓰지 마. 민요 하나만. | türkü = 튀르키예 민요 | emotion=gentle
-A | Eyvah, kapı çalıyor! | 헉, 초인종 울린다! | kapı çalıyor = 누가 왔다 | emotion=surprised
-C | Bu ses ne? Saat kaç biliyor musunuz? | 이 소리 뭡니까? 몇 시인지 아세요? | ses = 소리 | emotion=annoyed
-A | Kusura bakmayın! Hemen bitiriyoruz. | 죄송합니다! 바로 끝낼게요. | kusura bakmayın = 죄송합니다 | emotion=flustered+polite
-C | Hayır. O türküyü babam çalardı. | 아니요. 그 노래, 우리 아버지가 치시던 거예요. | çalardı = 치곤 했다 — 반전 | emotion=stiff+sad
-B | Bir daha çalayım mı? | 한 번 더 칠까요? | bir daha = 한 번 더 | emotion=gentle
-C | Çalın. Ben de sazımı getiriyorum. | 치세요. 나도 내 사즈 가져올게요. | getiriyorum = 가져온다 | emotion=gentle+cheerful
+A | ? | Zeynep, 12시야. 이웃들 자. |  | emotion=worried
+B | ? | 신경 쓰지 마. 민요 하나만. |  | emotion=gentle
+A | ? | 헉, 초인종 울린다! |  | emotion=surprised
+C | ? | 이 소리 뭡니까? 몇 시인지 아세요? |  | emotion=annoyed
+A | ? | 죄송합니다! 바로 끝낼게요. |  | emotion=flustered+polite
+C | ? | 아니요. 그 노래, 우리 아버지가 치시던 거예요. |  | emotion=stiff+sad
+B | ? | 한 번 더 칠까요? |  | emotion=gentle
+C | ? | 치세요. 나도 내 사즈 가져올게요. |  | emotion=gentle+cheerful

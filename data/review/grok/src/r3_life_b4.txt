@@ -9,19 +9,19 @@ twist: 11 reveal
 purpose: study_abroad work_abroad
 goal: borç·söz verdim 으로 빚 얘기하기, 고마움을 말로 못 할 때
 expressions: merhaba; geldim; hoş geldiniz; herhalde; şaka mı; bir dakika
-A | Merhaba. Bugün maaş aldım. Defterdeki borcumu ödemeye geldim. | 안녕하세요. 오늘 월급 받았어요. 장부에 있는 외상 갚으러 왔어요. | maaş = 월급, borç = 빚 | emotion=cheerful
-B | Hoş geldiniz. Bir bakayım… Sizin borcunuz yok ki. | 어서 오세요. 어디 보자… 외상이 없는데요. | bir bakayım = 어디 보자 | emotion=polite
-A | Nasıl yok? Üç aydır her gün yazdınız. Ekmek, süt, çikolata. | 어떻게 없어요? 석 달째 매일 적으셨잖아요. 빵, 우유, 초콜릿. | üç aydır = 석 달째 | emotion=surprised
-B | Evet, yazdım. Sonra da sildim. Bakın, hepsinin üstü çizili. | 네, 적었죠. 그러고 지웠어요. 보세요, 전부 줄 그어져 있죠. | silmek = 지우다, çizili = 줄 그어진 | emotion=polite
-A | Şaka mı bu? Bir yanlışlık var herhalde. | 농담이죠? 뭔가 잘못됐나 봐요. | herhalde = 아마도 | emotion=surprised
-B | Yanlışlık yok, çünkü para geldi. Her ayın başında. | 잘못된 거 없어요, 돈이 들어왔거든요. 매달 초에요. | her ayın başında = 매달 초에 | emotion=polite
-A | Kimden? Burada kimseyi tanımıyorum ki. Kim benim için öder? | 누구한테서요? 여기 아는 사람도 없는데요. 누가 저 대신 내요? | kimden = 누구한테서 | emotion=worried
-B | Söyleyemem, söz verdim. Ama bu mahallede herkesi doyurmak isteyen biri. | 말씀 못 드려요, 약속했거든요. 근데 이 동네 사람을 다 먹이고 싶어 하는 분이에요. | doyurmak = 배불리 먹이다 | emotion=polite
-A | Bir dakika. Her hafta bana tabak getiren biri mi? | 잠깐만요. 매주 저한테 접시 가져오시는 분이요? | getiren = 가져오는 | emotion=surprised
-B | Ben bir şey demedim. Ekmeğiniz, buyurun. | 전 아무 말도 안 했어요. 빵 여기요. | bir şey demedim = 아무 말 안 했다 | emotion=polite
-A | Teyze! Bakkaldaki borcumu siz mi ödediniz? | 아주머니! 바칼 외상 아주머니가 갚으셨어요? | siz mi ödediniz? = 당신이 내셨어요? — 반전 | emotion=surprised
-C | Hangi borç? Aman, sen yemek yedin mi? | 무슨 외상? 아이고, 너 밥은 먹었니? | hangi = 무슨 | emotion=gentle
-A | Teyze, lütfen. Neden? Beni tanımıyorsunuz bile. | 아주머니, 제발요. 왜요? 절 잘 알지도 못하시잖아요. | bile = ~조차 | emotion=sad
-C | Oğlum da yıllarca uzakta okudu, canım. Orada biri ona da tabak verdi. | 우리 아들도 오래 타지에서 공부했단다, 얘야. 거기서 누가 걔한테도 접시를 내줬어. | yıllarca = 몇 년이나 | emotion=gentle
-A | Teyze… şey… ne diyeceğimi bilmiyorum. | 아주머니… 저… 뭐라고 해야 할지 모르겠어요. | ne diyeceğimi = 뭐라 할지 | emotion=shy
-C | Ağlama. Tabak boş dönmez, unutma. | 울지 마. 접시는 빈 채로 돌아오는 거 아니다, 잊지 마. | unutma = 잊지 마 | emotion=gentle
+A | ? | 안녕하세요. 오늘 월급 받았어요. 장부에 있는 외상 갚으러 왔어요. |  | emotion=cheerful
+B | ? | 어서 오세요. 어디 보자… 외상이 없는데요. |  | emotion=polite
+A | ? | 어떻게 없어요? 석 달째 매일 적으셨잖아요. 빵, 우유, 초콜릿. |  | emotion=surprised
+B | ? | 네, 적었죠. 그러고 지웠어요. 보세요, 전부 줄 그어져 있죠. |  | emotion=polite
+A | ? | 농담이죠? 뭔가 잘못됐나 봐요. |  | emotion=surprised
+B | ? | 잘못된 거 없어요, 돈이 들어왔거든요. 매달 초에요. |  | emotion=polite
+A | ? | 누구한테서요? 여기 아는 사람도 없는데요. 누가 저 대신 내요? |  | emotion=worried
+B | ? | 말씀 못 드려요, 약속했거든요. 근데 이 동네 사람을 다 먹이고 싶어 하는 분이에요. |  | emotion=polite
+A | ? | 잠깐만요. 매주 저한테 접시 가져오시는 분이요? |  | emotion=surprised
+B | ? | 전 아무 말도 안 했어요. 빵 여기요. |  | emotion=polite
+A | ? | 아주머니! 바칼 외상 아주머니가 갚으셨어요? |  | emotion=surprised
+C | ? | 무슨 외상? 아이고, 너 밥은 먹었니? |  | emotion=gentle
+A | ? | 아주머니, 제발요. 왜요? 절 잘 알지도 못하시잖아요. |  | emotion=sad
+C | ? | 우리 아들도 오래 타지에서 공부했단다, 얘야. 거기서 누가 걔한테도 접시를 내줬어. |  | emotion=gentle
+A | ? | 아주머니… 저… 뭐라고 해야 할지 모르겠어요. |  | emotion=shy
+C | ? | 울지 마. 접시는 빈 채로 돌아오는 거 아니다, 잊지 마. |  | emotion=gentle

@@ -9,11 +9,11 @@ twist: 5 chaos
 purpose: study_abroad work_abroad
 goal: yemek yedin mi·sağ olun 으로 이웃의 음식 공세 받기
 expressions: canım; sağ olun; teşekkürler; tamam; ne demek; eyvah
-B | Canım, yemek yedin mi? | 얘야, 밥 먹었니? | yemek yedin mi? = 밥 먹었니? | emotion=gentle
-A | Evet, yedim. Sağ olun. | 네, 먹었어요. 고맙습니다. | sağ olun = 고맙습니다 | emotion=polite
-B | Yok, sen yemedin. Al, dolma. | 아니, 넌 안 먹었어. 자, 돌마. | dolma = 속을 채운 채소 요리 | emotion=tsukkomi+gentle
-A | Tamam, teyze. Çok teşekkürler. | 네, 아주머니. 정말 감사합니다. | teyze = 아주머니, 이모 | emotion=polite
-B | Ama tabak boş dönmez, ha. | 근데 접시는 빈 채로 돌아오면 안 된다. | tabak = 접시 — 반전: 돌려줄 땐 음식을 담아서 | emotion=teasing
-A | Ne demek? Ben yemek yapamam! | 무슨 말씀이에요? 저 요리 못 해요! | yemek yapamam = 요리 못 해요 | emotion=surprised+flustered
-B | Sen doldur, ben yine doldururum. | 네가 채워 오면, 내가 또 채워 주지. | doldurmak = 채우다 | emotion=amused
-A | Eyvah… Bu hiç bitmez. | 헉… 이거 끝이 없겠네요. | bitmez = 안 끝난다 | emotion=flustered
+B | ? | 얘야, 밥 먹었니? |  | emotion=gentle
+A | ? | 네, 먹었어요. 고맙습니다. |  | emotion=polite
+B | ? | 아니, 넌 안 먹었어. 자, 돌마. |  | emotion=tsukkomi+gentle
+A | ? | 네, 아주머니. 정말 감사합니다. |  | emotion=polite
+B | ? | 근데 접시는 빈 채로 돌아오면 안 된다. |  | emotion=teasing
+A | ? | 무슨 말씀이에요? 저 요리 못 해요! |  | emotion=surprised+flustered
+B | ? | 네가 채워 오면, 내가 또 채워 주지. |  | emotion=amused
+A | ? | 헉… 이거 끝이 없겠네요. |  | emotion=flustered

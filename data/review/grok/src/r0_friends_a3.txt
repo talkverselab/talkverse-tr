@@ -9,10 +9,10 @@ twist: 5 reveal
 purpose: making_friends travel
 goal: yeter·sağ ol 로 사양하기, 찻잔 위 스푼의 뜻 알기
 expressions: sağ ol; buyur; ne alaka; ne demek
-B | Bir çay daha? | 차 한 잔 더? | bir ~ daha = ~ 하나 더 | emotion=cheerful
-A | Yok, sağ ol. Yeter. | 아니, 고마워. 됐어. | yeter = 충분해 | emotion=polite
-B | Buyur, taze çay. | 자, 갓 끓인 차. | taze = 신선한 | emotion=cheerful
-A | Can, bu altıncı çay! Neden veriyorsun? | 잔, 이거 여섯 잔째야! 왜 자꾸 줘? | altıncı = 여섯 번째 | emotion=surprised+annoyed
-B | Kaşığı bardağın üstüne koymadın ki. | 스푼을 잔 위에 안 올렸잖아. | kaşık = 스푼 — 반전: 스푼을 잔 위에 얹어야 그만이다 | emotion=amused
-A | Ne alaka? Kaşık ne demek? | 뭔 소리야? 스푼이 무슨 뜻인데? | ne demek = 무슨 뜻이야 | emotion=tsukkomi
-B | Yeter demek. Altı çay, hesap sende. | 「그만」이란 뜻. 여섯 잔, 계산은 네가. | hesap sende = 계산은 네가 | emotion=amused+teasing
+B | ? | 차 한 잔 더? |  | emotion=cheerful
+A | ? | 아니, 고마워. 됐어. |  | emotion=polite
+B | ? | 자, 갓 끓인 차. |  | emotion=cheerful
+A | ? | 잔, 이거 여섯 잔째야! 왜 자꾸 줘? |  | emotion=surprised+annoyed
+B | ? | 스푼을 잔 위에 안 올렸잖아. |  | emotion=amused
+A | ? | 뭔 소리야? 스푼이 무슨 뜻인데? |  | emotion=tsukkomi
+B | ? | 「그만」이란 뜻. 여섯 잔, 계산은 네가. |  | emotion=amused+teasing

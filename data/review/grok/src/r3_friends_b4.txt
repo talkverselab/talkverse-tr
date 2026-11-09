@@ -9,19 +9,19 @@ twist: 7 slip
 purpose: study_abroad making_friends
 goal: hocam 과 kocam 구별하기, 창피한 일 놀리고 놀림받기
 expressions: hadi; valla; yok artık; aynen; öldüm; maşallah
-B | Can, bugün derste ne oldu, duydun mu? | 잔, 오늘 수업에서 무슨 일 있었는지 들었어? | ders = 수업 | emotion=teasing
-A | Zeynep, lütfen. Söylersen seninle bir daha konuşmam. | 제이넵, 제발. 말하면 너랑 다시는 말 안 해. | bir daha = 다시는 | emotion=flustered
-C | Ne oldu, ne oldu? Anlat, çay getiriyorum. | 뭔데, 뭔데? 얘기해 봐, 차 가져올게. | anlat = 말해 봐 | emotion=excited
-B | {name} sınav kâğıdına bakmak için hocanın yanına gitti. | {name}, 시험지 보러 교수님한테 갔거든. | sınav kâğıdı = 시험지 | emotion=teasing
-A | Hepsi bir harf yüzünden oldu. Bir harf, Can! | 전부 글자 하나 때문이야. 글자 하나, 잔! | harf = 글자 · yüzünden = ~ 때문에 | emotion=sad
-C | Hangi harf? Valla merak ettim, söyle hadi. | 무슨 글자? 진짜 궁금하네, 어서 말해. | merak etmek = 궁금하다 | emotion=excited
-B | "Hocam" diyecekti. Bütün sınıfın önünde "Kocam" dedi. | 「호잠」이라고 해야 했는데. 반 전체 앞에서 「코잠」이라고 했어. | hocam = 교수님 · kocam = 내 남편 — 반전 | emotion=amused
-C | Yok artık! "Kocam, notuma bakabilir miyim?" mi dedin? | 말도 안 돼! 「여보, 제 점수 봐도 될까요?」 그랬어? | not = 점수 | emotion=surprised
-A | Aynen öyle. Öldüm, ben artık okula gidemem. | 그래, 바로 그거. 나 죽었어, 이제 학교 못 가. | öldüm = 나 죽었다 | emotion=sad
-C | Önce karın ağrıdı, şimdi kocan çıktı. Ailen büyüyor, maşallah! | 전엔 아내가 아프더니, 이젠 남편이 나왔네. 식구 늘어난다, 축하해! | karın = 네 아내 / 네 배 | emotion=teasing
-A | Gülme, Can! Hoca bana hiçbir şey demedi, sadece baktı. | 웃지 마, 잔! 교수님은 아무 말 없이 그냥 보기만 하셨어. | gülmek = 웃다 | emotion=annoyed
-B | Sen kaçtıktan sonra dedi: "Eşim bunu duymasın." | 너 도망간 다음에 말씀하셨어. 「아내가 들으면 안 되는데.」 | eş = 배우자 · -dıktan sonra = ~한 뒤에 | emotion=amused
-A | Ne?! Bütün sınıf duydu mu? Kaç kişi güldü? | 뭐?! 반 전체가 들었어? 몇 명이나 웃었어? | kaç kişi = 몇 명 | emotion=surprised
-B | Kırk kişi. Sınıf grubuna da yazmışlar. | 마흔 명. 반 단톡방에도 올렸더라. | grup = 그룹, 단톡방 | emotion=amused
-C | Peki notun ne oldu? Kocan sana yardım etti mi? | 그래서 점수는 어떻게 됐어? 남편이 좀 도와줬어? | peki = 그래서 | emotion=teasing
-A | Beş puan düştü. Ayrıldık. | 5점 깎였어. 우리 헤어졌어. | ayrılmak = 헤어지다 | emotion=sad
+B | ? | 잔, 오늘 수업에서 무슨 일 있었는지 들었어? |  | emotion=teasing
+A | ? | 제이넵, 제발. 말하면 너랑 다시는 말 안 해. |  | emotion=flustered
+C | ? | 뭔데, 뭔데? 얘기해 봐, 차 가져올게. |  | emotion=excited
+B | ? | {name}, 시험지 보러 교수님한테 갔거든. |  | emotion=teasing
+A | ? | 전부 글자 하나 때문이야. 글자 하나, 잔! |  | emotion=sad
+C | ? | 무슨 글자? 진짜 궁금하네, 어서 말해. |  | emotion=excited
+B | ? | 「호잠」이라고 해야 했는데. 반 전체 앞에서 「코잠」이라고 했어. |  | emotion=amused
+C | ? | 말도 안 돼! 「여보, 제 점수 봐도 될까요?」 그랬어? |  | emotion=surprised
+A | ? | 그래, 바로 그거. 나 죽었어, 이제 학교 못 가. |  | emotion=sad
+C | ? | 전엔 아내가 아프더니, 이젠 남편이 나왔네. 식구 늘어난다, 축하해! |  | emotion=teasing
+A | ? | 웃지 마, 잔! 교수님은 아무 말 없이 그냥 보기만 하셨어. |  | emotion=annoyed
+B | ? | 너 도망간 다음에 말씀하셨어. 「아내가 들으면 안 되는데.」 |  | emotion=amused
+A | ? | 뭐?! 반 전체가 들었어? 몇 명이나 웃었어? |  | emotion=surprised
+B | ? | 마흔 명. 반 단톡방에도 올렸더라. |  | emotion=amused
+C | ? | 그래서 점수는 어떻게 됐어? 남편이 좀 도와줬어? |  | emotion=teasing
+A | ? | 5점 깎였어. 우리 헤어졌어. |  | emotion=sad

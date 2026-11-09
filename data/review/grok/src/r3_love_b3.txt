@@ -9,19 +9,19 @@ twist: 9 chaos
 purpose: love
 goal: vay be·yaşasın·eyvah 로 경기 보며 리액션하기
 expressions: olur; sağ olun; vay be; harika; yaşasın; bir dakika; eyvah
-B | Bu akşam maç var. Mahalle kahvesinde izliyoruz, gel. | 오늘 저녁에 축구 있어. 동네 찻집에서 볼 거야, 와. | maç = 경기 | emotion=cheerful
-A | Futboldan hiç anlamam ama olur. Ben kimi tutuyorum? | 축구는 하나도 모르지만 좋아. 나 누구 응원해? | tutmak = 응원하다 | emotion=cheerful
-B | Beni dinle. Sarılar bizim, onları tut. Başka bir şey söyleme. | 내 말 잘 들어. 노란 팀이 우리 편이야, 걔네 응원해. 딴말은 하지 마. | sarılar = 노란 팀 | emotion=gentle
-A | Tamam, anladım. Sarılar bizim, başka bir şey yok. | 알았어, 이해했어. 노란 팀이 우리 편, 그 외엔 없음. | anladım = 알겠어 | emotion=cheerful
-C | Hoş geldin! Emre'nin arkadaşı mısın? Çay, kahve, ne istersen söyle. | 어서 와! Emre 친구야? 차든 커피든 뭐든 말해. | ne istersen = 뭐든 원하는 대로 | emotion=cheerful
-A | Sağ olun. Bir çay lütfen. Maç başladı mı? | 고맙습니다. 차 한 잔 주세요. 경기 시작했어요? | sağ olun = 고맙습니다 | emotion=polite
-B | Başladı. Sakın bağırma, burada herkes çok ciddi. | 시작했어. 절대 소리 지르지 마, 여기 다들 엄청 진지해. | sakın = 절대 ~하지 마 | emotion=worried
-A | Gol! Vay be, harika gol! Yaşasın! | 골! 와 대박, 끝내주는 골! 야호! | yaşasın = 야호 | emotion=shout
-C | Bir dakika. O gol onların golü. Sen kimi tutuyorsun? | 잠깐. 그 골은 저쪽 골인데. 너 누구 응원해? | onların = 저쪽의 — 반전 | emotion=stiff
-A | Eyvah. Ben hepsine sevindim. Gol güzel bir şey, değil mi? | 헉. 전 골이면 다 좋아서요. 골은 좋은 거잖아요? | sevinmek = 기뻐하다 | emotion=flustered
-C | Gençler, duydunuz mu? Bu masada karşı takımdan biri var! | 얘들아, 들었냐? 이 테이블에 상대 팀 사람 있다! | karşı takım = 상대 팀 | emotion=shout
-A | Emre, otuz kişi bana bakıyor. Eve gitmeli miyim şimdi? | Emre, 서른 명이 날 보고 있어. 나 지금 집에 가야 해? | gitmeli miyim = 가야 해? | emotion=worried
-B | Amca, bir dakika. O benimle geldi, benimle de çıkar. | 아저씨, 잠깐요. 얘는 나랑 왔고, 나갈 때도 나랑 나가요. | benimle = 나랑 | emotion=gentle
-C | Tamam Emre, sen bilirsin. Hadi oturun, ikinci yarı başlıyor. | 알았다 Emre, 네가 알아서 해. 자 앉아, 후반 시작한다. | sen bilirsin = 네가 알아서 해 | emotion=amused
-A | Benimle geldi, benimle çıkar. Bunu bir daha söyler misin? | 나랑 왔고, 나랑 나간다. 그거 한 번 더 말해 줄래? | bir daha = 한 번 더 | emotion=shy
-B | Sarılar bizim. Sen de bizimsin. Otur. | 노란 팀은 우리 편. 너도 우리 편. 앉아. | bizimsin = 넌 우리 편이야 | emotion=neutral+shy+gentle
+B | ? | 오늘 저녁에 축구 있어. 동네 찻집에서 볼 거야, 와. |  | emotion=cheerful
+A | ? | 축구는 하나도 모르지만 좋아. 나 누구 응원해? |  | emotion=cheerful
+B | ? | 내 말 잘 들어. 노란 팀이 우리 편이야, 걔네 응원해. 딴말은 하지 마. |  | emotion=gentle
+A | ? | 알았어, 이해했어. 노란 팀이 우리 편, 그 외엔 없음. |  | emotion=cheerful
+C | ? | 어서 와! Emre 친구야? 차든 커피든 뭐든 말해. |  | emotion=cheerful
+A | ? | 고맙습니다. 차 한 잔 주세요. 경기 시작했어요? |  | emotion=polite
+B | ? | 시작했어. 절대 소리 지르지 마, 여기 다들 엄청 진지해. |  | emotion=worried
+A | ? | 골! 와 대박, 끝내주는 골! 야호! |  | emotion=shout
+C | ? | 잠깐. 그 골은 저쪽 골인데. 너 누구 응원해? |  | emotion=stiff
+A | ? | 헉. 전 골이면 다 좋아서요. 골은 좋은 거잖아요? |  | emotion=flustered
+C | ? | 얘들아, 들었냐? 이 테이블에 상대 팀 사람 있다! |  | emotion=shout
+A | ? | Emre, 서른 명이 날 보고 있어. 나 지금 집에 가야 해? |  | emotion=worried
+B | ? | 아저씨, 잠깐요. 얘는 나랑 왔고, 나갈 때도 나랑 나가요. |  | emotion=gentle
+C | ? | 알았다 Emre, 네가 알아서 해. 자 앉아, 후반 시작한다. |  | emotion=amused
+A | ? | 나랑 왔고, 나랑 나간다. 그거 한 번 더 말해 줄래? |  | emotion=shy
+B | ? | 노란 팀은 우리 편. 너도 우리 편. 앉아. |  | emotion=neutral+shy+gentle

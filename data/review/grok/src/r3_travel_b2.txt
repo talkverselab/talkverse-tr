@@ -9,19 +9,19 @@ twist: 10 chaos
 purpose: travel
 goal: çok pahalı·helal olsun 으로 흥정하고 팔기
 expressions: hadi; hoş geldiniz; aman; çok pahalı; affedersiniz; şey; harika; yok artık; helal olsun
-B | Bahse girer misin? Bu çay takımını bin liraya alamazsın. | 내기할래? 넌 이 찻잔 세트 천 리라에 못 사. | bahis = 내기 · takım = 세트 | emotion=teasing
-A | Alırım. O çantadan sonra her şeyi öğrendim, izle beni. | 사지. 그 가방 이후로 다 배웠어, 잘 봐. | izle = 지켜봐 | emotion=excited
-B | Üstünde beş yüz yazan çantayı mı diyorsun? Hadi bakalım. | 위에 500이라고 쓰여 있던 그 가방 말이야? 어디 해 봐. | hadi bakalım = 어디 한번 해 봐 | emotion=teasing
-C | Hoş geldiniz! Bu takım el yapımı, size özel üç bin. | 어서 오세요! 이 세트 수제예요, 손님만 특별히 3천. | el yapımı = 수제 | emotion=cheerful
-A | Üç bin mi? Aman, çok pahalı. İyi günler, ben gidiyorum. | 3천이요? 아이고, 너무 비싸요. 안녕히 계세요, 갑니다. | iyi günler = 좋은 하루 되세요 | emotion=surprised+annoyed+stiff
-C | Durun, durun! Nereye? Gelin, oturun, bir çay içelim. | 잠깐, 잠깐만요! 어디 가세요? 오세요, 앉으세요, 차 한잔해요. | içelim = 마십시다 | emotion=surprised+gentle
-A | Çay içmem. Bin lira, son söz, yoksa karşı dükkâna gidiyorum. | 차 안 마셔요. 천 리라, 마지막 말이에요, 아니면 맞은편 가게 가요. | dükkân = 가게 | emotion=stiff
-C | Bin beş yüz, ama kimseye söylemeyin. Karşı dükkân kardeşimin zaten. | 1,500, 근데 아무한테도 말하지 마세요. 맞은편 가게는 어차피 제 동생 거예요. | zaten = 어차피 | emotion=polite+teasing
-D | Affedersiniz, bu takım ne kadar? Siz burada mı çalışıyorsunuz? | 실례합니다, 이 세트 얼마예요? 여기서 일하세요? | affedersiniz = 실례합니다 | emotion=polite
-A | Ben mi? Şey, evet, üç bin lira. Çok özel, el yapımı. | 저요? 어, 네, 3천 리라요. 아주 특별해요, 수제예요. | 반전: 점원 행세를 시작한다 | emotion=flustered+polite
-D | Harika, alıyorum! İki tane lütfen. Kart olur mu? | 좋아요, 살게요! 두 개요. 카드 되죠? | kart = 카드 | emotion=excited
-B | Yok artık! Sen ne yapıyorsun? Adam altı bin verdi! | 말도 안 돼! 너 뭐 하는 거야? 저 사람 6천 냈어! | altı bin = 6천 | emotion=shout+surprised
-C | Helal olsun! Otuz yıldır burada böyle satan görmedim. | 대단합니다! 30년째 여기 있지만 이렇게 파는 사람은 처음 봐요. | helal olsun = 인정, 대단하다 | emotion=excited
-A | Peki benim takımım ne olacak? Bin lira demiştik, değil mi? | 그럼 제 세트는요? 천 리라라고 했었죠? | demiştik = 말했었다 | emotion=polite
-C | Takımınız bin lira, söz. Yarın da gelin, birlikte satarız! | 손님 세트는 천 리라, 약속해요. 내일도 오세요, 같이 팔아요! | birlikte satarız = 같이 팔자 | emotion=excited
-B | Bahsi kazandın. Ama galiba artık burada yaşıyorsun. | 내기는 네가 이겼어. 근데 너 이제 여기 사는 것 같다. | galiba = 아마 | emotion=teasing
+B | ? | 내기할래? 넌 이 찻잔 세트 천 리라에 못 사. |  | emotion=teasing
+A | ? | 사지. 그 가방 이후로 다 배웠어, 잘 봐. |  | emotion=excited
+B | ? | 위에 500이라고 쓰여 있던 그 가방 말이야? 어디 해 봐. |  | emotion=teasing
+C | ? | 어서 오세요! 이 세트 수제예요, 손님만 특별히 3천. |  | emotion=cheerful
+A | ? | 3천이요? 아이고, 너무 비싸요. 안녕히 계세요, 갑니다. |  | emotion=surprised+annoyed+stiff
+C | ? | 잠깐, 잠깐만요! 어디 가세요? 오세요, 앉으세요, 차 한잔해요. |  | emotion=surprised+gentle
+A | ? | 차 안 마셔요. 천 리라, 마지막 말이에요, 아니면 맞은편 가게 가요. |  | emotion=stiff
+C | ? | 1,500, 근데 아무한테도 말하지 마세요. 맞은편 가게는 어차피 제 동생 거예요. |  | emotion=polite+teasing
+D | ? | 실례합니다, 이 세트 얼마예요? 여기서 일하세요? |  | emotion=polite
+A | ? | 저요? 어, 네, 3천 리라요. 아주 특별해요, 수제예요. |  | emotion=flustered+polite
+D | ? | 좋아요, 살게요! 두 개요. 카드 되죠? |  | emotion=excited
+B | ? | 말도 안 돼! 너 뭐 하는 거야? 저 사람 6천 냈어! |  | emotion=shout+surprised
+C | ? | 대단합니다! 30년째 여기 있지만 이렇게 파는 사람은 처음 봐요. |  | emotion=excited
+A | ? | 그럼 제 세트는요? 천 리라라고 했었죠? |  | emotion=polite
+C | ? | 손님 세트는 천 리라, 약속해요. 내일도 오세요, 같이 팔아요! |  | emotion=excited
+B | ? | 내기는 네가 이겼어. 근데 너 이제 여기 사는 것 같다. |  | emotion=teasing

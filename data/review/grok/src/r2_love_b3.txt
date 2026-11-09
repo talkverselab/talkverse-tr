@@ -9,15 +9,15 @@ twist: 6 reveal
 purpose: love
 goal: hıhı·herhalde·boş ver 로 말 돌리고 캐묻기
 expressions: hıhı; herhalde; boş ver; ne demek
-A | Yine sen! Her sabah bu vapurda mısın? | 또 너네! 매일 아침 이 배 타? | vapur = 페리 | emotion=cheerful
-B | Hıhı. Sekiz on beş vapuru. | 응응. 8시 15분 배. | hıhı = 응응 | emotion=shy
-A | İş karşıda herhalde. Ofisin nerede? | 회사가 건너편인가 보네. 사무실 어디야? | karşıda = 건너편에 | emotion=cheerful
-B | Boş ver. Çay alayım mı? | 됐어. 차 사 올까? | boş ver = 신경 쓰지 마 | emotion=shy
-A | Konuyu değiştirme! Nerede iniyorsun sen? | 말 돌리지 마! 너 어디서 내려? | konuyu değiştirmek = 말을 돌리다 | emotion=teasing
-B | İnmiyorum. Geri dönüyorum. | 안 내려. 그대로 돌아가. | 반전: 내릴 데가 없다 | emotion=neutral
-A | Ne demek geri dönüyorum? Ofisin nerede? | 돌아간다니 무슨 말이야? 사무실이 어딘데? | ne demek = 무슨 뜻 | emotion=surprised
-B | Kadıköy'de. Evimin yanında, yürüyerek beş dakika. | 카드쾨이. 우리 집 옆, 걸어서 5분. | yürüyerek = 걸어서 | emotion=neutral
-A | O zaman neden her sabah buradasın? | 그럼 왜 매일 아침 여기 있어? | o zaman = 그럼 | emotion=surprised
-B | Üç ay önce seni burada gördüm. Sonra işte… | 석 달 전에 여기서 널 봤어. 그다음은 뭐… | işte = 뭐, 그래서 — 끝맺지 않는다 | emotion=shy
-A | Ama sen denizi hiç sevmezsin ki! | 근데 너 바다 진짜 싫어하잖아! | sevmezsin = 넌 안 좋아해 | emotion=surprised
-B | Evet, hâlâ midem bulanıyor. Çay alayım mı? | 응. 아직도 속이 울렁거려. 차 사 올까? | midem bulanıyor = 속이 울렁거려 | emotion=gentle+shy
+A | ? | 또 너네! 매일 아침 이 배 타? |  | emotion=cheerful
+B | ? | 응응. 8시 15분 배. |  | emotion=shy
+A | ? | 회사가 건너편인가 보네. 사무실 어디야? |  | emotion=cheerful
+B | ? | 됐어. 차 사 올까? |  | emotion=shy
+A | ? | 말 돌리지 마! 너 어디서 내려? |  | emotion=teasing
+B | ? | 안 내려. 그대로 돌아가. |  | emotion=neutral
+A | ? | 돌아간다니 무슨 말이야? 사무실이 어딘데? |  | emotion=surprised
+B | ? | 카드쾨이. 우리 집 옆, 걸어서 5분. |  | emotion=neutral
+A | ? | 그럼 왜 매일 아침 여기 있어? |  | emotion=surprised
+B | ? | 석 달 전에 여기서 널 봤어. 그다음은 뭐… |  | emotion=shy
+A | ? | 근데 너 바다 진짜 싫어하잖아! |  | emotion=surprised
+B | ? | 응. 아직도 속이 울렁거려. 차 사 올까? |  | emotion=gentle+shy

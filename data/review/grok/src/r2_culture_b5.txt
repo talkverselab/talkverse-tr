@@ -9,15 +9,15 @@ twist: 10 reveal
 purpose: making_friends
 goal: vay·yok artık 으로 놀람 표현하기
 expressions: hoş geldiniz; vay; yok artık; abla; yok
-C | Bu falcı her şeyi biliyor. Fincanı ona ver. | 이 점쟁이 다 알아. 잔 줘 봐. | falcı = 점쟁이 | emotion=excited
-B | Hoş geldiniz. Kahveniz bittiyse fincanı kapatın. | 어서 오세요. 커피 다 드셨으면 잔을 엎으세요. | kapatın = 엎으세요 | emotion=polite
-A | Kapattım. Ben fala inanmıyorum ama… | 엎었어요. 저 점 안 믿는데요… | inanmak = 믿다 | emotion=amused
-B | Bakıyorum… Siz bu sabah geç kaldınız. | 어디 보자… 오늘 아침에 늦으셨네요. | geç kalmak = 늦다 | emotion=stiff
-A | Vay, doğru! Bunu nasıl bildiniz? | 와, 맞아요! 어떻게 아셨어요? | vay = 와 | emotion=surprised
-B | Bir komşunuz var. Sizden tabak bekliyor. | 이웃이 한 분 계시네요. 접시를 기다리고 있어요. | bekliyor = 기다린다 | emotion=stiff
-A | Yok artık! Tabağı da mı gördünüz? | 말도 안 돼요! 접시까지 보이세요? | yok artık = 말도 안 돼 | emotion=surprised
-B | Bir de mikrofon görüyorum. On lira… | 마이크도 보이네요. 10리라… | mikrofon = 마이크 | emotion=stiff
-A | Zeynep, bu kadın gerçekten biliyor! Korkuyorum! | Zeynep, 이분 진짜 알아! 무서워! | korkmak = 무서워하다 | emotion=flustered
-C | Abla, yeter. Fazla oldu. | 언니, 그만. 너무했어. | abla = 언니 — 반전: 친언니였다 | emotion=annoyed
-A | Ablan mı?! Ona her şeyi sen mi anlattın? | 네 언니라고?! 네가 다 말한 거야? | anlatmak = 말해 주다 | emotion=shout
-B | Beş yüz lira. Kardeşimin arkadaşına indirim yok. | 500리라요. 동생 친구라고 할인은 없어요. | indirim = 할인 | emotion=polite
+C | ? | 이 점쟁이 다 알아. 잔 줘 봐. |  | emotion=excited
+B | ? | 어서 오세요. 커피 다 드셨으면 잔을 엎으세요. |  | emotion=polite
+A | ? | 엎었어요. 저 점 안 믿는데요… |  | emotion=amused
+B | ? | 어디 보자… 오늘 아침에 늦으셨네요. |  | emotion=stiff
+A | ? | 와, 맞아요! 어떻게 아셨어요? |  | emotion=surprised
+B | ? | 이웃이 한 분 계시네요. 접시를 기다리고 있어요. |  | emotion=stiff
+A | ? | 말도 안 돼요! 접시까지 보이세요? |  | emotion=surprised
+B | ? | 마이크도 보이네요. 10리라… |  | emotion=stiff
+A | ? | Zeynep, 이분 진짜 알아! 무서워! |  | emotion=flustered
+C | ? | 언니, 그만. 너무했어. |  | emotion=annoyed
+A | ? | 네 언니라고?! 네가 다 말한 거야? |  | emotion=shout
+B | ? | 500리라요. 동생 친구라고 할인은 없어요. |  | emotion=polite

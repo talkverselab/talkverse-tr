@@ -9,15 +9,15 @@ twist: 8 chaos
 purpose: making_friends study_abroad
 goal: çek·dur·sağa·sola 로 같이 옮기며 지시하기
 expressions: kanka; bilmem; hadi; olmaz; canım; ne yapalım
-B | Kanka, bu koltuk neden bu kadar ağır? | 야, 이 소파 왜 이렇게 무거워? | koltuk = 소파, 안락의자 | emotion=annoyed
-A | Bilmem, ama asansör yok. Hadi, çek! | 몰라, 근데 엘리베이터가 없어. 자, 당겨! | çek = 당겨 | emotion=neutral+excited
-B | Çekiyorum! Dur, dur, duvara takıldı! | 당기고 있어! 잠깐, 잠깐, 벽에 걸렸어! | takıldı = 걸렸다 | emotion=shout
-C | Olmaz öyle. Sağa çevirin, sağa! | 그렇게는 안 돼요. 오른쪽으로 돌려요, 오른쪽! | sağa = 오른쪽으로 | emotion=stiff
-D | Sola, canım, sola! Ben otuz yıldır buradayım. | 왼쪽으로, 얘야, 왼쪽! 나 여기서 30년 살았어. | sola = 왼쪽으로 | emotion=excited
-A | Sağ mı, sol mu? Elim sıkıştı! | 오른쪽이에요, 왼쪽이에요? 손 끼었어요! | sıkıştı = 끼었다 | emotion=flustered
-B | Kıpırdamıyor. Koltuk burada yaşıyor artık. | 꿈쩍도 안 해. 소파는 이제 여기 사는 거야. | kıpırdamak = 꿈쩍하다 | emotion=amused
-C | Kimse çıkamıyor, kimse inemiyor. Merdiven kapandı. | 아무도 못 올라가고, 못 내려가요. 계단이 막혔어요. | merdiven = 계단 — 반전 | emotion=stiff
-D | Aman, ne yapalım? Madem öyle, çay getiriyorum. | 아이고, 어쩌겠어? 그럼 차 가져올게. | madem öyle = 그렇다면 | emotion=amused
-A | Teyze, merdivende çay mı içeceğiz? | 아주머니, 계단에서 차를 마신다고요? | içeceğiz = 마실 거다 | emotion=surprised
-B | Koltuk var ya. Börek de var mı? | 소파 있잖아. 뵈렉도 있어? | börek = 얇은 반죽 파이 | emotion=amused
-C | Hayırlı olsun. Binanın yeni salonu burası. | 축하합니다. 여기가 건물의 새 거실이에요. | hayırlı olsun = 잘됐네요, 축하해요 | emotion=polite
+B | ? | 야, 이 소파 왜 이렇게 무거워? |  | emotion=annoyed
+A | ? | 몰라, 근데 엘리베이터가 없어. 자, 당겨! |  | emotion=neutral+excited
+B | ? | 당기고 있어! 잠깐, 잠깐, 벽에 걸렸어! |  | emotion=shout
+C | ? | 그렇게는 안 돼요. 오른쪽으로 돌려요, 오른쪽! |  | emotion=stiff
+D | ? | 왼쪽으로, 얘야, 왼쪽! 나 여기서 30년 살았어. |  | emotion=excited
+A | ? | 오른쪽이에요, 왼쪽이에요? 손 끼었어요! |  | emotion=flustered
+B | ? | 꿈쩍도 안 해. 소파는 이제 여기 사는 거야. |  | emotion=amused
+C | ? | 아무도 못 올라가고, 못 내려가요. 계단이 막혔어요. |  | emotion=stiff
+D | ? | 아이고, 어쩌겠어? 그럼 차 가져올게. |  | emotion=amused
+A | ? | 아주머니, 계단에서 차를 마신다고요? |  | emotion=surprised
+B | ? | 소파 있잖아. 뵈렉도 있어? |  | emotion=amused
+C | ? | 축하합니다. 여기가 건물의 새 거실이에요. |  | emotion=polite

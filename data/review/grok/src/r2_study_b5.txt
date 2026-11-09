@@ -9,15 +9,15 @@ twist: 10 chaos
 purpose: study_abroad
 goal: başlayabilir miyim·anlamadım 으로 수업에서 말하기
 expressions: hocam; anlamadım; eyvah; az kaldı
-A | Hocam, sunuma başlayabilir miyim? | 교수님, 발표 시작해도 될까요? | sunum = 발표 | emotion=polite
-C | Sunum mu? Bugün sunum yok ki. | 발표요? 오늘은 발표가 없는데요. | yok ki = 없는데 | emotion=surprised
-A | Var hocam, listede benim adım var. | 있어요, 교수님. 명단에 제 이름 있어요. | liste = 명단 | emotion=polite
-C | Hangi liste? Adınız ne, bakayım. | 무슨 명단이요? 이름이 뭐예요, 어디 봅시다. | bakayım = 어디 봅시다 | emotion=neutral
-A | {name}. Konum Türk kahvesinin tarihi. | {name}입니다. 제 주제는 터키 커피의 역사예요. | konum = 내 주제 | emotion=polite
-C | Kahve mi? Burada kimya konuşuyoruz. | 커피요? 여기선 화학 얘기 하는데요. | kimya = 화학 | emotion=stiff
-A | Kimya mı? Anlamadım, hocam. | 화학이요? 못 알아들었어요, 교수님. | anlamadım = 못 알아들었어요 | emotion=surprised
-B | Neredesin? Sıra sende, hoca bekliyor! | 너 어디야? 네 차례야, 교수님 기다리셔! | sıra sende = 네 차례 | emotion=worried
-A | Sınıftayım! Yüz iki numara, değil mi? | 강의실이야! 102호 맞지? | sınıf = 강의실 | emotion=flustered
-C | Yüz iki mi? Biz iki yüz birdeyiz! | 102? 우리 201호에 있어! | iki yüz bir = 201 — 반전: 숫자를 거꾸로 읽었다 | emotion=tsukkomi
-A | Burası kimya. Ama konu güzel, haftaya bize de anlatın. | 여긴 화학이에요. 근데 주제가 좋네요, 다음 주에 우리한테도 해 줘요. | haftaya = 다음 주에 | emotion=amused
-B | Eyvah, pardon hocam! Zeynep, az kaldı, geliyorum! | 헉, 죄송합니다 교수님! Zeynep, 거의 다 왔어, 간다! | az kaldı = 거의 다 왔어 | emotion=flustered
+A | ? | 교수님, 발표 시작해도 될까요? |  | emotion=polite
+C | ? | 발표요? 오늘은 발표가 없는데요. |  | emotion=surprised
+A | ? | 있어요, 교수님. 명단에 제 이름 있어요. |  | emotion=polite
+C | ? | 무슨 명단이요? 이름이 뭐예요, 어디 봅시다. |  | emotion=neutral
+A | ? | {name}입니다. 제 주제는 터키 커피의 역사예요. |  | emotion=polite
+C | ? | 커피요? 여기선 화학 얘기 하는데요. |  | emotion=stiff
+A | ? | 화학이요? 못 알아들었어요, 교수님. |  | emotion=surprised
+B | ? | 너 어디야? 네 차례야, 교수님 기다리셔! |  | emotion=worried
+A | ? | 강의실이야! 102호 맞지? |  | emotion=flustered
+C | ? | 102? 우리 201호에 있어! |  | emotion=tsukkomi
+A | ? | 여긴 화학이에요. 근데 주제가 좋네요, 다음 주에 우리한테도 해 줘요. |  | emotion=amused
+B | ? | 헉, 죄송합니다 교수님! Zeynep, 거의 다 왔어, 간다! |  | emotion=flustered

@@ -9,11 +9,11 @@ twist: 6 slip
 purpose: making_friends study_abroad
 goal: 아픈 곳 말하기, karnım 과 karım 구별하기
 expressions: hayırdır; galiba; aman; yok artık; geçmiş olsun
-B | Hayırdır? Bugün hiç iyi değilsin. | 무슨 일이야? 오늘 영 안 좋아 보여. | hayırdır = 무슨 일이야 | emotion=worried+gentle
-A | Bilmiyorum. Dün çok yedim, galiba. | 몰라. 어제 많이 먹었나 봐. | galiba = 아마 | emotion=sad
-B | Ne yedin ki? | 뭘 먹었는데? | ki = 말끝에서 궁금함을 세운다 | emotion=neutral
-A | Balık. Sonra da sütlü tatlı. | 생선. 그다음에 우유 디저트. | tatlı = 디저트 | emotion=neutral
-B | Aman, balıkla süt olmaz! Neren ağrıyor? | 아이고! 생선에 우유는 안 되지! 어디 아파? | neren = 네 어디 · ağrımak = 아프다 | emotion=worried+gentle
-A | Karım ağrıyor. | 내 아내가 아파. | karım = 내 아내 — 반전: karnım(내 배)이라고 해야 했다 | emotion=sad
-B | Yok artık, evlendin mi? Geçmiş olsun. | 말도 안 돼! 결혼했어? 쾌차를 빈다. | geçmiş olsun = 쾌차해 | emotion=surprised+teasing
-A | Hayır! Karnım, karnım! | 아니! 배, 배 말이야! | karnım = 내 배 | emotion=shout+flustered
+B | ? | 무슨 일이야? 오늘 영 안 좋아 보여. |  | emotion=worried+gentle
+A | ? | 몰라. 어제 많이 먹었나 봐. |  | emotion=sad
+B | ? | 뭘 먹었는데? |  | emotion=neutral
+A | ? | 생선. 그다음에 우유 디저트. |  | emotion=neutral
+B | ? | 아이고! 생선에 우유는 안 되지! 어디 아파? |  | emotion=worried+gentle
+A | ? | 내 아내가 아파. |  | emotion=sad
+B | ? | 말도 안 돼! 결혼했어? 쾌차를 빈다. |  | emotion=surprised+teasing
+A | ? | 아니! 배, 배 말이야! |  | emotion=shout+flustered

@@ -9,15 +9,15 @@ twist: 6 ignore
 purpose: love
 goal: ciddi misin·yok artık 으로 읽씹 따지기
 expressions: ne oldu; şey; ciddi misin; yok artık; yani
-A | Elif, üç gündür cevap yok. Ne oldu? | Elif, 사흘째 답이 없어. 무슨 일이야? | üç gündür = 사흘째 | emotion=worried
-B | Hiç, şey, biraz işim vardı. | 아무 일도, 그게, 일이 좀 있어서. | işim vardı = 일이 있었다 | emotion=flustered
-A | Mesajları gördün ama. Mavi tik var. | 근데 메시지는 봤잖아. 파란 체크 떠 있어. | mavi tik = 읽음 표시 | emotion=annoyed
-B | Gördüm, evet. Cevap yazmadım, bilerek. | 봤어, 맞아. 답 안 했어, 일부러. | bilerek = 일부러 | emotion=stiff
-A | Bilerek mi, ciddi misin? Ben ne yaptım ki? | 일부러? 진심이야? 내가 뭘 했는데? | ciddi misin = 진심이야? | emotion=surprised+sad
-B | Hiçbir şey. Ablam dedi: "Üç gün yazma, o yazsın." | 아무것도. 언니가 그랬어. 「사흘은 답하지 마, 걔가 쓰게.」 | 반전: 작전이었다 | emotion=neutral+shy
-A | Yok artık! Bu nasıl kural böyle? | 말도 안 돼! 무슨 규칙이 그래? | kural = 규칙 | emotion=tsukkomi+annoyed
-B | Kural bu: kim önce yazarsa kaybeder. | 규칙은 이거야. 먼저 쓰는 사람이 져. | kim önce = 누구든 먼저 | emotion=shy
-A | Ben sekiz mesaj yazdım. Kaybettim yani. | 난 메시지 여덟 개 보냈어. 그러니까 내가 졌네. | yani = 그러니까 | emotion=sad
-B | Hayır, ben kaybettim. Telefonuma bak. | 아니, 내가 졌어. 내 폰 봐. | kaybetmek = 지다 | emotion=gentle+shy
-A | Bu ne? Yazıp göndermediğin on dört mesaj mı? | 이게 뭐야? 써 놓고 안 보낸 메시지가 열네 개? | yazıp = 쓰고서 | emotion=surprised
-B | Hepsi sana. Üç gün çok uzunmuş. | 전부 너한테 쓴 거야. 사흘 진짜 길더라. | uzunmuş = 길더라 | emotion=shy+gentle
+A | ? | Elif, 사흘째 답이 없어. 무슨 일이야? |  | emotion=worried
+B | ? | 아무 일도, 그게, 일이 좀 있어서. |  | emotion=flustered
+A | ? | 근데 메시지는 봤잖아. 파란 체크 떠 있어. |  | emotion=annoyed
+B | ? | 봤어, 맞아. 답 안 했어, 일부러. |  | emotion=stiff
+A | ? | 일부러? 진심이야? 내가 뭘 했는데? |  | emotion=surprised+sad
+B | ? | 아무것도. 언니가 그랬어. 「사흘은 답하지 마, 걔가 쓰게.」 |  | emotion=neutral+shy
+A | ? | 말도 안 돼! 무슨 규칙이 그래? |  | emotion=tsukkomi+annoyed
+B | ? | 규칙은 이거야. 먼저 쓰는 사람이 져. |  | emotion=shy
+A | ? | 난 메시지 여덟 개 보냈어. 그러니까 내가 졌네. |  | emotion=sad
+B | ? | 아니, 내가 졌어. 내 폰 봐. |  | emotion=gentle+shy
+A | ? | 이게 뭐야? 써 놓고 안 보낸 메시지가 열네 개? |  | emotion=surprised
+B | ? | 전부 너한테 쓴 거야. 사흘 진짜 길더라. |  | emotion=shy+gentle

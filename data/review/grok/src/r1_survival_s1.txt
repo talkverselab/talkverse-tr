@@ -9,11 +9,11 @@ twist: 5 chaos
 purpose: travel
 goal: evet·lütfen·ne kadar 로 가게에서 살아남기
 expressions: hoş geldiniz; bir dakika; afiyet olsun; ne kadar
-B | Hoş geldiniz! Simit, değil mi? | 어서 오세요! 시미트 맞죠? | değil mi? = 그렇죠? | emotion=cheerful
-A | Evet, evet. Bir simit, lütfen. | 네, 네. 시미트 하나요. | lütfen = 부탁해요 | emotion=polite
-B | Çay da ister misiniz? | 차도 드릴까요? | ister misiniz? = ~하시겠어요? | emotion=cheerful
-A | Evet… şey, evet. | 네… 저, 네. | şey = 저기, 그게(말 고를 때) | emotion=flustered
-B | Poğaça? Açma? Peynir? | 포아차? 아치마? 치즈? | 반전: 묻는 대로 다 나온다 | emotion=cheerful
-A | Evet, evet, evet… Bir dakika! | 네, 네, 네… 잠깐만요! | bir dakika = 잠깐만요 | emotion=flustered
-B | Buyurun, simit, poğaça, açma, çay. Afiyet olsun! | 여기요, 시미트, 포아차, 아치마, 차. 맛있게 드세요! | afiyet olsun = 맛있게 드세요 | emotion=cheerful
-A | Ne kadar? Ben sadece simit… | 얼마예요? 저는 그냥 시미트만… | ne kadar = 얼마예요 | emotion=worried
+B | ? | 어서 오세요! 시미트 맞죠? |  | emotion=cheerful
+A | ? | 네, 네. 시미트 하나요. |  | emotion=polite
+B | ? | 차도 드릴까요? |  | emotion=cheerful
+A | ? | 네… 저, 네. |  | emotion=flustered
+B | ? | 포아차? 아치마? 치즈? |  | emotion=cheerful
+A | ? | 네, 네, 네… 잠깐만요! |  | emotion=flustered
+B | ? | 여기요, 시미트, 포아차, 아치마, 차. 맛있게 드세요! |  | emotion=cheerful
+A | ? | 얼마예요? 저는 그냥 시미트만… |  | emotion=worried

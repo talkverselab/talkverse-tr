@@ -9,15 +9,15 @@ twist: 8 ignore
 purpose: travel
 goal: anlamadım·lütfen 으로 가게에서 끝까지 터키어로 말하기
 expressions: merhaba; lütfen; tamam; bak; anlamadım; yok ya
-B | Hello my friend! Where are you from? | 헬로 마이 프렌드! 어디서 왔어요? | 가게 영어 — 뜻은 「안녕 친구, 어디서 왔어요?」 | emotion=excited
-A | Merhaba, Türkçe öğreniyorum. Kekik var mı? | 안녕하세요, 터키어 배우고 있어요. 타임 있어요? | kekik = 타임(향신료) | emotion=polite
-B | Yes yes, very good price! Special for you! | 예스 예스, 아주 좋은 가격! 당신만 특별히! | 뜻은 「좋은 값, 당신만 특별히」 | emotion=excited
-A | Lütfen Türkçe konuşun. Kekik istiyorum, kekik. | 터키어로 말씀해 주세요. 타임 주세요, 타임. | konuşun = 말씀하세요 | emotion=annoyed
-B | Apple tea? Very good, my friend! | 애플 티? 아주 좋아요, 마이 프렌드! | apple tea = 사과차 | emotion=cheerful
-C | Bırak, seni duymuyor. Kendi şarkısını söylüyor. | 놔둬, 네 말 안 들려. 자기 노래 부르는 중이야. | kendi = 자기 | emotion=amused
-A | Tamam, bak şimdi. Do you have thyme? | 좋아, 봐 봐. Do you have thyme? | 영어로 물어본다 | emotion=teasing
-B | Efendim? Ne diyorsunuz, anlamadım. | 네? 뭐라고 하시는지 못 알아들었어요. | efendim? = 네? — 반전 | emotion=surprised
-A | İngilizce sordum. Siz İngilizce bilmiyor musunuz? | 영어로 물었는데요. 영어 모르세요? | İngilizce = 영어 | emotion=annoyed
-B | Yok ya, on cümle biliyorum. Ne istemiştiniz? | 아뇨, 열 문장 알아요. 뭐 찾으셨죠? | yok ya = 아니 뭐 | emotion=amused
-A | Kekik! Yarım saattir kekik diyorum! | 타임이요! 30분째 타임이라고 하고 있잖아요! | yarım saattir = 30분째 | emotion=shout
-B | Kekik yok. Apple tea, my friend? | 타임은 없어요. 애플 티, 마이 프렌드? | kekik yok = 타임 없다 | emotion=cheerful
+B | ? | 헬로 마이 프렌드! 어디서 왔어요? |  | emotion=excited
+A | ? | 안녕하세요, 터키어 배우고 있어요. 타임 있어요? |  | emotion=polite
+B | ? | 예스 예스, 아주 좋은 가격! 당신만 특별히! |  | emotion=excited
+A | ? | 터키어로 말씀해 주세요. 타임 주세요, 타임. |  | emotion=annoyed
+B | ? | 애플 티? 아주 좋아요, 마이 프렌드! |  | emotion=cheerful
+C | ? | 놔둬, 네 말 안 들려. 자기 노래 부르는 중이야. |  | emotion=amused
+A | ? | 좋아, 봐 봐. Do you have thyme? |  | emotion=teasing
+B | ? | 네? 뭐라고 하시는지 못 알아들었어요. |  | emotion=surprised
+A | ? | 영어로 물었는데요. 영어 모르세요? |  | emotion=annoyed
+B | ? | 아뇨, 열 문장 알아요. 뭐 찾으셨죠? |  | emotion=amused
+A | ? | 타임이요! 30분째 타임이라고 하고 있잖아요! |  | emotion=shout
+B | ? | 타임은 없어요. 애플 티, 마이 프렌드? |  | emotion=cheerful

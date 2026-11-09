@@ -9,15 +9,15 @@ twist: 11 reveal
 purpose: travel love
 goal: gerçekten mi·vay be 로 놀라고 되묻기
 expressions: bak; hadi; gerçekten mi; vay be
-B | Niyet tut, evladım. Tavşan senin için seçecek. | 소원 빌어, 얘야. 토끼가 뽑아 줄 거야. | niyet tutmak = 소원을 빌다 · tavşan = 토끼 | emotion=gentle
-A | Elif, ben buna inanmıyorum ki. Bu bir tavşan. | 엘리프, 난 이런 거 안 믿는다니까. 이거 토끼잖아. | inanmak = 믿다 | emotion=amused
-C | Sus, sus. Bu tavşan her şeyi biliyor. | 쉿, 쉿. 이 토끼는 다 알아. | sus = 조용히 해 | emotion=excited
-B | Bak, kâğıdı aldı. Hadi aç, oku. | 봐, 쪽지 물었다. 자 펴서 읽어 봐. | kâğıt = 쪽지, 종이 | emotion=cheerful
-A | «Yanındaki kişi seni çok düşünüyor.» Gerçekten mi? | 「옆 사람이 당신을 많이 생각합니다.」 진짜요? | yanındaki kişi = 옆 사람 | emotion=surprised
-C | Vay be! Sence kim o? | 와 대박! 네 생각엔 누구 같아? | sence = 네 생각엔 | emotion=teasing
-A | Yanımda kim var? Bu amca mı? | 내 옆에 누가 있지? 이 아저씨? | amca = 아저씨 | emotion=worried
-B | Ben evliyim, evladım. Bir daha seçelim. | 난 결혼했다, 얘야. 한 번 더 뽑자. | evli = 결혼한 | emotion=amused
-A | «Yanındaki kişi bugün çok güzel.» Bu kâğıt garip. | 「옆 사람은 오늘 아주 예쁩니다.」 이 쪽지 이상한데. | garip = 이상한 | emotion=shy
-C | Hiç garip değil. Tavşan çok akıllı. | 하나도 안 이상해. 토끼가 똑똑한 거지. | akıllı = 똑똑한 | emotion=shy
-B | Elif kızım, tavşan yoruldu. Yüz lira az. | 엘리프야, 토끼 지쳤다. 100리라는 적어. | yorulmak = 지치다 — 반전 | emotion=teasing
-A | Yüz lira mı? Bana bedava söyleseydin. | 100리라? 나한테 그냥 말하지 그랬어. | bedava = 공짜 · -seydin = ~했으면 좋았을 텐데 | emotion=surprised+gentle
+B | ? | 소원 빌어, 얘야. 토끼가 뽑아 줄 거야. |  | emotion=gentle
+A | ? | 엘리프, 난 이런 거 안 믿는다니까. 이거 토끼잖아. |  | emotion=amused
+C | ? | 쉿, 쉿. 이 토끼는 다 알아. |  | emotion=excited
+B | ? | 봐, 쪽지 물었다. 자 펴서 읽어 봐. |  | emotion=cheerful
+A | ? | 「옆 사람이 당신을 많이 생각합니다.」 진짜요? |  | emotion=surprised
+C | ? | 와 대박! 네 생각엔 누구 같아? |  | emotion=teasing
+A | ? | 내 옆에 누가 있지? 이 아저씨? |  | emotion=worried
+B | ? | 난 결혼했다, 얘야. 한 번 더 뽑자. |  | emotion=amused
+A | ? | 「옆 사람은 오늘 아주 예쁩니다.」 이 쪽지 이상한데. |  | emotion=shy
+C | ? | 하나도 안 이상해. 토끼가 똑똑한 거지. |  | emotion=shy
+B | ? | 엘리프야, 토끼 지쳤다. 100리라는 적어. |  | emotion=teasing
+A | ? | 100리라? 나한테 그냥 말하지 그랬어. |  | emotion=surprised+gentle

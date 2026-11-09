@@ -9,19 +9,19 @@ twist: 13 emotion
 purpose: making_friends study_abroad
 goal: ciddi misin·bilmiyorum ki 로 속마음을 돌려 말하기
 expressions: harika; şey; helal olsun; kanka; olmaz; ciddi misin
-B | Elektrik gitti, ben de çatıya çıktım. Gel, yıldızlar harika. | 전기 나갔길래 옥상에 올라왔어. 와 봐, 별이 끝내줘. | çatı = 옥상, yıldız = 별 | emotion=gentle+cheerful
-A | Bu saatte çatıda ne yiyorsun? Kesin bir şey yiyorsun. | 이 시간에 옥상에서 뭘 먹어? 분명 뭘 먹고 있어. | kesin = 분명 | emotion=amused
-B | Çekirdek. Al, sana da bıraktım. Üç tane. | 해바라기씨. 자, 너도 남겨 놨어. 세 개. | çekirdek = 해바라기씨 | emotion=neutral+gentle+amused
-A | Üç tane mi? Helal olsun sana, kanka. | 세 개? 대단하다 너, 친구야. | helal olsun = 인정, 대단하다 | emotion=surprised+amused
-B | Bu mahalle hiç bu kadar sessiz olmaz. Teyze bile oyunda değil. | 이 동네가 이렇게 조용한 적이 없어. 이모도 게임을 안 하네. | bu kadar = 이렇게 | emotion=gentle
-A | Can, bir şey söyleyeceğim. Annem aradı, eve dönmemi istiyor. | 칸, 할 말 있어. 엄마가 전화했어, 집에 돌아오래. | dönmemi = 내가 돌아오기를 | emotion=worried+sad
-B | Eve mi? Ne zaman? Ciddi misin? | 집에? 언제? 진심이야? | ne zaman = 언제 | emotion=surprised
-A | Bilmiyorum. Belki bu yaz. Daha karar vermedim. | 몰라. 어쩌면 이번 여름. 아직 결정 안 했어. | karar vermek = 결정하다 | emotion=sad
-B | Hıhı. Tamam. İyi olur, annen seni özlemiştir. | 응. 그래. 잘됐네, 어머니가 널 보고 싶어 하시겠다. | özlemiştir = 그리워했을 거다 | emotion=stiff+sad+gentle
-A | Bu kadar mı? 'İyi olur' mu diyorsun? | 그게 다야? '잘됐네'라고? | bu kadar mı? = 그게 다야? | emotion=sad
-B | Ne diyeyim? 'Gitme' mi diyeyim? O senin hayatın. | 뭐라고 해? '가지 마'라고 해? 네 인생이잖아. | gitme = 가지 마 | emotion=annoyed+sad
-A | Bilmem. Belki biri 'gitme' demeli. | 몰라. 누군가는 '가지 마'라고 해야 하는 거 아닐까. | demeli = 말해야 한다 | emotion=sad+shy
-B | Bak, ben yemeğimi kimseye vermem. Al, hepsi senin. | 봐, 난 먹을 거 아무한테도 안 줘. 자, 다 네 거야. | vermem = 안 준다 — 반전: Can 식 고백 | emotion=gentle
-A | Can… bu ne demek şimdi? | 칸… 이게 지금 무슨 뜻이야? | ne demek = 무슨 뜻이야 | emotion=shy
-B | Bilmiyorum ki. Bak, ışıklar geldi. | 나도 몰라. 봐, 불 들어왔다. | ışıklar geldi = 불이 들어왔다 | emotion=flustered+gentle
-A | Yazık. Karanlık daha güzeldi. | 아쉽다. 어두운 게 더 좋았는데. | yazık = 아쉽다 | emotion=sad+shy
+B | ? | 전기 나갔길래 옥상에 올라왔어. 와 봐, 별이 끝내줘. |  | emotion=gentle+cheerful
+A | ? | 이 시간에 옥상에서 뭘 먹어? 분명 뭘 먹고 있어. |  | emotion=amused
+B | ? | 해바라기씨. 자, 너도 남겨 놨어. 세 개. |  | emotion=neutral+gentle+amused
+A | ? | 세 개? 대단하다 너, 친구야. |  | emotion=surprised+amused
+B | ? | 이 동네가 이렇게 조용한 적이 없어. 이모도 게임을 안 하네. |  | emotion=gentle
+A | ? | 칸, 할 말 있어. 엄마가 전화했어, 집에 돌아오래. |  | emotion=worried+sad
+B | ? | 집에? 언제? 진심이야? |  | emotion=surprised
+A | ? | 몰라. 어쩌면 이번 여름. 아직 결정 안 했어. |  | emotion=sad
+B | ? | 응. 그래. 잘됐네, 어머니가 널 보고 싶어 하시겠다. |  | emotion=stiff+sad+gentle
+A | ? | 그게 다야? '잘됐네'라고? |  | emotion=sad
+B | ? | 뭐라고 해? '가지 마'라고 해? 네 인생이잖아. |  | emotion=annoyed+sad
+A | ? | 몰라. 누군가는 '가지 마'라고 해야 하는 거 아닐까. |  | emotion=sad+shy
+B | ? | 봐, 난 먹을 거 아무한테도 안 줘. 자, 다 네 거야. |  | emotion=gentle
+A | ? | 칸… 이게 지금 무슨 뜻이야? |  | emotion=shy
+B | ? | 나도 몰라. 봐, 불 들어왔다. |  | emotion=flustered+gentle
+A | ? | 아쉽다. 어두운 게 더 좋았는데. |  | emotion=sad+shy

@@ -9,19 +9,19 @@ twist: 12 chaos
 purpose: making_friends travel
 goal: 결혼식 예절, 어색할 때 둘러대기
 expressions: bak; boş ver; galiba; maşallah; eyvah
-B | Bak, masada yer var. Pilav da geldi, gel otur. | 봐, 저 테이블 자리 있어. 필라브도 나왔어, 와서 앉아. | pilav = 볶음밥 | emotion=cheerful
-A | Düğün çok kalabalık. Zeynep'i görebiliyor musun? | 결혼식 사람 진짜 많다. 제이넵 보여? | kalabalık = 붐비는 | emotion=neutral
-B | Zeynep'i boş ver, önce yiyelim. Et çok güzel. | 제이넵은 됐고, 일단 먹자. 고기 진짜 맛있어. | boş ver = 됐어 | emotion=cheerful
-A | Can, ben gelini tanımıyorum. Sen tanıyor musun? | 잔, 나 신부 모르는데. 너는 알아? | gelin = 신부 | emotion=worried
-B | Ben de tanımıyorum. Zeynep'in kuzeni, o kadar. | 나도 몰라. 제이넵 사촌, 그게 다야. | kuzen = 사촌 | emotion=amused
-C | Hoş geldiniz evladım! Siz damat tarafından mısınız? | 어서들 와요! 신랑 쪽이에요? | taraf = 쪽 | emotion=cheerful
-A | Evet… şey, galiba. Çok güzel düğün, maşallah. | 네… 저, 아마도요. 정말 좋은 결혼식이네요. | maşallah = 어머 대단해 | emotion=flustered
-C | Sağ olun. Hadi, takı zamanı, sıra sizde. | 고마워요. 자, 축의금 달아 줄 시간이에요, 이제 그쪽 차례예요. | takı = 신부에게 달아 주는 금·돈 · sıra sizde = 당신 차례 | emotion=cheerful
-A | Can, bende sadece iki yüz lira var! | 잔, 나 200리라밖에 없어! | bende = 나한테 | emotion=flustered
-B | Ver, ver. Yemeğini yedik, ayıp olur. | 내, 내. 밥을 먹었는데, 체면이 있지. | ayıp olur = 예의가 아니다 | emotion=amused
-B | Bak, Zeynep yazmış: "Neredesiniz? Düğün Mavi Salon'da başladı." | 봐, 제이넵이 썼어. 「어디야? 결혼식 푸른 홀에서 시작했어.」 | yazmış = 썼더라 | emotion=surprised
-A | Mavi mi? Can, burası Kırmızı Salon! | 푸른 홀? 잔, 여기 붉은 홀이야! | burası = 여기 — 반전 | emotion=surprised
-B | Eyvah. Yani yanlış düğünde yedik, para da taktık. | 헉. 그러니까 남의 결혼식에서 먹고, 돈까지 달았네. | yanlış = 잘못된 | emotion=flustered
-A | Yanlış gelin! İki yüz lira! Hemen gidelim! | 신부를 잘못 찾았어! 200리라! 당장 가자! | hemen = 당장 | emotion=shout
-C | Evladım, nereye? Halay başlıyor, gelin sizi çağırıyor. | 아이고, 어딜 가요? 할라이 시작해요, 신부가 불러요. | halay = 손잡고 추는 군무 | emotion=cheerful
-B | Gel. Parayı taktık, pastayı yemeden gitmiyorum. | 와. 돈을 달았는데, 케이크 안 먹고는 못 가. | -meden = ~하지 않고 | emotion=amused
+B | ? | 봐, 저 테이블 자리 있어. 필라브도 나왔어, 와서 앉아. |  | emotion=cheerful
+A | ? | 결혼식 사람 진짜 많다. 제이넵 보여? |  | emotion=neutral
+B | ? | 제이넵은 됐고, 일단 먹자. 고기 진짜 맛있어. |  | emotion=cheerful
+A | ? | 잔, 나 신부 모르는데. 너는 알아? |  | emotion=worried
+B | ? | 나도 몰라. 제이넵 사촌, 그게 다야. |  | emotion=amused
+C | ? | 어서들 와요! 신랑 쪽이에요? |  | emotion=cheerful
+A | ? | 네… 저, 아마도요. 정말 좋은 결혼식이네요. |  | emotion=flustered
+C | ? | 고마워요. 자, 축의금 달아 줄 시간이에요, 이제 그쪽 차례예요. |  | emotion=cheerful
+A | ? | 잔, 나 200리라밖에 없어! |  | emotion=flustered
+B | ? | 내, 내. 밥을 먹었는데, 체면이 있지. |  | emotion=amused
+B | ? | 봐, 제이넵이 썼어. 「어디야? 결혼식 푸른 홀에서 시작했어.」 |  | emotion=surprised
+A | ? | 푸른 홀? 잔, 여기 붉은 홀이야! |  | emotion=surprised
+B | ? | 헉. 그러니까 남의 결혼식에서 먹고, 돈까지 달았네. |  | emotion=flustered
+A | ? | 신부를 잘못 찾았어! 200리라! 당장 가자! |  | emotion=shout
+C | ? | 아이고, 어딜 가요? 할라이 시작해요, 신부가 불러요. |  | emotion=cheerful
+B | ? | 와. 돈을 달았는데, 케이크 안 먹고는 못 가. |  | emotion=amused

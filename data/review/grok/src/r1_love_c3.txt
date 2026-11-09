@@ -9,11 +9,11 @@ twist: 5 chaos
 purpose: love
 goal: eyvah·yok ya·seni düşünüyorum 으로 새벽 DM 주고받기
 expressions: yok ya; eyvah; ee; seni düşünüyorum; iyi geceler
-A | Elif? Üç yıl önceki fotoğrafımı beğendin. | Elif? 너 내 3년 전 사진에 좋아요 눌렀어. | beğenmek = 좋아요를 누르다 | emotion=teasing
-B | Ben mi? Yok ya! | 내가? 아니야! | yok ya = 아니 뭐 설마 | emotion=flustered
-A | Şimdi bir tane daha! | 방금 또 하나! | bir tane daha = 하나 더 | emotion=surprised
-B | Eyvah! Kedi yaptı, kedi! 🐈 | 헉! 고양이가 그랬어, 고양이! 🐈 | kedi yaptı = 고양이가 했어 | emotion=flustered+shout
-A | On beş beğeni geldi. Kedi çok çalışıyor. 😂 | 좋아요 열다섯 개 왔어. 고양이 열일하네 😂 | beğeni = 좋아요 — 반전: 손을 쓸수록 늘어난다 | emotion=neutral+teasing
-B | Tamam. Evde kedi yok. | 알았어. 우리 집에 고양이 없어. | evde = 집에 | emotion=shy
-A | Ee? Saat iki, ne yapıyorsun? | 그래서? 새벽 두 시에 뭐 해? | saat iki = 두 시 | emotion=teasing
-B | Seni düşünüyorum. İyi geceler! | 네 생각 해. 잘 자! | seni düşünüyorum = 네 생각 해 | emotion=gentle+flustered
+A | ? | Elif? 너 내 3년 전 사진에 좋아요 눌렀어. |  | emotion=teasing
+B | ? | 내가? 아니야! |  | emotion=flustered
+A | ? | 방금 또 하나! |  | emotion=surprised
+B | ? | 헉! 고양이가 그랬어, 고양이! 🐈 |  | emotion=flustered+shout
+A | ? | 좋아요 열다섯 개 왔어. 고양이 열일하네 😂 |  | emotion=neutral+teasing
+B | ? | 알았어. 우리 집에 고양이 없어. |  | emotion=shy
+A | ? | 그래서? 새벽 두 시에 뭐 해? |  | emotion=teasing
+B | ? | 네 생각 해. 잘 자! |  | emotion=gentle+flustered

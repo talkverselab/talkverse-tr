@@ -9,15 +9,15 @@ twist: 10 ignore
 purpose: study_abroad
 goal: hıhı·neyse 로 혼잣말하다 들키기
 expressions: hıhı; neyse
-A | Zeynep, notlarını verir misin? | Zeynep, 필기 좀 빌려줄래? | verir misin = 줄래? | emotion=polite
-B | Hıhı. | 응응. | hıhı = 응응 | emotion=neutral
-A | Yarın kantinde kahve içelim mi? | 내일 매점에서 커피 마실까? | içelim mi = 마실까? | emotion=cheerful
-B | Hıhı. | 응응. | hıhı = 응응 | emotion=neutral
-A | Kulaklık takıyorsun. Beni hiç duymuyorsun, değil mi? | 이어폰 꼈네. 내 말 하나도 안 들리지? | kulaklık = 이어폰 | emotion=teasing
-B | Hıhı. | 응응. | hıhı = 응응 | emotion=neutral
-A | Tamam. Bana yüz lira borcun var. | 좋아. 너 나한테 100리라 빚졌어. | borç = 빚 | emotion=teasing
-B | Hıhı. | 응응. | hıhı = 응응 | emotion=neutral
-A | Bu dönem tek arkadaşım sensin. Neyse, duymuyorsun. | 이번 학기 내 유일한 친구는 너야. 됐어, 어차피 안 들리지. | neyse = 됐어, 아무튼 | emotion=gentle+sad
-B | Yüz lira yalan. | 100리라는 거짓말이지. | yalan = 거짓말 — 반전: 다 듣고 있었다 | emotion=teasing
-A | Ne?! Duyuyor muydun?! | 뭐?! 들렸어?! | duyuyor muydun = 듣고 있었어? | emotion=surprised
-B | Kulaklıkta müzik yok. Üç haftadır seni dinliyorum. | 이어폰에 음악 안 나와. 3주째 네 말 듣고 있어. | üç haftadır = 3주째 | emotion=gentle
+A | ? | Zeynep, 필기 좀 빌려줄래? |  | emotion=polite
+B | ? | 응응. |  | emotion=neutral
+A | ? | 내일 매점에서 커피 마실까? |  | emotion=cheerful
+B | ? | 응응. |  | emotion=neutral
+A | ? | 이어폰 꼈네. 내 말 하나도 안 들리지? |  | emotion=teasing
+B | ? | 응응. |  | emotion=neutral
+A | ? | 좋아. 너 나한테 100리라 빚졌어. |  | emotion=teasing
+B | ? | 응응. |  | emotion=neutral
+A | ? | 이번 학기 내 유일한 친구는 너야. 됐어, 어차피 안 들리지. |  | emotion=gentle+sad
+B | ? | 100리라는 거짓말이지. |  | emotion=teasing
+A | ? | 뭐?! 들렸어?! |  | emotion=surprised
+B | ? | 이어폰에 음악 안 나와. 3주째 네 말 듣고 있어. |  | emotion=gentle

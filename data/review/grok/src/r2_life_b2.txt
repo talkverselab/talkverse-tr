@@ -9,15 +9,15 @@ twist: 11 reveal
 purpose: making_friends study_abroad
 goal: hadi ya·bir dakika 로 놀라며 되묻기
 expressions: canım; hadi ya; anladım; bir dakika
-B | Fincanını kapat, canım. Soğusun, bakalım. | 잔 엎어라, 얘야. 식으면 보자. | fincan = 커피잔 | emotion=gentle
-A | Teyze, ben fala inanmıyorum ki. | 아주머니, 전 점 안 믿는걸요. | fal = 점 | emotion=polite
-B | Sus, bak! Burada bir kalp var. | 쉿, 봐라! 여기 하트가 있네. | kalp = 심장, 하트 | emotion=excited
-A | Hadi ya! Kim var orada? | 에이! 거기 누가 있는데요? | hadi ya = 에이, 설마 | emotion=amused
-B | Biri seni düşünüyor. Uzun boylu, iyi çocuk. | 누가 네 생각을 해. 키 크고, 착한 애야. | uzun boylu = 키가 큰 | emotion=teasing
-A | Fincan bunu nereden biliyor? | 잔이 그걸 어떻게 알아요? | nereden = 어디서 | emotion=surprised
-B | Fincan bilmez, ben bilirim. Yeğenim! | 잔은 몰라도 난 알지. 내 조카야! | yeğen = 조카 | emotion=amused+excited
-A | Şimdi anladım. Fal yok, yeğen var. | 이제 알겠네요. 점은 없고 조카가 있는 거네요. | şimdi anladım = 이제 알겠다 | emotion=tsukkomi
-B | Kafede çalışıyor. Yemeği de çok sever. | 카페에서 일해. 먹는 것도 아주 좋아하고. | sever = 좋아한다 | emotion=teasing
-A | Bir dakika… Kafede çalışan, yemeği çok seven? | 잠깐만요… 카페에서 일하고, 먹는 걸 아주 좋아한다고요? | çalışan = 일하는 | emotion=surprised
-C | Teyze, kapı açıktı. Yemek var mı? | 이모, 문 열려 있던데. 밥 있어? | kapı açıktı = 문이 열려 있었다 — 반전 | emotion=cheerful
-A | Can?! Fincandaki sen misin?! | 칸?! 잔 속 그 사람이 너야?! | fincandaki = 잔 속의 | emotion=shout
+B | ? | 잔 엎어라, 얘야. 식으면 보자. |  | emotion=gentle
+A | ? | 아주머니, 전 점 안 믿는걸요. |  | emotion=polite
+B | ? | 쉿, 봐라! 여기 하트가 있네. |  | emotion=excited
+A | ? | 에이! 거기 누가 있는데요? |  | emotion=amused
+B | ? | 누가 네 생각을 해. 키 크고, 착한 애야. |  | emotion=teasing
+A | ? | 잔이 그걸 어떻게 알아요? |  | emotion=surprised
+B | ? | 잔은 몰라도 난 알지. 내 조카야! |  | emotion=amused+excited
+A | ? | 이제 알겠네요. 점은 없고 조카가 있는 거네요. |  | emotion=tsukkomi
+B | ? | 카페에서 일해. 먹는 것도 아주 좋아하고. |  | emotion=teasing
+A | ? | 잠깐만요… 카페에서 일하고, 먹는 걸 아주 좋아한다고요? |  | emotion=surprised
+C | ? | 이모, 문 열려 있던데. 밥 있어? |  | emotion=cheerful
+A | ? | 칸?! 잔 속 그 사람이 너야?! |  | emotion=shout

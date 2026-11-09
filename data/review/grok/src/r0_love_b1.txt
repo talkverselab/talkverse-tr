@@ -9,11 +9,11 @@ twist: 8 emotion
 purpose: love
 goal: sus·kusura bakma·bilmem 으로 놀리고 받아치기
 expressions: ee; kusura bakma; of; dur; bilmem
-A | Kahve bitti. Fincanı neden alıyorsun? | 커피 다 마셨어. 잔은 왜 가져가? | fincan = 커피잔 | emotion=surprised
-B | Sus, falına bakıyorum. | 쉿, 네 점 보는 중이야. | fal = 커피 점 | emotion=teasing
-A | Ee? Para var mı, para? | 그래서? 돈 있어? 돈? | ee = 그래서? | emotion=excited
-B | Yok, hiç yok. Kusura bakma. | 없어, 하나도 없어. 미안. | kusura bakma = 미안 | emotion=teasing
-A | Of. Başka ne var? | 아휴. 또 뭐 있어? | başka = 다른 | emotion=annoyed
-B | Dur, burada biri var. Çok güzel. | 잠깐… 여기 누가 있어. 엄청 예뻐. | biri = 누군가 | emotion=surprised+amused
-A | Kim o? Nasıl biri? | 누군데? 어떤 사람이야? | nasıl biri = 어떤 사람 | emotion=excited
-B | Bilmem… saçı benim gibi. | 글쎄… 머리가 나랑 똑같네. | benim gibi = 나처럼 — 마음을 들킴 | emotion=shy
+A | ? | 커피 다 마셨어. 잔은 왜 가져가? |  | emotion=surprised
+B | ? | 쉿, 네 점 보는 중이야. |  | emotion=teasing
+A | ? | 그래서? 돈 있어? 돈? |  | emotion=excited
+B | ? | 없어, 하나도 없어. 미안. |  | emotion=teasing
+A | ? | 아휴. 또 뭐 있어? |  | emotion=annoyed
+B | ? | 잠깐… 여기 누가 있어. 엄청 예뻐. |  | emotion=surprised+amused
+A | ? | 누군데? 어떤 사람이야? |  | emotion=excited
+B | ? | 글쎄… 머리가 나랑 똑같네. |  | emotion=shy

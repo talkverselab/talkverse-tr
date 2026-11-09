@@ -9,15 +9,15 @@ twist: 9 chaos
 purpose: travel
 goal: ne kadar·çok pahalı 로 흥정하기
 expressions: tamam; hoş geldiniz; buyurun; ne kadar; çok pahalı; hadi
-C | Dükkâna giriyoruz. Sen hiç konuşma, ben hallederim. | 가게 들어간다. 넌 말하지 마, 내가 해결할게. | halletmek = 해결하다 | emotion=stiff
-A | Tamam. Sadece küçük bir halı istiyoruz, değil mi? | 알았어. 작은 양탄자 하나만 사는 거지? | halı = 양탄자 | emotion=neutral
-B | Hoş geldiniz! Buyurun, çay mı, kahve mi? | 어서 오세요! 자, 차 드릴까요, 커피 드릴까요? | buyurun = 어서요 | emotion=cheerful
-C | Almıyoruz, sadece bakıyoruz. Küçük halı ne kadar? | 안 사요, 그냥 보는 거예요. 작은 양탄자 얼마예요? | ne kadar = 얼마 | emotion=stiff
-B | Bu el yapımı, çok eski. On bin lira. | 이건 수제고, 아주 오래됐어요. 만 리라요. | el yapımı = 손으로 만든 | emotion=polite
-C | On bin mi? Çok pahalı, hadi {name}, gidiyoruz. | 만 리라요? 너무 비싸요, 가자 {name}. | çok pahalı = 너무 비싸요 | emotion=surprised
-A | Ama bakın, bu kırmızı olan… vay, çok güzel! | 근데 이 빨간 거요… 와, 너무 예뻐요! | kırmızı = 빨간 | emotion=excited
-C | {name}. Konuşma demiştim. | {name}. 말하지 말랬지. | demiştim = 말했었다 | emotion=annoyed
-B | Çocuklar, bütün halıları açın! Misafir bu işi biliyor! | 얘들아, 양탄자 전부 펴! 손님이 볼 줄 아신다! | açın = 펴라 — 반전 | emotion=excited
-A | Hayır, bir dakika! Yerde yer kalmadı! | 아뇨, 잠깐만요! 바닥에 자리가 없어요! | bir dakika = 잠깐만요 | emotion=flustered
-B | İki halı yirmi bin! Üçüncüsü benden hediye! | 둘에 2만 리라! 세 번째는 제 선물입니다! | hediye = 선물 | emotion=excited
-C | Tebrikler. Üç halın var ama yerin yok. | 축하해. 양탄자 셋 생겼는데 깔 데가 없네. | tebrikler = 축하해 | emotion=tsukkomi
+C | ? | 가게 들어간다. 넌 말하지 마, 내가 해결할게. |  | emotion=stiff
+A | ? | 알았어. 작은 양탄자 하나만 사는 거지? |  | emotion=neutral
+B | ? | 어서 오세요! 자, 차 드릴까요, 커피 드릴까요? |  | emotion=cheerful
+C | ? | 안 사요, 그냥 보는 거예요. 작은 양탄자 얼마예요? |  | emotion=stiff
+B | ? | 이건 수제고, 아주 오래됐어요. 만 리라요. |  | emotion=polite
+C | ? | 만 리라요? 너무 비싸요, 가자 {name}. |  | emotion=surprised
+A | ? | 근데 이 빨간 거요… 와, 너무 예뻐요! |  | emotion=excited
+C | ? | {name}. 말하지 말랬지. |  | emotion=annoyed
+B | ? | 얘들아, 양탄자 전부 펴! 손님이 볼 줄 아신다! |  | emotion=excited
+A | ? | 아뇨, 잠깐만요! 바닥에 자리가 없어요! |  | emotion=flustered
+B | ? | 둘에 2만 리라! 세 번째는 제 선물입니다! |  | emotion=excited
+C | ? | 축하해. 양탄자 셋 생겼는데 깔 데가 없네. |  | emotion=tsukkomi

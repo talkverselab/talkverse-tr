@@ -9,11 +9,11 @@ twist: 5 reveal
 purpose: love
 goal: şaka şaka·öldüm 으로 데이팅앱 첫 채팅 받아치기
 expressions: selam; görüşürüz; dur; ne alaka; öldüm; şaka şaka
-B | Selam! Bu kedi senin mi? | 안녕! 이 고양이 네 고양이야? | senin mi = 네 거야? | emotion=excited
-A | Selam. Yok, arkadaşımın kedisi. | 안녕. 아니, 친구네 고양이야. | arkadaşımın = 내 친구의 | emotion=cheerful+neutral
-B | Ha. Tamam, görüşürüz 👋 | 아. 그래, 잘 가 👋 | görüşürüz = 또 보자 | emotion=neutral+cheerful
-A | Dur! Ne alaka? | 잠깐! 뭐야 그게? | ne alaka = 뭔 소리야 | emotion=surprised+tsukkomi
-B | Ben kedi için yazdım. | 나 고양이 때문에 말 건 건데. | için = ~때문에 — 반전 | emotion=neutral
-A | Öldüm. Ya ben? | 충격이다. 난? | ya ben = 나는? | emotion=sad
-B | Şaka şaka 😂 | 농담이야 😂 | şaka şaka = 농담이야 | emotion=amused
-B | Üç gündür fotoğrafına bakıyorum. | 사흘째 네 사진 보고 있어. | üç gündür = 사흘째 | emotion=shy
+B | ? | 안녕! 이 고양이 네 고양이야? |  | emotion=excited
+A | ? | 안녕. 아니, 친구네 고양이야. |  | emotion=cheerful+neutral
+B | ? | 아. 그래, 잘 가 👋 |  | emotion=neutral+cheerful
+A | ? | 잠깐! 뭐야 그게? |  | emotion=surprised+tsukkomi
+B | ? | 나 고양이 때문에 말 건 건데. |  | emotion=neutral
+A | ? | 충격이다. 난? |  | emotion=sad
+B | ? | 농담이야 😂 |  | emotion=amused
+B | ? | 사흘째 네 사진 보고 있어. |  | emotion=shy

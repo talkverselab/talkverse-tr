@@ -9,19 +9,19 @@ twist: 11 chaos
 purpose: making_friends study_abroad
 goal: kız isteme 풍습 따라가기, 다급하게 상황 전하기
 expressions: hoş geldin; anladım; bak; eyvah; bir dakika
-B | Hoş geldin! Çabuk mutfağa gel, bugün ablamı istemeye geliyorlar. | 어서 와! 빨리 부엌으로 와, 오늘 우리 언니 청혼하러 온대. | istemeye gelmek = 청혼하러 오다 | emotion=excited
-A | İstemeye mi? Ben o kelimeden korkuyorum, biliyorsun. | 청혼? 나 그 단어 무서워, 알잖아. | kelime = 단어 | emotion=worried
-B | Sakin ol, bugün kimse seni istemiyor. Tepsiyi sen taşıyacaksın. | 진정해, 오늘은 아무도 널 안 원해. 쟁반은 네가 나르는 거야. | tepsi = 쟁반 · taşımak = 나르다 | emotion=teasing
-A | Tamam ama kural ne? Kahveyi kime vereceğim? | 알았어, 근데 규칙이 뭐야? 커피를 누구한테 줘? | kural = 규칙 | emotion=neutral
-B | Bak, tuzlu kahve damadın. Üç kaşık tuz koydum, ona ver. | 봐, 소금 커피는 신랑 거야. 소금 세 스푼 넣었어, 그 사람한테 줘. | damat = 신랑 · tuz = 소금 | emotion=cheerful
-A | Neden tuz? Bu adama düşman mısınız? | 왜 소금이야? 그 사람이랑 원수졌어? | düşman = 원수 | emotion=surprised
-B | Gelenek bu! Damat içer ve susar, yani sabırlı demek. | 전통이야! 신랑은 마시고 입 다무는 거야, 인내심 있다는 뜻이지. | gelenek = 전통 · susmak = 입 다물다 | emotion=excited
-A | Anladım. Hangi fincandı, sağdaki mi, soldaki mi? | 알겠어. 어느 잔이었지, 오른쪽, 왼쪽? | sağdaki = 오른쪽 것 | emotion=worried
-B | Sağdaki! Hayır, dur, senin sağın mı benim sağım mı? | 오른쪽! 아니, 잠깐, 네 오른쪽이야 내 오른쪽이야? | sağ = 오른쪽 | emotion=flustered
-A | Geç kaldın, verdim bile. Yaşlı amca kahvesini içiyor. | 늦었어, 벌써 드렸어. 나이 드신 아저씨가 커피 마시고 계셔. | verdim bile = 벌써 줬어 | emotion=neutral
-B | Yaşlı amca mı? Eyvah! O damadın babası! | 나이 드신 아저씨? 헉! 그분 신랑 아버지야! | eyvah = 큰일 났다 — 반전 | emotion=surprised
-A | Yüzü kıpkırmızı oldu ama hiçbir şey demiyor. | 얼굴이 시뻘게지셨는데 아무 말도 안 하셔. | kıpkırmızı = 시뻘건 | emotion=worried
-B | Damat nasıl? O bir şey fark etti mi? | 신랑은 어때? 뭐 눈치챘어? | fark etmek = 알아차리다 | emotion=worried
-A | Damat mutlu, "Ne güzel kahve" diyor. Baba bana bakıyor. | 신랑은 좋아해, 「커피 맛있네요」 그러고. 아버지는 나를 보셔. | ne güzel = 정말 좋다 | emotion=worried
-B | Bittik. Ablam beni öldürecek, düğün de bitti. | 우린 끝났어. 언니가 날 죽일 거야, 혼담도 깨졌고. | bittik = 우린 끝났다 | emotion=sad
-A | Bir dakika… "Bir fincan daha" diyor. | 잠깐만… 「한 잔 더」 하시는데. | bir ~ daha = ~ 하나 더 | emotion=surprised
+B | ? | 어서 와! 빨리 부엌으로 와, 오늘 우리 언니 청혼하러 온대. |  | emotion=excited
+A | ? | 청혼? 나 그 단어 무서워, 알잖아. |  | emotion=worried
+B | ? | 진정해, 오늘은 아무도 널 안 원해. 쟁반은 네가 나르는 거야. |  | emotion=teasing
+A | ? | 알았어, 근데 규칙이 뭐야? 커피를 누구한테 줘? |  | emotion=neutral
+B | ? | 봐, 소금 커피는 신랑 거야. 소금 세 스푼 넣었어, 그 사람한테 줘. |  | emotion=cheerful
+A | ? | 왜 소금이야? 그 사람이랑 원수졌어? |  | emotion=surprised
+B | ? | 전통이야! 신랑은 마시고 입 다무는 거야, 인내심 있다는 뜻이지. |  | emotion=excited
+A | ? | 알겠어. 어느 잔이었지, 오른쪽, 왼쪽? |  | emotion=worried
+B | ? | 오른쪽! 아니, 잠깐, 네 오른쪽이야 내 오른쪽이야? |  | emotion=flustered
+A | ? | 늦었어, 벌써 드렸어. 나이 드신 아저씨가 커피 마시고 계셔. |  | emotion=neutral
+B | ? | 나이 드신 아저씨? 헉! 그분 신랑 아버지야! |  | emotion=surprised
+A | ? | 얼굴이 시뻘게지셨는데 아무 말도 안 하셔. |  | emotion=worried
+B | ? | 신랑은 어때? 뭐 눈치챘어? |  | emotion=worried
+A | ? | 신랑은 좋아해, 「커피 맛있네요」 그러고. 아버지는 나를 보셔. |  | emotion=worried
+B | ? | 우린 끝났어. 언니가 날 죽일 거야, 혼담도 깨졌고. |  | emotion=sad
+A | ? | 잠깐만… 「한 잔 더」 하시는데. |  | emotion=surprised

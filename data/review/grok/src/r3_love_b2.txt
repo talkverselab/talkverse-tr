@@ -9,19 +9,19 @@ twist: 8 chaos
 purpose: love
 goal: çok pahalı·hadi canım 으로 흥정하기
 expressions: hoş geldiniz; çok pahalı; lütfen; hadi canım; maşallah; bilmem ki; harika
-A | Elif, şu küçük halı çok güzel. Annem için alabilirim. | Elif, 저 작은 양탄자 진짜 예쁘다. 엄마 드리면 좋겠어. | halı = 양탄자 | emotion=excited
-B | Belli etme! Beğendiğini görürse fiyat hemen iki katına çıkar. | 티 내지 마! 마음에 든 거 보이면 값이 바로 두 배로 뛰어. | belli etmek = 티 내다 | emotion=worried
-C | Hoş geldiniz! Çay içer misiniz? Bu halı sadece on bin lira. | 어서 오세요! 차 드실래요? 이 양탄자 딱 만 리라입니다. | on bin = 만 | emotion=cheerful
-A | On bin mi? Çok pahalı! Biraz indirim yapar mısınız, lütfen? | 만 리라요? 너무 비싸요! 좀 깎아 주실래요? | indirim = 할인 | emotion=surprised+polite
-B | Hadi canım, on bin ne? Yan dükkânda bunun aynısı üç bin. | 에이 설마요, 만 리라가 뭐예요? 옆 가게엔 똑같은 게 3천이던데요. | aynısı = 똑같은 것 | emotion=tsukkomi+annoyed
-C | Eşiniz çok sert, maşallah! Yeni evlilere özel fiyat yapalım mı? | 배우자분 정말 세시네요, 대단해요! 신혼부부 특가로 해 드릴까요? | eş = 배우자(남녀 공통) | emotion=amused+cheerful
-A | Eşim mi? Bir dakika, biz aslında… | 배우자요? 잠깐만요, 저희 사실… | aslında = 사실은 | emotion=flustered
-B | Evet, yeni evliyiz. Ne kadar oluyor, söyleyin. | 네, 저희 신혼이에요. 얼마 해 주실 건데요? | yeni evli = 신혼 — 반전: Elif 가 받아 버린다 | emotion=stiff
-C | Yeni evliler! Çocuklar, çabuk gelin! Tatlı getirin, çay getirin! | 신혼부부래! 얘들아, 빨리 와! 디저트 가져와, 차 가져와! | çabuk = 빨리 | emotion=excited+shout
-A | Elif, herkes bize bakıyor! Şimdi ne diyeceğiz? | Elif, 다들 우리 쳐다봐! 이제 뭐라고 해? | ne diyeceğiz = 뭐라고 하지 | emotion=flustered
-C | Düğün nerede oldu? Fotoğraf var mı? Hadi, görelim! | 결혼식은 어디서 했어요? 사진 있어요? 어서, 봅시다! | düğün = 결혼식 | emotion=excited
-B | Şey… çok küçük bir düğündü. Sadece kedimiz vardı. | 저… 아주 작은 결혼식이었어요. 우리 고양이만 왔어요. | kedimiz = 우리 고양이 | emotion=flustered
-C | Kediniz de mi var? Harika! Halıyı iki bine verdim gitti! | 고양이도 있어요? 좋네요! 양탄자 2천에 드립니다, 끝! | verdim gitti = 줘 버렸다 | emotion=surprised+excited
-A | Halıyı aldık, çıktık. Bu arada ne zaman evlendik biz? | 양탄자 사서 나왔네. 그나저나 우리 언제 결혼했대? | bu arada = 그나저나 | emotion=amused+teasing
-B | Bilmem ki. Ama "eşim" demek hoşuma gitti. | 글쎄. 근데 「내 짝」이라고 말하니까 좋던데. | hoşuma gitti = 마음에 들었다 | emotion=shy
-A | Hadi, kedi bulalım. Yalan olmasın. | 자, 고양이 찾으러 가자. 거짓말이 되면 안 되잖아. | yalan = 거짓말 | emotion=cheerful+shy
+A | ? | Elif, 저 작은 양탄자 진짜 예쁘다. 엄마 드리면 좋겠어. |  | emotion=excited
+B | ? | 티 내지 마! 마음에 든 거 보이면 값이 바로 두 배로 뛰어. |  | emotion=worried
+C | ? | 어서 오세요! 차 드실래요? 이 양탄자 딱 만 리라입니다. |  | emotion=cheerful
+A | ? | 만 리라요? 너무 비싸요! 좀 깎아 주실래요? |  | emotion=surprised+polite
+B | ? | 에이 설마요, 만 리라가 뭐예요? 옆 가게엔 똑같은 게 3천이던데요. |  | emotion=tsukkomi+annoyed
+C | ? | 배우자분 정말 세시네요, 대단해요! 신혼부부 특가로 해 드릴까요? |  | emotion=amused+cheerful
+A | ? | 배우자요? 잠깐만요, 저희 사실… |  | emotion=flustered
+B | ? | 네, 저희 신혼이에요. 얼마 해 주실 건데요? |  | emotion=stiff
+C | ? | 신혼부부래! 얘들아, 빨리 와! 디저트 가져와, 차 가져와! |  | emotion=excited+shout
+A | ? | Elif, 다들 우리 쳐다봐! 이제 뭐라고 해? |  | emotion=flustered
+C | ? | 결혼식은 어디서 했어요? 사진 있어요? 어서, 봅시다! |  | emotion=excited
+B | ? | 저… 아주 작은 결혼식이었어요. 우리 고양이만 왔어요. |  | emotion=flustered
+C | ? | 고양이도 있어요? 좋네요! 양탄자 2천에 드립니다, 끝! |  | emotion=surprised+excited
+A | ? | 양탄자 사서 나왔네. 그나저나 우리 언제 결혼했대? |  | emotion=amused+teasing
+B | ? | 글쎄. 근데 「내 짝」이라고 말하니까 좋던데. |  | emotion=shy
+A | ? | 자, 고양이 찾으러 가자. 거짓말이 되면 안 되잖아. |  | emotion=cheerful+shy

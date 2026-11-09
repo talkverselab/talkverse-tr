@@ -9,14 +9,14 @@ twist: 8 slip
 purpose: travel making_friends
 goal: 버스 서비스 받기, 콜로냐 문화 알기
 expressions: dur; lütfen; bir dakika; eyvah; ne demek
-A | Bu otobüs çok güzel. Uçak gibi! | 이 버스 진짜 좋다. 비행기 같아! | gibi = ~처럼 | emotion=cheerful+excited
-B | Dur, daha görmedin. Şimdi servis başlıyor. | 잠깐, 아직 멀었어. 이제 서비스 시작이야. | daha = 아직 | emotion=teasing+cheerful
-C | Kolonya alır mısınız, efendim? | 콜로냐 드릴까요, 손님? | kolonya = 레몬 향 알코올 손 세정 향수 | emotion=polite
-A | Evet, lütfen. Şu bardağa koyar mısınız? | 네, 주세요. 이 컵에 따라 주시겠어요? | şu = 이, 저 · bardak = 컵 | emotion=cheerful
-C | Bardağa mı? Emin misiniz, efendim? | 컵에요? 확실하세요, 손님? | emin misiniz = 확실하세요? | emotion=surprised+polite
-A | Tabii, çok susadım. Limonlu, değil mi? | 그럼요, 목말라서요. 레몬 맛이죠? | susamak = 목마르다 | emotion=cheerful
-B | Bir dakika, sen ne yapıyorsun orada? | 잠깐만, 너 거기서 뭐 해? | orada = 거기서 | emotion=worried
-A | Ne var? Bu içecek değil mi? | 왜? 이거 음료 아니야? | içecek = 음료 — 반전 | emotion=surprised
-B | Eyvah! O içilmez, ellerine sürülür! | 헉! 그거 마시는 거 아니야, 손에 바르는 거야! | içilmez = 마시는 게 아니다(수동) | emotion=surprised+shout
-A | Ne demek? Pardon, o zaman bir çay lütfen. | 뭐라고? 죄송해요, 그럼 차 한 잔 주세요. | ne demek = 뭐라고? | emotion=surprised+flustered
-C | Tabii efendim. Yanına bisküvi de ister misiniz? | 물론이죠, 손님. 비스킷도 곁들여 드릴까요? | yanına = 곁들여 | emotion=polite
+A | ? | 이 버스 진짜 좋다. 비행기 같아! |  | emotion=cheerful+excited
+B | ? | 잠깐, 아직 멀었어. 이제 서비스 시작이야. |  | emotion=teasing+cheerful
+C | ? | 콜로냐 드릴까요, 손님? |  | emotion=polite
+A | ? | 네, 주세요. 이 컵에 따라 주시겠어요? |  | emotion=cheerful
+C | ? | 컵에요? 확실하세요, 손님? |  | emotion=surprised+polite
+A | ? | 그럼요, 목말라서요. 레몬 맛이죠? |  | emotion=cheerful
+B | ? | 잠깐만, 너 거기서 뭐 해? |  | emotion=worried
+A | ? | 왜? 이거 음료 아니야? |  | emotion=surprised
+B | ? | 헉! 그거 마시는 거 아니야, 손에 바르는 거야! |  | emotion=surprised+shout
+A | ? | 뭐라고? 죄송해요, 그럼 차 한 잔 주세요. |  | emotion=surprised+flustered
+C | ? | 물론이죠, 손님. 비스킷도 곁들여 드릴까요? |  | emotion=polite

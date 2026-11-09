@@ -9,18 +9,18 @@ twist: 11 reveal
 purpose: study_abroad
 goal: hoş geldiniz·yok artık·aslında 로 학과 사무실에서 서류 내기
 expressions: hoş geldiniz; bir dakika; yok artık; canım
-A | Hocadan yine mail geldi. Üç dakikada cevap yazdı. | 교수님한테 또 메일 왔어. 3분 만에 답장하셨어. | üç dakikada = 3분 만에 | emotion=cheerful
-B | Ama hoca hiç ortada yok. Garip, değil mi? | 근데 교수님은 코빼기도 안 보이잖아. 이상하지 않아? | ortada yok = 안 보인다 | emotion=worried
-A | Evet. Kapıda hâlâ “Beş dakikaya dönerim” yazıyor. | 응. 문에는 아직 「5분 뒤 돌아옴」 이라고 써 있고. | hâlâ = 아직 | emotion=amused
-B | Mailde ne diyor peki? Yine aynı şey mi? | 메일엔 뭐래? 또 같은 말이야? | peki = 그럼 | emotion=neutral
-A | “Kendinize iyi bakın, tezinizi perşembe getirin.” Çok kibar. | 「몸조심하고, 논문은 목요일에 가져와요.」 되게 다정하셔. | tez = 논문 | emotion=cheerful
-B | Perşembe kime getireceksin? Kapıya mı? | 목요일에 누구한테 가져가는데? 문한테? | kime = 누구에게 | emotion=teasing
-C | Hoş geldiniz. Tezinizi getirdiniz mi? Buraya bırakın, lütfen. | 어서 오세요. 논문 가져오셨어요? 여기 두고 가세요. | bırakın = 두세요 | emotion=polite
-A | Size mi? Hocam okuyacak, değil mi? | 선생님께요? 교수님이 읽으시는 거죠? | okuyacak = 읽을 것이다 | emotion=surprised+worried
-C | Hoca telefonda söyledi: üçüncü sayfada “de” ayrı yazılır. | 교수님이 전화로 말씀하셨어요. 3쪽 「de」 는 띄어 써야 한대요. | telefonda = 전화로 · ayrı yazılır = 띄어 쓴다 | emotion=polite
-A | Bir dakika… o cümleyi dün mailde gördüm. Hocadan geldi! | 잠깐만요… 그 말, 어제 메일에서 봤어요. 교수님이 보내신 건데요! | cümle = 문장 | emotion=surprised
-C | Hoca bu dönem yurt dışında, canım. Mailleri o söylüyor, ben yazıyorum. | 교수님은 이번 학기에 해외에 계세요. 메일은 교수님이 불러 주시고 제가 써요. | yurt dışı = 해외 — 반전 | emotion=gentle
-A | Ne?! Peki tezimi kim okuyacak? | 네?! 그럼 제 논문은 누가 읽어요? | tezimi = 내 논문을 | emotion=surprised
-C | Hoca okuyacak, merak etmeyin. Ben ona gönderiyorum. | 교수님이 읽으세요, 걱정 마세요. 제가 보내 드려요. | göndermek = 보내다 | emotion=polite
-B | Yok artık. Bütün bölüm sizin sayenizde mi dönüyor? | 말도 안 돼. 학과 전체가 선생님 덕에 돌아가는 거예요? | sayesinde = ~덕분에 | emotion=surprised
-C | Beş dakikaya dönerim. Tezi masaya bırakın. | 5분 뒤 돌아올게요. 논문은 책상에 두세요. | beş dakikaya dönerim = 5분 뒤 돌아온다 | emotion=polite
+A | ? | 교수님한테 또 메일 왔어. 3분 만에 답장하셨어. |  | emotion=cheerful
+B | ? | 근데 교수님은 코빼기도 안 보이잖아. 이상하지 않아? |  | emotion=worried
+A | ? | 응. 문에는 아직 「5분 뒤 돌아옴」 이라고 써 있고. |  | emotion=amused
+B | ? | 메일엔 뭐래? 또 같은 말이야? |  | emotion=neutral
+A | ? | 「몸조심하고, 논문은 목요일에 가져와요.」 되게 다정하셔. |  | emotion=cheerful
+B | ? | 목요일에 누구한테 가져가는데? 문한테? |  | emotion=teasing
+C | ? | 어서 오세요. 논문 가져오셨어요? 여기 두고 가세요. |  | emotion=polite
+A | ? | 선생님께요? 교수님이 읽으시는 거죠? |  | emotion=surprised+worried
+C | ? | 교수님이 전화로 말씀하셨어요. 3쪽 「de」 는 띄어 써야 한대요. |  | emotion=polite
+A | ? | 잠깐만요… 그 말, 어제 메일에서 봤어요. 교수님이 보내신 건데요! |  | emotion=surprised
+C | ? | 교수님은 이번 학기에 해외에 계세요. 메일은 교수님이 불러 주시고 제가 써요. |  | emotion=gentle
+A | ? | 네?! 그럼 제 논문은 누가 읽어요? |  | emotion=surprised
+C | ? | 교수님이 읽으세요, 걱정 마세요. 제가 보내 드려요. |  | emotion=polite
+B | ? | 말도 안 돼. 학과 전체가 선생님 덕에 돌아가는 거예요? |  | emotion=surprised
+C | ? | 5분 뒤 돌아올게요. 논문은 책상에 두세요. |  | emotion=polite

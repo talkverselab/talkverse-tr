@@ -9,11 +9,11 @@ twist: 5 chaos
 purpose: love
 goal: öne verir misiniz·yavaş lütfen 으로 돌무쉬 요금 전달하기
 expressions: pardon; buyurun; bir dakika; yavaş lütfen; neyse; görüşürüz
-B | Pardon, bunu öne verir misiniz? | 저기요, 이것 좀 앞으로 전해 주실래요? | öne = 앞으로 | emotion=polite
-A | Öne mi? Tabii, buyurun. | 앞으로요? 네, 그럼요. | tabii = 물론이죠 | emotion=polite
-C | Bunu da lütfen. İki kişi! | 이것도요. 두 명이요! | iki kişi = 두 사람 | emotion=polite
-A | Tamam… bir dakika, bir dakika! | 네… 잠깐만요, 잠깐만요! | bir dakika = 잠깐만요 | emotion=flustered
-C | Arkadan yüz lira var! Üstü sizde! | 뒤에서 100리라 왔어요! 거스름돈은 그쪽이요! | üstü = 거스름돈 — 반전: 온 차의 돈이 내 손에 | emotion=shout
-A | Yavaş lütfen! Ben şoför değilim! | 천천히요! 저 기사 아니에요! | şoför = 운전기사 | emotion=flustered
-A | Aa, durağım! Siz inmiyor musunuz? | 어, 제 정류장! 안 내리세요? | durak = 정류장 | emotion=surprised
-B | Aslında üç durak önce… neyse, görüşürüz! | 사실 세 정거장 전이었는데… 아무튼. 또 봐요! | aslında = 사실은 — 끝맺지 않는다 | emotion=shy
+B | ? | 저기요, 이것 좀 앞으로 전해 주실래요? |  | emotion=polite
+A | ? | 앞으로요? 네, 그럼요. |  | emotion=polite
+C | ? | 이것도요. 두 명이요! |  | emotion=polite
+A | ? | 네… 잠깐만요, 잠깐만요! |  | emotion=flustered
+C | ? | 뒤에서 100리라 왔어요! 거스름돈은 그쪽이요! |  | emotion=shout
+A | ? | 천천히요! 저 기사 아니에요! |  | emotion=flustered
+A | ? | 어, 제 정류장! 안 내리세요? |  | emotion=surprised
+B | ? | 사실 세 정거장 전이었는데… 아무튼. 또 봐요! |  | emotion=shy

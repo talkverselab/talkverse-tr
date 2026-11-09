@@ -9,15 +9,15 @@ twist: 8 slip
 purpose: study_abroad
 goal: sınıfta kalmak 관용구와 geçmiş olsun·yok artık 익히기
 expressions: geçmiş olsun; yok artık; kusura bakma; ciddi misin
-B | Dün neredeydin? Seni kantinde bekledim. | 어제 어디 있었어? 매점에서 기다렸는데. | kantin = 학교 매점 | emotion=worried
-A | Kusura bakma, telefonum kapalıydı. Ders çalıştım. | 미안, 전화기 꺼져 있었어. 공부했어. | kusura bakma = 미안 | emotion=polite+neutral
-B | Yorgun görünüyorsun. Ne oldu? | 피곤해 보이네. 무슨 일이야? | görünüyorsun = ~해 보인다 | emotion=worried
-A | Dün akşama kadar sınıfta kaldım. | 어제 저녁까지 교실에 남았어. | sınıfta kalmak = 유급하다(관용) — A 는 「교실에 남았다」 로 말함 | emotion=sad
-B | Ne?! Yok artık, bütün derslerden mi? | 뭐?! 말도 안 돼, 전 과목 다? | yok artık = 말도 안 돼 | emotion=surprised
-A | Evet, bütün dersler. Hoca gitti, ben kaldım. | 응, 전 과목. 교수님은 가시고 나만 남았어. | kaldım = 남았다 | emotion=neutral
-B | Geçmiş olsun. Üzülme, bütünleme var. | 어쩌냐. 속상해하지 마, 재시험 있어. | bütünleme = 재시험 | emotion=gentle
-A | O ne? Sınıf çok güzeldi, yine kalırım. | 그게 뭐야? 교실 좋던데, 또 남을 거야. | yine = 또 — 반전: 스스로 또 유급하겠단다 | emotion=surprised+cheerful
-B | Ciddi misin? Bir daha mı kalacaksın?! | 진심이야? 또 유급하겠다고?! | ciddi misin = 진심이야? | emotion=surprised
-C | {name}, duydum. Üzülmeyin, yaz okulu var. | {name} 씨, 들었어요. 상심 말아요, 계절학기 있어요. | yaz okulu = 계절학기 | emotion=gentle
-A | Hocam, ne yaz okulu? Ben sadece sınıfta oturdum! | 교수님, 계절학기라니요? 저는 그냥 교실에 앉아 있었어요! | oturdum = 앉아 있었다 | emotion=flustered
-B | Şimdi öğrendin. Kalmak başka, oturmak başka. | 이제 알았지. 남는 거랑 앉아 있는 건 달라. | başka = 다른 | emotion=teasing
+B | ? | 어제 어디 있었어? 매점에서 기다렸는데. |  | emotion=worried
+A | ? | 미안, 전화기 꺼져 있었어. 공부했어. |  | emotion=polite+neutral
+B | ? | 피곤해 보이네. 무슨 일이야? |  | emotion=worried
+A | ? | 어제 저녁까지 교실에 남았어. |  | emotion=sad
+B | ? | 뭐?! 말도 안 돼, 전 과목 다? |  | emotion=surprised
+A | ? | 응, 전 과목. 교수님은 가시고 나만 남았어. |  | emotion=neutral
+B | ? | 어쩌냐. 속상해하지 마, 재시험 있어. |  | emotion=gentle
+A | ? | 그게 뭐야? 교실 좋던데, 또 남을 거야. |  | emotion=surprised+cheerful
+B | ? | 진심이야? 또 유급하겠다고?! |  | emotion=surprised
+C | ? | {name} 씨, 들었어요. 상심 말아요, 계절학기 있어요. |  | emotion=gentle
+A | ? | 교수님, 계절학기라니요? 저는 그냥 교실에 앉아 있었어요! |  | emotion=flustered
+B | ? | 이제 알았지. 남는 거랑 앉아 있는 건 달라. |  | emotion=teasing

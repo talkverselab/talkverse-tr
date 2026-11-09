@@ -9,11 +9,11 @@ twist: 5 reveal
 purpose: travel
 goal: yavaş lütfen·merak etmeyin 으로 하맘에서 부탁하기
 expressions: hoş geldiniz; yavaş lütfen; aman; harika
-B | Hoş geldiniz. Kese istiyorsunuz, değil mi? | 어서 오세요. 때밀이 하시는 거죠? | kese = 때밀이 수건·때밀이 | emotion=polite
-A | Evet, ama yavaş lütfen. İlk kez. | 네. 근데 살살요. 처음이에요. | yavaş lütfen = 살살요, 천천히요 | emotion=polite+worried
-B | Tamam, merak etmeyin. Başlıyorum. | 네, 걱정 마세요. 시작합니다. | merak etmeyin = 걱정 마세요 | emotion=polite+neutral
-A | Aman! Yavaş lütfen, çok yavaş! | 아이고! 살살요, 아주 살살! | aman = 아이고 | emotion=shout
-B | Bu yavaş zaten. | 이게 살살인데요. | zaten = 이미, 어차피 — 반전 | emotion=stiff
-A | Ya normali nasıl? | 그럼 보통은 어떤데요? | normal = 보통 · ya …? = 그럼 …는? | emotion=worried
-B | Görmek ister misiniz? | 보여 드릴까요? | görmek = 보다 | emotion=teasing
-A | Hayır! Bu çok güzel, harika! | 아니요! 이거 너무 좋아요, 최고예요! | harika = 끝내줘요 | emotion=shout+flustered
+B | ? | 어서 오세요. 때밀이 하시는 거죠? |  | emotion=polite
+A | ? | 네. 근데 살살요. 처음이에요. |  | emotion=polite+worried
+B | ? | 네, 걱정 마세요. 시작합니다. |  | emotion=polite+neutral
+A | ? | 아이고! 살살요, 아주 살살! |  | emotion=shout
+B | ? | 이게 살살인데요. |  | emotion=stiff
+A | ? | 그럼 보통은 어떤데요? |  | emotion=worried
+B | ? | 보여 드릴까요? |  | emotion=teasing
+A | ? | 아니요! 이거 너무 좋아요, 최고예요! |  | emotion=shout+flustered

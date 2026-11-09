@@ -9,11 +9,11 @@ twist: 8 ignore
 purpose: making_friends study_abroad
 goal: hıhı·aynen 으로 맞장구치기, 안 듣는 친구 잡기
 expressions: şey; harika; hıhı; olur; aynen
-A | Can, çok önemli bir şey söyleyeceğim. | 칸, 진짜 중요한 얘기 할게. | söyleyeceğim = 말할 거야 | emotion=worried
-B | Hıhı, söyle. Bu tatlı harika, ya. | 응응, 말해. 이 디저트 끝내준다, 진짜. | hıhı = 응응 | emotion=neutral+excited
-A | Ev sahibi kirayı iki katına çıkardı. | 집주인이 월세를 두 배로 올렸어. | iki katına = 두 배로 | emotion=sad
-B | Hıhı. Olur, olur. | 응응. 그래, 그래. | olur = 그래, 좋아 | emotion=neutral
-A | Bir de Patron yatağımda doğurdu. | 파트론이 내 침대에서 새끼도 낳았어. | doğurmak = 새끼를 낳다 | emotion=worried
-B | Aynen, aynen. | 맞아, 맞아. | aynen = 맞아 그거 | emotion=neutral
-A | Can! Ben yarın aya gidiyorum! | 칸! 나 내일 달에 가! | ay = 달 | emotion=shout
-B | Güzel. Tatlını yiyecek misin? | 좋네. 네 디저트 먹을 거야? | yiyecek misin? = 먹을 거야? — 반전: 하나도 안 들었다 | emotion=neutral+cheerful
+A | ? | 칸, 진짜 중요한 얘기 할게. |  | emotion=worried
+B | ? | 응응, 말해. 이 디저트 끝내준다, 진짜. |  | emotion=neutral+excited
+A | ? | 집주인이 월세를 두 배로 올렸어. |  | emotion=sad
+B | ? | 응응. 그래, 그래. |  | emotion=neutral
+A | ? | 파트론이 내 침대에서 새끼도 낳았어. |  | emotion=worried
+B | ? | 맞아, 맞아. |  | emotion=neutral
+A | ? | 칸! 나 내일 달에 가! |  | emotion=shout
+B | ? | 좋네. 네 디저트 먹을 거야? |  | emotion=neutral+cheerful

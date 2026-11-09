@@ -9,11 +9,11 @@ twist: 7 reveal
 purpose: travel
 goal: nerede·ne kadar·çok pahalı 로 길 묻고 요금 따지기
 expressions: affedersiniz; ne kadar; çok pahalı; bir dakika
-A | Affedersiniz, Güneş Oteli nerede? | 실례합니다, 귀네시 호텔 어디예요? | nerede = 어디에 | emotion=polite
-B | Güneş Oteli mi? Uzak, çok uzak. | 귀네시 호텔이요? 멀어요, 아주 멀어요. | uzak = 먼 | emotion=polite
-A | Uzak mı? Ne kadar? | 멀어요? 얼마예요? | ne kadar = 얼마 | emotion=worried
-B | Üç yüz lira. Binin, binin! | 300리라요. 타세요, 타세요! | binin = 타세요 | emotion=polite+cheerful
-A | Çok pahalı! Ama… tamam, gidelim. | 너무 비싸요! 근데… 네, 가요. | gidelim = 가요(가자) | emotion=surprised+worried
-B | Geldik! İşte Güneş Oteli. | 다 왔습니다! 여기 귀네시 호텔이에요. | geldik = 도착했어요 | emotion=cheerful
-A | Bir dakika… ben buradan bindim! | 잠깐만요… 저 여기서 탔는데요! | buradan = 여기서 — 반전: 호텔 앞에서 탔다 | emotion=surprised
-B | Evet. Yol kısa, fiyat aynı. | 네. 길은 짧아도 요금은 같아요. | aynı = 같은 | emotion=amused
+A | ? | 실례합니다, 귀네시 호텔 어디예요? |  | emotion=polite
+B | ? | 귀네시 호텔이요? 멀어요, 아주 멀어요. |  | emotion=polite
+A | ? | 멀어요? 얼마예요? |  | emotion=worried
+B | ? | 300리라요. 타세요, 타세요! |  | emotion=polite+cheerful
+A | ? | 너무 비싸요! 근데… 네, 가요. |  | emotion=surprised+worried
+B | ? | 다 왔습니다! 여기 귀네시 호텔이에요. |  | emotion=cheerful
+A | ? | 잠깐만요… 저 여기서 탔는데요! |  | emotion=surprised
+B | ? | 네. 길은 짧아도 요금은 같아요. |  | emotion=amused

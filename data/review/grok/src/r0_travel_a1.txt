@@ -9,11 +9,11 @@ twist: 5 slip
 purpose: travel
 goal: lütfen·tabii·buyurun 으로 버스 승무원에게 부탁하기
 expressions: lütfen; tabii; buyurun; aman
-B | Bir şey ister misiniz? Çay, su? | 뭐 드릴까요? 차, 물? | ister misiniz? = 드릴까요? | emotion=polite
-A | Kola, lütfen. | 콜라 주세요. | kola = 콜라 | emotion=polite
-B | Tabii. Elinizi açın. | 네. 손 펴 주세요. | açın = 펴세요 | emotion=polite
-A | Elimi mi? Neden? | 손이요? 왜요? | elimi = 내 손을 | emotion=surprised
-B | Buyurun, kolonya. | 여기요, 콜로냐입니다. | kolonya = 레몬 향 손 향수(버스 필수품) — 반전 | emotion=polite
-A | Hayır! Kola dedim, içmek için! | 아니요! 콜라라고 했어요, 마시려고요! | dedim = 말했다 | emotion=shout+tsukkomi
-B | Aman, içmeyin! Su ister misiniz? | 어머, 마시지 마세요! 물 드릴까요? | içmeyin = 마시지 마세요 | emotion=surprised+polite
-A | Su mu? Emin misiniz? | 물 맞아요? 확실해요? | emin misiniz? = 확실해요? | emotion=worried
+B | ? | 뭐 드릴까요? 차, 물? |  | emotion=polite
+A | ? | 콜라 주세요. |  | emotion=polite
+B | ? | 네. 손 펴 주세요. |  | emotion=polite
+A | ? | 손이요? 왜요? |  | emotion=surprised
+B | ? | 여기요, 콜로냐입니다. |  | emotion=polite
+A | ? | 아니요! 콜라라고 했어요, 마시려고요! |  | emotion=shout+tsukkomi
+B | ? | 어머, 마시지 마세요! 물 드릴까요? |  | emotion=surprised+polite
+A | ? | 물 맞아요? 확실해요? |  | emotion=worried

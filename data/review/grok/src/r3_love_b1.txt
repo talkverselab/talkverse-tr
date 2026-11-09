@@ -9,19 +9,19 @@ twist: 9 chaos
 purpose: love
 goal: şaka şaka·kusura bakmayın 으로 길거리 장수와 실랑이하기
 expressions: bak; hoş geldiniz; buyurun; afiyet olsun; şaka şaka; olmaz; kusura bakmayın
-B | Bak, şu dondurmacı. Dondurmayı eline alabilirsen sana bir şey söyleyeceğim. | 봐, 저 아이스크림 아저씨. 아이스크림 손에 넣으면 너한테 할 말이 있어. | dondurma = 아이스크림 | emotion=teasing
-A | Bu kadar mı? Çok kolay. Bir dakikada alırım. | 그게 다야? 쉽네. 1분이면 받아. | bu kadar mı = 그게 다야? | emotion=amused
-C | Hoş geldiniz! Buyurun, dondurmanız. Alın, alın lütfen. | 어서 오세요! 여기요, 아이스크림. 받으세요, 어서요. | alın = 받으세요 | emotion=cheerful
-A | Teşekkürler… nereye gitti? Elimde sadece külah var! | 감사합니다… 어디 갔어? 내 손엔 콘만 있어요! | külah = 아이스크림콘 | emotion=surprised
-C | Külah güzel, değil mi? Afiyet olsun efendim! | 콘 좋죠? 맛있게 드세요, 손님! | afiyet olsun = 맛있게 드세요 | emotion=teasing
-B | Ben söyledim sana. Bu iş kolay değil, hadi bir daha dene. | 내가 말했지. 쉬운 일 아니야, 자, 다시 해 봐. | dene = 해 봐 | emotion=teasing
-A | Tamam, şimdi iki elimle alacağım. Ciddiyim, çok ciddiyim. | 좋아, 이번엔 두 손으로 받을 거야. 진심이야, 완전 진심. | ciddiyim = 나 진심이야 | emotion=stiff
-C | Aa, şapkanız düştü! Şaka şaka, buyurun dondurmanız… yok, burada! | 어, 모자 떨어졌어요! 농담이에요, 여기 아이스크림… 없네, 여기 있네! | şaka şaka = 농담이에요 | emotion=teasing
-A | Neden herkes telefonla çekiyor? Elif, bu kalabalık nereden çıktı? | 왜 다들 폰으로 찍어? Elif, 이 사람들 다 어디서 나왔어? | kalabalık = 인파 — 반전: 구경꾼이 불어난다 | emotion=flustered
-B | Turistler. Her gün bu şovu çekiyorlar, bugün şov sensin! | 관광객들이야. 매일 이 쇼를 찍는데, 오늘은 네가 쇼야! | şov = 쇼 | emotion=amused+teasing
-C | Size yok, ona var. Buyurun hanımefendi, dondurmanız. | 손님은 없고, 이분은 있어요. 여기요, 손님, 아이스크림입니다. | hanımefendi = 여성 손님 존칭 | emotion=polite
-A | Olmaz! Neden ona hemen verdi? Ben on dakikadır buradayım! | 안 돼! 왜 쟤는 바로 줘? 나 10분째 여기 있는데! | olmaz = 안 돼 | emotion=annoyed
-C | Kusura bakmayın. Bu hanım geldiğinden beri sadece size bakıyor, anladım ben. | 죄송합니다. 이분이 오실 때부터 손님만 보던데요, 저는 알아봤죠. | geldiğinden beri = 온 뒤로 계속 | emotion=gentle
-B | Amca, lütfen! Siz dondurmanızı satın. | 아저씨, 제발요! 아이스크림이나 파세요. | satın = 파세요 | emotion=flustered
-A | Ben alamadım ama söyle, ne söyleyecektin? | 난 못 받았지만, 말해 봐. 무슨 말 하려던 거였어? | söyleyecektin = 말하려고 했다 | emotion=gentle
-B | Al, yarısı senin. Ne söyleyeceğimi amca söyledi zaten. | 자, 반은 네 거. 할 말은 아저씨가 벌써 했어. | zaten = 이미, 어차피 | emotion=shy
+B | ? | 봐, 저 아이스크림 아저씨. 아이스크림 손에 넣으면 너한테 할 말이 있어. |  | emotion=teasing
+A | ? | 그게 다야? 쉽네. 1분이면 받아. |  | emotion=amused
+C | ? | 어서 오세요! 여기요, 아이스크림. 받으세요, 어서요. |  | emotion=cheerful
+A | ? | 감사합니다… 어디 갔어? 내 손엔 콘만 있어요! |  | emotion=surprised
+C | ? | 콘 좋죠? 맛있게 드세요, 손님! |  | emotion=teasing
+B | ? | 내가 말했지. 쉬운 일 아니야, 자, 다시 해 봐. |  | emotion=teasing
+A | ? | 좋아, 이번엔 두 손으로 받을 거야. 진심이야, 완전 진심. |  | emotion=stiff
+C | ? | 어, 모자 떨어졌어요! 농담이에요, 여기 아이스크림… 없네, 여기 있네! |  | emotion=teasing
+A | ? | 왜 다들 폰으로 찍어? Elif, 이 사람들 다 어디서 나왔어? |  | emotion=flustered
+B | ? | 관광객들이야. 매일 이 쇼를 찍는데, 오늘은 네가 쇼야! |  | emotion=amused+teasing
+C | ? | 손님은 없고, 이분은 있어요. 여기요, 손님, 아이스크림입니다. |  | emotion=polite
+A | ? | 안 돼! 왜 쟤는 바로 줘? 나 10분째 여기 있는데! |  | emotion=annoyed
+C | ? | 죄송합니다. 이분이 오실 때부터 손님만 보던데요, 저는 알아봤죠. |  | emotion=gentle
+B | ? | 아저씨, 제발요! 아이스크림이나 파세요. |  | emotion=flustered
+A | ? | 난 못 받았지만, 말해 봐. 무슨 말 하려던 거였어? |  | emotion=gentle
+B | ? | 자, 반은 네 거. 할 말은 아저씨가 벌써 했어. |  | emotion=shy

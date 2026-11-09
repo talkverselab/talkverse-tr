@@ -9,11 +9,11 @@ twist: 7 emotion
 purpose: travel love
 goal: dikkat et·bırakma 로 손잡고 걷기
 expressions: olmaz; tamam; lütfen; bak
-C | Burada ayakkabı olmaz. Lütfen çıkarın. | 여기선 신발 안 됩니다. 벗어 주세요. | ayakkabı = 신발 · olmaz = 안 돼요 | emotion=polite
-A | Tamam. Elif, burası çok güzel! | 네. 엘리프, 여기 너무 예뻐! | burası = 여기 | emotion=neutral+excited
-B | Dikkat et, kayıyor. Al, elimi tut. | 조심해, 미끄러워. 자, 내 손 잡아. | kaymak = 미끄러지다 | emotion=worried+gentle
-A | Çok mu kayıyor? | 많이 미끄러워? | çok mu? = 많이? | emotion=neutral
-B | Çok! Hiç bırakma. | 엄청! 절대 놓지 마. | hiç = 절대 | emotion=worried+gentle
-A | Ama bak, çocuklar oynuyor. | 근데 봐, 애들은 뛰어노는데. | oynamak = 놀다 | emotion=teasing
-B | Evet… kaymıyor zaten. | 응… 사실 안 미끄러워. | zaten = 사실, 어차피 — 들켰다 | emotion=shy
-A | Bırakmıyorum. | 나 안 놓을 건데. | bırakmak = 놓다 | emotion=gentle
+C | ? | 여기선 신발 안 됩니다. 벗어 주세요. |  | emotion=polite
+A | ? | 네. 엘리프, 여기 너무 예뻐! |  | emotion=neutral+excited
+B | ? | 조심해, 미끄러워. 자, 내 손 잡아. |  | emotion=worried+gentle
+A | ? | 많이 미끄러워? |  | emotion=neutral
+B | ? | 엄청! 절대 놓지 마. |  | emotion=worried+gentle
+A | ? | 근데 봐, 애들은 뛰어노는데. |  | emotion=teasing
+B | ? | 응… 사실 안 미끄러워. |  | emotion=shy
+A | ? | 나 안 놓을 건데. |  | emotion=gentle

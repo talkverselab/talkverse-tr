@@ -9,15 +9,15 @@ twist: 8 chaos
 purpose: travel
 goal: bir dakika·eyvah·galiba 로 갑작스러운 일에 소리치기
 expressions: bir dakika; eyvah; galiba; yok artık; geldim
-B | Evladım, şunu bir dakika tutar mısın? Hemen geliyorum. | 얘야, 이것 좀 잠깐 잡아 줄래? 금방 올게. | tutar mısın? = 잡아 줄래? | emotion=gentle
-A | Ben mi? Ama ben balık tutmayı bilmiyorum. | 저요? 근데 저 낚시할 줄 몰라요. | balık tutmak = 낚시하다 | emotion=surprised
-B | Bir şey olmaz. Burada iki saattir balık yok. | 아무 일 없어. 여기 두 시간째 고기 없어. | bir şey olmaz = 아무 일 없어 | emotion=amused
-C | Bak, ip hareket ediyor! Çekiyor, çekiyor! | 봐, 줄이 움직여! 당겨, 당겨! | ip = 줄 · çekmek = 당기다 | emotion=excited
-A | Eyvah, çok güçlü! Elif, yardım et! | 헉, 엄청 세! 엘리프, 도와줘! | yardım et = 도와줘 | emotion=shout
-C | Bırakma! Abi, yardım edin, tutun şunu! | 놓지 마! 아저씨, 도와주세요, 이것 좀 잡아요! | tutun = 잡으세요 | emotion=shout
-D | Geldim, tutun! Dur, bu ip yandaki ipe karışmış. | 왔어요, 잡아요! 잠깐… 이 줄 옆 줄이랑 엉켰네. | karışmak = 엉키다 — 반전 | emotion=shout+surprised
-A | Ne? Balık değil galiba? | 뭐? 물고기가 아닌가 봐? | galiba = ~인가 봐 | emotion=surprised+sad
-C | Yok artık! Yandaki amcanın ipini çekiyoruz! | 말도 안 돼! 우리 옆 아저씨 줄을 당기고 있었어! | yandaki = 옆에 있는 | emotion=tsukkomi
-D | Burada her gün olur. Bırakın, ben açarım. | 여기선 매일 있는 일이에요. 놔 둬요, 내가 풀게요. | açmak = 풀다, 열다 | emotion=amused+gentle
-B | Geldim. Ee, balık var mı? | 나 왔다. 그래서, 고기 좀 잡았어? | ee = 그래서 | emotion=cheerful+excited
-A | Balık yok. Ama yandaki amcayla tanıştık. | 고기는 없어요. 대신 옆 아저씨랑 친해졌어요. | tanışmak = 인사하고 알게 되다 | emotion=amused
+B | ? | 얘야, 이것 좀 잠깐 잡아 줄래? 금방 올게. |  | emotion=gentle
+A | ? | 저요? 근데 저 낚시할 줄 몰라요. |  | emotion=surprised
+B | ? | 아무 일 없어. 여기 두 시간째 고기 없어. |  | emotion=amused
+C | ? | 봐, 줄이 움직여! 당겨, 당겨! |  | emotion=excited
+A | ? | 헉, 엄청 세! 엘리프, 도와줘! |  | emotion=shout
+C | ? | 놓지 마! 아저씨, 도와주세요, 이것 좀 잡아요! |  | emotion=shout
+D | ? | 왔어요, 잡아요! 잠깐… 이 줄 옆 줄이랑 엉켰네. |  | emotion=shout+surprised
+A | ? | 뭐? 물고기가 아닌가 봐? |  | emotion=surprised+sad
+C | ? | 말도 안 돼! 우리 옆 아저씨 줄을 당기고 있었어! |  | emotion=tsukkomi
+D | ? | 여기선 매일 있는 일이에요. 놔 둬요, 내가 풀게요. |  | emotion=amused+gentle
+B | ? | 나 왔다. 그래서, 고기 좀 잡았어? |  | emotion=cheerful+excited
+A | ? | 고기는 없어요. 대신 옆 아저씨랑 친해졌어요. |  | emotion=amused

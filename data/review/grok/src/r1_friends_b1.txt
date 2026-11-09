@@ -9,11 +9,11 @@ twist: 6 chaos
 purpose: making_friends study_abroad
 goal: dur·eyvah 로 친구 말리기, 이웃 바구니 문화
 expressions: bak; yaşasın; dur; geldim; buyur; eyvah
-B | Bak, yukarıdan sepet iniyor! | 봐, 위에서 바구니 내려온다! | sepet = 바구니 | emotion=excited
-A | İçinde ne var? Para mı? | 안에 뭐 있어? 돈이야? | içinde = 안에 | emotion=excited
-B | Para ve not: "Bir ekmek." Ben giderim! | 돈이랑 쪽지. 「빵 하나.」 내가 갔다 올게! | not = 쪽지 | emotion=cheerful+excited
-A | Can, dur! Üstünü de sepete koy! | 잔, 잠깐! 거스름돈도 바구니에 넣어! | üstü = 거스름돈 | emotion=worried
-B | Ekmek bitmiş. Üç simit aldım, biri benim. | 빵 다 떨어졌대. 시미트 세 개 샀어, 하나는 내 거. | bitmiş = 다 떨어졌대 | emotion=cheerful+amused
-C | Evladım! Ekmeğim nerede?! | 얘야! 내 빵 어디 있니?! | evladım = 얘야 · ekmek = 빵 — 반전 | emotion=shout
-A | Eyvah! Teyze, kusura bakmayın, ekmek bitmiş! | 헉! 아주머니, 죄송해요, 빵이 다 떨어졌대요! | kusura bakmayın = 죄송합니다 | emotion=flustered
-B | Bak, sepet yine iniyor. İçinde terlik var. | 봐, 바구니 또 내려온다. 안에 슬리퍼가 있어. | terlik = 슬리퍼(튀르키예 어른의 무기) | emotion=amused
+B | ? | 봐, 위에서 바구니 내려온다! |  | emotion=excited
+A | ? | 안에 뭐 있어? 돈이야? |  | emotion=excited
+B | ? | 돈이랑 쪽지. 「빵 하나.」 내가 갔다 올게! |  | emotion=cheerful+excited
+A | ? | 잔, 잠깐! 거스름돈도 바구니에 넣어! |  | emotion=worried
+B | ? | 빵 다 떨어졌대. 시미트 세 개 샀어, 하나는 내 거. |  | emotion=cheerful+amused
+C | ? | 얘야! 내 빵 어디 있니?! |  | emotion=shout
+A | ? | 헉! 아주머니, 죄송해요, 빵이 다 떨어졌대요! |  | emotion=flustered
+B | ? | 봐, 바구니 또 내려온다. 안에 슬리퍼가 있어. |  | emotion=amused

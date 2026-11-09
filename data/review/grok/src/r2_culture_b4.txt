@@ -9,15 +9,15 @@ twist: 8 chaos
 purpose: making_friends
 goal: ciddi misin·olmaz·bekle 로 이웃 인심 주고받기
 expressions: çok güzel; olmaz; ciddi misin; olur; şey; elinize sağlık
-B | Bu tabak ne? Çok güzel kokuyor. | 이 접시 뭐야? 냄새 너무 좋아. | tabak = 접시 | emotion=surprised+cheerful
-A | Komşu börek getirdi. Tabağı boş götüreceğim. | 옆집에서 뵈렉 줬어. 접시는 빈 채로 갖다주려고. | götürmek = 가져가다 | emotion=neutral
-B | Boş mu? Olmaz, tabak boş dönmez {name}. | 빈 채로? 안 돼, 접시는 빈 채로 안 돌아가 {name}. | boş dönmez = 빈손으로 안 돌아간다 | emotion=surprised+stiff
-A | Ciddi misin? Neden peki? | 진심이야? 왜? | ciddi misin = 진심이야? | emotion=surprised+neutral
-B | Ayıp olur. İçine bir şey koy, öyle götür. | 예의가 아니야. 뭐 하나 담아서 갖다줘. | ayıp = 예의 없는 일 | emotion=stiff+gentle
-A | Elinize sağlık! Tabağın içinde elma var. | 잘 먹었어요! 접시에 사과 담았어요. | elma = 사과 | emotion=polite+cheerful
-C | Aa, zahmet ettin! Bekle yavrum, hemen geliyorum. | 어머, 뭘 이런 걸! 기다려라 얘야, 금방 올게. | zahmet ettin = 뭘 이런 걸 | emotion=surprised+gentle
-A | Elif, tabak geri geldi! İçinde dolma var! | Elif, 접시가 돌아왔어! 안에 돌마가 있어! | dolma = 속 채운 음식 — 반전 | emotion=surprised
-B | Eyvah. Şimdi senin sıran. | 헉. 이제 네 차례야. | sıra = 차례 | emotion=worried+teasing
-A | Bu dördüncü tabak! Mutfakta yer kalmadı! | 이게 네 번째 접시야! 주방에 자리가 없어! | dördüncü = 네 번째 | emotion=flustered
-B | Dayan. Bir tabak daha geliyor, kokusu kapıda. | 버텨. 접시 하나 더 온다, 냄새가 문 앞이야. | dayan = 버텨 | emotion=gentle+worried
-C | Yavrum, üst kat da senden tabak bekliyor. | 얘야, 윗집도 네 접시 기다린단다. | üst kat = 윗집 | emotion=gentle
+B | ? | 이 접시 뭐야? 냄새 너무 좋아. |  | emotion=surprised+cheerful
+A | ? | 옆집에서 뵈렉 줬어. 접시는 빈 채로 갖다주려고. |  | emotion=neutral
+B | ? | 빈 채로? 안 돼, 접시는 빈 채로 안 돌아가 {name}. |  | emotion=surprised+stiff
+A | ? | 진심이야? 왜? |  | emotion=surprised+neutral
+B | ? | 예의가 아니야. 뭐 하나 담아서 갖다줘. |  | emotion=stiff+gentle
+A | ? | 잘 먹었어요! 접시에 사과 담았어요. |  | emotion=polite+cheerful
+C | ? | 어머, 뭘 이런 걸! 기다려라 얘야, 금방 올게. |  | emotion=surprised+gentle
+A | ? | Elif, 접시가 돌아왔어! 안에 돌마가 있어! |  | emotion=surprised
+B | ? | 헉. 이제 네 차례야. |  | emotion=worried+teasing
+A | ? | 이게 네 번째 접시야! 주방에 자리가 없어! |  | emotion=flustered
+B | ? | 버텨. 접시 하나 더 온다, 냄새가 문 앞이야. |  | emotion=gentle+worried
+C | ? | 얘야, 윗집도 네 접시 기다린단다. |  | emotion=gentle

@@ -9,15 +9,15 @@ twist: 11 emotion
 purpose: love
 goal: galiba·hadi canım·bilmem 으로 시치미 떼기
 expressions: bak; bence; bilmem; eyvah; galiba; hadi canım
-B | Bak, şu ışıklar. Bence İstanbul'un en güzel yeri burası. | 봐, 저 불빛. 난 이스탄불에서 여기가 제일 좋아. | ışık = 불빛 | emotion=gentle
-A | Çok güzel ya. Saat kaç oldu? | 진짜 좋다. 몇 시 됐어? | saat kaç = 몇 시 | emotion=gentle
-B | Bilmem. Bir çay daha içelim mi? | 몰라. 차 한 잔 더 마실까? | bir çay daha = 차 한 잔 더 | emotion=gentle
-A | Üçüncü çay! Vapur kaçta, biliyor musun? | 세 잔째야! 페리 몇 시인지 알아? | kaçta = 몇 시에 | emotion=worried
-B | Vapur mu? Daha çok var, merak etme. | 페리? 아직 한참 남았어, 걱정 마. | daha çok var = 아직 많이 남았다 | emotion=amused
-A | Dur, şu giden vapur ne? Eyvah! | 잠깐, 저기 가는 배 뭐야? 헉! | şu giden = 저기 가는 | emotion=surprised
-B | Aa. Son vapur gitti galiba. | 어머. 마지막 배 간 것 같네. | son = 마지막 | emotion=amused
-A | Galiba mı? Sen saati biliyordun, değil mi? | 같네? 너 시간 알고 있었지? | biliyordun = 알고 있었다 | emotion=tsukkomi
-B | Neden öyle diyorsun? Hadi canım… | 왜 그런 말을 해? 에이 설마… | hadi canım = 에이 설마 | emotion=flustered
-A | Telefonunda alarm çaldı. "Son vapur" yazıyordu. | 네 폰에 알람 울렸어. 「마지막 배」라고 떠 있던데. | alarm çalmak = 알람이 울리다 | emotion=teasing
-B | Evet, biliyordum. Sen gitme diye. | 응, 알고 있었어. 너 가지 말라고. | gitme diye = 가지 말라고 — 반전 | emotion=shy+gentle
-A | Eve yürüyerek dört saat. Hadi, bir çay daha. | 집까지 걸어서 네 시간. 자, 한 잔 더. | yürüyerek = 걸어서 | emotion=amused
+B | ? | 봐, 저 불빛. 난 이스탄불에서 여기가 제일 좋아. |  | emotion=gentle
+A | ? | 진짜 좋다. 몇 시 됐어? |  | emotion=gentle
+B | ? | 몰라. 차 한 잔 더 마실까? |  | emotion=gentle
+A | ? | 세 잔째야! 페리 몇 시인지 알아? |  | emotion=worried
+B | ? | 페리? 아직 한참 남았어, 걱정 마. |  | emotion=amused
+A | ? | 잠깐, 저기 가는 배 뭐야? 헉! |  | emotion=surprised
+B | ? | 어머. 마지막 배 간 것 같네. |  | emotion=amused
+A | ? | 같네? 너 시간 알고 있었지? |  | emotion=tsukkomi
+B | ? | 왜 그런 말을 해? 에이 설마… |  | emotion=flustered
+A | ? | 네 폰에 알람 울렸어. 「마지막 배」라고 떠 있던데. |  | emotion=teasing
+B | ? | 응, 알고 있었어. 너 가지 말라고. |  | emotion=shy+gentle
+A | ? | 집까지 걸어서 네 시간. 자, 한 잔 더. |  | emotion=amused

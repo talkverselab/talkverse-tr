@@ -9,11 +9,11 @@ twist: 6 chaos
 purpose: study_abroad work_abroad
 goal: verir misiniz·kaç kişi 로 돌무쉬 요금 전달하기
 expressions: affedersiniz; buyurun; tabii; bir dakika; hadi
-B | Affedersiniz, bunu şoföre verir misiniz? | 실례합니다, 이것 좀 기사님께 전해 주시겠어요? | şoför = 기사 | emotion=polite
-A | Tabii. Buyurun, bu para sizin. | 네. 여기요, 이 돈 기사님 거예요. | bu para = 이 돈 | emotion=polite
-C | Kaç kişi? | 몇 명이요? | kaç kişi? = 몇 명? | emotion=neutral
-B | İki kişi! Bir de arkadan para geliyor. | 두 명이요! 뒤에서 돈 또 와요. | arkadan = 뒤에서 | emotion=shout+neutral
-A | Bir dakika! Bu kimin, bu kimin? | 잠깐만요! 이건 누구 거, 이건 누구 거예요? | bu kimin = 이건 누구 거 | emotion=flustered
-C | Üç kişi! Üstünü arkaya verin, hadi! | 세 명이요! 거스름돈 뒤로 넘겨요, 얼른! | üstü = 거스름돈 — 반전: 내가 경리가 됐다 | emotion=shout+annoyed
-A | Ben de iniyorum! Müsait bir yerde, lütfen. | 저도 내려요! 적당한 데서 세워 주세요. | müsait bir yerde = 적당한 데서(내릴 때) | emotion=flustered+polite
-C | Önce üstünü verin, sonra inin. | 거스름돈부터 넘기고 내리세요. | inin = 내리세요 | emotion=annoyed
+B | ? | 실례합니다, 이것 좀 기사님께 전해 주시겠어요? |  | emotion=polite
+A | ? | 네. 여기요, 이 돈 기사님 거예요. |  | emotion=polite
+C | ? | 몇 명이요? |  | emotion=neutral
+B | ? | 두 명이요! 뒤에서 돈 또 와요. |  | emotion=shout+neutral
+A | ? | 잠깐만요! 이건 누구 거, 이건 누구 거예요? |  | emotion=flustered
+C | ? | 세 명이요! 거스름돈 뒤로 넘겨요, 얼른! |  | emotion=shout+annoyed
+A | ? | 저도 내려요! 적당한 데서 세워 주세요. |  | emotion=flustered+polite
+C | ? | 거스름돈부터 넘기고 내리세요. |  | emotion=annoyed

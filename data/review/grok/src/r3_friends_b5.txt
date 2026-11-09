@@ -9,19 +9,19 @@ twist: 10 reveal
 purpose: making_friends study_abroad
 goal: -diyorum 으로 이름 말하기, 놀라고 따지기
 expressions: canım; ne alaka; maşallah; valla; bir dakika
-A | Elif, Bulut neden bu kadar şişman? Ona az veriyorum. | 엘리프, 불루트 왜 이렇게 뚱뚱해? 조금밖에 안 주는데. | şişman = 뚱뚱한 | emotion=worried+neutral
-B | Bulut kim? Şu sarı kedi mi? Onun adı Tombik. | 불루트가 누구야? 저 노란 고양이? 쟤 이름 톰빅이야. | şu = 저 | emotion=surprised+neutral+amused
-A | Hayır, o benim kedim. Ben ona Bulut diyorum. | 아니야, 쟤 내 고양이야. 내가 불루트라고 불러. | bulut = 구름 | emotion=annoyed
-B | Canım, o benim balkonuma geliyor. Her öğlen tavuk yiyor. | 얘, 쟤 우리 발코니 오거든. 매일 점심에 닭고기 먹어. | canım = 얘 · tavuk = 닭 | emotion=teasing
-A | Ne alaka? Her sabah benimle kahvaltı yapıyor, bu kedi. | 뭔 소리야? 매일 아침 나랑 같이 아침 먹는데, 얘. | kahvaltı = 아침 식사 | emotion=tsukkomi+annoyed
-B | Bir dakika, bakayım. Bu, Can'ın kafesindeki Paşa değil mi? | 잠깐만, 어디 보자. 얘 잔네 카페 파샤 아니야? | değil mi = 그렇지? | emotion=neutral+surprised
-A | Paşa mı? Sabah bende, öğlen sende, akşam kafede mi? | 파샤? 아침엔 나, 점심엔 너, 저녁엔 카페라고? | bende = 내게 | emotion=surprised
-C | Aa, Pamuk! Gel oğlum, gel, tavuğun hazır. | 어머, 파묵! 이리 온, 우리 아들, 닭고기 다 됐다. | pamuk = 솜 | emotion=cheerful+gentle
-A | Pamuk mu?! Teyze, bu kedi sizin mi? | 파묵이요?! 아주머니, 얘 아주머니 고양이예요? | sizin = 당신의 | emotion=surprised
-C | Dört yıldır benim kedim, evladım. Geceleri bende yatıyor. | 4년째 내 고양이지, 얘야. 밤엔 우리 집에서 자. | dört yıldır = 4년째 — 반전 | emotion=gentle
-B | Yani dört ev, dört isim, dört yemek. Maşallah! | 그러니까 네 집, 이름 넷, 밥 네 끼. 대단하다! | yani = 그러니까 | emotion=amused
-A | Ben onu kurtardım sanıyordum! "Aç, zavallı" diyordum. | 내가 구해 준 줄 알았어! 「배고프겠다, 불쌍해」 그랬는데. | zavallı = 불쌍한 | emotion=sad
-C | Size de o yüzle mi baktı? Herkese öyle bakıyor. | 그쪽한테도 그 얼굴로 봤어요? 누구한테나 그래요. | o yüzle = 그 얼굴로 | emotion=amused
-B | Bu kedi hepimizden iyi yaşıyor, valla. İşi de yok. | 얘 우리보다 잘 산다, 진짜. 일도 안 하고. | hepimizden = 우리 모두보다 | emotion=amused
-A | Peki bu sabah neredeydi? Bana gelmedi. | 근데 오늘 아침엔 어디 있었어요? 저한테 안 왔는데. | neredeydi = 어디 있었어 | emotion=worried
-C | Eczanede. Orada adı Müdür Bey. | 약국에요. 거기선 이름이 부장님이에요. | eczane = 약국 | emotion=neutral+amused
+A | ? | 엘리프, 불루트 왜 이렇게 뚱뚱해? 조금밖에 안 주는데. |  | emotion=worried+neutral
+B | ? | 불루트가 누구야? 저 노란 고양이? 쟤 이름 톰빅이야. |  | emotion=surprised+neutral+amused
+A | ? | 아니야, 쟤 내 고양이야. 내가 불루트라고 불러. |  | emotion=annoyed
+B | ? | 얘, 쟤 우리 발코니 오거든. 매일 점심에 닭고기 먹어. |  | emotion=teasing
+A | ? | 뭔 소리야? 매일 아침 나랑 같이 아침 먹는데, 얘. |  | emotion=tsukkomi+annoyed
+B | ? | 잠깐만, 어디 보자. 얘 잔네 카페 파샤 아니야? |  | emotion=neutral+surprised
+A | ? | 파샤? 아침엔 나, 점심엔 너, 저녁엔 카페라고? |  | emotion=surprised
+C | ? | 어머, 파묵! 이리 온, 우리 아들, 닭고기 다 됐다. |  | emotion=cheerful+gentle
+A | ? | 파묵이요?! 아주머니, 얘 아주머니 고양이예요? |  | emotion=surprised
+C | ? | 4년째 내 고양이지, 얘야. 밤엔 우리 집에서 자. |  | emotion=gentle
+B | ? | 그러니까 네 집, 이름 넷, 밥 네 끼. 대단하다! |  | emotion=amused
+A | ? | 내가 구해 준 줄 알았어! 「배고프겠다, 불쌍해」 그랬는데. |  | emotion=sad
+C | ? | 그쪽한테도 그 얼굴로 봤어요? 누구한테나 그래요. |  | emotion=amused
+B | ? | 얘 우리보다 잘 산다, 진짜. 일도 안 하고. |  | emotion=amused
+A | ? | 근데 오늘 아침엔 어디 있었어요? 저한테 안 왔는데. |  | emotion=worried
+C | ? | 약국에요. 거기선 이름이 부장님이에요. |  | emotion=neutral+amused

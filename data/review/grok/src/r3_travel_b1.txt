@@ -9,19 +9,19 @@ twist: 11 chaos
 purpose: travel
 goal: merak etmeyin·yok artık·ne demek 으로 공항 가는 길 위기 넘기기
 expressions: kesinlikle; eyvah; ne demek; bir dakika; yok artık; çok şükür; hocam
-D | Pasaportun sende, değil mi? Bir daha sorayım, sonra ağlamayalım. | 여권 챙겼지? 한 번 더 물어볼게, 나중에 울지 말고. | pasaport = 여권 | emotion=worried
-A | Kesinlikle çantamda. Sen de çok düşünüyorsun ya. | 당연히 가방에 있지. 너도 참 걱정 많다. | kesinlikle = 완전 그렇지 | emotion=amused
-C | Alo, merhaba. Otelden arıyorum, pasaportunuz bizde kalmış. | 여보세요, 안녕하세요. 호텔인데요, 여권이 저희한테 있네요. | -miş = 알고 보니 ~더라 | emotion=polite
-A | Eyvah! Ne demek bizde kalmış? Ben havalimanına gidiyorum! | 헉! 저희한테 있다니요? 저 공항 가는 중이에요! | havalimanı = 공항 | emotion=surprised
-B | Merak etmeyin, hocam. Döneriz, ama köprü şu an dolu. | 걱정 마세요, 손님. 돌아가면 되는데, 지금 다리가 꽉 찼어요. | hocam = 선생님(남녀 공용 호칭) | emotion=polite
-D | Ne kadar sürer? Uçak saat beşte, ne yapacağız şimdi? | 얼마나 걸려요? 비행기 다섯 시인데, 이제 어떡해요? | sürmek = (시간이) 걸리다 | emotion=worried
-C | Bir dakika, bir fikrim var. Kuzenim motosikletle getirir. | 잠깐만요, 생각이 있어요. 제 사촌이 오토바이로 갖다 드릴 거예요. | motosiklet = 오토바이 | emotion=polite
-B | Söyleyin, köprüde bulsun. Sarı taksi, içinde ağlayan bir yabancı. | 다리에서 찾으라고 하세요. 노란 택시, 안에 우는 외국인. | ağlayan = 우는 | emotion=amused
-A | Ağlamıyorum! Neyse, şimdi ağlıyorum. Elif, bak, o motosiklet mi? | 안 울어요! 아무튼, 이제 울어요. 엘리프, 봐, 저 오토바이야? | neyse = 아무튼 | emotion=flustered
-D | O bir simitçi! Hayır, dur… arkasında biri var, pasaport sallıyor! | 저건 시미트 장수야! 아니, 잠깐… 뒤에 누가 있어, 여권 흔들어! | sallamak = 흔들다 | emotion=excited
-C | Kuzenim aradı, sizi gördü. Ama arabalar arasından geçemiyor, yürüyerek geliyor! | 사촌이 전화했는데, 손님을 봤대요. 근데 차 사이로 못 지나가서 걸어서 온대요! | geçememek = 못 지나가다 — 반전 | emotion=polite+worried
-A | Yürüyerek mi?! Köprüde mi? Yok artık, nerede o? | 걸어서요?! 다리 위를요? 말도 안 돼, 어디 있어요? | yürüyerek = 걸어서 | emotion=shout
-B | Hocam, camı açın, adam geliyor. Bir çay parası da verin, ayıp olmasın. | 손님, 창문 여세요, 저분 옵니다. 찻값도 좀 드리세요, 예의상. | ayıp olmasın = 예의 없어 보이지 않게 | emotion=polite
-D | Aldık! Pasaport elimizde. Çok şükür, yetişiyoruz! | 받았다! 여권 손에 있어. 다행이다, 안 늦겠어! | yetişmek = 시간에 대다 | emotion=excited+cheerful
-A | Bir dakika, mesaj geldi. Uçak iki saat geç kalkıyormuş. | 잠깐만, 문자 왔다. 비행기 두 시간 늦게 뜬대. | -iyormuş = ~한대 | emotion=surprised
-D | Ağlayan sendin. Ben simit alıyorum. | 운 건 너였어. 난 시미트나 살래. | ağlayan = 우는 사람 | emotion=teasing+amused
+D | ? | 여권 챙겼지? 한 번 더 물어볼게, 나중에 울지 말고. |  | emotion=worried
+A | ? | 당연히 가방에 있지. 너도 참 걱정 많다. |  | emotion=amused
+C | ? | 여보세요, 안녕하세요. 호텔인데요, 여권이 저희한테 있네요. |  | emotion=polite
+A | ? | 헉! 저희한테 있다니요? 저 공항 가는 중이에요! |  | emotion=surprised
+B | ? | 걱정 마세요, 손님. 돌아가면 되는데, 지금 다리가 꽉 찼어요. |  | emotion=polite
+D | ? | 얼마나 걸려요? 비행기 다섯 시인데, 이제 어떡해요? |  | emotion=worried
+C | ? | 잠깐만요, 생각이 있어요. 제 사촌이 오토바이로 갖다 드릴 거예요. |  | emotion=polite
+B | ? | 다리에서 찾으라고 하세요. 노란 택시, 안에 우는 외국인. |  | emotion=amused
+A | ? | 안 울어요! 아무튼, 이제 울어요. 엘리프, 봐, 저 오토바이야? |  | emotion=flustered
+D | ? | 저건 시미트 장수야! 아니, 잠깐… 뒤에 누가 있어, 여권 흔들어! |  | emotion=excited
+C | ? | 사촌이 전화했는데, 손님을 봤대요. 근데 차 사이로 못 지나가서 걸어서 온대요! |  | emotion=polite+worried
+A | ? | 걸어서요?! 다리 위를요? 말도 안 돼, 어디 있어요? |  | emotion=shout
+B | ? | 손님, 창문 여세요, 저분 옵니다. 찻값도 좀 드리세요, 예의상. |  | emotion=polite
+D | ? | 받았다! 여권 손에 있어. 다행이다, 안 늦겠어! |  | emotion=excited+cheerful
+A | ? | 잠깐만, 문자 왔다. 비행기 두 시간 늦게 뜬대. |  | emotion=surprised
+D | ? | 운 건 너였어. 난 시미트나 살래. |  | emotion=teasing+amused

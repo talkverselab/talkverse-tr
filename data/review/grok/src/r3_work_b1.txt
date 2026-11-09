@@ -9,18 +9,18 @@ twist: 8 chaos
 purpose: work_abroad
 goal: işten ayrılmak 의 뜻 구별, 소문 수습하기
 expressions: ciddi misin; neyse; görüşürüz; bir dakika; aman
-C | Çayınız hocam. Yarın da getireyim mi? | 차 왔습니다, 선생님. 내일도 갖다 드릴까요? | getireyim mi = 갖다 드릴까요 | emotion=polite
-A | Yarın gerek yok amca. Ben işten ayrılıyorum. | 내일은 괜찮아요, 아저씨. 저 회사에서 나가거든요. | işten ayrılmak = 퇴사하다 — A 는 「일찍 나간다」 는 뜻 | emotion=cheerful
-C | Aman hocam! Nasıl olur? Kimseye söylemem, merak etmeyin. | 아이고, 선생님! 어쩌다가요? 아무한테도 말 안 할게요, 걱정 마세요. | merak etmeyin = 걱정 마세요 | emotion=sad
-A | Söylenecek bir şey yok ki. Neyse, görüşürüz. | 말할 것도 없는데요. 아무튼, 또 봬요. | neyse = 아무튼 | emotion=neutral
-B | {name}, ne demek gidiyorsun? Ciddi misin? Neden bana söylemedin? | {name}, 간다니 무슨 말이야? 진심이야? 왜 나한테 말 안 했어? | ciddi misin = 진심이야? | emotion=surprised
-A | Evet, gidiyorum. Ne oldu ki? | 응, 가는데. 왜? | ne oldu ki = 왜, 뭔 일 있어? | emotion=neutral
-B | “Ne oldu ki” mi? İki yıldır birlikte çalışıyoruz ya. | 「왜」 라니? 우리 2년을 같이 일했잖아. | birlikte = 같이 | emotion=sad
-D | Ayrılma dilekçenizi bugün verir misiniz? | 퇴사 신청서 오늘 주실 수 있어요? | dilekçe = 신청서 — 반전: 인사팀이 왔다 | emotion=stiff
-A | Ne dilekçesi? Bir dakika, ben bir şey vermiyorum! | 무슨 신청서요? 잠깐만요, 저 아무것도 안 내요! | ne … -si? = 무슨 ~? | emotion=surprised+flustered
-E | {name}, gitmeyin. Yüzde yirmi zam, tamam mı? | {name} 씨, 가지 마세요. 20% 인상, 어때요? | yüzde = 퍼센트 | emotion=worried
-A | Yüzde yirmi mi? Şey, müdürüm, ben aslında… | 20%요? 저, 부장님, 사실 저는… | aslında = 사실은 | emotion=flustered
-E | Tamam, otuz. Bu son fiyat. | 좋아요, 30%. 이게 마지막 가격이에요. | son fiyat = 마지막 가격 | emotion=stiff
-C | Pasta geldi hocam. Son çaylar sizden, değil mi? | 케이크 왔습니다, 선생님. 마지막 차는 선생님이 쏘시는 거죠? | son = 마지막 | emotion=cheerful
-B | Dur, dur… sen yarın nereye gidiyorsun aslında? | 잠깐, 잠깐… 너 내일 사실 어디 가는 거야? | nereye = 어디로 | emotion=surprised
-A | Dişçiye. Ama sessiz ol, zam otuz. | 치과. 근데 조용히 해, 인상 30%야. | dişçi = 치과 의사 | emotion=teasing
+C | ? | 차 왔습니다, 선생님. 내일도 갖다 드릴까요? |  | emotion=polite
+A | ? | 내일은 괜찮아요, 아저씨. 저 회사에서 나가거든요. |  | emotion=cheerful
+C | ? | 아이고, 선생님! 어쩌다가요? 아무한테도 말 안 할게요, 걱정 마세요. |  | emotion=sad
+A | ? | 말할 것도 없는데요. 아무튼, 또 봬요. |  | emotion=neutral
+B | ? | {name}, 간다니 무슨 말이야? 진심이야? 왜 나한테 말 안 했어? |  | emotion=surprised
+A | ? | 응, 가는데. 왜? |  | emotion=neutral
+B | ? | 「왜」 라니? 우리 2년을 같이 일했잖아. |  | emotion=sad
+D | ? | 퇴사 신청서 오늘 주실 수 있어요? |  | emotion=stiff
+A | ? | 무슨 신청서요? 잠깐만요, 저 아무것도 안 내요! |  | emotion=surprised+flustered
+E | ? | {name} 씨, 가지 마세요. 20% 인상, 어때요? |  | emotion=worried
+A | ? | 20%요? 저, 부장님, 사실 저는… |  | emotion=flustered
+E | ? | 좋아요, 30%. 이게 마지막 가격이에요. |  | emotion=stiff
+C | ? | 케이크 왔습니다, 선생님. 마지막 차는 선생님이 쏘시는 거죠? |  | emotion=cheerful
+B | ? | 잠깐, 잠깐… 너 내일 사실 어디 가는 거야? |  | emotion=surprised
+A | ? | 치과. 근데 조용히 해, 인상 30%야. |  | emotion=teasing

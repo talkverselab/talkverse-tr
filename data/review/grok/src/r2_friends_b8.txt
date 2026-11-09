@@ -9,15 +9,15 @@ twist: 6 slip
 purpose: making_friends study_abroad
 goal: 전화 예절, kız istemek 의 뜻 알기
 expressions: merhaba; kusura bakmayın; hayırdır
-C | Alo, buyurun, kimsiniz? | 여보세요, 누구시죠? | kimsiniz = 누구세요 | emotion=stiff
-A | Merhaba efendim, ben {name}. Zeynep'in arkadaşıyım. | 안녕하세요, 저 {name}입니다. 제이넵 친구예요. | arkadaşıyım = 친구입니다 | emotion=polite
-C | Memnun oldum. Zeynep şu an mutfakta. | 반갑습니다. 제이넵은 지금 부엌에 있어요. | şu an = 지금 | emotion=polite+neutral
-A | Kusura bakmayın, çok önemli bir konu var. | 죄송해요, 아주 중요한 일이 있어서요. | kusura bakmayın = 죄송합니다 | emotion=polite
-C | Hayırdır? Ne istemiştiniz? | 무슨 일이죠? 뭘 원하시나요? | istemiştiniz = 원하셨나요(공손) | emotion=worried+stiff
-A | Kızınızı istiyorum, efendim. Hemen, bugün! | 따님을 원합니다. 지금, 오늘요! | kız istemek = 청혼하러 가다 — 반전 | emotion=polite+excited
-C | Efendim?! Anneniz babanız biliyor mu? | 네?! 부모님은 아십니까? | efendim? = 네?(되묻기) | emotion=surprised+stiff
-A | Hayır, onlar bilmiyor. Sadece ikimiz konuştuk. | 아뇨, 부모님은 몰라요. 저희 둘이서만 얘기했어요. | ikimiz = 우리 둘 | emotion=polite
-C | Zeynep! Kızım, gel buraya hemen! | 제이넵! 얘야, 당장 이리 와 봐! | gel buraya = 이리 와 | emotion=shout
-B | Baba, ver telefonu. Alo, sen ne yaptın? | 아빠, 전화 줘. 여보세요, 너 뭐 한 거야? | ver = 줘 | emotion=annoyed+tsukkomi
-A | Ödev için seni istedim! Kötü bir şey mi dedim? | 과제 때문에 널 찾았지! 나 뭐 나쁜 말 했어? | ödev = 과제 | emotion=flustered+worried
-B | Beni istemişsin. Babam "Baban nerede" diyor. | 네가 나한테 청혼했대. 아빠가 「네 아버지 어디 계시냐」 하셔. | istemişsin = 청했다더라 | emotion=annoyed+amused
+C | ? | 여보세요, 누구시죠? |  | emotion=stiff
+A | ? | 안녕하세요, 저 {name}입니다. 제이넵 친구예요. |  | emotion=polite
+C | ? | 반갑습니다. 제이넵은 지금 부엌에 있어요. |  | emotion=polite+neutral
+A | ? | 죄송해요, 아주 중요한 일이 있어서요. |  | emotion=polite
+C | ? | 무슨 일이죠? 뭘 원하시나요? |  | emotion=worried+stiff
+A | ? | 따님을 원합니다. 지금, 오늘요! |  | emotion=polite+excited
+C | ? | 네?! 부모님은 아십니까? |  | emotion=surprised+stiff
+A | ? | 아뇨, 부모님은 몰라요. 저희 둘이서만 얘기했어요. |  | emotion=polite
+C | ? | 제이넵! 얘야, 당장 이리 와 봐! |  | emotion=shout
+B | ? | 아빠, 전화 줘. 여보세요, 너 뭐 한 거야? |  | emotion=annoyed+tsukkomi
+A | ? | 과제 때문에 널 찾았지! 나 뭐 나쁜 말 했어? |  | emotion=flustered+worried
+B | ? | 네가 나한테 청혼했대. 아빠가 「네 아버지 어디 계시냐」 하셔. |  | emotion=annoyed+amused

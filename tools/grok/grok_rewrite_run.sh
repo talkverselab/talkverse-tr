@@ -8,10 +8,10 @@ for id in "$@"; do
   out=data/review/grok/out/$id.md
   [[ -s $out ]] && { echo "skip $id"; continue; }
   if [[ -z $chat ]]; then
-    print -r -- "첨부한 rewrite_grok_tr.md 가 이 방의 규칙이다. 앞으로는 파일 이름 한 줄만 보낸다. 첫 편: $id.txt" > $TMPDIR/grok_tr_first.txt
+    print -r -- "첨부한 rewrite_grok_tr.md 가 이 방의 규칙이다. 앞으로는 파일 이름 한 줄만 보낸다. 원문 문장을 그대로 두거나 낱말만 바꾸면 실패. 첫 편: $id.txt" > $TMPDIR/grok_tr_first.txt
     r=$(python3 tools/grok/grok_text.py $TMPDIR/grok_tr_first.txt $out tools/prompts/rewrite_grok_tr.md data/review/grok/src/$id.txt 2>&1)
   else
-    r=$(python3 tools/grok/grok_text.py -m "$id.txt" $out data/review/grok/src/$id.txt --chat "$chat" 2>&1)
+    r=$(python3 tools/grok/grok_text.py -m "$id.txt — 원문 문장 재사용 금지, 실제 일상 구어로 새로" $out data/review/grok/src/$id.txt --chat "$chat" 2>&1)
   fi
   rc=$?
   echo "$(date +%H:%M) $id rc=$rc $(echo $r | grep -E '저장|LIMIT|전문가' | tr '\n' ' ')"

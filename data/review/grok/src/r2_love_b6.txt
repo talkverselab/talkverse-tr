@@ -9,15 +9,15 @@ twist: 6 slip
 purpose: love
 goal: sevgili·sevgilim 구별하고 vay be·eyvah 로 수습하기
 expressions: vay be; bir dakika; eyvah; öldüm; aman; şey; galiba
-A | Doğum günün kutlu olsun! Al, bu senin için. | 생일 축하해! 자, 이거 너 주려고. | doğum günü = 생일 | emotion=excited+cheerful
-B | Türkçe kart mı yazdın? Vay be! | 터키어로 카드를 썼어? 와 대박! | vay be = 와 대박 | emotion=surprised+excited
-A | Evet, iki saat uğraştım. Hadi, oku. | 응, 두 시간 걸렸어. 어서, 읽어 봐. | uğraşmak = 애쓰다 | emotion=shy
-B | "Sevgilim Elif"… bir dakika, ne yazmışsın sen? | 「내 사랑 Elif」… 잠깐, 너 뭐라고 쓴 거야? | yazmışsın = 썼네(뜻밖) | emotion=cheerful+surprised
-A | Normal bir şey, değil mi? Mektuplarda öyle yazılıyor. | 평범한 말이잖아? 편지는 다 그렇게 쓴다던데. | yazılıyor = 쓰인다 | emotion=neutral
-B | "Sevgili Elif" normal. "Sevgilim Elif" başka bir şey. | 「친애하는 Elif」는 평범해. 「내 사랑 Elif」는 얘기가 달라. | sevgili = 친애하는 / sevgilim = 내 애인 — 반전 | emotion=teasing
-A | Eyvah, bir m harfi mi? Öldüm, ver sileyim! | 헉, m 한 글자 때문에? 나 죽었다, 줘, 지울게! | harf = 글자 | emotion=flustered
-B | Aman, dur! Önce geri kalanını okuyalım. | 어머, 잠깐! 나머지부터 읽자. | geri kalanı = 나머지 | emotion=teasing
-A | Hayır, lütfen, sesli okuma! | 안 돼, 제발, 소리 내서 읽지 마! | sesli = 소리 내서 | emotion=flustered
-B | "Seni her gün görmek istiyorum." Bu da mı yanlış? | 「매일 너를 보고 싶어.」 이것도 실수야? | yanlış = 틀린 | emotion=shy
-A | Şey… o doğru galiba. | 저… 그건 맞는 것 같아. | galiba = 아마 | emotion=shy
-B | Sakın silme. O harf kalsın. | 절대 지우지 마. 그 글자 그대로 둬. | sakın = 절대 ~하지 마 | emotion=gentle
+A | ? | 생일 축하해! 자, 이거 너 주려고. |  | emotion=excited+cheerful
+B | ? | 터키어로 카드를 썼어? 와 대박! |  | emotion=surprised+excited
+A | ? | 응, 두 시간 걸렸어. 어서, 읽어 봐. |  | emotion=shy
+B | ? | 「내 사랑 Elif」… 잠깐, 너 뭐라고 쓴 거야? |  | emotion=cheerful+surprised
+A | ? | 평범한 말이잖아? 편지는 다 그렇게 쓴다던데. |  | emotion=neutral
+B | ? | 「친애하는 Elif」는 평범해. 「내 사랑 Elif」는 얘기가 달라. |  | emotion=teasing
+A | ? | 헉, m 한 글자 때문에? 나 죽었다, 줘, 지울게! |  | emotion=flustered
+B | ? | 어머, 잠깐! 나머지부터 읽자. |  | emotion=teasing
+A | ? | 안 돼, 제발, 소리 내서 읽지 마! |  | emotion=flustered
+B | ? | 「매일 너를 보고 싶어.」 이것도 실수야? |  | emotion=shy
+A | ? | 저… 그건 맞는 것 같아. |  | emotion=shy
+B | ? | 절대 지우지 마. 그 글자 그대로 둬. |  | emotion=gentle

@@ -9,11 +9,11 @@ twist: 5 reveal
 purpose: making_friends
 goal: yoldayım·az kaldı 로 채팅 답장하기
 expressions: yoldayım; az kaldı; yok artık; öldüm
-B | Neredesin? Kahven soğuyor. | 어디야? 네 커피 식는다. | neredesin = 어디야 | emotion=neutral+teasing
-A | Yoldayım! Az kaldı. | 가는 중! 거의 다 왔어. | yoldayım = 가는 중 | emotion=flustered
-B | Hangi yoldasın? | 어느 길인데? | hangi = 어느 | emotion=teasing
-A | Şey… büyük yolda. | 어… 큰길. | şey = 그게 | emotion=flustered
-B | Kanka, pencereye bak. | 야, 창문 봐. | pencere = 창문 — 반전 | emotion=teasing
-A | Yok artık! Neredesin sen?! | 말도 안 돼! 너 어딘데?! | yok artık = 말도 안 돼 | emotion=surprised
-B | Evinin önünde. Pijaman çok güzel 😂 | 너네 집 앞. 잠옷 예쁘다 😂 | önünde = 앞에 | emotion=amused
-A | Öldüm. Beş dakika! | 나 죽었다. 5분만! | öldüm = 죽었다(창피해서) | emotion=flustered
+B | ? | 어디야? 네 커피 식는다. |  | emotion=neutral+teasing
+A | ? | 가는 중! 거의 다 왔어. |  | emotion=flustered
+B | ? | 어느 길인데? |  | emotion=teasing
+A | ? | 어… 큰길. |  | emotion=flustered
+B | ? | 야, 창문 봐. |  | emotion=teasing
+A | ? | 말도 안 돼! 너 어딘데?! |  | emotion=surprised
+B | ? | 너네 집 앞. 잠옷 예쁘다 😂 |  | emotion=amused
+A | ? | 나 죽었다. 5분만! |  | emotion=flustered

@@ -9,15 +9,15 @@ twist: 9 emotion
 purpose: study_abroad
 goal: hadi ya·vay be·bilmem 으로 놀리고 들키기
 expressions: hadi ya; vay be; bilmem; olmaz
-A | Yarın sınav var, sen ne çiziyorsun? | 내일 시험인데 넌 뭘 그려? | çizmek = 그리다 | emotion=amused
-B | Hiç. Ders çalışıyorum. | 아무것도. 공부 중이야. | hiç = 아무것도 | emotion=shy
-A | Defterin ders gibi durmuyor. Ver bakayım. | 공책이 공부 같아 보이진 않는데. 줘 봐. | ver bakayım = 줘 봐 | emotion=teasing
-B | Olmaz. Sen kitabına bak. | 안 돼. 넌 네 책이나 봐. | olmaz = 안 돼 | emotion=annoyed
-A | Hadi ya, bir sayfa. Kedi mi çizdin? | 에이, 한 장만. 고양이 그렸어? | hadi ya = 에이 | emotion=teasing
-B | El. Yarın çizim sınavı, el çalışıyorum. | 손. 내일 그리기 시험이라 손 연습 중이야. | el = 손 | emotion=neutral
-A | Vay be, çok güzel. Bu kimin eli? | 와, 진짜 잘 그렸다. 이거 누구 손이야? | kimin = 누구의 | emotion=surprised
-B | Bilmem. Bir el işte. | 몰라. 그냥 손이야. | işte = 그냥, 뭐 | emotion=shy
-A | Dur, bu yara benim elimde var! | 잠깐, 이 흉터 내 손에도 있는데! | yara = 상처 — 반전 | emotion=surprised
-B | Model lazımdı. Sen de uyuyordun. | 모델이 필요했어. 너 마침 자고 있었고. | uyuyordun = 자고 있었다 | emotion=shy
-A | Kaç sayfa bu? Zeynep, yirmi sayfa var! | 이거 몇 장이야? Zeynep, 스무 장이나 있잖아! | kaç sayfa = 몇 장 | emotion=surprised
-B | Elini ezberledim. Sınavda lazım olur. | 네 손 외웠어. 시험에 필요할 거야. | ezberlemek = 외우다 | emotion=gentle
+A | ? | 내일 시험인데 넌 뭘 그려? |  | emotion=amused
+B | ? | 아무것도. 공부 중이야. |  | emotion=shy
+A | ? | 공책이 공부 같아 보이진 않는데. 줘 봐. |  | emotion=teasing
+B | ? | 안 돼. 넌 네 책이나 봐. |  | emotion=annoyed
+A | ? | 에이, 한 장만. 고양이 그렸어? |  | emotion=teasing
+B | ? | 손. 내일 그리기 시험이라 손 연습 중이야. |  | emotion=neutral
+A | ? | 와, 진짜 잘 그렸다. 이거 누구 손이야? |  | emotion=surprised
+B | ? | 몰라. 그냥 손이야. |  | emotion=shy
+A | ? | 잠깐, 이 흉터 내 손에도 있는데! |  | emotion=surprised
+B | ? | 모델이 필요했어. 너 마침 자고 있었고. |  | emotion=shy
+A | ? | 이거 몇 장이야? Zeynep, 스무 장이나 있잖아! |  | emotion=surprised
+B | ? | 네 손 외웠어. 시험에 필요할 거야. |  | emotion=gentle

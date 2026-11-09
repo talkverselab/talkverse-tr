@@ -9,19 +9,19 @@ twist: 15 emotion
 purpose: love
 goal: hayırdır·neyse·boş ver 로 고백 받기
 expressions: dur; hayırdır; çok komik; eyvah; yok artık; neyse; boş ver
-B | Dur. Bugün sana bir şey söyleyeceğim. Bana bakma, denize bak. | 잠깐. 오늘 너한테 할 말 있어. 나 보지 말고, 바다 봐. | denize bak = 바다 봐 | emotion=stiff
-A | Hayırdır? Çok ciddi görünüyorsun, biraz korktum. | 무슨 일이야? 너무 진지해 보여, 좀 무섭다. | korktum = 겁났다 | emotion=worried
-B | Ben konuşmayı bilmiyorum. O yüzden yazdım, oradan okuyacağım. | 나 말 못 하잖아. 그래서 써 왔어, 보고 읽을게. | o yüzden = 그래서 | emotion=shy
-A | Kâğıda mı yazdın? Emre, sen iki kelimeyi zor söylersin. | 종이에 썼어? Emre, 너 두 단어도 겨우 말하잖아. | kâğıt = 종이 | emotion=amused
-B | Üç gece uğraştım. Sus da dinle. "Birincisi…" | 사흘 밤을 씨름했어. 조용히 좀 들어. 「첫째…」 | birincisi = 첫째 | emotion=annoyed
-A | Birincisi mi? Madde madde mi anlatıyorsun? Çok komik, devam et. | 첫째? 조항별로 말하는 거야? 너무 웃겨, 계속해. | madde madde = 항목별로 | emotion=amused
-B | Gülme. "Birincisi, sen gelince…" Eyvah, kâğıt! | 웃지 마. 「첫째, 네가 오면…」 헉, 종이! | gelince = ~하면, ~할 때 | emotion=shy
-A | Rüzgâr aldı! Tutamadım, denize gidiyor! | 바람이 채 갔어! 못 잡았어, 바다로 간다! | rüzgâr = 바람 | emotion=shout
-B | Yok artık. Üç gecelik iş uçtu gitti. | 말도 안 돼. 사흘 밤 작업이 날아갔네. | uçtu gitti = 날아가 버렸다 | emotion=sad
-A | Bak, bak! Martı kâğıdı yakaladı. Simit sandı galiba! | 봐, 봐! 갈매기가 종이 낚아챘어. 시미트인 줄 알았나 봐! | yakalamak = 잡다 — 그 갈매기 | emotion=excited
-B | Martıya söyle, okusun. Benden iyi okur. | 갈매기한테 읽으라고 해. 나보다 잘 읽겠다. | okusun = 읽으라고 해 | emotion=amused
-A | Neyse, boş ver kâğıdı. Ne yazıyordu, hatırlıyor musun? | 아무튼, 종이는 됐어. 뭐라고 쓰여 있었어, 기억나? | hatırlamak = 기억하다 | emotion=gentle
-B | Hatırlamıyorum. Uzun bir şeydi, çok kelime vardı. | 기억 안 나. 길었어, 단어가 많았어. | kelime = 단어 | emotion=shy
-A | Hiçbirini mi hatırlamıyorsun? Bir kelime bile yeter bana. | 하나도 기억 안 나? 난 한 단어만 있어도 돼. | bile = ~조차 | emotion=gentle
-B | "Bu vapura sensiz binmek istemiyorum." Sonu buydu. | 「이 배, 너 없이는 타기 싫어.」 끝이 그거였어. | sensiz = 너 없이 — 반전 | emotion=gentle
-A | İkincisini de yaz. Bu sefer cebinde tut. | 둘째도 써 와. 이번엔 주머니에 꼭 넣고. | cep = 주머니 | emotion=shy
+B | ? | 잠깐. 오늘 너한테 할 말 있어. 나 보지 말고, 바다 봐. |  | emotion=stiff
+A | ? | 무슨 일이야? 너무 진지해 보여, 좀 무섭다. |  | emotion=worried
+B | ? | 나 말 못 하잖아. 그래서 써 왔어, 보고 읽을게. |  | emotion=shy
+A | ? | 종이에 썼어? Emre, 너 두 단어도 겨우 말하잖아. |  | emotion=amused
+B | ? | 사흘 밤을 씨름했어. 조용히 좀 들어. 「첫째…」 |  | emotion=annoyed
+A | ? | 첫째? 조항별로 말하는 거야? 너무 웃겨, 계속해. |  | emotion=amused
+B | ? | 웃지 마. 「첫째, 네가 오면…」 헉, 종이! |  | emotion=shy
+A | ? | 바람이 채 갔어! 못 잡았어, 바다로 간다! |  | emotion=shout
+B | ? | 말도 안 돼. 사흘 밤 작업이 날아갔네. |  | emotion=sad
+A | ? | 봐, 봐! 갈매기가 종이 낚아챘어. 시미트인 줄 알았나 봐! |  | emotion=excited
+B | ? | 갈매기한테 읽으라고 해. 나보다 잘 읽겠다. |  | emotion=amused
+A | ? | 아무튼, 종이는 됐어. 뭐라고 쓰여 있었어, 기억나? |  | emotion=gentle
+B | ? | 기억 안 나. 길었어, 단어가 많았어. |  | emotion=shy
+A | ? | 하나도 기억 안 나? 난 한 단어만 있어도 돼. |  | emotion=gentle
+B | ? | 「이 배, 너 없이는 타기 싫어.」 끝이 그거였어. |  | emotion=gentle
+A | ? | 둘째도 써 와. 이번엔 주머니에 꼭 넣고. |  | emotion=shy

@@ -9,11 +9,11 @@ twist: 7 slip
 purpose: travel making_friends
 goal: afiyet olsun·anladım 으로 손님 대접 받기
 expressions: hoş geldin; hoş bulduk; çok güzel; buyur; afiyet olsun; anladım
-B | Hoş geldin, yavrum. Elini uzat. | 어서 와라, 얘야. 손 내밀어 봐. | uzatmak = 내밀다 | emotion=gentle
-A | Hoş bulduk, teyze. Bu ne? | 안녕하세요, 이모. 이게 뭐예요? | bu ne = 이게 뭐야 | emotion=polite+neutral
-B | Kolonya. Bizde misafire önce bu verilir. | 콜로냐야. 우리는 손님한테 이걸 먼저 준단다. | misafir = 손님 | emotion=gentle
-A | Çok güzel! Limon mu? | 너무 좋아요! 레몬이에요? | limon = 레몬 | emotion=excited+neutral
-B | Limon. Buyur, lokum da al. | 레몬이지. 자, 로쿰도 먹어. | buyur = 자, 받아 | emotion=cheerful
-A | Lokumun üstüne döküyorum. Afiyet olsun! | 로쿰 위에 뿌릴게요. 맛있게 드세요! | dökmek = 붓다 | emotion=cheerful
-B | Yavrum, ne yapıyorsun? O ele dökülür! | 얘야, 뭐 하는 거니? 그건 손에 뿌리는 거야! | ele dökülür = 손에 뿌린다 — 반전 | emotion=surprised+tsukkomi
-A | Anladım. Ama lokum fena değil. | 알겠어요. 근데 로쿰 나쁘지 않은데요. | fena değil = 나쁘지 않다 | emotion=neutral+amused
+B | ? | 어서 와라, 얘야. 손 내밀어 봐. |  | emotion=gentle
+A | ? | 안녕하세요, 이모. 이게 뭐예요? |  | emotion=polite+neutral
+B | ? | 콜로냐야. 우리는 손님한테 이걸 먼저 준단다. |  | emotion=gentle
+A | ? | 너무 좋아요! 레몬이에요? |  | emotion=excited+neutral
+B | ? | 레몬이지. 자, 로쿰도 먹어. |  | emotion=cheerful
+A | ? | 로쿰 위에 뿌릴게요. 맛있게 드세요! |  | emotion=cheerful
+B | ? | 얘야, 뭐 하는 거니? 그건 손에 뿌리는 거야! |  | emotion=surprised+tsukkomi
+A | ? | 알겠어요. 근데 로쿰 나쁘지 않은데요. |  | emotion=neutral+amused

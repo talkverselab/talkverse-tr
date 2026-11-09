@@ -9,11 +9,11 @@ twist: 7 reveal
 purpose: travel
 goal: allah allah·başka oda var mı 로 호텔 프런트에 항의하기
 expressions: buyurun; lütfen; allah allah
-A | Alo? On dört numaradan arıyorum. | 여보세요? 14호실인데요. | alo = 여보세요 | emotion=polite
-B | Buyurun efendim. Deniz görünen oda, değil mi? | 네, 손님. 바다 보이는 방 맞으시죠? | deniz = 바다 · görünen = 보이는 | emotion=polite
-A | Evet. Ama burada deniz yok. | 네. 근데 여기 바다가 없어요. | ama = 근데 | emotion=polite+annoyed
-B | Balkona çıkın, sağa bakın lütfen. | 발코니로 나가서 오른쪽을 보세요. | balkona çıkın = 발코니로 나가세요 | emotion=polite
-A | Baktım. Allah allah, bina var. | 봤어요. 이상하다, 건물이 있는데요. | bina = 건물 · allah allah = 어머 이상하네 | emotion=surprised
-B | Biraz eğilin. Mavi bir şey var mı? | 조금 더 몸을 내밀어 보세요. 파란 거 보이세요? | eğilmek = 몸을 기울이다 | emotion=polite
-A | Küçük bir mavi! Başka oda var mı? | 손톱만 한 파란색! 다른 방 있어요? | başka oda = 다른 방 — 반전 | emotion=tsukkomi+polite
-B | Yarın var efendim. Bu gece biraz eğilin. | 내일은 있어요, 손님. 오늘 밤은 조금 내밀어 보세요. | yarın var = 내일은 있다 — 정색하는 끝 줄 | emotion=polite
+A | ? | 여보세요? 14호실인데요. |  | emotion=polite
+B | ? | 네, 손님. 바다 보이는 방 맞으시죠? |  | emotion=polite
+A | ? | 네. 근데 여기 바다가 없어요. |  | emotion=polite+annoyed
+B | ? | 발코니로 나가서 오른쪽을 보세요. |  | emotion=polite
+A | ? | 봤어요. 이상하다, 건물이 있는데요. |  | emotion=surprised
+B | ? | 조금 더 몸을 내밀어 보세요. 파란 거 보이세요? |  | emotion=polite
+A | ? | 손톱만 한 파란색! 다른 방 있어요? |  | emotion=tsukkomi+polite
+B | ? | 내일은 있어요, 손님. 오늘 밤은 조금 내밀어 보세요. |  | emotion=polite

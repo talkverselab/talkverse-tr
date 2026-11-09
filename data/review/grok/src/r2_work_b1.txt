@@ -9,14 +9,14 @@ twist: 9 reveal
 purpose: work_abroad
 goal: fark etmez·tekrar eder misiniz·yavaş lütfen 으로 면접 버티기
 expressions: fark etmez; tekrar eder misiniz; yavaş lütfen; şey
-B | Hoş geldiniz. Çay mı, kahve mi? | 어서 오세요. 차 드릴까요, 커피 드릴까요? | mı = 아니면(둘 중 고르기) | emotion=polite
-A | Fark etmez, teşekkür ederim. | 아무거나요, 감사합니다. | fark etmez = 상관없어요 | emotion=polite
-B | Özgeçmişinizde “Türkçe: çok iyi” yazıyor. Harika! | 이력서에 「터키어: 아주 잘함」 이라고 써 있네요. 훌륭해요! | özgeçmiş = 이력서 | emotion=polite+excited
-A | Evet, evet. Türkçem çok iyi. | 네, 네. 제 터키어 아주 좋아요. | Türkçem = 내 터키어 | emotion=stiff
-B | O zaman hızlı gidelim. Beş yıl sonra kendinizi nerede görüyorsunuz? | 그럼 빠르게 가죠. 5년 뒤 자신이 어디에 있을 거라고 보세요? | beş yıl sonra = 5년 뒤 | emotion=polite
-A | Tekrar eder misiniz? Yavaş lütfen. | 다시 말씀해 주시겠어요? 천천히요. | tekrar eder misiniz = 다시 말씀해 주시겠어요 | emotion=flustered+polite
-B | Beş. Yıl. Sonra. Neredesiniz? | 오. 년. 뒤. 어디 계세요? | neredesiniz = 어디 계세요 | emotion=stiff
-A | Şey, burada? Bu sandalyede? | 저… 여기요? 이 의자에요? | sandalye = 의자 | emotion=flustered
-B | Bu özgeçmişi kim yazdı? | 이 이력서 누가 썼어요? | kim yazdı = 누가 썼어요 — 반전 | emotion=stiff
-A | Bir arkadaşım. Türkçesi çok iyi. | 친구요. 걔 터키어 진짜 잘해요. | arkadaşım = 내 친구 | emotion=flustered
-B | Arkadaşınızın numarasını alabilir miyim? | 친구분 번호 받을 수 있을까요? | alabilir miyim = 받아도 될까요 | emotion=polite
+B | ? | 어서 오세요. 차 드릴까요, 커피 드릴까요? |  | emotion=polite
+A | ? | 아무거나요, 감사합니다. |  | emotion=polite
+B | ? | 이력서에 「터키어: 아주 잘함」 이라고 써 있네요. 훌륭해요! |  | emotion=polite+excited
+A | ? | 네, 네. 제 터키어 아주 좋아요. |  | emotion=stiff
+B | ? | 그럼 빠르게 가죠. 5년 뒤 자신이 어디에 있을 거라고 보세요? |  | emotion=polite
+A | ? | 다시 말씀해 주시겠어요? 천천히요. |  | emotion=flustered+polite
+B | ? | 오. 년. 뒤. 어디 계세요? |  | emotion=stiff
+A | ? | 저… 여기요? 이 의자에요? |  | emotion=flustered
+B | ? | 이 이력서 누가 썼어요? |  | emotion=stiff
+A | ? | 친구요. 걔 터키어 진짜 잘해요. |  | emotion=flustered
+B | ? | 친구분 번호 받을 수 있을까요? |  | emotion=polite

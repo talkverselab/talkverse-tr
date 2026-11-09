@@ -9,11 +9,11 @@ twist: 4 chaos
 purpose: travel
 goal: ne kadar sürer·bir dakika 로 택시에서 시간 묻기
 expressions: merhaba; tabii; bir dakika; hoş geldin; şey; ne kadar
-A | Merhaba. Sultanahmet'e lütfen. | 안녕하세요. 술탄아흐메트요. | -e lütfen = ~로 가 주세요 | emotion=polite
-B | Tabii. Ama yol biraz kalabalık. | 네. 근데 길이 좀 막혀요. | kalabalık = 붐비는, 막히는 | emotion=polite
-A | Ne kadar sürer? | 얼마나 걸려요? | ne kadar sürer? = 얼마나 걸려요? | emotion=worried
-B | Yirmi dakika. Bir dakika, annem arıyor. | 20분요. 잠깐만요, 어머니 전화예요. | aramak = 전화하다 — 반전: 스피커폰 | emotion=polite+flustered
-C | Alo, evladım! Arabada kim var? | 여보세요, 아들! 차에 누구 있니? | alo = 여보세요 | emotion=cheerful
-A | Şey, merhaba teyze. Ben yolcuyum. | 저… 안녕하세요, 어머님. 저 손님이에요. | yolcu = 승객 | emotion=flustered
-C | Hoş geldin, yavrum! Akşam bize yemeğe gel. | 어서 와라, 얘야! 저녁에 우리 집에 밥 먹으러 와. | yemeğe gelmek = 밥 먹으러 오다 | emotion=cheerful+gentle
-B | Geldik. Annem ciddi, adresi vereyim mi? | 다 왔습니다. 어머니 진심이세요, 주소 드릴까요? | geldik = 도착했다 | emotion=polite+amused
+A | ? | 안녕하세요. 술탄아흐메트요. |  | emotion=polite
+B | ? | 네. 근데 길이 좀 막혀요. |  | emotion=polite
+A | ? | 얼마나 걸려요? |  | emotion=worried
+B | ? | 20분요. 잠깐만요, 어머니 전화예요. |  | emotion=polite+flustered
+C | ? | 여보세요, 아들! 차에 누구 있니? |  | emotion=cheerful
+A | ? | 저… 안녕하세요, 어머님. 저 손님이에요. |  | emotion=flustered
+C | ? | 어서 와라, 얘야! 저녁에 우리 집에 밥 먹으러 와. |  | emotion=cheerful+gentle
+B | ? | 다 왔습니다. 어머니 진심이세요, 주소 드릴까요? |  | emotion=polite+amused

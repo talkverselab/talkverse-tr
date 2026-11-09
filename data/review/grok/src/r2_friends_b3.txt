@@ -9,14 +9,14 @@ twist: 8 chaos
 purpose: making_friends study_abroad
 goal: 급할 때 부탁하기, 단수 상황 말하기
 expressions: hayırdır; aman; dur; olmaz; bir dakika
-A | Can, acil! Bir şişe su lazım! | 잔, 급해! 물 한 병 필요해! | acil = 급해 | emotion=flustered
-B | Hayırdır? Kafandaki ne, köpük mü? | 무슨 일이야? 머리에 그거 뭐야, 거품이야? | köpük = 거품 | emotion=surprised
-A | Duştaydım, sular kesildi. Gözüm yanıyor! | 샤워 중이었는데 물이 끊겼어. 눈 따가워! | sular kesildi = 물이 끊겼다 | emotion=flustered
-B | Aman! Sokakta böyle mi geldin? | 아이고! 길에서 그러고 왔어? | böyle = 이렇게 | emotion=surprised
-A | Evet. Üst komşu da kapıyı açmadı. | 응. 윗집도 문을 안 열어 줬어. | üst komşu = 윗집 | emotion=annoyed
-B | Dur, çay suyu var. Ama sıcak. | 잠깐, 찻물은 있어. 근데 뜨거워. | çay suyu = 찻물 | emotion=amused
-A | Olmaz, soğuk su yok mu? Şişesi kaç lira? | 안 돼, 찬물 없어? 한 병에 얼마야? | kaç lira = 얼마 | emotion=worried
-B | Bir dakika. Bak, kapıda köpüklü iki kişi daha. | 잠깐만. 봐, 문앞에 거품 머리 두 명 더 왔어. | köpüklü = 거품 묻은 — 반전 | emotion=surprised
-A | Üst komşu! O da mı köpüklü? | 윗집이잖아! 저분도 거품이야? | o da mı = 저 사람도? | emotion=surprised
-C | Evladım, su var mı? Bütün mahalle kesik. | 얘야, 물 있니? 온 동네가 끊겼어. | mahalle = 동네 | emotion=worried
-B | Tamam, sıraya girin. Şişesi elli lira. | 자, 줄 서세요. 한 병에 50리라입니다. | sıraya girmek = 줄 서다 | emotion=polite+teasing
+A | ? | 잔, 급해! 물 한 병 필요해! |  | emotion=flustered
+B | ? | 무슨 일이야? 머리에 그거 뭐야, 거품이야? |  | emotion=surprised
+A | ? | 샤워 중이었는데 물이 끊겼어. 눈 따가워! |  | emotion=flustered
+B | ? | 아이고! 길에서 그러고 왔어? |  | emotion=surprised
+A | ? | 응. 윗집도 문을 안 열어 줬어. |  | emotion=annoyed
+B | ? | 잠깐, 찻물은 있어. 근데 뜨거워. |  | emotion=amused
+A | ? | 안 돼, 찬물 없어? 한 병에 얼마야? |  | emotion=worried
+B | ? | 잠깐만. 봐, 문앞에 거품 머리 두 명 더 왔어. |  | emotion=surprised
+A | ? | 윗집이잖아! 저분도 거품이야? |  | emotion=surprised
+C | ? | 얘야, 물 있니? 온 동네가 끊겼어. |  | emotion=worried
+B | ? | 자, 줄 서세요. 한 병에 50리라입니다. |  | emotion=polite+teasing

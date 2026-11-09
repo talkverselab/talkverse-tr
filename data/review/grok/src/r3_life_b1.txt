@@ -9,19 +9,19 @@ twist: 7 chaos
 purpose: making_friends study_abroad
 goal: ilan·bulana 로 잃어버린 것 찾기, 일이 커질 때 받아치기
 expressions: tamam; kanka; eyvah; aman; tabii
-A | Can, Patron üç gündür yok. İlan yazdım, bak. | 칸, 파트론이 사흘째 안 보여. 전단 썼어, 봐. | ilan = 공고, 전단 | emotion=worried
-B | 'Büyük kedi, bulana beş yüz lira.' Beş yüz mü? Çıldırdın mı? | '큰 고양이, 찾으면 500리라.' 500? 미쳤어? | bulana = 찾는 사람에게 | emotion=surprised
-A | Ne yapayım? Çok merak ediyorum. Sen de bakar mısın? | 어떡해? 너무 걱정돼. 너도 찾아봐 줄래? | merak etmek = 걱정하다, 궁금하다 | emotion=worried
-B | Tamam, ama hazır ol. Bu mahalle parayı çok sever. | 알았어, 근데 각오해. 이 동네는 돈을 아주 좋아해. | hazır ol = 준비해 | emotion=teasing
-C | {name}, kapıda bir çocuk var. Elinde kedi, para istiyor. | {name} 씨, 문 앞에 애가 있어요. 고양이를 들고, 돈 달래요. | elinde = 손에 | emotion=polite
-A | Patron mu? Bu kedi siyah ya! Patron sarı. | 파트론이에요? 이 고양이는 까맣잖아요! 파트론은 노란색이고요. | siyah = 검은, sarı = 노란 | emotion=surprised
-C | Bir çocuk daha geldi. Onun kedisi de beyaz. Merdivende sıra var. | 애가 또 왔어요. 그 애 고양이도 하얘요. 계단에 줄 섰어요. | sıra = 줄 — 반전 | emotion=annoyed
-B | Beş yüz lira yazınca böyle olur, kanka. Herkes kedi getirir. | 500리라라고 쓰면 이렇게 돼, 친구야. 다들 고양이 들고 와. | -ınca = ~하면, ~하자 | emotion=teasing
-A | Telefon numaramı da yazdım. Telefon hiç susmuyor! | 전화번호도 썼거든. 전화가 쉬지를 않아! | susmamak = 멈추지 않다 | emotion=flustered
-B | Ver bakayım. Alo? Hayır abla, sarı kedi, sarı! | 줘 봐. 여보세요? 아니요, 노란 고양이요, 노란! | ver bakayım = 줘 봐 | emotion=neutral+annoyed
-C | İki kedi binaya girdi. Komşular bana kızıyor. | 고양이 두 마리가 건물에 들어왔어요. 이웃들이 저한테 화내요. | kızmak = 화내다 | emotion=annoyed
-A | Eyvah! Ben sadece Patron'u istiyorum. | 헉! 난 그냥 파트론만 찾으면 되는데. | sadece = 그냥, ~만 | emotion=worried
-D | Ne oluyor burada? Aman, Patron'u uyandıracaksınız. | 여기 왜 이래? 아이고, 파트론 깨우겠다. | uyandırmak = 깨우다 | emotion=gentle
-A | Ne?! Patron sizde mi? Üç gündür mü? | 네?! 파트론이 아주머니 댁에 있어요? 사흘째요? | sizde = 댁에 | emotion=surprised
-D | Tabii. Zayıflamış, köfte verdim. Şimdi gitmek istemiyor. | 그럼. 살이 빠졌길래 쾨프테를 줬지. 이제 가려고를 안 해. | zayıflamak = 살이 빠지다 | emotion=cheerful
-B | Beş yüz lira teyzenin. Köfte de benim. | 500리라는 이모 거네. 쾨프테는 내 거고. | teyzenin = 이모의 | emotion=teasing
+A | ? | 칸, 파트론이 사흘째 안 보여. 전단 썼어, 봐. |  | emotion=worried
+B | ? | '큰 고양이, 찾으면 500리라.' 500? 미쳤어? |  | emotion=surprised
+A | ? | 어떡해? 너무 걱정돼. 너도 찾아봐 줄래? |  | emotion=worried
+B | ? | 알았어, 근데 각오해. 이 동네는 돈을 아주 좋아해. |  | emotion=teasing
+C | ? | {name} 씨, 문 앞에 애가 있어요. 고양이를 들고, 돈 달래요. |  | emotion=polite
+A | ? | 파트론이에요? 이 고양이는 까맣잖아요! 파트론은 노란색이고요. |  | emotion=surprised
+C | ? | 애가 또 왔어요. 그 애 고양이도 하얘요. 계단에 줄 섰어요. |  | emotion=annoyed
+B | ? | 500리라라고 쓰면 이렇게 돼, 친구야. 다들 고양이 들고 와. |  | emotion=teasing
+A | ? | 전화번호도 썼거든. 전화가 쉬지를 않아! |  | emotion=flustered
+B | ? | 줘 봐. 여보세요? 아니요, 노란 고양이요, 노란! |  | emotion=neutral+annoyed
+C | ? | 고양이 두 마리가 건물에 들어왔어요. 이웃들이 저한테 화내요. |  | emotion=annoyed
+A | ? | 헉! 난 그냥 파트론만 찾으면 되는데. |  | emotion=worried
+D | ? | 여기 왜 이래? 아이고, 파트론 깨우겠다. |  | emotion=gentle
+A | ? | 네?! 파트론이 아주머니 댁에 있어요? 사흘째요? |  | emotion=surprised
+D | ? | 그럼. 살이 빠졌길래 쾨프테를 줬지. 이제 가려고를 안 해. |  | emotion=cheerful
+B | ? | 500리라는 이모 거네. 쾨프테는 내 거고. |  | emotion=teasing

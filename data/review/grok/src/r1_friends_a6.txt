@@ -9,10 +9,10 @@ twist: 5 emotion
 purpose: making_friends
 goal: iyi ki doğdun 으로 생일 축하하기
 expressions: boş ver; hadi; galiba
-B | Neyin var senin? | 너 왜 그래? | neyin var = 너 무슨 일 있어 | emotion=worried
-A | Bir şey yok. Boş ver. | 아무것도 아니야. 신경 쓰지 마. | boş ver = 신경 쓰지 마 | emotion=sad
-B | Tamam. Gözlerini kapat, hadi. | 알았어. 눈 감아 봐, 어서. | kapat = 닫아 | emotion=neutral+gentle
-A | Bu ne? Simitte mum mu var? | 이게 뭐야? 시미트에 초가 꽂혀 있어? | mum = 초 | emotion=surprised
-B | İyi ki doğdun. Üç ay önce söyledin. | 생일 축하해. 석 달 전에 말했잖아. | iyi ki doğdun = 생일 축하해(태어나 줘서 다행이야) | emotion=gentle
-A | Unutmadın mı? Ben ağlıyorum galiba. | 안 잊었어? 나… 우는 것 같아. | unutmak = 잊다 | emotion=surprised+shy
-B | Ağlama. Üfle hadi, ben yiyeceğim. | 울지 마. 얼른 불어, 그거 내가 먹을 거야. | üfle = 불어 | emotion=gentle+teasing
+B | ? | 너 왜 그래? |  | emotion=worried
+A | ? | 아무것도 아니야. 신경 쓰지 마. |  | emotion=sad
+B | ? | 알았어. 눈 감아 봐, 어서. |  | emotion=neutral+gentle
+A | ? | 이게 뭐야? 시미트에 초가 꽂혀 있어? |  | emotion=surprised
+B | ? | 생일 축하해. 석 달 전에 말했잖아. |  | emotion=gentle
+A | ? | 안 잊었어? 나… 우는 것 같아. |  | emotion=surprised+shy
+B | ? | 울지 마. 얼른 불어, 그거 내가 먹을 거야. |  | emotion=gentle+teasing

@@ -9,15 +9,15 @@ twist: 7 emotion
 purpose: making_friends study_abroad
 goal: hoş geldin·hoş bulduk·tabii ki 로 돌아온 친구와 말하기
 expressions: hoş geldin; hoş bulduk; vay be; yani; ne alaka; tabii ki
-A | Can? Gece yarısı kapımın önünde ne yapıyorsun? | 칸? 한밤중에 우리 집 문 앞에서 뭐 해? | gece yarısı = 한밤중 | emotion=surprised
-B | Hoş geldin. Ben değil, Patron bekliyordu. | 어서 와. 내가 아니고, 파트론이 기다렸어. | bekliyordu = 기다리고 있었다 | emotion=gentle+shy
-A | Hoş bulduk. Bir hafta kapımda mı bekledi? | 응, 왔어. 일주일이나 문 앞에서 기다렸다고? | hoş bulduk = hoş geldin 의 대답 | emotion=gentle+surprised
-B | Her gün buraya geldi. Yemeğini de ben verdim. | 매일 여기 왔어. 밥도 내가 줬고. | her gün = 매일 | emotion=gentle
-A | Vay be. Patron beni özlemiş yani. | 와 대박. 파트론이 날 보고 싶어 했구나. | özlemiş = 그리워했다더라 | emotion=amused
-B | Çok özledi. Bütün gün kapıya bakıyordu. | 엄청. 하루 종일 문만 보고 있었어. | bütün gün = 하루 종일 | emotion=gentle
-A | Kedi mi kapıya baktı, sen mi? | 고양이가 문을 본 거야, 네가 본 거야? | … mi, … mi? = ~야, ~야? — 반전 | emotion=teasing
-B | Kedi, tabii ki. Ne alaka? | 고양이지, 당연히. 뭔 소리야? | ne alaka = 뭔 소리야 | emotion=flustered+tsukkomi
-A | Peki o elindeki ne? | 그럼 그 손에 든 건 뭐야? | elindeki = 손에 있는 것 | emotion=teasing
-B | Hiç. Patron senin için aldı. | 아무것도. 파트론이 널 위해 샀어. | senin için = 널 위해 | emotion=shy
-A | Kedi… simit mi aldı? | 고양이가… 시미트를 샀다고? | simit = 깨 뿌린 고리 빵 | emotion=surprised
-B | Evet. Yarısını yolda kontrol ettim. | 응. 반은 오다가 점검했고. | kontrol etmek = 확인하다 | emotion=amused
+A | ? | 칸? 한밤중에 우리 집 문 앞에서 뭐 해? |  | emotion=surprised
+B | ? | 어서 와. 내가 아니고, 파트론이 기다렸어. |  | emotion=gentle+shy
+A | ? | 응, 왔어. 일주일이나 문 앞에서 기다렸다고? |  | emotion=gentle+surprised
+B | ? | 매일 여기 왔어. 밥도 내가 줬고. |  | emotion=gentle
+A | ? | 와 대박. 파트론이 날 보고 싶어 했구나. |  | emotion=amused
+B | ? | 엄청. 하루 종일 문만 보고 있었어. |  | emotion=gentle
+A | ? | 고양이가 문을 본 거야, 네가 본 거야? |  | emotion=teasing
+B | ? | 고양이지, 당연히. 뭔 소리야? |  | emotion=flustered+tsukkomi
+A | ? | 그럼 그 손에 든 건 뭐야? |  | emotion=teasing
+B | ? | 아무것도. 파트론이 널 위해 샀어. |  | emotion=shy
+A | ? | 고양이가… 시미트를 샀다고? |  | emotion=surprised
+B | ? | 응. 반은 오다가 점검했고. |  | emotion=amused

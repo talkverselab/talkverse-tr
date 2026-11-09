@@ -9,11 +9,11 @@ twist: 7 chaos
 purpose: making_friends travel
 goal: teşekkür ederim·ne yapalım 으로 권하는 차 거절하기
 expressions: teşekkür ederim; yok; tamam; hadi; ne yapalım
-B | Bir çay daha, yavrum? | 차 한 잔 더 하렴? | yavrum = 얘야 | emotion=gentle
-A | Yok, teşekkür ederim. Üç bardak içtim. | 아뇨, 고맙습니다. 세 잔 마셨어요. | bardak = 잔 | emotion=polite
-B | Küçük bardak, yavrum. Al bakalım. | 잔이 작잖니, 얘야. 자, 받아. | al bakalım = 자, 받아 | emotion=gentle
-A | Zeynep, bu nasıl bitecek? | Zeynep, 이거 어떻게 끝나? | bitecek = 끝날 것이다 | emotion=worried
-C | Kaşığı bardağın üstüne koy. Bitti demek. | 숟가락을 잔 위에 올려. 그만이라는 뜻이야. | kaşık = 숟가락 | emotion=amused
-A | Tamam, koydum. Hadi bakalım. | 좋아, 올렸어. 자, 보자. | koydum = 놓았다 | emotion=cheerful
-B | Aa, kaşık düşecek! Al, yeni bardak. | 어머, 숟가락 떨어지겠다! 자, 새 잔. | düşecek = 떨어지겠다 — 반전 | emotion=surprised+gentle
-C | Ne yapalım. İç. | 어쩌겠어. 마셔. | ne yapalım = 어쩌겠어 | emotion=amused
+B | ? | 차 한 잔 더 하렴? |  | emotion=gentle
+A | ? | 아뇨, 고맙습니다. 세 잔 마셨어요. |  | emotion=polite
+B | ? | 잔이 작잖니, 얘야. 자, 받아. |  | emotion=gentle
+A | ? | Zeynep, 이거 어떻게 끝나? |  | emotion=worried
+C | ? | 숟가락을 잔 위에 올려. 그만이라는 뜻이야. |  | emotion=amused
+A | ? | 좋아, 올렸어. 자, 보자. |  | emotion=cheerful
+B | ? | 어머, 숟가락 떨어지겠다! 자, 새 잔. |  | emotion=surprised+gentle
+C | ? | 어쩌겠어. 마셔. |  | emotion=amused

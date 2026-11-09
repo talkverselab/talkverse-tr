@@ -9,11 +9,11 @@ twist: 5 chaos
 purpose: making_friends study_abroad
 goal: -di 과거형으로 상황 알리기, hadi canım
 expressions: süper; bir dakika; hadi canım
-A | Can, evime bir kedi girdi 😅 | 잔, 우리 집에 고양이 들어왔어 😅 | girdi = 들어왔다 | emotion=flustered
-B | Süper! Süt ver. | 최고네! 우유 줘. | süt = 우유 | emotion=excited
-A | Verdim. Şimdi yatağımda uyuyor. | 줬어. 지금 내 침대에서 자. | yatak = 침대 | emotion=amused
-B | Maşallah. Adını da koy. | 아이고 예뻐라. 이름도 지어 줘. | ad koymak = 이름 짓다 | emotion=gentle+amused
-A | Bir dakika… yatağın altında üç yavru var! | 잠깐만… 침대 밑에 새끼가 세 마리 있어! | yavru = 새끼 — 반전 | emotion=surprised
-B | Hadi canım! Anne kedi mi o? | 에이 설마! 걔 엄마 고양이야? | hadi canım = 에이 설마 | emotion=surprised+excited
-A | Evet. Ben bu gece koltukta uyuyorum. | 응. 나 오늘 밤 소파에서 자. | koltuk = 소파 | emotion=flustered
-B | Kirayı onlardan al 😂 | 집세는 걔네한테 받아 😂 | kira = 집세 | emotion=teasing
+A | ? | 잔, 우리 집에 고양이 들어왔어 😅 |  | emotion=flustered
+B | ? | 최고네! 우유 줘. |  | emotion=excited
+A | ? | 줬어. 지금 내 침대에서 자. |  | emotion=amused
+B | ? | 아이고 예뻐라. 이름도 지어 줘. |  | emotion=gentle+amused
+A | ? | 잠깐만… 침대 밑에 새끼가 세 마리 있어! |  | emotion=surprised
+B | ? | 에이 설마! 걔 엄마 고양이야? |  | emotion=surprised+excited
+A | ? | 응. 나 오늘 밤 소파에서 자. |  | emotion=flustered
+B | ? | 집세는 걔네한테 받아 😂 |  | emotion=teasing

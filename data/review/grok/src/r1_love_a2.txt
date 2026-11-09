@@ -9,11 +9,11 @@ twist: 5 chaos
 purpose: love
 goal: yarısı·bir dakika·eyvah 로 나눠 주고 받기
 expressions: pardon; bir dakika; eyvah; hadi gidelim; afiyet olsun
-B | Pardon, simidiniz çok güzel görünüyor. | 저기요, 시미트 진짜 맛있어 보여요. | görünüyor = ~해 보인다 | emotion=shy
-A | Yarısını ister misiniz? Buyurun. | 반 드실래요? 여기요. | yarısı = 절반 | emotion=polite
-B | Sağ olun! Bir dakika, martı! | 고마워요! 잠깐만, 갈매기! | martı = 갈매기 | emotion=cheerful+surprised
-A | Eyvah! Yarısı gitti! | 헉! 반쪽 날아갔어요! | eyvah = 헉, 큰일 났다 | emotion=surprised
-B | Bak, on martı daha geliyor! | 봐요, 갈매기 열 마리 더 와요! | daha = 더 — 반전: 갈매기 떼 | emotion=excited
-A | Hadi kaçalım! Diğer yarısı bende! | 얼른 도망가요! 나머지 반쪽 나한테 있어요! | bende = 나한테 있다 | emotion=excited
-B | Simidi at. Sen benimle gel. | 시미트 버려. 넌 나랑 가자. | benimle = 나랑 — 여기서 말을 놓는다 | emotion=gentle
-A | Tamam, hadi gidelim! Martılar, afiyet olsun! | 그래, 가자! 갈매기들아, 맛있게 먹어! | afiyet olsun = 맛있게 드세요 | emotion=cheerful
+B | ? | 저기요, 시미트 진짜 맛있어 보여요. |  | emotion=shy
+A | ? | 반 드실래요? 여기요. |  | emotion=polite
+B | ? | 고마워요! 잠깐만, 갈매기! |  | emotion=cheerful+surprised
+A | ? | 헉! 반쪽 날아갔어요! |  | emotion=surprised
+B | ? | 봐요, 갈매기 열 마리 더 와요! |  | emotion=excited
+A | ? | 얼른 도망가요! 나머지 반쪽 나한테 있어요! |  | emotion=excited
+B | ? | 시미트 버려. 넌 나랑 가자. |  | emotion=gentle
+A | ? | 그래, 가자! 갈매기들아, 맛있게 먹어! |  | emotion=cheerful

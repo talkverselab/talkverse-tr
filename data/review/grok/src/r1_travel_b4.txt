@@ -9,11 +9,11 @@ twist: 8 slip
 purpose: travel
 goal: nereye·emin misiniz 로 버스표 사기
 expressions: hoş geldiniz; lütfen; çok güzel; allah allah; buyurun; günaydın
-B | Hoş geldiniz. Nereye gidiyorsunuz? | 어서 오세요. 어디로 가세요? | nereye = 어디로 | emotion=polite
-A | Ankara'ya bir bilet, lütfen. | 앙카라행 한 장 주세요. | bilet = 표 | emotion=polite
-B | Ankara? Emin misiniz? | 앙카라요? 확실해요? | emin misiniz? = 확실하세요? | emotion=surprised
-A | Evet. Deniz çok güzel, değil mi? | 네. 바다 너무 좋잖아요, 그렇죠? | deniz = 바다 | emotion=cheerful
-B | Allah allah… Buyurun, gece on bir. | 거참… 여기요, 밤 11시 차입니다. | allah allah = 거참 이상하네 | emotion=polite
-C | Günaydın! Ankara'ya hoş geldiniz. | 좋은 아침입니다! 앙카라에 오신 걸 환영합니다. | günaydın = 좋은 아침 | emotion=cheerful
-A | Deniz nerede? Burası neresi? | 바다 어디 있어요? 여기 어디예요? | burası neresi? = 여기 어디예요? | emotion=worried
-C | Deniz Antalya'da. Burası Ankara. | 바다는 안탈리아에 있죠. 여긴 앙카라고요. | 반전: 도시를 헷갈렸다 | emotion=amused
+B | ? | 어서 오세요. 어디로 가세요? |  | emotion=polite
+A | ? | 앙카라행 한 장 주세요. |  | emotion=polite
+B | ? | 앙카라요? 확실해요? |  | emotion=surprised
+A | ? | 네. 바다 너무 좋잖아요, 그렇죠? |  | emotion=cheerful
+B | ? | 거참… 여기요, 밤 11시 차입니다. |  | emotion=polite
+C | ? | 좋은 아침입니다! 앙카라에 오신 걸 환영합니다. |  | emotion=cheerful
+A | ? | 바다 어디 있어요? 여기 어디예요? |  | emotion=worried
+C | ? | 바다는 안탈리아에 있죠. 여긴 앙카라고요. |  | emotion=amused

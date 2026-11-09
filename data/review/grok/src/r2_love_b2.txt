@@ -9,15 +9,15 @@ twist: 9 chaos
 purpose: love
 goal: olur·of 로 쪽지 약속 잡고 이웃에게 들키기
 expressions: olur; of; bak; lütfen
-B | Hey, aşağıdaki! Yeni komşu sen misin? | 저기, 아래! 새 이웃이 너야? | aşağıdaki = 아래 있는 사람 | emotion=cheerful
-A | Evet, benim! Bu sepet ne? | 응, 나야! 이 바구니 뭐야? | sepet = 바구니 | emotion=cheerful
-B | İçinde not var. Oku, cevap yaz, gönder. | 안에 쪽지 있어. 읽고, 답 써서 보내. | göndermek = 보내다 | emotion=teasing
-A | Bak: "Akşam çay içelim mi?" Olur, yazıyorum. | 어디 보자. 「저녁에 차 마실래?」 좋아, 쓴다. | olur = 좋아 | emotion=amused
-C | Evladım, sepet bende! "Olur" yazıyor, ne olur? | 얘야, 바구니 나한테 왔다! 「좋아」라고 쓰여 있네, 뭐가 좋아? | bende = 나한테 있다 | emotion=excited
-B | Teyze, lütfen! O sepet bana gelecek! | 이모, 제발요! 그 바구니 나한테 와야 돼요! | gelecek = 올 것이다 | emotion=flustered
-C | Aa, çay mı? Ben de gelirim, börek yaptım! | 어머, 차? 나도 갈게, 뵈렉 만들었어! | börek = 겹겹이 구운 파이 | emotion=excited
-A | Elif, bu ne? Üst kat da bakıyor! | Elif, 이게 뭐야? 윗집도 보고 있어! | üst kat = 윗집 | emotion=flustered
-C | Üst kat da geliyor! Bütün bina çay içecek! | 윗집도 온대! 건물 전체가 차 마시겠네! | bütün bina = 건물 전체 — 반전 | emotion=excited
-B | Of! Ben seninle baş başa içmek istemiştim. | 아휴! 난 너랑 단둘이 마시고 싶었는데. | baş başa = 단둘이 | emotion=annoyed+shy
-A | Sepet geldi. "Yarın, sadece ikimiz." | 바구니 왔다. 「내일, 우리 둘만.」 | ikimiz = 우리 둘 | emotion=gentle
-C | Okudum! Olur, ben de gelirim! | 읽었다! 좋아, 나도 갈게! | okudum = 읽었다 | emotion=cheerful
+B | ? | 저기, 아래! 새 이웃이 너야? |  | emotion=cheerful
+A | ? | 응, 나야! 이 바구니 뭐야? |  | emotion=cheerful
+B | ? | 안에 쪽지 있어. 읽고, 답 써서 보내. |  | emotion=teasing
+A | ? | 어디 보자. 「저녁에 차 마실래?」 좋아, 쓴다. |  | emotion=amused
+C | ? | 얘야, 바구니 나한테 왔다! 「좋아」라고 쓰여 있네, 뭐가 좋아? |  | emotion=excited
+B | ? | 이모, 제발요! 그 바구니 나한테 와야 돼요! |  | emotion=flustered
+C | ? | 어머, 차? 나도 갈게, 뵈렉 만들었어! |  | emotion=excited
+A | ? | Elif, 이게 뭐야? 윗집도 보고 있어! |  | emotion=flustered
+C | ? | 윗집도 온대! 건물 전체가 차 마시겠네! |  | emotion=excited
+B | ? | 아휴! 난 너랑 단둘이 마시고 싶었는데. |  | emotion=annoyed+shy
+A | ? | 바구니 왔다. 「내일, 우리 둘만.」 |  | emotion=gentle
+C | ? | 읽었다! 좋아, 나도 갈게! |  | emotion=cheerful

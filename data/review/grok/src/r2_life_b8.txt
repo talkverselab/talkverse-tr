@@ -9,15 +9,15 @@ twist: 8 reveal
 purpose: making_friends study_abroad
 goal: ne sesi·yok artık 으로 이상한 일 얘기하기
 expressions: yok artık; eyvah; hadi; kanka; gerçekten mi
-A | Can, dinle. Yan daireden yine ses geliyor. | 칸, 들어 봐. 옆집에서 또 소리 나. | yan daire = 옆집 | emotion=worried
-B | Gece üçte mi? Ne sesi? | 새벽 세 시에? 무슨 소리? | gece üçte = 새벽 세 시에 | emotion=surprised
-A | Bağırıyor, 'Vur, arkanda!' diye. | 소리 질러, '쳐, 뒤에!' 하고. | diye = ~라고 | emotion=worried
-B | Teyze mi? Yok artık. | 이모가? 말도 안 돼. | yok artık = 말도 안 돼 | emotion=surprised
-A | Her gece! Bir de 'Öldüm' diyor. | 매일 밤! 거기다 '죽었다'고도 해. | her gece = 매일 밤 | emotion=worried
-B | Eyvah. Polisi arayalım mı? | 헉. 경찰 부를까? | arayalım mı? = 부를까? | emotion=flustered+worried
-A | Dur, önce kapıyı çalalım. Hadi, gel. | 잠깐, 먼저 문 두드려 보자. 자, 와. | kapı çalmak = 문을 두드리다 | emotion=worried
-C | Aa, gelin, gelin! Kapıyı kapatın, oyun başladı. | 어머, 들어와, 들어와! 문 닫아라, 게임 시작했다. | oyun = 게임 — 반전 | emotion=excited
-B | Teyze, kulağındaki ne? Bilgisayar mı oynuyorsun? | 이모, 귀에 그거 뭐야? 컴퓨터 게임 해? | kulak = 귀 | emotion=surprised
-C | Dur kanka, takım bekliyor. Torunum öğretti! | 잠깐만 얘들아, 팀이 기다려. 손주가 가르쳐 줬어! | kanka = 친구야(teyze 입에서 나와서 웃김) | emotion=excited+cheerful
-A | Torununuz mu? Gerçekten mi? | 손주분이요? 진짜요? | torun = 손주 | emotion=surprised
-C | Evet. {name}, otur, bize bir kişi lazım. | 그래. {name}, 앉아. 한 명 필요해. | lazım = 필요하다 | emotion=cheerful
+A | ? | 칸, 들어 봐. 옆집에서 또 소리 나. |  | emotion=worried
+B | ? | 새벽 세 시에? 무슨 소리? |  | emotion=surprised
+A | ? | 소리 질러, '쳐, 뒤에!' 하고. |  | emotion=worried
+B | ? | 이모가? 말도 안 돼. |  | emotion=surprised
+A | ? | 매일 밤! 거기다 '죽었다'고도 해. |  | emotion=worried
+B | ? | 헉. 경찰 부를까? |  | emotion=flustered+worried
+A | ? | 잠깐, 먼저 문 두드려 보자. 자, 와. |  | emotion=worried
+C | ? | 어머, 들어와, 들어와! 문 닫아라, 게임 시작했다. |  | emotion=excited
+B | ? | 이모, 귀에 그거 뭐야? 컴퓨터 게임 해? |  | emotion=surprised
+C | ? | 잠깐만 얘들아, 팀이 기다려. 손주가 가르쳐 줬어! |  | emotion=excited+cheerful
+A | ? | 손주분이요? 진짜요? |  | emotion=surprised
+C | ? | 그래. {name}, 앉아. 한 명 필요해. |  | emotion=cheerful

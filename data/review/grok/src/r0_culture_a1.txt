@@ -9,11 +9,11 @@ twist: 5 emotion
 purpose: love making_friends
 goal: fal·aynen 으로 커피 점 주고받기
 expressions: yok; aynen; of
-B | Fincanı ver. Falına bakacağım. | 잔 줘. 점 봐 줄게. | fala bakmak = 점을 보다 | emotion=cheerful
-A | Para var mı? Aşk var mı? | 돈 있어? 사랑은? | aşk = 사랑 | emotion=excited
-B | Para yok. Bir harf var: E. | 돈은 없어. 글자가 하나 있네. E. | harf = 글자 | emotion=teasing
-A | E mi? Emre mi? | E? Emre? | -mi? = ~야? | emotion=surprised
-B | Hayır! Bu kişi sana çok yakın. | 아니! 이 사람은 너랑 아주 가까워. | yakın = 가까운 — 반전 | emotion=tsukkomi+gentle
-A | Aynen, Emre yakın oturuyor. | 맞아, Emre 가까이 살아. | aynen = 맞아 그거 | emotion=cheerful
-B | Of, E diyorum {name}. Bir düşün. | 아휴, E 라니까 {name}. 생각 좀 해 봐. | of = 아휴 | emotion=annoyed+shy
-A | Emre'yi mi arayayım? | Emre 한테 전화해 볼까? | arayayım = 전화할까 | emotion=cheerful
+B | ? | 잔 줘. 점 봐 줄게. |  | emotion=cheerful
+A | ? | 돈 있어? 사랑은? |  | emotion=excited
+B | ? | 돈은 없어. 글자가 하나 있네. E. |  | emotion=teasing
+A | ? | E? Emre? |  | emotion=surprised
+B | ? | 아니! 이 사람은 너랑 아주 가까워. |  | emotion=tsukkomi+gentle
+A | ? | 맞아, Emre 가까이 살아. |  | emotion=cheerful
+B | ? | 아휴, E 라니까 {name}. 생각 좀 해 봐. |  | emotion=annoyed+shy
+A | ? | Emre 한테 전화해 볼까? |  | emotion=cheerful

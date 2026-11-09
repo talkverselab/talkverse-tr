@@ -9,15 +9,15 @@ twist: 10 ignore
 purpose: work_abroad
 goal: kolay gelsin·ne alaka·yok artık 로 사무실 꿀팁 얻기
 expressions: kolay gelsin; ne alaka; yok artık; hocam; sağ olun
-A | Müdüre üç mail attım. Cevap yok. | 부장님한테 메일 세 통 보냈어. 답이 없어. | mail atmak = 메일 보내다 | emotion=sad
-B | Üç mü? Az bile, ben on attım. | 세 통? 적네, 난 열 통 보냈어. | az = 적은 | emotion=amused
-A | Yanına gidiyorum, “Mail at” diyor. | 찾아가면 「메일 보내」 라고 해. | yanına = 옆으로 | emotion=annoyed
-C | Kolay gelsin. Çay alır mısınız hocam? | 수고 많으십니다. 차 드릴까요, 선생님? | kolay gelsin = 수고하세요 | emotion=polite
-A | Sağ olun. Amca, müdür neden cevap vermiyor? | 고맙습니다. 아저씨, 부장님은 왜 답을 안 해요? | cevap vermek = 답하다 | emotion=polite
-C | Mail mi? Müdür bey bilgisayar açmaz ki hocam. | 메일이요? 부장님은 컴퓨터를 안 켜세요, 선생님. | açmaz = 안 켠다 | emotion=polite
-A | Ne?! İzin lazım, ben ne yapacağım? | 네?! 휴가 써야 하는데, 저 어떡해요? | izin = 휴가 | emotion=surprised
-C | Kâğıda yazın, tepsiye koyun. Bardağın altına. | 종이에 써서 쟁반에 올리세요. 잔 밑에요. | tepsi = 쟁반 | emotion=gentle
-B | Ne alaka? Bu ne şimdi? | 뭔 소리야? 이게 뭐야 또? | ne alaka = 뭔 소리야 | emotion=tsukkomi
-C | Buyurun hocam, imzalandı. Üç gün yazmıştınız, beş verdi. | 여기요, 선생님, 사인 받았습니다. 사흘 쓰셨는데 닷새 주셨어요. | imzalandı = 서명됐다 — 반전: 2분 걸렸다 | emotion=cheerful
-B | Yok artık! Amca, zam da oluyor mu? | 말도 안 돼! 아저씨, 월급 인상도 돼요? | zam = (월급) 인상 | emotion=surprised
-C | Zam için büyük tepsi lazım. | 인상은 더 큰 쟁반이 필요합니다. | için = ~을 위해 | emotion=amused
+A | ? | 부장님한테 메일 세 통 보냈어. 답이 없어. |  | emotion=sad
+B | ? | 세 통? 적네, 난 열 통 보냈어. |  | emotion=amused
+A | ? | 찾아가면 「메일 보내」 라고 해. |  | emotion=annoyed
+C | ? | 수고 많으십니다. 차 드릴까요, 선생님? |  | emotion=polite
+A | ? | 고맙습니다. 아저씨, 부장님은 왜 답을 안 해요? |  | emotion=polite
+C | ? | 메일이요? 부장님은 컴퓨터를 안 켜세요, 선생님. |  | emotion=polite
+A | ? | 네?! 휴가 써야 하는데, 저 어떡해요? |  | emotion=surprised
+C | ? | 종이에 써서 쟁반에 올리세요. 잔 밑에요. |  | emotion=gentle
+B | ? | 뭔 소리야? 이게 뭐야 또? |  | emotion=tsukkomi
+C | ? | 여기요, 선생님, 사인 받았습니다. 사흘 쓰셨는데 닷새 주셨어요. |  | emotion=cheerful
+B | ? | 말도 안 돼! 아저씨, 월급 인상도 돼요? |  | emotion=surprised
+C | ? | 인상은 더 큰 쟁반이 필요합니다. |  | emotion=amused

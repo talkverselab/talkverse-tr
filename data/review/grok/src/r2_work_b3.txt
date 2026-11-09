@@ -9,14 +9,14 @@ twist: 8 ignore
 purpose: work_abroad
 goal: bence·neyse·boş ver 로 회의에서 말 꺼내고 넘기기
 expressions: bence; neyse; harika; helal olsun; boş ver
-C | Bu ay satışlar düşük. Fikri olan var mı? | 이번 달 매출이 낮아요. 아이디어 있는 사람? | satış = 매출 | emotion=stiff
-A | Bence müşterilere indirim mesajı gönderelim. | 제 생각엔 고객들한테 할인 문자를 보내면 좋겠어요. | bence = 제 생각엔 | emotion=polite
-C | Başka? Hiç kimse yok mu? | 다른 건요? 아무도 없어요? | hiç kimse = 아무도 | emotion=stiff
-A | Müdürüm, ben bir şey söyledim… | 부장님, 제가 뭐 좀 말씀드렸는데요… | müdürüm = 부장님(내 상사) | emotion=polite
-C | Neyse. Kahveyi kim getirecekti? | 아무튼. 커피 누가 가져오기로 했죠? | neyse = 아무튼 | emotion=stiff
-A | Emre, bu adam beni duyuyor mu? | Emre, 이 사람 내 말 들리긴 해? | duymak = 듣다 | emotion=annoyed
-B | Müdürüm, müşterilere indirim mesajı gönderelim. | 부장님, 고객들한테 할인 문자를 보내시죠. | gönderelim = 보내죠 | emotion=polite
-C | Harika, işte fikir budur! Helal olsun Emre! | 훌륭해요, 이게 바로 아이디어죠! 역시 Emre! | helal olsun = 대단해, 인정 — 반전: 같은 말인데 박수 | emotion=excited
-B | Fikir benim değil. {name} söyledi. | 제 아이디어 아니에요. {name} 씨가 말했어요. | benim değil = 내 것이 아니다 | emotion=polite
-C | Kim? O da kim? | 누구요? 그게 누구죠? | kim = 누구 | emotion=stiff
-B | Boş ver. Ben duydum. | 신경 쓰지 마. 난 들었어. | boş ver = 신경 쓰지 마 | emotion=gentle
+C | ? | 이번 달 매출이 낮아요. 아이디어 있는 사람? |  | emotion=stiff
+A | ? | 제 생각엔 고객들한테 할인 문자를 보내면 좋겠어요. |  | emotion=polite
+C | ? | 다른 건요? 아무도 없어요? |  | emotion=stiff
+A | ? | 부장님, 제가 뭐 좀 말씀드렸는데요… |  | emotion=polite
+C | ? | 아무튼. 커피 누가 가져오기로 했죠? |  | emotion=stiff
+A | ? | Emre, 이 사람 내 말 들리긴 해? |  | emotion=annoyed
+B | ? | 부장님, 고객들한테 할인 문자를 보내시죠. |  | emotion=polite
+C | ? | 훌륭해요, 이게 바로 아이디어죠! 역시 Emre! |  | emotion=excited
+B | ? | 제 아이디어 아니에요. {name} 씨가 말했어요. |  | emotion=polite
+C | ? | 누구요? 그게 누구죠? |  | emotion=stiff
+B | ? | 신경 쓰지 마. 난 들었어. |  | emotion=gentle

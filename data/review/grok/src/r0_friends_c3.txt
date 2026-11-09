@@ -9,11 +9,11 @@ twist: 6 ignore
 purpose: making_friends
 goal: 재촉하는 채팅, boş ver·neyse·geliyorum
 expressions: boş ver; neyse; geliyorum; oha
-A | Can, paramı ne zaman veriyorsun? | 잔, 내 돈 언제 줄 거야? | ne zaman = 언제 | emotion=annoyed
-A | Görüyorum, okudun. | 다 보여, 너 읽었어. | okudun = 읽었다 | emotion=annoyed
-A | Can? Öldün mü? | 잔? 죽었어? | ölmek = 죽다 | emotion=tsukkomi
-A | Tamam, boş ver. | 알았어, 됐어. | boş ver = 됐어 | emotion=sad
-A | Neyse. Komşu çok börek getirdi. | 아무튼. 이웃이 뵈렉을 잔뜩 갖다 줬어. | börek = 뵈렉(겹겹 파이) · komşu = 이웃 | emotion=neutral+teasing
-B | Geliyorum 🏃 | 가는 중 🏃 | geliyorum = 간다(말하는 쪽으로 오는 것이라 gelmek) — 반전: 1초 만에 답장 | emotion=excited
-A | Oha! Telefonun çalışıyor demek! | 헐! 폰 멀쩡하구나! | demek = 그러니까 ~구나 | emotion=surprised+tsukkomi
-B | Kapıdayım. Hangi para? | 문 앞이야. 무슨 돈? | hangi = 어느 | emotion=cheerful+amused
+A | ? | 잔, 내 돈 언제 줄 거야? |  | emotion=annoyed
+A | ? | 다 보여, 너 읽었어. |  | emotion=annoyed
+A | ? | 잔? 죽었어? |  | emotion=tsukkomi
+A | ? | 알았어, 됐어. |  | emotion=sad
+A | ? | 아무튼. 이웃이 뵈렉을 잔뜩 갖다 줬어. |  | emotion=neutral+teasing
+B | ? | 가는 중 🏃 |  | emotion=excited
+A | ? | 헐! 폰 멀쩡하구나! |  | emotion=surprised+tsukkomi
+B | ? | 문 앞이야. 무슨 돈? |  | emotion=cheerful+amused

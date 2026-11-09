@@ -9,11 +9,11 @@ twist: 5 slip
 purpose: travel love
 goal: kıskandın mı·ne alaka 로 오해 풀기
 expressions: ne alaka; kıskandın mı; yok ya
-A | Selam! Denizle çok mutluyum 😍 | 안녕! 나 바다랑 너무 행복해 😍 | denizle = 바다와 · Deniz 는 사람 이름도 된다 | emotion=excited
-B | Deniz kim? Neredesin sen? | Deniz 가 누군데? 너 어디야? | kim = 누구 | emotion=surprised+worried
-A | Antalya'dayım. Her gün birlikteyiz. | 안탈리아야. 매일 같이 있어. | birlikte = 같이 | emotion=cheerful+gentle
-B | Her gün mü?! Kaç yaşında? | 매일?! 몇 살인데? | kaç yaşında = 몇 살 | emotion=shout+annoyed
-A | Ne alaka? Deniz işte, su! 🌊 | 뭔 소리야? 바다 말이야, 물! 🌊 | ne alaka = 뭔 소리야 — 반전 | emotion=tsukkomi+amused
-B | Ha, deniz. Biliyordum tabii. | 아… 바다. 당연히 알고 있었지. | biliyordum = 알고 있었다 | emotion=surprised+stiff
-A | Kıskandın mı? | 질투했어? | kıskandın mı? = 질투했어? | emotion=teasing
-B | Yok ya. Sadece çabuk dön. | 아니거든. 그냥 빨리 와. | çabuk = 빨리 | emotion=flustered+shy
+A | ? | 안녕! 나 바다랑 너무 행복해 😍 |  | emotion=excited
+B | ? | Deniz 가 누군데? 너 어디야? |  | emotion=surprised+worried
+A | ? | 안탈리아야. 매일 같이 있어. |  | emotion=cheerful+gentle
+B | ? | 매일?! 몇 살인데? |  | emotion=shout+annoyed
+A | ? | 뭔 소리야? 바다 말이야, 물! 🌊 |  | emotion=tsukkomi+amused
+B | ? | 아… 바다. 당연히 알고 있었지. |  | emotion=surprised+stiff
+A | ? | 질투했어? |  | emotion=teasing
+B | ? | 아니거든. 그냥 빨리 와. |  | emotion=flustered+shy

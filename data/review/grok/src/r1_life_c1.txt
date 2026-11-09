@@ -9,11 +9,11 @@ twist: 7 chaos
 purpose: study_abroad work_abroad
 goal: nerede·ne zaman 으로 단톡방에서 말 받기
 expressions: eyvah; aman
-B | Köftelerim nerede?! Balkonda soğuyordu! | 내 쾨프테 어디 갔어?! 발코니에서 식히고 있었는데! | soğuyordu = 식고 있었다 | emotion=shout
-C | Balkonunuzda bir kedi gördüm. Büyük. | 댁 발코니에서 고양이 봤어요. 큰 놈이요. | gördüm = 봤다 | emotion=polite
-A | Eyvah. Patron mu? | 헉. 파트론이에요? | eyvah = 헉, 큰일이다 | emotion=worried
-B | Patron kim?! | 파트론이 누구야?! | kim = 누구 | emotion=annoyed
-D | Kedi şimdi asansörde. Köfte de ağzında. | 고양이 지금 엘리베이터에 있어요. 입에 쾨프테도 물고요. | ağzında = 입에 | emotion=polite
-A | Çıkarın onu! Asansör ne zaman çalışır? | 꺼내 주세요! 엘리베이터 언제 돼요? | çıkarın = 꺼내 주세요 | emotion=flustered
-D | Yarın. | 내일요. | yarın = 내일 — 반전: 고양이가 갇혔다 | emotion=stiff
-B | Aman, zavallı… Yarın ona da yaparım. | 아이고, 불쌍해라… 내일 걔 것도 만들어야지. | zavallı = 불쌍한 | emotion=sad+gentle
+B | ? | 내 쾨프테 어디 갔어?! 발코니에서 식히고 있었는데! |  | emotion=shout
+C | ? | 댁 발코니에서 고양이 봤어요. 큰 놈이요. |  | emotion=polite
+A | ? | 헉. 파트론이에요? |  | emotion=worried
+B | ? | 파트론이 누구야?! |  | emotion=annoyed
+D | ? | 고양이 지금 엘리베이터에 있어요. 입에 쾨프테도 물고요. |  | emotion=polite
+A | ? | 꺼내 주세요! 엘리베이터 언제 돼요? |  | emotion=flustered
+D | ? | 내일요. |  | emotion=stiff
+B | ? | 아이고, 불쌍해라… 내일 걔 것도 만들어야지. |  | emotion=sad+gentle

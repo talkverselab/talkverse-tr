@@ -9,11 +9,11 @@ twist: 5 slip
 purpose: making_friends travel study_abroad
 goal: 시장에서 값 묻고 흥정하기, çok pahalı
 expressions: buyurun; hadi; çok pahalı; ee; şey; olur
-C | Buyurun! Taze domates, kilosu kırk lira! | 어서 오세요! 싱싱한 토마토, 킬로에 40리라! | kilosu = 1킬로에 | emotion=cheerful
-B | Hadi, pazarlık yap. Sen de öğren. | 자, 흥정해 봐. 너도 배워야지. | pazarlık = 흥정 | emotion=cheerful+teasing
-A | Kırk mı? Çok pahalı! | 40이요? 너무 비싸요! | çok pahalı = 너무 비싸요 | emotion=neutral+surprised
-C | Ee, kaç verirsiniz? | 그럼 얼마 주실래요? | ee = 그래서? | emotion=polite
-A | Şey… elli? | 저… 50? | elli = 50 — 반전 | emotion=flustered
-C | Olur! Hemen, hemen, buyurun! | 좋습니다! 바로, 바로, 여기요! | olur = 좋아요 | emotion=excited
-B | Pazarlık aşağı gider, yukarı değil! | 흥정은 내려가는 거야, 올라가는 게 아니라! | aşağı = 아래로 · yukarı = 위로 | emotion=tsukkomi
-C | Yarın yine gelin, size altmış! | 내일 또 오세요, 손님한텐 60! | altmış = 60 | emotion=amused
+C | ? | 어서 오세요! 싱싱한 토마토, 킬로에 40리라! |  | emotion=cheerful
+B | ? | 자, 흥정해 봐. 너도 배워야지. |  | emotion=cheerful+teasing
+A | ? | 40이요? 너무 비싸요! |  | emotion=neutral+surprised
+C | ? | 그럼 얼마 주실래요? |  | emotion=polite
+A | ? | 저… 50? |  | emotion=flustered
+C | ? | 좋습니다! 바로, 바로, 여기요! |  | emotion=excited
+B | ? | 흥정은 내려가는 거야, 올라가는 게 아니라! |  | emotion=tsukkomi
+C | ? | 내일 또 오세요, 손님한텐 60! |  | emotion=amused

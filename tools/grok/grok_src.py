@@ -3,6 +3,9 @@
   python3 tools/grok/grok_src.py [편id...]   (없으면 초안 전편)
 머리 줄(=== id …) + 대사 줄 `화자 | 터키어 | 한국어 | note | emotion=감정+감정`(문장마다 +, 감정 계획 segs 에서)."""
 import glob, json, os, sys
+BLIND = '--blind' in sys.argv
+if BLIND:
+    sys.argv.remove('--blind')
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
@@ -27,7 +30,8 @@ def src(d):
          'goal: ' + d.get('goal', ''), 'expressions: ' + '; '.join(d.get('expressions', []))]
     for t in d['turns']:
         segs = plan.get(str(t['num']), {}).get('segs') or [[t.get('emotion', 'neutral'), t['tl']]]
-        h.append(' | '.join([t['speaker'], t['tl'], t['ko'], t.get('note', ''), 'emotion=' + '+'.join(s[0] for s in segs)]))
+        tl = '?' if BLIND else t['tl']  # 터키어를 보여 주면 Grok 이 거의 그대로 둔다(2026-11-10) → 한국어 뜻만 주고 새로 쓰게
+        h.append(' | '.join([t['speaker'], tl, t['ko'], t.get('note', '') if not BLIND else '', 'emotion=' + '+'.join(s[0] for s in segs)]))
     return '\n'.join(h) + '\n'
 
 

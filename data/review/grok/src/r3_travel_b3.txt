@@ -9,19 +9,19 @@ twist: 12 chaos
 purpose: travel
 goal: allah allah·kusura bakmayın·eyvah 로 시골 버스 소동 말하기
 expressions: allah allah; kusura bakmayın; tabii; ne demek; bir dakika; hocam; bayıldım; eyvah; afiyet olsun; lütfen; buyurun
-D | Ne güzel yol ya! Bak, dağlar, ağaçlar, her yer yeşil. | 길 진짜 좋다! 봐, 산, 나무, 온통 초록이야. | yeşil = 초록 | emotion=excited
-A | Bu otobüs neden duruyor? Burada köy bile yok ki. | 이 버스 왜 서? 여기 마을도 없는데. | köy = 마을 · bile = ~조차 | emotion=worried
-B | Arkadaşlar, yolda yüz koyun var, biraz bekliyoruz. | 여러분, 길에 양이 백 마리 있습니다, 좀 기다립니다. | koyun = 양 | emotion=polite
-D | Yarım saat oldu, Allah allah. Koyunlar yolda oturuyor mu ne? | 30분 지났어, 거참. 양들이 길에 앉아 있나 뭐. | … mu ne = ~인가 뭔가 | emotion=annoyed
-C | Kusura bakmayın, şoför bey. Şu kuzu hasta, köye kadar alır mısınız? | 죄송합니다, 기사님. 이 새끼 양이 아파서요, 마을까지 태워 주시겠어요? | kuzu = 새끼 양 | emotion=polite
-B | Tabii, ne demek. Arkada boş koltuk var, oraya koyun. | 그럼요, 별말씀을. 뒤에 빈자리 있어요, 거기 두세요. | ne demek = 별말씀을 | emotion=polite
-A | O boş koltuk benim koltuğum! Çantam orada duruyor, bir dakika! | 그 빈자리 제 자리예요! 가방 거기 있어요, 잠깐만요! | koltuk = 좌석 | emotion=flustered
-C | Çok şükür, yer var. Al, kucağına koyuyorum, bak seni sevdi. | 다행이다, 자리 있네. 자, 무릎에 놓을게, 봐 널 좋아하네. | kucak = 무릎 위, 품 | emotion=gentle
-A | Ne demek kucağıma? Şoför bey, bu hayvan neden telefonumu yiyor? | 무릎이라니요? 기사님, 이 동물이 왜 제 폰을 먹어요? | şoför bey = 기사님 | emotion=surprised+flustered
-D | Dur, kıpırdama, fotoğraf çekiyorum. Bayıldım, ikiniz de çok tatlısınız! | 잠깐, 움직이지 마, 사진 찍는다. 반했어, 둘 다 너무 귀여워! | kıpırdamak = 움직이다 | emotion=excited
-E | Biletler lütfen. Kontrol var, herkes biletini göstersin. | 표 부탁합니다. 검표 있습니다, 다들 표 보여 주세요. | göstersin = 보여 주시길 | emotion=polite
-A | Biletim nerede? Koltuktaydı… Elif, kuzunun ağzında ne var? | 내 표 어디 갔지? 자리에 있었는데… 엘리프, 양 입에 뭐 있어? | ağız = 입 — 반전 | emotion=flustered
-D | Eyvah. Biletini yedi, afiyet olsun. Son köşesi burada, al. | 헉. 네 표 먹었어, 맛있게 먹으렴. 마지막 귀퉁이 여기 있다, 자. | köşe = 귀퉁이 | emotion=amused
-E | Biletiniz yoksa yeni bilet almanız lazım. Kuralımız bu, kusura bakmayın. | 표가 없으면 새로 사셔야 합니다. 규정입니다, 죄송합니다. | almanız lazım = 사셔야 합니다 | emotion=stiff+polite
-A | Ben inersem kuzu ne olacak? Onun da bileti yok! | 제가 내리면 양은요? 쟤도 표 없잖아요! | inersem = 내가 내리면 | emotion=annoyed
-E | Onun bileti karnında, efendim. Siz yeni bilet alın. | 쟤 표는 뱃속에 있죠, 손님. 손님은 새로 사세요. | karın = 배 · buyurun = 어서 하세요 | emotion=amused+polite
+D | ? | 길 진짜 좋다! 봐, 산, 나무, 온통 초록이야. |  | emotion=excited
+A | ? | 이 버스 왜 서? 여기 마을도 없는데. |  | emotion=worried
+B | ? | 여러분, 길에 양이 백 마리 있습니다, 좀 기다립니다. |  | emotion=polite
+D | ? | 30분 지났어, 거참. 양들이 길에 앉아 있나 뭐. |  | emotion=annoyed
+C | ? | 죄송합니다, 기사님. 이 새끼 양이 아파서요, 마을까지 태워 주시겠어요? |  | emotion=polite
+B | ? | 그럼요, 별말씀을. 뒤에 빈자리 있어요, 거기 두세요. |  | emotion=polite
+A | ? | 그 빈자리 제 자리예요! 가방 거기 있어요, 잠깐만요! |  | emotion=flustered
+C | ? | 다행이다, 자리 있네. 자, 무릎에 놓을게, 봐 널 좋아하네. |  | emotion=gentle
+A | ? | 무릎이라니요? 기사님, 이 동물이 왜 제 폰을 먹어요? |  | emotion=surprised+flustered
+D | ? | 잠깐, 움직이지 마, 사진 찍는다. 반했어, 둘 다 너무 귀여워! |  | emotion=excited
+E | ? | 표 부탁합니다. 검표 있습니다, 다들 표 보여 주세요. |  | emotion=polite
+A | ? | 내 표 어디 갔지? 자리에 있었는데… 엘리프, 양 입에 뭐 있어? |  | emotion=flustered
+D | ? | 헉. 네 표 먹었어, 맛있게 먹으렴. 마지막 귀퉁이 여기 있다, 자. |  | emotion=amused
+E | ? | 표가 없으면 새로 사셔야 합니다. 규정입니다, 죄송합니다. |  | emotion=stiff+polite
+A | ? | 제가 내리면 양은요? 쟤도 표 없잖아요! |  | emotion=annoyed
+E | ? | 쟤 표는 뱃속에 있죠, 손님. 손님은 새로 사세요. |  | emotion=amused+polite

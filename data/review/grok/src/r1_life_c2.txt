@@ -9,11 +9,11 @@ twist: 7 emotion
 purpose: making_friends study_abroad
 goal: naber·özledim 으로 밤 채팅 주고받기
 expressions: naber; yok ya; hadi canım; aynen; iyi geceler; kanka
-B | Naber? Hâlâ uyumadın mı? | 뭐 해? 아직 안 잤어? | hâlâ = 아직도 | emotion=gentle
-A | Uyuyamıyorum. Evimi özledim. | 잠이 안 와. 집이 그리워. | özledim = 그리웠다 | emotion=sad
-B | Neyi özledin? Annenin yemeğini mi? | 뭐가 그리운데? 어머니 밥? | neyi = 무엇을 | emotion=gentle
-A | O da. Burada kimsem yok ya. | 그것도. 여기 아무도 없잖아. | kimsem yok = 내 사람이 없다 | emotion=sad
-B | Hadi canım. Ya ben? | 에이 설마. 나는? | ya ben? = 나는? | emotion=tsukkomi+gentle
-A | Sen yemeğimi yiyorsun. | 넌 내 밥을 먹잖아. | yiyorsun = 먹고 있어 | emotion=amused
-B | Aynen. Aile işi bu. | 맞아. 그게 가족이지. | aile = 가족 — 반전 | emotion=teasing+gentle
-A | Öldüm 😂 İyi geceler, kanka. | 죽겠다 😂 잘 자, 친구야. | öldüm = 죽겠다(웃겨서) | emotion=amused
+B | ? | 뭐 해? 아직 안 잤어? |  | emotion=gentle
+A | ? | 잠이 안 와. 집이 그리워. |  | emotion=sad
+B | ? | 뭐가 그리운데? 어머니 밥? |  | emotion=gentle
+A | ? | 그것도. 여기 아무도 없잖아. |  | emotion=sad
+B | ? | 에이 설마. 나는? |  | emotion=tsukkomi+gentle
+A | ? | 넌 내 밥을 먹잖아. |  | emotion=amused
+B | ? | 맞아. 그게 가족이지. |  | emotion=teasing+gentle
+A | ? | 죽겠다 😂 잘 자, 친구야. |  | emotion=amused

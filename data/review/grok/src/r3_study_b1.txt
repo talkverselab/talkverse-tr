@@ -9,19 +9,19 @@ twist: 10 chaos
 purpose: study_abroad
 goal: bir dakika·merak etme 로 대중교통에서 살아남기
 expressions: bir dakika; hadi; harika; hocam; şey
-B | Maketi sana veriyorum. Üç aylık emek, lütfen dikkat et. | 모형 너한테 맡긴다. 석 달 치 고생이야, 제발 조심해. | maket = 건축 모형 | emotion=worried
-A | Merak etme. Bebek gibi taşırım, ne olacak? | 걱정 마. 아기처럼 모실게, 뭔 일 있겠어? | taşımak = 나르다 | emotion=cheerful
-B | Jüri saat ikide. Dolmuşta kucağından indirme, tamam mı? | 심사 두 시야. 돌무쉬에서 무릎에서 내려놓지 마, 알았지? | kucak = 무릎 위 | emotion=worried
-A | Tamam, tamam. Sen git, ben arkadan gelirim. | 알았어, 알았어. 너 먼저 가, 나 뒤따라갈게. | arkadan = 뒤에서 | emotion=neutral
-C | Arkadaş, parayı öne uzatır mısın? İki öğrenci. | 저기, 돈 좀 앞으로 넘겨 줄래? 학생 둘. | uzatmak = 건네다(돌무쉬에선 요금을 앞으로 넘긴다) | emotion=polite
-A | Tabii, ama ellerim dolu. Bir dakika… | 네, 근데 손이 꽉 찼어요. 잠깐만요… | ellerim dolu = 손이 꽉 찼다 | emotion=flustered
-C | Ver, maketi ben tutayım. Sen parayı uzat. Hadi! | 줘 봐, 모형은 내가 들게. 넌 돈 넘겨. 어서! | tutayım = 내가 들게 | emotion=cheerful
-D | Kaç kişi? Öğrenci mi, tam mı? | 몇 명이에요? 학생이에요, 일반이에요? | tam = 일반 요금 | emotion=neutral
-A | İki öğrenci! Şoför bey, yavaş lütfen, maket var! | 학생 둘요! 기사님, 천천히요, 모형 있어요! | yavaş = 천천히 | emotion=worried
-D | Tutunun! Duruyorum! | 꽉 잡아요! 섭니다! | tutunmak = 붙잡다 — 반전: 급정거 | emotion=shout
-A | Zeynep… kötü bir haberim var. Maketin bir köşesi yok. | Zeynep… 안 좋은 소식이 있어. 모형 한쪽 모서리가 없어. | köşe = 모서리 | emotion=sad
-B | Ne demek yok? Nereye gitti? Neredesin sen? | 없다니 무슨 말이야? 어디로 갔는데? 너 어디야? | ne demek = 무슨 말이야 | emotion=shout
-E | Zeynep Hanım, bu kırık köşe çok cesur. Ne anlatıyor? | Zeynep 씨, 이 깨진 모서리 아주 과감하네요. 뭘 표현한 거죠? | cesur = 과감한 | emotion=stiff
-B | Şey… hocam, şehrin kalabalığını anlatıyor. | 저… 교수님, 도시의 혼잡함을 표현했습니다. | kalabalık = 혼잡 | emotion=flustered
-E | Harika. Yıllardır böyle maket görmedim. Doksan beş. | 훌륭해요. 몇 년 만에 이런 모형을 보네요. 95점. | yıllardır = 몇 년 동안 | emotion=excited
-B | Seninle konuşmuyorum. Ama dolmuş parası benden. | 너랑 말 안 할 거야. 근데 돌무쉬 값은 내가 낼게. | benden = 내가 낸다 | emotion=annoyed
+B | ? | 모형 너한테 맡긴다. 석 달 치 고생이야, 제발 조심해. |  | emotion=worried
+A | ? | 걱정 마. 아기처럼 모실게, 뭔 일 있겠어? |  | emotion=cheerful
+B | ? | 심사 두 시야. 돌무쉬에서 무릎에서 내려놓지 마, 알았지? |  | emotion=worried
+A | ? | 알았어, 알았어. 너 먼저 가, 나 뒤따라갈게. |  | emotion=neutral
+C | ? | 저기, 돈 좀 앞으로 넘겨 줄래? 학생 둘. |  | emotion=polite
+A | ? | 네, 근데 손이 꽉 찼어요. 잠깐만요… |  | emotion=flustered
+C | ? | 줘 봐, 모형은 내가 들게. 넌 돈 넘겨. 어서! |  | emotion=cheerful
+D | ? | 몇 명이에요? 학생이에요, 일반이에요? |  | emotion=neutral
+A | ? | 학생 둘요! 기사님, 천천히요, 모형 있어요! |  | emotion=worried
+D | ? | 꽉 잡아요! 섭니다! |  | emotion=shout
+A | ? | Zeynep… 안 좋은 소식이 있어. 모형 한쪽 모서리가 없어. |  | emotion=sad
+B | ? | 없다니 무슨 말이야? 어디로 갔는데? 너 어디야? |  | emotion=shout
+E | ? | Zeynep 씨, 이 깨진 모서리 아주 과감하네요. 뭘 표현한 거죠? |  | emotion=stiff
+B | ? | 저… 교수님, 도시의 혼잡함을 표현했습니다. |  | emotion=flustered
+E | ? | 훌륭해요. 몇 년 만에 이런 모형을 보네요. 95점. |  | emotion=excited
+B | ? | 너랑 말 안 할 거야. 근데 돌무쉬 값은 내가 낼게. |  | emotion=annoyed

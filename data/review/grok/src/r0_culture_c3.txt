@@ -9,11 +9,11 @@ twist: 7 emotion
 purpose: love
 goal: bilmem·yani 로 밤 채팅 이어 가기
 expressions: ne alaka; of; bilmem; yani
-B | Uyudun mu? Fincan aklımdan çıkmıyor. | 자? 그 잔이 머리에서 안 떠나. | aklımdan çıkmıyor = 머리에서 안 떠난다 | emotion=gentle+worried
-A | Hangi fincan? Ha, E harfi! | 무슨 잔? 아, E! | hangi = 어느 | emotion=neutral+surprised
-B | Emre'ye sordun mu? | Emre 한테 물어봤어? | sormak = 묻다 | emotion=teasing
-A | Sordum. Ne alaka, dedi. | 물어봤지. 뭔 소리냐던데. | ne alaka = 뭔 소리야 | emotion=amused
-B | Of {name}. Başka E bilmiyor musun? | 아휴 {name}. 다른 E 몰라? | başka = 다른 | emotion=annoyed+teasing
-A | Bilmem… eczacı mı? | 글쎄… 약사? | eczacı = 약사 | emotion=flustered
-B | Adım Elif. | 내 이름 Elif 야. | adım = 내 이름 — 반전 | emotion=shy
-A | Yani… fincan haklıymış 😳 | 그러니까… 잔이 맞았네 😳 | haklı = 옳은 | emotion=flustered
+B | ? | 자? 그 잔이 머리에서 안 떠나. |  | emotion=gentle+worried
+A | ? | 무슨 잔? 아, E! |  | emotion=neutral+surprised
+B | ? | Emre 한테 물어봤어? |  | emotion=teasing
+A | ? | 물어봤지. 뭔 소리냐던데. |  | emotion=amused
+B | ? | 아휴 {name}. 다른 E 몰라? |  | emotion=annoyed+teasing
+A | ? | 글쎄… 약사? |  | emotion=flustered
+B | ? | 내 이름 Elif 야. |  | emotion=shy
+A | ? | 그러니까… 잔이 맞았네 😳 |  | emotion=flustered

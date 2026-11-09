@@ -9,19 +9,19 @@ twist: 11 slip
 purpose: study_abroad work_abroad
 goal: kusura bakmayın·ödemek 으로 집주인과 첫 만남 넘기기
 expressions: buyurun; kusura bakmayın; merhaba; önemli değil; çok güzel; pardon
-B | Buyurun, ev sahibi de burada. Kendinizi biraz anlatın. | 들어오세요, 집주인분도 계세요. 자기소개 좀 하세요. | kendinizi = 자신을 | emotion=polite
-A | Merhaba, adım {name}. Türkçem biraz kötü, kusura bakmayın. | 안녕하세요, 제 이름은 {name}.   터키어가 좀 서툴러요, 죄송합니다. | kusura bakmayın = 죄송합니다 | emotion=polite
-C | Önemli değil. Neden bu evi istiyorsunuz? | 괜찮아요. 왜 이 집을 원하세요? | neden = 왜 | emotion=polite
-A | Çünkü çok güzel. Sizinle yaşamak istiyorum. | 너무 좋아서요. 선생님이랑 같이 살고 싶어요. | sizinle = 당신과 함께(evinizde = 댁에서) | emotion=cheerful
-C | Benimle mi? Ben yetmiş yaşındayım, evliyim. | 저랑요? 전 일흔이고, 결혼도 했는데요. | evli = 결혼한 | emotion=surprised
-B | 'Evinizde' demek istedi, efendim. Türkçesi daha yeni. | '댁에서'라는 뜻이었어요, 선생님. 터키어가 아직 초보라서요. | demek istedi = 말하려던 것 | emotion=flustered
-A | Evet, evet! Pardon. Yani eviniz çok yaşlı, çok güzel. | 네, 네! 죄송해요. 그러니까 댁이 아주 늙어서 참 좋아요. | yaşlı = 늙은(사람) · 집은 eski | emotion=flustered
-C | Yaşlı mı? Ev mi yaşlı, ben mi? | 늙었다고요? 집이 늙었어요, 제가 늙었어요? | … mi, … mi? = ~요, ~요? | emotion=annoyed
-A | Hayır, siz değil! Siz çok… çok taze görünüyorsunuz. | 아뇨! 선생님 말고요! 아주… 아주 신선해 보이세요. | taze = 신선한(음식에 쓰는 말) | emotion=flustered
-B | Lütfen artık konuşmayın. Ben anlatırım. | 제발 이제 말씀하지 마세요. 제가 설명할게요. | konuşmayın = 말하지 마세요 | emotion=annoyed
-A | Tamam. Son bir soru: Kirayı ne zaman öpeyim? | 네. 마지막 질문이요. 월세는 언제 뽀뽀해 드릴까요? | öpmek = 입 맞추다(ödemek = 내다) — 반전 | emotion=polite
-C | Öpmek mi?! Eşim bunu duymasın! | 뽀뽀요?! 제 아내가 들으면 안 돼요! | duymasın = 듣지 않게 | emotion=shout
-B | Bitti. Kusura bakmayın, efendim. Biz gidiyoruz. | 끝났네요. 죄송합니다, 선생님. 저희 갈게요. | bitti = 끝났다 | emotion=flustered
-C | Yok, yok, oturun. Elli yıldır bu kadar gülmedim. Ev sizin. | 아뇨, 아뇨, 앉으세요. 50년 동안 이렇게 웃은 적이 없어요. 집은 드릴게요. | gülmek = 웃다 | emotion=amused
-A | Gerçekten mi? Ben de sizinle yaşamak istiyorum! | 진짜요? 저도 선생님이랑 살고 싶어요! | gerçekten mi? = 진짜요? | emotion=excited
-C | Kira yine de artar. | 그래도 월세는 오릅니다. | yine de = 그래도 | emotion=teasing
+B | ? | 들어오세요, 집주인분도 계세요. 자기소개 좀 하세요. |  | emotion=polite
+A | ? | 안녕하세요, 제 이름은 {name}.   터키어가 좀 서툴러요, 죄송합니다. |  | emotion=polite
+C | ? | 괜찮아요. 왜 이 집을 원하세요? |  | emotion=polite
+A | ? | 너무 좋아서요. 선생님이랑 같이 살고 싶어요. |  | emotion=cheerful
+C | ? | 저랑요? 전 일흔이고, 결혼도 했는데요. |  | emotion=surprised
+B | ? | '댁에서'라는 뜻이었어요, 선생님. 터키어가 아직 초보라서요. |  | emotion=flustered
+A | ? | 네, 네! 죄송해요. 그러니까 댁이 아주 늙어서 참 좋아요. |  | emotion=flustered
+C | ? | 늙었다고요? 집이 늙었어요, 제가 늙었어요? |  | emotion=annoyed
+A | ? | 아뇨! 선생님 말고요! 아주… 아주 신선해 보이세요. |  | emotion=flustered
+B | ? | 제발 이제 말씀하지 마세요. 제가 설명할게요. |  | emotion=annoyed
+A | ? | 네. 마지막 질문이요. 월세는 언제 뽀뽀해 드릴까요? |  | emotion=polite
+C | ? | 뽀뽀요?! 제 아내가 들으면 안 돼요! |  | emotion=shout
+B | ? | 끝났네요. 죄송합니다, 선생님. 저희 갈게요. |  | emotion=flustered
+C | ? | 아뇨, 아뇨, 앉으세요. 50년 동안 이렇게 웃은 적이 없어요. 집은 드릴게요. |  | emotion=amused
+A | ? | 진짜요? 저도 선생님이랑 살고 싶어요! |  | emotion=excited
+C | ? | 그래도 월세는 오릅니다. |  | emotion=teasing

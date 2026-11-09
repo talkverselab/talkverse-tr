@@ -9,11 +9,11 @@ twist: 6 slip
 purpose: love
 goal: naber·özür dilerim 으로 채팅 수습하기
 expressions: naber; sağ ol; ne alaka; eyvah; özür dilerim
-A | Elif, naber? Uyuyor musun? | Elif, 뭐 해? 자? | uyuyor musun = 자? | emotion=cheerful
-B | Uyumuyorum. Yemek yedin mi? | 안 자. 밥 먹었니? | yemek yedin mi = 밥 먹었어? — 어딘가 수상하다 | emotion=gentle
-A | Yedim 😊 Bugün çok güzeldin. | 먹었지 😊 오늘 진짜 예뻤어. | güzeldin = 예뻤다 | emotion=shy
-B | Sağ ol evladım. | 고맙다, 얘야. | evladım = 얘야 | emotion=gentle
-A | Evladım mı? 😂 Ne alaka? | 얘야? 😂 뭐야 그게? | ne alaka = 뭔 소리야 | emotion=surprised+tsukkomi
-B | Ben annesiyim. | 나 걔 엄마다. | annesi = 그 애의 엄마 — 반전 | emotion=stiff
-A | Eyvah! Özür dilerim, teyze! | 헉! 죄송합니다, 어머님! | teyze = 친구 어머니를 부르는 말 | emotion=flustered
-B | Telefon bende. Bir daha söyle: güzel miydim? | 폰 찾았다. 다시 말해 봐, 나 진짜 예뻤어? | bir daha = 한 번 더 — Elif 가 돌아왔다 | emotion=neutral+teasing
+A | ? | Elif, 뭐 해? 자? |  | emotion=cheerful
+B | ? | 안 자. 밥 먹었니? |  | emotion=gentle
+A | ? | 먹었지 😊 오늘 진짜 예뻤어. |  | emotion=shy
+B | ? | 고맙다, 얘야. |  | emotion=gentle
+A | ? | 얘야? 😂 뭐야 그게? |  | emotion=surprised+tsukkomi
+B | ? | 나 걔 엄마다. |  | emotion=stiff
+A | ? | 헉! 죄송합니다, 어머님! |  | emotion=flustered
+B | ? | 폰 찾았다. 다시 말해 봐, 나 진짜 예뻤어? |  | emotion=neutral+teasing

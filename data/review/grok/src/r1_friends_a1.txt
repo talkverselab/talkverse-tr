@@ -9,10 +9,10 @@ twist: 5 chaos
 purpose: making_friends travel
 goal: bir dakika·eyvah 로 다급할 때 말하기
 expressions: bir dakika; hadi ya; eyvah; bak
-B | Simitini yemeyecek misin? | 네 시미트 안 먹을 거야? | -meyecek misin? = 안 ~할 거야? | emotion=neutral
-A | Bir dakika! Önce fotoğraf çekiyorum. | 잠깐만! 사진부터 찍고. | fotoğraf çekmek = 사진 찍다 | emotion=cheerful
-B | Hadi ya, elinde tutma! Bak, martılar. | 에이, 손에 들고 있지 마! 봐, 갈매기. | martı = 갈매기 | emotion=annoyed+worried
-A | Eyvah! Simitim gitti! | 헉! 내 시미트 갔어! | eyvah = 헉, 큰일 났다 | emotion=surprised+shout
-B | Bir tane değil, hepsi geliyor! | 한 마리가 아니야, 다 몰려온다! | hepsi = 전부 — 반전 | emotion=shout
-A | Kafamda martı var! Can, yardım et! | 내 머리에 갈매기 있어! 잔, 좀 도와줘! | yardım et = 도와줘 | emotion=shout
-B | Bir dakika! Önce fotoğraf çekiyorum. | 잠깐만! 사진부터 찍고. | 앞에서 한 말을 그대로 돌려준다 | emotion=teasing
+B | ? | 네 시미트 안 먹을 거야? |  | emotion=neutral
+A | ? | 잠깐만! 사진부터 찍고. |  | emotion=cheerful
+B | ? | 에이, 손에 들고 있지 마! 봐, 갈매기. |  | emotion=annoyed+worried
+A | ? | 헉! 내 시미트 갔어! |  | emotion=surprised+shout
+B | ? | 한 마리가 아니야, 다 몰려온다! |  | emotion=shout
+A | ? | 내 머리에 갈매기 있어! 잔, 좀 도와줘! |  | emotion=shout
+B | ? | 잠깐만! 사진부터 찍고. |  | emotion=teasing

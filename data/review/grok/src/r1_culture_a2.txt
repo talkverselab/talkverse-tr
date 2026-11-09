@@ -9,11 +9,11 @@ twist: 7 reveal
 purpose: making_friends
 goal: hoş geldin·hoş bulduk 으로 집에 들어가기
 expressions: hoş geldin; hoş bulduk; tabii; olmaz; şey; hadi
-B | Hoş geldin! Gir, gir. | 어서 와! 들어와, 들어와. | hoş geldin = 어서 와 | emotion=cheerful
-A | Hoş bulduk. Ayakkabıları çıkarayım mı? | 반가워. 신발 벗을까? | hoş bulduk = hoş geldin 의 대답 | emotion=polite
-B | Tabii. Bizde herkes çıkarır. | 당연하지. 우리 집은 다 벗어. | bizde = 우리 쪽에서는 | emotion=cheerful
-A | Şey… çıkarmasam olmaz mı? | 저기… 안 벗으면 안 돼? | olmaz mı? = 안 될까? | emotion=shy
-B | Olmaz, annem içeride. Hadi. | 안 돼. 엄마 안에 계셔. 얼른. | olmaz = 안 돼 | emotion=tsukkomi+teasing
-A | Tamam, tamam. Çıkardım. | 알았어, 알았어. 벗었어. | çıkardım = 벗었다 | emotion=flustered
-B | {name}, parmağın bize selam veriyor. | {name}, 네 발가락이 우리한테 인사하는데. | parmak = 손가락·발가락 — 반전(양말 구멍) | emotion=teasing
-C | Hoş geldin, yavrum. Çorap getireyim mi? | 어서 와라, 얘야. 양말 갖다줄까? | çorap = 양말 | emotion=gentle
+B | ? | 어서 와! 들어와, 들어와. |  | emotion=cheerful
+A | ? | 반가워. 신발 벗을까? |  | emotion=polite
+B | ? | 당연하지. 우리 집은 다 벗어. |  | emotion=cheerful
+A | ? | 저기… 안 벗으면 안 돼? |  | emotion=shy
+B | ? | 안 돼. 엄마 안에 계셔. 얼른. |  | emotion=tsukkomi+teasing
+A | ? | 알았어, 알았어. 벗었어. |  | emotion=flustered
+B | ? | {name}, 네 발가락이 우리한테 인사하는데. |  | emotion=teasing
+C | ? | 어서 와라, 얘야. 양말 갖다줄까? |  | emotion=gentle

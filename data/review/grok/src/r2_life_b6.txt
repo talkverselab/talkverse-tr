@@ -9,15 +9,15 @@ twist: 10 chaos
 purpose: study_abroad work_abroad
 goal: affedersiniz·bakın 으로 끼어들기
 expressions: affedersiniz; şey; canım; olsun; kesinlikle
-B | Toplantı başladı. Aidat yine mi artıyor? | 회의 시작합니다. 관리비 또 올라요? | aidat = 관리비 | emotion=stiff+annoyed
-C | Asansör bozuk, kapı bozuk, ben de yorgunum. | 엘리베이터 고장, 문 고장, 저도 지쳤어요. | yorgun = 피곤한 | emotion=sad
-A | Affedersiniz, bir şey söyleyebilir miyim? | 실례합니다, 한 말씀 드려도 될까요? | söyleyebilir miyim? = 말해도 될까요? | emotion=polite
-D | Sonra, canım. Önce çöpü konuşalım. | 나중에, 얘야. 쓰레기 얘기부터 하자. | çöp = 쓰레기 | emotion=gentle+stiff
-B | Üst kat hep su döküyor, teyze! | 윗집이 맨날 물을 쏟아요, 아주머니! | su dökmek = 물을 쏟다 | emotion=annoyed
-D | Ben mi? Balkonu yıkadım, ayıp oluyor! | 내가? 발코니 닦은 거지, 너무하네! | ayıp = 부끄러운 일, 너무함 | emotion=surprised+annoyed
-A | Bakın, ben sadece… | 저기요, 저는 그냥… | bakın = 저기요(주의 끌기) | emotion=polite
-C | Kimse yönetici olmak istemiyor mu? | 아무도 관리 대표 안 하실 거예요? | yönetici = 관리 대표 | emotion=sad
-A | Şey, ben bir şey… | 저, 제가 뭘… | şey = 저, 그게 | emotion=flustered
-D | Bak, {name} konuşuyor! O olsun. | 봐라, {name} 말한다! 쟤가 하면 되겠다. | o olsun = 저 사람으로 하자 — 반전 | emotion=excited+cheerful
-B | Kesinlikle. Hayırlı olsun, yönetici! | 완전 찬성이에요. 축하해요, 대표님! | kesinlikle = 완전 그렇지 | emotion=cheerful+excited
-A | Ben sadece tuvaleti soracaktım. | 저는 그냥 화장실 어디냐고 물어보려던 건데요. | soracaktım = 물어보려 했다 | emotion=sad
+B | ? | 회의 시작합니다. 관리비 또 올라요? |  | emotion=stiff+annoyed
+C | ? | 엘리베이터 고장, 문 고장, 저도 지쳤어요. |  | emotion=sad
+A | ? | 실례합니다, 한 말씀 드려도 될까요? |  | emotion=polite
+D | ? | 나중에, 얘야. 쓰레기 얘기부터 하자. |  | emotion=gentle+stiff
+B | ? | 윗집이 맨날 물을 쏟아요, 아주머니! |  | emotion=annoyed
+D | ? | 내가? 발코니 닦은 거지, 너무하네! |  | emotion=surprised+annoyed
+A | ? | 저기요, 저는 그냥… |  | emotion=polite
+C | ? | 아무도 관리 대표 안 하실 거예요? |  | emotion=sad
+A | ? | 저, 제가 뭘… |  | emotion=flustered
+D | ? | 봐라, {name} 말한다! 쟤가 하면 되겠다. |  | emotion=excited+cheerful
+B | ? | 완전 찬성이에요. 축하해요, 대표님! |  | emotion=cheerful+excited
+A | ? | 저는 그냥 화장실 어디냐고 물어보려던 건데요. |  | emotion=sad

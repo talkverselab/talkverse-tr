@@ -9,11 +9,11 @@ twist: 6 chaos
 purpose: making_friends study_abroad
 goal: yoldayım·geliyorum 으로 급한 상황 보내기
 expressions: eyvah; geliyorum; yoldayım; yok artık
-A | Zeynep, sınav saat kaçta? | 제이넵, 시험 몇 시야? | saat kaçta = 몇 시에 | emotion=worried
-B | Dokuzda. | 아홉 시. | dokuzda = 9시에 | emotion=neutral
-A | Eyvah, saat sekiz buçuk! Geliyorum! | 헉! 지금 여덟 시 반이야! 간다! | buçuk = 반 | emotion=flustered
-A | Yoldayım! Yine pijamayla çıktım! | 가는 중! 또 잠옷 입고 나왔어! | -yla = ~를 입고, ~로 | emotion=excited
-A | Okuldayım. Kapı kapalı, bekçi bana bakıyor. | 학교 왔어. 문 닫혔고, 경비 아저씨가 쳐다봐. | bekçi = 경비 | emotion=worried
-B | Normal. Bugün pazar. | 당연하지. 오늘 일요일이야. | pazar = 일요일 — 반전 | emotion=neutral
-A | Yok artık! Neden söylemedin?! | 말도 안 돼! 왜 말 안 했어?! | söylemek = 말하다 | emotion=shout
-B | Sormadın 😐 | 안 물어봤잖아 😐 | sormak = 묻다 | emotion=stiff
+A | ? | 제이넵, 시험 몇 시야? |  | emotion=worried
+B | ? | 아홉 시. |  | emotion=neutral
+A | ? | 헉! 지금 여덟 시 반이야! 간다! |  | emotion=flustered
+A | ? | 가는 중! 또 잠옷 입고 나왔어! |  | emotion=excited
+A | ? | 학교 왔어. 문 닫혔고, 경비 아저씨가 쳐다봐. |  | emotion=worried
+B | ? | 당연하지. 오늘 일요일이야. |  | emotion=neutral
+A | ? | 말도 안 돼! 왜 말 안 했어?! |  | emotion=shout
+B | ? | 안 물어봤잖아 😐 |  | emotion=stiff

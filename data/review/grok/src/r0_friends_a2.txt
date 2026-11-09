@@ -9,11 +9,11 @@ twist: 6 ignore
 purpose: making_friends
 goal: hıhı·ne kadar 로 맞장구치고 되묻기
 expressions: bak; hıhı; ne kadar
-A | Zeynep, beni dinliyor musun? | 제이넵, 내 말 듣고 있어? | dinlemek = 듣다 | emotion=worried
-B | Hıhı. | 응응. | hıhı = 응응(건성 맞장구) | emotion=neutral
-A | Bak, bu akşam sinemaya gidelim mi? | 있잖아, 오늘 저녁에 영화 보러 갈까? | gidelim mi? = 갈까? | emotion=cheerful
-B | Hıhı. | 응응. | 여전히 눈은 종이에 | emotion=neutral
-A | Ben yarın ölüyorum. | 나 내일 죽어. | 현재형으로 가까운 미래도 말한다 | emotion=teasing
-B | Hıhı. | 응응. | 반전: 이 말에도 응응 | emotion=neutral
-A | Bütün paramı da sana bırakıyorum. | 내 돈도 전부 너한테 남길게. | bırakmak = 남기다 | emotion=amused
-B | Ne kadar? | 얼마나? | ne kadar = 얼마 | emotion=surprised
+A | ? | 제이넵, 내 말 듣고 있어? |  | emotion=worried
+B | ? | 응응. |  | emotion=neutral
+A | ? | 있잖아, 오늘 저녁에 영화 보러 갈까? |  | emotion=cheerful
+B | ? | 응응. |  | emotion=neutral
+A | ? | 나 내일 죽어. |  | emotion=teasing
+B | ? | 응응. |  | emotion=neutral
+A | ? | 내 돈도 전부 너한테 남길게. |  | emotion=amused
+B | ? | 얼마나? |  | emotion=surprised

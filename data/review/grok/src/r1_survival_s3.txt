@@ -9,11 +9,11 @@ twist: 6 chaos
 purpose: travel
 goal: karnım ağrıyor 로 증상 말하고 약국에서 살아남기
 expressions: buyurun; geçmiş olsun; şey; allah allah
-B | Buyurun, ne oldu? | 네, 어디가 불편하세요? | buyurun = 네, 말씀하세요 | emotion=polite
-A | Karnım ağrıyor. Çok ağrıyor. | 배가 아파요. 많이 아파요. | karnım ağrıyor = 배가 아파요 | emotion=worried
-B | Geçmiş olsun. Bugün ne yediniz? | 어머, 힘드시겠어요. 오늘 뭐 드셨어요? | geçmiş olsun = 쾌차하세요 | emotion=gentle+polite
-A | Sabah simit, öğlen kebap, akşam midye. | 아침엔 시미트, 점심엔 케밥, 저녁엔 홍합이요. | midye = 홍합 | emotion=neutral
-B | Hepsi bugün mü? Başka? | 그걸 오늘 다요? 또요? | hepsi = 전부 | emotion=surprised+polite
-A | Şey… şimdi de baklava. | 저… 지금은 바클라바요. | şimdi = 지금 — 반전: 손에 들고 먹는 중 | emotion=flustered+shy
-B | Allah allah! Bırakın o kutuyu! | 세상에! 그 상자 내려놓으세요! | bırakın = 내려놓으세요 | emotion=surprised+shout
-A | Olmaz. Çok güzel… size de bir tane? | 안 돼요. 너무 맛있어요… 선생님도 하나 드릴까요? | bir tane = 하나 | emotion=stiff+cheerful+amused
+B | ? | 네, 어디가 불편하세요? |  | emotion=polite
+A | ? | 배가 아파요. 많이 아파요. |  | emotion=worried
+B | ? | 어머, 힘드시겠어요. 오늘 뭐 드셨어요? |  | emotion=gentle+polite
+A | ? | 아침엔 시미트, 점심엔 케밥, 저녁엔 홍합이요. |  | emotion=neutral
+B | ? | 그걸 오늘 다요? 또요? |  | emotion=surprised+polite
+A | ? | 저… 지금은 바클라바요. |  | emotion=flustered+shy
+B | ? | 세상에! 그 상자 내려놓으세요! |  | emotion=surprised+shout
+A | ? | 안 돼요. 너무 맛있어요… 선생님도 하나 드릴까요? |  | emotion=stiff+cheerful+amused

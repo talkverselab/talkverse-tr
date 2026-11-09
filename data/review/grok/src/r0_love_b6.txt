@@ -9,11 +9,11 @@ twist: 6 chaos
 purpose: love
 goal: anlamadım·ne dedin 으로 시끄러운 곳에서 되묻기
 expressions: selam; anlamadım; eyvah; hadi
-B | Selam! Dans ediyor musun? | 안녕! 춤 안 춰? | dans etmek = 춤추다 | emotion=cheerful
-A | Ne? Anlamadım! | 뭐? 못 들었어! | anlamadım = 못 알아들었어 | emotion=surprised
-B | Dans! Dans edelim mi? | 춤! 춤출래? | edelim mi = ~할까? | emotion=excited
-A | Ne dedin? Müzik çok yüksek! | 뭐라고? 음악이 너무 커! | ne dedin = 뭐라고 했어 | emotion=shout
-B | SENDEN HOŞLANIYORUM! | 나 너 좋아한다고! | hoşlanmak = 좋아하다(-den 과 함께) | emotion=shout
-A | Müzik durdu. Herkes bize bakıyor. | 음악 멈췄어. 다 우릴 보고 있어. | 반전: 하필 그 순간 | emotion=flustered
-B | Eyvah! Hadi, dans edelim, hemen! | 헉! 자, 춤추자, 당장! | hemen = 지금 당장 | emotion=flustered+excited
-A | Aslında ilk seferde duydum. | 사실 처음에 바로 들었어. | ilk seferde = 처음에 | emotion=shy
+B | ? | 안녕! 춤 안 춰? |  | emotion=cheerful
+A | ? | 뭐? 못 들었어! |  | emotion=surprised
+B | ? | 춤! 춤출래? |  | emotion=excited
+A | ? | 뭐라고? 음악이 너무 커! |  | emotion=shout
+B | ? | 나 너 좋아한다고! |  | emotion=shout
+A | ? | 음악 멈췄어. 다 우릴 보고 있어. |  | emotion=flustered
+B | ? | 헉! 자, 춤추자, 당장! |  | emotion=flustered+excited
+A | ? | 사실 처음에 바로 들었어. |  | emotion=shy

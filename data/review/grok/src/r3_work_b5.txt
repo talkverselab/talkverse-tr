@@ -9,19 +9,19 @@ twist: 7 chaos
 purpose: work_abroad
 goal: çok pahalı·son fiyat·ne kadar 로 흥정하기
 expressions: ne kadar; çok pahalı; olmaz; bayıldım; bir dakika
-B | Bugün sadece dinle. Fiyatı ben söyleyeceğim, tamam mı? | 오늘은 듣기만 해. 가격은 내가 말할게, 알았지? | dinlemek = 듣다 | emotion=stiff
-A | Tamam. Sessiz otururum. Ağzımı bile açmam. | 알았어. 조용히 앉아 있을게. 입도 안 열어. | sessiz = 조용히 | emotion=cheerful
-C | Hoş geldiniz. Yıllık bakım için fiyatınız ne kadar? | 어서 오세요. 연간 유지보수 가격이 얼마죠? | yıllık = 연간 | emotion=polite
-B | Yıllık elli bin lira. Çok iyi bir fiyat. | 연 5만 리라입니다. 아주 좋은 가격이죠. | elli bin = 5만 | emotion=polite
-A | Elli bin mi? Çok pahalı! Olmaz! | 5만이요? 너무 비싸요! 안 돼요! | çok pahalı = 너무 비싸요 — 시장 버릇 | emotion=surprised+shout
-B | {name}, ne yapıyorsun? Bu bizim fiyatımız! | {name}, 뭐 하는 거야? 이거 우리 가격이잖아! | bizim = 우리의 | emotion=shout+annoyed
-C | Haklı, bence de pahalı. Kırk bin olur mu? | 맞아요, 저도 비싸다고 봐요. 4만 어때요? | haklı = 맞는 말이다 — 반전: 고객이 받았다 | emotion=amused+teasing
-A | Kırk mı? Yok, yok. Otuz, son fiyat! | 4만이요? 아니요, 아니요. 3만, 마지막 가격! | son fiyat = 마지막 가격 | emotion=surprised+annoyed+shout
-B | Kendi fiyatımızı kırıyorsun! Dur artık! | 우리 가격을 네가 깎고 있어! 그만 좀 해! | fiyat kırmak = 값을 깎다 | emotion=shout
-C | Otuz bin mi? Bayıldım! Anlaştık. | 3만이요? 마음에 쏙 드네요! 계약하죠. | anlaştık = 합의했어요 | emotion=surprised+excited+cheerful
-A | Bir dakika… ben sizin tarafınızda değilim ki! | 잠깐만요… 저 그쪽 편 아니거든요! | taraf = 편 | emotion=flustered
-D | Emre, toplantı nasıl gidiyor? Fiyatta anlaştınız mı? | Emre, 미팅 어떻게 돼 가요? 가격은 합의했어요? | anlaşmak = 합의하다 | emotion=polite
-B | Müdürüm, hiç sormayın. Elli bin otuz oldu. | 부장님, 묻지도 마세요. 5만이 3만 됐습니다. | hiç sormayın = 묻지도 마세요 | emotion=sad
-D | Otuz mu?! Kim yaptı bunu?! | 3만이요?! 누가 그랬어요?! | kim yaptı = 누가 했어요 | emotion=shout
-C | Ben de onu soracaktım. Bu arkadaşın maaşı ne kadar? | 저도 그걸 여쭤보려고 했어요. 이분 월급 얼마예요? | soracaktım = 물어보려고 했다 | emotion=polite+amused
-A | Çok az. Ama pazarlık yaparım. | 너무 적어요. 근데 흥정은 합니다. | pazarlık = 흥정 | emotion=sad+amused
+B | ? | 오늘은 듣기만 해. 가격은 내가 말할게, 알았지? |  | emotion=stiff
+A | ? | 알았어. 조용히 앉아 있을게. 입도 안 열어. |  | emotion=cheerful
+C | ? | 어서 오세요. 연간 유지보수 가격이 얼마죠? |  | emotion=polite
+B | ? | 연 5만 리라입니다. 아주 좋은 가격이죠. |  | emotion=polite
+A | ? | 5만이요? 너무 비싸요! 안 돼요! |  | emotion=surprised+shout
+B | ? | {name}, 뭐 하는 거야? 이거 우리 가격이잖아! |  | emotion=shout+annoyed
+C | ? | 맞아요, 저도 비싸다고 봐요. 4만 어때요? |  | emotion=amused+teasing
+A | ? | 4만이요? 아니요, 아니요. 3만, 마지막 가격! |  | emotion=surprised+annoyed+shout
+B | ? | 우리 가격을 네가 깎고 있어! 그만 좀 해! |  | emotion=shout
+C | ? | 3만이요? 마음에 쏙 드네요! 계약하죠. |  | emotion=surprised+excited+cheerful
+A | ? | 잠깐만요… 저 그쪽 편 아니거든요! |  | emotion=flustered
+D | ? | Emre, 미팅 어떻게 돼 가요? 가격은 합의했어요? |  | emotion=polite
+B | ? | 부장님, 묻지도 마세요. 5만이 3만 됐습니다. |  | emotion=sad
+D | ? | 3만이요?! 누가 그랬어요?! |  | emotion=shout
+C | ? | 저도 그걸 여쭤보려고 했어요. 이분 월급 얼마예요? |  | emotion=polite+amused
+A | ? | 너무 적어요. 근데 흥정은 합니다. |  | emotion=sad+amused

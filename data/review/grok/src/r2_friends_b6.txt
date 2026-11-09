@@ -9,15 +9,15 @@ twist: 10 ignore
 purpose: making_friends
 goal: 내기 걸기, 놀리기, olur·aman·yok artık
 expressions: olur; aman; yok artık
-B | İddiaya var mısın? Zeynep'e tek kelime söyletemezsin. | 내기할래? 넌 제이넵 입에서 한 마디도 못 뽑아. | iddia = 내기 · söyletmek = 말하게 하다 | emotion=teasing
-A | Olur! Kaybeden künefe ısmarlar. | 좋아! 진 사람이 퀴네페 사기. | ısmarlamak = 사다, 쏘다 | emotion=excited
-A | Zeynep, bu elbise sana çok yakışmış. | 제이넵, 이 옷 너한테 너무 잘 어울린다. | yakışmak = 어울리다 | emotion=cheerful
-B | Bakmadı bile. Bir sıfır. | 쳐다보지도 않았어. 1대 0. | sıfır = 0 | emotion=amused
-A | Bence tasarımın çok kötü, Zeynep. | 내 생각엔 네 디자인 진짜 별로야, 제이넵. | bence = 내 생각엔 | emotion=teasing
-B | Aman, o bakışı gördün mü? Ama ses yok. | 아이고, 그 눈빛 봤어? 근데 소리는 없어. | bakış = 눈빛 | emotion=amused
-A | Zeynep, telefonun çalıyor! Annen arıyor! | 제이넵, 너 폰 울려! 엄마 전화야! | aramak = 전화하다 | emotion=excited
-B | Telefonu açtı, mesaj yazdı. Yine tek kelime yok! | 전화 받더니 문자로 썼어. 또 한 마디도 없어! | telefonu açmak = 전화를 받다 | emotion=surprised+tsukkomi
-A | Yok artık! Bu kız insan değil. | 말도 안 돼! 얘 사람 아니야. | insan = 사람 | emotion=annoyed
-C | Bitti. Bir saat tamam. | 끝. 한 시간 채웠어. | bitti = 끝났다 — 반전 | emotion=stiff
-B | Ne bir saati? Sen konuştun! | 무슨 한 시간? 너 말했어! | ne ~i = 무슨 ~ | emotion=surprised
-C | Can'la iddiam vardı. Künefe ondan. | 잔이랑 내기했거든. 퀴네페는 걔가 사. | ondan = 그에게서 | emotion=teasing
+B | ? | 내기할래? 넌 제이넵 입에서 한 마디도 못 뽑아. |  | emotion=teasing
+A | ? | 좋아! 진 사람이 퀴네페 사기. |  | emotion=excited
+A | ? | 제이넵, 이 옷 너한테 너무 잘 어울린다. |  | emotion=cheerful
+B | ? | 쳐다보지도 않았어. 1대 0. |  | emotion=amused
+A | ? | 내 생각엔 네 디자인 진짜 별로야, 제이넵. |  | emotion=teasing
+B | ? | 아이고, 그 눈빛 봤어? 근데 소리는 없어. |  | emotion=amused
+A | ? | 제이넵, 너 폰 울려! 엄마 전화야! |  | emotion=excited
+B | ? | 전화 받더니 문자로 썼어. 또 한 마디도 없어! |  | emotion=surprised+tsukkomi
+A | ? | 말도 안 돼! 얘 사람 아니야. |  | emotion=annoyed
+C | ? | 끝. 한 시간 채웠어. |  | emotion=stiff
+B | ? | 무슨 한 시간? 너 말했어! |  | emotion=surprised
+C | ? | 잔이랑 내기했거든. 퀴네페는 걔가 사. |  | emotion=teasing

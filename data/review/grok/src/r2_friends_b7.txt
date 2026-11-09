@@ -9,14 +9,14 @@ twist: 7 emotion
 purpose: making_friends study_abroad
 goal: olsun·sorun yok 으로 괜찮은 척하기, 명절 문화
 expressions: önemli değil; yok artık; olsun; sorun yok; kanka; bak; galiba
-B | Alo, neredesin? Bütün gün ses yok. | 여보세요, 어디야? 하루 종일 조용하네. | ses yok = 소식 없다 | emotion=gentle
-A | Evdeyim. İstanbul boş, herkes memlekete gitti. | 집이야. 이스탄불 텅 비었어, 다 고향 갔어. | memleket = 고향 | emotion=sad
-B | Bayramda tek başına ne yapıyorsun? | 명절에 혼자 뭐 해? | bayram = 명절 · tek başına = 혼자 | emotion=worried
-A | Hiç. Makarna yaptım, önemli değil. | 아무것도. 파스타 끓였어, 별거 아니야. | makarna = 파스타 | emotion=sad
-B | Bayramda makarna mı? Yok artık. | 명절에 파스타? 말도 안 돼. | bayramda = 명절에 | emotion=surprised
-A | Olsun, ben alıştım. Sorun yok. | 괜찮아, 나 익숙해. 문제없어. | alışmak = 익숙해지다 | emotion=sad
-B | Annem sofrayı kurdu. Sana da tabak koymuş. | 엄마가 상 차리셨어. 네 접시도 놓으셨더라. | sofra kurmak = 상 차리다 — 반전 | emotion=gentle
-A | Bana mı? Ben oraya gelmiyorum ki… | 나한테? 나 거기 안 가는데… | oraya = 거기로 | emotion=surprised
-B | "O da benim çocuğum" diyor. Kanka, pencereye bak. | 「걔도 내 자식」이래. 야, 창문 봐. | çocuğum = 내 아이 | emotion=gentle+cheerful
-A | Can, aşağıda mısın? Ben ağlıyorum galiba. | 잔, 밑에 있어? 나 우는 것 같아. | aşağıda = 아래에 | emotion=surprised+sad
-B | Ağlama, in. Annemin elini öp, harçlık da var. | 울지 말고 내려와. 엄마 손에 입 맞춰, 세뱃돈도 있어. | el öpmek = 손 입맞춤(명절 인사) · harçlık = 용돈 | emotion=gentle+cheerful
+B | ? | 여보세요, 어디야? 하루 종일 조용하네. |  | emotion=gentle
+A | ? | 집이야. 이스탄불 텅 비었어, 다 고향 갔어. |  | emotion=sad
+B | ? | 명절에 혼자 뭐 해? |  | emotion=worried
+A | ? | 아무것도. 파스타 끓였어, 별거 아니야. |  | emotion=sad
+B | ? | 명절에 파스타? 말도 안 돼. |  | emotion=surprised
+A | ? | 괜찮아, 나 익숙해. 문제없어. |  | emotion=sad
+B | ? | 엄마가 상 차리셨어. 네 접시도 놓으셨더라. |  | emotion=gentle
+A | ? | 나한테? 나 거기 안 가는데… |  | emotion=surprised
+B | ? | 「걔도 내 자식」이래. 야, 창문 봐. |  | emotion=gentle+cheerful
+A | ? | 잔, 밑에 있어? 나 우는 것 같아. |  | emotion=surprised+sad
+B | ? | 울지 말고 내려와. 엄마 손에 입 맞춰, 세뱃돈도 있어. |  | emotion=gentle+cheerful

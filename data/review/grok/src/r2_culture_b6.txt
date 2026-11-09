@@ -9,14 +9,14 @@ twist: 9 emotion
 purpose: love media
 goal: tabii ki·anlamadım 으로 콘서트에서 말 걸기
 expressions: tabii ki; anlamadım; valla; bak; ee; şey
-B | Kalabalık çok! Elimi tut, kaybolma. | 사람 진짜 많다! 내 손 잡아, 길 잃지 마. | kaybolmak = 길을 잃다 | emotion=excited
-A | Tuttum. Bu şarkıyı biliyor musun? | 잡았어. 이 노래 알아? | şarkı = 노래 | emotion=cheerful
-B | Tabii ki! Herkes biliyor, sen de söyle! | 당연하지! 다 알아, 너도 불러! | tabii ki = 당연하지 | emotion=excited
-A | Anlamadım ki. Ne diyor bu adam? | 못 알아듣겠어. 이 사람 뭐래? | anlamadım = 못 알아들었어 | emotion=neutral
-B | Diyor ki: Gözlerine bakınca susarım. | 이러잖아. 네 눈을 보면 말을 잃어. | susmak = 말을 멈추다 | emotion=gentle
-A | Sen mi? Sen hiç susmazsın, valla. | 너가? 넌 절대 말 안 멈추지, 진짜. | valla = 진짜로 | emotion=teasing
-B | Susarım. Bak, şimdi sana bakıyorum. | 멈출 수 있거든. 봐, 지금 너 보고 있잖아. | bak = 봐 | emotion=shy+gentle
-A | Ee? Hâlâ konuşuyorsun ama. | 그래서? 아직 말하고 있는데. | ee = 그래서? | emotion=teasing
-B | Şey… | 저기… | şey = 저기 — 반전: 처음으로 말이 끊겼다 | emotion=shy
-A | Konser bitti, Elif. Elimi bırakabilirsin. | 콘서트 끝났어, Elif. 손 놔도 돼. | bırakmak = 놓다 | emotion=teasing
-B | Kaybolma dedim ya. | 길 잃지 말랬잖아. | dedim ya = 말했잖아 | emotion=shy
+B | ? | 사람 진짜 많다! 내 손 잡아, 길 잃지 마. |  | emotion=excited
+A | ? | 잡았어. 이 노래 알아? |  | emotion=cheerful
+B | ? | 당연하지! 다 알아, 너도 불러! |  | emotion=excited
+A | ? | 못 알아듣겠어. 이 사람 뭐래? |  | emotion=neutral
+B | ? | 이러잖아. 네 눈을 보면 말을 잃어. |  | emotion=gentle
+A | ? | 너가? 넌 절대 말 안 멈추지, 진짜. |  | emotion=teasing
+B | ? | 멈출 수 있거든. 봐, 지금 너 보고 있잖아. |  | emotion=shy+gentle
+A | ? | 그래서? 아직 말하고 있는데. |  | emotion=teasing
+B | ? | 저기… |  | emotion=shy
+A | ? | 콘서트 끝났어, Elif. 손 놔도 돼. |  | emotion=teasing
+B | ? | 길 잃지 말랬잖아. |  | emotion=shy

@@ -9,19 +9,19 @@ twist: 10 reveal
 purpose: work_abroad
 goal: kanka·yok artık·öldüm 으로 친구 추궁하기
 expressions: kanka; yok artık; öldüm; bir dakika; tabii ki
-A | Bugün yine iki saat geç geldin. Müdür hiçbir şey demedi. | 오늘 또 두 시간 늦었는데. 매니저님 아무 말 안 하시네. | geç gelmek = 늦게 오다 | emotion=surprised
-B | Demez. Müdür beni çok seviyor, kanka. | 안 하시지. 매니저님이 날 엄청 좋아하거든, 친구야. | kanka = 친구야 | emotion=amused
-A | Geçen hafta kasanın yanında uyudun. Hiç kızmadı. | 지난주엔 계산대 옆에서 잤잖아. 화도 안 내셨어. | kızmak = 화내다 | emotion=annoyed
-B | Yorgundum. Sabahtan beri pasta yiyordum. | 피곤했어. 아침부터 케이크 먹었거든. | sabahtan beri = 아침부터 | emotion=neutral
-A | Ben beş dakika geç kalınca maaşımdan kesiyor. Bu ne yani? | 나는 5분 늦으면 월급에서 깎으시는데. 이게 뭐야? | kesmek = 깎다 | emotion=annoyed
-B | Sen de pasta ye, belki seni de sever. | 너도 케이크 먹어, 혹시 너도 좋아하실지 몰라. | belki = 혹시 | emotion=teasing
-A | Can, dalga geçme. Sende bir şey var. Söyle. | Can, 장난치지 마. 너 뭐 있어. 말해. | dalga geçme = 놀리지 마 | emotion=annoyed
-B | Hatırlıyor musun, kameradaki o geceyi? Pijamalı müdürü? | 기억나? 카메라 그날 밤? 잠옷 입은 매니저님? | hatırlamak = 기억하다 | emotion=teasing
-A | Tabii ki hatırlıyorum. Bana bir dilim bile vermedin. | 당연히 기억나지. 나한텐 한 조각도 안 줬잖아. | tabii ki = 당연하지 | emotion=annoyed
-B | O pijamayı ona ben aldım. Anneler Günü'nde. | 그 잠옷, 내가 사 드린 거야. 어머니날에. | Anneler Günü = 어머니날 — 반전 | emotion=amused
-A | Bir dakika… Anneler Günü mü? Müdür senin annen mi?! | 잠깐만… 어머니날? 매니저님이 네 어머니야?! | annen = 네 어머니 | emotion=surprised
-B | Evet. Gece pastası annem, gündüz pastası ben. | 응. 밤 케이크는 엄마, 낮 케이크는 나. | gündüz = 낮 | emotion=amused
-A | Yok artık! Bir yıldır sana annenin dedikodusunu yapıyorum! | 말도 안 돼! 1년째 너한테 네 어머니 험담했잖아! | dedikodu = 험담 | emotion=shout
-B | Biliyorum. Her akşam anlatıyorum, çok gülüyoruz. | 알아. 매일 저녁 얘기해 드려, 엄청 웃어. | anlatmak = 얘기하다 | emotion=amused
-A | Öldüm. Şimdi ben ne yapacağım? | 나 죽었다. 이제 나 어떡해? | öldüm = 죽었다 | emotion=sad
-B | Hiç. Annem selam söyledi. Yarın beş dakika erken gel. | 아무것도. 엄마가 안부 전하래. 내일 5분 일찍 와. | selam söylemek = 안부 전하다 | emotion=teasing
+A | ? | 오늘 또 두 시간 늦었는데. 매니저님 아무 말 안 하시네. |  | emotion=surprised
+B | ? | 안 하시지. 매니저님이 날 엄청 좋아하거든, 친구야. |  | emotion=amused
+A | ? | 지난주엔 계산대 옆에서 잤잖아. 화도 안 내셨어. |  | emotion=annoyed
+B | ? | 피곤했어. 아침부터 케이크 먹었거든. |  | emotion=neutral
+A | ? | 나는 5분 늦으면 월급에서 깎으시는데. 이게 뭐야? |  | emotion=annoyed
+B | ? | 너도 케이크 먹어, 혹시 너도 좋아하실지 몰라. |  | emotion=teasing
+A | ? | Can, 장난치지 마. 너 뭐 있어. 말해. |  | emotion=annoyed
+B | ? | 기억나? 카메라 그날 밤? 잠옷 입은 매니저님? |  | emotion=teasing
+A | ? | 당연히 기억나지. 나한텐 한 조각도 안 줬잖아. |  | emotion=annoyed
+B | ? | 그 잠옷, 내가 사 드린 거야. 어머니날에. |  | emotion=amused
+A | ? | 잠깐만… 어머니날? 매니저님이 네 어머니야?! |  | emotion=surprised
+B | ? | 응. 밤 케이크는 엄마, 낮 케이크는 나. |  | emotion=amused
+A | ? | 말도 안 돼! 1년째 너한테 네 어머니 험담했잖아! |  | emotion=shout
+B | ? | 알아. 매일 저녁 얘기해 드려, 엄청 웃어. |  | emotion=amused
+A | ? | 나 죽었다. 이제 나 어떡해? |  | emotion=sad
+B | ? | 아무것도. 엄마가 안부 전하래. 내일 5분 일찍 와. |  | emotion=teasing

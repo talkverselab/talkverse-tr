@@ -9,11 +9,11 @@ twist: 6 chaos
 purpose: love
 goal: hadi·olur·tamam mı 로 내기 걸기
 expressions: hadi; olur; ne alaka
-B | Tavla biliyor musun? Hadi, oynayalım. | 타블라 할 줄 알아? 자, 한 판 하자. | tavla = 터키식 주사위 보드게임 | emotion=teasing
-A | Biraz biliyorum. Ne için oynuyoruz? | 조금 알아. 뭐 걸고 해? | ne için = 뭘 위해 | emotion=cheerful
-B | Kaybeden numarasını verir. Tamam mı? | 진 사람이 번호 주기. 됐지? | kaybeden = 진 사람 | emotion=teasing
-A | Olur. Ama ben çok kötüyüm. | 좋아. 근데 나 진짜 못해. | olur = 좋아 | emotion=cheerful+shy
-C | Evladım, onu oynama! Şunu oyna, şunu! | 얘야, 그거 말고! 이거, 이거 둬! | evladım = 얘야(남녀 공통) | emotion=shout
-B | Ne alaka amca? Masada beş amca var! | 아저씨, 이게 뭐예요? 테이블에 아저씨만 다섯이잖아요! | ne alaka = 뭔 소리야 — 반전: 훈수가 불어난다 | emotion=tsukkomi
-C | Kazandık evladım, kazandık! | 이겼다, 얘야, 우리가 이겼어! | kazandık = 우리가 이겼다 | emotion=excited
-B | Bile bile kaybettim. Al, numaram. | 일부러 진 거야. 자, 내 번호. | bile bile = 일부러 | emotion=shy
+B | ? | 타블라 할 줄 알아? 자, 한 판 하자. |  | emotion=teasing
+A | ? | 조금 알아. 뭐 걸고 해? |  | emotion=cheerful
+B | ? | 진 사람이 번호 주기. 됐지? |  | emotion=teasing
+A | ? | 좋아. 근데 나 진짜 못해. |  | emotion=cheerful+shy
+C | ? | 얘야, 그거 말고! 이거, 이거 둬! |  | emotion=shout
+B | ? | 아저씨, 이게 뭐예요? 테이블에 아저씨만 다섯이잖아요! |  | emotion=tsukkomi
+C | ? | 이겼다, 얘야, 우리가 이겼어! |  | emotion=excited
+B | ? | 일부러 진 거야. 자, 내 번호. |  | emotion=shy

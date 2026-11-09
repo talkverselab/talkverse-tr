@@ -9,17 +9,17 @@ twist: 10 emotion
 purpose: travel love
 goal: bilmem ki·aynen·sanırım 으로 말 돌리고 마음 들키기
 expressions: aynen; bilmem ki; ne demek; sanırım; olmaz
-A | Saat üç, hava buz gibi. Elif, gerçekten uyanık mısın? | 세 시야, 날씨가 얼음 같아. 엘리프, 진짜 깬 거야? | buz gibi = 얼음처럼 차가운 | emotion=neutral+surprised
-B | Uyanığım. Şaşırma, ben de şaşırdım. Bak, çayı bile kendim aldım. | 깼어. 놀라지 마, 나도 놀랐어. 봐, 차도 내가 샀어. | şaşırmak = 놀라다 | emotion=amused
-A | Kapadokya'da balon için bile kalkmadın. Kahvaltı deyince kalktın. | 카파도키아에선 풍선 때문에도 안 일어났잖아. 아침밥이라니까 일어났지. | deyince = 그 말을 하자 | emotion=teasing
-B | Aynen, çünkü kahvaltı vardı. Burada kahvaltı da yok, yol da zor. | 맞아, 아침밥이 있었으니까. 여긴 아침도 없고, 길도 험해. | aynen = 맞아 그거 | emotion=amused
-A | O zaman neden geldin? Üç saat dağa çıktık, taşlara bakacağız. | 그럼 왜 왔어? 세 시간 산 올라와서, 돌을 볼 거잖아. | taş = 돌 | emotion=teasing
-B | Bilmem ki… Taşları çok seviyorum herhalde. | 글쎄… 돌을 엄청 좋아하나 보지. | bilmem ki = 글쎄 | emotion=shy
-A | Dün «taş taştır» diyordun. Üşüyorsun, gel, ceketimi al. | 어제는 「돌은 돌이지」 그랬으면서. 춥잖아, 이리 와, 내 재킷 입어. | üşümek = 춥다 · ceket = 재킷 | emotion=teasing+gentle
-B | Sen üşürsün. Yarısı senin, gel yanıma, böyle oturalım. | 넌 추울 거야. 반은 네 거, 내 옆에 와, 이렇게 앉자. | yarısı senin = 반은 네 거 | emotion=gentle+shy
-A | Bak, güneş geliyor. Elif, bu dağ gerçekten çok güzel… | 봐, 해 뜬다. 엘리프, 이 산 진짜 너무 멋지다… | güneş = 해 | emotion=excited+gentle
-B | Hiç bakmıyorum ki. Yani bakıyorum… ama dağa değil. | 나 안 보고 있는데. 아니 보긴 보는데… 산은 아니고. | dağa değil = 산이 아니라 — 반전 | emotion=shy
-A | Ne demek dağa değil? Elif, ben… şey… | 산이 아니라니 무슨 말이야? 엘리프, 나… 그게… | ne demek = 무슨 말이야 | emotion=surprised+flustered
-B | Sus. Ben sabah uyanmam, biliyorsun. Neden kalktım, bir düşün. | 쉿. 나 아침에 못 일어나는 거 알잖아. 왜 일어났는지, 생각해 봐. | bir düşün = 한번 생각해 봐 | emotion=gentle+shy
-A | Düşündüm. Sanırım anladım. Ama bir daha söyler misin? | 생각해 봤어. 알 것 같아. 근데 한 번 더 말해 줄래? | sanırım = 내 생각엔 | emotion=gentle+teasing
-B | Olmaz. Şimdi kahvaltı, sonra belki. | 안 돼. 일단 아침 먹고, 그다음에 어쩌면. | belki = 어쩌면 | emotion=teasing
+A | ? | 세 시야, 날씨가 얼음 같아. 엘리프, 진짜 깬 거야? |  | emotion=neutral+surprised
+B | ? | 깼어. 놀라지 마, 나도 놀랐어. 봐, 차도 내가 샀어. |  | emotion=amused
+A | ? | 카파도키아에선 풍선 때문에도 안 일어났잖아. 아침밥이라니까 일어났지. |  | emotion=teasing
+B | ? | 맞아, 아침밥이 있었으니까. 여긴 아침도 없고, 길도 험해. |  | emotion=amused
+A | ? | 그럼 왜 왔어? 세 시간 산 올라와서, 돌을 볼 거잖아. |  | emotion=teasing
+B | ? | 글쎄… 돌을 엄청 좋아하나 보지. |  | emotion=shy
+A | ? | 어제는 「돌은 돌이지」 그랬으면서. 춥잖아, 이리 와, 내 재킷 입어. |  | emotion=teasing+gentle
+B | ? | 넌 추울 거야. 반은 네 거, 내 옆에 와, 이렇게 앉자. |  | emotion=gentle+shy
+A | ? | 봐, 해 뜬다. 엘리프, 이 산 진짜 너무 멋지다… |  | emotion=excited+gentle
+B | ? | 나 안 보고 있는데. 아니 보긴 보는데… 산은 아니고. |  | emotion=shy
+A | ? | 산이 아니라니 무슨 말이야? 엘리프, 나… 그게… |  | emotion=surprised+flustered
+B | ? | 쉿. 나 아침에 못 일어나는 거 알잖아. 왜 일어났는지, 생각해 봐. |  | emotion=gentle+shy
+A | ? | 생각해 봤어. 알 것 같아. 근데 한 번 더 말해 줄래? |  | emotion=gentle+teasing
+B | ? | 안 돼. 일단 아침 먹고, 그다음에 어쩌면. |  | emotion=teasing

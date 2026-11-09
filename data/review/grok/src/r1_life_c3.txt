@@ -9,11 +9,11 @@ twist: 5 ignore
 purpose: study_abroad work_abroad
 goal: bozuk·yok artık 으로 집주인에게 메시지 보내기
 expressions: merhaba; yok artık; geçmiş olsun
-A | Merhaba. Kombi bozuk, ev çok soğuk. | 안녕하세요. 보일러가 고장 나서 집이 너무 추워요. | soğuk = 추운 | emotion=polite
-A | Görüyor musunuz? | 보고 계세요? | görüyor musunuz? = 보고 계세요? | emotion=worried
-A | Üç gündür sıcak su yok. | 사흘째 뜨거운 물이 안 나와요. | sıcak su = 뜨거운 물 | emotion=worried
-A | Mesajımı okudunuz, biliyorum. | 메시지 읽으신 거 다 알아요. | okudunuz = 읽으셨다 | emotion=annoyed
-B | Bugün ayın biri. Kira? | 오늘 1일이에요. 월세는요? | ayın biri = 매달 1일 — 반전: 이때만 답한다 | emotion=stiff
-A | Yok artık! Şimdi mi yazıyorsunuz?! | 말도 안 돼! 이제야 답하세요?! | yok artık = 말도 안 돼 | emotion=shout+annoyed
-A | Kombi ne olacak? | 보일러는 어떻게 돼요? | ne olacak? = 어떻게 돼요? | emotion=annoyed
-B | Geçmiş olsun. Hesap numaramı biliyorsunuz. | 고생 많으시네요. 계좌 번호는 아시죠. | hesap numarası = 계좌 번호 | emotion=polite+stiff
+A | ? | 안녕하세요. 보일러가 고장 나서 집이 너무 추워요. |  | emotion=polite
+A | ? | 보고 계세요? |  | emotion=worried
+A | ? | 사흘째 뜨거운 물이 안 나와요. |  | emotion=worried
+A | ? | 메시지 읽으신 거 다 알아요. |  | emotion=annoyed
+B | ? | 오늘 1일이에요. 월세는요? |  | emotion=stiff
+A | ? | 말도 안 돼! 이제야 답하세요?! |  | emotion=shout+annoyed
+A | ? | 보일러는 어떻게 돼요? |  | emotion=annoyed
+B | ? | 고생 많으시네요. 계좌 번호는 아시죠. |  | emotion=polite+stiff

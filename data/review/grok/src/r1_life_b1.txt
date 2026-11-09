@@ -9,11 +9,11 @@ twist: 7 reveal
 purpose: making_friends study_abroad
 goal: elektrik gitti·fatura 로 정전 얘기하기
 expressions: oha; bir dakika; tamam; hadi ya
-B | Oha, elektrik gitti! Yemek ne olacak? | 헐, 전기 나갔어! 밥은 어떡해? | elektrik gitti = 전기가 나갔다 | emotion=surprised
-A | Önce yemek mi? Bir dakika, telefon nerede? | 밥이 먼저냐? 잠깐만, 폰 어디 있지? | önce = 먼저 | emotion=tsukkomi
-B | Bu mahallede hep böyle. Yarım saat sürer. | 이 동네 맨날 이래. 30분이면 돌아와. | yarım saat = 30분 | emotion=amused
-A | Tamam. Karanlıkta yemek yiyelim, çok romantik. | 그래. 어둠 속에서 먹자, 아주 로맨틱하네. | karanlıkta = 어둠 속에서 | emotion=teasing
-B | Bir dakika. Komşularda ışık var. | 잠깐만. 옆집들은 불이 켜져 있는데. | komşu = 이웃 | emotion=surprised
-A | Hadi ya. Üst katta da var. | 에이. 위층도 켜져 있네. | hadi ya = 설마, 에이 | emotion=surprised
-B | Bir tek sende yok. Faturayı ödedin mi? | 너네 집만 없어. 요금 냈어? | fatura = 고지서 — 반전 | emotion=teasing
-A | Fatura? Hangi fatura? | 고지서? 무슨 고지서? | hangi = 어느, 무슨 | emotion=flustered
+B | ? | 헐, 전기 나갔어! 밥은 어떡해? |  | emotion=surprised
+A | ? | 밥이 먼저냐? 잠깐만, 폰 어디 있지? |  | emotion=tsukkomi
+B | ? | 이 동네 맨날 이래. 30분이면 돌아와. |  | emotion=amused
+A | ? | 그래. 어둠 속에서 먹자, 아주 로맨틱하네. |  | emotion=teasing
+B | ? | 잠깐만. 옆집들은 불이 켜져 있는데. |  | emotion=surprised
+A | ? | 에이. 위층도 켜져 있네. |  | emotion=surprised
+B | ? | 너네 집만 없어. 요금 냈어? |  | emotion=teasing
+A | ? | 고지서? 무슨 고지서? |  | emotion=flustered

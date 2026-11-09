@@ -9,18 +9,18 @@ twist: 12 chaos
 purpose: making_friends study_abroad
 goal: 소문 부인하기, -mış 로 들은 말 전하기
 expressions: kanka; ne alaka; aynen; yok artık; bence
-B | Hayırlı olsun! Neden bana söylemedin, kanka? | 축하해! 왜 나한테 말 안 했어, 친구야? | hayırlı olsun = 잘되길, 축하해 | emotion=excited+teasing
-A | Ne hayırlı olsun? Neyin hayırlı olsun, Can? | 뭘 축하해? 뭐가 축하할 일인데, 잔? | neyin = 무엇의 | emotion=surprised
-B | Mahallede herkes konuşuyor. Zeynep'le evleniyormuşsun. | 동네 사람 다 얘기해. 너 제이넵이랑 결혼한다며. | -mışsın = ~한다며(들은 말) | emotion=neutral+teasing
-A | Ne alaka? Ben sadece onunla kuyumcuya gittim. | 뭔 소리야? 난 그냥 걔랑 금은방 갔어. | kuyumcu = 금은방 | emotion=tsukkomi+neutral
-B | Aynen! Teyze sizi orada görmüş, yüzüğe bakıyormuşsunuz. | 맞아 그거! 아주머니가 거기서 봤대, 반지 보고 있었다며. | yüzük = 반지 | emotion=teasing
-A | Zeynep'in yüzüğü kırıldı, tamir ettirdik. Bu kadar! | 제이넵 반지가 부러져서 고치러 간 거야. 그게 다야! | tamir ettirmek = 고치게 하다 | emotion=annoyed+shout
-B | Sen öyle diyorsun. Manav sana indirim yapacakmış, düğün hediyesi. | 네 말은 그렇고. 청과상이 깎아 준대, 결혼 선물로. | manav = 청과상 · indirim = 할인 | emotion=teasing
-A | Manav mı? Manava bunu kim söyledi?! | 청과상? 청과상한테 누가 말했어?! | kim söyledi = 누가 말했어 | emotion=surprised+shout
-B | Eczacı. Eczacıya da kuaför söylemiş, herhalde. | 약사. 약사한테는 미용사가 말했겠지, 아마. | eczacı = 약사 · herhalde = 아마 | emotion=amused
-C | Annem aradı. “Hayırlı olsun” diyor. Sen bir şey mi dedin? | 엄마한테 전화 왔어. 「축하한다」 하셔. 너 무슨 말 했어? | aramak = 전화하다 | emotion=annoyed
-A | Ben hiçbir şey yapmadım! Mahalle yaptı, mahalle! | 난 아무것도 안 했어! 동네가 했어, 동네가! | hiçbir şey = 아무것도 | emotion=shout
-C | Annem bütün akrabaları aramış. Teyzem şimdi yolda, buraya geliyor. | 엄마가 친척들한테 다 전화 돌렸대. 이모가 지금 이리로 오는 중이야. | akraba = 친척 — 반전 | emotion=worried
-A | Yok artık! Can, mahalleye sen söyle, lütfen! | 말도 안 돼! 잔, 동네에 네가 좀 말해 줘! | mahalleye = 동네에 | emotion=flustered
-B | Bence önce manavın indirimini alın. Sonra söylersiniz. | 내 생각엔 청과상 할인부터 받아. 말은 그다음에 하고. | önce … sonra = 먼저 … 그다음 | emotion=teasing
-C | İyi fikir. Ama annemi sen arıyorsun, {name}. | 좋은 생각이네. 근데 우리 엄마한테는 네가 전화해, {name}. | arıyorsun = 네가 전화한다(정해짐) | emotion=amused
+B | ? | 축하해! 왜 나한테 말 안 했어, 친구야? |  | emotion=excited+teasing
+A | ? | 뭘 축하해? 뭐가 축하할 일인데, 잔? |  | emotion=surprised
+B | ? | 동네 사람 다 얘기해. 너 제이넵이랑 결혼한다며. |  | emotion=neutral+teasing
+A | ? | 뭔 소리야? 난 그냥 걔랑 금은방 갔어. |  | emotion=tsukkomi+neutral
+B | ? | 맞아 그거! 아주머니가 거기서 봤대, 반지 보고 있었다며. |  | emotion=teasing
+A | ? | 제이넵 반지가 부러져서 고치러 간 거야. 그게 다야! |  | emotion=annoyed+shout
+B | ? | 네 말은 그렇고. 청과상이 깎아 준대, 결혼 선물로. |  | emotion=teasing
+A | ? | 청과상? 청과상한테 누가 말했어?! |  | emotion=surprised+shout
+B | ? | 약사. 약사한테는 미용사가 말했겠지, 아마. |  | emotion=amused
+C | ? | 엄마한테 전화 왔어. 「축하한다」 하셔. 너 무슨 말 했어? |  | emotion=annoyed
+A | ? | 난 아무것도 안 했어! 동네가 했어, 동네가! |  | emotion=shout
+C | ? | 엄마가 친척들한테 다 전화 돌렸대. 이모가 지금 이리로 오는 중이야. |  | emotion=worried
+A | ? | 말도 안 돼! 잔, 동네에 네가 좀 말해 줘! |  | emotion=flustered
+B | ? | 내 생각엔 청과상 할인부터 받아. 말은 그다음에 하고. |  | emotion=teasing
+C | ? | 좋은 생각이네. 근데 우리 엄마한테는 네가 전화해, {name}. |  | emotion=amused

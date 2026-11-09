@@ -9,11 +9,11 @@ twist: 7 reveal
 purpose: making_friends
 goal: yok artık·ne alaka 로 뜻밖의 말에 대꾸하기
 expressions: hoş geldin; bilmiyorum; yok artık; ne alaka; geldim
-B | Hoş geldin, yavrum. Mantı yapmayı biliyor musun? | 어서 와라, 얘야. 만티 빚을 줄 아니? | yapmayı biliyor musun = 할 줄 아니 | emotion=gentle
-A | Bilmiyorum, teyze. Ama öğrenmek istiyorum. | 몰라요, 이모. 근데 배우고 싶어요. | öğrenmek = 배우다 | emotion=shy+cheerful
-B | Daha küçük! Bir kaşığa kırk tane. | 더 작게! 한 숟가락에 마흔 개. | kırk = 40 | emotion=stiff
-A | Kırk mı? Yok artık! | 마흔 개요? 말도 안 돼요! | yok artık = 말도 안 돼 | emotion=surprised
-B | Aferin. Yemek yapmayı seviyor musun? | 잘했다. 음식 하는 거 좋아하니? | aferin = 잘했다 | emotion=gentle
-A | Seviyorum. Neden sordunuz, teyze? | 좋아해요. 왜 물으세요, 이모? | sordunuz = 물으셨다 | emotion=cheerful+polite
-B | Torunum yirmi sekiz yaşında. Bekâr. | 우리 손주가 스물여덟이야. 혼자고. | bekâr = 미혼 — 반전: 맞선 시험이었다 | emotion=teasing
-A | Ne alaka? Ben mantı için geldim! | 뭔 소리예요? 저 만티 때문에 왔어요! | ne alaka = 뭔 소리야 | emotion=tsukkomi+flustered
+B | ? | 어서 와라, 얘야. 만티 빚을 줄 아니? |  | emotion=gentle
+A | ? | 몰라요, 이모. 근데 배우고 싶어요. |  | emotion=shy+cheerful
+B | ? | 더 작게! 한 숟가락에 마흔 개. |  | emotion=stiff
+A | ? | 마흔 개요? 말도 안 돼요! |  | emotion=surprised
+B | ? | 잘했다. 음식 하는 거 좋아하니? |  | emotion=gentle
+A | ? | 좋아해요. 왜 물으세요, 이모? |  | emotion=cheerful+polite
+B | ? | 우리 손주가 스물여덟이야. 혼자고. |  | emotion=teasing
+A | ? | 뭔 소리예요? 저 만티 때문에 왔어요! |  | emotion=tsukkomi+flustered

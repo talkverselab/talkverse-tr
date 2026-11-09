@@ -9,15 +9,15 @@ twist: 7 reveal
 purpose: making_friends study_abroad
 goal: 청구 따지기, anlamadım·yok ya·neyse
 expressions: günaydın; anlamadım; yok ya; neyse
-C | Günaydın! Bu ayın ekmek parası altı yüz lira. | 안녕하세요! 이번 달 빵값 600리라입니다. | ekmek parası = 빵값 | emotion=polite
-A | Ne ekmeği? Ben ekmek almıyorum ki. | 무슨 빵이요? 저 빵 안 사는데요. | ki = ~인데요 | emotion=surprised
-C | Her sabah iki ekmek, bir de simit. | 매일 아침 빵 두 개, 시미트 하나요. | bir de = 그리고 또 | emotion=polite
-A | Anlamadım. Ben sabah dokuzdan önce kalkmıyorum! | 무슨 말씀인지. 저 아침 아홉 시 전엔 안 일어나요! | anlamadım = 못 알아들었어요 | emotion=worried+annoyed
-C | Biliyorum. Ekmeği yedide arkadaşınız alıyor, merdivende. | 알죠. 빵은 일곱 시에 친구분이 받아 가세요, 계단에서. | merdiven = 계단 | emotion=polite
-A | Arkadaşım mı? Hangi arkadaşım, nasıl biri? | 제 친구요? 어떤 친구요, 어떻게 생겼어요? | nasıl biri = 어떤 사람 | emotion=surprised
-C | Can Bey. "Hesaba yaz" diyor, çok tatlı çocuk. | 잔 씨요. 「달아 놓으세요」 하던데요, 아주 착한 청년이에요. | hesaba yaz = 외상 달아 — 반전 | emotion=cheerful
-B | Günaydın! Ne var, sabah sabah niye bağırıyorsun? | 좋은 아침! 뭔데, 아침부터 왜 소리 질러? | sabah sabah = 아침부터 | emotion=cheerful
-A | Can! Aylardır benim paramla mı kahvaltı yapıyorsun? | 잔! 몇 달째 내 돈으로 아침 먹고 있었어? | aylardır = 몇 달째 | emotion=shout
-B | Yok ya, abartma. Sadece üç ay. | 아니 뭘, 오버하지 마. 석 달뿐이야. | abartmak = 오버하다 | emotion=amused
-A | Üç ay mı?! Ben sana ne yaptım? | 석 달이라고?! 내가 너한테 뭘 잘못했어? | ne yaptım = 뭘 했어 | emotion=shout
-B | Neyse. Yarın peynir de geliyor. | 아무튼. 내일부터 치즈도 와. | neyse = 아무튼 | emotion=teasing
+C | ? | 안녕하세요! 이번 달 빵값 600리라입니다. |  | emotion=polite
+A | ? | 무슨 빵이요? 저 빵 안 사는데요. |  | emotion=surprised
+C | ? | 매일 아침 빵 두 개, 시미트 하나요. |  | emotion=polite
+A | ? | 무슨 말씀인지. 저 아침 아홉 시 전엔 안 일어나요! |  | emotion=worried+annoyed
+C | ? | 알죠. 빵은 일곱 시에 친구분이 받아 가세요, 계단에서. |  | emotion=polite
+A | ? | 제 친구요? 어떤 친구요, 어떻게 생겼어요? |  | emotion=surprised
+C | ? | 잔 씨요. 「달아 놓으세요」 하던데요, 아주 착한 청년이에요. |  | emotion=cheerful
+B | ? | 좋은 아침! 뭔데, 아침부터 왜 소리 질러? |  | emotion=cheerful
+A | ? | 잔! 몇 달째 내 돈으로 아침 먹고 있었어? |  | emotion=shout
+B | ? | 아니 뭘, 오버하지 마. 석 달뿐이야. |  | emotion=amused
+A | ? | 석 달이라고?! 내가 너한테 뭘 잘못했어? |  | emotion=shout
+B | ? | 아무튼. 내일부터 치즈도 와. |  | emotion=teasing
