@@ -37,3 +37,10 @@ A = 학습자(`{name}`, 국적·성별 고정 금지, 변수 `{name}`·`{country
 **감정(2026-11-07 사용자 지시, 이후 쓰는 회화부터):** 턴마다 `emotion` 을 넣는다. 값은 neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle(`data/tts/PLAN_GUIDE.md`). 한 턴에서 감정이 바뀌면 `segs`(`[감정, 본문]` 목록, 이어 붙이면 tl)로 나눈다. neutral 만 쓰지 말 것.
 note = 턴 핵심 하나 「X = 뜻」. tags = `expr:…`·`form:…`·`simkung`·`callback:…`. new = 새 낱말 기본형. rd 는 비우고 `python3 tools/check_dialogues.py --fix-rd <파일>` 로 채운다.
 파일: `assets/data/dialogues/R<레벨>/<주제>/<id>.json`. 이 폴더는 pubspec 에 아직 안 올라가서 앱에 나오지 않는다(리뷰 통과 뒤 연결).
+
+## Grok 요청 — 프롬프트 최소화(사용자 지시 2026-11-09)
+- 규칙(재작성·장면 컷)은 저장소 문서 한 곳에만 둔다. 방을 열 때 첫 메시지 한 번에 규칙 문서 내용과 약속 「앞으로는 파일 이름 한 줄만 보낸다」를 보낸다.
+- 그 뒤 채팅은 한 줄(편 파일 이름)만. 같은 규칙을 다시 붙이지 않는다 — Grok 이 첫 메시지 기준으로 통일성 있게 맞춘다.
+- 그림이 처음과 달라지면 최초로 통과한 그림을 기준으로 다시 맞춘다(이미 만든 그림은 그대로 둔다).
+- 재작성본에도 턴마다 `emotion`(감정이 바뀌면 `segs`)을 넣는다 — 음성용.
+
