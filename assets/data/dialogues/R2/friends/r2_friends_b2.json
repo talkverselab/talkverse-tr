@@ -71,9 +71,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Evet, lütfen. Şu bardağa koyun.",
-   "rd": "에벳, 뤼트펜. 슈 바르다아 코윤.",
-   "ko": "네, 부탁해요. 이 컵에 따라 주세요.",
+   "tl": "Evet, lütfen. Şu bardağa koyar mısınız?",
+   "rd": "에벳, 뤼트펜. 슈 바르다아 코야르 므스느즈?",
+   "ko": "네, 주세요. 이 컵에 따라 주시겠어요?",
    "note": "şu = 이, 저 · bardak = 컵",
    "tags": [
     "expr:lütfen"
@@ -117,13 +117,13 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Limon güzel de… neden boğazım yanıyor?",
-   "rd": "리몬 귀젤 데… 네덴 보아즘 야느요르?",
-   "ko": "레몬은 좋은데… 왜 목이 타지?",
-   "note": "boğaz = 목구멍 — 반전",
+   "tl": "Ne var? Bu içecek değil mi?",
+   "rd": "네 바르? 부 이체젝 데일 미?",
+   "ko": "왜? 이거 음료 아니야?",
+   "note": "içecek = 음료 — 반전",
    "tags": [],
    "new": [
-    "boğaz"
+    "içecek"
    ]
   },
   {
@@ -142,9 +142,9 @@
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Ne demek? Bu parfüm mü şimdi?!",
-   "rd": "네 데멕? 부 파르퓜 뮈 심디?!",
-   "ko": "뭐라고? 이게 향수라고?!",
+   "tl": "Ne demek? Pardon, o zaman bir çay lütfen.",
+   "rd": "네 데멕? 파르돈, 오 자만 비르 차이 뤼트펜.",
+   "ko": "뭐라고? 죄송해요, 그럼 차 한 잔 주세요.",
    "note": "ne demek = 뭐라고?",
    "tags": [
     "expr:ne demek"
@@ -154,9 +154,9 @@
   {
    "num": 11,
    "speaker": "C",
-   "tl": "Yanına bisküvi de ister misiniz, efendim?",
-   "rd": "야느나 비스퀴비 데 이스테르 미시니즈, 에펜딤?",
-   "ko": "곁들여 비스킷도 드릴까요, 손님?",
+   "tl": "Tabii efendim. Yanına bisküvi de ister misiniz?",
+   "rd": "타비이 에펜딤. 야느나 비스퀴비 데 이스테르 미시니즈?",
+   "ko": "물론이죠, 손님. 비스킷도 곁들여 드릴까요?",
    "note": "yanına = 곁들여",
    "tags": [],
    "new": []

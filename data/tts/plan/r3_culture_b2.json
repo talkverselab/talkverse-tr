@@ -29,8 +29,8 @@
 "3": {
 "segs": [
 [
-"worried",
-"O mektup bütün aileyi yıktı, farkında mısın?"
+"excited",
+"O mektup bütün aileyi karıştırdı. Herkes onu konuşuyor, biliyor musun?"
 ]
 ]
 },
@@ -49,12 +49,8 @@
 "5": {
 "segs": [
 [
-"sad",
-"Teyzem ağladı."
-],
-[
-"worried",
-"Sabahtan beri seni soruyor, bence evden çıkma."
+"teasing",
+"Teyzem de izledi. Sabahtan beri seni soruyor, hazır ol."
 ]
 ]
 },
@@ -77,12 +73,12 @@
 "8": {
 "segs": [
 [
-"annoyed",
-"Sana ekmek yok. O gelin sana ne yaptı?"
+"polite",
+"Buyurun."
 ],
 [
-"shout",
-"Çık dükkânımdan!"
+"surprised",
+"Bir dakika… siz dün dizide değil miydiniz?"
 ]
 ]
 },
@@ -90,31 +86,15 @@
 "segs": [
 [
 "surprised",
-"Ne?"
-],
-[
-"tsukkomi",
-"Beyefendi, o bir dizi!"
-],
-[
-"flustered",
-"Ben sadece mektubu getirdim!"
+"Evet, üç saniye. Beni nasıl tanıdınız? Kimse görmedi sanıyordum."
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"shout",
-"Buldum seni!"
-],
-[
-"annoyed",
-"Utanmıyor musun?"
-],
-[
-"sad",
-"O gelin üç gündür ağlıyor!"
+"excited",
+"Ben de gördüm! O mektupta ne yazıyordu, söyle bakalım."
 ]
 ]
 },
@@ -122,15 +102,15 @@
 "segs": [
 [
 "flustered",
-"Teyze, ben o kadını tanımıyorum! O oyuncu, gerçek değil!"
+"Bilmiyorum teyze, gerçekten. Bana sadece zarfı verdiler."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"annoyed",
-"Gerçek değilmiş! Ben gözümle gördüm, ekrandan bana baktın!"
+"teasing",
+"Hadi ama. Haftaya ne oluyor, onu söyleyin bari."
 ]
 ]
 },
@@ -138,22 +118,18 @@
 "segs": [
 [
 "gentle",
-"Teyze, sakin ol."
-],
-[
-"polite",
-"{name} özür dilemek için geldi, değil mi?"
+"Teyze, bırak artık. {name} bir şey bilmiyor, değil mi?"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"sad",
-"Evet… özür dilerim."
+"neutral",
+"Hiçbir şey bilmiyorum."
 ],
 [
-"cheerful",
+"amused",
 "Ama haftaya yine çıkıyorum, bir mektup daha var."
 ]
 ]
@@ -161,8 +137,8 @@
 "15": {
 "segs": [
 [
-"sad",
-"Elif, tut beni."
+"excited",
+"Bir mektup daha mı? Otur, otur. Her şeyi anlatacaksın!"
 ]
 ]
 }

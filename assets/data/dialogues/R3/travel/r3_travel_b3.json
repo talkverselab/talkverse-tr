@@ -141,10 +141,10 @@
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Ne demek kucağıma? Hocam, bu hayvan neden telefonumu yiyor?",
-   "rd": "네 데멕 쿠자으마? 호잠, 부 하이반 네덴 텔레포누무 이요르?",
+   "tl": "Ne demek kucağıma? Şoför bey, bu hayvan neden telefonumu yiyor?",
+   "rd": "네 데멕 쿠자으마? 쇼푀르 베이, 부 하이반 네덴 텔레포누무 이요르?",
    "ko": "무릎이라니요? 기사님, 이 동물이 왜 제 폰을 먹어요?",
-   "note": "hayvan = 동물",
+   "note": "şoför bey = 기사님",
    "tags": [
     "expr:ne demek",
     "expr:hocam"
@@ -202,10 +202,10 @@
   {
    "num": 14,
    "speaker": "E",
-   "tl": "Biletiniz yoksa inmeniz lazım. Kuralımız bu, kusura bakmayın.",
-   "rd": "빌레티니즈 욕사 인메니즈 라즘. 쿠랄르므즈 부, 쿠수라 박마이은.",
-   "ko": "표가 없으면 내리셔야 합니다. 규정입니다, 죄송합니다.",
-   "note": "lazım = 필요하다",
+   "tl": "Biletiniz yoksa yeni bilet almanız lazım. Kuralımız bu, kusura bakmayın.",
+   "rd": "빌레티니즈 욕사 예니 빌렛 알마느즈 라즘. 쿠랄르므즈 부, 쿠수라 박마이은.",
+   "ko": "표가 없으면 새로 사셔야 합니다. 규정입니다, 죄송합니다.",
+   "note": "almanız lazım = 사셔야 합니다",
    "tags": [
     "expr:kusura bakmayın"
    ],
@@ -224,9 +224,9 @@
   {
    "num": 16,
    "speaker": "E",
-   "tl": "Onun bileti karnında, efendim. Siz buyurun.",
-   "rd": "오눈 빌레티 카르는다, 에펜딤. 시즈 부유룬.",
-   "ko": "쟤 표는 뱃속에 있죠, 손님. 손님은 내리시죠.",
+   "tl": "Onun bileti karnında, efendim. Siz yeni bilet alın.",
+   "rd": "오눈 빌레티 카르는다, 에펜딤. 시즈 예니 빌렛 알른.",
+   "ko": "쟤 표는 뱃속에 있죠, 손님. 손님은 새로 사세요.",
    "note": "karın = 배 · buyurun = 어서 하세요",
    "tags": [
     "expr:buyurun"

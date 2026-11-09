@@ -176,26 +176,24 @@
   {
    "num": 14,
    "speaker": "A",
-   "tl": "Ne?! Daha kapı açılmadı, ben proje müdürü mü oldum?!",
-   "rd": "네?! 다하 카프 아츨마드, 벤 프로제 뮈뒤뤼 뮈 올둠?!",
-   "ko": "네?! 문도 안 열렸는데 제가 프로젝트 책임자가 됐다고요?!",
-   "note": "daha = 아직",
+   "tl": "Ne?! Daha kapı açılmadı, yeni proje bana mı kaldı?!",
+   "rd": "네?! 다하 카프 아츨마드, 예니 프로제 바나 므 칼드?!",
+   "ko": "네?! 문도 안 열렸는데 새 프로젝트가 저한테 떨어졌다고요?!",
+   "note": "bana kaldı = 나한테 떨어졌다",
    "tags": [],
    "new": []
   },
   {
    "num": 15,
    "speaker": "D",
-   "tl": "Açıldı işte. Terfi hayırlı olsun hocam.",
-   "rd": "아츨드 이시테. 테르피 하이으를르 올순 호잠.",
-   "ko": "열렸네요. 승진 축하드립니다, 선생님.",
-   "note": "terfi = 승진",
+   "tl": "Açıldı işte. Hayırlı olsun hocam.",
+   "rd": "아츨드 이시테. 하이으를르 올순 호잠.",
+   "ko": "열렸네요. 잘 해 보세요, 선생님.",
+   "note": "hayırlı olsun = 잘되길",
    "tags": [
     "callback:r2_work_b8"
    ],
-   "new": [
-    "terfi"
-   ]
+   "new": []
   },
   {
    "num": 16,

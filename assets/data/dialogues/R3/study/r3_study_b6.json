@@ -12,7 +12,7 @@
  ],
  "title": "손바닥 컨닝",
  "emoji": "🖐️",
- "scene": "시험장, 손바닥에 적은 터키어 표현 하나로 컨닝 소동이 반 전체로 번진다",
+ "scene": "시험장, 손바닥에 적은 터키어 표현 하나로 컨닝 검사가 시작되고 줄줄이 걸린다",
  "speakers": {
   "A": "{name}",
   "B": "Zeynep",
@@ -146,9 +146,9 @@
   {
    "num": 11,
    "speaker": "C",
-   "tl": "Hocam, gelin! Otuz kişiden yirmisinde kopya var!",
-   "rd": "호잠, 겔린! 오투즈 키시덴 이르미신데 콥야 바르!",
-   "ko": "교수님, 와 주세요! 서른 명 중 스무 명이 컨닝이에요!",
+   "tl": "Hocam, gelin! On kişide daha kopya var!",
+   "rd": "호잠, 겔린! 온 키시데 다하 콥야 바르!",
+   "ko": "교수님, 와 주세요! 열 명이 더 컨닝했어요!",
    "note": "otuz kişiden = 서른 명 중",
    "tags": [],
    "new": []

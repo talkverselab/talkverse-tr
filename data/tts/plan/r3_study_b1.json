@@ -43,7 +43,7 @@
 "segs": [
 [
 "polite",
-"Bu arkadan mı geldi? Ver, öne uzatayım."
+"Arkadaş, parayı öne uzatır mısın? İki öğrenci."
 ]
 ]
 },
@@ -51,7 +51,7 @@
 "segs": [
 [
 "flustered",
-"Hayır, bu para değil! Bir dakika, lütfen!"
+"Tabii, ama ellerim dolu. Bir dakika…"
 ]
 ]
 },
@@ -59,31 +59,31 @@
 "segs": [
 [
 "cheerful",
-"Uzat arkadaş, şoföre gidiyor! Hadi!"
+"Ver, maketi ben tutayım. Sen parayı uzat. Hadi!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Bu ne? Kaç kişi? Üstünü nereye vereyim?"
+"neutral",
+"Kaç kişi? Öğrenci mi, tam mı?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"shout",
-"Şoför bey, o bir maket! Bana geri verin!"
+"worried",
+"İki öğrenci! Şoför bey, yavaş lütfen, maket var!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"annoyed",
-"Arkaya verin! Öğrenci mi, tam mı?"
+"shout",
+"Tutunun! Duruyorum!"
 ]
 ]
 },

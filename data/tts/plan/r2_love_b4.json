@@ -63,12 +63,8 @@
 "7": {
 "segs": [
 [
-"neutral",
-"Dördüncüsü bu."
-],
-[
-"sad",
-"Üç tencere yandı."
+"stiff",
+"İkincisi bu. İlk tencere yandı."
 ]
 ]
 },
@@ -87,12 +83,8 @@
 "9": {
 "segs": [
 [
-"amused",
-"Hiç sorma."
-],
-[
-"sad",
-"Annem hâlâ telefonda ağlıyor."
+"annoyed",
+"Hiç sorma. Annem “Mutfağa bir daha girme” dedi."
 ]
 ]
 },
@@ -119,12 +111,8 @@
 "12": {
 "segs": [
 [
-"surprised",
-"Yarın yine mi?"
-],
-[
-"amused",
-"Beşinci tencere…"
+"shy",
+"Yarın yine mi? O zaman üçüncü tencere…"
 ]
 ]
 }

@@ -108,9 +108,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Şimdi teyzemi aradı. O da ıhlamur getiriyor.",
-   "rd": "심디 테이제미 아라드. 오 다 으흘라무르 게티리요르.",
-   "ko": "이제 이모한테 전화하셨어. 이모도 린덴 차 가져오신대.",
+   "tl": "Şimdi de \"Ihlamur içsin\" diyor.",
+   "rd": "심디 데 \"으흘라무르 이치신\" 디요르.",
+   "ko": "이번엔 「린덴 차 마시래」 하셔.",
    "note": "ıhlamur = 린덴 차(감기엔 이것)",
    "tags": [],
    "new": [
@@ -120,42 +120,44 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Yok artık! Teyzen nereden çıktı şimdi?",
-   "rd": "욕 아르특! 테이젠 네레덴 측트 심디?",
-   "ko": "말도 안 돼! 이모는 또 어디서 나왔어?",
-   "note": "nereden çıktı = 어디서 튀어나왔어",
-   "tags": [
-    "expr:yok artık"
-   ],
+   "tl": "Tamam, içerim. Teşekkür et, lütfen.",
+   "rd": "타맘, 이체림. 테셰퀴르 엣, 뤼트펜.",
+   "ko": "알았어, 마실게. 감사하다고 전해 줘.",
+   "note": "teşekkür etmek = 감사하다",
+   "tags": [],
    "new": []
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Annem yola çıktı. Arabada dört kişi var.",
-   "rd": "안넴 욜라 측트. 아라바다 되르트 키시 바르.",
-   "ko": "엄마 출발하셨대. 차에 네 명 타고 있대.",
-   "note": "yola çıkmak = 출발하다 — 반전",
+   "tl": "Annem akşam çorbayla geliyor. Teyzem de.",
+   "rd": "안넴 악샴 초르바일라 겔리요르. 테이젬 데.",
+   "ko": "엄마가 저녁에 수프 들고 오신대. 이모도.",
+   "note": "-la gelmek = ~를 들고 오다 — 반전",
    "tags": [],
    "new": []
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Ben sadece üşüttüm! Onlara söyle, lütfen!",
-   "rd": "벤 사데제 위쉬튐! 온라라 쇠일레, 뤼트펜!",
-   "ko": "나 그냥 감기라고! 좀 말씀드려 줘!",
-   "note": "sadece = 그냥, ~뿐",
-   "tags": [],
-   "new": []
+   "tl": "Yok artık, ikisi birden mi? Ev çok dağınık!",
+   "rd": "욕 아르특, 이키시 비르덴 미? 에브 촉 다으늑!",
+   "ko": "말도 안 돼! 두 분 다? 집 완전 엉망인데!",
+   "note": "dağınık = 어질러진",
+   "tags": [
+    "expr:yok artık"
+   ],
+   "new": [
+    "dağınık"
+   ]
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Söyledim. Annem \"Sakın ölme, geliyoruz\" diyor.",
-   "rd": "쇠일레딤. 안넴 \"사큰 욀메, 겔리요루즈\" 디요르.",
-   "ko": "말했어. 엄마가 「죽지 말고 있어, 간다」 하시네.",
-   "note": "sakın = 절대 ~하지 마",
+   "tl": "Söyledim. \"Ev dağınık olsun, çorba soğumasın\" diyor.",
+   "rd": "쇠일레딤. \"에브 다으늑 올순, 초르바 소우마슨\" 디요르.",
+   "ko": "말씀드렸지. 「집은 엉망이어도 돼, 수프만 안 식으면」 하시네.",
+   "note": "soğumak = 식다",
    "tags": [],
    "new": []
   }

@@ -11,9 +11,9 @@
  "domain": [
   "culture"
  ],
- "title": "악역 3초",
+ "title": "3초 출연",
  "emoji": "🎬",
- "scene": "드라마 엑스트라로 3초 나왔는데, 하필 집안을 망친 편지를 건네는 역이었다",
+ "scene": "드라마에 엑스트라로 3초 나왔더니, 동네 가게에서 다들 알아보고 다음 줄거리를 묻는다",
  "speakers": {
   "A": "{name}",
   "B": "Elif",
@@ -24,14 +24,15 @@
  "twist": 8,
  "twist_type": "chaos",
  "flags": [],
- "goal": "hadi canım·özür dilerim 으로 억울한 상황 말로 풀기",
+ "goal": "hadi canım·bilmiyorum 으로 동네 사람들 질문 받아넘기기",
  "expressions": [
   "ne alaka",
-  "bence",
   "hadi canım",
   "geliyorum",
   "olmaz",
-  "şey"
+  "şey",
+  "buyurun",
+  "bir dakika"
  ],
  "turns": [
   {
@@ -59,10 +60,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "O mektup bütün aileyi yıktı, farkında mısın?",
-   "rd": "오 멕툽 뷔튄 아일레이 이윽트, 파르큰다 므슨?",
-   "ko": "그 편지가 집안 전체를 무너뜨렸어, 알아?",
-   "note": "farkında mısın = 알고 있어?",
+   "tl": "O mektup bütün aileyi karıştırdı. Herkes onu konuşuyor, biliyor musun?",
+   "rd": "오 멕툽 뷔튄 아일레이 카르시트르드. 헤르케스 오누 코누슈요르, 빌리요르 무순?",
+   "ko": "그 편지 때문에 집안이 발칵 뒤집혔잖아. 다들 그 얘기야, 알아?",
+   "note": "karıştırmak = 뒤집어 놓다",
    "tags": [],
    "new": []
   },
@@ -81,13 +82,11 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Teyzem ağladı. Sabahtan beri seni soruyor, bence evden çıkma.",
-   "rd": "테이젬 알라드. 사바흐탄 베리 세니 소루요르, 벤제 에브덴 측마.",
-   "ko": "우리 이모 울었어. 아침부터 너 찾아, 내 생각엔 집 밖에 나오지 마.",
-   "note": "bence = 내 생각엔",
-   "tags": [
-    "expr:bence"
-   ],
+   "tl": "Teyzem de izledi. Sabahtan beri seni soruyor, hazır ol.",
+   "rd": "테이젬 데 이즐레디. 사바흐탄 베리 세니 소루요르, 하즈르 올.",
+   "ko": "우리 이모도 봤어. 아침부터 너 찾아, 각오해.",
+   "note": "hazır ol = 각오해",
+   "tags": [],
    "new": []
   },
   {
@@ -122,34 +121,33 @@
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Sana ekmek yok. O gelin sana ne yaptı? Çık dükkânımdan!",
-   "rd": "사나 엑멕 욕. 오 겔린 사나 네 얍트? 측 뒤카늠단!",
-   "ko": "너한테 줄 빵 없어. 그 며느리가 너한테 뭘 했다고? 내 가게에서 나가!",
-   "note": "dükkân = 가게 — 반전",
+   "tl": "Buyurun. Bir dakika… siz dün dizide değil miydiniz?",
+   "rd": "부유룬. 비르 다키카… 시즈 뒨 디지데 데일 미이디니즈?",
+   "ko": "여기요. 잠깐만요… 어제 드라마에 나오지 않았어요?",
+   "note": "değil miydiniz = ~아니었어요? — 반전",
    "tags": [
-    "expr:yok"
+    "expr:buyurun",
+    "expr:bir dakika"
    ],
    "new": []
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Ne? Beyefendi, o bir dizi! Ben sadece mektubu getirdim!",
-   "rd": "네? 베예펜디, 오 비르 디지! 벤 사데제 멕투부 게티르딤!",
-   "ko": "네? 아저씨, 그건 드라마예요! 전 편지만 갖다줬어요!",
-   "note": "beyefendi = 선생님(남)",
-   "tags": [
-    "expr:beyefendi"
-   ],
+   "tl": "Evet, üç saniye. Beni nasıl tanıdınız? Kimse görmedi sanıyordum.",
+   "rd": "에벳, 위치 사니예. 베니 나슬 타느드느즈? 킴세 괴르메디 사느요르둠.",
+   "ko": "네, 3초요. 저를 어떻게 알아보셨어요? 아무도 못 본 줄 알았는데.",
+   "note": "tanımak = 알아보다",
+   "tags": [],
    "new": []
   },
   {
    "num": 10,
    "speaker": "D",
-   "tl": "Buldum seni! Utanmıyor musun? O gelin üç gündür ağlıyor!",
-   "rd": "불둠 세니! 우탄므요르 무순? 오 겔린 위치 귄뒤르 알르요르!",
-   "ko": "찾았다! 부끄럽지도 않니? 그 며느리 사흘째 울고 있어!",
-   "note": "utanmak = 부끄러워하다",
+   "tl": "Ben de gördüm! O mektupta ne yazıyordu, söyle bakalım.",
+   "rd": "벤 데 괴르뒴! 오 멕툽타 네 야즈요르두, 쇠일레 바칼름.",
+   "ko": "나도 봤다! 그 편지에 뭐라고 쓰여 있었니, 말해 봐.",
+   "note": "söyle bakalım = 말해 봐",
    "tags": [
     "callback:r1_culture_a6"
    ],
@@ -158,54 +156,52 @@
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Teyze, ben o kadını tanımıyorum! O oyuncu, gerçek değil!",
-   "rd": "테이제, 벤 오 카드느 타느므요룸! 오 오윤주, 게르첵 데일!",
-   "ko": "이모, 저 그 사람 몰라요! 배우라고요, 진짜가 아니에요!",
-   "note": "oyuncu = 배우",
+   "tl": "Bilmiyorum teyze, gerçekten. Bana sadece zarfı verdiler.",
+   "rd": "빌미요룸 테이제, 게르첵텐. 바나 사데제 자르프 베르딜레르.",
+   "ko": "몰라요, 이모, 진짜로요. 저한테는 봉투만 줬어요.",
+   "note": "zarf = 봉투",
    "tags": [],
-   "new": []
+   "new": [
+    "zarf"
+   ]
   },
   {
    "num": 12,
    "speaker": "D",
-   "tl": "Gerçek değilmiş! Ben gözümle gördüm, ekrandan bana baktın!",
-   "rd": "게르첵 데일미시! 벤 괴쥠레 괴르뒴, 엑란단 바나 박튼!",
-   "ko": "진짜가 아니래! 내 눈으로 봤어, 화면에서 날 쳐다봤잖아!",
-   "note": "ekran = 화면",
+   "tl": "Hadi ama. Haftaya ne oluyor, onu söyleyin bari.",
+   "rd": "하디 아마. 하프타야 네 올루요르, 오누 쇠일레인 바리.",
+   "ko": "에이, 그러지 말고. 다음 주에 어떻게 되는지 그거라도 말해 줘요.",
+   "note": "bari = ~라도",
    "tags": [],
-   "new": [
-    "ekran"
-   ]
+   "new": []
   },
   {
    "num": 13,
    "speaker": "B",
-   "tl": "Teyze, sakin ol. {name} özür dilemek için geldi, değil mi?",
-   "rd": "테이제, 사킨 올. {name} 외쥐르 딜레멕 이친 겔디, 데일 미?",
-   "ko": "이모, 진정해요. {name} 사과하러 온 거야, 그렇지?",
-   "note": "sakin ol = 진정해",
+   "tl": "Teyze, bırak artık. {name} bir şey bilmiyor, değil mi?",
+   "rd": "테이제, 브락 아르특. {name} 비르 셰이 빌미요르, 데일 미?",
+   "ko": "이모, 이제 그만해. {name} 아무것도 몰라, 그렇지?",
+   "note": "bırak = 그만둬",
    "tags": [],
    "new": []
   },
   {
    "num": 14,
    "speaker": "A",
-   "tl": "Evet… özür dilerim. Ama haftaya yine çıkıyorum, bir mektup daha var.",
-   "rd": "에벳… 외쥐르 딜레림. 아마 하프타야 이네 츠크요룸, 비르 멕툽 다하 바르.",
-   "ko": "네… 죄송해요. 근데 다음 주에 또 나와요, 편지가 하나 더 있거든요.",
+   "tl": "Hiçbir şey bilmiyorum. Ama haftaya yine çıkıyorum, bir mektup daha var.",
+   "rd": "히치비르 셰이 빌미요룸. 아마 하프타야 이네 츠크요룸, 비르 멕툽 다하 바르.",
+   "ko": "아무것도 몰라요. 근데 다음 주에 또 나와요, 편지가 하나 더 있거든요.",
    "note": "haftaya = 다음 주에",
-   "tags": [
-    "expr:özür dilerim"
-   ],
+   "tags": [],
    "new": []
   },
   {
    "num": 15,
    "speaker": "D",
-   "tl": "Elif, tut beni.",
-   "rd": "엘리프, 툿 베니.",
-   "ko": "Elif, 나 좀 잡아라.",
-   "note": "tut beni = 나 좀 잡아",
+   "tl": "Bir mektup daha mı? Otur, otur. Her şeyi anlatacaksın!",
+   "rd": "비르 멕툽 다하 므? 오투르, 오투르. 헤르 셰이 안라타작슨!",
+   "ko": "편지가 하나 더? 앉아, 앉아. 다 얘기해야 돼!",
+   "note": "anlatacaksın = 얘기해야 한다(정해짐)",
    "tags": [],
    "new": []
   }

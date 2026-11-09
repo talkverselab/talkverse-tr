@@ -40,8 +40,8 @@
 "5": {
 "segs": [
 [
-"cheerful",
-"Nasıl gidiyor? Bir aydır oradasın, saz çaldın mı?"
+"teasing",
+"Nasıl gidiyor? İki haftadır oradasın, saz çaldın mı?"
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "amused",
-"Usta böyle. Bana da iki ay hiç cevap vermedi."
+"Usta böyle. Bana da ilk ay hiç cevap vermedi."
 ]
 ]
 },
@@ -80,8 +80,12 @@
 "10": {
 "segs": [
 [
-"shout",
-"Usta, ben para veriyorum! Üç aydır süpürüyorum, beni hiç görmüyorsunuz!"
+"annoyed",
+"Usta, ben para veriyorum!"
+],
+[
+"sad",
+"Üç haftadır süpürüyorum, beni hiç görmüyorsunuz!"
 ]
 ]
 },
@@ -109,7 +113,7 @@
 "segs": [
 [
 "gentle",
-"Süpürürken ritim tutuyorsun. İlk ay yanlıştı, şimdi doğru."
+"Süpürürken ritim tutuyorsun. İlk hafta yanlıştı, şimdi doğru."
 ]
 ]
 },
@@ -125,7 +129,11 @@
 "segs": [
 [
 "stiff",
-"Hayır. Yarın sazı sadece tutacaksın. Çalmak seneye."
+"Hayır. Yarın sazı sadece tutacaksın."
+],
+[
+"amused",
+"Çalmak gelecek ay."
 ]
 ]
 }

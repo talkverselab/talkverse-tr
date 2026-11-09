@@ -123,7 +123,7 @@
 "segs": [
 [
 "excited",
-"Elinize sağlık! Bu ev kaç para? Hemen alıyorum."
+"Elinize sağlık! Böyle komşu varsa, bu ev kaç para?"
 ]
 ]
 },
@@ -142,20 +142,16 @@
 "15": {
 "segs": [
 [
-"polite",
-"Kusura bakmayın, ev satıldı. Teyze biraz önce aldı."
+"neutral",
+"Konuşuruz. Ama kiracı bir yıl daha kalıyor, sözleşme var."
 ]
 ]
 },
 "16": {
 "segs": [
 [
-"gentle",
-"Hayırlı olsun, canım."
-],
-[
 "cheerful",
-"Yeni kira: her akşam gel, yemek ye."
+"Hayırlı olsun, canım. Akşam hepiniz bana gelin, yemek var."
 ]
 ]
 }

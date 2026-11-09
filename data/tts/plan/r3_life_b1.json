@@ -57,32 +57,36 @@
 "7": {
 "segs": [
 [
-"polite",
-"Bir kedi daha geldi. Bir tane daha. Merdivene kadar sıra oldu."
+"annoyed",
+"Bir çocuk daha geldi. Onun kedisi de beyaz. Merdivende sıra var."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"amused",
-"Kanka, bir sayayım… Yedi kedi, üç çocuk, bir de dede."
+"teasing",
+"Beş yüz lira yazınca böyle olur, kanka. Herkes kedi getirir."
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"surprised",
-"Dede mi? O neden burada? Kedisi bile yok!"
+"flustered",
+"Telefon numaramı da yazdım. Telefon hiç susmuyor!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"amused",
-"Elinde tavuk var. 'Bu da kedi sayılır mı?' diye soruyor."
+"neutral",
+"Ver bakayım. Alo?"
+],
+[
+"annoyed",
+"Hayır abla, sarı kedi, sarı!"
 ]
 ]
 },
@@ -90,15 +94,15 @@
 "segs": [
 [
 "annoyed",
-"Kediler binaya girdi. Şimdi herkes bana bağırıyor."
+"İki kedi binaya girdi. Komşular bana kızıyor."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"flustered",
-"Eyvah! Beş yüz lirayı kime vereceğim şimdi?"
+"worried",
+"Eyvah! Ben sadece Patron'u istiyorum."
 ]
 ]
 },
@@ -122,7 +126,7 @@
 "segs": [
 [
 "cheerful",
-"Tabii. Zayıflamış, köfte verdim. Şimdi kapıdan geçmiyor."
+"Tabii. Zayıflamış, köfte verdim. Şimdi gitmek istemiyor."
 ]
 ]
 },

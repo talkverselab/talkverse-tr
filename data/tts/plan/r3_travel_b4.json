@@ -99,23 +99,35 @@
 "segs": [
 [
 "amused",
-"Öldüm! Ne yaptın sen? Bütün tekne yukarıda, teyze telefonda ağlıyor!"
+"Öldüm!"
+],
+[
+"tsukkomi",
+"Ne yaptın sen? Çocuklar yukarıda, teyze hâlâ kaplan arıyor!"
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"shout",
-"Alo, sahil güvenlik mi? Teknede kaplan var, çabuk gelin!"
+"surprised",
+"Kaplan yok mu? Çok şükür."
+],
+[
+"flustered",
+"Ben çantamı bile hazırlamıştım."
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"shout",
-"Yok artık! Teyze, kapatın o telefonu! Kaplan yok, kaplan!"
+"tsukkomi",
+"Yok artık, teyze! Kaplan yok."
+],
+[
+"polite",
+"Yirmi dakika sonra koyda duruyoruz."
 ]
 ]
 },
@@ -123,7 +135,7 @@
 "segs": [
 [
 "polite",
-"Burası sahil güvenlik. Kaptan, kaplan nasıl, sakin mi?"
+"Kaptan, koyda yer var. Kaç dakikada gelirsiniz?"
 ]
 ]
 },
@@ -131,7 +143,11 @@
 "segs": [
 [
 "polite",
-"Kaplan sakin, efendim. Elinde su var."
+"Yirmi dakika."
+],
+[
+"amused",
+"Kaplanla geliyoruz."
 ]
 ]
 }

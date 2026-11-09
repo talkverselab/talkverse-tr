@@ -47,8 +47,12 @@
 "6": {
 "segs": [
 [
-"flustered",
-"Neden dönüyorsunuz? Havalimanı orada!"
+"worried",
+"Neden bu yoldan gidiyorsunuz?"
+],
+[
+"shout",
+"Havalimanı orada!"
 ]
 ]
 },
@@ -56,12 +60,20 @@
 "segs": [
 [
 "cheerful",
-"Bugün büyük maç var. Uçak bekler."
+"Kısa yol, stadın önünden."
+],
+[
+"excited",
+"Büyük maç var."
 ]
 ]
 },
 "8": {
 "segs": [
+[
+"surprised",
+"Maç günü stat mı?"
+],
 [
 "shout",
 "Uçak beklemez, beyefendi!"

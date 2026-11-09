@@ -49,7 +49,7 @@
 "segs": [
 [
 "excited",
-"Çantanız otobüste. Kalkıyor, hadi!"
+"Çantanız yazıhanede. Biletiniz de hazır!"
 ]
 ]
 },
@@ -57,15 +57,15 @@
 "segs": [
 [
 "flustered",
-"Eyvah! O otobüs nereye gidiyor?"
+"Ben sadece bakıyordum! Ne bileti?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"cheerful",
-"Bursa'ya. Çok güzel, görürsünüz."
+"polite",
+"On dakikaya kalkıyor. Nakit mi, kart mı?"
 ]
 ]
 }

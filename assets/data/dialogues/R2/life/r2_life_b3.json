@@ -13,7 +13,7 @@
  ],
  "title": "수리공이 늘어난다",
  "emoji": "🔧",
- "scene": "보일러를 고치러 온 기사가 사촌을 부르고, 사촌은 삼촌을 부른다",
+ "scene": "보일러를 고치러 온 기사가 부품이 없다며 사촌을 부르고, 사촌은 삼촌을 부르자고 한다",
  "speakers": {
   "A": "{name}",
   "B": "Usta",
@@ -115,34 +115,34 @@
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Merhaba. Usta, su neden tavana gidiyor?",
-   "rd": "메르하바. 우스타, 수 네덴 타바나 기디요르?",
-   "ko": "안녕하세요. 형님, 물이 왜 천장으로 가요?",
-   "note": "tavan = 천장 — 반전",
+   "tl": "Merhaba. Usta, bu parça eski model.",
+   "rd": "메르하바. 우스타, 부 파르차 에스키 모델.",
+   "ko": "안녕하세요. 형님, 이 부품 옛날 모델이에요.",
+   "note": "eski model = 옛날 모델 — 반전",
    "tags": [
     "expr:merhaba"
    ],
    "new": [
-    "tavan"
+    "model"
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Tavana mı?! Daha önce sadece yere akıyordu!",
-   "rd": "타바나 므?! 다하 왼제 사데제 예레 아크요르두!",
-   "ko": "천장이요?! 아까는 바닥으로만 샜는데요!",
-   "note": "daha önce = 아까, 전에",
+   "tl": "Eski mi? Yani bugün bitmiyor mu?",
+   "rd": "에스키 미? 야니 부귄 비트미요르 무?",
+   "ko": "옛날 거요? 그럼 오늘 안 끝나요?",
+   "note": "bitmek = 끝나다",
    "tags": [],
    "new": []
   },
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Olmaz böyle. Amcamı çağıralım, o usta.",
-   "rd": "올마즈 뵈일레. 암자므 차으랄름, 오 우스타.",
-   "ko": "이러면 안 돼요. 삼촌 부르죠, 그분이 전문가예요.",
-   "note": "amca = 삼촌",
+   "tl": "Bugün olmaz. Amcamda var, onu arayalım.",
+   "rd": "부귄 올마즈. 암잠다 바르, 오누 아라얄름.",
+   "ko": "오늘은 안 돼요. 삼촌한테 있어요, 전화해 보죠.",
+   "note": "amcamda = 우리 삼촌한테",
    "tags": [
     "expr:olmaz"
    ],
@@ -161,10 +161,10 @@
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Dört kişi. Kombi yarın.",
-   "rd": "되르트 키시. 콤비 야른.",
-   "ko": "네 명요. 보일러는 내일요.",
-   "note": "dört kişi = 네 명",
+   "tl": "Üç kişi. Kombi yarın.",
+   "rd": "위치 키시. 콤비 야른.",
+   "ko": "세 명요. 보일러는 내일요.",
+   "note": "üç kişi = 세 명",
    "tags": [
     "callback:r0_life_a4"
    ],

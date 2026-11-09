@@ -57,32 +57,44 @@
 "7": {
 "segs": [
 [
-"excited",
-"Geldim, tutun! Çay sonra, önce balık!"
+"shout",
+"Geldim, tutun!"
+],
+[
+"surprised",
+"Dur, bu ip yandaki ipe karışmış."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"flustered",
-"Eyvah… İp vapura takıldı galiba!"
+"surprised",
+"Ne?"
+],
+[
+"sad",
+"Balık değil galiba?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"shout",
-"Yok artık! Vapur gidiyor, sen de gidiyorsun!"
+"tsukkomi",
+"Yok artık! Yandaki amcanın ipini çekiyoruz!"
 ]
 ]
 },
 "10": {
 "segs": [
 [
-"shout",
-"Bırak, bırak! Olta gitsin, sen kal!"
+"amused",
+"Burada her gün olur."
+],
+[
+"gentle",
+"Bırakın, ben açarım."
 ]
 ]
 },
@@ -90,15 +102,19 @@
 "segs": [
 [
 "cheerful",
-"Geldim. Ee, oltam nerede?"
+"Geldim."
+],
+[
+"excited",
+"Ee, balık var mı?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"flustered",
-"Oltanız Kadıköy'e gidiyor."
+"amused",
+"Balık yok. Ama yandaki amcayla tanıştık."
 ]
 ]
 }

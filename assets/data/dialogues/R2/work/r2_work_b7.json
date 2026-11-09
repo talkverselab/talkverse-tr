@@ -110,13 +110,13 @@
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Pijamalı biri. Mutfağa girdi.",
-   "rd": "피자말르 비리. 무트파아 기르디.",
-   "ko": "잠옷 입은 사람. 주방에 들어갔어.",
-   "note": "pijamalı = 잠옷 입은",
+   "tl": "Biri mutfağa girdi. Anahtarı var.",
+   "rd": "비리 무트파아 기르디. 아나흐타르 바르.",
+   "ko": "누가 주방에 들어갔어. 열쇠가 있어.",
+   "note": "anahtar = 열쇠",
    "tags": [],
    "new": [
-    "pijama"
+    "anahtar"
    ]
   },
   {

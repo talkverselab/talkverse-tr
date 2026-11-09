@@ -60,15 +60,15 @@
 "segs": [
 [
 "amused",
-"Şimdi teyzemi aradı. O da ıhlamur getiriyor."
+"Şimdi de \"Ihlamur içsin\" diyor."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Yok artık! Teyzen nereden çıktı şimdi?"
+"gentle",
+"Tamam, içerim. Teşekkür et, lütfen."
 ]
 ]
 },
@@ -76,15 +76,19 @@
 "segs": [
 [
 "amused",
-"Annem yola çıktı. Arabada dört kişi var."
+"Annem akşam çorbayla geliyor. Teyzem de."
 ]
 ]
 },
 "10": {
 "segs": [
 [
+"surprised",
+"Yok artık, ikisi birden mi?"
+],
+[
 "flustered",
-"Ben sadece üşüttüm! Onlara söyle, lütfen!"
+"Ev çok dağınık!"
 ]
 ]
 },
@@ -92,7 +96,11 @@
 "segs": [
 [
 "amused",
-"Söyledim. Annem \"Sakın ölme, geliyoruz\" diyor."
+"Söyledim."
+],
+[
+"teasing",
+"\"Ev dağınık olsun, çorba soğumasın\" diyor."
 ]
 ]
 }

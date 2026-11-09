@@ -24,8 +24,12 @@
 "3": {
 "segs": [
 [
+"cheerful",
+"Para ve not: \"Bir ekmek.\""
+],
+[
 "excited",
-"Yaşasın, para! Simitçi aşağıda, hemen geliyorum!"
+"Ben giderim!"
 ]
 ]
 },
@@ -33,7 +37,7 @@
 "segs": [
 [
 "worried",
-"Can, dur! O kimin parası?"
+"Can, dur! Üstünü de sepete koy!"
 ]
 ]
 },
@@ -41,7 +45,11 @@
 "segs": [
 [
 "cheerful",
-"Geldim! Buyur, sıcak simit."
+"Ekmek bitmiş."
+],
+[
+"amused",
+"Üç simit aldım, biri benim."
 ]
 ]
 },
@@ -57,7 +65,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah! Can, o para teyzenindi!"
+"Eyvah! Teyze, kusura bakmayın, ekmek bitmiş!"
 ]
 ]
 },

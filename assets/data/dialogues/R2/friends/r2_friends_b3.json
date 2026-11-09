@@ -106,10 +106,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Olmaz! Soğuk su yok mu burada?",
-   "rd": "올마즈! 소욱 수 욕 무 부라다?",
-   "ko": "안 돼! 여기 찬물 없어?",
-   "note": "soğuk = 차가운",
+   "tl": "Olmaz, soğuk su yok mu? Şişesi kaç lira?",
+   "rd": "올마즈, 소욱 수 욕 무? 시셰시 카치 리라?",
+   "ko": "안 돼, 찬물 없어? 한 병에 얼마야?",
+   "note": "kaç lira = 얼마",
    "tags": [
     "expr:olmaz"
    ],
@@ -151,10 +151,10 @@
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Tamam, sıraya girin. Kafa başı elli lira.",
-   "rd": "타맘, 스라야 기린. 카파 바시 엘리 리라.",
-   "ko": "자, 줄 서세요. 머리당 50리라입니다.",
-   "note": "kafa başı = 머리당",
+   "tl": "Tamam, sıraya girin. Şişesi elli lira.",
+   "rd": "타맘, 스라야 기린. 시셰시 엘리 리라.",
+   "ko": "자, 줄 서세요. 한 병에 50리라입니다.",
+   "note": "sıraya girmek = 줄 서다",
    "tags": [
     "expr:tamam"
    ],

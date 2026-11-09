@@ -13,7 +13,7 @@
  ],
  "title": "사례금 500리라",
  "emoji": "🐾",
- "scene": "사흘째 안 보이는 Patron 을 찾는 전단을 붙였더니 온 동네 고양이가 몰려온다",
+ "scene": "사흘째 안 보이는 Patron 을 찾는 전단을 붙였더니 엉뚱한 고양이와 전화가 몰려온다",
  "speakers": {
   "A": "{name}",
   "B": "Can",
@@ -100,9 +100,9 @@
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Bir kedi daha geldi. Bir tane daha. Merdivene kadar sıra oldu.",
-   "rd": "비르 케디 다하 겔디. 비르 타네 다하. 메르디베네 카다르 스라 올두.",
-   "ko": "고양이 또 왔어요. 또 한 마리요. 계단까지 줄을 섰어요.",
+   "tl": "Bir çocuk daha geldi. Onun kedisi de beyaz. Merdivende sıra var.",
+   "rd": "비르 초죽 다하 겔디. 오눈 케디시 데 베야즈. 메르디벤데 스라 바르.",
+   "ko": "애가 또 왔어요. 그 애 고양이도 하얘요. 계단에 줄 섰어요.",
    "note": "sıra = 줄 — 반전",
    "tags": [],
    "new": []
@@ -110,54 +110,52 @@
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Kanka, bir sayayım… Yedi kedi, üç çocuk, bir de dede.",
-   "rd": "칸카, 비르 사야이음… 예디 케디, 위치 초죽, 비르 데 데데.",
-   "ko": "야, 세어 볼게… 고양이 일곱, 애 셋, 할아버지도 한 분.",
-   "note": "saymak = 세다, dede = 할아버지",
+   "tl": "Beş yüz lira yazınca böyle olur, kanka. Herkes kedi getirir.",
+   "rd": "베시 위즈 리라 야즌자 뵈일레 올루르, 칸카. 헤르케스 케디 게티리르.",
+   "ko": "500리라라고 쓰면 이렇게 돼, 친구야. 다들 고양이 들고 와.",
+   "note": "-ınca = ~하면, ~하자",
    "tags": [
     "expr:kanka"
    ],
-   "new": [
-    "dede"
-   ]
+   "new": []
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Dede mi? O neden burada? Kedisi bile yok!",
-   "rd": "데데 미? 오 네덴 부라다? 케디시 빌레 욕!",
-   "ko": "할아버지? 왜 계신 건데? 고양이도 없잖아!",
-   "note": "bile = ~조차",
+   "tl": "Telefon numaramı da yazdım. Telefon hiç susmuyor!",
+   "rd": "텔레폰 누마라므 다 야즈듬. 텔레폰 히치 수스무요르!",
+   "ko": "전화번호도 썼거든. 전화가 쉬지를 않아!",
+   "note": "susmamak = 멈추지 않다",
    "tags": [],
    "new": []
   },
   {
    "num": 10,
    "speaker": "B",
-   "tl": "Elinde tavuk var. 'Bu da kedi sayılır mı?' diye soruyor.",
-   "rd": "엘린데 타북 바르. 부 다 케디 사이을르르 므? 디예 소루요르.",
-   "ko": "손에 닭을 들고 계셔. '이것도 고양이로 쳐 주나?' 하고 물으시네.",
-   "note": "sayılır = 친다, 간주된다",
+   "tl": "Ver bakayım. Alo? Hayır abla, sarı kedi, sarı!",
+   "rd": "베르 바카이음. 알로? 하이으르 아블라, 사르 케디, 사르!",
+   "ko": "줘 봐. 여보세요? 아니요, 노란 고양이요, 노란!",
+   "note": "ver bakayım = 줘 봐",
    "tags": [],
    "new": []
   },
   {
    "num": 11,
    "speaker": "C",
-   "tl": "Kediler binaya girdi. Şimdi herkes bana bağırıyor.",
-   "rd": "케딜레르 비나야 기르디. 심디 헤르케스 바나 바으르요르.",
-   "ko": "고양이들이 건물에 들어왔어요. 이제 다들 저한테 소리쳐요.",
-   "note": "bağırmak = 소리치다",
+   "tl": "İki kedi binaya girdi. Komşular bana kızıyor.",
+   "rd": "이키 케디 비나야 기르디. 콤슐라르 바나 크즈요르.",
+   "ko": "고양이 두 마리가 건물에 들어왔어요. 이웃들이 저한테 화내요.",
+   "note": "kızmak = 화내다",
    "tags": [],
    "new": []
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Eyvah! Beş yüz lirayı kime vereceğim şimdi?",
-   "rd": "에이바흐! 베시 위즈 리라이으 키메 베레제임 심디?",
-   "ko": "헉! 500리라를 이제 누구한테 줘?",
-   "note": "kime = 누구에게",
+   "tl": "Eyvah! Ben sadece Patron'u istiyorum.",
+   "rd": "에이바흐! 벤 사데제 파트로누 이스티요룸.",
+   "ko": "헉! 난 그냥 파트론만 찾으면 되는데.",
+   "note": "sadece = 그냥, ~만",
    "tags": [
     "expr:eyvah"
    ],
@@ -189,9 +187,9 @@
   {
    "num": 15,
    "speaker": "D",
-   "tl": "Tabii. Zayıflamış, köfte verdim. Şimdi kapıdan geçmiyor.",
-   "rd": "타비이. 자이으플라므시, 쾨프테 베르딤. 심디 카프단 게치미요르.",
-   "ko": "그럼. 살이 빠졌길래 쾨프테를 줬지. 이제 문도 못 지나가.",
+   "tl": "Tabii. Zayıflamış, köfte verdim. Şimdi gitmek istemiyor.",
+   "rd": "타비이. 자이으플라므시, 쾨프테 베르딤. 심디 기트멕 이스테미요르.",
+   "ko": "그럼. 살이 빠졌길래 쾨프테를 줬지. 이제 가려고를 안 해.",
    "note": "zayıflamak = 살이 빠지다",
    "tags": [
     "expr:tabii"

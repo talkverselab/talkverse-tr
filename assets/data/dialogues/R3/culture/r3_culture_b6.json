@@ -12,7 +12,7 @@
  ],
  "title": "빗자루 선생",
  "emoji": "🧹",
- "scene": "사즈를 배우러 공방에 갔는데, 석 달째 스승이 빗자루만 준다",
+ "scene": "사즈를 배우러 공방에 갔는데, 3주째 스승이 빗자루만 준다",
  "speakers": {
   "A": "{name}",
   "B": "Usta",
@@ -85,9 +85,9 @@
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Nasıl gidiyor? Bir aydır oradasın, saz çaldın mı?",
-   "rd": "나슬 기디요르? 비르 아이드르 오라다슨, 사즈 찰든 므?",
-   "ko": "어떻게 돼 가? 한 달째 거기 있는데, 사즈 쳐 봤어?",
+   "tl": "Nasıl gidiyor? İki haftadır oradasın, saz çaldın mı?",
+   "rd": "나슬 기디요르? 이키 하프타드르 오라다슨, 사즈 찰든 므?",
+   "ko": "어떻게 돼 가? 2주째 거기 있는데, 사즈 쳐 봤어?",
    "note": "bir aydır = 한 달째",
    "tags": [],
    "new": []
@@ -107,9 +107,9 @@
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Usta böyle. Bana da iki ay hiç cevap vermedi.",
-   "rd": "우스타 뵈일레. 바나 다 이키 아이 히치 제밥 베르메디.",
-   "ko": "스승님 원래 그래. 나한테도 두 달 동안 대답 한 번 안 하셨어.",
+   "tl": "Usta böyle. Bana da ilk ay hiç cevap vermedi.",
+   "rd": "우스타 뵈일레. 바나 다 일크 아이 히치 제밥 베르메디.",
+   "ko": "스승님 원래 그래. 나한테도 첫 달엔 대답 한 번 안 하셨어.",
    "note": "cevap vermek = 답하다",
    "tags": [],
    "new": []
@@ -142,9 +142,9 @@
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Usta, ben para veriyorum! Üç aydır süpürüyorum, beni hiç görmüyorsunuz!",
-   "rd": "우스타, 벤 파라 베리요룸! 위치 아이드르 쉬퓌뤼요룸, 베니 히치 괴르뮈요르수누즈!",
-   "ko": "스승님, 저 돈 내고 있어요! 석 달째 쓸고 있는데, 저를 보시지도 않잖아요!",
+   "tl": "Usta, ben para veriyorum! Üç haftadır süpürüyorum, beni hiç görmüyorsunuz!",
+   "rd": "우스타, 벤 파라 베리요룸! 위치 하프타드르 쉬퓌뤼요룸, 베니 히치 괴르뮈요르수누즈!",
+   "ko": "스승님, 저 돈 내고 있어요! 3주째 쓸고 있는데, 저를 보시지도 않잖아요!",
    "note": "üç aydır = 석 달째",
    "tags": [],
    "new": []
@@ -172,9 +172,9 @@
   {
    "num": 13,
    "speaker": "B",
-   "tl": "Süpürürken ritim tutuyorsun. İlk ay yanlıştı, şimdi doğru.",
-   "rd": "쉬퓌뤼르켄 리팀 투투요르순. 일크 아이 얀르시트, 심디 도루.",
-   "ko": "너 비질할 때 박자를 타더라. 첫 달엔 틀렸는데, 이젠 맞아.",
+   "tl": "Süpürürken ritim tutuyorsun. İlk hafta yanlıştı, şimdi doğru.",
+   "rd": "쉬퓌뤼르켄 리팀 투투요르순. 일크 하프타 얀르시트, 심디 도루.",
+   "ko": "너 비질할 때 박자를 타더라. 첫 주엔 틀렸는데, 이젠 맞아.",
    "note": "ritim tutmak = 박자를 맞추다",
    "tags": [],
    "new": [
@@ -197,9 +197,9 @@
   {
    "num": 15,
    "speaker": "B",
-   "tl": "Hayır. Yarın sazı sadece tutacaksın. Çalmak seneye.",
-   "rd": "하이으르. 야른 사즈 사데제 투타작슨. 찰막 세네예.",
-   "ko": "아니. 내일은 사즈를 들고만 있어라. 치는 건 내년이다.",
+   "tl": "Hayır. Yarın sazı sadece tutacaksın. Çalmak gelecek ay.",
+   "rd": "하이으르. 야른 사즈 사데제 투타작슨. 찰막 겔레젝 아이.",
+   "ko": "아니. 내일은 사즈를 들고만 있어라. 치는 건 다음 달이다.",
    "note": "seneye = 내년에",
    "tags": [],
    "new": []

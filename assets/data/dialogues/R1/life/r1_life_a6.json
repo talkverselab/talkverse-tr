@@ -93,22 +93,24 @@
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Bir de pantolon, bir de… şey.",
-   "rd": "비르 데 판톨론, 비르 데… 셰이.",
-   "ko": "바지도 있고요. 그리고… 그거요.",
-   "note": "bir de = ~도 하나 더 — 반전",
+   "tl": "Bir de pantolon var, bir de havlu.",
+   "rd": "비르 데 판톨론 바르, 비르 데 하블루.",
+   "ko": "바지도 있고, 수건도 있어요.",
+   "note": "havlu = 수건 — 반전",
    "tags": [
     "expr:şey"
    ],
-   "new": []
+   "new": [
+    "havlu"
+   ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Eyvah! Ne zamandan beri?",
-   "rd": "에이바흐! 네 자만단 베리?",
-   "ko": "헉! 언제부터요?",
-   "note": "ne zamandan beri = 언제부터",
+   "tl": "Eyvah! Hepsi benim mi?",
+   "rd": "에이바흐! 헵시 베님 미?",
+   "ko": "헉! 그게 다 제 거예요?",
+   "note": "hepsi = 전부",
    "tags": [
     "expr:eyvah"
    ],
@@ -117,14 +119,16 @@
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Bir aydır. Kutu doldu, buyurun.",
-   "rd": "비르 아이드르. 쿠투 돌두, 부유룬.",
-   "ko": "한 달째요. 상자가 꽉 찼어요, 여기요.",
-   "note": "bir aydır = 한 달째",
+   "tl": "Bu hafta rüzgâr çok. Buyurun.",
+   "rd": "부 하프타 뤼즈가르 촉. 부유룬.",
+   "ko": "이번 주에 바람이 세네요. 여기요.",
+   "note": "rüzgâr = 바람",
    "tags": [
     "expr:buyurun"
    ],
-   "new": []
+   "new": [
+    "rüzgâr"
+   ]
   }
  ],
  "review": {

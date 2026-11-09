@@ -12,17 +12,17 @@
  ],
  "title": "여긴 화학과",
  "emoji": "🧪",
- "scene": "터키어 첫 발표를 끝까지 잘 해냈는데, 듣던 사람들이 이상하다",
+ "scene": "터키어 첫 발표 날, 강의실 번호를 거꾸로 읽고 화학 수업에 들어갔다",
  "speakers": {
   "A": "{name}",
   "B": "Zeynep",
   "C": "Kimya hocası"
  },
  "register": "mixed",
- "twist": 8,
+ "twist": 10,
  "twist_type": "chaos",
  "flags": [],
- "goal": "başlayabilir miyim·anlamadım 으로 발표 진행하기",
+ "goal": "başlayabilir miyim·anlamadım 으로 수업에서 말하기",
  "expressions": [
   "hocam",
   "anlamadım",
@@ -47,49 +47,53 @@
   {
    "num": 2,
    "speaker": "C",
-   "tl": "Sunum mu? Olur, başlayın.",
-   "rd": "수눔 무? 올루르, 바실라이은.",
-   "ko": "발표요? 네, 시작하세요.",
-   "note": "olur = 좋아요",
+   "tl": "Sunum mu? Bugün sunum yok ki.",
+   "rd": "수눔 무? 부귄 수눔 욕 키.",
+   "ko": "발표요? 오늘은 발표가 없는데요.",
+   "note": "yok ki = 없는데",
    "tags": [],
    "new": []
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Bugünkü konum Türk kahvesinin tarihi.",
-   "rd": "부귄퀴 코눔 튀르크 카흐베시닌 타리히.",
-   "ko": "오늘 제 주제는 터키 커피의 역사입니다.",
-   "note": "konum = 내 주제",
-   "tags": [],
-   "new": []
+   "tl": "Var hocam, listede benim adım var.",
+   "rd": "바르 호잠, 리스테데 베님 아듬 바르.",
+   "ko": "있어요, 교수님. 명단에 제 이름 있어요.",
+   "note": "liste = 명단",
+   "tags": [
+    "expr:hocam"
+   ],
+   "new": [
+    "liste"
+   ]
   },
   {
    "num": 4,
    "speaker": "C",
-   "tl": "Türk kahvesi mi? Güzel, devam edin.",
-   "rd": "튀르크 카흐베시 미? 귀젤, 데밤 에딘.",
-   "ko": "터키 커피요? 좋네요, 계속하세요.",
-   "note": "devam edin = 계속하세요",
+   "tl": "Hangi liste? Adınız ne, bakayım.",
+   "rd": "한기 리스테? 아드느즈 네, 바카이음.",
+   "ko": "무슨 명단이요? 이름이 뭐예요, 어디 봅시다.",
+   "note": "bakayım = 어디 봅시다",
    "tags": [],
    "new": []
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Kahve on altıncı yüzyılda İstanbul'a geldi.",
-   "rd": "카흐베 온 알튼즈 위즈이을다 이스탄불라 겔디.",
-   "ko": "커피는 16세기에 이스탄불에 왔습니다.",
-   "note": "yüzyıl = 세기",
+   "tl": "{name}. Konum Türk kahvesinin tarihi.",
+   "rd": "{name}. 코눔 튀르크 카흐베시닌 타리히.",
+   "ko": "{name}입니다. 제 주제는 터키 커피의 역사예요.",
+   "note": "konum = 내 주제",
    "tags": [],
    "new": []
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "İlginç. Sunumda kahvenin kimyası da var mı?",
-   "rd": "일긴치. 수눔다 카흐베닌 킴야스 다 바르 므?",
-   "ko": "흥미롭네요. 발표에 커피의 화학도 있나요?",
+   "tl": "Kahve mi? Burada kimya konuşuyoruz.",
+   "rd": "카흐베 미? 부라다 킴야 코누슈요루즈.",
+   "ko": "커피요? 여기선 화학 얘기 하는데요.",
    "note": "kimya = 화학",
    "tags": [],
    "new": [
@@ -112,56 +116,55 @@
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Neredesin? Sıra sende, hoca çok kızgın!",
-   "rd": "네레데신? 스라 센데, 호자 촉 크즈근!",
-   "ko": "너 어디야? 네 차례야, 교수님 엄청 화났어!",
-   "note": "sıra sende = 네 차례 — 반전: Zeynep 의 메시지",
+   "tl": "Neredesin? Sıra sende, hoca bekliyor!",
+   "rd": "네레데신? 스라 센데, 호자 베클리요르!",
+   "ko": "너 어디야? 네 차례야, 교수님 기다리셔!",
+   "note": "sıra sende = 네 차례",
    "tags": [],
    "new": []
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Hocam… burası Türk Kültürü dersi değil mi?",
-   "rd": "호잠… 부라스 튀르크 퀼튀뤼 데르시 데일 미?",
-   "ko": "교수님… 여기 터키 문화 수업 아닌가요?",
-   "note": "burası = 여기",
-   "tags": [
-    "expr:hocam"
-   ],
+   "tl": "Sınıftayım! Yüz iki numara, değil mi?",
+   "rd": "스느프타이음! 위즈 이키 누마라, 데일 미?",
+   "ko": "강의실이야! 102호 맞지?",
+   "note": "sınıf = 강의실",
+   "tags": [],
    "new": []
   },
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Burası kimya. Ama sunum iyiydi, seksen beş.",
-   "rd": "부라스 킴야. 아마 수눔 이이이디, 섹센 베시.",
-   "ko": "여기 화학과예요. 근데 발표 좋았어요, 85점.",
-   "note": "seksen beş = 85",
+   "tl": "Yüz iki mi? Biz iki yüz birdeyiz!",
+   "rd": "위즈 이키 미? 비즈 이키 위즈 비르데이즈!",
+   "ko": "102? 우리 201호에 있어!",
+   "note": "iki yüz bir = 201 — 반전: 숫자를 거꾸로 읽었다",
    "tags": [],
    "new": []
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Eyvah! Zeynep, koşuyorum, az kaldı!",
-   "rd": "에이바흐! 제이넵, 코슈요룸, 아즈 칼드!",
-   "ko": "헉! Zeynep, 뛰어가는 중이야, 거의 다 왔어!",
-   "note": "az kaldı = 거의 다 왔어",
-   "tags": [
-    "expr:eyvah",
-    "expr:az kaldı"
-   ],
+   "tl": "Burası kimya. Ama konu güzel, haftaya bize de anlatın.",
+   "rd": "부라스 킴야. 아마 코누 귀젤, 하프타야 비제 데 안라튼.",
+   "ko": "여긴 화학이에요. 근데 주제가 좋네요, 다음 주에 우리한테도 해 줘요.",
+   "note": "haftaya = 다음 주에",
+   "tags": [],
    "new": []
   },
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Bizim hoca sıfır verdi. Kimyaya geç bence.",
-   "rd": "비짐 호자 스프르 베르디. 킴야야 게치 벤제.",
-   "ko": "우리 교수님은 0점 주셨어. 넌 화학과로 가라.",
-   "note": "sıfır = 0",
-   "tags": [],
+   "tl": "Eyvah, pardon hocam! Zeynep, az kaldı, geliyorum!",
+   "rd": "에이바흐, 파르돈 호잠! 제이넵, 아즈 칼드, 겔리요룸!",
+   "ko": "헉, 죄송합니다 교수님! Zeynep, 거의 다 왔어, 간다!",
+   "note": "az kaldı = 거의 다 왔어",
+   "tags": [
+    "expr:eyvah",
+    "expr:hocam",
+    "expr:az kaldı"
+   ],
    "new": []
   }
  ],

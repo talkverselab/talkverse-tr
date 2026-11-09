@@ -17,7 +17,7 @@
 "segs": [
 [
 "polite",
-"Tabii. Ama önce bir dakika."
+"Tabii. Ama yol biraz kalabalık."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "worried",
-"Neden duruyoruz? Burası neresi?"
+"Ne kadar sürer?"
 ]
 ]
 },
@@ -33,15 +33,19 @@
 "segs": [
 [
 "polite",
-"Annem burada. Onu da alıyoruz."
+"Yirmi dakika."
+],
+[
+"flustered",
+"Bir dakika, annem arıyor."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"gentle",
-"Hoş geldin, evladım! Aç mısın?"
+"cheerful",
+"Alo, evladım! Arabada kim var?"
 ]
 ]
 },
@@ -49,7 +53,7 @@
 "segs": [
 [
 "flustered",
-"Şey… Sultanahmet nerede?"
+"Şey, merhaba teyze. Ben yolcuyum."
 ]
 ]
 },
@@ -57,15 +61,23 @@
 "segs": [
 [
 "cheerful",
-"Sultanahmet kaçmaz. Hadi, yemek hazır."
+"Hoş geldin, yavrum!"
+],
+[
+"gentle",
+"Akşam bize yemeğe gel."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"cheerful",
-"Geldik. Para yok, yemek var."
+"polite",
+"Geldik."
+],
+[
+"amused",
+"Annem ciddi, adresi vereyim mi?"
 ]
 ]
 }

@@ -12,7 +12,7 @@
  ],
  "title": "커피 점쟁이",
  "emoji": "☕",
- "scene": "카페 알바 중 손님이 커피 잔 점을 봐 달라는데, 아무 말이나 한 게 다 맞는다",
+ "scene": "카페 알바 중 손님이 커피 잔 점을 봐 달라는데, 아무 말이나 한 게 다 맞아 버린다",
  "speakers": {
   "A": "{name}",
   "B": "Can",
@@ -107,9 +107,9 @@
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Maaşım bugün geldi! Kızlar, gelin, fincanları getirin!",
-   "rd": "마아심 부귄 겔디! 크즐라르, 겔린, 핀잔라르 게티린!",
-   "ko": "월급이 오늘 들어왔어요! 언니들, 와 봐요, 잔 가져와요!",
+   "tl": "Maaşım bugün geldi! Arkadaşlarımı çağırıyorum!",
+   "rd": "마아심 부귄 겔디! 아르카다실라르므 차으르요룸!",
+   "ko": "월급 오늘 들어왔어요! 친구들 부를게요!",
    "note": "maaş = 월급 — 반전: 맞혀 버렸다",
    "tags": [],
    "new": []
@@ -117,14 +117,12 @@
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Kapıya kadar kuyruk var. Kaç kahve yaptım ben?!",
-   "rd": "카프야 카다르 쿠이룩 바르. 카치 카흐베 얍틈 벤?!",
-   "ko": "문까지 줄 섰어. 나 커피 몇 잔 탄 거야?!",
-   "note": "kuyruk = 줄",
+   "tl": "Dört kahve daha geldi, hepsi fal istiyor!",
+   "rd": "되르트 카흐베 다하 겔디, 헵시 팔 이스티요르!",
+   "ko": "커피 네 잔 더 들어왔어, 다 점 봐 달래!",
+   "note": "hepsi = 모두",
    "tags": [],
-   "new": [
-    "kuyruk"
-   ]
+   "new": []
   },
   {
    "num": 9,
@@ -141,10 +139,10 @@
   {
    "num": 10,
    "speaker": "D",
-   "tl": "Burada ne oluyor? Dur, kasa dolu.",
-   "rd": "부라다 네 올루요르? 두르, 카사 돌루.",
-   "ko": "여기 무슨 일이에요? 잠깐, 금고가 꽉 찼네요.",
-   "note": "kasa = 금고, 계산대",
+   "tl": "Burada ne oluyor? Neden herkes fincan istiyor?",
+   "rd": "부라다 네 올루요르? 네덴 헤르케스 핀잔 이스티요르?",
+   "ko": "여기 무슨 일이에요? 왜 다들 잔을 달래요?",
+   "note": "neden herkes = 왜 다들",
    "tags": [],
    "new": []
   },
@@ -163,12 +161,14 @@
   {
    "num": 12,
    "speaker": "D",
-   "tl": "Yarın fal da menüde. Elli lira.",
-   "rd": "야른 팔 다 메뉘데. 엘리 리라.",
-   "ko": "내일부터 점도 메뉴에 넣어요. 50리라.",
-   "note": "menü = 메뉴",
+   "tl": "Özür dileme. Kahve satıyoruz, fal bedava olsun.",
+   "rd": "외쥐르 딜레메. 카흐베 사트요루즈, 팔 베다바 올순.",
+   "ko": "사과 안 해도 돼. 커피 잘 팔리네, 점은 서비스로 해.",
+   "note": "bedava = 공짜",
    "tags": [],
-   "new": []
+   "new": [
+    "bedava"
+   ]
   }
  ],
  "review": {

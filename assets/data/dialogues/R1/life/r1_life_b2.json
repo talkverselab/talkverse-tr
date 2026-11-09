@@ -13,7 +13,7 @@
  ],
  "title": "말할수록 오른다",
  "emoji": "💸",
- "scene": "집주인에게 고장 난 곳을 말했을 뿐인데 월세가 계속 오른다",
+ "scene": "계약 갱신 날, 집주인에게 고장 난 곳을 하나씩 말했더니 월세 얘기가 돌아온다",
  "speakers": {
   "A": "{name}",
   "B": "Ev sahibi"
@@ -22,7 +22,7 @@
  "twist": 7,
  "twist_type": "chaos",
  "flags": [],
- "goal": "bozuk·kira 로 집주인에게 고장 말하기",
+ "goal": "bozuk·usta gelir·kira 로 집주인에게 고장 말하기",
  "expressions": [
   "merhaba",
   "tabii",
@@ -60,13 +60,13 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Yenisini alırız. Kira bin lira artar.",
-   "rd": "예니시니 알르르즈. 키라 빈 리라 아르타르.",
-   "ko": "새 걸로 사죠. 월세는 천 리라 오르고요.",
-   "note": "artar = 오른다",
+   "tl": "Tamam, yarın usta gelir.",
+   "rd": "타맘, 야른 우스타 겔리르.",
+   "ko": "알겠어요, 내일 기사님 올 거예요.",
+   "note": "usta = 수리 기사",
    "tags": [],
    "new": [
-    "artmak"
+    "usta"
    ]
   },
   {
@@ -74,18 +74,18 @@
    "speaker": "A",
    "tl": "Efendim? Bir de pencere kapanmıyor.",
    "rd": "에펜딤? 비르 데 펜제레 카판므요르.",
-   "ko": "네? 창문도 안 닫혀요.",
-   "note": "efendim? = 네?(되물을 때)",
+   "ko": "저기요, 창문도 안 닫혀요.",
+   "note": "kapanmıyor = 안 닫힌다",
    "tags": [],
    "new": []
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Yeni pencere. İki bin lira.",
-   "rd": "예니 펜제레. 이키 빈 리라.",
-   "ko": "새 창문이요. 2천 리라.",
-   "note": "yeni = 새",
+   "tl": "Usta ona da bakar.",
+   "rd": "우스타 오나 다 바카르.",
+   "ko": "기사님이 그것도 봐 줄 거예요.",
+   "note": "bakmak = 봐 주다",
    "tags": [],
    "new": []
   },
@@ -104,19 +104,21 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Üç bin. Başka sorun var mı?",
-   "rd": "위치 빈. 바시카 소룬 바르 므?",
-   "ko": "3천요. 또 문제 있나요?",
-   "note": "başka sorun = 다른 문제 — 반전: 말할수록 오른다",
+   "tl": "Hepsini yaptırırım. Kira da yüzde elli artar.",
+   "rd": "헵시니 얍트르름. 키라 다 위즈데 엘리 아르타르.",
+   "ko": "다 고쳐 드리죠. 월세는 50퍼센트 오르고요.",
+   "note": "artmak = 오르다 — 반전",
    "tags": [],
-   "new": []
+   "new": [
+    "artmak"
+   ]
   },
   {
    "num": 8,
    "speaker": "A",
    "tl": "Yok! Ev harika, çok güzel!",
    "rd": "욕! 에브 하리카, 촉 귀젤!",
-   "ko": "없어요! 집 끝내줘요, 너무 좋아요!",
+   "ko": "아뇨! 집 끝내줘요, 너무 좋아요!",
    "note": "harika = 끝내준다",
    "tags": [
     "expr:çok güzel",

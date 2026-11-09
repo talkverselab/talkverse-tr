@@ -76,36 +76,24 @@
 "7": {
 "segs": [
 [
-"neutral",
-"Merhaba."
-],
-[
-"surprised",
-"Usta, su neden tavana gidiyor?"
+"worried",
+"Merhaba. Usta, bu parça eski model."
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"shout",
-"Tavana mı?!"
-],
-[
-"flustered",
-"Daha önce sadece yere akıyordu!"
+"worried",
+"Eski mi? Yani bugün bitmiyor mu?"
 ]
 ]
 },
 "9": {
 "segs": [
 [
-"stiff",
-"Olmaz böyle."
-],
-[
-"polite",
-"Amcamı çağıralım, o usta."
+"neutral",
+"Bugün olmaz. Amcamda var, onu arayalım."
 ]
 ]
 },
@@ -124,8 +112,8 @@
 "11": {
 "segs": [
 [
-"neutral",
-"Dört kişi. Kombi yarın."
+"amused",
+"Üç kişi. Kombi yarın."
 ]
 ]
 },

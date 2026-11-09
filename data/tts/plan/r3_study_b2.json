@@ -76,8 +76,8 @@
 "9": {
 "segs": [
 [
-"stiff",
-"Önceki hâlini okudum. Üçüncü sayfada “de” ayrı yazılır."
+"polite",
+"Hoca telefonda söyledi: üçüncü sayfada “de” ayrı yazılır."
 ]
 ]
 },
@@ -92,8 +92,8 @@
 "11": {
 "segs": [
 [
-"polite",
-"Hoca iki yıl önce emekli oldu, canım. Maili ben yazıyorum."
+"gentle",
+"Hoca bu dönem yurt dışında, canım. Mailleri o söylüyor, ben yazıyorum."
 ]
 ]
 },
@@ -101,11 +101,7 @@
 "segs": [
 [
 "surprised",
-"Ne?!"
-],
-[
-"shout",
-"Peki notlarımı kim veriyor?!"
+"Ne?! Peki tezimi kim okuyacak?"
 ]
 ]
 },
@@ -113,7 +109,7 @@
 "segs": [
 [
 "polite",
-"Geçen dönem seksen verdim. Hak ettiniz."
+"Hoca okuyacak, merak etmeyin. Ben ona gönderiyorum."
 ]
 ]
 },
@@ -121,11 +117,7 @@
 "segs": [
 [
 "surprised",
-"Yok artık."
-],
-[
-"tsukkomi",
-"Bütün bölümü sekreter mi yönetiyor?"
+"Yok artık. Bütün bölüm sizin sayenizde mi dönüyor?"
 ]
 ]
 },

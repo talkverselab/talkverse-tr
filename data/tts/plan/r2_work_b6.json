@@ -58,15 +58,15 @@
 "segs": [
 [
 "excited",
-"Maaşım bugün geldi! Kızlar, gelin, fincanları getirin!"
+"Maaşım bugün geldi! Arkadaşlarımı çağırıyorum!"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"surprised",
-"Kapıya kadar kuyruk var. Kaç kahve yaptım ben?!"
+"flustered",
+"Dört kahve daha geldi, hepsi fal istiyor!"
 ]
 ]
 },
@@ -86,7 +86,7 @@
 ],
 [
 "surprised",
-"Dur, kasa dolu."
+"Neden herkes fincan istiyor?"
 ]
 ]
 },
@@ -101,8 +101,12 @@
 "12": {
 "segs": [
 [
-"stiff",
-"Yarın fal da menüde. Elli lira."
+"gentle",
+"Özür dileme."
+],
+[
+"amused",
+"Kahve satıyoruz, fal bedava olsun."
 ]
 ]
 }

@@ -10,9 +10,9 @@
  "domain": [
   "culture"
  ],
- "title": "비행기는 기다린다",
+ "title": "경기장 앞으로 지름길",
  "emoji": "🚕",
- "scene": "공항 가는 택시, 응원하는 팀이 없다고 했을 뿐인데 차가 돈다",
+ "scene": "공항 가는 택시, 응원하는 팀이 없다고 했더니 기사가 경기 날 경기장 앞길로 들어선다",
  "speakers": {
   "A": "{name}",
   "B": "Taksici"
@@ -21,7 +21,7 @@
  "twist": 7,
  "twist_type": "chaos",
  "flags": [],
- "goal": "hangi takım·bilmem 으로 택시 기사 질문 받기",
+ "goal": "hangi takım·bilmem 으로 택시 기사 질문 받기, 길 확인하기",
  "expressions": [
   "hoş geldiniz",
   "lütfen",
@@ -100,20 +100,20 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Neden dönüyorsunuz? Havalimanı orada!",
-   "rd": "네덴 되뉘요르수누즈? 하발리마느 오라다!",
-   "ko": "왜 돌아가세요? 공항은 저쪽이에요!",
-   "note": "dönmek = 돌다",
+   "tl": "Neden bu yoldan gidiyorsunuz? Havalimanı orada!",
+   "rd": "네덴 부 욜단 기디요르수누즈? 하발리마느 오라다!",
+   "ko": "왜 이 길로 가세요? 공항은 저쪽이에요!",
+   "note": "bu yoldan = 이 길로",
    "tags": [],
    "new": []
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Bugün büyük maç var. Uçak bekler.",
-   "rd": "부귄 뷔윅 마치 바르. 우착 베클레르.",
-   "ko": "오늘 큰 경기 있어요. 비행기는 기다려요.",
-   "note": "maç = 경기 — 반전",
+   "tl": "Kısa yol, stadın önünden. Büyük maç var.",
+   "rd": "크사 욜, 스타든 외뉜덴. 뷔윅 마치 바르.",
+   "ko": "지름길이에요, 경기장 앞으로요. 큰 경기 있거든요.",
+   "note": "kısa yol = 지름길 — 반전",
    "tags": [],
    "new": [
     "maç"
@@ -122,9 +122,9 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Uçak beklemez, beyefendi!",
-   "rd": "우착 베클레메즈, 베예펜디!",
-   "ko": "비행기는 안 기다려요, 기사님!",
+   "tl": "Maç günü stat mı? Uçak beklemez, beyefendi!",
+   "rd": "마치 귀뉘 스탓 므? 우착 베클레메즈, 베예펜디!",
+   "ko": "경기 날 경기장이요? 비행기는 안 기다려요, 기사님!",
    "note": "beklemez = 기다리지 않는다",
    "tags": [
     "expr:beyefendi"

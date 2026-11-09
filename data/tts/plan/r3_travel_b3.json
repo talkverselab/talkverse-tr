@@ -75,7 +75,11 @@
 "segs": [
 [
 "surprised",
-"Ne demek kucağıma? Hocam, bu hayvan neden telefonumu yiyor?"
+"Ne demek kucağıma?"
+],
+[
+"flustered",
+"Şoför bey, bu hayvan neden telefonumu yiyor?"
 ]
 ]
 },
@@ -114,8 +118,12 @@
 "14": {
 "segs": [
 [
+"stiff",
+"Biletiniz yoksa yeni bilet almanız lazım."
+],
+[
 "polite",
-"Biletiniz yoksa inmeniz lazım. Kuralımız bu, kusura bakmayın."
+"Kuralımız bu, kusura bakmayın."
 ]
 ]
 },
@@ -130,8 +138,12 @@
 "16": {
 "segs": [
 [
+"amused",
+"Onun bileti karnında, efendim."
+],
+[
 "polite",
-"Onun bileti karnında, efendim. Siz buyurun."
+"Siz yeni bilet alın."
 ]
 ]
 }

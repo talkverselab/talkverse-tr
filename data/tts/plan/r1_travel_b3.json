@@ -36,19 +36,15 @@
 "segs": [
 [
 "polite",
-"Sağa bakın, lütfen."
+"Balkona çıkın, sağa bakın lütfen."
 ]
 ]
 },
 "5": {
 "segs": [
 [
-"neutral",
-"Baktım."
-],
-[
 "surprised",
-"Allah allah, duvar var."
+"Baktım. Allah allah, bina var."
 ]
 ]
 },
@@ -56,7 +52,7 @@
 "segs": [
 [
 "polite",
-"Duvara iyi bakın. Güzel, değil mi?"
+"Biraz eğilin. Mavi bir şey var mı?"
 ]
 ]
 },
@@ -64,11 +60,11 @@
 "segs": [
 [
 "tsukkomi",
-"Bu bir resim!"
+"Küçük bir mavi!"
 ],
 [
-"shout",
-"Deniz resmi!"
+"polite",
+"Başka oda var mı?"
 ]
 ]
 },
@@ -76,7 +72,7 @@
 "segs": [
 [
 "polite",
-"Evet efendim. Deniz görünen oda."
+"Yarın var efendim. Bu gece biraz eğilin."
 ]
 ]
 }

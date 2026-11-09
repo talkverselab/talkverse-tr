@@ -163,20 +163,20 @@
   {
    "num": 11,
    "speaker": "C",
-   "tl": "Kuzenim aradı, sizi gördü. Ama pasaportu trafikte simitçiye vermiş.",
-   "rd": "쿠제님 아라드, 시지 괴르뒤. 아마 파사포르투 트라픽테 시미트치예 베르미시.",
-   "ko": "사촌이 전화했는데, 손님을 봤대요. 근데 여권을 차들 사이에서 시미트 장수한테 줬대요.",
-   "note": "simitçi = 시미트 장수 — 반전",
+   "tl": "Kuzenim aradı, sizi gördü. Ama arabalar arasından geçemiyor, yürüyerek geliyor!",
+   "rd": "쿠제님 아라드, 시지 괴르뒤. 아마 아라발라르 아라슨단 게체미요르, 위뤼예렉 겔리요르!",
+   "ko": "사촌이 전화했는데, 손님을 봤대요. 근데 차 사이로 못 지나가서 걸어서 온대요!",
+   "note": "geçememek = 못 지나가다 — 반전",
    "tags": [],
    "new": []
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Simitçiye mi?! Yok artık! Neden simitçi benim pasaportumu taşıyor?",
-   "rd": "시미트치예 미?! 욕 아르특! 네덴 시미트치 베님 파사포르투무 타시요르?",
-   "ko": "시미트 장수한테요?! 말도 안 돼! 왜 시미트 장수가 내 여권을 들고 다녀요?",
-   "note": "taşımak = 들고 다니다",
+   "tl": "Yürüyerek mi?! Köprüde mi? Yok artık, nerede o?",
+   "rd": "위뤼예렉 미?! 쾹뤼데 미? 욕 아르특, 네레데 오?",
+   "ko": "걸어서요?! 다리 위를요? 말도 안 돼, 어디 있어요?",
+   "note": "yürüyerek = 걸어서",
    "tags": [
     "expr:yok artık"
    ],
@@ -185,9 +185,9 @@
   {
    "num": 13,
    "speaker": "B",
-   "tl": "Hocam, camı açın, adam geliyor. Bir simit de alın, ayıp olmasın.",
-   "rd": "호잠, 자므 아츤, 아담 겔리요르. 비르 시밋 데 알른, 아이읍 올마슨.",
-   "ko": "손님, 창문 여세요, 저분 옵니다. 시미트도 하나 사세요, 예의상.",
+   "tl": "Hocam, camı açın, adam geliyor. Bir çay parası da verin, ayıp olmasın.",
+   "rd": "호잠, 자므 아츤, 아담 겔리요르. 비르 차이 파라스 다 베린, 아이읍 올마슨.",
+   "ko": "손님, 창문 여세요, 저분 옵니다. 찻값도 좀 드리세요, 예의상.",
    "note": "ayıp olmasın = 예의 없어 보이지 않게",
    "tags": [
     "expr:hocam"
@@ -197,9 +197,9 @@
   {
    "num": 14,
    "speaker": "D",
-   "tl": "Aldık! Pasaport elimizde, simit de sıcak. Çok şükür, yetişiyoruz!",
-   "rd": "알득! 파사포르트 엘리미즈데, 시밋 데 스작. 촉 쉬퀴르, 예티시요루즈!",
-   "ko": "받았다! 여권 손에 있고, 시미트도 따끈해. 다행이다, 안 늦겠어!",
+   "tl": "Aldık! Pasaport elimizde. Çok şükür, yetişiyoruz!",
+   "rd": "알득! 파사포르트 엘리미즈데. 촉 쉬퀴르, 예티시요루즈!",
+   "ko": "받았다! 여권 손에 있어. 다행이다, 안 늦겠어!",
    "note": "yetişmek = 시간에 대다",
    "tags": [
     "expr:çok şükür"
@@ -222,9 +222,9 @@
   {
    "num": 16,
    "speaker": "D",
-   "tl": "Ağlayan sendin. Ben simidimi yiyorum.",
-   "rd": "알라얀 센딘. 벤 시미디미 이요룸.",
-   "ko": "운 건 너였고. 난 시미트 먹을래.",
+   "tl": "Ağlayan sendin. Ben simit alıyorum.",
+   "rd": "알라얀 센딘. 벤 시밋 알르요룸.",
+   "ko": "운 건 너였어. 난 시미트나 살래.",
    "note": "ağlayan = 우는 사람",
    "tags": [],
    "new": []

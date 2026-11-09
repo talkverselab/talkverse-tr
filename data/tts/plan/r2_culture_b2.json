@@ -80,28 +80,28 @@
 "10": {
 "segs": [
 [
-"neutral",
+"amused",
 "Yüz elli."
 ],
 [
 "surprised",
-"Neden mutfağa giriyorsun?"
+"Neden bahçeye çıkıyorsun?"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"shout",
-"Bilmiyorum, durmuyorlar! Çıkış nerede?"
+"flustered",
+"Bilmiyorum, kapı açıktı! Durmuyorlar!"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"amused",
-"Aşçılar da katıldı. Devam et."
+"teasing",
+"Davul da arkandan geliyor. Devam et."
 ]
 ]
 }

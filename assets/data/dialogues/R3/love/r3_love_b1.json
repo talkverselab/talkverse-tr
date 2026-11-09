@@ -148,10 +148,10 @@
   {
    "num": 10,
    "speaker": "B",
-   "tl": "Bir otobüs turist indi. Adını ben söyledim, hepsi bağırıyor!",
-   "rd": "비르 오토뷔스 투리스트 인디. 아드느 벤 쇠일레딤, 헵시 바으르요르!",
-   "ko": "관광버스가 왔어. 네 이름 내가 알려 줬더니 다들 외치잖아!",
-   "note": "bağırmak = 소리치다",
+   "tl": "Turistler. Her gün bu şovu çekiyorlar, bugün şov sensin!",
+   "rd": "투리스틀레르. 헤르 귄 부 쇼부 체키요를라르, 부귄 쇼브 센신!",
+   "ko": "관광객들이야. 매일 이 쇼를 찍는데, 오늘은 네가 쇼야!",
+   "note": "şov = 쇼",
    "tags": [],
    "new": []
   },

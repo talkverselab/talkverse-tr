@@ -131,10 +131,10 @@
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Olmaz. Teyzeye söyledim, o da geliyor.",
-   "rd": "올마즈. 테이제예 쇠일레딤, 오 다 겔리요르.",
-   "ko": "안 돼요. 아주머니한테 말했어요, 그분도 오신대요.",
-   "note": "olmaz = 안 돼요",
+   "tl": "Olmaz. Komşulara satarsınız, gruba yazdım bile.",
+   "rd": "올마즈. 콤슐라라 사타르스느즈, 그루바 야즈듬 빌레.",
+   "ko": "안 돼요. 이웃들한테 파세요, 단톡방에 벌써 올렸어요.",
+   "note": "satmak = 팔다",
    "tags": [
     "expr:olmaz"
    ],

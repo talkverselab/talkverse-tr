@@ -12,22 +12,22 @@
  ],
  "title": "휴게소 20분",
  "emoji": "🚛",
- "scene": "시외버스 휴게소에서 밥을 먹다 버스를 놓치고, 트럭으로 쫓아간다",
+ "scene": "시외버스 휴게소에서 수프를 먹는데 버스가 출발하려 한다",
  "speakers": {
   "A": "{name}",
   "B": "Muavin",
-  "C": "Kamyoncu"
+  "C": "Amca"
  },
  "register": "mixed",
- "twist": 3,
+ "twist": 10,
  "twist_type": "chaos",
  "flags": [],
- "goal": "yok artık·ciddi misiniz·geçmiş olsun 으로 급한 상황 말하기",
+ "goal": "durun·kusura bakmayın·geçmiş olsun 으로 급한 상황 말하기",
  "expressions": [
   "yok artık",
   "geçmiş olsun",
   "lütfen",
-  "hadi"
+  "kusura bakmayın"
  ],
  "turns": [
   {
@@ -47,10 +47,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Yirmi dakika mı? Harika, ben yemek yiyeceğim.",
-   "rd": "이르미 다키카 므? 하리카, 벤 예멕 이예제임.",
-   "ko": "20분이요? 좋다, 밥 먹어야지.",
-   "note": "yiyeceğim = 먹을 거다",
+   "tl": "Yirmi dakika mı? Harika, bir çorba içerim.",
+   "rd": "이르미 다키카 므? 하리카, 비르 초르바 이체림.",
+   "ko": "20분이요? 좋다, 수프 한 그릇 먹어야지.",
+   "note": "çorba = 수프",
    "tags": [
     "expr:harika"
    ],
@@ -85,65 +85,42 @@
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Hadi, atla! Kamyonla yakalarız.",
-   "rd": "하디, 아틀라! 캄욘라 야칼라르즈.",
-   "ko": "자, 타! 트럭으로 따라잡자.",
-   "note": "kamyon = 트럭",
-   "tags": [
-    "expr:hadi"
-   ],
+   "tl": "Koş, koş! Bağır, muavin duyar.",
+   "rd": "코시, 코시! 바으르, 무아빈 두야르.",
+   "ko": "뛰어, 뛰어! 소리쳐, 차장이 들을 거야.",
+   "note": "bağırmak = 소리치다 · muavin = 버스 차장",
+   "tags": [],
    "new": [
-    "kamyon"
+    "bağırmak",
+    "muavin"
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Kamyonla mı? Ciddi misiniz?",
-   "rd": "캄욘라 므? 지디 미시니즈?",
-   "ko": "트럭으로요? 진심이세요?",
-   "note": "ciddi misiniz? = 진심이세요?",
-   "tags": [],
-   "new": []
-  },
-  {
-   "num": 7,
-   "speaker": "C",
-   "tl": "Otuz yıldır bu yoldayım. İyi tutun!",
-   "rd": "오투즈 이을드르 부 욜다이음. 이이 투툰!",
-   "ko": "30년째 이 길이야. 꽉 잡아!",
-   "note": "-dır = ~째",
-   "tags": [
-    "form:-dır"
-   ],
-   "new": []
-  },
-  {
-   "num": 8,
-   "speaker": "A",
-   "tl": "Bakın, orada! Daha hızlı, lütfen!",
-   "rd": "바큰, 오라다! 다하 흐즐르, 뤼트펜!",
-   "ko": "저기요, 저기! 더 빨리요!",
-   "note": "hızlı = 빠른",
+   "tl": "Durun, bir dakika lütfen! Yolcu var!",
+   "rd": "두룬, 비르 다키카 뤼트펜! 욜주 바르!",
+   "ko": "세워요, 잠깐만요! 승객 있어요!",
+   "note": "durun = 멈추세요",
    "tags": [
     "expr:lütfen"
    ],
    "new": []
   },
   {
-   "num": 9,
-   "speaker": "B",
-   "tl": "Aman, ne oluyor? Durun, kamyondan biri iniyor!",
-   "rd": "아만, 네 올루요르? 두룬, 캄욘단 비리 이니요르!",
-   "ko": "어머, 무슨 일이야? 세워요, 트럭에서 누가 내려요!",
-   "note": "ne oluyor = 무슨 일이야",
+   "num": 7,
+   "speaker": "C",
+   "tl": "Aman, durun! Bir yolcu eksik!",
+   "rd": "아만, 두룬! 비르 욜주 엑식!",
+   "ko": "어머, 세워 주세요! 승객 한 명 빠졌어요!",
+   "note": "eksik = 빠진, 모자라는",
    "tags": [
     "expr:aman"
    ],
    "new": []
   },
   {
-   "num": 10,
+   "num": 8,
    "speaker": "A",
    "tl": "Benim, yolcu benim! Yirmi dakika demiştiniz!",
    "rd": "베님, 욜주 베님! 이르미 다키카 데미시티니즈!",
@@ -155,11 +132,34 @@
    "new": []
   },
   {
+   "num": 9,
+   "speaker": "B",
+   "tl": "Yirmi dakikaydı efendim. Saatinize bakın, lütfen.",
+   "rd": "이르미 다키카이드 에펜딤. 사아티니제 바큰, 뤼트펜.",
+   "ko": "20분이었어요, 손님. 시계 좀 보세요.",
+   "note": "saat = 시계",
+   "tags": [],
+   "new": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "tl": "Eyvah, saatimi değiştirmemişim. Kusura bakmayın.",
+   "rd": "에이바흐, 사아티미 데이시티르메미심. 쿠수라 박마이은.",
+   "ko": "헉, 시계를 안 바꿔 놨네요. 죄송해요.",
+   "note": "değiştirmemişim = 안 바꿨네(깨달음 -miş) — 반전",
+   "tags": [
+    "form:-miş",
+    "expr:kusura bakmayın"
+   ],
+   "new": []
+  },
+  {
    "num": 11,
    "speaker": "B",
-   "tl": "Yirmi dakikaydı. Geçmiş olsun, kolonya?",
-   "rd": "이르미 다키카이드. 게치미시 올순, 콜론야?",
-   "ko": "20분이었죠. 고생하셨습니다, 콜로냐 드릴까요?",
+   "tl": "Geçmiş olsun. Kolonya ister misiniz?",
+   "rd": "게치미시 올순. 콜론야 이스테르 미시니즈?",
+   "ko": "고생하셨어요. 콜로냐 드릴까요?",
    "note": "geçmiş olsun = 고생했어요",
    "tags": [
     "expr:geçmiş olsun",
@@ -170,10 +170,10 @@
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Su mu? Emin misiniz?",
-   "rd": "수 무? 에민 미시니즈?",
-   "ko": "물 맞아요? 확실해요?",
-   "note": "emin misiniz? = 확실해요?",
+   "tl": "Kolonya değil, su lütfen. Çorbam orada kaldı.",
+   "rd": "콜론야 데일, 수 뤼트펜. 초르밤 오라다 칼드.",
+   "ko": "콜로냐 말고 물 주세요. 제 수프는 거기 두고 왔어요.",
+   "note": "kaldı = 남았다, 두고 왔다",
    "tags": [
     "callback:r0_travel_a1"
    ],

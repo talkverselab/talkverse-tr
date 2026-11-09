@@ -160,10 +160,10 @@
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Öldüm! Ne yaptın sen? Bütün tekne yukarıda, teyze telefonda ağlıyor!",
-   "rd": "욀뒴! 네 얍튼 센? 뷔튄 텍네 유카르다, 테이제 텔레폰다 알르요르!",
-   "ko": "나 죽어! 너 뭐 한 거야? 배 사람들 다 위에 있고, 이모는 전화하면서 울어!",
-   "note": "ağlamak = 울다",
+   "tl": "Öldüm! Ne yaptın sen? Çocuklar yukarıda, teyze hâlâ kaplan arıyor!",
+   "rd": "욀뒴! 네 얍튼 센? 초주클라르 유카르다, 테이제 할라 카플란 아르요르!",
+   "ko": "나 죽어! 너 뭐 한 거야? 애들은 위에 있고, 이모님은 아직 호랑이 찾고 계셔!",
+   "note": "aramak = 찾다",
    "tags": [
     "expr:öldüm"
    ],
@@ -172,42 +172,44 @@
   {
    "num": 13,
    "speaker": "D",
-   "tl": "Alo, sahil güvenlik mi? Teknede kaplan var, çabuk gelin!",
-   "rd": "알로, 사힐 귀벤릭 미? 텍네데 카플란 바르, 차북 겔린!",
-   "ko": "여보세요, 해양경찰이죠? 배에 호랑이가 있어요, 빨리 오세요!",
-   "note": "sahil güvenlik = 해양경찰",
+   "tl": "Kaplan yok mu? Çok şükür. Ben çantamı bile hazırlamıştım.",
+   "rd": "카플란 욕 무? 촉 쉬퀴르. 벤 찬타므 빌레 하즈를라므시틈.",
+   "ko": "호랑이 없어? 다행이다. 난 가방까지 싸 놨는데.",
+   "note": "bile = ~까지",
    "tags": [],
    "new": []
   },
   {
    "num": 14,
    "speaker": "C",
-   "tl": "Yok artık! Teyze, kapatın o telefonu! Kaplan yok, kaplan!",
-   "rd": "욕 아르특! 테이제, 카파튼 오 텔레포누! 카플란 욕, 카플란!",
-   "ko": "말도 안 돼! 이모님, 그 전화 끊으세요! 호랑이 없어요, 호랑이!",
-   "note": "kapatın = 끊으세요",
+   "tl": "Yok artık, teyze! Kaplan yok. Yirmi dakika sonra koyda duruyoruz.",
+   "rd": "욕 아르특, 테이제! 카플란 욕. 이르미 다키카 손라 코이다 두루요루즈.",
+   "ko": "아이고 참, 이모님! 호랑이 없어요. 20분 뒤에 만에서 섭니다.",
+   "note": "koy = 만(바닷가)",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [
+    "koy"
+   ]
   },
   {
    "num": 15,
    "speaker": "E",
-   "tl": "Burası sahil güvenlik. Kaptan, kaplan nasıl, sakin mi?",
-   "rd": "부라스 사힐 귀벤릭. 캅탄, 카플란 나슬, 사킨 미?",
-   "ko": "여기 해양경찰입니다. 선장님, 호랑이 어떻습니까, 얌전합니까?",
-   "note": "sakin = 얌전한",
+   "tl": "Kaptan, koyda yer var. Kaç dakikada gelirsiniz?",
+   "rd": "캅탄, 코이다 예르 바르. 카치 다키카다 겔리르시니즈?",
+   "ko": "선장님, 만에 자리 있습니다. 몇 분이면 도착합니까?",
+   "note": "kaç dakikada = 몇 분 만에",
    "tags": [],
    "new": []
   },
   {
    "num": 16,
    "speaker": "C",
-   "tl": "Kaplan sakin, efendim. Elinde su var.",
-   "rd": "카플란 사킨, 에펜딤. 엘린데 수 바르.",
-   "ko": "호랑이 얌전합니다. 손에 물 들고 있습니다.",
-   "note": "elinde = 손에",
+   "tl": "Yirmi dakika. Kaplanla geliyoruz.",
+   "rd": "이르미 다키카. 카플란라 겔리요루즈.",
+   "ko": "20분. 호랑이랑 같이 갑니다.",
+   "note": "-la = ~와 함께",
    "tags": [],
    "new": []
   }

@@ -90,7 +90,11 @@
 "segs": [
 [
 "polite",
-"Kuzenim aradı, sizi gördü. Ama pasaportu trafikte simitçiye vermiş."
+"Kuzenim aradı, sizi gördü."
+],
+[
+"worried",
+"Ama arabalar arasından geçemiyor, yürüyerek geliyor!"
 ]
 ]
 },
@@ -98,7 +102,7 @@
 "segs": [
 [
 "shout",
-"Simitçiye mi?! Yok artık! Neden simitçi benim pasaportumu taşıyor?"
+"Yürüyerek mi?! Köprüde mi? Yok artık, nerede o?"
 ]
 ]
 },
@@ -106,7 +110,7 @@
 "segs": [
 [
 "polite",
-"Hocam, camı açın, adam geliyor. Bir simit de alın, ayıp olmasın."
+"Hocam, camı açın, adam geliyor. Bir çay parası da verin, ayıp olmasın."
 ]
 ]
 },
@@ -114,7 +118,11 @@
 "segs": [
 [
 "excited",
-"Aldık! Pasaport elimizde, simit de sıcak. Çok şükür, yetişiyoruz!"
+"Aldık! Pasaport elimizde."
+],
+[
+"cheerful",
+"Çok şükür, yetişiyoruz!"
 ]
 ]
 },
@@ -130,7 +138,11 @@
 "segs": [
 [
 "teasing",
-"Ağlayan sendin. Ben simidimi yiyorum."
+"Ağlayan sendin."
+],
+[
+"amused",
+"Ben simit alıyorum."
 ]
 ]
 }

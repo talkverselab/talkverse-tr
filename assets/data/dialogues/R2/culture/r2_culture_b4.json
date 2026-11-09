@@ -149,13 +149,11 @@
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Bir hafta oldu, bu sekizinci tabak! Mutfakta yer yok!",
-   "rd": "비르 하프타 올두, 부 세키진지 타박! 무트팍타 예르 욕!",
-   "ko": "일주일 됐어, 이게 여덟 번째 접시야! 주방에 자리가 없어!",
-   "note": "sekizinci = 여덟 번째",
-   "tags": [
-    "expr:yok"
-   ],
+   "tl": "Bu dördüncü tabak! Mutfakta yer kalmadı!",
+   "rd": "부 되르뒨쥐 타박! 무트팍타 예르 칼마드!",
+   "ko": "이게 네 번째 접시야! 주방에 자리가 없어!",
+   "note": "dördüncü = 네 번째",
+   "tags": [],
    "new": []
   },
   {

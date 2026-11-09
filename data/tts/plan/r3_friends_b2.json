@@ -100,12 +100,8 @@
 "10": {
 "segs": [
 [
-"stiff",
-"Annem aradı."
-],
-[
 "annoyed",
-"Sen bir şey mi yaptın?"
+"Annem aradı. “Hayırlı olsun” diyor. Sen bir şey mi dedin?"
 ]
 ]
 },
@@ -120,44 +116,32 @@
 "12": {
 "segs": [
 [
-"stiff",
-"Annem salon tutmuş. Kaporasını da vermiş."
+"worried",
+"Annem bütün akrabaları aramış. Teyzem şimdi yolda, buraya geliyor."
 ]
 ]
 },
 "13": {
 "segs": [
 [
-"shout",
-"Yok artık!"
-],
-[
-"worried",
-"Zeynep, bir şey söyle, lütfen!"
+"flustered",
+"Yok artık! Can, mahalleye sen söyle, lütfen!"
 ]
 ]
 },
 "14": {
 "segs": [
 [
-"cheerful",
-"Bence iptal etmeyin."
-],
-[
-"amused",
-"Düğünde yemek var."
+"teasing",
+"Bence önce manavın indirimini alın. Sonra söylersiniz."
 ]
 ]
 },
 "15": {
 "segs": [
 [
-"stiff",
-"İptal ederiz."
-],
-[
-"teasing",
-"Ama kaporayı sen ödüyorsun."
+"amused",
+"İyi fikir. Ama annemi sen arıyorsun, {name}."
 ]
 ]
 }

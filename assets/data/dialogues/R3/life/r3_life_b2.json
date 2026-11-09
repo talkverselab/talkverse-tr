@@ -181,9 +181,9 @@
   {
    "num": 13,
    "speaker": "D",
-   "tl": "Elinize sağlık! Bu ev kaç para? Hemen alıyorum.",
-   "rd": "엘리니제 살륵! 부 에브 카치 파라? 헤멘 알르요룸.",
-   "ko": "잘 먹었습니다! 이 집 얼마예요? 당장 살게요.",
+   "tl": "Elinize sağlık! Böyle komşu varsa, bu ev kaç para?",
+   "rd": "엘리니제 살륵! 뵈일레 콤슈 바르사, 부 에브 카치 파라?",
+   "ko": "잘 먹었습니다! 이런 이웃이 있으면… 이 집 얼마예요?",
    "note": "kaç para = 얼마 — 반전: 돌마가 다 뒤집었다",
    "tags": [
     "expr:elinize sağlık"
@@ -206,22 +206,22 @@
   {
    "num": 15,
    "speaker": "B",
-   "tl": "Kusura bakmayın, ev satıldı. Teyze biraz önce aldı.",
-   "rd": "쿠수라 박마이은, 에브 사틀드. 테이제 비라즈 왼제 알드.",
-   "ko": "죄송해요, 집 팔렸어요. 아주머니가 방금 사셨어요.",
-   "note": "biraz önce = 방금",
-   "tags": [
-    "expr:kusura bakmayın"
-   ],
-   "new": []
+   "tl": "Konuşuruz. Ama kiracı bir yıl daha kalıyor, sözleşme var.",
+   "rd": "코누슈루즈. 아마 키라즈 비르 이을 다하 칼르요르, 쇠즐레시메 바르.",
+   "ko": "얘기해 보죠. 근데 세입자는 1년 더 살아요, 계약이 있거든요.",
+   "note": "kiracı = 세입자 · sözleşme = 계약",
+   "tags": [],
+   "new": [
+    "kiracı"
+   ]
   },
   {
    "num": 16,
    "speaker": "E",
-   "tl": "Hayırlı olsun, canım. Yeni kira: her akşam gel, yemek ye.",
-   "rd": "하이으를르 올순, 자늠. 예니 키라 헤르 악샴 겔, 예멕 예.",
-   "ko": "잘됐다, 얘야. 새 월세는 이거야: 매일 저녁 와서 밥 먹어.",
-   "note": "her akşam = 매일 저녁",
+   "tl": "Hayırlı olsun, canım. Akşam hepiniz bana gelin, yemek var.",
+   "rd": "하이으를르 올순, 자늠. 악샴 헤피니즈 바나 겔린, 예멕 바르.",
+   "ko": "잘됐다, 얘야. 저녁에 다 같이 우리 집 와, 밥 있어.",
+   "note": "hepiniz = 너희 모두",
    "tags": [
     "expr:canım",
     "expr:olsun"

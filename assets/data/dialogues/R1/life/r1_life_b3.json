@@ -13,7 +13,7 @@
  ],
  "title": "돌무쉬 경리",
  "emoji": "🚐",
- "scene": "합승 미니버스 앞자리에 앉았더니 뒷사람들 돈이 전부 내 손을 거친다",
+ "scene": "합승 미니버스 앞자리에 앉았더니 뒷사람들 돈이 전부 내 손을 거친다. 내릴 데는 다가오는데",
  "speakers": {
   "A": "{name}",
   "B": "Yolcu",
@@ -106,20 +106,25 @@
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Ben sadece eve gidiyorum!",
-   "rd": "벤 사데제 에베 기디요룸!",
-   "ko": "저는 그냥 집에 가는 중이라고요!",
-   "note": "sadece = 그냥, 단지",
-   "tags": [],
-   "new": []
+   "tl": "Ben de iniyorum! Müsait bir yerde, lütfen.",
+   "rd": "벤 데 이니요룸! 뮈사잇 비르 예르데, 뤼트펜.",
+   "ko": "저도 내려요! 적당한 데서 세워 주세요.",
+   "note": "müsait bir yerde = 적당한 데서(내릴 때)",
+   "tags": [
+    "expr:müsait bir yerde",
+    "expr:lütfen"
+   ],
+   "new": [
+    "müsait"
+   ]
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Yarın sekizde gelin. İşe başladınız.",
-   "rd": "야른 세키즈데 겔린. 이셰 바실라드느즈.",
-   "ko": "내일 여덟 시에 오세요. 채용됐습니다.",
-   "note": "işe başladınız = 일 시작하셨어요",
+   "tl": "Önce üstünü verin, sonra inin.",
+   "rd": "왼제 위스튀뉘 베린, 손라 이닌.",
+   "ko": "거스름돈부터 넘기고 내리세요.",
+   "note": "inin = 내리세요",
    "tags": [],
    "new": []
   }

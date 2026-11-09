@@ -12,7 +12,7 @@
  ],
  "title": "가방 먼저 출발",
  "emoji": "🚌",
- "scene": "오토가르에서 구경만 하려는데, 표 파는 사람들이 내 가방부터 버스에 싣는다",
+ "scene": "오토가르에서 구경만 하려는데, 표 파는 사람들이 내 가방부터 들고 가 표를 끊는다",
  "speakers": {
   "A": "{name}",
   "B": "Biletçi",
@@ -89,24 +89,22 @@
   {
    "num": 6,
    "speaker": "C",
-   "tl": "Çantanız otobüste. Kalkıyor, hadi!",
-   "rd": "찬타느즈 오토뷔스테. 칼크요르, 하디!",
-   "ko": "가방은 버스에 있어요. 출발해요, 어서요!",
-   "note": "otobüs = 버스 — 반전",
+   "tl": "Çantanız yazıhanede. Biletiniz de hazır!",
+   "rd": "찬타느즈 야즈하네데. 빌레티니즈 데 하즈르!",
+   "ko": "가방은 매표소에 있어요. 표도 준비됐어요!",
+   "note": "yazıhane = 버스 회사 매표소",
    "tags": [
     "expr:hadi"
    ],
-   "new": [
-    "otobüs"
-   ]
+   "new": []
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Eyvah! O otobüs nereye gidiyor?",
-   "rd": "에이바흐! 오 오토뷔스 네레예 기디요르?",
-   "ko": "헉! 그 버스 어디로 가요?",
-   "note": "nereye = 어디로",
+   "tl": "Ben sadece bakıyordum! Ne bileti?",
+   "rd": "벤 사데제 바크요르둠! 네 빌레티?",
+   "ko": "저 그냥 구경만 했는데요! 무슨 표요?",
+   "note": "ne bileti = 무슨 표",
    "tags": [
     "expr:eyvah"
    ],
@@ -115,10 +113,10 @@
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Bursa'ya. Çok güzel, görürsünüz.",
-   "rd": "부르사야. 촉 귀젤, 괴뤼르쉬뉘즈.",
-   "ko": "부르사요. 아주 좋아요, 가 보면 알아요.",
-   "note": "görürsünüz = 보게 될 거예요",
+   "tl": "On dakikaya kalkıyor. Nakit mi, kart mı?",
+   "rd": "온 다키카야 칼크요르. 나킷 미, 카르트 므?",
+   "ko": "10분 뒤 출발해요. 현금이요, 카드요?",
+   "note": "nakit mi, kart mı = 현금이요 카드요",
    "tags": [
     "expr:çok güzel"
    ],

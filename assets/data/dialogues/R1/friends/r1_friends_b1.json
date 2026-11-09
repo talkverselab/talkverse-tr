@@ -14,7 +14,7 @@
  ],
  "title": "위층 바구니",
  "emoji": "🧺",
- "scene": "위층 아주머니가 줄에 매달아 내린 바구니, Can 은 하늘이 준 돈이라고 믿는다",
+ "scene": "위층 아주머니가 줄에 매달아 내린 바구니, 빵 심부름을 간 Can 이 엉뚱한 걸 사 온다",
  "speakers": {
   "A": "{name}",
   "B": "Can",
@@ -61,10 +61,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Yaşasın, para! Simitçi aşağıda, hemen geliyorum!",
-   "rd": "야샤슨, 파라! 시미트치 아샤으다, 헤멘 겔리요룸!",
-   "ko": "야호, 돈이다! 시미트 장수 밑에 있어, 금방 올게!",
-   "note": "hemen = 금방",
+   "tl": "Para ve not: \"Bir ekmek.\" Ben giderim!",
+   "rd": "파라 베 놋 \"비르 엑멕.\" 벤 기데림!",
+   "ko": "돈이랑 쪽지. 「빵 하나.」 내가 갔다 올게!",
+   "note": "not = 쪽지",
    "tags": [
     "expr:yaşasın",
     "expr:geliyorum"
@@ -74,10 +74,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Can, dur! O kimin parası?",
-   "rd": "잔, 두르! 오 키민 파라스?",
-   "ko": "잔, 잠깐! 그거 누구 돈이야?",
-   "note": "dur = 멈춰, 잠깐",
+   "tl": "Can, dur! Üstünü de sepete koy!",
+   "rd": "잔, 두르! 위스튀뉘 데 세페테 코이!",
+   "ko": "잔, 잠깐! 거스름돈도 바구니에 넣어!",
+   "note": "üstü = 거스름돈",
    "tags": [
     "expr:dur"
    ],
@@ -86,10 +86,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Geldim! Buyur, sıcak simit.",
-   "rd": "겔딤! 부유르, 스작 시밋.",
-   "ko": "왔어! 자, 따끈한 시미트.",
-   "note": "sıcak = 따뜻한",
+   "tl": "Ekmek bitmiş. Üç simit aldım, biri benim.",
+   "rd": "엑멕 비트미시. 위치 시밋 알듬, 비리 베님.",
+   "ko": "빵 다 떨어졌대. 시미트 세 개 샀어, 하나는 내 거.",
+   "note": "bitmiş = 다 떨어졌대",
    "tags": [
     "expr:geldim",
     "expr:buyur"
@@ -111,10 +111,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Eyvah! Can, o para teyzenindi!",
-   "rd": "에이바흐! 잔, 오 파라 테이제닌디!",
-   "ko": "헉! 잔, 그 돈 아주머니 거였어!",
-   "note": "teyzenindi = 아주머니 것이었다",
+   "tl": "Eyvah! Teyze, kusura bakmayın, ekmek bitmiş!",
+   "rd": "에이바흐! 테이제, 쿠수라 박마이은, 엑멕 비트미시!",
+   "ko": "헉! 아주머니, 죄송해요, 빵이 다 떨어졌대요!",
+   "note": "kusura bakmayın = 죄송합니다",
    "tags": [
     "expr:eyvah"
    ],

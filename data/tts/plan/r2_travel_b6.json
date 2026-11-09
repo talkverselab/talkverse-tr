@@ -16,12 +16,8 @@
 "2": {
 "segs": [
 [
-"surprised",
-"Yirmi dakika mı?"
-],
-[
 "cheerful",
-"Harika, ben yemek yiyeceğim."
+"Yirmi dakika mı? Harika, bir çorba içerim."
 ]
 ]
 },
@@ -48,52 +44,28 @@
 "5": {
 "segs": [
 [
-"excited",
-"Hadi, atla! Kamyonla yakalarız."
+"shout",
+"Koş, koş! Bağır, muavin duyar."
 ]
 ]
 },
 "6": {
 "segs": [
 [
-"surprised",
-"Kamyonla mı? Ciddi misiniz?"
+"shout",
+"Durun, bir dakika lütfen! Yolcu var!"
 ]
 ]
 },
 "7": {
 "segs": [
 [
-"cheerful",
-"Otuz yıldır bu yoldayım."
-],
-[
-"shout",
-"İyi tutun!"
+"surprised",
+"Aman, durun! Bir yolcu eksik!"
 ]
 ]
 },
 "8": {
-"segs": [
-[
-"shout",
-"Bakın, orada! Daha hızlı, lütfen!"
-]
-]
-},
-"9": {
-"segs": [
-[
-"surprised",
-"Aman, ne oluyor?"
-],
-[
-"shout",
-"Durun, kamyondan biri iniyor!"
-]
-]
-},
-"10": {
 "segs": [
 [
 "shout",
@@ -105,23 +77,35 @@
 ]
 ]
 },
+"9": {
+"segs": [
+[
+"polite",
+"Yirmi dakikaydı efendim. Saatinize bakın, lütfen."
+]
+]
+},
+"10": {
+"segs": [
+[
+"flustered",
+"Eyvah, saatimi değiştirmemişim. Kusura bakmayın."
+]
+]
+},
 "11": {
 "segs": [
 [
-"stiff",
-"Yirmi dakikaydı."
-],
-[
 "polite",
-"Geçmiş olsun, kolonya?"
+"Geçmiş olsun. Kolonya ister misiniz?"
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"worried",
-"Su mu? Emin misiniz?"
+"sad",
+"Kolonya değil, su lütfen. Çorbam orada kaldı."
 ]
 ]
 }

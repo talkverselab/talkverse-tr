@@ -40,8 +40,8 @@
 "4": {
 "segs": [
 [
-"polite",
-"Evet, lütfen. Şu bardağa koyun."
+"cheerful",
+"Evet, lütfen. Şu bardağa koyar mısınız?"
 ]
 ]
 },
@@ -76,12 +76,8 @@
 "8": {
 "segs": [
 [
-"neutral",
-"Limon güzel de…"
-],
-[
-"worried",
-"neden boğazım yanıyor?"
+"surprised",
+"Ne var? Bu içecek değil mi?"
 ]
 ]
 },
@@ -104,8 +100,8 @@
 "Ne demek?"
 ],
 [
-"shout",
-"Bu parfüm mü şimdi?!"
+"flustered",
+"Pardon, o zaman bir çay lütfen."
 ]
 ]
 },
@@ -113,7 +109,7 @@
 "segs": [
 [
 "polite",
-"Yanına bisküvi de ister misiniz, efendim?"
+"Tabii efendim. Yanına bisküvi de ister misiniz?"
 ]
 ]
 }

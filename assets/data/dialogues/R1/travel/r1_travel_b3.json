@@ -18,10 +18,10 @@
   "B": "Resepsiyon"
  },
  "register": "polite",
- "twist": 6,
+ "twist": 7,
  "twist_type": "reveal",
  "flags": [],
- "goal": "allah allah·buyurun 으로 호텔 프런트에 항의하기",
+ "goal": "allah allah·başka oda var mı 로 호텔 프런트에 항의하기",
  "expressions": [
   "buyurun",
   "lütfen",
@@ -65,10 +65,10 @@
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Sağa bakın, lütfen.",
-   "rd": "사아 바큰, 뤼트펜.",
-   "ko": "오른쪽을 보세요.",
-   "note": "sağa = 오른쪽으로",
+   "tl": "Balkona çıkın, sağa bakın lütfen.",
+   "rd": "발코나 츠큰, 사아 바큰 뤼트펜.",
+   "ko": "발코니로 나가서 오른쪽을 보세요.",
+   "note": "balkona çıkın = 발코니로 나가세요",
    "tags": [
     "expr:lütfen"
    ],
@@ -77,46 +77,46 @@
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Baktım. Allah allah, duvar var.",
-   "rd": "박틈. 알라흐 알라흐, 두바르 바르.",
-   "ko": "봤어요. 어머, 벽이 있는데요.",
-   "note": "duvar = 벽 · allah allah = 어머 이상하네",
+   "tl": "Baktım. Allah allah, bina var.",
+   "rd": "박틈. 알라흐 알라흐, 비나 바르.",
+   "ko": "봤어요. 이상하다, 건물이 있는데요.",
+   "note": "bina = 건물 · allah allah = 어머 이상하네",
    "tags": [
     "expr:allah allah"
    ],
    "new": [
-    "duvar"
+    "bina"
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Duvara iyi bakın. Güzel, değil mi?",
-   "rd": "두바라 이이 바큰. 귀젤, 데일 미?",
-   "ko": "벽을 잘 보세요. 멋지죠?",
-   "note": "iyi bakın = 잘 보세요 — 반전 준비",
+   "tl": "Biraz eğilin. Mavi bir şey var mı?",
+   "rd": "비라즈 에일린. 마비 비르 셰이 바르 므?",
+   "ko": "조금 더 몸을 내밀어 보세요. 파란 거 보이세요?",
+   "note": "eğilmek = 몸을 기울이다",
    "tags": [],
-   "new": []
+   "new": [
+    "eğilmek"
+   ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Bu bir resim! Deniz resmi!",
-   "rd": "부 비르 레심! 데니즈 레스미!",
-   "ko": "이거 그림이잖아요! 바다 그림!",
-   "note": "resim = 그림 · resmi(모음이 빠짐)",
+   "tl": "Küçük bir mavi! Başka oda var mı?",
+   "rd": "퀴췩 비르 마비! 바시카 오다 바르 므?",
+   "ko": "손톱만 한 파란색! 다른 방 있어요?",
+   "note": "başka oda = 다른 방 — 반전",
    "tags": [],
-   "new": [
-    "resim"
-   ]
+   "new": []
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Evet efendim. Deniz görünen oda.",
-   "rd": "에벳 에펜딤. 데니즈 괴뤼넨 오다.",
-   "ko": "네, 손님. 바다 보이는 방입니다.",
-   "note": "görünen = 보이는 — 정색하는 끝 줄",
+   "tl": "Yarın var efendim. Bu gece biraz eğilin.",
+   "rd": "야른 바르 에펜딤. 부 게제 비라즈 에일린.",
+   "ko": "내일은 있어요, 손님. 오늘 밤은 조금 내밀어 보세요.",
+   "note": "yarın var = 내일은 있다 — 정색하는 끝 줄",
    "tags": [],
    "new": []
   }

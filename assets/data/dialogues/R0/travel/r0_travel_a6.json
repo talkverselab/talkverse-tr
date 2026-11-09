@@ -96,22 +96,22 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Çanta tamam. Siz kapıdan geçemezsiniz.",
-   "rd": "찬타 타맘. 시즈 카프단 게체메즈시니즈.",
-   "ko": "가방은 됐어요. 손님이 문을 못 지나가요.",
-   "note": "geçemezsiniz = 못 지나가요",
+   "tl": "Çanta tamam. Siz yürüyebiliyor musunuz?",
+   "rd": "찬타 타맘. 시즈 위뤼예빌리요르 무수누즈?",
+   "ko": "가방은 됐어요. 손님은 걸으실 수 있어요?",
+   "note": "yürüyebilmek = 걸을 수 있다",
    "tags": [
-    "form:-emez"
+    "form:-ebil"
    ],
    "new": []
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Geçerim. Yan yan geçerim.",
-   "rd": "게체림. 얀 얀 게체림.",
-   "ko": "지나가요. 옆으로 가면 돼요.",
-   "note": "yan yan = 옆으로",
+   "tl": "Yürürüm. Yavaş yavaş yürürüm.",
+   "rd": "위뤼륌. 야바시 야바시 위뤼륌.",
+   "ko": "걸어요. 천천히 걸으면 돼요.",
+   "note": "yavaş yavaş = 천천히",
    "tags": [],
    "new": []
   }

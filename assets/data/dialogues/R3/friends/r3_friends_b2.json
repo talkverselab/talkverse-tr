@@ -14,7 +14,7 @@
  ],
  "title": "결혼 축하한대",
  "emoji": "💍",
- "scene": "Zeynep 반지를 고치러 금은방에 같이 갔을 뿐인데 동네가 우리를 결혼시켰다",
+ "scene": "Zeynep 반지를 고치러 금은방에 같이 갔을 뿐인데 동네 소문으로 우리가 결혼한다고 났다",
  "speakers": {
   "A": "{name}",
   "B": "Can",
@@ -143,9 +143,9 @@
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Annem aradı. Sen bir şey mi yaptın?",
-   "rd": "안넴 아라드. 센 비르 셰이 미 얍튼?",
-   "ko": "엄마한테 전화 왔어. 너 뭐 했어?",
+   "tl": "Annem aradı. “Hayırlı olsun” diyor. Sen bir şey mi dedin?",
+   "rd": "안넴 아라드. 하이으를르 올순 디요르. 센 비르 셰이 미 데딘?",
+   "ko": "엄마한테 전화 왔어. 「축하한다」 하셔. 너 무슨 말 했어?",
    "note": "aramak = 전화하다",
    "tags": [],
    "new": []
@@ -163,22 +163,22 @@
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Annem salon tutmuş. Kaporasını da vermiş.",
-   "rd": "안넴 살론 투트무시. 카포라스느 다 베르미시.",
-   "ko": "엄마가 예식장 잡으셨대. 계약금도 내셨고.",
-   "note": "salon tutmak = 식장 잡다 · kapora = 계약금 — 반전",
+   "tl": "Annem bütün akrabaları aramış. Teyzem şimdi yolda, buraya geliyor.",
+   "rd": "안넴 뷔튄 악라발라르 아라므시. 테이젬 심디 욜다, 부라야 겔리요르.",
+   "ko": "엄마가 친척들한테 다 전화 돌렸대. 이모가 지금 이리로 오는 중이야.",
+   "note": "akraba = 친척 — 반전",
    "tags": [],
    "new": [
-    "kapora"
+    "akraba"
    ]
   },
   {
    "num": 13,
    "speaker": "A",
-   "tl": "Yok artık! Zeynep, bir şey söyle, lütfen!",
-   "rd": "욕 아르특! 제이넵, 비르 셰이 쇠일레, 뤼트펜!",
-   "ko": "말도 안 돼! 제이넵, 뭐라고 좀 해 봐!",
-   "note": "bir şey söyle = 뭐라고 말해",
+   "tl": "Yok artık! Can, mahalleye sen söyle, lütfen!",
+   "rd": "욕 아르특! 잔, 마할레예 센 쇠일레, 뤼트펜!",
+   "ko": "말도 안 돼! 잔, 동네에 네가 좀 말해 줘!",
+   "note": "mahalleye = 동네에",
    "tags": [
     "expr:yok artık"
    ],
@@ -187,10 +187,10 @@
   {
    "num": 14,
    "speaker": "B",
-   "tl": "Bence iptal etmeyin. Düğünde yemek var.",
-   "rd": "벤제 입탈 에트메인. 뒤윈데 예멕 바르.",
-   "ko": "내 생각엔 취소하지 마. 결혼식엔 밥이 있잖아.",
-   "note": "iptal etmek = 취소하다",
+   "tl": "Bence önce manavın indirimini alın. Sonra söylersiniz.",
+   "rd": "벤제 왼제 마나븐 인디리미니 알른. 손라 쇠일레르시니즈.",
+   "ko": "내 생각엔 청과상 할인부터 받아. 말은 그다음에 하고.",
+   "note": "önce … sonra = 먼저 … 그다음",
    "tags": [
     "expr:bence"
    ],
@@ -199,10 +199,10 @@
   {
    "num": 15,
    "speaker": "C",
-   "tl": "İptal ederiz. Ama kaporayı sen ödüyorsun.",
-   "rd": "입탈 에데리즈. 아마 카포라이으 센 외뒤요르순.",
-   "ko": "취소하면 되지. 근데 계약금은 네가 내.",
-   "note": "ödemek = 내다",
+   "tl": "İyi fikir. Ama annemi sen arıyorsun, {name}.",
+   "rd": "이이 피키르. 아마 안네미 센 아르요르순, {name}.",
+   "ko": "좋은 생각이네. 근데 우리 엄마한테는 네가 전화해, {name}.",
+   "note": "arıyorsun = 네가 전화한다(정해짐)",
    "tags": [],
    "new": []
   }

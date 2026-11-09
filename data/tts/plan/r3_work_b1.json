@@ -66,8 +66,8 @@
 "8": {
 "segs": [
 [
-"polite",
-"Şu kâğıtları imzalamanız lazım. Kartınızı da alalım."
+"stiff",
+"Ayrılma dilekçenizi bugün verir misiniz?"
 ]
 ]
 },
@@ -75,7 +75,11 @@
 "segs": [
 [
 "surprised",
-"Hangi kâğıtlar? Kartımı niye veriyorum? Bir dakika!"
+"Ne dilekçesi?"
+],
+[
+"flustered",
+"Bir dakika, ben bir şey vermiyorum!"
 ]
 ]
 },

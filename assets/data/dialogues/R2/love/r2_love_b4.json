@@ -10,7 +10,7 @@
  "domain": [
   "love"
  ],
- "title": "네 번째 냄비",
+ "title": "두 번째 냄비",
  "emoji": "🍲",
  "scene": "감기로 누워 있는데 요리를 못 하는 Emre 가 수프를 들고 문 앞에 왔다",
  "speakers": {
@@ -103,9 +103,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Dördüncüsü bu. Üç tencere yandı.",
-   "rd": "되르뒨쥐쉬 부. 위치 텐제레 얀드.",
-   "ko": "이게 네 번째야. 냄비 세 개 태웠어.",
+   "tl": "İkincisi bu. İlk tencere yandı.",
+   "rd": "이킨지시 부. 일크 텐제레 얀드.",
+   "ko": "이게 두 번째야. 첫 냄비는 태웠어.",
    "note": "tencere = 냄비",
    "tags": [],
    "new": [
@@ -127,10 +127,10 @@
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Hiç sorma. Annem hâlâ telefonda ağlıyor.",
-   "rd": "히치 소르마. 안넴 할라 텔레폰다 알르요르.",
-   "ko": "말도 마. 엄마 아직도 전화기 붙들고 우셔.",
-   "note": "hâlâ = 아직도",
+   "tl": "Hiç sorma. Annem “Mutfağa bir daha girme” dedi.",
+   "rd": "히치 소르마. 안넴 무트파아 비르 다하 기르메 데디.",
+   "ko": "말도 마. 엄마가 「다시는 부엌에 들어가지 마」 하셨어.",
+   "note": "bir daha = 다시는",
    "tags": [
     "expr:hiç sorma"
    ],
@@ -161,10 +161,10 @@
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Yarın yine mi? Beşinci tencere…",
-   "rd": "야른 이네 미? 베신지 텐제레…",
-   "ko": "내일 또? 다섯 번째 냄비…",
-   "note": "beşinci = 다섯 번째",
+   "tl": "Yarın yine mi? O zaman üçüncü tencere…",
+   "rd": "야른 이네 미? 오 자만 위췬쥐 텐제레…",
+   "ko": "내일 또? 그럼 세 번째 냄비…",
+   "note": "üçüncü = 세 번째",
    "tags": [],
    "new": []
   }

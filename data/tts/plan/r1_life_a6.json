@@ -47,8 +47,8 @@
 "6": {
 "segs": [
 [
-"stiff",
-"Bir de pantolon, bir de… şey."
+"amused",
+"Bir de pantolon var, bir de havlu."
 ]
 ]
 },
@@ -56,19 +56,15 @@
 "segs": [
 [
 "flustered",
-"Eyvah!"
-],
-[
-"worried",
-"Ne zamandan beri?"
+"Eyvah! Hepsi benim mi?"
 ]
 ]
 },
 "8": {
 "segs": [
 [
-"annoyed",
-"Bir aydır. Kutu doldu, buyurun."
+"gentle",
+"Bu hafta rüzgâr çok. Buyurun."
 ]
 ]
 }

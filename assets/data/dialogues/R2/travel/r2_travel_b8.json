@@ -12,7 +12,7 @@
  ],
  "title": "낚싯대 좀 잡아 줘",
  "emoji": "🎣",
- "scene": "갈라타 다리에서 낚시꾼이 낚싯대를 맡기고 간 사이, 뭔가 크게 걸린다",
+ "scene": "갈라타 다리에서 낚시꾼이 낚싯대를 맡기고 간 사이, 줄이 뭔가 크게 당긴다",
  "speakers": {
   "A": "{name}",
   "B": "Balıkçı",
@@ -106,10 +106,10 @@
   {
    "num": 7,
    "speaker": "D",
-   "tl": "Geldim, tutun! Çay sonra, önce balık!",
-   "rd": "겔딤, 투툰! 차이 손라, 왼제 발륵!",
-   "ko": "왔어요, 잡아요! 차는 나중에, 고기 먼저!",
-   "note": "önce = 먼저",
+   "tl": "Geldim, tutun! Dur, bu ip yandaki ipe karışmış.",
+   "rd": "겔딤, 투툰! 두르, 부 입 얀다키 이페 카르시므시.",
+   "ko": "왔어요, 잡아요! 잠깐… 이 줄 옆 줄이랑 엉켰네.",
+   "note": "karışmak = 엉키다 — 반전",
    "tags": [
     "expr:geldim"
    ],
@@ -118,25 +118,22 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Eyvah… İp vapura takıldı galiba!",
-   "rd": "에이바흐… 입 바푸라 타클드 갈리바!",
-   "ko": "헉… 줄이 페리에 걸린 것 같아!",
-   "note": "takılmak = 걸리다 — 반전",
+   "tl": "Ne? Balık değil galiba?",
+   "rd": "네? 발륵 데일 갈리바?",
+   "ko": "뭐? 물고기가 아닌가 봐?",
+   "note": "galiba = ~인가 봐",
    "tags": [
-    "expr:eyvah",
     "expr:galiba"
    ],
-   "new": [
-    "vapur"
-   ]
+   "new": []
   },
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Yok artık! Vapur gidiyor, sen de gidiyorsun!",
-   "rd": "욕 아르특! 바푸르 기디요르, 센 데 기디요르순!",
-   "ko": "말도 안 돼! 페리 간다, 너도 끌려간다!",
-   "note": "sen de = 너도",
+   "tl": "Yok artık! Yandaki amcanın ipini çekiyoruz!",
+   "rd": "욕 아르특! 얀다키 암자는 이피니 체키요루즈!",
+   "ko": "말도 안 돼! 우리 옆 아저씨 줄을 당기고 있었어!",
+   "note": "yandaki = 옆에 있는",
    "tags": [
     "expr:yok artık"
    ],
@@ -145,21 +142,19 @@
   {
    "num": 10,
    "speaker": "D",
-   "tl": "Bırak, bırak! Olta gitsin, sen kal!",
-   "rd": "브락, 브락! 올타 기트신, 센 칼!",
-   "ko": "놔, 놔! 낚싯대는 가라 그래, 넌 남아!",
-   "note": "olta = 낚싯대",
+   "tl": "Burada her gün olur. Bırakın, ben açarım.",
+   "rd": "부라다 헤르 귄 올루르. 브라큰, 벤 아차름.",
+   "ko": "여기선 매일 있는 일이에요. 놔 둬요, 내가 풀게요.",
+   "note": "açmak = 풀다, 열다",
    "tags": [],
-   "new": [
-    "olta"
-   ]
+   "new": []
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Geldim. Ee, oltam nerede?",
-   "rd": "겔딤. 에에, 올탐 네레데?",
-   "ko": "나 왔다. 그래서, 내 낚싯대 어디 있어?",
+   "tl": "Geldim. Ee, balık var mı?",
+   "rd": "겔딤. 에에, 발륵 바르 므?",
+   "ko": "나 왔다. 그래서, 고기 좀 잡았어?",
    "note": "ee = 그래서",
    "tags": [
     "expr:geldim",
@@ -170,10 +165,10 @@
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Oltanız Kadıköy'e gidiyor.",
-   "rd": "올타느즈 카드쾨예 기디요르.",
-   "ko": "낚싯대는 카드쾨이로 가는 중이에요.",
-   "note": "gidiyor = 가는 중",
+   "tl": "Balık yok. Ama yandaki amcayla tanıştık.",
+   "rd": "발륵 욕. 아마 얀다키 암자일라 타느시특.",
+   "ko": "고기는 없어요. 대신 옆 아저씨랑 친해졌어요.",
+   "note": "tanışmak = 인사하고 알게 되다",
    "tags": [],
    "new": []
   }

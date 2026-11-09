@@ -14,7 +14,7 @@
  ],
  "title": "고양이 한 마리만",
  "emoji": "🐈",
- "scene": "집에 들어온 고양이 한 마리, Can 말대로 우유를 줬더니 일이 커진다",
+ "scene": "집에 들어온 고양이 한 마리, Can 말대로 우유를 줬더니 침대 밑에서 일이 커진다",
  "speakers": {
   "A": "{name}",
   "B": "Can"
@@ -88,23 +88,25 @@
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Bir dakika… iki kedi var.",
-   "rd": "비르 다키카… 이키 케디 바르.",
-   "ko": "잠깐만… 고양이 두 마리야.",
-   "note": "iki = 둘 — 반전",
+   "tl": "Bir dakika… yatağın altında üç yavru var!",
+   "rd": "비르 다키카… 야타은 알튼다 위치 야브루 바르!",
+   "ko": "잠깐만… 침대 밑에 새끼가 세 마리 있어!",
+   "note": "yavru = 새끼 — 반전",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": [],
+   "new": [
+    "yavru"
+   ],
    "at": "20:40",
    "ui": "bubble"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Hadi canım! Kapıyı kapat.",
-   "rd": "하디 자늠! 카프이으 카팟.",
-   "ko": "에이 설마! 문 닫아.",
+   "tl": "Hadi canım! Anne kedi mi o?",
+   "rd": "하디 자늠! 안네 케디 미 오?",
+   "ko": "에이 설마! 걔 엄마 고양이야?",
    "note": "hadi canım = 에이 설마",
    "tags": [
     "expr:hadi canım"
@@ -116,10 +118,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Yedi oldu. Ben dışarıdayım.",
-   "rd": "예디 올두. 벤 드샤르다이음.",
-   "ko": "일곱 마리 됐어. 나 밖에 나왔어.",
-   "note": "dışarıdayım = 밖에 있어",
+   "tl": "Evet. Ben bu gece koltukta uyuyorum.",
+   "rd": "에벳. 벤 부 게제 콜툭타 우유요룸.",
+   "ko": "응. 나 오늘 밤 소파에서 자.",
+   "note": "koltuk = 소파",
    "tags": [],
    "new": [],
    "at": "21:15",

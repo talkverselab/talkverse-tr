@@ -103,20 +103,20 @@
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Zeynep, kedi çantanı götürüyor!",
-   "rd": "제이넵, 케디 찬타느 괴튀뤼요르!",
-   "ko": "제이넵, 고양이가 네 가방 물고 간다!",
-   "note": "götürmek = 가져가다",
+   "tl": "Zeynep, telefonun çalıyor! Annen arıyor!",
+   "rd": "제이넵, 텔레포눈 찰르요르! 안넨 아르요르!",
+   "ko": "제이넵, 너 폰 울려! 엄마 전화야!",
+   "note": "aramak = 전화하다",
    "tags": [],
    "new": []
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Çantayı verdi gitti. Yine tek kelime yok!",
-   "rd": "찬타이으 베르디 기티. 이네 텍 켈리메 욕!",
-   "ko": "가방을 그냥 내줘 버렸어. 또 한 마디도 없어!",
-   "note": "verdi gitti = 줘 버렸다",
+   "tl": "Telefonu açtı, mesaj yazdı. Yine tek kelime yok!",
+   "rd": "텔레포누 아치트, 메사즈 야즈드. 이네 텍 켈리메 욕!",
+   "ko": "전화 받더니 문자로 썼어. 또 한 마디도 없어!",
+   "note": "telefonu açmak = 전화를 받다",
    "tags": [],
    "new": []
   },

@@ -78,9 +78,9 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Peynir? Zeytin? Yumurta?",
-   "rd": "페이니르? 제이틴? 유무르타?",
-   "ko": "치즈? 올리브? 달걀?",
+   "tl": "Poğaça? Açma? Peynir?",
+   "rd": "포아차? 아치마? 페이니르?",
+   "ko": "포아차? 아치마? 치즈?",
    "note": "반전: 묻는 대로 다 나온다",
    "tags": [],
    "new": []
@@ -100,9 +100,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Buyurun, kahvaltı hazır. Afiyet olsun!",
-   "rd": "부유룬, 카흐발트 하즈르. 아피옛 올순!",
-   "ko": "자, 아침 식사 나왔습니다. 맛있게 드세요!",
+   "tl": "Buyurun, simit, poğaça, açma, çay. Afiyet olsun!",
+   "rd": "부유룬, 시밋, 포아차, 아치마, 차이. 아피옛 올순!",
+   "ko": "여기요, 시미트, 포아차, 아치마, 차. 맛있게 드세요!",
    "note": "afiyet olsun = 맛있게 드세요",
    "tags": [
     "expr:afiyet olsun"

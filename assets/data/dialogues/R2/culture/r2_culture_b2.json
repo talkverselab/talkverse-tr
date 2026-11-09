@@ -137,20 +137,20 @@
   {
    "num": 10,
    "speaker": "B",
-   "tl": "Yüz elli. Neden mutfağa giriyorsun?",
-   "rd": "위즈 엘리. 네덴 무트파아 기리요르순?",
-   "ko": "150명. 왜 주방으로 들어가?",
-   "note": "yüz elli = 150 — 반전",
+   "tl": "Yüz elli. Neden bahçeye çıkıyorsun?",
+   "rd": "위즈 엘리. 네덴 바흐체예 츠크요르순?",
+   "ko": "150명. 왜 정원으로 나가?",
+   "note": "bahçe = 정원",
    "tags": [],
    "new": []
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Bilmiyorum, durmuyorlar! Çıkış nerede?",
-   "rd": "빌미요룸, 두르무요를라르! 츠크시 네레데?",
-   "ko": "몰라, 안 멈춰! 출구 어디야?",
-   "note": "çıkış = 출구",
+   "tl": "Bilmiyorum, kapı açıktı! Durmuyorlar!",
+   "rd": "빌미요룸, 카프 아측트! 두르무요를라르!",
+   "ko": "몰라, 문이 열려 있었어! 안 멈춰!",
+   "note": "durmak = 멈추다",
    "tags": [
     "expr:bilmiyorum"
    ],
@@ -159,14 +159,12 @@
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Aşçılar da katıldı. Devam et.",
-   "rd": "아시츨라르 다 카틀드. 데밤 엣.",
-   "ko": "요리사들도 합류했어. 계속 가.",
-   "note": "aşçı = 요리사",
+   "tl": "Davul da arkandan geliyor. Devam et.",
+   "rd": "다불 다 아르칸단 겔리요르. 데밤 엣.",
+   "ko": "북도 네 뒤에 따라와. 계속 가.",
+   "note": "davul = 북",
    "tags": [],
-   "new": [
-    "aşçı"
-   ]
+   "new": []
   }
  ],
  "review": {

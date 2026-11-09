@@ -131,9 +131,9 @@
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Dur kanka, takım bekliyor. Dünyada beşinciyim!",
-   "rd": "두르 칸카, 타큼 베클리요르. 뒨야다 베신지임!",
-   "ko": "잠깐만 얘들아, 팀이 기다려. 나 세계 5위야!",
+   "tl": "Dur kanka, takım bekliyor. Torunum öğretti!",
+   "rd": "두르 칸카, 타큼 베클리요르. 토루눔 외레티!",
+   "ko": "잠깐만 얘들아, 팀이 기다려. 손주가 가르쳐 줬어!",
    "note": "kanka = 친구야(teyze 입에서 나와서 웃김)",
    "tags": [
     "expr:kanka"
@@ -143,14 +143,16 @@
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Dünyada beşinci mi? Gerçekten mi?",
-   "rd": "뒨야다 베신지 미? 게르첵텐 미?",
-   "ko": "세계 5위요? 진짜요?",
-   "note": "beşinci = 다섯째",
+   "tl": "Torununuz mu? Gerçekten mi?",
+   "rd": "토루누누즈 무? 게르첵텐 미?",
+   "ko": "손주분이요? 진짜요?",
+   "note": "torun = 손주",
    "tags": [
     "expr:gerçekten mi"
    ],
-   "new": []
+   "new": [
+    "torun"
+   ]
   },
   {
    "num": 12,

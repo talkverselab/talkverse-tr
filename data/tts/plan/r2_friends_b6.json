@@ -56,8 +56,8 @@
 "7": {
 "segs": [
 [
-"shout",
-"Zeynep, kedi çantanı götürüyor!"
+"excited",
+"Zeynep, telefonun çalıyor! Annen arıyor!"
 ]
 ]
 },
@@ -65,7 +65,11 @@
 "segs": [
 [
 "surprised",
-"Çantayı verdi gitti. Yine tek kelime yok!"
+"Telefonu açtı, mesaj yazdı."
+],
+[
+"tsukkomi",
+"Yine tek kelime yok!"
 ]
 ]
 },

@@ -119,10 +119,10 @@
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Önceki hâlini okudum. Üçüncü sayfada “de” ayrı yazılır.",
-   "rd": "왼제키 할리니 오쿠둠. 위췬쥐 사이파다 데 아이르 야즐르르.",
-   "ko": "지난번 원고 읽었어요. 3쪽 「de」 는 띄어 써야 해요.",
-   "note": "ayrı yazılır = 띄어 쓴다",
+   "tl": "Hoca telefonda söyledi: üçüncü sayfada “de” ayrı yazılır.",
+   "rd": "호자 텔레폰다 쇠일레디 위췬쥐 사이파다 데 아이르 야즐르르.",
+   "ko": "교수님이 전화로 말씀하셨어요. 3쪽 「de」 는 띄어 써야 한대요.",
+   "note": "telefonda = 전화로 · ayrı yazılır = 띄어 쓴다",
    "tags": [],
    "new": []
   },
@@ -141,10 +141,10 @@
   {
    "num": 11,
    "speaker": "C",
-   "tl": "Hoca iki yıl önce emekli oldu, canım. Maili ben yazıyorum.",
-   "rd": "호자 이키 이을 왼제 에메클리 올두, 자늠. 마일리 벤 야즈요룸.",
-   "ko": "교수님은 2년 전에 은퇴하셨어요. 메일은 제가 써요.",
-   "note": "emekli olmak = 은퇴하다 — 반전",
+   "tl": "Hoca bu dönem yurt dışında, canım. Mailleri o söylüyor, ben yazıyorum.",
+   "rd": "호자 부 되넴 유르트 드신다, 자늠. 마일레리 오 쇠일뤼요르, 벤 야즈요룸.",
+   "ko": "교수님은 이번 학기에 해외에 계세요. 메일은 교수님이 불러 주시고 제가 써요.",
+   "note": "yurt dışı = 해외 — 반전",
    "tags": [
     "expr:canım"
    ],
@@ -153,30 +153,30 @@
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Ne?! Peki notlarımı kim veriyor?!",
-   "rd": "네?! 페키 노틀라르므 킴 베리요르?!",
-   "ko": "네?! 그럼 제 학점은 누가 주는데요?!",
-   "note": "not = 학점",
+   "tl": "Ne?! Peki tezimi kim okuyacak?",
+   "rd": "네?! 페키 테지미 킴 오쿠야작?",
+   "ko": "네?! 그럼 제 논문은 누가 읽어요?",
+   "note": "tezimi = 내 논문을",
    "tags": [],
    "new": []
   },
   {
    "num": 13,
    "speaker": "C",
-   "tl": "Geçen dönem seksen verdim. Hak ettiniz.",
-   "rd": "게첸 되넴 섹센 베르딤. 학 에티니즈.",
-   "ko": "지난 학기에 80점 드렸죠. 받을 만했어요.",
-   "note": "hak etmek = 자격이 있다",
+   "tl": "Hoca okuyacak, merak etmeyin. Ben ona gönderiyorum.",
+   "rd": "호자 오쿠야작, 메락 에트메인. 벤 오나 괸데리요룸.",
+   "ko": "교수님이 읽으세요, 걱정 마세요. 제가 보내 드려요.",
+   "note": "göndermek = 보내다",
    "tags": [],
    "new": []
   },
   {
    "num": 14,
    "speaker": "B",
-   "tl": "Yok artık. Bütün bölümü sekreter mi yönetiyor?",
-   "rd": "욕 아르특. 뷔튄 뵐뤼뮈 섹레테르 미 외네티요르?",
-   "ko": "말도 안 돼. 학과 전체를 사무실에서 돌리는 거야?",
-   "note": "yönetmek = 운영하다",
+   "tl": "Yok artık. Bütün bölüm sizin sayenizde mi dönüyor?",
+   "rd": "욕 아르특. 뷔튄 뵐륌 시진 사예니즈데 미 되뉘요르?",
+   "ko": "말도 안 돼. 학과 전체가 선생님 덕에 돌아가는 거예요?",
+   "note": "sayesinde = ~덕분에",
    "tags": [
     "expr:yok artık"
    ],

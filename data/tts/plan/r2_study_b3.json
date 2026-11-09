@@ -72,8 +72,8 @@
 "9": {
 "segs": [
 [
-"amused",
-"Kantindeyim. Hoca yok, ama masası var."
+"excited",
+"Kantindeyim. Hoca burada, telefonla konuşuyor."
 ]
 ]
 },
@@ -81,26 +81,26 @@
 "segs": [
 [
 "excited",
-"Çayı hâlâ sıcak! Buradaydı!"
+"Hemen geliyorum! Hocayı tut, lütfen!"
 ]
 ]
 },
 "11": {
 "segs": [
 [
-"surprised",
-"Bardağın altında bir kâğıt var."
+"sad",
+"Geç kaldın. Bana bir şey söyledi, gitti."
 ]
 ]
 },
 "12": {
 "segs": [
 [
-"neutral",
-"Okuyayım."
+"annoyed",
+"Biliyorum."
 ],
 [
-"annoyed",
+"tsukkomi",
 "“Beş dakikaya dönerim.”"
 ]
 ]

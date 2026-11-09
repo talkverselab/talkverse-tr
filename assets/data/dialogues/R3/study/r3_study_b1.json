@@ -12,7 +12,7 @@
  ],
  "title": "돌무쉬 릴레이",
  "emoji": "🚐",
- "scene": "Zeynep 의 심사용 모형을 돌무쉬에 들고 탔더니, 승객들이 요금처럼 앞으로 넘긴다",
+ "scene": "Zeynep 의 심사용 모형을 들고 돌무쉬에 탔는데, 요금 넘기기에 급정거까지 겹친다",
  "speakers": {
   "A": "{name}",
   "B": "Zeynep",
@@ -21,7 +21,7 @@
   "E": "Hoca"
  },
  "register": "mixed",
- "twist": 5,
+ "twist": 10,
  "twist_type": "chaos",
  "flags": [],
  "goal": "bir dakika·merak etme 로 대중교통에서 살아남기",
@@ -80,10 +80,10 @@
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Bu arkadan mı geldi? Ver, öne uzatayım.",
-   "rd": "부 아르카단 므 겔디? 베르, 외네 우자타이음.",
-   "ko": "이거 뒤에서 온 거야? 줘, 앞으로 넘겨 줄게.",
-   "note": "uzatmak = 건네다 — 반전: 돌무쉬 요금 넘기기",
+   "tl": "Arkadaş, parayı öne uzatır mısın? İki öğrenci.",
+   "rd": "아르카다시, 파라이으 외네 우자트르 므슨? 이키 외렌지.",
+   "ko": "저기, 돈 좀 앞으로 넘겨 줄래? 학생 둘.",
+   "note": "uzatmak = 건네다(돌무쉬에선 요금을 앞으로 넘긴다)",
    "tags": [],
    "new": [
     "uzatmak"
@@ -92,10 +92,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Hayır, bu para değil! Bir dakika, lütfen!",
-   "rd": "하이으르, 부 파라 데일! 비르 다키카, 뤼트펜!",
-   "ko": "아니에요, 이거 돈 아니에요! 잠깐만요, 제발!",
-   "note": "para değil = 돈이 아니다",
+   "tl": "Tabii, ama ellerim dolu. Bir dakika…",
+   "rd": "타비이, 아마 엘레림 돌루. 비르 다키카…",
+   "ko": "네, 근데 손이 꽉 찼어요. 잠깐만요…",
+   "note": "ellerim dolu = 손이 꽉 찼다",
    "tags": [
     "expr:bir dakika"
    ],
@@ -104,10 +104,10 @@
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Uzat arkadaş, şoföre gidiyor! Hadi!",
-   "rd": "우잣 아르카다시, 쇼푀레 기디요르! 하디!",
-   "ko": "넘겨, 기사님한테 가는 거야! 어서!",
-   "note": "şoför = 기사",
+   "tl": "Ver, maketi ben tutayım. Sen parayı uzat. Hadi!",
+   "rd": "베르, 마케티 벤 투타이음. 센 파라이으 우잣. 하디!",
+   "ko": "줘 봐, 모형은 내가 들게. 넌 돈 넘겨. 어서!",
+   "note": "tutayım = 내가 들게",
    "tags": [
     "expr:hadi"
    ],
@@ -116,30 +116,30 @@
   {
    "num": 8,
    "speaker": "D",
-   "tl": "Bu ne? Kaç kişi? Üstünü nereye vereyim?",
-   "rd": "부 네? 카치 키시? 위스튀뉘 네레예 베레임?",
-   "ko": "이게 뭐예요? 몇 명이에요? 거스름돈 어디로 줘요?",
-   "note": "üstü = 거스름돈",
+   "tl": "Kaç kişi? Öğrenci mi, tam mı?",
+   "rd": "카치 키시? 외렌지 미, 탐 므?",
+   "ko": "몇 명이에요? 학생이에요, 일반이에요?",
+   "note": "tam = 일반 요금",
    "tags": [],
    "new": []
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Şoför bey, o bir maket! Bana geri verin!",
-   "rd": "쇼푀르 베이, 오 비르 마켓! 바나 게리 베린!",
-   "ko": "기사님, 그거 모형이에요! 돌려주세요!",
-   "note": "geri vermek = 돌려주다",
+   "tl": "İki öğrenci! Şoför bey, yavaş lütfen, maket var!",
+   "rd": "이키 외렌지! 쇼푀르 베이, 야바시 뤼트펜, 마켓 바르!",
+   "ko": "학생 둘요! 기사님, 천천히요, 모형 있어요!",
+   "note": "yavaş = 천천히",
    "tags": [],
    "new": []
   },
   {
    "num": 10,
    "speaker": "D",
-   "tl": "Arkaya verin! Öğrenci mi, tam mı?",
-   "rd": "아르카야 베린! 외렌지 미, 탐 므?",
-   "ko": "뒤로 넘겨요! 학생이에요, 일반이에요?",
-   "note": "tam = 일반 요금",
+   "tl": "Tutunun! Duruyorum!",
+   "rd": "투투눈! 두루요룸!",
+   "ko": "꽉 잡아요! 섭니다!",
+   "note": "tutunmak = 붙잡다 — 반전: 급정거",
    "tags": [],
    "new": []
   },

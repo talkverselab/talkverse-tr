@@ -11,7 +11,7 @@
   "travel",
   "culture"
  ],
- "title": "내일 아홉 시 출근",
+ "title": "바자르 점원 데뷔",
  "emoji": "🫖",
  "scene": "그랜드 바자르에서 찻잔 세트 내기를 하다가, 관광객이 나를 점원으로 착각한다",
  "speakers": {
@@ -204,14 +204,12 @@
   {
    "num": 15,
    "speaker": "C",
-   "tl": "Takım sizin, bedava. Yarın sabah dokuzda dükkândasınız, geç kalmayın.",
-   "rd": "타큼 시진, 베다바. 야른 사바흐 도쿠즈다 뒤칸다스느즈, 게치 칼마이은.",
-   "ko": "세트는 손님 거예요, 공짜로. 내일 아침 아홉 시에 가게로 나오세요, 늦지 말고요.",
-   "note": "bedava = 공짜",
+   "tl": "Takımınız bin lira, söz. Yarın da gelin, birlikte satarız!",
+   "rd": "타크므느즈 빈 리라, 쇠즈. 야른 다 겔린, 비를릭테 사타르즈!",
+   "ko": "손님 세트는 천 리라, 약속해요. 내일도 오세요, 같이 팔아요!",
+   "note": "birlikte satarız = 같이 팔자",
    "tags": [],
-   "new": [
-    "bedava"
-   ]
+   "new": []
   },
   {
    "num": 16,

@@ -12,7 +12,7 @@
  ],
  "title": "내일 일찍 나간다고",
  "emoji": "🎂",
- "scene": "「내일 회사에서 나간다」 는 한마디가 퇴사 소문으로 번져 인상안과 케이크까지 온다",
+ "scene": "「내일 회사에서 나간다」 는 한마디가 퇴사 소문으로 번져 인사팀·인상안·케이크까지 온다",
  "speakers": {
   "A": "{name}",
   "B": "Emre",
@@ -113,20 +113,22 @@
   {
    "num": 8,
    "speaker": "D",
-   "tl": "Şu kâğıtları imzalamanız lazım. Kartınızı da alalım.",
-   "rd": "슈 카으틀라르 임잘라마느즈 라즘. 카르트느즈 다 알랄름.",
-   "ko": "이 서류에 서명해 주셔야 해요. 출입증도 받을게요.",
-   "note": "kart = 출입증 — 반전: 인사팀이 왔다",
+   "tl": "Ayrılma dilekçenizi bugün verir misiniz?",
+   "rd": "아이를마 딜렉체니지 부귄 베리르 미시니즈?",
+   "ko": "퇴사 신청서 오늘 주실 수 있어요?",
+   "note": "dilekçe = 신청서 — 반전: 인사팀이 왔다",
    "tags": [],
-   "new": []
+   "new": [
+    "dilekçe"
+   ]
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Hangi kâğıtlar? Kartımı niye veriyorum? Bir dakika!",
-   "rd": "한기 카으틀라르? 카르트므 니예 베리요룸? 비르 다키카!",
-   "ko": "무슨 서류요? 왜 출입증을 드려요? 잠깐만요!",
-   "note": "hangi = 어느",
+   "tl": "Ne dilekçesi? Bir dakika, ben bir şey vermiyorum!",
+   "rd": "네 딜렉체시? 비르 다키카, 벤 비르 셰이 베르미요룸!",
+   "ko": "무슨 신청서요? 잠깐만요, 저 아무것도 안 내요!",
+   "note": "ne … -si? = 무슨 ~?",
    "tags": [
     "expr:bir dakika"
    ],

@@ -28,14 +28,14 @@
 "segs": [
 [
 "polite",
-"Yenisini alırız. Kira bin lira artar."
+"Tamam, yarın usta gelir."
 ]
 ]
 },
 "4": {
 "segs": [
 [
-"surprised",
+"worried",
 "Efendim?"
 ],
 [
@@ -48,7 +48,7 @@
 "segs": [
 [
 "polite",
-"Yeni pencere. İki bin lira."
+"Usta ona da bakar."
 ]
 ]
 },
@@ -68,7 +68,11 @@
 "segs": [
 [
 "polite",
-"Üç bin. Başka sorun var mı?"
+"Hepsini yaptırırım."
+],
+[
+"amused",
+"Kira da yüzde elli artar."
 ]
 ]
 },

@@ -146,14 +146,12 @@
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Elif, bütün çarşı geliyor! Şimdi ne diyeceğiz?",
-   "rd": "엘리프, 뷔튄 차르시 겔리요르! 심디 네 디예제이즈?",
-   "ko": "Elif, 시장 사람 다 오잖아! 이제 뭐라고 해?",
-   "note": "çarşı = 시장",
+   "tl": "Elif, herkes bize bakıyor! Şimdi ne diyeceğiz?",
+   "rd": "엘리프, 헤르케스 비제 바크요르! 심디 네 디예제이즈?",
+   "ko": "Elif, 다들 우리 쳐다봐! 이제 뭐라고 해?",
+   "note": "ne diyeceğiz = 뭐라고 하지",
    "tags": [],
-   "new": [
-    "çarşı"
-   ]
+   "new": []
   },
   {
    "num": 11,
