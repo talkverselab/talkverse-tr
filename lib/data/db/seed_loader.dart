@@ -1,9 +1,10 @@
+import '../../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:csv/csv.dart';
 import 'package:drift/drift.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:shared_preferences/shared_preferences.dart';
+import '../../core/prefs.dart';
 
 import 'app_database.dart';
 
@@ -20,7 +21,7 @@ class SeedLoader {
   SeedLoader(this.db);
 
   Future<void> seedIfNeeded() async {
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = await Prefs.getInstance();
     final v = await bundledVersion();
     if (prefs.getInt(_kDbVersion) != v.db) {
       await _seedWords();
@@ -35,7 +36,7 @@ class SeedLoader {
 
   static Future<({int db, int turns})> bundledVersion() async {
     try {
-      final j = json.decode(await rootBundle.loadString('assets/data/version.json')) as Map<String, dynamic>;
+      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/version.json'))) as Map<String, dynamic>;
       return (db: (j['db'] as num).toInt(), turns: (j['turns'] as num? ?? 1).toInt());
     } catch (_) {
       return (db: 0, turns: 0);
@@ -50,7 +51,7 @@ class SeedLoader {
   Future<void> _seedWords() async {
     final String raw;
     try {
-      raw = await rootBundle.loadString('assets/data/freq/lang_es_top.csv');
+      raw = await rootBundle.loadString(assetPath('assets/data/freq/lang_es_top.csv'));
     } catch (_) {
       return;
     }
@@ -81,7 +82,7 @@ class SeedLoader {
   Future<void> _seedVerbs() async {
     final Map<String, dynamic> data;
     try {
-      final raw = await rootBundle.loadString('assets/data/grammar/verbs_core.json');
+      final raw = await rootBundle.loadString(assetPath('assets/data/grammar/verbs_core.json'));
       data = json.decode(raw) as Map<String, dynamic>;
     } catch (_) {
       return;
@@ -107,7 +108,7 @@ class SeedLoader {
     for (final level in ['L1', 'L2', 'L3']) {
       final Map<String, dynamic> data;
       try {
-        final raw = await rootBundle.loadString('assets/data/dialogues/$level.json');
+        final raw = await rootBundle.loadString(assetPath('assets/data/dialogues/$level.json'));
         data = json.decode(raw) as Map<String, dynamic>;
       } catch (_) {
         continue;

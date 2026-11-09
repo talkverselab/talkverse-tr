@@ -1,7 +1,8 @@
+import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:shared_preferences/shared_preferences.dart';
+import '../core/prefs.dart';
 
 import 'learner_prefs.dart';
 
@@ -185,7 +186,7 @@ class DialogueService {
   String? get lastOpenedId => _lastOpened;
   Future<void> setLastOpened(String id) async {
     _lastOpened = id;
-    (await SharedPreferences.getInstance()).setString(_prefLast, id);
+    (await Prefs.getInstance()).setString(_prefLast, id);
   }
 
   /// 데이터에 있는 레벨(지금은 L1 하나).
@@ -195,10 +196,10 @@ class DialogueService {
   Future<void> ensureLoaded() => _loading ??= _load();
 
   Future<void> _load() async {
-    _lastOpened = (await SharedPreferences.getInstance()).getString(_prefLast);
+    _lastOpened = (await Prefs.getInstance()).getString(_prefLast);
     for (final e in _files.entries) {
       try {
-        final j = json.decode(await rootBundle.loadString(e.value)) as Map<String, dynamic>;
+        final j = json.decode(await rootBundle.loadString(assetPath(e.value))) as Map<String, dynamic>;
         final chars = (j['characters'] as Map?) ?? const {};
         final names = <String, String>{};
         final genders = <String, String>{};

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../core/pane.dart';
 import '../core/theme.dart';
-import '../main.dart';
+import '../embed.dart';
 import '../widgets/spanish_decor.dart';
 import 'chunk_search_screen.dart';
 import 'affix_screens.dart';

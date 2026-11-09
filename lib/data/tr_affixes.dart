@@ -1,3 +1,4 @@
+import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -256,7 +257,7 @@ class AffixCorpus {
       }
     }
     try {
-      final j = json.decode(await rootBundle.loadString('assets/data/vocab/travel_expressions.json')) as Map<String, dynamic>;
+      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/vocab/travel_expressions.json'))) as Map<String, dynamic>;
       for (final th in (j['themes'] as List? ?? const [])) {
         for (final sec in ((th as Map)['sections'] as List? ?? const [])) {
           for (final w in ((sec as Map)['words'] as List? ?? const [])) {

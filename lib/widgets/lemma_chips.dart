@@ -4,7 +4,7 @@ import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
 import '../data/db/app_database.dart';
-import '../main.dart';
+import '../embed.dart';
 import '../services/dialogue_service.dart';
 import '../services/tts_service.dart';
 
