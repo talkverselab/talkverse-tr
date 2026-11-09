@@ -239,18 +239,18 @@ class _PassTiles extends StatelessWidget {
       color: Colors.transparent,
       child: Column(
         children: [
-          ValueListenableBuilder<Set<String>>(
+          ValueListenableBuilder<Map<String, int>>(
             valueListenable: Purchase.owned,
             builder: (context, _, _) => ValueListenableBuilder<List<String>>(
               valueListenable: Account.entitlements,
               builder: (context, _, _) => ListTile(
                 leading: const Icon(Icons.workspace_premium_outlined, color: AppColors.rojo),
                 title: Text(
-                  tr('평생 이용권'),
+                  tr('이용권'),
                   style: const TextStyle(fontWeight: FontWeight.w600, color: AppColors.tinta),
                 ),
                 subtitle: Text(
-                  Entitlement.premium ? tr('이용 중') : tr('한 번 결제 · 구독 아님'),
+                  Entitlement.premium ? tr('이용 중') : tr('1개월 · 3개월 · 1년 · 평생'),
                   style: const TextStyle(fontSize: 12, color: AppColors.tintaLight),
                 ),
                 trailing: const Icon(Icons.chevron_right, color: AppColors.rojo),
@@ -271,7 +271,7 @@ class _PassTiles extends StatelessWidget {
                 'pending' => tr('확인 중…'),
                 'restored' => tr('복원했습니다'),
                 'nothing' => tr('복원할 구매가 없습니다'),
-                _ => tr('이전에 산 평생 이용권을 이 기기에서 다시 엽니다'),
+                _ => tr('이전에 산 이용권을 이 기기에서 다시 엽니다'),
               }, style: const TextStyle(fontSize: 12, color: AppColors.tintaLight)),
             ),
             onTap: () => Purchase.restore(),
