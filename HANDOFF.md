@@ -67,7 +67,7 @@
 
 **2026-11-08 세션 종료 시점(허브 지시로 종료) — 이어받을 것:**
 1. **굴절어 전략**(`~/talkverse/INFLECTED_LANG_STRATEGY.md`) — 맞지 않는 4항목을 사용자에게 알리고 답 대기 중: B15(이미 181편 씀 → 앱 미연결 초안으로 보존), A4(siz 장면 R0·R1 → 그래머2 로 이동), B3(R1 119위는 접미사 위주 → 회화 상한 568), A8·A9(성 없음 → 성별판 불필요, morph_tags 는 격·수·소유·인칭·시제, zeyrek). 답을 받은 뒤에만 착수.
-2. **Grok 재작성** — 11-09 13:30 재개(사용자 지시). zh `tools/prompts/rewrite_grok.md`·`rewrite_request.py` 를 복사해 편 1개씩 새 대화방, 「모든 줄 새로」. 재작성본에도 턴 `emotion`·`segs` 를 넣는다(지금 `data/tts/plan/` 계획에서 옮겨 넣을 수 있음).
+2. **Grok 재작성** — 11-09 13:30 재개(사용자 지시). **Grok 은 자기 크롬으로 직접(한자 세션 대행 중단, `~/logs/rc/RELAY_grok_20261109.md`)**: 자기 포트(`~/talkverse/GROK_CHROME_PORTS.md`)로 크롬을 켜고 M4 에서 `/usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 <내 포트>`(ssh macmini4), 도구는 M6 `~/Hanja/tools/grok_req.py`·`grok_cdp.py` 를 복사. uk 의 방은 건드리지 말 것. 장면 컷도 같은 방식. zh `tools/prompts/rewrite_grok.md`·`rewrite_request.py` 를 복사해 편 1개씩 새 대화방, 「모든 줄 새로」. 재작성본에도 턴 `emotion`·`segs` 를 넣는다(지금 `data/tts/plan/` 계획에서 옮겨 넣을 수 있음).
 3. **음성** — 전편은 Grok 재작성 뒤(사용자 결정). uk 의 "지금 시작" 뒤 `$TMPDIR/tts_venv/bin/python tools/tts/run_all.py ~/tts_work/tr`(품질 기준 §5 반영됨), 끝나면 "GPU 끝" → `tools/review_html.py data/review/REVIEW_tr.html <편…>` → "REVIEW_tr 갱신".
 4. **앱 연결** — 리뷰 통과 뒤 pubspec 에 R*/주제 폴더, DialogueService·seed 새 구조, 음성 매니페스트(`content_sync`)·`dialogue_audio.dart`(일본어앱 DIALOGUE_AUDIO.md §3). 레마는 `add_lemmas.py` 를 새 구조로 고쳐 missing_lemmas → uk.
 5. 조음 그림(`assets/images/ipa/places_of_articulation.png`)은 임시 — 출시 전 Grok 그림으로 교체.
