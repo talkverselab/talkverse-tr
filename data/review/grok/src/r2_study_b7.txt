@@ -1,0 +1,23 @@
+=== r2_study_b7
+kind: long
+title: 쌤이 여보가 됐다
+emoji: 💍
+scene: 수업 시간 첫 질문, h 하나 틀렸을 뿐인데 교실이 뒤집어진다
+speakers: A={name}, B=Zeynep, C=Hoca
+register: mixed
+twist: 5 slip
+purpose: study_abroad
+goal: hocam 과 kocam 구별, öldüm·eyvah 로 수습하기
+expressions: hocam; öldüm; eyvah; özür dilerim; ne oldu
+C | Evet, soru var mı? | 자, 질문 있어요? | soru = 질문 | emotion=polite
+B | Sor hadi. Türkçen gelişsin. | 물어봐. 터키어 늘어야지. | sor = 물어봐 | emotion=teasing
+A | Çok korkuyorum. Yanlış söylerim. | 너무 무서워. 틀리게 말할 거야. | yanlış = 틀리게 | emotion=worried
+B | Önce “Hocam” de, sonra sor. Bu kadar. | 먼저 「Hocam」 하고 물어봐. 그게 다야. | bu kadar = 이게 다야 | emotion=gentle
+A | Tamam… Kocam, bir sorum var. | 네… 여보, 질문 있어요. | kocam = 내 남편 — hocam 을 잘못 말한 반전 | emotion=shy
+C | Efendim? Ne dediniz? | 네? 뭐라고 했죠? | efendim = 네?(되묻기) | emotion=surprised
+A | Kocam… yani kocam, sınav ne zaman? | 여보… 그러니까 여보, 시험 언제예요? | ne zaman = 언제 | emotion=flustered
+B | Öldüm. Bütün sınıf sana bakıyor. | 나 죽겠다. 반 전체가 너 보고 있어. | öldüm = 죽겠다 | emotion=amused
+A | Ne oldu? Ne dedim ben? | 왜? 나 뭐라고 했어? | ne dedim = 뭐라고 했어 | emotion=worried
+B | Hocaya “kocam” dedin. Hem de iki kez. | 교수님한테 「여보」 라고 했어. 그것도 두 번. | hem de = 게다가 | emotion=teasing
+A | Eyvah! Hocam, özür dilerim, ben… | 헉! 교수님, 죄송합니다, 저는… | eyvah = 헉 | emotion=flustered
+C | Sınav cuma. Eşim duymasın yeter. | 시험은 금요일이에요. 제 배우자 귀에만 안 들어가면 돼요. | eşim = 내 배우자 | emotion=amused

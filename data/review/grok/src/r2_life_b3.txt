@@ -1,0 +1,23 @@
+=== r2_life_b3
+kind: long
+title: 수리공이 늘어난다
+emoji: 🔧
+scene: 보일러를 고치러 온 기사가 부품이 없다며 사촌을 부르고, 사촌은 삼촌을 부르자고 한다
+speakers: A={name}, B=Usta, C=Kuzen
+register: polite
+twist: 7 chaos
+purpose: study_abroad work_abroad
+goal: sorun yok·önemli değil 로 수리 기사와 말하기
+expressions: hoş geldiniz; önemli değil; hoş bulduk; harika; bir dakika; olur
+A | Hoş geldiniz, usta. Kombi su akıtıyor. | 어서 오세요, 기사님. 보일러에서 물이 새요. | usta = 기사님(호칭) | emotion=polite+worried
+B | Hoş bulduk. Önemli değil, on dakikalık iş. | 네, 반갑습니다. 별거 아니에요, 10분이면 끝나요. | on dakikalık = 10분짜리 | emotion=polite+cheerful
+A | Harika. Çay ister misiniz? | 잘됐네요. 차 드실래요? | ister misiniz? = 드실래요? | emotion=cheerful+polite
+B | Olur. Bir dakika, bu parça burada yok. | 좋죠. 잠깐만요, 이 부품이 여기 없네요. | parça = 부품 | emotion=cheerful+stiff
+A | Yani ne oldu? Sorun mu var? | 그래서 어떻게 됐어요? 문제 있어요? | ne oldu = 무슨 일이에요 | emotion=worried
+B | Sorun yok. Kuzenimi çağırıyorum, o bilir. | 문제없어요. 사촌 부를게요, 걔가 알아요. | kuzen = 사촌 | emotion=neutral+cheerful
+C | Merhaba. Usta, bu parça eski model. | 안녕하세요. 형님, 이 부품 옛날 모델이에요. | eski model = 옛날 모델 — 반전 | emotion=worried
+A | Eski mi? Yani bugün bitmiyor mu? | 옛날 거요? 그럼 오늘 안 끝나요? | bitmek = 끝나다 | emotion=worried
+C | Bugün olmaz. Amcamda var, onu arayalım. | 오늘은 안 돼요. 삼촌한테 있어요, 전화해 보죠. | amcamda = 우리 삼촌한테 | emotion=neutral
+A | Kaç kişi geleceksiniz? Kombi ne olacak? | 몇 분이나 오세요? 보일러는 어떻게 돼요? | geleceksiniz = 오실 거다 | emotion=worried+annoyed
+B | Üç kişi. Kombi yarın. | 세 명요. 보일러는 내일요. | üç kişi = 세 명 | emotion=amused
+C | Çay şekerli olsun, lütfen. | 차는 설탕 넣어 주세요. | şekerli = 설탕 넣은 | emotion=polite

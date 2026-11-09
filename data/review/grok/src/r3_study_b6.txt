@@ -1,0 +1,27 @@
+=== r3_study_b6
+kind: long
+title: 손바닥 컨닝
+emoji: 🖐️
+scene: 시험장, 손바닥에 적은 터키어 표현 하나로 컨닝 검사가 시작되고 줄줄이 걸린다
+speakers: A={name}, B=Zeynep, C=Gözetmen, D=Hoca
+register: mixed
+twist: 9 chaos
+purpose: study_abroad
+goal: tekrar eder misiniz·yavaş lütfen·anlamadım 를 시험장에서 쓰기
+expressions: tekrar eder misiniz; yavaş lütfen; anlamadım; eyvah; allah allah
+B | Elindeki ne? Sınava on dakika var. | 손에 그거 뭐야? 시험까지 10분 남았어. | elindeki = 손에 있는 것 | emotion=worried
+A | Hiç. Türkçe kelimeler. Bazen aklımdan çıkıyor. | 아무것도 아냐. 터키어 단어들. 가끔 까먹어서. | aklımdan çıkıyor = 까먹는다 | emotion=shy
+B | Eline mi yazdın? Kopya sanırlar, sil hemen. | 손에 썼어? 컨닝인 줄 알아, 당장 지워. | kopya = 컨닝 | emotion=worried
+A | Kopya değil ki. Sadece “Tekrar eder misiniz” yazıyor. | 컨닝 아니야. 「다시 말씀해 주시겠어요」 만 적혀 있어. | sadece = 그냥, ~만 | emotion=amused
+C | Sessiz olun. Çantalar öne, telefonlar kapalı. Başlıyoruz. | 조용히 하세요. 가방은 앞으로, 휴대폰은 끄세요. 시작합니다. | kapalı = 꺼진 | emotion=stiff
+A | Hocam, bu soru ne demek? Anlamadım. | 선생님, 이 문제 무슨 뜻이에요? 못 알아들었어요. | anlamadım = 못 알아들었어요 | emotion=polite
+C | Elinizi gösterin. Bu ne? Kopya mı? | 손 보여 주세요. 이게 뭐예요? 컨닝이에요? | göstermek = 보여 주다 | emotion=stiff
+A | Hayır, bakın: “Tekrar eder misiniz, yavaş lütfen.” | 아니에요, 보세요: 「다시 말씀해 주시겠어요, 천천히요.」 | bakın = 보세요 | emotion=flustered
+C | Herkes ellerini açsın! Hemen! Bütün sınıf! | 다들 손 펴세요! 당장요! 반 전체요! | açsın = 펴세요 — 반전: 일이 커진다 | emotion=shout
+B | Eyvah. Arkadakinin kolu dolu. Öndekinin ayakkabısında da formül var. | 헉. 뒷사람 팔이 빽빽해. 앞사람은 신발에도 공식이 있어. | arkadaki = 뒤에 있는 사람 | emotion=surprised
+C | Hocam, gelin! On kişide daha kopya var! | 교수님, 와 주세요! 열 명이 더 컨닝했어요! | otuz kişiden = 서른 명 중 | emotion=shout
+D | Allah allah! Kim başlattı bunu? | 세상에! 누가 시작한 거예요? | başlatmak = 시작시키다 | emotion=surprised
+C | Bu öğrenci. Elinde “Yavaş lütfen” yazıyor. | 이 학생이요. 손에 「천천히요」 라고 적혀 있어요. | elinde = 손에 | emotion=stiff
+D | Sınav iptal. Yarın tekrar, eller yıkanmış gelsin. | 시험 취소입니다. 내일 다시, 손 씻고 오세요. | iptal = 취소 | emotion=stiff
+A | Zeynep, herkes bana bakıyor. Alkışlıyorlar! | Zeynep, 다들 날 봐. 박수 쳐! | alkışlamak = 박수 치다 | emotion=excited
+B | Kimse çalışmamıştı. Yarın da eline yaz, lütfen. | 아무도 공부 안 했거든. 내일도 손에 써 줘, 제발. | çalışmamıştı = 공부 안 했었다 | emotion=amused

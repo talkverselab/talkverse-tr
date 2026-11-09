@@ -1,0 +1,19 @@
+=== r1_culture_a3
+kind: short
+title: 보는 사람 누구야
+emoji: 🧿
+scene: Elif 가 내 가방에 나자르를 달아 주며 설명하다가 말이 샌다
+speakers: A={name}, B=Elif
+register: casual
+twist: 7 slip
+purpose: making_friends love
+goal: ne demek·bilmem 으로 뜻 묻고 얼버무리기
+expressions: dur; şey; ne demek; yani; maşallah
+B | Dur! Çantana bir şey takıyorum. | 잠깐! 네 가방에 뭐 달아 줄게. | takmak = 달다 | emotion=cheerful
+A | Bu ne? Mavi bir göz mü? | 이거 뭐야? 파란 눈이야? | göz = 눈 | emotion=surprised+neutral
+B | Nazar boncuğu. Seni nazardan korur. | 나자르 구슬. 나쁜 눈길에서 널 지켜 줘. | nazar = 시샘하는 눈길 | emotion=cheerful+gentle
+A | Nazar ne demek? | 나자르가 무슨 뜻이야? | ne demek = 무슨 뜻이야 | emotion=neutral
+B | Biri sana çok bakar, sonra başın ağrır. | 누가 널 너무 쳐다보면 머리가 아파져. | başın ağrır = 머리가 아프다 | emotion=gentle
+A | Kim bana çok bakıyor? | 누가 날 그렇게 쳐다보는데? | kim = 누구 | emotion=teasing
+B | Ben değilim! Yani bazen… | 나는 아니야! 그러니까 가끔… | bazen = 가끔 — 들켰다 | emotion=flustered+shy
+A | Maşallah de o zaman! | 그럼 「마샬라」 해 줘! | maşallah = 눈길을 막는 말 | emotion=teasing

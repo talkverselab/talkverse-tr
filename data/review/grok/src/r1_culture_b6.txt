@@ -1,0 +1,19 @@
+=== r1_culture_b6
+kind: long
+title: 레몬 향 로쿰
+emoji: 🍋
+scene: 이모 집에서 손님에게 주는 콜로냐를 받았는데, 어디에 쓰는지 모른다
+speakers: A={name}, B=Teyze
+register: mixed
+twist: 7 slip
+purpose: travel making_friends
+goal: afiyet olsun·anladım 으로 손님 대접 받기
+expressions: hoş geldin; hoş bulduk; çok güzel; buyur; afiyet olsun; anladım
+B | Hoş geldin, yavrum. Elini uzat. | 어서 와라, 얘야. 손 내밀어 봐. | uzatmak = 내밀다 | emotion=gentle
+A | Hoş bulduk, teyze. Bu ne? | 안녕하세요, 이모. 이게 뭐예요? | bu ne = 이게 뭐야 | emotion=polite+neutral
+B | Kolonya. Bizde misafire önce bu verilir. | 콜로냐야. 우리는 손님한테 이걸 먼저 준단다. | misafir = 손님 | emotion=gentle
+A | Çok güzel! Limon mu? | 너무 좋아요! 레몬이에요? | limon = 레몬 | emotion=excited+neutral
+B | Limon. Buyur, lokum da al. | 레몬이지. 자, 로쿰도 먹어. | buyur = 자, 받아 | emotion=cheerful
+A | Lokumun üstüne döküyorum. Afiyet olsun! | 로쿰 위에 뿌릴게요. 맛있게 드세요! | dökmek = 붓다 | emotion=cheerful
+B | Yavrum, ne yapıyorsun? O ele dökülür! | 얘야, 뭐 하는 거니? 그건 손에 뿌리는 거야! | ele dökülür = 손에 뿌린다 — 반전 | emotion=surprised+tsukkomi
+A | Anladım. Ama lokum fena değil. | 알겠어요. 근데 로쿰 나쁘지 않은데요. | fena değil = 나쁘지 않다 | emotion=neutral+amused

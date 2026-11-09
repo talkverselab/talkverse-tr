@@ -1,0 +1,23 @@
+=== r2_study_b2
+kind: long
+title: 양파 전쟁
+emoji: 🧅
+scene: 기숙사 방에서 몰래 메네멘을 만들었더니, 양파 논쟁이 온 층을 덮친다
+speakers: A={name}, B=Oda arkadaşı, C=Yurt görevlisi
+register: mixed
+twist: 7 chaos
+purpose: study_abroad
+goal: tabii ki·ciddi misin·ne alaka 로 음식 논쟁 벌이기
+expressions: tabii ki; ciddi misin; ne alaka; özür dilerim; hadi
+B | Bu koku ne? Bütün koridor biliyor. | 이 냄새 뭐야? 복도 전체가 다 알아. | koku = 냄새 | emotion=surprised+annoyed
+A | Menemen yapıyorum. Hadi, ekmek getir. | 메네멘 만들어. 얼른, 빵 가져와. | menemen = 달걀·토마토 볶음 | emotion=cheerful
+B | Yurtta ocak yasak! Bu arada, soğanlı mı? | 기숙사에 버너 금지야! 그나저나, 양파 넣었어? | yasak = 금지 | emotion=annoyed+teasing
+A | Tabii ki soğanlı. Ne var? | 당연히 양파 넣었지. 왜? | tabii ki = 당연하지 | emotion=neutral+annoyed
+B | Soğanlı menemen mi? Ciddi misin? | 양파 넣은 메네멘? 진심이야? | soğanlı = 양파 넣은 | emotion=surprised
+A | Ne alaka? Menemen soğanlı olur. | 뭔 소리야? 메네멘은 양파지. | ne alaka = 뭔 소리야 | emotion=tsukkomi+stiff
+B | Arkadaşlar! Burada soğanlı menemen var! | 얘들아! 여기 양파 메네멘 있다! | arkadaşlar = 얘들아 — 반전: 복도에 외쳐 버렸다 | emotion=shout
+A | Bağırma! Neden herkes kapıda?! | 소리 지르지 마! 왜 다들 문 앞에 있어?! | bağırma = 소리 지르지 마 | emotion=shout+flustered
+B | Yarısı soğanlı, yarısı soğansız diyor. Kavga başladı. | 반은 양파파, 반은 무양파파래. 싸움 났어. | kavga = 싸움 | emotion=amused+worried
+C | Durun! Yurtta ocak yasak, kim yaptı bunu?! | 멈춰요! 기숙사에 버너 금지예요, 누가 한 거예요?! | kim yaptı = 누가 했어요 | emotion=shout
+A | Ben yaptım. Özür dilerim, ama… | 제가요. 죄송해요, 근데… | özür dilerim = 죄송합니다 | emotion=flustered+worried
+C | Soğanlı mı? Ocak yasak, soğansız menemen de yasak. | 양파 넣었어요? 버너도 금지, 양파 없는 메네멘도 금지예요. | soğansız = 양파 없는 | emotion=stiff+annoyed

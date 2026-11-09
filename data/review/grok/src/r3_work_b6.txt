@@ -1,0 +1,27 @@
+=== r3_work_b6
+kind: long
+title: 엘리베이터 회의
+emoji: 🛗
+scene: 멈춘 엘리베이터에 부장·Emre·çaycı 쟁반까지 갇혔는데, 부장이 회의를 시작한다
+speakers: A={name}, B=Emre, C=Müdür, D=Çaycı
+register: mixed
+twist: 6 chaos
+purpose: work_abroad
+goal: galiba·ciddi misiniz·çok şükür 로 갇힌 곳에서 대화하기
+expressions: günaydın; eyvah; galiba; çok şükür; kesinlikle
+A | Günaydın müdürüm. Altıncı kat, değil mi? | 좋은 아침입니다, 부장님. 6층이시죠? | altıncı = 여섯 번째 | emotion=polite
+C | Evet, toplantıya geç kaldık. Emre, rapor hazır mı? | 네, 회의에 늦었어요. Emre, 보고서 됐어요? | geç kalmak = 늦다 | emotion=stiff
+B | Hazır müdürüm. Bir dakika, asansör niye durdu? | 됐습니다, 부장님. 잠깐만요, 엘리베이터 왜 멈췄죠? | asansör = 엘리베이터 | emotion=polite+surprised
+D | Eyvah. Elektrik gitti galiba hocam. Tepsi de elimde. | 헉. 전기 나갔나 봐요, 선생님. 쟁반도 들고 있는데. | galiba = 아마 | emotion=worried
+A | Nasıl yani? Kapı açılmıyor! Alo, kimse var mı? | 네? 문이 안 열려요! 여보세요, 아무도 없어요? | açılmıyor = 안 열린다 | emotion=flustered
+C | Panik yok. Toplantıyı burada yapalım. Emre, başla. | 당황할 것 없어요. 회의를 여기서 하죠. Emre, 시작해요. | panik yok = 당황하지 마요 — 반전 | emotion=stiff
+B | Burada mı müdürüm? Ciddi misiniz? | 여기서요, 부장님? 진심이세요? | ciddi misiniz = 진심이세요? | emotion=surprised
+C | Dört kişiyiz, çay da var. Daha ne lazım? | 네 명이고, 차도 있어요. 뭐가 더 필요해요? | dört kişiyiz = 우리는 네 명 | emotion=amused
+D | Çok şükür dört bardak var. Buyurun hocam. | 다행히 잔이 딱 네 개네요. 드세요, 선생님. | çok şükür = 다행이다 | emotion=polite
+A | Müdürüm, izninizle… ben çıkmak istiyorum. | 부장님, 죄송하지만… 저 나가고 싶어요. | izninizle = 실례지만 | emotion=worried
+C | Önce karar. Yeni projeyi kim alsın? Amca, sen ne dersin? | 먼저 결정부터요. 새 프로젝트 누가 맡을까요? 아저씨 생각은요? | ne dersin = 어떻게 생각해? | emotion=stiff
+D | {name} hocam alsın müdürüm. Herkesin işini bilir. | {name} 선생님이 맡으시죠, 부장님. 남들 일까지 다 아시잖아요. | alsın = 맡으라고 하죠 | emotion=teasing
+B | Ben de {name} diyorum. Kesinlikle. | 저도 {name}요. 확실합니다. | kesinlikle = 확실히 | emotion=amused
+A | Ne?! Daha kapı açılmadı, yeni proje bana mı kaldı?! | 네?! 문도 안 열렸는데 새 프로젝트가 저한테 떨어졌다고요?! | bana kaldı = 나한테 떨어졌다 | emotion=shout
+D | Açıldı işte. Hayırlı olsun hocam. | 열렸네요. 잘 해 보세요, 선생님. | hayırlı olsun = 잘되길 | emotion=cheerful
+C | Toplantı bitti. Çaylar {name} hocamdan. | 회의 끝. 차는 {name} 선생님이 쏘세요. | çaylar … hocamdan = 차는 ~가 쏜다 | emotion=stiff

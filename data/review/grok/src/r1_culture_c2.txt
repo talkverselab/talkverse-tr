@@ -1,0 +1,19 @@
+=== r1_culture_c2
+kind: chat
+title: 가족방에 오신 걸 환영합니다
+emoji: 🌹
+scene: Elif 가 나를 자기 친척 단톡방에 넣었다. 새벽 6시에 장미가 온다
+speakers: A={name}, B=Elif, C=Teyze
+register: chat
+twist: 6 chaos
+purpose: making_friends
+goal: günaydın·eyvah 로 단체방 인사 받아치기
+expressions: hoş geldin; günaydın; teşekkür ederim; eyvah
+B | Seni aile grubuna ekledim 😂 | 너 우리 친척방에 넣었다 😂 | eklemek = 넣다 | emotion=teasing
+A | Ne? Ben aile değilim ki. | 뭐? 나 가족 아니잖아. | aile = 가족 | emotion=surprised
+C | Günaydın! Hoş geldin, yavrum 🌹 | 좋은 아침! 어서 와라, 얘야 🌹 | günaydın = 좋은 아침 | emotion=cheerful
+A | Günaydın, teyze. Teşekkür ederim. | 좋은 아침이에요, 이모. 감사합니다. | teşekkür ederim = 감사합니다 | emotion=polite
+B | Eyvah, cevap verdin! Telefonu kapat! | 헉, 답장했어! 폰 꺼! | cevap vermek = 답하다 | emotion=flustered
+C | Cumartesi herkes bize! {name} börek getirsin. | 토요일에 다들 우리 집으로! {name} 뵈렉 가져오고. | getirsin = 가져오게 해 — 반전 | emotion=excited
+A | Börek mi? Elif, ne oluyor?! | 뵈렉이요? Elif, 이게 뭐야?! | ne oluyor = 무슨 일이야 | emotion=flustered
+C | Kırk kişiyiz, yavrum 🌹 | 우리 마흔 명이다, 얘야 🌹 | kırk kişi = 40명 | emotion=cheerful

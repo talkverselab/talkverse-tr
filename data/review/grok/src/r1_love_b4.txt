@@ -1,0 +1,19 @@
+=== r1_love_b4
+kind: long
+title: 아저씨, 쟤한테요
+emoji: 🫖
+scene: 삐친 Elif 가 나와는 말을 안 하고 찻집 아저씨를 통해서만 말한다
+speakers: A={name}, B=Elif, C=Çaycı
+register: mixed
+twist: 5 ignore
+purpose: love
+goal: kusura bakmayın·özür dilerim·çok özledim 으로 화해하기
+expressions: günaydın; kusura bakmayın; özür dilerim; çok özledim
+A | Elif, günaydın! Çay ister misin? | Elif, 좋은 아침! 차 마실래? | günaydın = 좋은 아침 | emotion=cheerful
+B | Abi, ona söyle: konuşmuyorum. | 아저씨, 쟤한테 전해 주세요. 말 안 한다고. | ona söyle = 쟤한테 말해 | emotion=stiff
+C | Elif Hanım konuşmuyor. Kusura bakmayın. | Elif 씨가 말씀을 안 하신답니다. 죄송합니다. | kusura bakmayın = 죄송합니다 | emotion=polite
+A | Ne oldu? Ben ne yaptım? | 왜 그래? 나 뭐 했어? | ne oldu = 무슨 일이야 | emotion=worried
+B | Abi, söyle: dün gece yazdım, cevap yok. | 아저씨, 전해 주세요. 어젯밤에 문자했는데 답이 없었다고. | 반전: 아직도 나를 안 쳐다본다 | emotion=annoyed
+A | Uyuyordum ya! Özür dilerim, Elif. | 자고 있었잖아! 미안해, Elif. | uyuyordum = 자고 있었다 | emotion=flustered
+B | Abi, ona söyle… çok özledim. | 아저씨, 쟤한테 전해 주세요… 너무 보고 싶었다고. | çok özledim = 너무 보고 싶었어 | emotion=shy
+C | Onu kendin söyle kızım. Çay soğuyor. | 그건 네가 직접 말해라, 얘야. 차 식는다. | kendin = 네가 직접 | emotion=gentle

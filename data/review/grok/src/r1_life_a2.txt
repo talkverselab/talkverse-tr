@@ -1,0 +1,19 @@
+=== r1_life_a2
+kind: short
+title: 바칼은 다 안다
+emoji: 🏪
+scene: 지갑을 두고 온 날, 바칼이 장부에 달아 주겠다는데 아는 게 너무 많다
+speakers: A={name}, B=Bakkal
+register: polite
+twist: 5 reveal
+purpose: study_abroad work_abroad
+goal: param evde kaldı·deftere yazıyorum 으로 동네 가게 외상 쓰기
+expressions: hoş geldiniz; eyvah; sorun yok; yok artık; şey
+B | Hoş geldiniz! Ekmek ve süt, değil mi? | 어서 오세요! 빵이랑 우유 맞죠? | değil mi? = 그렇죠? | emotion=polite
+A | Evet… Eyvah, param evde kaldı! | 네… 헉, 돈을 집에 두고 왔어요! | evde kaldı = 집에 두고 왔다 | emotion=neutral+flustered
+B | Sorun yok. Deftere yazıyorum, {name}. | 괜찮아요. 장부에 적어 둘게요, {name} 씨. | defter = 공책, 외상 장부 | emotion=polite
+A | Adımı nereden biliyorsunuz? | 제 이름을 어떻게 아세요? | nereden = 어디서, 어떻게 | emotion=surprised
+B | Teyze söyledi. Yemek yapmıyorsunuz, değil mi? | 아주머니가 그러던데요. 요리 안 하시죠? | 반전: 동네 소문이 빠르다 | emotion=amused
+A | Yok artık! Başka ne biliyorsunuz? | 말도 안 돼! 또 뭘 아세요? | başka ne = 또 뭐 | emotion=tsukkomi+worried
+B | Dün gece üç çikolata aldınız. | 어젯밤에 초콜릿 세 개 사셨잖아요. | dün gece = 어젯밤 | emotion=teasing
+A | Şey… onlar kedi için. | 저… 그건 고양이 주려고요. | kedi için = 고양이를 위해 | emotion=flustered

@@ -1,0 +1,19 @@
+=== r1_culture_a6
+kind: short
+title: 광고 때 얘기해
+emoji: 📺
+scene: 이모가 드라마에 빠져 있다. 부엌에서 타는 냄새가 나는데 내 말이 안 들린다
+speakers: A={name}, B=Teyze
+register: mixed
+twist: 6 ignore
+purpose: media making_friends
+goal: sus·olsun 으로 드라마 보는 사람과 말 섞기
+expressions: merhaba; geldim; galiba; bak; tamam; olsun
+A | Merhaba, teyze! Ben geldim. | 안녕하세요, 이모! 저 왔어요. | geldim = 왔다 | emotion=cheerful
+B | Sus, yavrum. Şimdi söyleyecek. | 쉿, 얘야. 이제 말한다. | sus = 조용히 해 | emotion=stiff+excited
+A | Teyze, mutfakta bir koku var. | 이모, 부엌에서 무슨 냄새가 나요. | koku = 냄새 | emotion=worried
+B | Sus dedim! Çocuk onun değilmiş! | 조용히 하라니까! 애가 걔 애가 아니래! | -miş = ~래(전해 들음) | emotion=annoyed+surprised
+A | Teyze, yemek yanıyor galiba. | 이모, 음식 타는 것 같은데요. | galiba = 아마 | emotion=worried
+B | Reklamda konuşuruz. Bak, ağlıyor! | 광고 때 얘기하자. 봐, 운다! | reklam = 광고 — 반전: 끝까지 안 듣는다 | emotion=annoyed+excited
+A | Tamam, reklam geldi. Yemek yandı. | 네, 광고 나왔어요. 음식 탔어요. | yandı = 탔다 | emotion=neutral+tsukkomi
+B | Olsun. Bugün dizi çok güzeldi. | 괜찮아. 오늘 드라마 너무 좋았어. | olsun = 괜찮아 뭐 | emotion=gentle+cheerful

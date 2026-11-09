@@ -1,0 +1,23 @@
+=== r2_work_b4
+kind: long
+title: 누가 돌아가셨어요
+emoji: 🤧
+scene: 아팠다 돌아온 부장에게 외워 둔 인사를 꺼냈는데, 엉뚱한 인사다
+speakers: A={name}, B=Emre, C=Müdür
+register: mixed
+twist: 6 slip
+purpose: work_abroad
+goal: geçmiş olsun 과 başın sağ olsun 구별하기
+expressions: geçmiş olsun; kusura bakmayın; allah allah; olsun; çok şükür
+B | Müdür geldi. Üç gün hastaydı. | 부장님 오셨어. 사흘 아프셨대. | hastaydı = 아팠다 | emotion=neutral
+A | Ne diyeyim? Türkçede bir şey var, değil mi? | 뭐라고 해야 해? 터키어로 그런 말 있잖아. | ne diyeyim = 뭐라고 할까 | emotion=worried
+B | Var tabii, çok kolay. Hadi, git söyle. | 있지, 아주 쉬워. 얼른, 가서 말해. | kolay = 쉬운 | emotion=teasing
+A | Dur, bekle… tamam, hatırladım. | 잠깐, 기다려… 됐어, 기억났어. | hatırladım = 기억났다 | emotion=worried+cheerful
+C | Günaydın. Bugün biraz daha iyiyim. | 좋은 아침이에요. 오늘은 좀 낫네요. | biraz daha = 조금 더 | emotion=polite
+A | Müdürüm… başınız sağ olsun. | 부장님… 삼가 조의를 표합니다. | başınız sağ olsun = 삼가 조의를 — 반전: 초상집 인사 | emotion=stiff
+C | Ne?! Kim öldü? | 네?! 누가 죽었어요? | öldü = 죽었다 | emotion=surprised
+A | Yok, şey… siz? | 아뇨… 저… 부장님이요? | siz = 당신 | emotion=flustered
+C | Ben mi? Ben buradayım! | 저요? 저 여기 있는데요! | buradayım = 여기 있다 | emotion=surprised+annoyed
+B | “Geçmiş olsun” diyecekti müdürüm. Kusura bakmayın. | 「쾌차하세요」 라고 하려던 거예요, 부장님. 죄송합니다. | diyecekti = 말하려고 했다 | emotion=polite
+C | Allah allah. Bugün kimse benimle konuşmasın. | 참 나. 오늘은 아무도 저한테 말 걸지 마요. | benimle = 나와 | emotion=annoyed
+A | Olsun müdürüm. Çok şükür yaşıyorsunuz. | 그래도요, 부장님. 다행히 살아 계시잖아요. | çok şükür = 다행이다 | emotion=gentle+cheerful

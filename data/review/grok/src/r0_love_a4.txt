@@ -1,0 +1,19 @@
+=== r0_love_a4
+kind: short
+title: 「자기」는 고양이한테
+emoji: 🐈
+scene: 공원 벤치, Emre 가 내 말엔 대답도 없이 길고양이한테만 다정하다
+speakers: A={name}, B=Emre
+register: casual
+twist: 4 ignore
+purpose: love
+goal: canım·anladım·ee 로 짧게 받아치기
+expressions: naber; canım; anladım; dur
+A | Selam Emre! Naber, ne yapıyorsun? | 안녕 Emre! 뭐 해? | naber = 뭐 해, 잘 지내? | emotion=cheerful
+B | Gel canım, gel. Aç mısın? | 이리 와, 자기야. 배고파? | canım = 자기야, 얘야 | emotion=gentle
+A | Canım mı? Şey, evet, biraz açım. | 자기? 어… 응, 좀 배고파. | açım = 배고파 | emotion=surprised+shy
+B | Sana demedim. Kediye dedim. | 너한테 한 말 아니야. 고양이한테 한 거야. | kediye = 고양이한테 — 반전 | emotion=neutral
+A | Anladım. Ben gidiyorum o zaman. | 알겠어. 그럼 나 간다. | o zaman = 그럼 | emotion=annoyed
+B | Dur. Bu kedi kimseye gelmez. | 잠깐. 이 고양이 아무한테도 안 가. | kimseye = 아무한테도 | emotion=worried+gentle
+A | Ee? Yani? | 그래서? 뭐? | ee = 그래서? | emotion=annoyed
+B | Sana geldi. Ben de. | 너한테는 갔어. 나도. | ben de = 나도 | emotion=gentle+shy

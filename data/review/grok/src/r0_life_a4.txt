@@ -1,0 +1,19 @@
+=== r0_life_a4
+kind: short
+title: 내일의 엘리베이터
+emoji: 🛗
+scene: 고장 난 엘리베이터, 관리인 Kapıcı 의 대답은 언제나 하나뿐
+speakers: A={name}, B=Kapıcı
+register: polite
+twist: 8 ignore
+purpose: study_abroad work_abroad
+goal: ne zaman·yarın 으로 언제 되는지 묻기
+expressions: günaydın; aynen; kolay gelsin
+A | Günaydın. Asansör ne zaman çalışır? | 좋은 아침이에요. 엘리베이터 언제 돼요? | asansör = 엘리베이터 | emotion=polite
+B | Günaydın. Yarın. | 좋은 아침이에요. 내일요. | yarın = 내일 | emotion=polite+neutral
+A | Dün de 'yarın' dediniz. | 어제도 '내일'이라고 하셨잖아요. | dediniz = 말씀하셨다 | emotion=tsukkomi
+B | Doğru. Usta yarın geliyor. | 맞아요. 기사가 내일 와요. | usta = 기사, 장인 | emotion=neutral
+A | Geçen hafta da aynı şeyi dediniz. | 지난주에도 똑같이 말씀하셨어요. | aynı şey = 같은 것 | emotion=annoyed
+B | Aynen. Yarın. | 그렇죠. 내일요. | aynen = 그대로, 맞아 | emotion=neutral
+A | Ben sekizinci kattayım! | 저 8층에 산다고요! | sekizinci kat = 8층 | emotion=shout
+B | Kolay gelsin. | 수고하세요. | kolay gelsin = 수고하세요 — 반전: 그냥 넘긴다 | emotion=polite

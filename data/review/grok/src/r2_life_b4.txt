@@ -1,0 +1,23 @@
+=== r2_life_b4
+kind: long
+title: 자르라는 말이 아니었어요
+emoji: 💇
+scene: 미용실. 「kesin」 은 「확실한」 이기도 하고 「자르세요」 이기도 하다
+speakers: A={name}, B=Kuaför
+register: polite
+twist: 5 slip
+purpose: study_abroad work_abroad
+goal: kesin·bilmiyorum 으로 미용실에서 원하는 머리 말하기
+expressions: hoş geldiniz; olsun; bilmiyorum; anladım; şey; tamam
+B | Hoş geldiniz. Nasıl olsun? | 어서 오세요. 어떻게 해 드릴까요? | nasıl olsun? = 어떻게 할까요? | emotion=polite
+A | Bilmiyorum. Biraz kısa, ama çok değil. | 모르겠어요. 조금 짧게요, 근데 많이는 말고요. | kısa = 짧은 | emotion=worried
+B | Anladım. Arkası kısa mı, uzun mu? | 알겠습니다. 뒤쪽은요? 짧게요, 길게요? | arkası = 뒤쪽 | emotion=polite
+A | Şey, kesin değil. Düşünüyorum. | 저… 아직 확실하지 않아요. 생각 중이에요. | kesin = 확실한 | emotion=shy
+B | Kesin mi? Tamam, kesiyorum! | 자르라고요? 네, 자를게요! | kesin! = 자르세요 — 반전: 같은 소리, 다른 뜻 | emotion=cheerful
+A | Hayır, bir dakika! Kesin değil! | 아뇨, 잠깐만요! 확실한 게 아니라고요! | hayır = 아니요 | emotion=flustered
+B | Ne demek 'kesin değil'? Kestim bile. | 'kesin değil'이 무슨 말이에요? 벌써 잘랐는데요. | kestim bile = 벌써 잘랐다 | emotion=surprised
+A | Aman! Ne kadar kestiniz? | 아이고! 얼마나 자르셨어요? | ne kadar = 얼마나 | emotion=worried
+B | Az. Yani şurası az. | 조금요. 그러니까… 이쪽은 조금요. | şurası = 이쪽 | emotion=flustered
+A | Ya burası? Burası neden yok? | 그럼 여기는요? 여기는 왜 없어요? | ya burası? = 여기는요? | emotion=surprised
+B | Önemli değil. Saç büyür, inşallah. | 괜찮아요. 머리는 자라요, 아마도요. | büyür = 자란다 | emotion=polite
+A | Peki… şapka da satıyor musunuz? | 그럼… 모자도 파세요? | şapka = 모자 | emotion=sad

@@ -1,0 +1,27 @@
+=== r3_culture_b1
+kind: long
+title: 리본은 누가 잘랐나
+emoji: 🎀
+scene: Elif 사촌의 약혼식, 반지와 가위가 든 쟁반을 내가 들고 있다
+speakers: A={name}, B=Elif, C=Dede, D=Teyze
+register: mixed
+twist: 9 chaos
+purpose: making_friends
+goal: eyvah·kusura bakmayın·neyse 로 잔칫날 사고 수습하기
+expressions: aynen; tamam; şey; bir dakika; dur; eyvah
+B | {name}, sana önemli bir görev veriyorum. Tepsiyi sen tutacaksın. | {name}, 너한테 중요한 임무를 줄게. 쟁반은 네가 들어. | görev = 임무 | emotion=teasing
+A | Ne tepsisi? Üstünde yüzükler ve makas var, değil mi? | 무슨 쟁반? 위에 반지랑 가위 있는 거, 맞지? | yüzük = 반지 | emotion=neutral
+B | Aynen. Yüzükler kırmızı bir kurdeleyle bağlı. Dede konuşur, sonra keser. | 맞아. 반지는 빨간 리본으로 묶여 있어. 할아버지가 말하고 나서 자르셔. | kurdele = 리본 | emotion=neutral
+A | Tamam, çok kolay. Ben sadece tutuyorum, hiçbir şeye dokunmuyorum. | 알았어, 쉽네. 난 들고만 있고, 아무것도 안 건드려. | dokunmak = 건드리다 | emotion=cheerful
+C | Değerli misafirler! İki aile bugün çok mutlu. Size bir şey anlatayım. | 귀한 손님 여러분! 두 집안이 오늘 정말 기쁩니다. 얘기 하나 해 드리지요. | değerli = 귀한 | emotion=cheerful
+B | Şimdi uzun konuşacak, yirmi dakika sürer. Kolun ağrıyor mu? | 이제 길게 하실 거야, 20분은 걸려. 팔 아파? | sürmek = 걸리다 | emotion=amused
+A | Ağrımıyor ama makas kayıyor. Elif, bir dakika, tutar mısın? | 안 아픈데 가위가 미끄러져. Elif, 잠깐만, 잡아 줄래? | kaymak = 미끄러지다 | emotion=worried
+B | Dur, dur! Öyle tutma, kurdeleye değiyor! | 잠깐, 잠깐! 그렇게 잡지 마, 리본에 닿잖아! | değmek = 닿다 | emotion=flustered
+A | Eyvah! Kesildi! Elif, kurdele kesildi! | 헉! 잘렸어! Elif, 리본 잘렸어! | kesildi = 잘렸다 — 반전 | emotion=shout
+D | Aman! Kim kesti? Dede daha bitirmedi ki! | 아이고! 누가 잘랐어? 할아버지 아직 안 끝나셨는데! | daha = 아직 | emotion=shout
+C | Ne oldu? Neden herkes alkışlıyor? Ben daha konuşacaktım! | 무슨 일이냐? 왜 다들 박수를 쳐? 나 아직 할 말 있는데! | alkışlamak = 박수 치다 | emotion=surprised
+A | Kusura bakmayın! Kurdeleyi yeniden bağlayalım, tekrar kesersiniz! | 죄송합니다! 리본 다시 묶을게요, 다시 자르시면 돼요! | yeniden = 다시 | emotion=flustered
+B | Bağlayamazsın, yüzükler yere düştü. Biri masanın altına gitti. | 못 묶어, 반지가 바닥에 떨어졌어. 하나는 테이블 밑으로 갔고. | bağlayamazsın = 못 묶는다 | emotion=worried
+D | Herkes dursun! Kimse hareket etmesin, yüzük yerde! | 다들 멈춰요! 아무도 움직이지 마, 반지가 바닥에 있어! | hareket etmek = 움직이다 | emotion=shout
+C | Neyse. Konuşmam bitmedi. Hepiniz oturun, yeniden başlıyorum. | 됐다. 내 말 안 끝났어. 다들 앉아, 처음부터 다시 한다. | neyse = 아무튼 | emotion=annoyed
+B | Eline sağlık, {name}. Şimdi kırk dakika. | 수고했다, {name}. 이제 40분이다. | eline sağlık = 수고했어(비꼼) | emotion=tsukkomi

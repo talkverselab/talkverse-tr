@@ -1,0 +1,26 @@
+=== r3_work_b2
+kind: long
+title: 발에 축복을
+emoji: 🦶
+scene: 거래처 댁 저녁 초대, 외워 간 인사를 마지막 순간에 헷갈린다
+speakers: A={name}, B=Emre, C=Müşteri
+register: mixed
+twist: 9 slip
+purpose: work_abroad
+goal: elinize sağlık·hoş bulduk 로 초대받은 집에서 인사하기
+expressions: hoş geldiniz; hoş bulduk; elinize sağlık; kusura bakmayın; öldüm; teşekkür ederim
+B | Müşteri yarın imza atacak. Bu akşamki yemeği bozma. | 고객이 내일 서명해. 오늘 저녁 망치지 마. | imza atmak = 서명하다 | emotion=stiff
+A | Merak etme. Üç cümle ezberledim, hepsi çok kibar. | 걱정 마. 세 문장 외웠어, 다 아주 공손해. | kibar = 공손한 | emotion=cheerful
+B | Bir tanesi yeter. Yemekten sonra “Elinize sağlık” de. | 하나면 돼. 식사 후에 「Elinize sağlık」 라고 해. | elinize sağlık = 음식 잘 먹었습니다 | emotion=neutral
+C | Hoş geldiniz! Hepsini ben yaptım. Buyurun, oturun. | 어서 오세요! 전부 제가 만들었어요. 앉으세요. | buyurun = 어서요 | emotion=cheerful
+A | Hoş bulduk. Evin kokusu bile harika. | 반갑습니다. 집 냄새부터 끝내주네요. | hoş bulduk = hoş geldiniz 의 대답 | emotion=polite
+C | Bir tabak daha alır mısınız? Çok az yediniz. | 한 접시 더 드실래요? 너무 조금 드셨어요. | tabak = 접시 | emotion=polite
+A | Üç tabak yedim. Artık kalkamıyorum. Çok teşekkür ederim. | 세 접시 먹었어요. 이제 못 일어나겠어요. 정말 감사합니다. | kalkamıyorum = 못 일어나요 | emotion=polite
+B | Şimdi söyle. Hadi, tam zamanı. | 지금 말해. 얼른, 딱 지금이야. | tam zamanı = 딱 지금 | emotion=stiff
+A | Hanımefendi… ayağınıza sağlık! | 사모님… 발에 축복이 있기를! | ayağınıza sağlık = 와 줘서 고맙다는 인사 — 음식엔 안 쓴다, 반전 | emotion=polite
+C | Ayağıma mı? Yemeği ayağımla mı yaptım ben? | 제 발이요? 제가 음식을 발로 만들었나요? | ayak = 발 | emotion=surprised+tsukkomi
+B | “Elinize” demek istedi. Kusura bakmayın. | 「손에」 라고 하려던 거예요. 죄송합니다. | demek istedi = 말하려고 했다 | emotion=flustered+polite
+A | Evet, eller! Ama ayaklarınız da çok güzel. | 네, 손이요! 근데 발도 아주 예쁘세요. | eller = 손들 | emotion=flustered+cheerful
+C | Öldüm gülmekten! Hadi, sözleşmeyi getirin. | 웃겨 죽겠네! 자, 계약서 가져오세요. | sözleşme = 계약서 | emotion=amused+cheerful
+B | Şimdi mi? Yarın değil miydi? | 지금요? 내일 아니었어요? | değil miydi = 아니었어요? | emotion=surprised
+C | Bugün imzalayalım. Ama ayağımla imzalarım, haberiniz olsun. | 오늘 서명하죠. 근데 발로 할 거예요, 알아 두세요. | haberiniz olsun = 알아 두세요 | emotion=cheerful+teasing

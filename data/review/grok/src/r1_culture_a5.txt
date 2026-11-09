@@ -1,0 +1,19 @@
+=== r1_culture_a5
+kind: short
+title: 여덟 살의 손
+emoji: 🤝
+scene: 명절 아침 Zeynep 네 집, 손등 인사를 막 배운 내가 줄 끝까지 간다
+speakers: A={name}, B=Zeynep, C=Dede, D=Çocuk
+register: mixed
+twist: 7 slip
+purpose: making_friends travel
+goal: bayramınız kutlu olsun 으로 어른께 명절 인사하기
+expressions: olsun; maşallah; harika; dur; yok
+B | Bayramın kutlu olsun! Hazır mısın? | 명절 잘 보내! 준비됐어? | kutlu olsun = 축하해 | emotion=cheerful
+A | Hazırım. Ne yapacağım? | 됐어. 뭐 하면 돼? | hazırım = 준비됐다 | emotion=excited+neutral
+B | Büyüklerin elini öp, alnına koy. | 어른 손등에 입 맞추고 이마에 대. | büyükler = 어른들 | emotion=gentle
+A | Bayramınız kutlu olsun, dede! | 명절 잘 보내세요, 할아버지! | dede = 할아버지 | emotion=polite
+C | Maşallah! Al yavrum, bu senin. | 기특하구나! 받아라, 이건 네 거다. | 명절에 어른이 용돈을 준다 | emotion=gentle
+A | Para mı? Harika, sonra kim var? | 돈이요? 끝내준다, 다음은 누구야? | harika = 끝내준다 | emotion=surprised+excited
+B | {name}, dur! O çocuk sekiz yaşında! | {name}, 멈춰! 쟤 여덟 살이야! | sekiz yaşında = 여덟 살 — 반전 | emotion=shout
+D | Param yok. Şeker ister misin? | 저 돈 없는데요. 사탕 드실래요? | şeker = 사탕 | emotion=neutral+polite

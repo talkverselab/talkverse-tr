@@ -1,0 +1,27 @@
+=== r3_travel_b4
+kind: long
+title: 호랑이가 몰아요
+emoji: 🐅
+scene: 카시 보트 투어, 뱃멀미하는 Elif 때문에 선장을 찾는데 kaptan 이 kaplan 으로 나온다
+speakers: A={name}, B=Elif, C=Kaptan, D=Teyze, E=Telsiz
+register: mixed
+twist: 6 slip
+purpose: travel
+goal: sağ olun·eyvah·yok artık 으로 말실수 수습하기
+expressions: tamam; sağ olun; tabii; çok şükür; eyvah; öldüm; yok artık
+B | Çok kötüyüm. Kaptana sor, ne zaman duruyoruz? | 나 너무 안 좋아. 선장님한테 언제 서는지 물어봐. | kaptan = 선장 | emotion=sad
+A | Tamam, sakin ol, hemen gidiyorum. Su da getiririm. | 알았어, 진정해, 바로 갈게. 물도 가져올게. | getiririm = 가져올게 | emotion=gentle
+D | Evladım, neden koşuyorsun? Otur, biraz çay iç. | 얘야, 왜 뛰어? 앉아, 차 좀 마셔. | koşmak = 뛰다 | emotion=gentle
+A | Sağ olun, teyze. Ama kaplan nerede? Kaplanla konuşmam lazım! | 고맙습니다, 이모님. 근데 호랑이 어디 있어요? 호랑이랑 얘기해야 돼요! | kaplan = 호랑이 · kaptan(선장)을 잘못 말함 | emotion=worried
+D | Kaplan mı?! Aman Allah'ım! Teknede kaplan mı var?! | 호랑이?! 세상에! 배에 호랑이가 있어?! | tekne = 배 | emotion=shout
+A | Evet, tabii var. Kaplan yoksa bu tekneyi kim sürüyor? | 네, 당연히 있죠. 호랑이 없으면 이 배를 누가 몰아요? | sürmek = 몰다 — 반전 | emotion=surprised
+D | Kaplan sürüyor! Çocuklar, yukarı çıkın! Herkes yukarı, hemen! | 호랑이가 몬대! 얘들아, 위로 올라가! 다들 위로, 당장! | yukarı = 위로 | emotion=shout
+C | Ne oluyor arkadaşlar? Neden herkes bağırıyor? Sakin olun! | 무슨 일입니까, 여러분? 왜 다들 소리 지르세요? 진정하세요! | bağırmak = 소리 지르다 | emotion=stiff
+A | Çok şükür, kaplan sizsiniz! Arkadaşım çok kötü, ne zaman duruyoruz? | 다행이다, 호랑이가 선장님이군요! 제 친구가 많이 안 좋아요, 언제 서요? | çok şükür = 다행이다 | emotion=worried
+C | Ben ne? Kaptan, efendim, kap-tan! Kaplan bu denizde ne yapsın? | 제가 뭐라고요? 선장요, 손님, 선-장! 호랑이가 이 바다에서 뭘 합니까? | ne yapsın? = 뭘 하겠어요? | emotion=tsukkomi
+A | Kaptan mı? Kaplan değil mi? Eyvah, ben ne dedim? | 선장이요? 호랑이 아니에요? 헉, 제가 뭐라고 했죠? | ne dedim? = 뭐라고 했지? | emotion=flustered
+B | Öldüm! Ne yaptın sen? Çocuklar yukarıda, teyze hâlâ kaplan arıyor! | 나 죽어! 너 뭐 한 거야? 애들은 위에 있고, 이모님은 아직 호랑이 찾고 계셔! | aramak = 찾다 | emotion=amused+tsukkomi
+D | Kaplan yok mu? Çok şükür. Ben çantamı bile hazırlamıştım. | 호랑이 없어? 다행이다. 난 가방까지 싸 놨는데. | bile = ~까지 | emotion=surprised+flustered
+C | Yok artık, teyze! Kaplan yok. Yirmi dakika sonra koyda duruyoruz. | 아이고 참, 이모님! 호랑이 없어요. 20분 뒤에 만에서 섭니다. | koy = 만(바닷가) | emotion=tsukkomi+polite
+E | Kaptan, koyda yer var. Kaç dakikada gelirsiniz? | 선장님, 만에 자리 있습니다. 몇 분이면 도착합니까? | kaç dakikada = 몇 분 만에 | emotion=polite
+C | Yirmi dakika. Kaplanla geliyoruz. | 20분. 호랑이랑 같이 갑니다. | -la = ~와 함께 | emotion=polite+amused

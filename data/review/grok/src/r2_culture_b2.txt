@@ -1,0 +1,23 @@
+=== r2_culture_b2
+kind: long
+title: 내 뒤에 150명
+emoji: 💃
+scene: 결혼식 할라이 줄에 섰더니, 손수건이 나에게 왔다
+speakers: A={name}, B=Zeynep, C=Amca
+register: casual
+twist: 10 chaos
+purpose: making_friends travel
+goal: bilmiyorum ki·vay be·aynen 으로 춤판에서 살아남기
+expressions: bilmiyorum ki; vay be; aynen; gel; bilmiyorum
+B | Kalk, halay başlıyor. Oturmak yasak. | 일어나, 할라이 시작한다. 앉아 있기 금지. | halay = 줄지어 추는 춤 | emotion=cheerful
+A | Ben bilmiyorum ki. Hiç yapmadım. | 나 모른단 말이야. 해 본 적 없어. | bilmiyorum ki = 나도 모르겠어 | emotion=worried
+B | Çok kolay. Elimi tut, üç adım sağa, bir sola. | 쉬워. 내 손 잡고, 오른쪽 세 걸음, 왼쪽 한 걸음. | adım = 걸음 | emotion=gentle
+A | Üç sağa, bir sola… Vay be, yapıyorum! | 오른쪽 셋, 왼쪽 하나… 와 대박, 된다! | vay be = 와 대박 | emotion=excited
+B | Aynen. Sadece en başa gitme, orası önemli. | 그렇지. 맨 앞으로만 가지 마, 거긴 중요한 자리야. | en baş = 맨 앞 | emotion=amused
+C | Gel, gel! Al mendili, bugün başa sen geç! | 이리 와, 이리! 손수건 받아, 오늘은 네가 맨 앞이다! | mendil = 손수건 | emotion=excited
+A | Ne yapacağım? Zeynep, yardım et! | 뭘 해야 돼? Zeynep, 도와줘! | yardım et = 도와줘 | emotion=flustered
+B | Mendili salla ve yürü. Herkes arkandan gelir. | 손수건 흔들면서 걸어. 다들 뒤따라와. | sallamak = 흔들다 | emotion=amused
+A | Herkes mi? Arkamda kaç kişi var? | 다들? 내 뒤에 몇 명 있어? | kaç kişi = 몇 명 | emotion=worried
+B | Yüz elli. Neden bahçeye çıkıyorsun? | 150명. 왜 정원으로 나가? | bahçe = 정원 | emotion=amused+surprised
+A | Bilmiyorum, kapı açıktı! Durmuyorlar! | 몰라, 문이 열려 있었어! 안 멈춰! | durmak = 멈추다 | emotion=flustered
+B | Davul da arkandan geliyor. Devam et. | 북도 네 뒤에 따라와. 계속 가. | davul = 북 | emotion=teasing

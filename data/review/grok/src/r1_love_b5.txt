@@ -1,0 +1,19 @@
+=== r1_love_b5
+kind: long
+title: 이 고양이 이름은
+emoji: 🐾
+scene: Elif 가 동네 길고양이에게 지어 준 이름을 끝까지 안 알려 준다
+speakers: A={name}, B=Elif
+register: casual
+twist: 6 reveal
+purpose: love
+goal: adı ne·valla·yok artık 으로 캐묻기
+expressions: harika; valla; hadi; yok artık
+A | Bu kedi senin mi? Çok tatlı. | 이 고양이 네 고양이야? 진짜 귀엽다. | senin mi = 네 거야? | emotion=cheerful
+B | Sokağın kedisi. Ama adını ben koydum. | 동네 고양이야. 근데 이름은 내가 지었어. | ad koymak = 이름 짓다 | emotion=neutral+shy
+A | Harika! Adı ne? | 좋다! 이름이 뭔데? | adı ne = 이름이 뭐야 | emotion=excited
+B | Söylemem. Sonra gülersin. | 말 안 해. 너 웃을 거야. | gülersin = 넌 웃을 거야 | emotion=shy+teasing
+A | Gülmem, valla. Hadi, söyle. | 안 웃어, 진짜로. 어서 말해. | valla = 진짜로 | emotion=teasing
+B | Adı {name}. | 이름은… {name}. | 반전: 내 이름 | emotion=shy
+A | Yok artık! Neden benim adım? | 말도 안 돼! 왜 내 이름이야? | yok artık = 말도 안 돼 | emotion=surprised
+B | Güzel, ama beni hiç aramıyor. | 예쁜데, 나한테 연락을 안 해. | aramak = 전화하다, 찾다 — 고양이 얘기가 아니다 | emotion=teasing

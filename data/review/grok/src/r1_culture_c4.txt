@@ -1,0 +1,19 @@
+=== r1_culture_c4
+kind: chat
+title: 이모 집에선 폰 금지
+emoji: 🎫
+scene: 콘서트 시작인데 수다쟁이 Elif 가 답이 없다
+speakers: A={name}, B=Elif
+register: chat
+twist: 5 ignore
+purpose: making_friends media
+goal: hadi ya·görüşürüz 로 답 없는 친구 재촉하기
+expressions: hadi ya; ne oldu; tamam; görüşürüz
+A | Neredesin? Konser başlıyor! | 어디야? 콘서트 시작해! | konser = 콘서트 | emotion=worried
+A | Elif? Hadi ya, cevap ver. | Elif? 야 좀, 답해. | hadi ya = 아 좀 | emotion=annoyed
+A | Okudun, gördüm! Ne oldu? | 읽었잖아, 봤어! 무슨 일이야? | ne oldu = 무슨 일이야 | emotion=annoyed
+A | Tamam, giriyorum. Biletin kapıda. | 알았어, 들어간다. 네 표는 입구에 둘게. | bilet = 표 | emotion=sad
+B | Reklam çıktı! Teyzemdeyim, telefon yasak. | 광고 나왔다! 이모 집이야, 폰 금지거든. | yasak = 금지 — 반전 | emotion=excited+neutral
+A | Ne? Konser ne olacak?! | 뭐? 콘서트는 어쩌고?! | ne olacak = 어떻게 돼 | emotion=surprised
+B | Çocuk onunmuş! Reklam bitti, görüşürüz 😱 | 애가 걔 애였대! 광고 끝, 또 봐 😱 | -mış = ~래 | emotion=excited+cheerful
+A | Elif? Elif!! | Elif? Elif!! | 끝 | emotion=shout

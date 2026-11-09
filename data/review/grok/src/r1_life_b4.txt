@@ -1,0 +1,19 @@
+=== r1_life_b4
+kind: long
+title: 왜 반만 있어?
+emoji: 🍲
+scene: 아파서 누워 있는데 Can 이 수프를 들고 왔다. 양이 좀 이상하다
+speakers: A={name}, B=Can
+register: casual
+twist: 7 emotion
+purpose: making_friends study_abroad
+goal: geçmiş olsun·ciddi misin 으로 아플 때 친구와 말하기
+expressions: geçmiş olsun; gerçekten mi; selam; bir dakika; ciddi misin; şey
+B | Geçmiş olsun! Kapıyı aç, çorba getirdim. | 얼른 나아! 문 열어, 수프 가져왔어. | çorba = 수프 | emotion=cheerful
+A | Gerçekten mi? Can, sen harikasın. | 진짜? 칸, 너 최고다. | harikasın = 넌 최고야 | emotion=excited
+B | Annem yaptı. Sana selam söyledi. | 우리 엄마가 끓였어. 너한테 안부 전하래. | selam söyledi = 안부 전했다 | emotion=gentle
+A | Bir dakika. Bu çorba neden yarım? | 잠깐. 이 수프 왜 반밖에 없어? | yarım = 반 | emotion=surprised
+B | Yolda kontrol ettim. Sıcak mı diye. | 오다가 점검했지. 뜨거운지 보려고. | kontrol ettim = 확인했다 | emotion=amused
+A | Ciddi misin? Yarısını mı yedin? | 진심이야? 반을 먹었다고? | ciddi misin? = 진심이야? | emotion=tsukkomi
+B | Ama bugün kafede masan boştu. Hoşuma gitmedi. | 근데 오늘 카페에 네 자리가 비어 있더라. 그게 싫었어. | hoşuma gitmedi = 마음에 안 들었다 — 반전 | emotion=gentle+shy
+A | Şey… Yarısı bile yeter. | 저기… 반만으로도 충분해. | yeter = 충분하다 | emotion=shy

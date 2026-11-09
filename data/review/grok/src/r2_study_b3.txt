@@ -1,0 +1,23 @@
+=== r2_study_b3
+kind: long
+title: 5분 뒤 돌아옴
+emoji: 🚪
+scene: 교수 면담을 가니 문에 「5분 뒤 돌아옴」 쪽지가 붙어 있다
+speakers: A={name}, B=Zeynep, C=Sekreter
+register: mixed
+twist: 6 ignore
+purpose: study_abroad
+goal: yok artık·ee·az önce 로 사람 찾아다니기
+expressions: ee; affedersiniz; yok artık
+A | Hocanın kapısında “Beş dakikaya dönerim” yazıyor. | 교수님 문에 「5분 뒤 돌아옴」 이라고 써 있어. | dönerim = 돌아온다 | emotion=worried
+B | Ee? Bekle o zaman. | 그래서? 그럼 기다려. | ee = 그래서? | emotion=amused
+A | Bekledim. Bir saat oldu. | 기다렸어. 한 시간 됐어. | bir saat = 한 시간 | emotion=annoyed
+C | Affedersiniz, kimi bekliyorsunuz? | 실례합니다, 누구 기다리세요? | kimi = 누구를 | emotion=polite
+A | Hocamı. Kapıda beş dakika yazıyor. | 교수님이요. 문에 5분이라고 써 있어서요. | yazıyor = 쓰여 있다 | emotion=polite
+C | O yazı üç yıldır orada. | 그 쪽지, 3년째 거기 붙어 있어요. | üç yıldır = 3년째 — 반전 | emotion=stiff
+A | Yok artık! Hoca nerede peki? | 말도 안 돼요! 그럼 교수님은 어디 계세요? | peki = 그럼 | emotion=surprised
+C | Az önce kantine gitti. Çabuk olun. | 방금 매점에 가셨어요. 서두르세요. | az önce = 방금 | emotion=polite
+B | Kantindeyim. Hoca burada, telefonla konuşuyor. | 나 매점이야. 교수님 여기 계셔, 통화 중이셔. | telefonla konuşmak = 통화하다 | emotion=excited
+A | Hemen geliyorum! Hocayı tut, lütfen! | 당장 갈게! 교수님 좀 붙잡아 줘! | tutmak = 붙잡다 | emotion=excited
+B | Geç kaldın. Bana bir şey söyledi, gitti. | 늦었어. 나한테 뭐라고 하시고 가셨어. | geç kalmak = 늦다 | emotion=sad
+A | Biliyorum. “Beş dakikaya dönerim.” | 알아. 「5분 뒤 돌아옴.」 | dönerim = 돌아올게 | emotion=annoyed+tsukkomi

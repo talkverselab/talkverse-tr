@@ -1,0 +1,26 @@
+=== r3_work_b3
+kind: long
+title: 금요일까지
+emoji: ⛴️
+scene: 퇴근길 페리, Emre 가 앙카라 자리 제안을 꺼내고 말끝을 흐린다
+speakers: A={name}, B=Emre
+register: casual
+twist: 11 emotion
+purpose: work_abroad
+goal: bence·bilmem·hıhı 로 속마음 돌려 말하기
+expressions: harika; bence; hıhı; bilmem
+B | Müdür beni çağırdı. Ankara'daki ofiste yer açılmış. | 부장님이 나 불렀어. 앙카라 사무실에 자리 났대. | yer açılmış = 자리가 났대 | emotion=neutral
+A | Harika! Yani… daha çok para, değil mi? | 잘됐다! 그러니까… 돈도 더 받는 거지? | yani = 그러니까 | emotion=cheerful
+B | Evet. Maaş daha iyi. Ev de veriyorlar. | 응. 월급도 더 좋아. 집도 준대. | maaş = 월급 | emotion=neutral
+A | Ne zaman cevap vereceksin peki? | 그래서 언제 답할 건데? | ne zaman = 언제 | emotion=stiff
+B | Cuma günü. Sence gideyim mi? | 금요일. 네 생각엔 갈까? | sence = 네 생각엔 | emotion=shy
+A | Bence git. Bu fırsat her zaman gelmez. | 가야지. 이런 기회 아무 때나 안 와. | fırsat = 기회 | emotion=stiff
+B | Hıhı. Çok kolay söyledin ama. | 응응. 근데 되게 쉽게 말하네. | kolay = 쉽게 | emotion=sad
+A | Ne demek kolay? Ne söyleyeyim yani? | 쉽다니 뭔 소리야? 그럼 내가 뭐라고 해? | ne söyleyeyim = 뭐라고 말할까 | emotion=flustered
+B | Bilmem. Her sabah sana çayı kim getirecek? | 몰라. 매일 아침 너한테 차는 누가 갖다 줘? | her sabah = 매일 아침 | emotion=shy
+A | Amca getirir. Onun işi o. | 아저씨가 갖다 주시지. 그분 일이잖아. | onun işi = 그의 일 | emotion=neutral
+B | Masandaki çayı iki yıldır ben getiriyorum. | 네 책상의 차, 2년째 내가 갖다 놓고 있어. | masandaki = 네 책상에 있는 — 반전 | emotion=gentle
+A | Ne? Amca getiriyor sanıyordum. Neden hiç söylemedin? | 뭐? 아저씨가 갖다 주시는 줄 알았어. 왜 말 안 했어? | sanıyordum = ~인 줄 알았다 | emotion=surprised
+B | Açık, tek şeker. Sabah dokuzda, soğumadan. | 연하게, 설탕 하나. 아침 아홉 시, 식기 전에. | soğumadan = 식기 전에 | emotion=gentle
+A | Emre… kalmanı istersem? Yani… | Emre… 내가 남으라고 하면? 그러니까… | istersem = 내가 원하면 | emotion=shy
+B | Cuma günü sorma. Bugün sor. | 금요일에 묻지 마. 오늘 물어. | sorma = 묻지 마 | emotion=gentle

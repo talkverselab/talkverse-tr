@@ -1,0 +1,19 @@
+=== r0_travel_c4
+kind: chat
+title: 옆자리 비었어
+emoji: 🌙
+scene: 밤 버스에서 자리가 떨어진 둘이, 세 줄 사이로 채팅을 한다
+speakers: A={name}, B=Elif
+register: chat
+twist: 5 emotion
+purpose: travel love
+goal: hadi·ciddi misin 으로 밤 채팅하기
+expressions: ciddi misin; geliyorum; yok
+A | Uyudun mu? | 잤어? | uyumak = 자다 | emotion=gentle
+B | Yok. Yanımdaki kadın omzumda uyuyor 😅 | 아니. 옆자리 아주머니가 내 어깨에서 자 😅 | omuz = 어깨(omzum) | emotion=amused
+A | Ben üç sıra arkandayım. | 나 세 줄 뒤에 있어. | sıra = 줄 | emotion=gentle
+B | Biliyorum. Seni görüyorum. | 알아. 너 보여. | görüyorum = 보고 있다 | emotion=teasing
+A | Benim omzum boş. | 내 어깨는 비었는데. | boş = 빈 | emotion=shy
+B | Ciddi misin? | 진심이야? | ciddi misin? = 진심이야? | emotion=surprised
+A | Kolonya da var 😌 | 콜로냐도 있어 😌 | kolonya = 레몬 향 손 향수 | emotion=teasing
+B | Geliyorum. | 간다. | geliyorum = 지금 가 | emotion=shy

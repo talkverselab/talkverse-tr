@@ -1,0 +1,19 @@
+=== r0_travel_a4
+kind: short
+title: 풍선은 못 깨워도
+emoji: 🎈
+scene: 카파도키아 새벽 다섯 시, 풍선이 떠도 Elif 는 꿈쩍도 안 한다
+speakers: A={name}, B=Elif
+register: casual
+twist: 6 ignore
+purpose: travel
+goal: hıhı·sorun yok·geldim 으로 아침에 친구 깨우기
+expressions: hıhı; sorun yok; geldim
+A | Elif, kalk! Saat beş oldu. | 엘리프, 일어나! 다섯 시야. | kalk = 일어나 | emotion=excited
+B | Beş dakika daha… | 5분만 더… | daha = 더 | emotion=annoyed
+A | Bak, balonlar havada! Çok güzel! | 봐, 풍선 떴어! 완전 예뻐! | balon = 풍선 | emotion=excited
+B | Hıhı. | 응응. | hıhı = 응응(듣는 척) | emotion=neutral
+A | Elif, bu hayatta bir kez olur! | 엘리프, 이런 건 평생 한 번이야! | bir kez = 한 번 | emotion=shout
+B | Sorun yok. Bana anlatırsın. | 괜찮아. 나중에 얘기해 줘. | sorun yok = 문제없어 — 반전: 안 일어난다 | emotion=amused
+A | Peki. Kahvaltı hazır, ben gidiyorum. | 알았어. 아침 다 됐대, 나 간다. | kahvaltı = 아침 식사 | emotion=teasing
+B | Kahvaltı mı?! Geldim! | 아침?! 나 간다! | geldim = 지금 가(벌써 온 셈 치는 말) | emotion=excited

@@ -1,0 +1,23 @@
+=== r2_culture_b7
+kind: long
+title: 계산서 전쟁
+emoji: 🧾
+scene: Zeynep 친척들과 저녁. 나눠 내자고 했다가 어른들의 계산서 싸움을 본다
+speakers: A={name}, B=Zeynep, C=Amca, D=Dayı, E=Garson
+register: mixed
+twist: 8 chaos
+purpose: making_friends travel
+goal: hesap lütfen·olmaz 로 식당 계산 자리 넘기기
+expressions: şey; hesap lütfen; olmaz; yok; kusura bakmayın
+A | Yemek çok güzeldi. Hesabı bölüşelim mi? | 너무 맛있었어. 계산은 나눠서 할까? | bölüşmek = 나누다 | emotion=cheerful+neutral
+B | Sus! Burada öyle bir şey söyleme. | 쉿! 여기서 그런 말 하지 마. | sus = 조용히 해 | emotion=worried+stiff
+C | Garson! Hesap lütfen, bana getir. | 여기요! 계산서요, 나한테 줘요. | hesap lütfen = 계산서요 | emotion=shout+polite
+D | Yok, olmaz! Bu akşam ben ödüyorum. | 아니, 안 돼! 오늘은 내가 내. | ödemek = 내다 | emotion=shout+stiff
+C | Elini çek, kardeşim! Çek dedim! | 손 치워, 동생! 치우라니까! | elini çek = 손 치워 | emotion=annoyed+shout
+A | Zeynep, kavga mı var? Ben ödeyeyim, biter. | Zeynep, 싸우는 거야? 내가 낼게, 그럼 끝나잖아. | kavga = 싸움 | emotion=worried+neutral
+B | Sakın! O zaman üçüncü kişi olursun. | 절대 안 돼! 그럼 네가 세 번째 선수 돼. | üçüncü = 세 번째 | emotion=shout+teasing
+E | Kusura bakmayın, hesap ödendi efendim. | 죄송합니다, 계산은 끝났습니다. | ödendi = 지불됐다 — 반전 | emotion=polite
+A | Ne? Kim ödedi peki? | 네? 그럼 누가 냈어요? | peki = 그럼 | emotion=surprised+worried
+E | Yan masadaki amca. Size selamı var. | 옆 테이블 어르신이요. 안부 전하십니다. | selamı var = 안부 전한다 | emotion=polite
+D | Ona tatlı gönderin! Hesabı da bana getirin! | 그분께 디저트 보내요! 계산서는 나한테 주고! | tatlı = 디저트 | emotion=shout
+B | Tebrikler. Savaş artık iki masada. | 축하해. 이제 전쟁이 두 테이블로 번졌어. | savaş = 전쟁 | emotion=amused+tsukkomi

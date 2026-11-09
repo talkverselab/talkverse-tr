@@ -1,0 +1,19 @@
+=== r1_culture_b4
+kind: long
+title: 경기장 앞으로 지름길
+emoji: 🚕
+scene: 공항 가는 택시, 응원하는 팀이 없다고 했더니 기사가 경기 날 경기장 앞길로 들어선다
+speakers: A={name}, B=Taksici
+register: polite
+twist: 7 chaos
+purpose: travel
+goal: hangi takım·bilmem 으로 택시 기사 질문 받기, 길 확인하기
+expressions: hoş geldiniz; lütfen; tabii; bilmem; yok artık; olmaz
+B | Hoş geldiniz. Nereye gidiyoruz? | 어서 오세요. 어디로 모실까요? | nereye = 어디로 | emotion=polite
+A | Havalimanına, lütfen. Uçak saat beşte. | 공항이요. 비행기가 5시예요. | havalimanı = 공항 | emotion=polite
+B | Tabii. Siz hangi takımı tutuyorsunuz? | 네. 손님은 어느 팀 응원하세요? | takım tutmak = 팀을 응원하다 | emotion=cheerful
+A | Takım mı? Bilmem, futbol izlemiyorum. | 팀이요? 글쎄요, 축구 안 봐요. | izlemek = 보다 | emotion=polite
+B | Hiç mi? Yok artık, bu olmaz! | 하나도요? 말도 안 돼요, 이건 안 되죠! | hiç mi? = 전혀요? | emotion=surprised
+A | Neden bu yoldan gidiyorsunuz? Havalimanı orada! | 왜 이 길로 가세요? 공항은 저쪽이에요! | bu yoldan = 이 길로 | emotion=worried+shout
+B | Kısa yol, stadın önünden. Büyük maç var. | 지름길이에요, 경기장 앞으로요. 큰 경기 있거든요. | kısa yol = 지름길 — 반전 | emotion=cheerful+excited
+A | Maç günü stat mı? Uçak beklemez, beyefendi! | 경기 날 경기장이요? 비행기는 안 기다려요, 기사님! | beklemez = 기다리지 않는다 | emotion=surprised+shout

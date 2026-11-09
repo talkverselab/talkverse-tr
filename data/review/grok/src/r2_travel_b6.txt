@@ -1,0 +1,23 @@
+=== r2_travel_b6
+kind: long
+title: 휴게소 20분
+emoji: 🚛
+scene: 시외버스 휴게소에서 수프를 먹는데 버스가 출발하려 한다
+speakers: A={name}, B=Muavin, C=Amca
+register: mixed
+twist: 10 chaos
+purpose: travel
+goal: durun·kusura bakmayın·geçmiş olsun 으로 급한 상황 말하기
+expressions: yok artık; geçmiş olsun; lütfen; kusura bakmayın
+B | Yirmi dakika mola var, efendim. Buyurun. | 20분 쉽니다, 손님. 내리세요. | mola = 휴식(휴게소) | emotion=polite
+A | Yirmi dakika mı? Harika, bir çorba içerim. | 20분이요? 좋다, 수프 한 그릇 먹어야지. | çorba = 수프 | emotion=cheerful
+C | Evladım, otobüsün gidiyor galiba. | 얘야, 네 버스 가는 것 같은데. | galiba = 아마 — 반전 | emotion=worried
+A | Yok artık, durun! Çantam, telefonum, her şey içinde! | 말도 안 돼, 멈춰요! 가방, 폰, 전부 안에 있어요! | her şey = 전부 | emotion=shout+flustered
+C | Koş, koş! Bağır, muavin duyar. | 뛰어, 뛰어! 소리쳐, 차장이 들을 거야. | bağırmak = 소리치다 · muavin = 버스 차장 | emotion=shout
+A | Durun, bir dakika lütfen! Yolcu var! | 세워요, 잠깐만요! 승객 있어요! | durun = 멈추세요 | emotion=shout
+C | Aman, durun! Bir yolcu eksik! | 어머, 세워 주세요! 승객 한 명 빠졌어요! | eksik = 빠진, 모자라는 | emotion=surprised
+A | Benim, yolcu benim! Yirmi dakika demiştiniz! | 저예요, 승객 저예요! 20분이라면서요! | demiştiniz = 말씀하셨잖아요 | emotion=shout+annoyed
+B | Yirmi dakikaydı efendim. Saatinize bakın, lütfen. | 20분이었어요, 손님. 시계 좀 보세요. | saat = 시계 | emotion=polite
+A | Eyvah, saatimi değiştirmemişim. Kusura bakmayın. | 헉, 시계를 안 바꿔 놨네요. 죄송해요. | değiştirmemişim = 안 바꿨네(깨달음 -miş) — 반전 | emotion=flustered
+B | Geçmiş olsun. Kolonya ister misiniz? | 고생하셨어요. 콜로냐 드릴까요? | geçmiş olsun = 고생했어요 | emotion=polite
+A | Kolonya değil, su lütfen. Çorbam orada kaldı. | 콜로냐 말고 물 주세요. 제 수프는 거기 두고 왔어요. | kaldı = 남았다, 두고 왔다 | emotion=sad

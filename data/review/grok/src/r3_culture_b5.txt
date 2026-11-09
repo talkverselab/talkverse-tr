@@ -1,0 +1,27 @@
+=== r3_culture_b5
+kind: long
+title: 누가 죽었다고?
+emoji: 🕯️
+scene: Zeynep 네 저녁 식사, 「잘 먹었습니다」 대신 전혀 다른 말이 나왔다
+speakers: A={name}, B=Zeynep, C=Anne, D=Dede
+register: mixed
+twist: 8 slip
+purpose: making_friends
+goal: elinize sağlık·başınız sağ olsun·geçmiş olsun 구별하기
+expressions: şey; çok güzel; kusura bakmayın; afiyet olsun; buyurun; galiba
+B | Annem üç gündür bu yemek için uğraşıyor. Sonunda güzel bir şey söyle. | 엄마가 사흘째 이 음식 준비하셨어. 끝나고 좋은 말 해 드려. | uğraşmak = 애쓰다 | emotion=neutral+worried
+A | Merak etme, ezberledim. Yemekten sonra söylenen çok güzel bir söz. | 걱정 마, 외웠어. 식사 끝나고 하는 정말 좋은 말. | ezberlemek = 외우다 | emotion=cheerful
+C | Buyurun, afiyet olsun. Tuzu biraz az oldu galiba, kusura bakmayın. | 자, 맛있게 들어요. 간이 좀 싱거운 것 같네요, 미안해요. | tuz = 소금 | emotion=polite
+A | Yok, harika! Hayatımda böyle bir yemek yemedim. | 아뇨, 끝내줘요! 평생 이런 음식 처음 먹어 봐요. | hayatımda = 내 평생에 | emotion=excited
+C | Estağfurullah. Bir tabak daha koyayım mı, yavrum? | 별말을요. 한 접시 더 줄까, 얘야? | estağfurullah = 별말씀을 | emotion=polite+gentle
+A | Teşekkürler, doydum. Bir dakika, güzel sözümü söyleyeceğim. | 감사합니다, 배불러요. 잠깐만요, 제 좋은 말 할게요. | doymak = 배부르다 | emotion=polite+excited
+B | Hadi, sakin ol. Yavaş söyle, aklından çıkmasın. | 자, 진정해. 천천히 말해, 까먹지 말고. | aklından çıkmasın = 까먹지 마 | emotion=worried
+A | Başınız sağ olsun, hanımefendi. | 삼가 조의를 표합니다, 어머님. | başınız sağ olsun = 조의를 표합니다 — 반전 | emotion=polite
+D | Ne? Kim ölmüş? Kızım, kim ölmüş? | 뭐? 누가 죽었어? 얘야, 누가 죽었다고? | ölmüş = 죽었다더라 | emotion=surprised
+C | Kimse ölmedi, baba! Yavrum, yemek o kadar kötü müydü? | 아무도 안 죽었어요, 아버지! 얘야, 음식이 그렇게 별로였니? | o kadar = 그렇게 | emotion=annoyed+sad
+B | {name}, o söz cenazede söylenir. Elinize sağlık olacaktı. | {name}, 그 말은 장례식에서 하는 거야. 「Elinize sağlık」이었어야지. | cenaze = 장례식 | emotion=tsukkomi+worried
+A | Eyvah! Özür dilerim! İkisinde de sağ var, karıştı! | 헉! 죄송합니다! 둘 다 sağ 가 들어가서 헷갈렸어요! | karışmak = 섞이다 | emotion=flustered
+D | Bana kimse söylemiyor. Telefonu verin, ben arayacağım. | 아무도 나한테 말을 안 해. 전화 줘라, 내가 걸어 보마. | arayacağım = 전화하겠다 | emotion=annoyed+stiff
+A | Geçmiş olsun, dede! Yani pardon, şey… kusura bakmayın! | 쾌차하세요, 할아버지! 아니 죄송, 그게… 죄송합니다! | geçmiş olsun = 쾌차해 | emotion=polite+flustered
+C | Hiç konuşma artık, yavrum. Al, tatlını ye. | 이제 말하지 마라, 얘야. 자, 디저트 먹어. | artık = 이제 | emotion=sad+gentle
+B | Dedem akrabaları aramaya başladı. Tebrikler. | 할아버지 친척들한테 전화 돌리기 시작하셨어. 축하해. | akraba = 친척 | emotion=amused+teasing

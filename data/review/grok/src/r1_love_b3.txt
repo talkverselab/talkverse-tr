@@ -1,0 +1,19 @@
+=== r1_love_b3
+kind: long
+title: 나 결혼해?
+emoji: 🏠
+scene: 이사 소식을 전하려다 나도 모르게 Emre 에게 결혼한다고 말해 버린다
+speakers: A={name}, B=Emre
+register: casual
+twist: 5 slip
+purpose: love
+goal: evlenmek·taşınmak 구별하고 ne demek 으로 뜻 묻기
+expressions: eyvah; ne demek; harika
+A | Emre, harika haber! Haftaya evleniyorum! | Emre, 대박 소식! 나 다음 주에 결혼해! | evlenmek = 결혼하다 | emotion=excited
+B | Ne? Kiminle? | 뭐? 누구랑? | kiminle = 누구랑 | emotion=surprised+sad
+A | Yalnız! Küçük ama çok güzel. | 혼자! 작은데 진짜 예뻐. | yalnız = 혼자 | emotion=excited+cheerful
+B | Kim küçük? Ne diyorsun sen? | 누가 작아? 너 무슨 소리야? | ne diyorsun = 무슨 말이야 | emotion=worried
+A | Ev! Yeni ev, çok güzel! | 집! 새집, 진짜 좋아! | 반전: 결혼이 아니라 집 이야기 | emotion=excited
+B | Ev mi? O "taşınıyorum" demek. | 집? 그건 「이사해」라고 하는 거야. | taşınmak = 이사하다 | emotion=surprised+amused
+A | Eyvah. Evleniyorum ne demek peki? | 헉. 그럼 「evleniyorum」은 무슨 뜻이야? | ne demek = 무슨 뜻 | emotion=flustered+neutral
+B | Bir an kalbim durdu demek. | 「순간 내 심장이 멎었어」라는 뜻. | bir an = 한순간 | emotion=shy

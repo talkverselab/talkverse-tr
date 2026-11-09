@@ -1,0 +1,27 @@
+=== r3_culture_b3
+kind: long
+title: 초심자의 주사위
+emoji: 🎲
+scene: Zeynep 할아버지의 찻집, 규칙도 모르는 내가 타블라에서 자꾸 이긴다
+speakers: A={name}, B=Zeynep, C=Dede, D=Kahveci
+register: mixed
+twist: 9 chaos
+purpose: making_friends
+goal: allah allah·hoş geldin 으로 찻집 어른들과 어울리기
+expressions: hoş geldin; şey; allah allah; bak; hadi; bilmiyorum
+B | Dedem burada her gün tavla oynar. Sakın yenme, küser. | 우리 할아버지 여기서 매일 타블라 두셔. 절대 이기지 마, 삐지셔. | tavla = 주사위 말판 놀이 | emotion=amused
+A | Merak etme. Kuralları daha dün öğrendim, yenmem imkânsız. | 걱정 마. 규칙 어제 배웠어, 내가 이길 리가 없어. | kural = 규칙 | emotion=cheerful
+C | Hoş geldin, yavrum! Otur bakalım. Zarı at, korkma. | 어서 와라, 얘야! 앉아 보거라. 주사위 던져, 겁내지 말고. | zar = 주사위 | emotion=cheerful
+A | Attım. Altı altı mı? Bu iyi bir şey mi? | 던졌어요. 6, 6이요? 이거 좋은 거예요? | altı = 6 | emotion=surprised
+C | Allah allah. Bir daha at. Yine mi altı altı?! | 거참 이상하네. 다시 던져 봐. 또 6, 6이야?! | allah allah = 거참 이상하네 | emotion=surprised+neutral+shout
+B | {name}, sana söyledim. Yavaş oyna, biraz kötü oyna. | {name}, 말했잖아. 천천히 해, 좀 못하게 해. | yavaş = 천천히 | emotion=worried
+A | Elimde değil ki, zar kendi geliyor! Bak, yine oldu! | 나도 어쩔 수 없어, 주사위가 알아서 나와! 봐, 또 나왔어! | elimde değil = 어쩔 수 없다 | emotion=flustered
+C | Yedi yıldır bu masada beni kimse yenmedi. | 7년째 이 테이블에서 날 이긴 사람이 없었는데. | yedi yıldır = 7년째 | emotion=stiff
+D | Millet, gelin! Dedeyi biri yeniyor! | 여러분, 와 보세요! 누가 어르신을 이기고 있어요! | millet = 사람들 — 반전 | emotion=shout
+A | Neden herkes etrafımda? Zeynep, biz çay içmeye gelmiştik! | 왜 다들 내 주위에 있어? Zeynep, 우리 차 마시러 왔잖아! | etraf = 주위 | emotion=flustered
+C | Bir el daha! Hadi, ben daha yeni ısınıyordum! | 한 판 더! 어서, 난 이제 막 몸 풀렸어! | bir el = 한 판 | emotion=excited
+D | Kaybeden ısmarlar, dede. Yirmi iki çay yazıyorum. | 진 사람이 사는 겁니다, 어르신. 차 스물두 잔 적습니다. | ısmarlamak = 한턱내다 | emotion=teasing
+C | Yaz. Ama {name} yarın yan kahveye karşı oynayacak. | 적어라. 대신 {name} 내일 옆 찻집 상대로 둔다. | yan kahve = 옆 찻집 | emotion=stiff
+A | Ne? Yan kahve mi? Dede, ben kuralları bile bilmiyorum! | 네? 옆 찻집이요? 할아버지, 저 규칙도 몰라요! | bile = ~조차 | emotion=flustered
+B | Geç kaldın. Dedem seni takıma yazdı. | 늦었어. 할아버지가 너 팀에 넣으셨어. | takım = 팀 | emotion=amused
+D | Çayın bizden, şampiyon. | 차는 저희가 냅니다, 챔피언. | şampiyon = 챔피언 | emotion=teasing

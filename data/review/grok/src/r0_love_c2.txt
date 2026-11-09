@@ -1,0 +1,19 @@
+=== r0_love_c2
+kind: chat
+title: 읽고 열 시간
+emoji: 🕙
+scene: Emre 가 메시지를 읽고 답이 없다. 다음 날 아침에 온 답은 한 단어
+speakers: A={name}, B=Emre
+register: chat
+twist: 4 ignore
+purpose: love
+goal: naber·boş ver·iyi geceler 로 답 없는 채팅 버티기
+expressions: selam; naber; boş ver; iyi geceler; günaydın
+A | Selam! Naber? | 안녕! 뭐 해? | naber = 뭐 해 | emotion=cheerful
+A | Emre? Mesajı gördün. 👀 | Emre? 메시지 봤잖아. 👀 | gördün = 봤다 | emotion=worried
+A | Tamam, boş ver. İyi geceler. | 그래, 됐어. 잘 자. | boş ver = 됐어 | emotion=sad
+B | Günaydın. | 좋은 아침. | 반전: 열 시간 만의 답이 이것 | emotion=neutral
+A | Günaydın mı? On saat oldu! 😤 | 좋은 아침? 열 시간 지났거든! 😤 | on saat = 열 시간 | emotion=annoyed
+B | Yazmayı sevmem. | 나 문자 안 좋아해. | yazmak = 쓰다, 문자하다 | emotion=stiff
+A | Ama okudun, değil mi? | 근데 읽긴 했지? | değil mi = 그렇지? | emotion=worried
+B | Üç kere okudum. | 세 번 읽었어. | üç kere = 세 번 | emotion=shy

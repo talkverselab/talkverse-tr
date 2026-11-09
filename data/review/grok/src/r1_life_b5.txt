@@ -1,0 +1,19 @@
+=== r1_life_b5
+kind: long
+title: 누가 죽었어?
+emoji: 🥟
+scene: Teyze 가 만트를 차려 줬다. 배운 인사를 써먹으려다 엉뚱한 인사가 나왔다
+speakers: A={name}, B=Teyze
+register: mixed
+twist: 4 slip
+purpose: study_abroad work_abroad
+goal: elinize sağlık·başınız sağ olsun 을 구별해 쓰기
+expressions: buyur; canım; çok güzel; sağ olun; olsun; allah allah
+B | Buyur, canım, otur. Mantı yaptım. | 어서 앉아라, 얘야. 만트 만들었다. | mantı = 튀르키예식 작은 만두 | emotion=gentle
+A | Sağ olun, teyze. Çok güzel kokuyor. | 고맙습니다, 아주머니. 냄새 너무 좋아요. | kokuyor = 냄새가 난다 | emotion=polite
+B | Ee? Beğendin mi? | 그래서? 맛있니? | beğendin mi? = 마음에 들어? | emotion=cheerful
+A | Çok güzel. Başınız sağ olsun! | 너무 맛있어요. 삼가 조의를 표합니다! | başınız sağ olsun = 조의 인사 — 반전: 인사를 잘못 골랐다 | emotion=cheerful+polite
+B | Allah Allah! Kim öldü?! | 아니 세상에! 누가 죽었어?! | allah allah = 어머 참 | emotion=surprised
+A | Kimse! Yani yemek çok güzel! | 아무도요! 그러니까 음식이 너무 맛있어요! | kimse = 아무도 | emotion=flustered
+B | Yavrum, 'elinize sağlık' denir. Mantı ölmedi! | 얘야, 그럴 땐 '잘 먹었습니다'라고 하는 거야. 만트는 안 죽었어! | elinize sağlık = 잘 먹었습니다(만든 사람에게) | emotion=tsukkomi+amused
+A | Ölmedi mi? Ben hepsini yedim. | 안 죽었다고요? 제가 다 먹었는데요. | hepsini = 전부를 | emotion=surprised+amused

@@ -1,0 +1,23 @@
+=== r2_work_b2
+kind: long
+title: 오늘 차는 내가
+emoji: 🍵
+scene: 입사 첫날, 차 한 잔 쏜다고 한 말이 çaycı 를 타고 건물 전체로 번진다
+speakers: A={name}, B=Emre, C=Çaycı, D=Müdür
+register: mixed
+twist: 8 chaos
+purpose: work_abroad
+goal: çaylar benden 으로 한턱내기 — 그리고 수습하기
+expressions: hoş geldiniz; hocam; tabii; bir dakika; bilmem
+C | Hoş geldiniz hocam! Çay alır mısınız? | 어서 오세요, 선생님! 차 드릴까요? | hocam = 선생님(직장에서도 두루 쓰는 호칭) | emotion=polite
+A | Evet, lütfen. Emre'ye de bir çay. | 네, 주세요. Emre 것도 한 잔이요. | Emre'ye de = Emre 에게도 | emotion=polite
+B | Bugün ilk günün. Çaylar senden mi? | 오늘 첫날이잖아. 차는 네가 쏘는 거야? | senden = 너한테서(네가 쏘는) | emotion=teasing
+A | Tabii! Bugün çaylar benden! | 당연하지! 오늘 차는 내가 쏜다! | çaylar benden = 차는 내가 쏜다 | emotion=excited
+C | Çaylar {name} hocamdan! Duydunuz mu? | 차는 {name} 선생님이 쏘신답니다! 다들 들으셨죠? | duydunuz mu = 들으셨어요? | emotion=shout
+A | Bir dakika… kaç kişi duydu? | 잠깐만요… 몇 명이나 들었어요? | kaç kişi = 몇 명 | emotion=worried
+B | Bu katta yirmi kişi var. Bina altı kat. | 이 층에만 스무 명이야. 건물은 6층이고. | kat = 층 | emotion=teasing
+C | Üçüncü kat da istiyor! Hocam, otuz çay daha! | 3층도 달래요! 선생님, 서른 잔 더요! | daha = 더 — 반전: 위아래 층까지 번진다 | emotion=excited
+D | Hoş geldiniz {name}, ne güzel düşünce! Ben de içeyim. | 어서 와요, {name} 씨, 참 좋은 생각이네요! 저도 한 잔 하죠. | içeyim = 마실게요 | emotion=cheerful
+A | Emre, bir çay ne kadar? | Emre, 차 한 잔에 얼마야? | ne kadar = 얼마 | emotion=worried
+B | Bilmem. Hesap geldi, ona bak. | 몰라. 계산서 왔네, 그거 봐. | hesap = 계산서 | emotion=amused
+C | Yüz yirmi yedi çay hocam. Yarın da devam mı? | 127잔입니다, 선생님. 내일도 이어서요? | devam = 계속 | emotion=polite

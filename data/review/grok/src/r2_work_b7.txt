@@ -1,0 +1,22 @@
+=== r2_work_b7
+kind: long
+title: 밤의 케이크 도둑
+emoji: 🍰
+scene: 매일 밤 케이크가 사라지고, 의심받는 건 먹보 Can 이다
+speakers: A={name}, B=Can, C=Müdür
+register: mixed
+twist: 9 reveal
+purpose: work_abroad
+goal: valla·yok artık·eyvah 로 범인 찾기
+expressions: valla; yok artık; eyvah; hadi; ee
+C | Yine bir dilim pasta eksik. Kim yiyor bunu? | 또 케이크 한 조각이 없어요. 누가 먹는 거죠? | eksik = 모자라는 | emotion=annoyed+stiff
+B | Ben değilim! Bana niye bakıyorsunuz? | 저 아니에요! 왜 저를 보세요? | ben değilim = 나 아니다 | emotion=flustered+annoyed
+A | Can, ağzında pasta var. | Can, 입에 케이크 묻었어. | ağzında = 네 입에 | emotion=teasing
+B | O bugünkü. Geceki ben değilim, valla. | 이건 오늘 거야. 밤에 먹은 건 나 아니야, 진짜. | valla = 진짜로 | emotion=neutral+flustered
+A | Tamam, kameraya bakalım. Gece kim geldi? | 알았어, 카메라 보자. 밤에 누가 왔나. | bakalım = 보자 | emotion=neutral
+B | Hadi, saat ikiye git… dur, dur! | 그래. 두 시로 가 봐… 잠깐, 잠깐! | hadi = 자, 어서 | emotion=excited+surprised
+A | Yok artık. O kim? | 말도 안 돼. 저거 누구야? | yok artık = 말도 안 돼 | emotion=surprised+worried
+B | Biri mutfağa girdi. Anahtarı var. | 누가 주방에 들어갔어. 열쇠가 있어. | anahtar = 열쇠 | emotion=worried
+A | Eyvah, yüzü… bu müdür! | 헉. 얼굴이… 매니저님이잖아! | eyvah = 헉 — 반전 | emotion=surprised+shout
+C | Ee, hırsızı buldunuz mu? | 그래서, 도둑은 찾았어요? | hırsız = 도둑 | emotion=stiff
+B | Bulamadık müdürüm. Ama bana bir dilim pasta lazım. | 못 찾았어요, 매니저님. 근데 저 케이크 한 조각 필요해요. | lazım = 필요하다 | emotion=polite+amused

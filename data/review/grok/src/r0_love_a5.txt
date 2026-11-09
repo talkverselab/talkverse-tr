@@ -1,0 +1,19 @@
+=== r0_love_a5
+kind: short
+title: 포크는 두 개
+emoji: 🍰
+scene: 디저트 가게, Elif 를 보다가 혼잣말한 tatlı 를 종업원이 주문으로 듣는다
+speakers: A={name}, B=Elif, C=Garson
+register: mixed
+twist: 5 slip
+purpose: love
+goal: tatlı 의 두 뜻과 bence·bilmem 으로 주문하기
+expressions: buyurun; bence; bilmem; eyvah; şey; lütfen
+C | Buyurun, tatlı ister misiniz? | 네, 디저트 드릴까요? | tatlı = 디저트, 달콤한, 귀여운 | emotion=polite
+B | Bence baklava. Sen ne istiyorsun? | 난 바클라바. 넌 뭐 먹을래? | bence = 내 생각엔 | emotion=cheerful
+A | Bilmem… çok tatlı. | 글쎄… 너무 달콤해. | Elif 를 보다가 나온 혼잣말 | emotion=shy
+C | Hangisi tatlı? Baklava mı? | 어느 쪽이 달콤해요? 바클라바요? | hangisi = 어느 것 | emotion=polite
+A | Yok, yok, Elif. Eyvah! | 아뇨, 아뇨… Elif 요. 헉! | 반전: 입 밖으로 나와 버렸다 | emotion=flustered+surprised
+B | Ne? Ben mi tatlıyım? | 뭐? 내가 달콤하다고? | tatlıyım = 나는 달콤하다 | emotion=surprised+teasing
+A | Şey… ben baklava demek istedim. | 저… 바클라바라고 하려던 거야. | demek istedim = 말하려고 했다 | emotion=flustered
+B | Bir baklava, iki çatal lütfen. | 바클라바 하나, 포크 두 개요. | çatal = 포크 | emotion=shy

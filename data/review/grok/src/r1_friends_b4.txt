@@ -1,0 +1,19 @@
+=== r1_friends_b4
+kind: long
+title: 소파와 3층
+emoji: 🛋️
+scene: 이사 날, 소파가 계단에서 꽉 끼어 친구 둘이 위아래로 갈라졌다
+speakers: A={name}, B=Can, C=Zeynep
+register: casual
+twist: 6 chaos
+purpose: making_friends study_abroad
+goal: az kaldı·dur 로 같이 일하며 말하기
+expressions: az kaldı; dur; eyvah; iyiyim
+B | Bu kanepe neden bu kadar ağır? | 이 소파 왜 이렇게 무거워? | ağır = 무거운 · kanepe = 소파 | emotion=annoyed
+A | Az kaldı! Sadece üç kat. | 거의 다 왔어! 세 층만 더. | az kaldı = 거의 다 왔어 | emotion=cheerful
+C | Dur! Kapıdan girmiyor. | 스톱! 문으로 안 들어가. | dur = 멈춰 | emotion=surprised
+A | Nasıl girmiyor? Can, çevir! | 안 들어간다니? 잔, 돌려! | çevirmek = 돌리다 | emotion=flustered
+B | Çeviremiyorum. Kanepenin altındayım. | 못 돌려. 나 소파 밑에 있어. | altındayım = 밑에 있어 | emotion=worried
+C | Ben de içeride kaldım. Kapı kapandı. | 나도 안에 갇혔어. 문이 닫혔어. | kapanmak = 닫히다 — 반전 | emotion=worried
+A | Eyvah! Can, iyi misin? | 헉! 잔, 괜찮아? | iyi misin = 괜찮아? | emotion=worried
+B | İyiyim. Çay getir, artık burada yaşıyorum. | 괜찮아. 차나 가져와, 나 이제 여기서 살래. | getir = 가져와 | emotion=amused

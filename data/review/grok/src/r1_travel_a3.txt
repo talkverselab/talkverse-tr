@@ -1,0 +1,19 @@
+=== r1_travel_a3
+kind: short
+title: 아이스크림 장수
+emoji: 🍦
+scene: 아이스크림 장수의 장난에 나만 계속 당하고, Elif 가 자기 걸 나눠 준다
+speakers: A={name}, B=Elif, C=Dondurmacı
+register: mixed
+twist: 7 emotion
+purpose: travel love
+goal: yok artık·ne yapalım 으로 장난 받아치기
+expressions: buyurun; yok artık; hadi; ne yapalım; aman
+C | Buyurun, dondurma! Alın, alın! | 자, 아이스크림! 받으세요, 받으세요! | dondurma = 튀르키예 쫀득 아이스크림 | emotion=cheerful
+A | Hani dondurma? Yok artık! | 아이스크림 어디 갔어요? 말도 안 돼! | hani? = 어디 갔어? | emotion=surprised+annoyed
+C | Alın! Hadi, ne oldu? | 받으세요! 자, 왜 그러세요? | 장수가 콘을 또 빼 간다 | emotion=teasing
+A | Elif, bu adam benimle oynuyor! | 엘리프, 이 아저씨 나 갖고 놀아! | oynamak = 놀다 | emotion=annoyed
+B | Ne yapalım? Al, yarısı senin. | 어쩌겠어. 자, 반은 네 거. | yarısı = 그 절반 | emotion=amused+gentle
+A | Ama sen dondurmayı çok seviyorsun. | 근데 너 아이스크림 엄청 좋아하잖아. | seviyorsun = 좋아한다 | emotion=gentle
+B | Evet, ama bugün seni daha… Aman, eriyor! | 응, 근데 오늘은 네가 더… 어머, 녹는다! | erimek = 녹다 — 말하다 말고 돌린다 | emotion=shy+flustered
+A | Daha ne?! | 더 뭐?! | daha ne? = 더 뭐? | emotion=surprised

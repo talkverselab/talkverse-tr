@@ -1,0 +1,19 @@
+=== r0_love_a1
+kind: short
+title: 자리 다 비었는데
+emoji: 🪑
+scene: 텅 빈 카페, Elif 가 굳이 내 옆자리에 앉겠다고 한다
+speakers: A={name}, B=Elif
+register: mixed
+twist: 3 emotion
+purpose: love
+goal: burası boş mu·gerçekten mi 로 첫마디 주고받기
+expressions: gerçekten mi; bilmem; şey
+B | Pardon, burası boş mu? | 저기요, 여기 비었어요? | burası = 여기 | emotion=polite
+A | Evet, boş. Buyurun. | 네, 비었어요. 앉으세요. | buyurun = 여기요, 그러세요 | emotion=polite
+B | Aslında bütün masalar boş. | 사실 테이블 전부 비었어요. | aslında = 사실은 — 반전 | emotion=amused
+A | Ha? Gerçekten mi? | 네? 진짜요? | gerçekten mi? = 진짜? | emotion=surprised
+B | Evet. Ama ben buraya oturmak istedim. | 네. 근데 난 여기 앉고 싶었어요. | istedim = 원했다 | emotion=shy
+A | Şey… neden burası? | 저… 왜 여기예요? | neden = 왜 | emotion=flustered
+B | Bilmem… sen buradasın ya. | 글쎄… 네가 여기 있잖아. | ya = ~잖아 — 말을 놓으며 마음을 들킴 | emotion=shy+gentle
+A | Çay ister misin? Sen de… yani. | 차 마실래? 너도… 그러니까. | yani = 그러니까 | emotion=flustered

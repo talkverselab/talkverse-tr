@@ -1,0 +1,26 @@
+=== r3_study_b3
+kind: long
+title: 장학금이 부르사로
+emoji: 🚌
+scene: burs(장학금) 합격 전화를 도시 Bursa 로 잘못 듣고 짐을 싼다
+speakers: A={name}, B=Zeynep, C=Sekreter
+register: mixed
+twist: 11 slip
+purpose: study_abroad
+goal: bursa(장학금에) 와 Bursa 구별, bilmiyorum ki·ne yapalım 로 받아치기
+expressions: bilmiyorum ki; ne yapalım; olsun; şey
+C | Alo, {name}? Bursa başvurmuştunuz, değil mi? | 여보세요, {name} 씨? 장학금 신청하셨죠? | bursa = burs(장학금)+에 — 도시 Bursa 와 소리가 같다 | emotion=polite
+A | Bursa mı? Şey… evet, evet. | 부르사요? 저… 네, 네. | Bursa = 튀르키예 도시 | emotion=flustered
+C | Müjde, çıktı! Pazartesi başlıyor, hayırlı olsun. | 기쁜 소식이에요, 됐어요! 월요일부터 시작이고요, 축하해요. | müjde = 좋은 소식 | emotion=cheerful
+A | Zeynep, beni Bursa'ya gönderiyorlar! Pazartesi! | Zeynep, 나 부르사로 보낸대! 월요일에! | göndermek = 보내다 | emotion=surprised
+B | Ne? Neden Bursa? Bölüm mü değişti? | 뭐? 왜 부르사? 학과가 바뀐 거야? | değişmek = 바뀌다 | emotion=surprised
+A | Bilmiyorum ki. Bileti aldım bile, pazar sabahı otobüs. | 나도 몰라. 표도 벌써 샀어, 일요일 아침 버스. | bile = 벌써 | emotion=worried
+B | Bursa'yı hiç sevmem. Çok uzak. | 나 부르사 하나도 안 좋아해. 너무 멀어. | hiç sevmem = 전혀 안 좋아해 | emotion=sad
+A | Otobüsle üç saat, Zeynep. Çok yakın. | 버스로 세 시간이야, Zeynep. 아주 가까워. | yakın = 가까운 | emotion=tsukkomi
+B | Olsun. Yine de uzak. | 상관없어. 그래도 멀어. | yine de = 그래도 | emotion=shy
+C | {name}, burs formunu imzalamadınız. Para yatmayacak! | {name} 씨, 장학금 서류 서명 안 하셨어요. 돈 안 들어와요! | yatmak = (돈이) 들어오다 | emotion=worried
+A | Burs mu? Hangi burs? Ben Bursa'ya gidiyorum! | 장학금이요? 무슨 장학금이요? 저 부르사 가는데요! | hangi = 어느 — 반전 | emotion=surprised
+C | Bursa mı? Burs dedim canım, burs! Her ay para! | 부르사요? 장학금이라고 했잖아요, 장학금! 매달 돈이요! | her ay = 매달 | emotion=tsukkomi
+B | Yani gitmiyorsun. Peki bilet ne olacak? | 그러니까 안 가는 거네. 그럼 표는 어떻게 돼? | yani = 그러니까 | emotion=gentle
+A | Geri almıyorlar. Ne yapalım, boşa gitti. | 환불 안 된대. 어쩌겠어, 날렸지 뭐. | ne yapalım = 어쩌겠어 | emotion=sad
+B | Bir bilet daha alırım. Zaten Bursa'yı severim. | 표 한 장 더 사면 되지. 나 원래 부르사 좋아해. | zaten = 원래 | emotion=shy

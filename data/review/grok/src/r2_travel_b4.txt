@@ -1,0 +1,23 @@
+=== r2_travel_b4
+kind: long
+title: 한 바퀴 더
+emoji: ⛴️
+scene: 여행 마지막 저녁 페리, 내일 떠나는 나에게 Elif 가 내리지 말자고 한다
+speakers: A={name}, B=Elif
+register: casual
+twist: 11 emotion
+purpose: travel love
+goal: şaka şaka·inşallah 로 마지막 저녁 대화하기
+expressions: ne demek; ciddi misin; şaka şaka; inşallah
+B | Al, çayın. Bu sefer dökme. | 자, 네 차. 이번엔 쏟지 마. | dökmek = 쏟다 · bu sefer = 이번엔 | emotion=teasing
+A | Dökmem. Beni özleyeceksin, değil mi? | 안 쏟아. 나 보고 싶을 거지? | özlemek = 보고 싶어 하다 | emotion=teasing
+B | Seni kim unutur? Uçağın saat kaçta? | 널 누가 잊겠어? 비행기 몇 시야? | uçak = 비행기 | emotion=gentle
+A | Yarın sabah yedide. Çantam hâlâ boş. | 내일 아침 일곱 시. 가방 아직 텅 비었어. | hâlâ = 아직도 | emotion=sad
+B | İyi. Boş kalsın. | 잘됐네. 비워 둬. | kalsın = 그대로 둬 | emotion=gentle
+A | Ne demek boş kalsın? Elif, ciddi misin? | 비워 두라니 무슨 말이야? 엘리프, 진심이야? | ne demek = 무슨 말이야 | emotion=surprised
+B | Şaka şaka. Hadi bak, güneş batıyor. | 농담이야. 자 봐, 해 진다. | batmak = 지다 | emotion=amused+gentle
+A | Çok güzel. Keşke bu vapur hiç durmasa. | 진짜 예쁘다. 이 배가 안 멈췄으면. | keşke = ~라면 좋을 텐데 · vapur = 여객선 | emotion=gentle
+B | Vapur durur. Karaköy'de herkes iner. | 배는 서지. 카라쾨이에서 다 내려. | iner = 내린다 | emotion=sad
+A | Evet… herkes iner. | 응… 다 내리지. | herkes = 모두 | emotion=sad
+B | Ben inmem. Bir tur daha, sen de kal. | 난 안 내려. 한 바퀴 더, 너도 있어. | tur = 한 바퀴 — 반전 | emotion=gentle+shy
+A | Uçağı kaçırırım, inşallah. | 비행기 놓치면 좋겠다. | inşallah = 그러길 바라 | emotion=shy

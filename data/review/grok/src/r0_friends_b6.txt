@@ -1,0 +1,19 @@
+=== r0_friends_b6
+kind: long
+title: 야옹
+emoji: 🐱
+scene: Can 은 카페 고양이 Paşa 만 챙기고 내 주문은 못 들은 척한다
+speakers: A={name}, B=Can
+register: mixed
+twist: 7 ignore
+purpose: making_friends
+goal: 주문하고 항의하기, buyurun·bir dakika
+expressions: hoş geldin; canım; gel; bir dakika; buyurun
+A | Can, bir çay, lütfen. | 잔, 차 한 잔 줘. | lütfen = 부탁해 | emotion=polite
+B | Paşam, hoş geldin! Süt ister misin? | 우리 파샤, 왔어! 우유 줄까? | hoş geldin = 어서 와 | emotion=gentle
+A | Can, ben de buradayım. Çay? | 잔, 나도 여기 있거든. 차는? | buradayım = 여기 있어 | emotion=annoyed
+B | Aç mısın, canım? Gel, gel. | 배고파, 우리 아기? 이리 와, 이리 와. | canım = 얘야 · aç = 배고픈 | emotion=gentle
+A | Beni görüyor musun? Bir dakika! | 내가 보이긴 해? 잠깐만! | görmek = 보다 | emotion=annoyed+shout
+B | Paşa, duydun mu? Bir ses var. | 파샤, 들었어? 무슨 소리가 나네. | ses = 소리 | emotion=teasing
+A | Miyav. | 야옹. | miyav = 야옹 — 반전 | emotion=amused
+B | Buyurun, efendim! Çay mı, süt mü? | 네, 손님! 차로 드릴까요, 우유로 드릴까요? | efendim = 손님(높임) | emotion=polite

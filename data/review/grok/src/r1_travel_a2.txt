@@ -1,0 +1,19 @@
+=== r1_travel_a2
+kind: short
+title: 가방 먼저 출발
+emoji: 🚌
+scene: 오토가르에서 구경만 하려는데, 표 파는 사람들이 내 가방부터 들고 가 표를 끊는다
+speakers: A={name}, B=Biletçi, C=Öteki biletçi
+register: polite
+twist: 6 chaos
+purpose: travel
+goal: bir dakika·eyvah 로 호객꾼 막기
+expressions: bir dakika; aman; hadi; eyvah; çok güzel
+B | İzmir mi? Gelin, gelin! | 이즈미르요? 오세요, 오세요! | gelin = 오세요 | emotion=excited
+A | Bir dakika, ben sadece bakıyorum. | 잠깐만요, 저 그냥 보는 중이에요. | sadece = 그냥, ~만 | emotion=flustered
+C | Oraya gitmeyin! Bizimki daha iyi! | 거기 가지 마세요! 우리 게 더 좋아요! | bizimki = 우리 것 | emotion=shout
+B | Aman! Çantanızı verin, hadi! | 아이고! 가방 주세요, 어서요! | çanta = 가방 | emotion=excited
+A | Hayır, durun… Çantam nerede? | 아니요, 잠깐만요… 제 가방 어디 있어요? | durun = 멈추세요 | emotion=worried
+C | Çantanız yazıhanede. Biletiniz de hazır! | 가방은 매표소에 있어요. 표도 준비됐어요! | yazıhane = 버스 회사 매표소 | emotion=excited
+A | Ben sadece bakıyordum! Ne bileti? | 저 그냥 구경만 했는데요! 무슨 표요? | ne bileti = 무슨 표 | emotion=flustered
+C | On dakikaya kalkıyor. Nakit mi, kart mı? | 10분 뒤 출발해요. 현금이요, 카드요? | nakit mi, kart mı = 현금이요 카드요 | emotion=polite

@@ -1,0 +1,19 @@
+=== r1_life_a5
+kind: short
+title: 고양이의 직원
+emoji: 🐈
+scene: 사흘째 문 앞에서 자는 길고양이. Can 은 그 고양이가 나를 골랐다고 한다
+speakers: A={name}, B=Can
+register: casual
+twist: 6 emotion
+purpose: making_friends study_abroad
+goal: bu kimin·olsun 으로 길고양이 얘기하기
+expressions: olsun; tamam
+A | Can, bu kedi kimin? | 칸, 이 고양이 누구 거야? | kimin = 누구의 | emotion=cheerful
+B | Kimsenin değil. Ama burası onun. | 누구 것도 아니야. 근데 여긴 걔 땅이야. | kimsenin değil = 누구 것도 아니다 | emotion=amused
+A | Üç gündür kapımda uyuyor. | 사흘째 우리 집 문 앞에서 자. | üç gündür = 사흘째 | emotion=worried
+B | Bak, bu kedi kimseye gitmez. | 봐, 이 고양이 아무한테도 안 가. | kimseye = 아무에게도 | emotion=gentle
+A | Ben burada kimseyi tanımıyorum ya. | 나 여기 아는 사람도 없는데. | tanımıyorum = 몰라(사람을) | emotion=sad
+B | Olsun. O seni seçti. | 괜찮아. 걔가 널 고른 거야. | seçti = 골랐다 — 반전: 혼자가 아니다 | emotion=gentle
+A | Bana patron gibi bakıyor. | 나를 사장님처럼 쳐다봐. | patron = 사장 | emotion=amused
+B | Tamam, adı Patron. Sen de işçisin. | 좋아, 이름은 파트론. 넌 직원이고. | işçi = 직원, 일꾼 | emotion=teasing

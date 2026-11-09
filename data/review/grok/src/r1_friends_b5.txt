@@ -1,0 +1,18 @@
+=== r1_friends_b5
+kind: long
+title: 그 공책
+emoji: 📓
+scene: 튀르키예어 시험을 망친 날, Zeynep 이 말없이 공책을 꺼낸다
+speakers: A={name}, B=Zeynep
+register: casual
+twist: 5 emotion
+purpose: making_friends study_abroad
+goal: hiç sorma 로 하소연하기, gerçekten mi
+expressions: hiç sorma; bak; gerçekten mi
+B | Sınav nasıl geçti? | 시험 어땠어? | nasıl geçti = 어땠어 | emotion=gentle
+A | Hiç sorma. Türkçe çok zor. | 말도 마. 튀르키예어 너무 어려워. | hiç sorma = 말도 마 | emotion=sad
+B | Bak, bu benim defterim. | 봐, 이거 내 공책이야. | defter = 공책 | emotion=gentle
+A | Bu {lang}! Neden öğreniyorsun? | 이거 {lang}잖아! 왜 배워? | öğrenmek = 배우다 | emotion=surprised
+B | Seninle kendi dilinde konuşmak için. | 너랑 네 말로 얘기하려고. | kendi dilinde = 네 말로 — 반전 | emotion=shy
+A | Gerçekten mi? İlk ne öğrendin? | 진짜? 처음에 뭐 배웠어? | ilk = 처음 | emotion=excited+cheerful
+B | Aptal demeyi. Sana lazım. | 「바보」라고 하는 법. 너한테 필요하잖아. | lazım = 필요해 | emotion=teasing

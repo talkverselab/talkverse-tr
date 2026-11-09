@@ -1,0 +1,27 @@
+=== r3_study_b5
+kind: long
+title: 수고하세요의 힘
+emoji: 🏛️
+scene: 체류증 창구, 담당자가 눈도 안 마주치는데 Zeynep 이 한마디를 일러 준다
+speakers: A={name}, B=Zeynep, C=Memur
+register: mixed
+twist: 13 ignore
+purpose: study_abroad
+goal: kolay gelsin 으로 관공서 문 열기
+expressions: kolay gelsin; merhaba; ne alaka; sağ ol
+A | Merhaba, ikamet için geldim. Randevum var. | 안녕하세요, 체류증 때문에 왔어요. 예약했어요. | ikamet = 체류증 | emotion=polite
+C | Sıra numaranızı alın, bekleyin. | 번호표 뽑고 기다리세요. | sıra numarası = 번호표 | emotion=stiff
+A | Aldım. Yüz kırk yedi. İki saattir bekliyorum. | 뽑았어요. 147번이요. 두 시간째 기다려요. | iki saattir = 두 시간째 | emotion=neutral+annoyed
+C | Şu an öğle arası, bekleyin. | 지금 점심시간이에요, 기다리세요. | öğle arası = 점심시간 | emotion=stiff
+A | Ama saat dört! Öğle arası mı şimdi? | 근데 네 시인데요! 지금이 점심시간이에요? | ama = 하지만 | emotion=annoyed+tsukkomi
+C | Şu an öğle arası, bekleyin. | 지금 점심시간이에요, 기다리세요. | öğle arası = 점심시간 — 같은 말만 반복 | emotion=stiff
+A | Bana bakmıyor bile, Zeynep. Üç dakikadır çayını karıştırıyor. | 날 쳐다보지도 않아, Zeynep. 3분째 차만 젓고 있어. | karıştırmak = 젓다 | emotion=annoyed
+B | Ona ne dedin? İlk kelimen neydi? | 뭐라고 했는데? 첫마디가 뭐였어? | ilk kelime = 첫마디 | emotion=neutral
+A | “Merhaba” dedim. Sonra “Randevum var” dedim. Çok kibardım. | 「안녕하세요」 했지. 그다음 「예약했어요」. 아주 공손했어. | kibar = 공손한 | emotion=annoyed
+B | Yanlış. Önce “Kolay gelsin” de, sonra konuş. | 틀렸어. 먼저 「Kolay gelsin」 해, 그다음에 말해. | önce = 먼저 | emotion=stiff+gentle
+A | Ne alaka? O kadar kolay mı yani? | 뭔 소리야? 그렇게 쉽다고? | o kadar = 그렇게 | emotion=tsukkomi+surprised
+B | Dene. Kaybedecek neyin var? | 해 봐. 잃을 게 뭐 있어? | dene = 해 봐 | emotion=teasing
+A | Kolay gelsin… | 수고 많으십니다… | kolay gelsin = 수고하세요 — 반전의 한마디 | emotion=polite
+C | Sağ ol evladım. Buyur, ver bakayım kâğıtları. | 고맙다, 학생. 자, 서류 줘 봐. | evladım = 얘야(어른이 쓰는 말) | emotion=gentle
+A | Zeynep, baktı! Yüzüme baktı! Konuştu! | Zeynep, 쳐다봤어! 내 얼굴을 봤어! 말도 했어! | yüzüme = 내 얼굴에 | emotion=excited
+C | Fotoğraf eksik. Yarın gel. Hadi, kolay gelsin. | 사진이 빠졌네. 내일 와. 자, 수고해. | eksik = 빠진 | emotion=stiff+amused

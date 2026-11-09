@@ -1,0 +1,19 @@
+=== r1_life_a6
+kind: short
+title: 양말 한 짝이 아니었다
+emoji: 🧦
+scene: 빨래 줄에서 떨어진 양말을 찾으러 아랫집에 내려갔다
+speakers: A={name}, B=Komşu
+register: polite
+twist: 6 chaos
+purpose: study_abroad work_abroad
+goal: düştü·hangisi 로 이웃에게 빨래 찾아오기
+expressions: merhaba; buyurun; gerçekten mi; şey; eyvah
+A | Merhaba, çorabım balkonunuza düştü. | 안녕하세요, 제 양말이 댁 발코니에 떨어졌어요. | çorap = 양말, balkon = 발코니 | emotion=polite
+B | Buyurun, girin. Hangisi? | 들어오세요. 어느 거요? | hangisi = 어느 것 | emotion=polite
+A | Hangisi mi? Bir kırmızı çorap. | 어느 거냐고요? 빨간 양말 한 짝이요. | kırmızı = 빨간 | emotion=surprised
+B | Burada üç çorap var. | 여기 양말 세 짝 있는데요. | burada = 여기에 | emotion=neutral
+A | Üç mü? Gerçekten mi? | 세 짝요? 진짜요? | gerçekten mi? = 진짜요? | emotion=surprised
+B | Bir de pantolon var, bir de havlu. | 바지도 있고, 수건도 있어요. | havlu = 수건 — 반전 | emotion=amused
+A | Eyvah! Hepsi benim mi? | 헉! 그게 다 제 거예요? | hepsi = 전부 | emotion=flustered
+B | Bu hafta rüzgâr çok. Buyurun. | 이번 주에 바람이 세네요. 여기요. | rüzgâr = 바람 | emotion=gentle

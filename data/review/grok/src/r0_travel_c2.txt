@@ -1,0 +1,19 @@
+=== r0_travel_c2
+kind: chat
+title: 차만 마셨는데
+emoji: 🧿
+scene: 이집션 바자르에서 길을 잃은 내가 Elif 에게 실시간 보고를 한다
+speakers: A={name}, B=Elif
+register: chat
+twist: 7 chaos
+purpose: travel
+goal: yine mi·yok artık 으로 길 잃은 상황 채팅하기
+expressions: yok artık; geliyorum
+A | Elif, kayboldum. | 엘리프, 나 길 잃었어. | kaybolmak = 길을 잃다 | emotion=worried
+B | Yine mi? Ne görüyorsun? | 또? 뭐 보여? | yine mi? = 또? | emotion=tsukkomi
+A | Baharat. Çok baharat. | 향신료. 향신료 엄청. | baharat = 향신료 | emotion=neutral
+B | Başka? Kapı var mı? | 또 뭐? 문 있어? | kapı = 문 | emotion=worried
+A | Bir adam çay verdi 😊 | 어떤 아저씨가 차 줬어 😊 | adam = 남자, 아저씨 | emotion=cheerful
+B | İçme, oturma, hemen çık! | 마시지 마, 앉지 마, 당장 나와! | hemen = 당장 | emotion=shout
+A | İçtim. Şimdi bir halım var. | 마셨어. 이제 나 카펫 있어. | halı = 카펫 — 반전 | emotion=flustered
+B | Yok artık! Geliyorum, hiç konuşma! | 말도 안 돼! 나 간다, 아무 말도 하지 마! | geliyorum = 지금 가 | emotion=shout

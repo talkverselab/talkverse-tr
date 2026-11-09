@@ -1,0 +1,23 @@
+=== r2_travel_b5
+kind: long
+title: 2천 년 된 화장실
+emoji: 🏛️
+scene: 에페소스 단체 관광, 화장실이 급한데 가이드는 설명만 하고 내 말을 안 듣는다
+speakers: A={name}, B=Rehber, C=Elif
+register: mixed
+twist: 10 ignore
+purpose: travel
+goal: pardon·affedersiniz 로 끼어들어 묻기
+expressions: pardon; affedersiniz; lütfen; ölüyorum; aman; hadi; bak
+B | Arkadaşlar, sağda gördüğünüz bina iki bin yıllık. | 여러분, 오른쪽에 보이는 건물은 2천 년 됐습니다. | sağda = 오른쪽에 · bina = 건물 | emotion=polite
+A | Pardon, bir şey soracağım. Tuvalet nerede? | 저기요, 뭐 하나 여쭐게요. 화장실 어디예요? | tuvalet = 화장실 | emotion=polite
+B | Güzel soru. Solda gördüğünüz kapı çok eski. | 좋은 질문입니다. 왼쪽에 보이는 문은 아주 오래됐습니다. | solda = 왼쪽에 | emotion=polite
+C | Sana cevap vermedi. Bir daha sor. | 너한테 대답 안 했어. 다시 물어봐. | bir daha = 다시 | emotion=amused
+A | Affedersiniz, lütfen! Tuvalet bu tarafta mı? | 실례합니다, 제발요! 화장실 이쪽이에요? | bu tarafta = 이쪽에 | emotion=worried
+B | O taraf eski şehir. Hadi, yürüyoruz arkadaşlar! | 저쪽은 옛 도시입니다. 자, 걸어가겠습니다, 여러분! | yürümek = 걷다 | emotion=cheerful
+A | Elif, ölüyorum. Bu adam beni duymuyor. | 엘리프, 나 죽겠어. 이 사람 내 말 안 들려. | ölüyorum = 죽겠어 | emotion=sad
+C | Aman, ne yapalım? Yüksek sesle sor. | 아이고, 어쩌겠어. 크게 물어봐. | yüksek sesle = 큰 소리로 | emotion=tsukkomi
+A | Tuvalet nerede, arkadaşlar?! | 화장실 어디예요, 여러분?! | 가이드 말투로 외친다 | emotion=shout
+B | Ah, güzel soru. Romalılar da aynı şeyi sordu. | 아, 좋은 질문입니다. 로마인들도 같은 걸 물었죠. | aynı şey = 같은 것 — 반전: 드디어 듣는다 | emotion=polite
+C | Bak, gösteriyor! Tuvalet orada, koş! | 봐, 가리킨다! 화장실 저기야, 뛰어! | göstermek = 가리키다 | emotion=excited
+B | Yalnız iki bin yıldır kapalı, arkadaşlar. | 단, 2천 년째 닫혀 있습니다, 여러분. | yalnız = 다만 · kapalı = 닫힌 | emotion=polite
