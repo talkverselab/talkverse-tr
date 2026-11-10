@@ -1,5 +1,12 @@
 # HANDOFF — talkverse-tr (터키어 앱) · 2026-11-09
 
+## 2026-11-10 새벽 — 정리 후 대기(사용자 지시 "m6 꽉찼네 … 세션 닫아줘")
+- **Grok 재작성 진행 3/181** (r0_love_a1·r2_culture_b1·r0_culture_a1, `data/review/grok/out/`, 아직 JSON 에 반영 안 함). PC 크롬 9252(작업 스케줄러 `Grok-Chrome-tr-9252`, 프로필 `D:\chrome-grok-tr`), 모델 전문가. Grok 주간 한도 → **11/16 초기화 뒤** 이어서 `zsh tools/grok/grok_rewrite_all.sh`(10편씩 방, 3분 넘으면 생성 중지). 터널: M4 `ssh -fN -L 9252:127.0.0.1:9252 Administrator@100.127.143.37` + `grok_cookie_sync.py 9231 9252`, M6 `ssh -fN -L 9252:127.0.0.1:9252 pc`.
+- **방식**: 원고(`tools/grok/grok_src.py --blind`)는 터키어 칸을 `?` 로 비우고 한국어 뜻·감정만 보낸다 — 터키어를 보여 주면 Grok 이 문장을 거의 그대로 둔다(규칙을 세게 써도 같음, 11-10 확인). 사용자 지시 "좀더 일상대화처럼". 첫 시도의 거의 그대로인 답 25편은 `data/review/grok/out_light/`(커밋 안 함, 지울 후보).
+- 다 받으면: `python3 tools/grok/grok_apply.py`(검사) → `--write` → `tools/check_dialogues.py` → `tools/tts/plan_from_dialogue.py` → 리뷰 페이지 → uk 알림. 계획의 m/f 손글 본문은 새 대사와 안 맞을 수 있음 — 음성 전에 확인.
+- **D1 업로드 못 함**: 사용자 지시 "모든 자산 db 에 올려줘" — 이 세션 자산 중 DB 표가 있는 것은 시험 음성 r0_love_a1 16줄(R2 에는 이미 있음)뿐. D1 `audio_lines` 넣기(`wrangler d1 execute talkverse-db`)가 세션 권한 정책([Modify Shared Resources])에 막혔다 → 사용자가 허용하거나 직접 실행. SQL 은 `audio_tr.json` + `ttslib.turns()` 로 만든다(pack.py 의 D1 단계와 같은 문장). 회화·문장·단어표는 D1 표가 없다. 장면 컷 없음.
+- 정리: build/·.dart_tool/·android/.gradle·ios/Pods·whisper venv(`$TMPDIR/tts_venv`, 다시 만들어야 함) 삭제 ≈ 6.9GB.
+
 ## 상태 한눈에
 
 | 항목 | 상태 |
