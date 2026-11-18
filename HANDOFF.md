@@ -1,5 +1,11 @@
 # HANDOFF — talkverse-tr (터키어 앱) · 2026-11-09
 
+## 2026-11-18 — 통합 앱 iOS 심사 준비(일본어앱 전달 `~/talkverse/ja/docs/RELAY_2026-11-18_ja_parity.md`)
+- **됨 `5380cba`**: 회화 원고 서버 받기(`lib/services/script_sync.dart`, 켤 때마다 확인·15초 상한) + R0~R3 65편 앱 연결(`assets/data/dialogues/_release.json`, `tools/pick_release.py` — R0 14·R1 21·R2 17·R3 13), L1 은 R 급 뒤. 도구 `tools/script_publish.py`·`turn_lock.py`(기준표 `data/review/turn_lock_tr.json` 181편). 기준표 `assets/data/script_rev.json` rev 1.
+- **막힘**: 서버 첫 업로드(R2 `talkverse-art/script/tr/index.json`)가 세션 권한 정책에 막힘 → 사용자 허용 또는 직접: `python3 -c "import sys,json;sys.path.insert(0,'tools');import script_publish as s;b=json.load(open(s.BASE));s.put_index(b['rev'],b['files'])"`. 그전까지 앱은 앱 안 원고로 돈다.
+- **회화 원칙(uk 11-18)**: Claude 는 초안까지, 대사는 Grok(빠른 모드)이 전부 새로 쓰고 그대로 붙여 넣기. 앱의 67편(65 + L1 5)은 Claude 문장 — uk 에 보고함, 다시 쓸지는 사용자 결정. Grok 은 uk 에 「Grok 대사 작성 62편」 순서 요청해 둠(받기 전 시작 금지).
+- **남은 것**: 언어감각 과정(영상 → 외울 대화 + 참고) 터키어로 · 단어 3단계 + 4지선다 퀴즈 · 회화 카드 〇〇 → 이름 · 장면 컷 10장 · Zealot + TestFlight 빌드 · uk 에 커밋·패키지(`turkish_universe`)·새 에셋(`script_rev.json`)·rev 보고.
+
 ## 2026-11-10 새벽 — 정리 후 대기(사용자 지시 "m6 꽉찼네 … 세션 닫아줘")
 - **Grok 재작성 진행 3/181** (r0_love_a1·r2_culture_b1·r0_culture_a1, `data/review/grok/out/`, 아직 JSON 에 반영 안 함). PC 크롬 9252(작업 스케줄러 `Grok-Chrome-tr-9252`, 프로필 `D:\chrome-grok-tr`), 모델 전문가. Grok 주간 한도 → **11/16 초기화 뒤** 이어서 `zsh tools/grok/grok_rewrite_all.sh`(10편씩 방, 3분 넘으면 생성 중지). 터널: M4 `ssh -fN -L 9252:127.0.0.1:9252 Administrator@100.127.143.37` + `grok_cookie_sync.py 9231 9252`, M6 `ssh -fN -L 9252:127.0.0.1:9252 pc`.
 - **방식**: 원고(`tools/grok/grok_src.py --blind`)는 터키어 칸을 `?` 로 비우고 한국어 뜻·감정만 보낸다 — 터키어를 보여 주면 Grok 이 문장을 거의 그대로 둔다(규칙을 세게 써도 같음, 11-10 확인). 사용자 지시 "좀더 일상대화처럼". 첫 시도의 거의 그대로인 답 25편은 `data/review/grok/out_light/`(커밋 안 함, 지울 후보).
