@@ -11,7 +11,7 @@ from rd_tr import rd  # noqa: E402
 EMO = set(json.load(open(ROOT + '/data/tts/voices.json', encoding='utf-8'))['emotions'])
 
 
-NOTE_MARK = re.compile(r'\s*[—–-]?\s*(반전|punchline|kick|setup|callback|심쿵|멘트\s*#?\d*|새로 씀|작성|필수)\b.*$', re.I)
+NOTE_MARK = re.compile(r'\s*[—–(-]?\s*(반전|punchline|kick|setup|callback|심쿵|멘트\s*#?\d*|새로 씀|작성|필수)\b.*$', re.I)
 
 
 def split(tl):
