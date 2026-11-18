@@ -1,13 +1,13 @@
 {
 "r0_culture_a1": {
-"1": "Fincanı ver. Falına bakacağım.",
-"2": "Para var mı? Aşk var mı?",
-"3": "Para yok. Bir harf var: E.",
-"4": "E mi? Emre mi?",
-"5": "Hayır! Bu kişi sana çok yakın.",
+"1": "Hadi ver fincanı, falına bakayım.",
+"2": "Ne var? Para mı, aşk mı?",
+"3": "Para yok. Bir harf var ama... E.",
+"4": "E? Emre mi?",
+"5": "Yok! Bu kişi sana çok yakın.",
 "6": "Aynen, Emre yakın oturuyor.",
-"7": "Of, E diyorum {name}. Bir düşün.",
-"8": "Emre'yi mi arayayım?"
+"7": "Of {name}, E diyorum. Düşün biraz.",
+"8": "Emre'ye mi arasam?"
 },
 "r0_culture_c1": {
 "1": "Bu akşam final var. Sakın söyleme!",
@@ -119,14 +119,14 @@
 "8": "Kolay gelsin."
 },
 "r0_love_a1": {
-"1": "Pardon, burası boş mu?",
-"2": "Evet, boş. Buyurun.",
-"3": "Aslında bütün masalar boş.",
-"4": "Ha? Gerçekten mi?",
-"5": "Evet. Ama ben buraya oturmak istedim.",
-"6": "Şey… neden burası?",
-"7": "Bilmem… sen buradasın ya.",
-"8": "Çay ister misin? Sen de… yani."
+"1": "Afedersiniz, burası boş mu?",
+"2": "Evet, boş. Buyurun oturun.",
+"3": "Ya aslında bütün masalar boş.",
+"4": "Gerçekten mi?",
+"5": "Evet. Ama şey, buraya oturmak istedim.",
+"6": "Neden burası?",
+"7": "Bilmem... sen buradasın diye.",
+"8": "Çay ister misin? Sen de... şey."
 },
 "r0_love_a4": {
 "1": "Selam Emre! Naber, ne yapıyorsun?",
@@ -826,18 +826,18 @@
 "8": "Gördün mü? Kahvaltı var."
 },
 "r2_culture_b1": {
-"1": "Demek bugün gidiyorsun, yavrum. Çok özleyeceğiz.",
-"10": "Kızma! Yolun açık olsun diye yapılır, çok güzel bir şey.",
-"11": "Güzel ama… suyu bana mı atmak gerekiyor?",
-"12": "Gözlüğüm evde kaldı. Sen yine gel, bir daha atarım.",
-"2": "Ben de sizi özleyeceğim. Börekleriniz için elinize sağlık.",
-"3": "Estağfurullah. Bavulların hazır mı, taksi geldi mi?",
-"4": "Geldi. Hadi gidelim, uçak beklemez.",
+"1": "Bugün gidiyorsun demek, canım. Çok özleyeceğim.",
+"10": "Kızma be! Yolun açık olsun diye, çok iyi.",
+"11": "İyi ama... su atmak şart mı?",
+"12": "Gözlüğümü unuttum evde. Yine gel, yine atarım.",
+"2": "Ben de sizi. Börek için elinize sağlık.",
+"3": "Estağfurullah, ne var bunda. Çantalar hazır mı, taksi geldi mi?",
+"4": "Geldi. Hadi gidelim, uçak beklemez ya.",
 "5": "Tamam, görüşürüz. Kendinize iyi bakın.",
-"6": "Sen git, yavrum. Sakın arkana bakma.",
-"7": "Neden? Arkamda ne var?",
+"6": "Hadi git yavrum. Sakın arkana bakma.",
+"7": "Neden? Arkamda ne var ki?",
 "8": "Su gibi git, su gibi gel!",
-"9": "Aman! Her yerim su oldu, ben ne yaptım?"
+"9": "Aa! Hepsi ıslandı, ne yaptım ben?"
 },
 "r2_culture_b2": {
 "1": "Kalk, halay başlıyor. Oturmak yasak.",

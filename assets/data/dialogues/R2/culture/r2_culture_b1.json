@@ -36,151 +36,259 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Demek bugün gidiyorsun, yavrum. Çok özleyeceğiz.",
-   "rd": "데멕 부귄 기디요르순, 야브룸. 촉 외즐레예제이즈.",
-   "ko": "오늘 가는구나, 얘야. 많이 보고 싶겠다.",
-   "note": "demek = 그러니까, 결국",
+   "tl": "Bugün gidiyorsun demek, canım. Çok özleyeceğim.",
+   "rd": "부귄 기디요르순 데멕, 자늠. 촉 외즐레예제임.",
+   "ko": "오늘 가는 날이구나. 많이 보고 싶겠어.",
+   "note": "canım = 얘야",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Bugün gidiyorsun demek, canım."
+    ],
+    [
+     "sad",
+     "Çok özleyeceğim."
+    ]
+   ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Ben de sizi özleyeceğim. Börekleriniz için elinize sağlık.",
-   "rd": "벤 데 시지 외즐레예제임. 뵈레클레리니즈 이친 엘리니제 살륵.",
-   "ko": "저도 보고 싶을 거예요. 뵈렉 정말 감사했어요.",
-   "note": "elinize sağlık = 만든 분께 하는 말",
+   "tl": "Ben de sizi. Börek için elinize sağlık.",
+   "rd": "벤 데 시지. 뵈렉 이친 엘리니제 살륵.",
+   "ko": "저도요. 뵈렉 정말 감사해요.",
+   "note": "elinize sağlık = 수고 많으셨어요",
    "tags": [
     "expr:elinize sağlık"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "sad",
+     "Ben de sizi."
+    ],
+    [
+     "polite",
+     "Börek için elinize sağlık."
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Estağfurullah. Bavulların hazır mı, taksi geldi mi?",
-   "rd": "에스타푸룰라흐. 바불라른 하즈르 므, 탁시 겔디 미?",
-   "ko": "별말을 다 한다. 가방은 다 쌌니? 택시 왔어?",
-   "note": "estağfurullah = 아이고 별말씀을",
+   "tl": "Estağfurullah, ne var bunda. Çantalar hazır mı, taksi geldi mi?",
+   "rd": "에스타푸룰라흐, 네 바르 분다. 찬탈라르 하즈르 므, 탁시 겔디 미?",
+   "ko": "별말씀요. 가방 다 쌌어? 택시 왔어?",
+   "note": "estağfurullah = 천만에요",
    "tags": [
     "expr:estağfurullah"
    ],
-   "new": [
-    "bavul"
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Estağfurullah, ne var bunda."
+    ],
+    [
+     "polite",
+     "Çantalar hazır mı, taksi geldi mi?"
+    ]
    ]
   },
   {
    "num": 4,
    "speaker": "C",
-   "tl": "Geldi. Hadi gidelim, uçak beklemez.",
-   "rd": "겔디. 하디 기델림, 우착 베클레메즈.",
-   "ko": "왔어요. 얼른 가자, 비행기는 안 기다려.",
-   "note": "uçak beklemez = 비행기는 안 기다린다",
+   "tl": "Geldi. Hadi gidelim, uçak beklemez ya.",
+   "rd": "겔디. 하디 기델림, 우착 베클레메즈 야.",
+   "ko": "왔어요. 가자, 비행기 안 기다려.",
+   "note": "hadi gidelim = 가자",
    "tags": [
     "callback:r1_culture_b4",
     "expr:hadi gidelim"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Geldi."
+    ],
+    [
+     "cheerful",
+     "Hadi gidelim, uçak beklemez ya."
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "A",
    "tl": "Tamam, görüşürüz. Kendinize iyi bakın.",
    "rd": "타맘, 괴뤼쉬뤼즈. 켄디니제 이이 바큰.",
-   "ko": "네, 또 봬요. 건강하세요.",
-   "note": "kendinize iyi bakın = 몸조심하세요",
+   "ko": "네, 또 봐요. 건강하세요.",
+   "note": "görüşürüz = 또 봐요",
    "tags": [
     "expr:görüşürüz",
     "expr:tamam"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Tamam, görüşürüz."
+    ],
+    [
+     "gentle",
+     "Kendinize iyi bakın."
+    ]
+   ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Sen git, yavrum. Sakın arkana bakma.",
-   "rd": "센 깃, 야브룸. 사큰 아르카나 박마.",
-   "ko": "어서 가거라, 얘야. 절대 뒤돌아보지 말고.",
-   "note": "arkana bakma = 뒤돌아보지 마",
+   "tl": "Hadi git yavrum. Sakın arkana bakma.",
+   "rd": "하디 깃 야브룸. 사큰 아르카나 박마.",
+   "ko": "어서 가. 절대 뒤돌아보지 마.",
+   "note": "sakın = 절대 하지 마",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Hadi git yavrum."
+    ],
+    [
+     "stiff",
+     "Sakın arkana bakma."
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Neden? Arkamda ne var?",
-   "rd": "네덴? 아르캄다 네 바르?",
-   "ko": "왜요? 제 뒤에 뭐가 있는데요?",
-   "note": "arkamda = 내 뒤에",
+   "tl": "Neden? Arkamda ne var ki?",
+   "rd": "네덴? 아르캄다 네 바르 키?",
+   "ko": "왜요? 뒤에 뭐가 있어요?",
+   "note": "ne var = 뭐가 있어",
    "tags": [
     "expr:ne var"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "worried",
+     "Neden?"
+    ],
+    [
+     "surprised",
+     "Arkamda ne var ki?"
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "B",
    "tl": "Su gibi git, su gibi gel!",
    "rd": "수 기비 깃, 수 기비 겔!",
-   "ko": "물처럼 가고, 물처럼 오너라!",
-   "note": "떠나는 사람 뒤에 물을 뿌린다 — 반전",
+   "ko": "물처럼 가고 물처럼 오라!",
+   "note": "su gibi = 물처럼",
    "tags": [
     "expr:gel"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Aman! Her yerim su oldu, ben ne yaptım?",
-   "rd": "아만! 헤르 예림 수 올두, 벤 네 얍틈?",
-   "ko": "아이고! 온몸이 다 젖었어요, 제가 뭘 잘못했어요?",
-   "note": "aman = 아이고",
+   "tl": "Aa! Hepsi ıslandı, ne yaptım ben?",
+   "rd": "아아! 헵시 으슬란드, 네 얍틈 벤?",
+   "ko": "아이고! 다 젖었어요, 내가 뭘 잘못한 거예요?",
+   "note": "ıslandı = 젖었다",
    "tags": [
     "expr:aman"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "shout",
+     "Aa!"
+    ],
+    [
+     "flustered",
+     "Hepsi ıslandı, ne yaptım ben?"
+    ]
+   ]
   },
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Kızma! Yolun açık olsun diye yapılır, çok güzel bir şey.",
-   "rd": "크즈마! 욜룬 아측 올순 디예 야플르르, 촉 귀젤 비르 셰이.",
-   "ko": "화내지 마! 앞길 잘 풀리라고 하는 거야, 되게 좋은 거야.",
-   "note": "yolun açık olsun = 앞길이 트이길",
+   "tl": "Kızma be! Yolun açık olsun diye, çok iyi.",
+   "rd": "크즈마 베! 욜룬 아측 올순 디예, 촉 이이.",
+   "ko": "화내지 마! 길 잘 되라고 하는 거야, 진짜 좋은 거야.",
+   "note": "yolun açık olsun = 앞길이 트이기를",
    "tags": [
     "expr:çok güzel",
     "expr:olsun",
     "expr:şey"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "Kızma be!"
+    ],
+    [
+     "cheerful",
+     "Yolun açık olsun diye, çok iyi."
+    ]
+   ]
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Güzel ama… suyu bana mı atmak gerekiyor?",
-   "rd": "귀젤 아마… 수유 바나 므 아트막 게레키요르?",
-   "ko": "좋긴 한데… 물을 저한테 뿌려야 해요?",
-   "note": "gerekiyor = 해야 한다",
+   "tl": "İyi ama... su atmak şart mı?",
+   "rd": "이이 아마... 수 아트막 샤르트 므?",
+   "ko": "좋긴 한데… 꼭 물을 뿌려야 해요?",
+   "note": "şart mı = 꼭 해야 해",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "İyi ama..."
+    ],
+    [
+     "tsukkomi",
+     "su atmak şart mı?"
+    ]
+   ]
   },
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Gözlüğüm evde kaldı. Sen yine gel, bir daha atarım.",
-   "rd": "괴즐뤼윔 에브데 칼드. 센 이네 겔, 비르 다하 아타름.",
-   "ko": "안경을 집에 두고 왔다. 또 오거라, 다시 뿌려 주마.",
-   "note": "gözlük = 안경",
+   "tl": "Gözlüğümü unuttum evde. Yine gel, yine atarım.",
+   "rd": "괴즐뤼위뮈 우누툼 에브데. 이네 겔, 이네 아타름.",
+   "ko": "안경 집에 두고 왔어. 또 와, 다시 뿌려 줄게.",
+   "note": "yine = 다시",
    "tags": [
     "expr:gel"
    ],
-   "new": [
-    "gözlük"
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "Gözlüğümü unuttum evde."
+    ],
+    [
+     "cheerful",
+     "Yine gel, yine atarım."
+    ]
    ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }
