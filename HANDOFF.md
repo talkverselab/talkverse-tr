@@ -3,7 +3,7 @@
 ## 2026-11-18 — 통합 앱 iOS 심사 준비(일본어앱 전달 `~/talkverse/ja/docs/RELAY_2026-11-18_ja_parity.md`)
 - **됨 `5380cba`**: 회화 원고 서버 받기(`lib/services/script_sync.dart`, 켤 때마다 확인·15초 상한) + R0~R3 65편 앱 연결(`assets/data/dialogues/_release.json`, `tools/pick_release.py` — R0 14·R1 21·R2 17·R3 13), L1 은 R 급 뒤. 도구 `tools/script_publish.py`·`turn_lock.py`(기준표 `data/review/turn_lock_tr.json` 181편). 기준표 `assets/data/script_rev.json` rev 1.
 - **막힘**: 서버 첫 업로드(R2 `talkverse-art/script/tr/index.json`)가 세션 권한 정책에 막힘 → 사용자 허용 또는 직접: `python3 -c "import sys,json;sys.path.insert(0,'tools');import script_publish as s;b=json.load(open(s.BASE));s.put_index(b['rev'],b['files'])"`. 그전까지 앱은 앱 안 원고로 돈다.
-- **회화 원칙(uk 11-18)**: Claude 는 초안까지, 대사는 Grok(빠른 모드)이 전부 새로 쓰고 그대로 붙여 넣기. 앱의 67편(65 + L1 5)은 Claude 문장 — uk 에 보고함, 다시 쓸지는 사용자 결정. Grok 은 uk 에 「Grok 대사 작성 62편」 순서 요청해 둠(받기 전 시작 금지).
+- **회화 원칙(uk 11-18)**: Claude 는 초안까지, 대사는 Grok(빠른 모드)이 전부 새로 쓰고 그대로 붙여 넣기. Grok 답 3편(r0_love_a1·r0_culture_a1·r2_culture_b1) 그대로 반영 `b39fd55` → 앱의 Claude 문장 67편(R0~R3 62 + L1 5) — uk 에 보고함, 다시 쓸지는 사용자 결정. **Grok 순서 5번(62편)** — uk 의 「tr 시작」을 받은 뒤에만, PC 크롬 9252·빠른 모드. r0_love_a1 시험 음성은 새 대사와 안 맞음(음성 다시 만들 때 새벽에).
 - **남은 것**: 언어감각 과정(영상 → 외울 대화 + 참고) 터키어로 · 단어 3단계 + 4지선다 퀴즈 · 회화 카드 〇〇 → 이름 · 장면 컷 10장 · Zealot + TestFlight 빌드 · uk 에 커밋·패키지(`turkish_universe`)·새 에셋(`script_rev.json`)·rev 보고.
 
 ## 2026-11-10 새벽 — 정리 후 대기(사용자 지시 "m6 꽉찼네 … 세션 닫아줘")
