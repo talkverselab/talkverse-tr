@@ -1,8 +1,11 @@
 import '../core/embed_env.dart';
 import 'dart:convert';
 
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/foundation.dart' show ValueNotifier;
+import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 import '../core/prefs.dart';
+
+import 'script_sync.dart';
 
 import 'learner_prefs.dart';
 
@@ -189,14 +192,33 @@ class DialogueService {
     (await Prefs.getInstance()).setString(_prefLast, id);
   }
 
-  /// 데이터에 있는 레벨(지금은 L1 하나).
+  /// 데이터에 있는 레벨(L1 이야기 + R0~R4 중 편이 있는 것).
   List<String> get regions => List.unmodifiable(_regions);
 
   /// 넓은 화면에서 탭들이 동시에 불러도 한 번만 읽는다.
-  Future<void> ensureLoaded() => _loading ??= _load();
+  /// 서버에 더 새 원고가 있으면 뒤에서 받아 다시 읽고 [revision] 을 올린다(일본어앱 빌드 113·114, 2026-11-18).
+  Future<void> ensureLoaded() => _loading ??= _load().then((_) {
+        ScriptSync.instance.refresh().then((changed) async {
+          if (!changed) return;
+          await _readAll();
+          revision.value++;
+        });
+      });
+
+  /// 원고가 서버 판으로 바뀌어 다시 읽힐 때마다 오른다.
+  final ValueNotifier<int> revision = ValueNotifier(0);
 
   Future<void> _load() async {
     _lastOpened = (await Prefs.getInstance()).getString(_prefLast);
+    await _readAll();
+  }
+
+  /// 옛 이야기(L1) + R0~R4 편 중 `dialogues/_release.json` 에 든 것. 각 파일은 서버 판이 있으면 그것([ScriptSync]).
+  Future<void> _readAll() async {
+    final sync = ScriptSync.instance;
+    await sync.init();
+    final next = <String, Dialogue>{};
+    final regions = <String>[], old = <String>[];
     for (final e in _files.entries) {
       try {
         final j = json.decode(await rootBundle.loadString(assetPath(e.value))) as Map<String, dynamic>;
@@ -212,7 +234,7 @@ class DialogueService {
         for (final ep in (j['episodes'] as List? ?? const [])) {
           final m = ep as Map<String, dynamic>;
           final id = '${e.key}_${m['id']}';
-          _byId[id] = Dialogue(
+          next[id] = Dialogue(
             id: id,
             region: e.key,
             island: 'love',
@@ -227,12 +249,60 @@ class DialogueService {
                 .toList(),
           );
         }
-        if (!_regions.contains(e.key)) _regions.add(e.key);
+        old.add(e.key);
       } catch (_) {
         // 파일이 없거나 깨졌으면 그 레벨만 빠진다
       }
     }
+    // R0~R4 — 보여 줄 편 목록(서버 판으로 늘리고 줄일 수 있다)
+    Set<String> release = {};
+    try {
+      release = {...((json.decode(await sync.load('dialogues/_release.json')) as Map)['ids'] as List).map((e) => '$e')};
+    } catch (_) {}
+    try {
+      final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+      final pat = RegExp(r'^assets/data/dialogues/R[0-4]/[^/]+/[^/]+\.json$');
+      // 매니페스트 키는 통합 앱이면 packages/turkish_universe/ 가 붙어 있다 — 접두를 떼고 견준다
+      final rels = <String>{
+        for (final p in manifest.listAssets().map(stripAssetPrefix).where(pat.hasMatch)) p.substring('assets/data/'.length),
+        ...sync.added.where((p) => pat.hasMatch('assets/data/$p')),
+      }..removeAll(sync.removed);
+      for (final rel in rels) {
+        final id = rel.split('/').last.replaceAll('.json', '');
+        if (!release.contains(id)) continue;
+        try {
+          final d = _fromEpisode(json.decode(await sync.load(rel)) as Map<String, dynamic>);
+          if (d.turns.isNotEmpty) next[d.id] = d;
+        } catch (_) {}
+      }
+    } catch (_) {}
+    for (final r in const ['R0', 'R1', 'R2', 'R3', 'R4']) {
+      if (next.values.any((d) => d.region == r)) regions.add(r);
+    }
+    regions.addAll(old); // 옛 이야기(L1)는 R 급 뒤에
+    _byId
+      ..clear()
+      ..addAll(next);
+    _regions
+      ..clear()
+      ..addAll(regions);
   }
+
+  /// R0~R4 편 파일 한 개(`{id, region, island, kind, title, emoji, scene, speakers, expressions, turns}`).
+  static Dialogue _fromEpisode(Map<String, dynamic> j) => Dialogue(
+        id: '${j['id']}',
+        region: j['region'] as String? ?? 'R1',
+        island: j['island'] as String? ?? 'life',
+        kind: j['kind'] as String? ?? 'short',
+        title: j['title'] as String? ?? '',
+        emoji: j['emoji'] as String? ?? '💬',
+        scene: j['scene'] as String? ?? '',
+        speakers: ((j['speakers'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v')),
+        genders: ((j['genders'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v')),
+        expressions: ((j['expressions'] as List?) ?? const []).map((e) => '$e').toList(),
+        turns: ((j['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromJson(t as Map<String, dynamic>)).toList(),
+        art: j['art'] as String?,
+      );
 
   Dialogue? byId(String id) => _byId[id];
   List<Dialogue> get all => _byId.values.toList()..sort((a, b) => a.orderKey.compareTo(b.orderKey));

@@ -32,6 +32,17 @@ class _DialogueHomeScreenState extends State<DialogueHomeScreen> {
     DialogueService.instance.ensureLoaded().then((_) {
       if (mounted) setState(() => _loading = false);
     });
+    DialogueService.instance.revision.addListener(_reload);
+  }
+
+  void _reload() {
+    if (mounted) setState(() {});
+  }
+
+  @override
+  void dispose() {
+    DialogueService.instance.revision.removeListener(_reload);
+    super.dispose();
   }
 
   @override
