@@ -136,7 +136,7 @@
    "tl": "Kimse çıkamıyor, inemiyor. Merdiven kapandı.",
    "rd": "킴세 츠카므요르, 이네미요르. 메르디벤 카판드.",
    "ko": "아무도 못 올라가고, 못 내려가요. 계단이 막혔어요.",
-   "note": "merdiven = 계단 — 반전",
+   "note": "merdiven = 계단",
    "tags": [],
    "new": [
     "merdiven"

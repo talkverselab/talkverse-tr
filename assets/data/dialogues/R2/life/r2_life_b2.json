@@ -170,7 +170,7 @@
    "tl": "Teyze, kapı açıktı. Yemek var mı?",
    "rd": "테이제, 카프 아측트. 예멕 바르 므?",
    "ko": "이모, 문 열려 있던데. 밥 있어?",
-   "note": "kapı açıktı = 문이 열려 있었다 — 반전",
+   "note": "kapı açıktı = 문이 열려 있었다",
    "tags": [],
    "new": [],
    "emotion": "cheerful"

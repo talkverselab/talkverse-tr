@@ -152,7 +152,7 @@
    "tl": "Neden? Bu içecek değil mi?",
    "rd": "네덴? 부 이체젝 데일 미?",
    "ko": "왜? 이거 음료 아니야?",
-   "note": "içecek = 음료 — 반전",
+   "note": "içecek = 음료",
    "tags": [],
    "new": [
     "içecek"
