@@ -9,7 +9,7 @@
 "segs": [
 [
 "teasing",
-"Bak, şu dondurmacı. Dondurmayı eline alabilirsen sana bir şey söyleyeceğim."
+"Bak, şu dondurmacı amca. Dondurmayı eline alırsan sana diyeceğim bir şey var."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "amused",
-"Bu kadar mı? Çok kolay. Bir dakikada alırım."
+"Hepsi bu mu? Kolay. Bir dakikada alırım."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "cheerful",
-"Hoş geldiniz! Buyurun, dondurmanız. Alın, alın lütfen."
+"Hoş geldiniz! Buyurun, dondurma. Alın, çabuk."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "teasing",
-"Külah güzel, değil mi? Afiyet olsun efendim!"
+"Külah güzel, değil mi? Afiyet olsun, misafir!"
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "teasing",
-"Ben söyledim sana. Bu iş kolay değil, hadi bir daha dene."
+"Demiştim. Kolay değil, hadi bir daha dene."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "stiff",
-"Tamam, şimdi iki elimle alacağım. Ciddiyim, çok ciddiyim."
+"Tamam, bu sefer iki elle alacağım. Ciddiyim, tamamen ciddi."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "teasing",
-"Aa, şapkanız düştü! Şaka şaka, buyurun dondurmanız… yok, burada!"
+"Ay, şapka düştü! Şaka şaka, işte dondurma… yok, burada!"
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "flustered",
-"Neden herkes telefonla çekiyor? Elif, bu kalabalık nereden çıktı?"
+"Neden herkes telefonla çekiyor? Elif, bu insanlar nereden çıktı?"
 ]
 ]
 },
@@ -93,7 +93,7 @@
 "segs": [
 [
 "polite",
-"Size yok, ona var. Buyurun hanımefendi, dondurmanız."
+"Müşteri yok, bu var. Buyurun efendim, dondurmanız."
 ]
 ]
 },
@@ -101,7 +101,8 @@
 "segs": [
 [
 "annoyed",
-"Olmaz! Neden ona hemen verdi? Ben on dakikadır buradayım!"
+"Olmaz! Neden ona hemen veriyor? Ben 10 dakikadır buradayım!",
+"Olmaz! Neden ona hemen veriyor? Ben on dakikadır buradayım!"
 ]
 ]
 },
@@ -109,7 +110,7 @@
 "segs": [
 [
 "gentle",
-"Kusura bakmayın. Bu hanım geldiğinden beri sadece size bakıyor, anladım ben."
+"Kusura bakmayın. Bu geldiğinden beri sadece müşteriye bakıyor, ben anladım."
 ]
 ]
 },
@@ -117,7 +118,7 @@
 "segs": [
 [
 "flustered",
-"Amca, lütfen! Siz dondurmanızı satın."
+"Amca, lütfen! Dondurmayı satın."
 ]
 ]
 },
@@ -125,7 +126,7 @@
 "segs": [
 [
 "gentle",
-"Ben alamadım ama söyle, ne söyleyecektin?"
+"Ben alamadım ama söyle. Ne söyleyecektin?"
 ]
 ]
 },
@@ -133,7 +134,7 @@
 "segs": [
 [
 "shy",
-"Al, yarısı senin. Ne söyleyeceğimi amca söyledi zaten."
+"Al, yarısı senin. Söyleyeceğimi amca çoktan söyledi."
 ]
 ]
 }

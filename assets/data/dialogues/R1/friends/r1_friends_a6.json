@@ -12,7 +12,7 @@
  ],
  "title": "시미트 케이크",
  "emoji": "🕯️",
- "scene": "아무도 모르는 줄 알았던 내 생일, Can 이 눈을 감으라고 한다",
+ "scene": "아무도 모르는 줄 알았던 내 생일, Can이 눈을 감으라고 한다",
  "speakers": {
   "A": "{name}",
   "B": "Can"
@@ -31,24 +31,26 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Neyin var senin?",
-   "rd": "네인 바르 세닌?",
+   "tl": "Ne oldu sana?",
+   "rd": "네 올두 사나?",
    "ko": "너 왜 그래?",
-   "note": "neyin var = 너 무슨 일 있어",
+   "note": "ne oldu = 왜 그래",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Bir şey yok. Boş ver.",
-   "rd": "비르 셰이 욕. 보시 베르.",
+   "tl": "Hiçbir şey. Boş ver.",
+   "rd": "히치비르 셰이. 보시 베르.",
    "ko": "아무것도 아니야. 신경 쓰지 마.",
    "note": "boş ver = 신경 쓰지 마",
    "tags": [
     "expr:boş ver"
    ],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   },
   {
    "num": 3,
@@ -56,63 +58,87 @@
    "tl": "Tamam. Gözlerini kapat, hadi.",
    "rd": "타맘. 괴즐레리니 카팟, 하디.",
    "ko": "알았어. 눈 감아 봐, 어서.",
-   "note": "kapat = 닫아",
+   "note": "hadi = 어서",
    "tags": [
     "expr:tamam",
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Tamam."
+    ],
+    [
+     "gentle",
+     "Gözlerini kapat, hadi."
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Bu ne? Simitte mum mu var?",
-   "rd": "부 네? 시미테 뭄 무 바르?",
+   "tl": "Bu ne? Simite mum mu dikilmiş?",
+   "rd": "부 네? 시미테 뭄 무 디킬미시?",
    "ko": "이게 뭐야? 시미트에 초가 꽂혀 있어?",
    "note": "mum = 초",
    "tags": [],
    "new": [
     "mum"
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "İyi ki doğdun. Üç ay önce söyledin.",
-   "rd": "이이 키 도둔. 위치 아이 왼제 쇠일레딘.",
+   "tl": "İyi ki doğdun. Üç ay önce söylemiştin.",
+   "rd": "이이 키 도둔. 위치 아이 왼제 쇠일레미시틴.",
    "ko": "생일 축하해. 석 달 전에 말했잖아.",
-   "note": "iyi ki doğdun = 생일 축하해(태어나 줘서 다행이야)",
+   "note": "iyi ki doğdun = 생일 축하해",
    "tags": [
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Unutmadın mı? Ben ağlıyorum galiba.",
-   "rd": "우누트마든 므? 벤 알르요룸 갈리바.",
+   "tl": "Unutmamışsın? Ben… ağlıyorum galiba.",
+   "rd": "우누트마므시슨? 벤… 알르요룸 갈리바.",
    "ko": "안 잊었어? 나… 우는 것 같아.",
-   "note": "unutmak = 잊다",
+   "note": "galiba = 같아",
    "tags": [
     "expr:galiba"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Ağlama. Üfle hadi, ben yiyeceğim.",
-   "rd": "알라마. 위플레 하디, 벤 이예제임.",
+   "tl": "Ağlama. Üfle hadi, onu ben yiyeceğim.",
+   "rd": "알라마. 위플레 하디, 오누 벤 이예제임.",
    "ko": "울지 마. 얼른 불어, 그거 내가 먹을 거야.",
-   "note": "üfle = 불어",
+   "note": "hadi = 얼른",
    "tags": [
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Ağlama."
+    ],
+    [
+     "teasing",
+     "Üfle hadi, onu ben yiyeceğim."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

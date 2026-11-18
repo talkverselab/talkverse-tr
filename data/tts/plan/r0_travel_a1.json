@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Bir şey ister misiniz? Çay, su?"
+"Ne istersiniz? Çay, su?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Kola, lütfen."
+"Kola lütfen."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "polite",
-"Tabii. Elinizi açın."
+"Tabii. Elinizi açın lütfen."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "surprised",
-"Elimi mi? Neden?"
+"Elim mi? Neden?"
 ]
 ]
 },
@@ -52,7 +52,7 @@
 ],
 [
 "tsukkomi",
-"Kola dedim, içmek için!"
+"Kola demiştim, içmek için!"
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "worried",
-"Su mu? Emin misiniz?"
+"Su mu gerçekten? Emin misiniz?"
 ]
 ]
 }

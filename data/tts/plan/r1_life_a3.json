@@ -8,7 +8,7 @@
 "segs": [
 [
 "worried",
-"Merhaba. Karım çok ağrıyor."
+"Merhaba. Karım çok hasta."
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Geçmiş olsun. Eşiniz nerede?"
+"Geçmiş olsun. Karınız nerede?"
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "flustered",
-"Eşim yok! Burası ağrıyor!"
+"Karım yok! Karnım ağrıyor!"
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "amused",
-"Ha, karnınız! 'Karım' değil, 'karnım'."
+"Aa, karnınız! Karım değil."
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "polite",
-"Buyurun, ilaç. Günde iki kere."
+"Buyurun, ilaç. Günde iki kez."
 ]
 ]
 },
@@ -68,7 +68,7 @@
 ],
 [
 "teasing",
-"Eşinize de selam söyleyin."
+"Karınıza da selam."
 ]
 ]
 }

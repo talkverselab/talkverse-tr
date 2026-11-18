@@ -17,7 +17,7 @@
 "segs": [
 [
 "surprised",
-"Hayırdır? Kafandaki ne, köpük mü?"
+"Hayırdır? Başındaki o ne, köpük mü?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "flustered",
-"Duştaydım, sular kesildi. Gözüm yanıyor!"
+"Duştayken su kesildi. Gözlerim yanıyor!"
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "annoyed",
-"Evet. Üst komşu da kapıyı açmadı."
+"Evet. Üst kat da kapıyı açmadı."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "worried",
-"Olmaz, soğuk su yok mu? Şişesi kaç lira?"
+"Olmaz, soğuk su yok mu? Bir şişe ne kadar?"
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "surprised",
-"Bir dakika. Bak, kapıda köpüklü iki kişi daha."
+"Bir dakika. Bak, kapıda iki köpük kafa daha."
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "surprised",
-"Üst komşu! O da mı köpüklü?"
+"Üst kat o! Onların da köpüğü var mı?"
 ]
 ]
 },
@@ -89,11 +89,11 @@
 "segs": [
 [
 "polite",
-"Tamam, sıraya girin."
+"Buyurun, sıraya girin."
 ],
 [
 "teasing",
-"Şişesi elli lira."
+"Bir şişe elli lira."
 ]
 ]
 }

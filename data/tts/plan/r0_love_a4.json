@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Selam Emre! Naber, ne yapıyorsun?"
+"Naber Emre! Ne yapıyorsun?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "gentle",
-"Gel canım, gel. Aç mısın?"
+"Gel buraya canım. Aç mısın?"
 ]
 ]
 },
@@ -24,11 +24,7 @@
 "segs": [
 [
 "surprised",
-"Canım mı?"
-],
-[
-"shy",
-"Şey, evet, biraz açım."
+"Canım mı? Ee… biraz açım."
 ]
 ]
 },
@@ -36,7 +32,7 @@
 "segs": [
 [
 "neutral",
-"Sana demedim. Kediye dedim."
+"Sana söylemedim. Kediye söyledim."
 ]
 ]
 },
@@ -44,7 +40,7 @@
 "segs": [
 [
 "annoyed",
-"Anladım. Ben gidiyorum o zaman."
+"Anladım. O zaman ben gidiyorum."
 ]
 ]
 },
@@ -56,7 +52,7 @@
 ],
 [
 "gentle",
-"Bu kedi kimseye gelmez."
+"Bu kedi kimseye yaklaşmıyor."
 ]
 ]
 },
@@ -64,7 +60,7 @@
 "segs": [
 [
 "annoyed",
-"Ee? Yani?"
+"Ee? Ne demek istiyorsun?"
 ]
 ]
 },
@@ -72,7 +68,7 @@
 "segs": [
 [
 "gentle",
-"Sana geldi."
+"Sana yaklaştı."
 ],
 [
 "shy",

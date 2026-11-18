@@ -8,7 +8,7 @@
 "segs": [
 [
 "worried",
-"Sesin neden böyle? Hasta mısın?"
+"Sesin niye öyle? Hasta mısın?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "neutral",
-"Biraz üşüttüm, önemli değil."
+"Biraz soğuk aldım, önemli değil."
 ]
 ]
 },
@@ -28,7 +28,7 @@
 ],
 [
 "cheerful",
-"Sana selamı var."
+"Sana selam söylüyor."
 ]
 ]
 },
@@ -36,7 +36,7 @@
 "segs": [
 [
 "flustered",
-"Aman, hasta olduğumu söyleme! Annen hemen korkuyor."
+"Aman, hasta olduğumu söyleme! Annen hemen endişelenir."
 ]
 ]
 },
@@ -52,7 +52,7 @@
 "segs": [
 [
 "cheerful",
-"Olsun, çorba iyi. Sağ olsun."
+"Olsun, çorba iyi. Teşekkür et."
 ]
 ]
 },
@@ -60,7 +60,7 @@
 "segs": [
 [
 "amused",
-"Şimdi de \"Ihlamur içsin\" diyor."
+"Şimdi de \"Ihlamur çayı iç\" diyor."
 ]
 ]
 },
@@ -68,7 +68,7 @@
 "segs": [
 [
 "gentle",
-"Tamam, içerim. Teşekkür et, lütfen."
+"Tamam, içerim. Teşekkür ettiğimi söyle."
 ]
 ]
 },
@@ -76,7 +76,7 @@
 "segs": [
 [
 "amused",
-"Annem akşam çorbayla geliyor. Teyzem de."
+"Annem akşam çorbayla geliyor. Teyze de."
 ]
 ]
 },
@@ -84,11 +84,7 @@
 "segs": [
 [
 "surprised",
-"Yok artık, ikisi birden mi?"
-],
-[
-"flustered",
-"Ev çok dağınık!"
+"Yok artık! İkisi de mi? Ev berbat!"
 ]
 ]
 },
@@ -100,7 +96,7 @@
 ],
 [
 "teasing",
-"\"Ev dağınık olsun, çorba soğumasın\" diyor."
+"\"Ev dağınık olsun, çorba soğumasın yeter\" diyor."
 ]
 ]
 }

@@ -12,7 +12,7 @@
 ],
 [
 "gentle",
-"Bugün hiç iyi değilsin."
+"Bugün hiç iyi görünmüyorsun."
 ]
 ]
 },
@@ -20,7 +20,7 @@
 "segs": [
 [
 "sad",
-"Bilmiyorum. Dün çok yedim, galiba."
+"Bilmiyorum. Dün çok yemişim galiba."
 ]
 ]
 },
@@ -28,7 +28,7 @@
 "segs": [
 [
 "neutral",
-"Ne yedin ki?"
+"Ne yedin?"
 ]
 ]
 },
@@ -36,7 +36,7 @@
 "segs": [
 [
 "neutral",
-"Balık. Sonra da sütlü tatlı."
+"Balık. Sonra sütlü tatlı."
 ]
 ]
 },
@@ -44,11 +44,7 @@
 "segs": [
 [
 "worried",
-"Aman, balıkla süt olmaz!"
-],
-[
-"gentle",
-"Neren ağrıyor?"
+"Aman! Balıkla süt olmaz! Neresi ağrıyor?"
 ]
 ]
 },
@@ -64,11 +60,7 @@
 "segs": [
 [
 "surprised",
-"Yok artık, evlendin mi?"
-],
-[
-"teasing",
-"Geçmiş olsun."
+"Yok artık! Evli misin? Geçmiş olsun."
 ]
 ]
 },

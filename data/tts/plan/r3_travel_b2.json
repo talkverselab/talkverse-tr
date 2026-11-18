@@ -10,7 +10,7 @@
 "segs": [
 [
 "teasing",
-"Bahse girer misin? Bu çay takımını bin liraya alamazsın."
+"Hadi ya, iddiaya girelim. Bu takımı bin liraya alamazsın valla."
 ]
 ]
 },
@@ -18,7 +18,7 @@
 "segs": [
 [
 "excited",
-"Alırım. O çantadan sonra her şeyi öğrendim, izle beni."
+"Alırım alırım. O çantadan sonra kaptım işi, izle bak."
 ]
 ]
 },
@@ -26,7 +26,7 @@
 "segs": [
 [
 "teasing",
-"Üstünde beş yüz yazan çantayı mı diyorsun? Hadi bakalım."
+"Beş yüz yazıyordu ya üstünde hani? Görelim."
 ]
 ]
 },
@@ -34,7 +34,7 @@
 "segs": [
 [
 "cheerful",
-"Hoş geldiniz! Bu takım el yapımı, size özel üç bin."
+"Hoş geldiniz! El yapımı set, size özel üç bin."
 ]
 ]
 },
@@ -50,7 +50,7 @@
 ],
 [
 "stiff",
-"İyi günler, ben gidiyorum."
+"Gidiyorum, hoşça kalın."
 ]
 ]
 },
@@ -58,11 +58,7 @@
 "segs": [
 [
 "surprised",
-"Durun, durun! Nereye?"
-],
-[
-"gentle",
-"Gelin, oturun, bir çay içelim."
+"Durun! Nereye böyle? Gelin oturun, çay için."
 ]
 ]
 },
@@ -70,7 +66,7 @@
 "segs": [
 [
 "stiff",
-"Çay içmem. Bin lira, son söz, yoksa karşı dükkâna gidiyorum."
+"Çay istemem. Bin lira son. Karşı dükkana giderim yoksa."
 ]
 ]
 },
@@ -78,11 +74,11 @@
 "segs": [
 [
 "polite",
-"Bin beş yüz, ama kimseye söylemeyin."
+"Bin beş yüz olsun, kimseye söyleme."
 ],
 [
 "teasing",
-"Karşı dükkân kardeşimin zaten."
+"Karşı zaten kardeşimin dükkanı."
 ]
 ]
 },
@@ -90,7 +86,7 @@
 "segs": [
 [
 "polite",
-"Affedersiniz, bu takım ne kadar? Siz burada mı çalışıyorsunuz?"
+"Affedersiniz, bu kaç lira? Burada mı çalışıyorsunuz?"
 ]
 ]
 },
@@ -98,11 +94,7 @@
 "segs": [
 [
 "flustered",
-"Ben mi?"
-],
-[
-"polite",
-"Şey, evet, üç bin lira. Çok özel, el yapımı."
+"Ben mi? Şey... evet, üç bin. El yapımı, çok özel."
 ]
 ]
 },
@@ -110,7 +102,7 @@
 "segs": [
 [
 "excited",
-"Harika, alıyorum! İki tane lütfen. Kart olur mu?"
+"Harika! Alıyorum, iki tane. Kart geçer mi?"
 ]
 ]
 },
@@ -118,11 +110,7 @@
 "segs": [
 [
 "shout",
-"Yok artık!"
-],
-[
-"surprised",
-"Sen ne yapıyorsun? Adam altı bin verdi!"
+"Yok artık! Ne yapıyorsun? Altı bin verdi adam!"
 ]
 ]
 },
@@ -130,7 +118,7 @@
 "segs": [
 [
 "excited",
-"Helal olsun! Otuz yıldır burada böyle satan görmedim."
+"Helal olsun! Otuz yıldır buradayım, böyle satan görmedim."
 ]
 ]
 },
@@ -138,7 +126,7 @@
 "segs": [
 [
 "polite",
-"Peki benim takımım ne olacak? Bin lira demiştik, değil mi?"
+"Benimki ne olacak? Bin lira demiştiniz."
 ]
 ]
 },
@@ -146,7 +134,7 @@
 "segs": [
 [
 "excited",
-"Takımınız bin lira, söz. Yarın da gelin, birlikte satarız!"
+"Sizinki bin lira, söz. Yarın gelin, beraber satarız!"
 ]
 ]
 },
@@ -154,7 +142,7 @@
 "segs": [
 [
 "teasing",
-"Bahsi kazandın. Ama galiba artık burada yaşıyorsun."
+"Kazandın. Ama artık burada oturuyorsun sanki."
 ]
 ]
 }

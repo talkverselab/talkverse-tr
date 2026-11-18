@@ -14,7 +14,7 @@
  ],
  "title": "사진 먼저",
  "emoji": "🐦",
- "scene": "페리 갑판, 시미트를 들고 사진부터 찍겠다는 나를 Can 이 말린다",
+ "scene": "페리 갑판, 시미트를 들고 사진부터 찍겠다는 나를 Can이 말린다",
  "speakers": {
   "A": "{name}",
   "B": "Can"
@@ -37,39 +37,51 @@
    "tl": "Simitini yemeyecek misin?",
    "rd": "시미티니 예메예젝 미신?",
    "ko": "네 시미트 안 먹을 거야?",
-   "note": "-meyecek misin? = 안 ~할 거야?",
+   "note": "simitini = 시미트를",
    "tags": [
     "form:-meyecek misin"
    ],
    "new": [
     "simit"
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Bir dakika! Önce fotoğraf çekiyorum.",
-   "rd": "비르 다키카! 왼제 포토라프 체키요룸.",
+   "tl": "Bir dakika! Önce fotoğraf.",
+   "rd": "비르 다키카! 왼제 포토라프.",
    "ko": "잠깐만! 사진부터 찍고.",
-   "note": "fotoğraf çekmek = 사진 찍다",
+   "note": "bir dakika = 잠깐만",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Hadi ya, elinde tutma! Bak, martılar.",
-   "rd": "하디 야, 엘린데 투트마! 박, 마르틀라르.",
+   "tl": "Hadi ya, elinde tutma! Bak, martı.",
+   "rd": "하디 야, 엘린데 투트마! 박, 마르트.",
    "ko": "에이, 손에 들고 있지 마! 봐, 갈매기.",
-   "note": "martı = 갈매기",
+   "note": "hadi ya = 에이",
    "tags": [
     "expr:hadi ya",
     "expr:bak"
    ],
    "new": [
     "martı"
+   ],
+   "segs": [
+    [
+     "annoyed",
+     "Hadi ya, elinde tutma!"
+    ],
+    [
+     "worried",
+     "Bak, martı."
+    ]
    ]
   },
   {
@@ -78,11 +90,21 @@
    "tl": "Eyvah! Simitim gitti!",
    "rd": "에이바흐! 시미팀 기티!",
    "ko": "헉! 내 시미트 갔어!",
-   "note": "eyvah = 헉, 큰일 났다",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Eyvah!"
+    ],
+    [
+     "shout",
+     "Simitim gitti!"
+    ]
+   ]
   },
   {
    "num": 5,
@@ -90,34 +112,38 @@
    "tl": "Bir tane değil, hepsi geliyor!",
    "rd": "비르 타네 데일, 헵시 겔리요르!",
    "ko": "한 마리가 아니야, 다 몰려온다!",
-   "note": "hepsi = 전부 — 반전",
+   "note": "hepsi = 다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 6,
    "speaker": "A",
    "tl": "Kafamda martı var! Can, yardım et!",
    "rd": "카팜다 마르트 바르! 잔, 야르듬 엣!",
-   "ko": "내 머리에 갈매기 있어! 잔, 좀 도와줘!",
-   "note": "yardım et = 도와줘",
+   "ko": "내 머리에 갈매기 있어! Can, 좀 도와줘!",
+   "note": "kafamda = 머리에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Bir dakika! Önce fotoğraf çekiyorum.",
-   "rd": "비르 다키카! 왼제 포토라프 체키요룸.",
+   "tl": "Bir dakika! Önce fotoğraf.",
+   "rd": "비르 다키카! 왼제 포토라프.",
    "ko": "잠깐만! 사진부터 찍고.",
-   "note": "앞에서 한 말을 그대로 돌려준다",
+   "note": "bir dakika = 잠깐만",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

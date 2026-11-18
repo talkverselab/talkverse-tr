@@ -35,35 +35,38 @@
   {
    "num": 1,
    "speaker": "C",
-   "tl": "Hoş geldiniz hocam! Çay alır mısınız?",
-   "rd": "호시 겔디니즈 호잠! 차이 알르르 므스느즈?",
+   "tl": "Hoş geldiniz hocam! Çay ister misiniz?",
+   "rd": "호시 겔디니즈 호잠! 차이 이스테르 미시니즈?",
    "ko": "어서 오세요, 선생님! 차 드릴까요?",
-   "note": "hocam = 선생님(직장에서도 두루 쓰는 호칭)",
+   "note": "hoş geldiniz = 어서 오세요; hocam = 선생님",
    "tags": [
     "expr:hoş geldiniz",
     "expr:hocam"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Evet, lütfen. Emre'ye de bir çay.",
-   "rd": "에벳, 뤼트펜. 엠레예 데 비르 차이.",
+   "tl": "Evet, lütfen. Emre’ye de bir tane.",
+   "rd": "에벳, 뤼트펜. 엠레예 데 비르 타네.",
    "ko": "네, 주세요. Emre 것도 한 잔이요.",
-   "note": "Emre'ye de = Emre 에게도",
+   "note": "lütfen = 주세요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Bugün ilk günün. Çaylar senden mi?",
-   "rd": "부귄 일크 귀뉜. 차일라르 센덴 미?",
+   "tl": "İlk günün ya. Çaylar senden mi?",
+   "rd": "일크 귀뉜 야. 차일라르 센덴 미?",
    "ko": "오늘 첫날이잖아. 차는 네가 쏘는 거야?",
-   "note": "senden = 너한테서(네가 쏘는)",
+   "note": "ilk gün = 첫날",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 4,
@@ -71,12 +74,13 @@
    "tl": "Tabii! Bugün çaylar benden!",
    "rd": "타비이! 부귄 차일라르 벤덴!",
    "ko": "당연하지! 오늘 차는 내가 쏜다!",
-   "note": "çaylar benden = 차는 내가 쏜다",
+   "note": "tabii = 당연하지; çaylar benden = 차는 내가",
    "tags": [
     "expr:tabii",
     "form:-den"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 5,
@@ -84,9 +88,10 @@
    "tl": "Çaylar {name} hocamdan! Duydunuz mu?",
    "rd": "차일라르 {name} 호잠단! 두이두누즈 무?",
    "ko": "차는 {name} 선생님이 쏘신답니다! 다들 들으셨죠?",
-   "note": "duydunuz mu = 들으셨어요?",
+   "note": "hocam = 선생님",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 6,
@@ -94,82 +99,90 @@
    "tl": "Bir dakika… kaç kişi duydu?",
    "rd": "비르 다키카… 카치 키시 두이두?",
    "ko": "잠깐만요… 몇 명이나 들었어요?",
-   "note": "kaç kişi = 몇 명",
+   "note": "bir dakika = 잠깐만요",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Bu katta yirmi kişi var. Bina altı kat.",
-   "rd": "부 카타 이르미 키시 바르. 비나 알트 캇.",
+   "tl": "Bu katta yirmi kişi. Bina altı kat.",
+   "rd": "부 카타 이르미 키시. 비나 알트 캇.",
    "ko": "이 층에만 스무 명이야. 건물은 6층이고.",
    "note": "kat = 층",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Üçüncü kat da istiyor! Hocam, otuz çay daha!",
-   "rd": "위췬쥐 캇 다 이스티요르! 호잠, 오투즈 차이 다하!",
+   "tl": "Üçüncü kat da istiyor! Hocam, otuz fincan daha!",
+   "rd": "위췬쥐 캇 다 이스티요르! 호잠, 오투즈 핀잔 다하!",
    "ko": "3층도 달래요! 선생님, 서른 잔 더요!",
-   "note": "daha = 더 — 반전: 위아래 층까지 번진다",
+   "note": "fincan = 잔",
    "tags": [
     "expr:hocam"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 9,
    "speaker": "D",
-   "tl": "Hoş geldiniz {name}, ne güzel düşünce! Ben de içeyim.",
-   "rd": "호시 겔디니즈 {name}, 네 귀젤 뒤쉰제! 벤 데 이체임.",
+   "tl": "Hoş geldiniz {name}, güzel fikir! Ben de bir tane.",
+   "rd": "호시 겔디니즈 {name}, 귀젤 피키르! 벤 데 비르 타네.",
    "ko": "어서 와요, {name} 씨, 참 좋은 생각이네요! 저도 한 잔 하죠.",
-   "note": "içeyim = 마실게요",
+   "note": "hoş geldiniz = 어서 와요",
    "tags": [
     "expr:hoş geldiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Emre, bir çay ne kadar?",
-   "rd": "엠레, 비르 차이 네 카다르?",
+   "tl": "Emre, bir çay kaç lira?",
+   "rd": "엠레, 비르 차이 카치 리라?",
    "ko": "Emre, 차 한 잔에 얼마야?",
-   "note": "ne kadar = 얼마",
+   "note": "kaç lira = 얼마",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Bilmem. Hesap geldi, ona bak.",
-   "rd": "빌멤. 헤삽 겔디, 오나 박.",
+   "tl": "Bilmem. Hesap geldi, bak ona.",
+   "rd": "빌멤. 헤삽 겔디, 박 오나.",
    "ko": "몰라. 계산서 왔네, 그거 봐.",
-   "note": "hesap = 계산서",
+   "note": "bilmem = 몰라",
    "tags": [
     "expr:bilmem"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Yüz yirmi yedi çay hocam. Yarın da devam mı?",
-   "rd": "위즈 이르미 예디 차이 호잠. 야른 다 데밤 므?",
+   "tl": "127 fincan hocam. Yarın da aynı mı?",
+   "rd": "127 핀잔 호잠. 야른 다 아이느 므?",
    "ko": "127잔입니다, 선생님. 내일도 이어서요?",
-   "note": "devam = 계속",
+   "note": "fincan = 잔",
    "tags": [
     "expr:hocam"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

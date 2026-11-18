@@ -11,7 +11,7 @@
 "segs": [
 [
 "polite",
-"Merhaba. Ev satılıyor, haberiniz olsun. Bugün biri görmeye geliyor."
+"Merhaba. Evi satıyorum, bilin. Bugün biri bakmaya geliyor."
 ]
 ]
 },
@@ -19,11 +19,7 @@
 "segs": [
 [
 "surprised",
-"Ne?! Ev satılıyor mu?"
-],
-[
-"worried",
-"Ben nereye gideceğim?"
+"Ne?! Evi mi satıyorsunuz? Ben nereye gideyim?"
 ]
 ]
 },
@@ -31,11 +27,7 @@
 "segs": [
 [
 "neutral",
-"Kanka, dur."
-],
-[
-"teasing",
-"Alıcı evi beğenmezse almaz. Anladın mı?"
+"Dur ya. Alıcı evi beğenmezse almaz. Anladın mı?"
 ]
 ]
 },
@@ -43,11 +35,7 @@
 "segs": [
 [
 "neutral",
-"Anladım."
-],
-[
-"excited",
-"Asansör yok, kombi bozuk, su az. Hepsini söyleriz."
+"Anladım. Asansör yok, kombi bozuk, su da zayıf. Hepsini söyleyelim."
 ]
 ]
 },
@@ -55,7 +43,7 @@
 "segs": [
 [
 "cheerful",
-"İyi günler. Ne güzel ev. Burası ne kadar sessiz!"
+"Merhaba. Ev güzel. Burası çok sessiz!"
 ]
 ]
 },
@@ -67,7 +55,7 @@
 ],
 [
 "teasing",
-"Gece üçte yan daireden 'Vur!' sesi gelir."
+"Gece üçte yan komşu “vur!” diye bağırıyor."
 ]
 ]
 },
@@ -75,7 +63,7 @@
 "segs": [
 [
 "teasing",
-"Asansör de yok. Kapıcı iki yıldır 'yarın' diyor."
+"Asansör de yok. Kapıcı iki yıldır “yarın” diyor."
 ]
 ]
 },
@@ -83,7 +71,7 @@
 "segs": [
 [
 "cheerful",
-"Merdiven sağlığa iyi gelir. Ben spor yapmayı severim."
+"Merdiven sağlığa iyi. Ben sporu severim."
 ]
 ]
 },
@@ -91,7 +79,7 @@
 "segs": [
 [
 "worried",
-"Kombi de bozuk. Dört kişi geldi, hiçbiri çözemedi."
+"Kombi de bozuk. Dört kişi geldi, hiçbiri tamir edemedi."
 ]
 ]
 },
@@ -99,7 +87,7 @@
 "segs": [
 [
 "teasing",
-"Bir de kedi var. Çok büyük, köfte çalıyor."
+"Kedi de var. Çok büyük, köfte çalıyor."
 ]
 ]
 },
@@ -107,7 +95,7 @@
 "segs": [
 [
 "excited",
-"Kedi mi? Bayıldım! Ben kedileri çok severim."
+"Kedi mi? Bayıldım! Kedileri çok severim."
 ]
 ]
 },
@@ -115,7 +103,7 @@
 "segs": [
 [
 "cheerful",
-"Hoş geldiniz! Yemek yediniz mi? Buyurun, dolma."
+"Hoş geldiniz! Yemek yediniz mi? Alın, dolma yiyin."
 ]
 ]
 },
@@ -123,7 +111,7 @@
 "segs": [
 [
 "excited",
-"Elinize sağlık! Böyle komşu varsa, bu ev kaç para?"
+"Elinize sağlık! Böyle komşu varsa… Bu ev ne kadar?"
 ]
 ]
 },
@@ -143,7 +131,7 @@
 "segs": [
 [
 "neutral",
-"Konuşuruz. Ama kiracı bir yıl daha kalıyor, sözleşme var."
+"Konuşalım. Ama kiracı bir yıl daha kalır, sözleşme var."
 ]
 ]
 },
@@ -151,7 +139,7 @@
 "segs": [
 [
 "cheerful",
-"Hayırlı olsun, canım. Akşam hepiniz bana gelin, yemek var."
+"Olsun yavrum. Akşam hep beraber bize gelin, yemek var."
 ]
 ]
 }

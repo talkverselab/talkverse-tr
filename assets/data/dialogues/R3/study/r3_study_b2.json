@@ -33,169 +33,194 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Hocadan yine mail geldi. Üç dakikada cevap yazdı.",
-   "rd": "호자단 이네 마일 겔디. 위치 다키카다 제밥 야즈드.",
+   "tl": "Hocadan yine mail geldi. Üç dakikada cevap vermiş.",
+   "rd": "호자단 이네 마일 겔디. 위치 다키카다 제밥 베르미시.",
    "ko": "교수님한테 또 메일 왔어. 3분 만에 답장하셨어.",
-   "note": "üç dakikada = 3분 만에",
+   "note": "mail = 메일",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Ama hoca hiç ortada yok. Garip, değil mi?",
-   "rd": "아마 호자 히치 오르타다 욕. 가립, 데일 미?",
+   "tl": "Ama hoca ortada yok. Garip değil mi?",
+   "rd": "아마 호자 오르타다 욕. 가립 데일 미?",
    "ko": "근데 교수님은 코빼기도 안 보이잖아. 이상하지 않아?",
-   "note": "ortada yok = 안 보인다",
+   "note": "garip = 이상한",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Evet. Kapıda hâlâ “Beş dakikaya dönerim” yazıyor.",
-   "rd": "에벳. 카프다 할라 베시 다키카야 되네림 야즈요르.",
+   "tl": "Evet. Kapıda hâlâ “5 dakika sonra dönerim” yazıyor.",
+   "rd": "에벳. 카프다 할라 5 다키카 손라 되네림 야즈요르.",
    "ko": "응. 문에는 아직 「5분 뒤 돌아옴」 이라고 써 있고.",
-   "note": "hâlâ = 아직",
+   "note": "kapıda = 문에",
    "tags": [
     "callback:r2_study_b3"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Mailde ne diyor peki? Yine aynı şey mi?",
-   "rd": "마일데 네 디요르 페키? 이네 아이느 셰이 미?",
+   "tl": "Mailde ne diyor? Yine aynı şey mi?",
+   "rd": "마일데 네 디요르? 이네 아이느 셰이 미?",
    "ko": "메일엔 뭐래? 또 같은 말이야?",
-   "note": "peki = 그럼",
+   "note": "diyor = 말해",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "“Kendinize iyi bakın, tezinizi perşembe getirin.” Çok kibar.",
-   "rd": "켄디니제 이이 바큰, 테지니지 페르솀베 게티린. 촉 키바르.",
+   "tl": "“Kendine dikkat et, tezi perşembe getir.” Çok tatlı yazmış.",
+   "rd": "켄디네 디캇 엣, 테지 페르솀베 게티르. 촉 타틀르 야즈므시.",
    "ko": "「몸조심하고, 논문은 목요일에 가져와요.」 되게 다정하셔.",
-   "note": "tez = 논문",
+   "note": "tatlı = 다정한",
    "tags": [],
    "new": [
     "tez"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Perşembe kime getireceksin? Kapıya mı?",
-   "rd": "페르솀베 키메 게티레젝신? 카프야 므?",
+   "tl": "Perşembe kime götüreceğiz? Kapıya mı?",
+   "rd": "페르솀베 키메 괴튀레제이즈? 카프야 므?",
    "ko": "목요일에 누구한테 가져가는데? 문한테?",
-   "note": "kime = 누구에게",
+   "note": "götüreceğiz = 가져갈",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Hoş geldiniz. Tezinizi getirdiniz mi? Buraya bırakın, lütfen.",
-   "rd": "호시 겔디니즈. 테지니지 게티르디니즈 미? 부라야 브라큰, 뤼트펜.",
+   "tl": "Hoş geldiniz. Tezi getirdiniz mi? Buraya bırakın.",
+   "rd": "호시 겔디니즈. 테지 게티르디니즈 미? 부라야 브라큰.",
    "ko": "어서 오세요. 논문 가져오셨어요? 여기 두고 가세요.",
-   "note": "bırakın = 두세요",
+   "note": "hoş geldiniz = 어서 오세요",
    "tags": [
     "expr:hoş geldiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Size mi? Hocam okuyacak, değil mi?",
-   "rd": "시제 미? 호잠 오쿠야작, 데일 미?",
+   "tl": "Size mi? Hoca okuyacak, değil mi?",
+   "rd": "시제 미? 호자 오쿠야작, 데일 미?",
    "ko": "선생님께요? 교수님이 읽으시는 거죠?",
-   "note": "okuyacak = 읽을 것이다",
+   "note": "okuyacak = 읽을",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Size mi?"
+    ],
+    [
+     "worried",
+     "Hoca okuyacak, değil mi?"
+    ]
+   ]
   },
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Hoca telefonda söyledi: üçüncü sayfada “de” ayrı yazılır.",
-   "rd": "호자 텔레폰다 쇠일레디 위췬쥐 사이파다 데 아이르 야즐르르.",
+   "tl": "Hoca telefonda söyledi. 3. sayfada “de” ayrı yazılacakmış.",
+   "rd": "호자 텔레폰다 쇠일레디. 3. 사이파다 데 아이르 야즐라작므시.",
    "ko": "교수님이 전화로 말씀하셨어요. 3쪽 「de」 는 띄어 써야 한대요.",
-   "note": "telefonda = 전화로 · ayrı yazılır = 띄어 쓴다",
+   "note": "telefonda = 전화로",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Bir dakika… o cümleyi dün mailde gördüm. Hocadan geldi!",
-   "rd": "비르 다키카… 오 쥠레이 뒨 마일데 괴르뒴. 호자단 겔디!",
+   "tl": "Bir dakika… o cümle dünkü maildeydi. Hoca göndermişti!",
+   "rd": "비르 다키카… 오 쥠레 뒨퀴 마일데이디. 호자 괸데르미시티!",
    "ko": "잠깐만요… 그 말, 어제 메일에서 봤어요. 교수님이 보내신 건데요!",
-   "note": "cümle = 문장",
+   "note": "bir dakika = 잠깐만요",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 11,
    "speaker": "C",
-   "tl": "Hoca bu dönem yurt dışında, canım. Mailleri o söylüyor, ben yazıyorum.",
-   "rd": "호자 부 되넴 유르트 드신다, 자늠. 마일레리 오 쇠일뤼요르, 벤 야즈요룸.",
+   "tl": "Hoca bu dönem yurt dışında. Mailleri hoca söylüyor, ben yazıyorum.",
+   "rd": "호자 부 되넴 유르트 드신다. 마일레리 호자 쇠일뤼요르, 벤 야즈요룸.",
    "ko": "교수님은 이번 학기에 해외에 계세요. 메일은 교수님이 불러 주시고 제가 써요.",
-   "note": "yurt dışı = 해외 — 반전",
+   "note": "yurt dışında = 해외에",
    "tags": [
     "expr:canım"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Ne?! Peki tezimi kim okuyacak?",
-   "rd": "네?! 페키 테지미 킴 오쿠야작?",
+   "tl": "Ne?! O zaman tezimi kim okuyor?",
+   "rd": "네?! 오 자만 테지미 킴 오쿠요르?",
    "ko": "네?! 그럼 제 논문은 누가 읽어요?",
-   "note": "tezimi = 내 논문을",
+   "note": "tezimi = 제 논문",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 13,
    "speaker": "C",
-   "tl": "Hoca okuyacak, merak etmeyin. Ben ona gönderiyorum.",
-   "rd": "호자 오쿠야작, 메락 에트메인. 벤 오나 괸데리요룸.",
+   "tl": "Hoca okuyor, merak etmeyin. Ben gönderiyorum.",
+   "rd": "호자 오쿠요르, 메락 에트메인. 벤 괸데리요룸.",
    "ko": "교수님이 읽으세요, 걱정 마세요. 제가 보내 드려요.",
-   "note": "göndermek = 보내다",
+   "note": "gönderiyorum = 보내 드려요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 14,
    "speaker": "B",
-   "tl": "Yok artık. Bütün bölüm sizin sayenizde mi dönüyor?",
-   "rd": "욕 아르특. 뷔튄 뵐륌 시진 사예니즈데 미 되뉘요르?",
+   "tl": "Yok artık. Bütün bölüm senin sayende mi dönüyor?",
+   "rd": "욕 아르특. 뷔튄 뵐륌 세닌 사옌데 미 되뉘요르?",
    "ko": "말도 안 돼. 학과 전체가 선생님 덕에 돌아가는 거예요?",
-   "note": "sayesinde = ~덕분에",
+   "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 15,
    "speaker": "C",
-   "tl": "Beş dakikaya dönerim. Tezi masaya bırakın.",
-   "rd": "베시 다키카야 되네림. 테지 마사야 브라큰.",
+   "tl": "Beş dakika sonra dönerim canım. Tezi masaya bırakın.",
+   "rd": "베시 다키카 손라 되네림 자늠. 테지 마사야 브라큰.",
    "ko": "5분 뒤 돌아올게요. 논문은 책상에 두세요.",
-   "note": "beş dakikaya dönerim = 5분 뒤 돌아온다",
+   "note": "canım = 얘야",
    "tags": [
     "callback:r2_study_b3"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

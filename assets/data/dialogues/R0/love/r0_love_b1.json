@@ -13,7 +13,7 @@
  ],
  "title": "잔 바닥의 누군가",
  "emoji": "☕",
- "scene": "Elif 가 내 커피잔을 뒤집어 점을 봐 주는데, 잔에서 돈은 안 나오고 누가 나온다",
+ "scene": "Elif가 내 커피잔을 뒤집어 점을 봐 주는데, 잔에서 돈은 안 나오고 누가 나온다",
  "speakers": {
   "A": "{name}",
   "B": "Elif"
@@ -36,38 +36,41 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Kahve bitti. Fincanı neden alıyorsun?",
-   "rd": "카흐베 비티. 핀자느 네덴 알르요르순?",
+   "tl": "Kahveyi bitirdim. Fincanı neden aldın?",
+   "rd": "카흐베이 비티르딤. 핀자느 네덴 알든?",
    "ko": "커피 다 마셨어. 잔은 왜 가져가?",
-   "note": "fincan = 커피잔",
+   "note": "fincanı = 잔을",
    "tags": [],
    "new": [
     "fincan"
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Sus, falına bakıyorum.",
-   "rd": "수스, 팔르나 바크요룸.",
+   "tl": "Şşt, falına bakıyorum.",
+   "rd": "스트, 팔르나 바크요룸.",
    "ko": "쉿, 네 점 보는 중이야.",
-   "note": "fal = 커피 점",
+   "note": "falına = 점에",
    "tags": [],
    "new": [
     "fal"
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Ee? Para var mı, para?",
-   "rd": "에에? 파라 바르 므, 파라?",
+   "tl": "Ee? Para var mı? Para?",
+   "rd": "에에? 파라 바르 므? 파라?",
    "ko": "그래서? 돈 있어? 돈?",
-   "note": "ee = 그래서?",
+   "note": "ee = 그래서",
    "tags": [
     "expr:ee"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 4,
@@ -79,7 +82,8 @@
    "tags": [
     "expr:kusura bakma"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 5,
@@ -87,24 +91,26 @@
    "tl": "Of. Başka ne var?",
    "rd": "오프. 바시카 네 바르?",
    "ko": "아휴. 또 뭐 있어?",
-   "note": "başka = 다른",
+   "note": "of = 아휴",
    "tags": [
     "expr:of"
    ],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Dur, burada biri var. Çok güzel.",
-   "rd": "두르, 부라다 비리 바르. 촉 귀젤.",
+   "tl": "Dur… burada biri var. Çok güzel.",
+   "rd": "두르… 부라다 비리 바르. 촉 귀젤.",
    "ko": "잠깐… 여기 누가 있어. 엄청 예뻐.",
-   "note": "biri = 누군가",
+   "note": "dur = 잠깐",
    "tags": [
     "expr:dur",
     "expr:çok güzel"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -112,25 +118,28 @@
    "tl": "Kim o? Nasıl biri?",
    "rd": "킴 오? 나슬 비리?",
    "ko": "누군데? 어떤 사람이야?",
-   "note": "nasıl biri = 어떤 사람",
+   "note": "kim o = 누구야",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Bilmem… saçı benim gibi.",
-   "rd": "빌멤… 사츠 베님 기비.",
+   "tl": "Bilmem… saçı benimki gibi.",
+   "rd": "빌멤… 사츠 베님키 기비.",
    "ko": "글쎄… 머리가 나랑 똑같네.",
-   "note": "benim gibi = 나처럼 — 마음을 들킴",
+   "note": "bilmem = 글쎄",
    "tags": [
     "expr:bilmem",
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

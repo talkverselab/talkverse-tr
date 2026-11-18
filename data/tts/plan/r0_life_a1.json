@@ -16,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Evet, yedim. Sağ olun."
+"Yedim, sağ olun."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "tsukkomi",
-"Yok, sen yemedin."
+"Yok, yemedin."
 ],
 [
 "gentle",
@@ -36,7 +36,7 @@
 "segs": [
 [
 "polite",
-"Tamam, teyze. Çok teşekkürler."
+"Teşekkürler teyze, gerçekten."
 ]
 ]
 },
@@ -44,7 +44,7 @@
 "segs": [
 [
 "teasing",
-"Ama tabak boş dönmez, ha."
+"Ama tabak boş dönmez, tamam mı?"
 ]
 ]
 },
@@ -52,7 +52,7 @@
 "segs": [
 [
 "surprised",
-"Ne demek?"
+"Ne demek bu?"
 ],
 [
 "flustered",
@@ -64,7 +64,7 @@
 "segs": [
 [
 "amused",
-"Sen doldur, ben yine doldururum."
+"Sen doldurursan ben de doldururum."
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah… Bu hiç bitmez."
+"Eyvah… bunun sonu yok."
 ]
 ]
 }

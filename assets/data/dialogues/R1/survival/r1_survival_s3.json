@@ -32,14 +32,15 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Buyurun, ne oldu?",
-   "rd": "부유룬, 네 올두?",
+   "tl": "Buyurun, neresi ağrıyor?",
+   "rd": "부유룬, 네레시 아르요르?",
    "ko": "네, 어디가 불편하세요?",
-   "note": "buyurun = 네, 말씀하세요",
+   "note": "buyurun = 네",
    "tags": [
     "expr:buyurun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
@@ -49,9 +50,8 @@
    "ko": "배가 아파요. 많이 아파요.",
    "note": "karnım ağrıyor = 배가 아파요",
    "tags": [],
-   "new": [
-    "ağrımak"
-   ]
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 3,
@@ -59,11 +59,21 @@
    "tl": "Geçmiş olsun. Bugün ne yediniz?",
    "rd": "게치미시 올순. 부귄 네 예디니즈?",
    "ko": "어머, 힘드시겠어요. 오늘 뭐 드셨어요?",
-   "note": "geçmiş olsun = 쾌차하세요",
+   "note": "geçmiş olsun = 힘드시겠어요",
    "tags": [
     "expr:geçmiş olsun"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Geçmiş olsun."
+    ],
+    [
+     "polite",
+     "Bugün ne yediniz?"
+    ]
+   ]
   },
   {
    "num": 4,
@@ -75,54 +85,100 @@
    "tags": [],
    "new": [
     "midye"
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Hepsi bugün mü? Başka?",
-   "rd": "헵시 부귄 뮈? 바시카?",
+   "tl": "Hepsini bugün mü? Daha da mı?",
+   "rd": "헵시니 부귄 뮈? 다하 다 므?",
    "ko": "그걸 오늘 다요? 또요?",
    "note": "hepsi = 전부",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Hepsini bugün mü?"
+    ],
+    [
+     "polite",
+     "Daha da mı?"
+    ]
+   ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Şey… şimdi de baklava.",
-   "rd": "셰이… 심디 데 바클라바.",
+   "tl": "Şey... şimdi baklava.",
+   "rd": "셰이... 심디 바클라바.",
    "ko": "저… 지금은 바클라바요.",
-   "note": "şimdi = 지금 — 반전: 손에 들고 먹는 중",
+   "note": "şey = 저…",
    "tags": [
     "expr:şey"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Şey..."
+    ],
+    [
+     "shy",
+     "şimdi baklava."
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Allah allah! Bırakın o kutuyu!",
-   "rd": "알라흐 알라흐! 브라큰 오 쿠투유!",
+   "tl": "Allah Allah! O kutuyu bırakın!",
+   "rd": "알라흐 알라흐! 오 쿠투유 브라큰!",
    "ko": "세상에! 그 상자 내려놓으세요!",
-   "note": "bırakın = 내려놓으세요",
+   "note": "allah allah = 세상에",
    "tags": [
     "expr:allah allah"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Allah Allah!"
+    ],
+    [
+     "shout",
+     "O kutuyu bırakın!"
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Olmaz. Çok güzel… size de bir tane?",
-   "rd": "올마즈. 촉 귀젤… 시제 데 비르 타네?",
+   "tl": "Olmaz. Çok lezzetli... Size de bir tane?",
+   "rd": "올마즈. 촉 레제틀리... 시제 데 비르 타네?",
    "ko": "안 돼요. 너무 맛있어요… 선생님도 하나 드릴까요?",
    "note": "bir tane = 하나",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "stiff",
+     "Olmaz."
+    ],
+    [
+     "cheerful",
+     "Çok lezzetli..."
+    ],
+    [
+     "amused",
+     "Size de bir tane?"
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

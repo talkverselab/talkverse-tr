@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Hoş geldiniz! Ekmek ve süt, değil mi?"
+"Hoş geldiniz! Yine ekmekle süt mü bugün?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "neutral",
-"Evet…"
+"Evet..."
 ],
 [
 "flustered",
@@ -28,7 +28,7 @@
 "segs": [
 [
 "polite",
-"Sorun yok. Deftere yazıyorum, {name}."
+"Sorun yok efendim, deftere yazıyorum {name}."
 ]
 ]
 },
@@ -44,7 +44,7 @@
 "segs": [
 [
 "amused",
-"Teyze söyledi. Yemek yapmıyorsunuz, değil mi?"
+"Teyzeniz söylemişti. Yemek yapmıyorsunuz, değil mi?"
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "teasing",
-"Dün gece üç çikolata aldınız."
+"Dün gece üç tane çikolata almıştınız."
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "flustered",
-"Şey… onlar kedi için."
+"Şey... o kediye diye."
 ]
 ]
 }

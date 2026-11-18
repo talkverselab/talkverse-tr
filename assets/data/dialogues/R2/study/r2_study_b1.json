@@ -33,26 +33,37 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Dün neredeydin? Seni kantinde bekledim.",
-   "rd": "뒨 네레데이딘? 세니 칸틴데 베클레딤.",
+   "tl": "Dün neredeydin ya? Kantinde bekledim.",
+   "rd": "뒨 네레데이딘 야? 칸틴데 베클레딤.",
    "ko": "어제 어디 있었어? 매점에서 기다렸는데.",
-   "note": "kantin = 학교 매점",
+   "note": "dün = 어제",
    "tags": [],
    "new": [
     "kantin"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Kusura bakma, telefonum kapalıydı. Ders çalıştım.",
-   "rd": "쿠수라 박마, 텔레포눔 카팔르이드. 데르스 찰르시틈.",
+   "tl": "Kusura bakma, telefon kapalıydı. Çalışıyordum.",
+   "rd": "쿠수라 박마, 텔레폰 카팔르이드. 찰르시요르둠.",
    "ko": "미안, 전화기 꺼져 있었어. 공부했어.",
    "note": "kusura bakma = 미안",
    "tags": [
     "expr:kusura bakma"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Kusura bakma, telefon kapalıydı."
+    ],
+    [
+     "neutral",
+     "Çalışıyordum."
+    ]
+   ]
   },
   {
    "num": 3,
@@ -60,9 +71,10 @@
    "tl": "Yorgun görünüyorsun. Ne oldu?",
    "rd": "요르군 괴뤼뉘요르순. 네 올두?",
    "ko": "피곤해 보이네. 무슨 일이야?",
-   "note": "görünüyorsun = ~해 보인다",
+   "note": "yorgun = 피곤한",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 4,
@@ -70,9 +82,10 @@
    "tl": "Dün akşama kadar sınıfta kaldım.",
    "rd": "뒨 악샤마 카다르 스느프타 칼듬.",
    "ko": "어제 저녁까지 교실에 남았어.",
-   "note": "sınıfta kalmak = 유급하다(관용) — A 는 「교실에 남았다」 로 말함",
+   "note": "sınıfta kaldım = 교실에 남았어",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   },
   {
    "num": 5,
@@ -84,53 +97,65 @@
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Evet, bütün dersler. Hoca gitti, ben kaldım.",
-   "rd": "에벳, 뷔튄 데르슬레르. 호자 기티, 벤 칼듬.",
+   "tl": "Evet, hepsinden. Hoca gitti, ben kaldım.",
+   "rd": "에벳, 헵신덴. 호자 기티, 벤 칼듬.",
    "ko": "응, 전 과목. 교수님은 가시고 나만 남았어.",
-   "note": "kaldım = 남았다",
+   "note": "hepsinden = 전부",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Geçmiş olsun. Üzülme, bütünleme var.",
-   "rd": "게치미시 올순. 위쥘메, 뷔튄레메 바르.",
+   "tl": "Geçmiş olsun. Üzülme, telafi var.",
+   "rd": "게치미시 올순. 위쥘메, 텔라피 바르.",
    "ko": "어쩌냐. 속상해하지 마, 재시험 있어.",
-   "note": "bütünleme = 재시험",
+   "note": "geçmiş olsun = 잘 이겨내",
    "tags": [
     "expr:geçmiş olsun"
    ],
-   "new": [
-    "bütünleme"
-   ]
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "O ne? Sınıf çok güzeldi, yine kalırım.",
-   "rd": "오 네? 스느프 촉 귀젤디, 이네 칼르름.",
+   "tl": "Ne telafisi? Sınıf güzeldi, yine kalırım.",
+   "rd": "네 텔라피시? 스느프 귀젤디, 이네 칼르름.",
    "ko": "그게 뭐야? 교실 좋던데, 또 남을 거야.",
-   "note": "yine = 또 — 반전: 스스로 또 유급하겠단다",
+   "note": "yine = 또",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Ne telafisi?"
+    ],
+    [
+     "cheerful",
+     "Sınıf güzeldi, yine kalırım."
+    ]
+   ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Ciddi misin? Bir daha mı kalacaksın?!",
-   "rd": "지디 미신? 비르 다하 므 칼라작슨?!",
+   "tl": "Ciddi misin? Yine sınıfta kalacağını mı söylüyorsun?!",
+   "rd": "지디 미신? 이네 스느프타 칼라자으느 므 쇠일뤼요르순?!",
    "ko": "진심이야? 또 유급하겠다고?!",
-   "note": "ciddi misin = 진심이야?",
+   "note": "ciddi misin = 진심이야",
    "tags": [
     "expr:ciddi misin"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 10,
@@ -140,30 +165,34 @@
    "ko": "{name} 씨, 들었어요. 상심 말아요, 계절학기 있어요.",
    "note": "yaz okulu = 계절학기",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Hocam, ne yaz okulu? Ben sadece sınıfta oturdum!",
-   "rd": "호잠, 네 야즈 오쿨루? 벤 사데제 스느프타 오투르둠!",
+   "tl": "Hocam, yaz okulu mu? Ben sadece sınıfta oturuyordum!",
+   "rd": "호잠, 야즈 오쿨루 무? 벤 사데제 스느프타 오투루요르둠!",
    "ko": "교수님, 계절학기라니요? 저는 그냥 교실에 앉아 있었어요!",
-   "note": "oturdum = 앉아 있었다",
+   "note": "oturuyordum = 앉아 있었어요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Şimdi öğrendin. Kalmak başka, oturmak başka.",
-   "rd": "심디 외렌딘. 칼막 바시카, 오투르막 바시카.",
+   "tl": "Şimdi anladın. Kalmakla oturmak farklı.",
+   "rd": "심디 안라든. 칼마클라 오투르막 파르클르.",
    "ko": "이제 알았지. 남는 거랑 앉아 있는 건 달라.",
-   "note": "başka = 다른",
+   "note": "farklı = 다르다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

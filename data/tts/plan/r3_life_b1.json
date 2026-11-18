@@ -18,7 +18,8 @@
 "segs": [
 [
 "surprised",
-"'Büyük kedi, bulana beş yüz lira.' Beş yüz mü? Çıldırdın mı?"
+"‘Büyük kedi, bulana 500 lira.’ 500? Deli misin?",
+"‘Büyük kedi, bulana beş yüz lira.’ beş yüz? Deli misin?"
 ]
 ]
 },
@@ -26,7 +27,7 @@
 "segs": [
 [
 "worried",
-"Ne yapayım? Çok merak ediyorum. Sen de bakar mısın?"
+"Ne yapayım? Çok endişeleniyorum. Sen de bakar mısın?"
 ]
 ]
 },
@@ -42,7 +43,7 @@
 "segs": [
 [
 "polite",
-"{name}, kapıda bir çocuk var. Elinde kedi, para istiyor."
+"{name} bey, kapıda çocuk var. Kedi tutuyor, para istiyor."
 ]
 ]
 },
@@ -50,7 +51,7 @@
 "segs": [
 [
 "surprised",
-"Patron mu? Bu kedi siyah ya! Patron sarı."
+"Patron mu? Bu kedi siyah! Patron sarı."
 ]
 ]
 },
@@ -58,7 +59,7 @@
 "segs": [
 [
 "annoyed",
-"Bir çocuk daha geldi. Onun kedisi de beyaz. Merdivende sıra var."
+"Çocuk yine geldi. Onun kedisi de beyaz. Merdivende sıra var."
 ]
 ]
 },
@@ -66,7 +67,8 @@
 "segs": [
 [
 "teasing",
-"Beş yüz lira yazınca böyle olur, kanka. Herkes kedi getirir."
+"500 lira yazınca böyle olur kanka. Herkes kedi getiriyor.",
+"beş yüz lira yazınca böyle olur kanka. Herkes kedi getiriyor."
 ]
 ]
 },
@@ -74,7 +76,7 @@
 "segs": [
 [
 "flustered",
-"Telefon numaramı da yazdım. Telefon hiç susmuyor!"
+"Telefon numarası da yazdım. Telefon susmuyor!"
 ]
 ]
 },
@@ -82,11 +84,7 @@
 "segs": [
 [
 "neutral",
-"Ver bakayım. Alo?"
-],
-[
-"annoyed",
-"Hayır abla, sarı kedi, sarı!"
+"Ver bakayım. Alo? Hayır, sarı kedi, sarı!"
 ]
 ]
 },
@@ -102,7 +100,7 @@
 "segs": [
 [
 "worried",
-"Eyvah! Ben sadece Patron'u istiyorum."
+"Eyvah! Ben sadece Patron’u bulmak istiyorum."
 ]
 ]
 },
@@ -110,7 +108,7 @@
 "segs": [
 [
 "gentle",
-"Ne oluyor burada? Aman, Patron'u uyandıracaksınız."
+"Burada ne oluyor? Aman, Patron’u uyandıracaksınız."
 ]
 ]
 },
@@ -118,7 +116,7 @@
 "segs": [
 [
 "surprised",
-"Ne?! Patron sizde mi? Üç gündür mü?"
+"Ne?! Patron sizin evde mi? Üç gündür mi?"
 ]
 ]
 },
@@ -126,7 +124,7 @@
 "segs": [
 [
 "cheerful",
-"Tabii. Zayıflamış, köfte verdim. Şimdi gitmek istemiyor."
+"Tabii. Zayıflamıştı, köfte verdim. Artık gitmiyor."
 ]
 ]
 },
@@ -134,7 +132,8 @@
 "segs": [
 [
 "teasing",
-"Beş yüz lira teyzenin. Köfte de benim."
+"500 lira teyzenin. Köfte benim.",
+"beş yüz lira teyzenin. Köfte benim."
 ]
 ]
 }

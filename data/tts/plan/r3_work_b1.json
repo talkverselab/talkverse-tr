@@ -11,7 +11,7 @@
 "segs": [
 [
 "polite",
-"Çayınız hocam. Yarın da getireyim mi?"
+"Çayınız efendim. Yarın da aynı saatte getireyim mi?"
 ]
 ]
 },
@@ -19,7 +19,7 @@
 "segs": [
 [
 "cheerful",
-"Yarın gerek yok amca. Ben işten ayrılıyorum."
+"Yarın istemem abi. Şirketten çıkıyorum çünkü."
 ]
 ]
 },
@@ -27,7 +27,7 @@
 "segs": [
 [
 "sad",
-"Aman hocam! Nasıl olur? Kimseye söylemem, merak etmeyin."
+"Aman efendim! Ne oldu öyle? Kimseye söylemem, rahat olun."
 ]
 ]
 },
@@ -35,7 +35,7 @@
 "segs": [
 [
 "neutral",
-"Söylenecek bir şey yok ki. Neyse, görüşürüz."
+"Anlatacak bir şey yok ki. Neyse, görüşürüz."
 ]
 ]
 },
@@ -43,7 +43,7 @@
 "segs": [
 [
 "surprised",
-"{name}, ne demek gidiyorsun? Ciddi misin? Neden bana söylemedin?"
+"{name}, çıkıyorsun derken? Ciddi misin? Neden bana söylemedin?"
 ]
 ]
 },
@@ -51,7 +51,7 @@
 "segs": [
 [
 "neutral",
-"Evet, gidiyorum. Ne oldu ki?"
+"Evet çıkıyorum. Niye ki?"
 ]
 ]
 },
@@ -59,7 +59,7 @@
 "segs": [
 [
 "sad",
-"“Ne oldu ki” mi? İki yıldır birlikte çalışıyoruz ya."
+"\"Niye\" mi? İki yıl yan yana çalıştık biz."
 ]
 ]
 },
@@ -67,7 +67,7 @@
 "segs": [
 [
 "stiff",
-"Ayrılma dilekçenizi bugün verir misiniz?"
+"İstifa formunu bugün verebilir misiniz?"
 ]
 ]
 },
@@ -75,11 +75,11 @@
 "segs": [
 [
 "surprised",
-"Ne dilekçesi?"
+"Ne formu?"
 ],
 [
 "flustered",
-"Bir dakika, ben bir şey vermiyorum!"
+"Bir dakika, ben hiçbir şey vermiyorum!"
 ]
 ]
 },
@@ -87,7 +87,8 @@
 "segs": [
 [
 "worried",
-"{name}, gitmeyin. Yüzde yirmi zam, tamam mı?"
+"{name}, gitmeyin lütfen. Yüzde 20 zam, ne dersiniz?",
+"{name}, gitmeyin lütfen. Yüzde yirmi zam, ne dersiniz?"
 ]
 ]
 },
@@ -95,7 +96,8 @@
 "segs": [
 [
 "flustered",
-"Yüzde yirmi mi? Şey, müdürüm, ben aslında…"
+"Yüzde 20 mi? Ben, müdürüm, aslında ben…",
+"Yüzde yirmi mi? Ben, müdürüm, aslında ben…"
 ]
 ]
 },
@@ -103,7 +105,8 @@
 "segs": [
 [
 "stiff",
-"Tamam, otuz. Bu son fiyat."
+"Peki, yüzde 30. Son teklifim bu.",
+"Peki, yüzde otuz. Son teklifim bu."
 ]
 ]
 },
@@ -111,7 +114,7 @@
 "segs": [
 [
 "cheerful",
-"Pasta geldi hocam. Son çaylar sizden, değil mi?"
+"Pasta geldi efendim. Son çayı siz ısmarlıyorsunuz, değil mi?"
 ]
 ]
 },
@@ -119,7 +122,7 @@
 "segs": [
 [
 "surprised",
-"Dur, dur… sen yarın nereye gidiyorsun aslında?"
+"Dur bir dakika… Yarın aslında nereye gidiyorsun?"
 ]
 ]
 },
@@ -127,7 +130,8 @@
 "segs": [
 [
 "teasing",
-"Dişçiye. Ama sessiz ol, zam otuz."
+"Dişçiye. Ama sessiz ol, zam yüzde 30.",
+"Dişçiye. Ama sessiz ol, zam yüzde otuz."
 ]
 ]
 }

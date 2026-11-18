@@ -34,67 +34,71 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Merhaba, çorabım balkonunuza düştü.",
-   "rd": "메르하바, 초라븜 발코누누자 뒤시튀.",
-   "ko": "안녕하세요, 제 양말이 댁 발코니에 떨어졌어요.",
-   "note": "çorap = 양말, balkon = 발코니",
+   "tl": "Merhaba efendim. Çorabım sizin balkona düştü galiba.",
+   "rd": "메르하바 에펜딤. 초라븜 시진 발코나 뒤시튀 갈리바.",
+   "ko": "안녕하세요. 제 양말이 댁 발코니에 떨어진 것 같아요.",
+   "note": "merhaba = 안녕하세요",
    "tags": [
     "expr:merhaba"
    ],
    "new": [
-    "çorap",
     "balkon"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Buyurun, girin. Hangisi?",
-   "rd": "부유룬, 기린. 한기시?",
+   "tl": "Buyurun lütfen. Hangisiydi?",
+   "rd": "부유룬 뤼트펜. 한기시이디?",
    "ko": "들어오세요. 어느 거요?",
-   "note": "hangisi = 어느 것",
+   "note": "buyurun = 들어오세요",
    "tags": [
     "expr:buyurun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Hangisi mi? Bir kırmızı çorap.",
-   "rd": "한기시 미? 비르 크르므즈 초랍.",
-   "ko": "어느 거냐고요? 빨간 양말 한 짝이요.",
-   "note": "kırmızı = 빨간",
+   "tl": "Şey... kırmızı tek çorap.",
+   "rd": "셰이... 크르므즈 텍 초랍.",
+   "ko": "저… 빨간 양말 한 짝이요.",
+   "note": "şey = 저…",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Burada üç çorap var.",
-   "rd": "부라다 위치 초랍 바르.",
+   "tl": "Burada üç tane çorap duruyor.",
+   "rd": "부라다 위치 타네 초랍 두루요르.",
    "ko": "여기 양말 세 짝 있는데요.",
    "note": "burada = 여기에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 5,
    "speaker": "A",
    "tl": "Üç mü? Gerçekten mi?",
    "rd": "위치 뮈? 게르첵텐 미?",
-   "ko": "세 짝요? 진짜요?",
-   "note": "gerçekten mi? = 진짜요?",
+   "ko": "세 짝이요? 진짜요?",
+   "note": "gerçekten mi = 진짜요",
    "tags": [
     "expr:gerçekten mi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Bir de pantolon var, bir de havlu.",
-   "rd": "비르 데 판톨론 바르, 비르 데 하블루.",
+   "tl": "Pantolon da var, havlu da.",
+   "rd": "판톨론 다 바르, 하블루 다.",
    "ko": "바지도 있고, 수건도 있어요.",
    "note": "havlu = 수건 — 반전",
    "tags": [
@@ -102,36 +106,38 @@
    ],
    "new": [
     "havlu"
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Eyvah! Hepsi benim mi?",
-   "rd": "에이바흐! 헵시 베님 미?",
+   "tl": "Eyvah! Bunların hepsi benim mi?",
+   "rd": "에이바흐! 분라른 헵시 베님 미?",
    "ko": "헉! 그게 다 제 거예요?",
-   "note": "hepsi = 전부",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Bu hafta rüzgâr çok. Buyurun.",
-   "rd": "부 하프타 뤼즈가르 촉. 부유룬.",
+   "tl": "Bu hafta rüzgar çok sertti. Buyurun.",
+   "rd": "부 하프타 뤼즈가르 촉 세르티. 부유룬.",
    "ko": "이번 주에 바람이 세네요. 여기요.",
    "note": "rüzgâr = 바람",
    "tags": [
     "expr:buyurun"
    ],
-   "new": [
-    "rüzgâr"
-   ]
+   "new": [],
+   "emotion": "gentle"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

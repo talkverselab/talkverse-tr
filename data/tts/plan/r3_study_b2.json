@@ -9,7 +9,7 @@
 "segs": [
 [
 "cheerful",
-"Hocadan yine mail geldi. Üç dakikada cevap yazdı."
+"Hocadan yine mail geldi. Üç dakikada cevap vermiş."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "worried",
-"Ama hoca hiç ortada yok. Garip, değil mi?"
+"Ama hoca ortada yok. Garip değil mi?"
 ]
 ]
 },
@@ -25,7 +25,8 @@
 "segs": [
 [
 "amused",
-"Evet. Kapıda hâlâ “Beş dakikaya dönerim” yazıyor."
+"Evet. Kapıda hâlâ “5 dakika sonra dönerim” yazıyor.",
+"Evet. Kapıda hâlâ “beş dakika sonra dönerim” yazıyor."
 ]
 ]
 },
@@ -33,7 +34,7 @@
 "segs": [
 [
 "neutral",
-"Mailde ne diyor peki? Yine aynı şey mi?"
+"Mailde ne diyor? Yine aynı şey mi?"
 ]
 ]
 },
@@ -41,7 +42,7 @@
 "segs": [
 [
 "cheerful",
-"“Kendinize iyi bakın, tezinizi perşembe getirin.” Çok kibar."
+"“Kendine dikkat et, tezi perşembe getir.” Çok tatlı yazmış."
 ]
 ]
 },
@@ -49,7 +50,7 @@
 "segs": [
 [
 "teasing",
-"Perşembe kime getireceksin? Kapıya mı?"
+"Perşembe kime götüreceğiz? Kapıya mı?"
 ]
 ]
 },
@@ -57,7 +58,7 @@
 "segs": [
 [
 "polite",
-"Hoş geldiniz. Tezinizi getirdiniz mi? Buraya bırakın, lütfen."
+"Hoş geldiniz. Tezi getirdiniz mi? Buraya bırakın."
 ]
 ]
 },
@@ -69,7 +70,7 @@
 ],
 [
 "worried",
-"Hocam okuyacak, değil mi?"
+"Hoca okuyacak, değil mi?"
 ]
 ]
 },
@@ -77,7 +78,8 @@
 "segs": [
 [
 "polite",
-"Hoca telefonda söyledi: üçüncü sayfada “de” ayrı yazılır."
+"Hoca telefonda söyledi. 3. sayfada “de” ayrı yazılacakmış.",
+"Hoca telefonda söyledi. üç. sayfada “de” ayrı yazılacakmış."
 ]
 ]
 },
@@ -85,7 +87,7 @@
 "segs": [
 [
 "surprised",
-"Bir dakika… o cümleyi dün mailde gördüm. Hocadan geldi!"
+"Bir dakika… o cümle dünkü maildeydi. Hoca göndermişti!"
 ]
 ]
 },
@@ -93,7 +95,7 @@
 "segs": [
 [
 "gentle",
-"Hoca bu dönem yurt dışında, canım. Mailleri o söylüyor, ben yazıyorum."
+"Hoca bu dönem yurt dışında. Mailleri hoca söylüyor, ben yazıyorum."
 ]
 ]
 },
@@ -101,7 +103,7 @@
 "segs": [
 [
 "surprised",
-"Ne?! Peki tezimi kim okuyacak?"
+"Ne?! O zaman tezimi kim okuyor?"
 ]
 ]
 },
@@ -109,7 +111,7 @@
 "segs": [
 [
 "polite",
-"Hoca okuyacak, merak etmeyin. Ben ona gönderiyorum."
+"Hoca okuyor, merak etmeyin. Ben gönderiyorum."
 ]
 ]
 },
@@ -117,7 +119,7 @@
 "segs": [
 [
 "surprised",
-"Yok artık. Bütün bölüm sizin sayenizde mi dönüyor?"
+"Yok artık. Bütün bölüm senin sayende mi dönüyor?"
 ]
 ]
 },
@@ -125,7 +127,7 @@
 "segs": [
 [
 "polite",
-"Beş dakikaya dönerim. Tezi masaya bırakın."
+"Beş dakika sonra dönerim canım. Tezi masaya bırakın."
 ]
 ]
 }

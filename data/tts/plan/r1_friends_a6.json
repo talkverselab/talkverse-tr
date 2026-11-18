@@ -8,7 +8,7 @@
 "segs": [
 [
 "worried",
-"Neyin var senin?"
+"Ne oldu sana?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "sad",
-"Bir şey yok. Boş ver."
+"Hiçbir şey. Boş ver."
 ]
 ]
 },
@@ -36,7 +36,7 @@
 "segs": [
 [
 "surprised",
-"Bu ne? Simitte mum mu var?"
+"Bu ne? Simite mum mu dikilmiş?"
 ]
 ]
 },
@@ -44,7 +44,7 @@
 "segs": [
 [
 "gentle",
-"İyi ki doğdun. Üç ay önce söyledin."
+"İyi ki doğdun. Üç ay önce söylemiştin."
 ]
 ]
 },
@@ -52,11 +52,7 @@
 "segs": [
 [
 "surprised",
-"Unutmadın mı?"
-],
-[
-"shy",
-"Ben ağlıyorum galiba."
+"Unutmamışsın? Ben… ağlıyorum galiba."
 ]
 ]
 },
@@ -68,7 +64,7 @@
 ],
 [
 "teasing",
-"Üfle hadi, ben yiyeceğim."
+"Üfle hadi, onu ben yiyeceğim."
 ]
 ]
 }

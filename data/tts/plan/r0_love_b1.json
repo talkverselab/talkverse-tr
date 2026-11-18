@@ -8,7 +8,7 @@
 "segs": [
 [
 "surprised",
-"Kahve bitti. Fincanı neden alıyorsun?"
+"Kahveyi bitirdim. Fincanı neden aldın?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "teasing",
-"Sus, falına bakıyorum."
+"Şşt, falına bakıyorum."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "excited",
-"Ee? Para var mı, para?"
+"Ee? Para var mı? Para?"
 ]
 ]
 },
@@ -48,11 +48,7 @@
 "segs": [
 [
 "surprised",
-"Dur, burada biri var."
-],
-[
-"amused",
-"Çok güzel."
+"Dur… burada biri var. Çok güzel."
 ]
 ]
 },
@@ -68,7 +64,7 @@
 "segs": [
 [
 "shy",
-"Bilmem… saçı benim gibi."
+"Bilmem… saçı benimki gibi."
 ]
 ]
 }

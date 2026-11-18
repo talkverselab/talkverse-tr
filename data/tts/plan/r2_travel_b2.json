@@ -8,7 +8,7 @@
 "segs": [
 [
 "gentle",
-"Hoş geldin, evladım. Hadi otur, çorba hazır."
+"Hoş geldin yavrum. Otur, çorba hazır."
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Elinize sağlık, teyze. Çok güzel kokuyor."
+"Elinize sağlık teyze. Koku çok güzel."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "polite",
-"Sağ olun. Bir tane yeter, gerçekten."
+"Teşekkürler. Bir tane yeter, gerçekten."
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "tsukkomi",
-"Bir tane ne demek? Hiç yemedin, al al."
+"Bir tane ne demek? Hiç yemedin, ye ye."
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "surprised",
-"Neyi duydun? Ben bir şey demedim ki."
+"Neyi duydun? Ben bir şey demedim."
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "flustered",
-"Yok, yok, duydum. Yani karnım…"
+"Hayır, hayır, duydum. Yani karnım…"
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "worried",
-"Hasta mısın? Geçmiş olsun, çorba iyi gelir."
+"Ağrıyor mu? Geçmiş olsun, çorba ilaçtır."
 ]
 ]
 },
@@ -80,7 +80,7 @@
 "segs": [
 [
 "shout",
-"Hayır, doydum! Evet, doydum, işte bu!"
+"Hayır, doydum! Evet, doydum, o kelime!"
 ]
 ]
 },
@@ -88,7 +88,7 @@
 "segs": [
 [
 "amused",
-"Ha, doydun mu? Olmaz, tatlı daha gelmedi."
+"Aa, doydun mu? Olmaz, tatlı daha gelmedi."
 ]
 ]
 },

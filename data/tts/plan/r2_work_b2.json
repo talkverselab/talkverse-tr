@@ -10,7 +10,7 @@
 "segs": [
 [
 "polite",
-"Hoş geldiniz hocam! Çay alır mısınız?"
+"Hoş geldiniz hocam! Çay ister misiniz?"
 ]
 ]
 },
@@ -18,7 +18,7 @@
 "segs": [
 [
 "polite",
-"Evet, lütfen. Emre'ye de bir çay."
+"Evet, lütfen. Emre’ye de bir tane."
 ]
 ]
 },
@@ -26,7 +26,7 @@
 "segs": [
 [
 "teasing",
-"Bugün ilk günün. Çaylar senden mi?"
+"İlk günün ya. Çaylar senden mi?"
 ]
 ]
 },
@@ -58,7 +58,7 @@
 "segs": [
 [
 "teasing",
-"Bu katta yirmi kişi var. Bina altı kat."
+"Bu katta yirmi kişi. Bina altı kat."
 ]
 ]
 },
@@ -66,7 +66,7 @@
 "segs": [
 [
 "excited",
-"Üçüncü kat da istiyor! Hocam, otuz çay daha!"
+"Üçüncü kat da istiyor! Hocam, otuz fincan daha!"
 ]
 ]
 },
@@ -74,7 +74,7 @@
 "segs": [
 [
 "cheerful",
-"Hoş geldiniz {name}, ne güzel düşünce! Ben de içeyim."
+"Hoş geldiniz {name}, güzel fikir! Ben de bir tane."
 ]
 ]
 },
@@ -82,7 +82,7 @@
 "segs": [
 [
 "worried",
-"Emre, bir çay ne kadar?"
+"Emre, bir çay kaç lira?"
 ]
 ]
 },
@@ -90,7 +90,7 @@
 "segs": [
 [
 "amused",
-"Bilmem. Hesap geldi, ona bak."
+"Bilmem. Hesap geldi, bak ona."
 ]
 ]
 },
@@ -98,7 +98,8 @@
 "segs": [
 [
 "polite",
-"Yüz yirmi yedi çay hocam. Yarın da devam mı?"
+"127 fincan hocam. Yarın da aynı mı?",
+"yüz yirmi yedi fincan hocam. Yarın da aynı mı?"
 ]
 ]
 }

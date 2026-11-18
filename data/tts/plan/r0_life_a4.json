@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Günaydın. Asansör ne zaman çalışır?"
+"Günaydın. Asansör ne zaman tamir olur?"
 ]
 ]
 },
@@ -28,7 +28,7 @@
 "segs": [
 [
 "tsukkomi",
-"Dün de 'yarın' dediniz."
+"Dün de yarın demiştiniz."
 ]
 ]
 },
@@ -36,7 +36,7 @@
 "segs": [
 [
 "neutral",
-"Doğru. Usta yarın geliyor."
+"Aynen. Usta yarın geliyor."
 ]
 ]
 },
@@ -44,7 +44,7 @@
 "segs": [
 [
 "annoyed",
-"Geçen hafta da aynı şeyi dediniz."
+"Geçen hafta da aynı şeyi söylediniz."
 ]
 ]
 },
@@ -60,7 +60,8 @@
 "segs": [
 [
 "shout",
-"Ben sekizinci kattayım!"
+"Ben 8. katta oturuyorum!",
+"Ben sekiz. katta oturuyorum!"
 ]
 ]
 },

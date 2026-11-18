@@ -12,7 +12,7 @@
  ],
  "title": "포크는 두 개",
  "emoji": "🍰",
- "scene": "디저트 가게, Elif 를 보다가 혼잣말한 tatlı 를 종업원이 주문으로 듣는다",
+ "scene": "디저트 가게, Elif를 보다가 혼잣말한 tatlı를 종업원이 주문으로 듣는다",
  "speakers": {
   "A": "{name}",
   "B": "Elif",
@@ -40,35 +40,38 @@
    "tl": "Buyurun, tatlı ister misiniz?",
    "rd": "부유룬, 타틀르 이스테르 미시니즈?",
    "ko": "네, 디저트 드릴까요?",
-   "note": "tatlı = 디저트, 달콤한, 귀여운",
+   "note": "buyurun = 네",
    "tags": [
     "expr:buyurun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Bence baklava. Sen ne istiyorsun?",
-   "rd": "벤제 바클라바. 센 네 이스티요르순?",
+   "tl": "Ben baklava. Sen ne yiyeceksin?",
+   "rd": "벤 바클라바. 센 네 이예젝신?",
    "ko": "난 바클라바. 넌 뭐 먹을래?",
-   "note": "bence = 내 생각엔",
+   "note": "baklava = 바클라바",
    "tags": [
     "expr:bence"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Bilmem… çok tatlı.",
-   "rd": "빌멤… 촉 타틀르.",
-   "ko": "글쎄… 너무 달콤해.",
-   "note": "Elif 를 보다가 나온 혼잣말",
+   "tl": "Bilmem, bence çok tatlı.",
+   "rd": "빌멤, 벤제 촉 타틀르.",
+   "ko": "글쎄, 내 생각엔 너무 달콤해.",
+   "note": "bence = 내 생각엔",
    "tags": [
     "expr:bilmem"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 4,
@@ -76,43 +79,56 @@
    "tl": "Hangisi tatlı? Baklava mı?",
    "rd": "한기시 타틀르? 바클라바 므?",
    "ko": "어느 쪽이 달콤해요? 바클라바요?",
-   "note": "hangisi = 어느 것",
+   "note": "hangisi = 어느 쪽",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Yok, yok, Elif. Eyvah!",
-   "rd": "욕, 욕, 엘리프. 에이바흐!",
-   "ko": "아뇨, 아뇨… Elif 요. 헉!",
-   "note": "반전: 입 밖으로 나와 버렸다",
+   "tl": "Yok yok… Elif. Eyvah!",
+   "rd": "욕 욕… 엘리프. 에이바흐!",
+   "ko": "아뇨 아뇨… Elif요. 헉!",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Ne? Ben mi tatlıyım?",
-   "rd": "네? 벤 미 타틀르이음?",
+   "tl": "Ne? Ben tatlı mıyım?",
+   "rd": "네? 벤 타틀르 므이음?",
    "ko": "뭐? 내가 달콤하다고?",
-   "note": "tatlıyım = 나는 달콤하다",
+   "note": "tatlı = 달콤한",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Ne?"
+    ],
+    [
+     "teasing",
+     "Ben tatlı mıyım?"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Şey… ben baklava demek istedim.",
-   "rd": "셰이… 벤 바클라바 데멕 이스테딤.",
+   "tl": "Şey… baklava diyecektim.",
+   "rd": "셰이… 바클라바 디예젝팀.",
    "ko": "저… 바클라바라고 하려던 거야.",
-   "note": "demek istedim = 말하려고 했다",
+   "note": "şey = 저",
    "tags": [
     "expr:şey"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 8,
@@ -120,17 +136,19 @@
    "tl": "Bir baklava, iki çatal lütfen.",
    "rd": "비르 바클라바, 이키 차탈 뤼트펜.",
    "ko": "바클라바 하나, 포크 두 개요.",
-   "note": "çatal = 포크",
+   "note": "lütfen = 요",
    "tags": [
     "expr:lütfen",
     "simkung"
    ],
    "new": [
     "çatal"
-   ]
+   ],
+   "emotion": "shy"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

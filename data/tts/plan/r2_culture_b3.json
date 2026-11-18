@@ -9,7 +9,7 @@
 "segs": [
 [
 "stiff",
-"Dükkâna giriyoruz. Sen hiç konuşma, ben hallederim."
+"Dükkana giriyoruz. Sen konuşma, ben hallederim."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "neutral",
-"Tamam. Sadece küçük bir halı istiyoruz, değil mi?"
+"Tamam. Küçük bir halı alıyoruz, değil mi?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "cheerful",
-"Hoş geldiniz! Buyurun, çay mı, kahve mi?"
+"Hoş geldiniz! Buyurun, çay mı kahve mi?"
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "surprised",
-"On bin mi? Çok pahalı, hadi {name}, gidiyoruz."
+"On bin mi? Çok pahalı, hadi {name}."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "excited",
-"Ama bakın, bu kırmızı olan… vay, çok güzel!"
+"Ama bu kırmızı... Vay, çok güzel!"
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "excited",
-"Çocuklar, bütün halıları açın! Misafir bu işi biliyor!"
+"Çocuklar, bütün halıları serin! Misafir bakmayı biliyor!"
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "flustered",
-"Hayır, bir dakika! Yerde yer kalmadı!"
+"Hayır, bir dakika! Yerde yer yok!"
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "excited",
-"İki halı yirmi bin! Üçüncüsü benden hediye!"
+"İkisine yirmi bin! Üçüncüsü hediye!"
 ]
 ]
 },
@@ -97,7 +97,7 @@
 "segs": [
 [
 "tsukkomi",
-"Tebrikler. Üç halın var ama yerin yok."
+"Tebrikler. Üç halı oldu, serilecek yer yok."
 ]
 ]
 }

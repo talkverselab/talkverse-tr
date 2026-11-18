@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Hoş geldiniz. Çay mı, kahve mi?"
+"Hoş geldiniz. Çay mı istersiniz, kahve mi?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Fark etmez, teşekkür ederim."
+"Fark etmez, teşekkürler."
 ]
 ]
 },
@@ -44,7 +44,7 @@
 "segs": [
 [
 "polite",
-"O zaman hızlı gidelim. Beş yıl sonra kendinizi nerede görüyorsunuz?"
+"O zaman hızlı geçelim. Beş yıl sonra nerede olursunuz?"
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "flustered",
-"Şey, burada? Bu sandalyede?"
+"Şey… burada mı? Bu sandalyede mi?"
 ]
 ]
 },
@@ -88,7 +88,7 @@
 "segs": [
 [
 "flustered",
-"Bir arkadaşım. Türkçesi çok iyi."
+"Arkadaşım. O gerçekten çok iyi Türkçe biliyor."
 ]
 ]
 },

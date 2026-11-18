@@ -34,42 +34,54 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hoş geldiniz! Ekmek ve süt, değil mi?",
-   "rd": "호시 겔디니즈! 엑멕 베 쉿, 데일 미?",
-   "ko": "어서 오세요! 빵이랑 우유 맞죠?",
-   "note": "değil mi? = 그렇죠?",
+   "tl": "Hoş geldiniz! Yine ekmekle süt mü bugün?",
+   "rd": "호시 겔디니즈! 이네 엑메클레 쉿 뮈 부귄?",
+   "ko": "어서 오세요! 오늘도 빵이랑 우유죠?",
+   "note": "hoş geldiniz = 어서 오세요",
    "tags": [
     "expr:hoş geldiniz"
    ],
    "new": [
     "süt"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Evet… Eyvah, param evde kaldı!",
-   "rd": "에벳… 에이바흐, 파람 에브데 칼드!",
-   "ko": "네… 헉, 돈을 집에 두고 왔어요!",
-   "note": "evde kaldı = 집에 두고 왔다",
+   "tl": "Evet... Eyvah, param evde kaldı!",
+   "rd": "에벳... 에이바흐, 파람 에브데 칼드!",
+   "ko": "네… 헉, 돈이 집에 두고 왔어요!",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Evet..."
+    ],
+    [
+     "flustered",
+     "Eyvah, param evde kaldı!"
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Sorun yok. Deftere yazıyorum, {name}.",
-   "rd": "소룬 욕. 데프테레 야즈요룸, {name}.",
-   "ko": "괜찮아요. 장부에 적어 둘게요, {name} 씨.",
-   "note": "defter = 공책, 외상 장부",
+   "tl": "Sorun yok efendim, deftere yazıyorum {name}.",
+   "rd": "소룬 욕 에펜딤, 데프테레 야즈요룸 {name}.",
+   "ko": "괜찮아요. 장부에 적어 둘게요, {name}.",
+   "note": "sorun yok = 괜찮아요",
    "tags": [
     "expr:sorun yok"
    ],
    "new": [
     "defter"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 4,
@@ -79,17 +91,19 @@
    "ko": "제 이름을 어떻게 아세요?",
    "note": "nereden = 어디서, 어떻게",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Teyze söyledi. Yemek yapmıyorsunuz, değil mi?",
-   "rd": "테이제 쇠일레디. 예멕 얍므요르수누즈, 데일 미?",
+   "tl": "Teyzeniz söylemişti. Yemek yapmıyorsunuz, değil mi?",
+   "rd": "테이제니즈 쇠일레미시티. 예멕 얍므요르수누즈, 데일 미?",
    "ko": "아주머니가 그러던데요. 요리 안 하시죠?",
    "note": "반전: 동네 소문이 빠르다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 6,
@@ -97,36 +111,49 @@
    "tl": "Yok artık! Başka ne biliyorsunuz?",
    "rd": "욕 아르특! 바시카 네 빌리요르수누즈?",
    "ko": "말도 안 돼! 또 뭘 아세요?",
-   "note": "başka ne = 또 뭐",
+   "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "tsukkomi",
+     "Yok artık!"
+    ],
+    [
+     "worried",
+     "Başka ne biliyorsunuz?"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Dün gece üç çikolata aldınız.",
-   "rd": "뒨 게제 위치 치콜라타 알드느즈.",
+   "tl": "Dün gece üç tane çikolata almıştınız.",
+   "rd": "뒨 게제 위치 타네 치콜라타 알므시트느즈.",
    "ko": "어젯밤에 초콜릿 세 개 사셨잖아요.",
    "note": "dün gece = 어젯밤",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Şey… onlar kedi için.",
-   "rd": "셰이… 온라르 케디 이친.",
+   "tl": "Şey... o kediye diye.",
+   "rd": "셰이... 오 케디예 디예.",
    "ko": "저… 그건 고양이 주려고요.",
-   "note": "kedi için = 고양이를 위해",
+   "note": "şey = 저…",
    "tags": [
     "expr:şey"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

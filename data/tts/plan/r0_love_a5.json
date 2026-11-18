@@ -17,7 +17,7 @@
 "segs": [
 [
 "cheerful",
-"Bence baklava. Sen ne istiyorsun?"
+"Ben baklava. Sen ne yiyeceksin?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "shy",
-"Bilmem… çok tatlı."
+"Bilmem, bence çok tatlı."
 ]
 ]
 },
@@ -41,11 +41,7 @@
 "segs": [
 [
 "flustered",
-"Yok, yok, Elif."
-],
-[
-"surprised",
-"Eyvah!"
+"Yok yok… Elif. Eyvah!"
 ]
 ]
 },
@@ -57,7 +53,7 @@
 ],
 [
 "teasing",
-"Ben mi tatlıyım?"
+"Ben tatlı mıyım?"
 ]
 ]
 },
@@ -65,7 +61,7 @@
 "segs": [
 [
 "flustered",
-"Şey… ben baklava demek istedim."
+"Şey… baklava diyecektim."
 ]
 ]
 },

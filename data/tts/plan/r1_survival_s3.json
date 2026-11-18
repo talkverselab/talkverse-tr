@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Buyurun, ne oldu?"
+"Buyurun, neresi ağrıyor?"
 ]
 ]
 },
@@ -44,11 +44,11 @@
 "segs": [
 [
 "surprised",
-"Hepsi bugün mü?"
+"Hepsini bugün mü?"
 ],
 [
 "polite",
-"Başka?"
+"Daha da mı?"
 ]
 ]
 },
@@ -56,11 +56,11 @@
 "segs": [
 [
 "flustered",
-"Şey…"
+"Şey..."
 ],
 [
 "shy",
-"şimdi de baklava."
+"şimdi baklava."
 ]
 ]
 },
@@ -68,11 +68,11 @@
 "segs": [
 [
 "surprised",
-"Allah allah!"
+"Allah Allah!"
 ],
 [
 "shout",
-"Bırakın o kutuyu!"
+"O kutuyu bırakın!"
 ]
 ]
 },
@@ -84,11 +84,11 @@
 ],
 [
 "cheerful",
-"Çok güzel…"
+"Çok lezzetli..."
 ],
 [
 "amused",
-"size de bir tane?"
+"Size de bir tane?"
 ]
 ]
 }

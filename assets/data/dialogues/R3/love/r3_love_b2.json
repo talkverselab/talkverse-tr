@@ -39,8 +39,8 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Elif, şu küçük halı çok güzel. Annem için alabilirim.",
-   "rd": "엘리프, 슈 퀴췩 할르 촉 귀젤. 안넴 이친 알라빌리림.",
+   "tl": "Elif, şu küçük halı gerçekten güzel. Anneme alsak iyi olur.",
+   "rd": "엘리프, 슈 퀴췩 할르 게르첵텐 귀젤. 안네메 알삭 이이 올루르.",
    "ko": "Elif, 저 작은 양탄자 진짜 예쁘다. 엄마 드리면 좋겠어.",
    "note": "halı = 양탄자",
    "tags": [
@@ -48,184 +48,235 @@
    ],
    "new": [
     "halı"
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Belli etme! Beğendiğini görürse fiyat hemen iki katına çıkar.",
-   "rd": "벨리 에트메! 베엔디이니 괴뤼르세 피얏 헤멘 이키 카트나 츠카르.",
+   "tl": "Belli etme! Beğendiğin görünürse fiyat hemen iki katına çıkar.",
+   "rd": "벨리 에트메! 베엔디인 괴뤼뉘르세 피얏 헤멘 이키 카트나 츠카르.",
    "ko": "티 내지 마! 마음에 든 거 보이면 값이 바로 두 배로 뛰어.",
-   "note": "belli etmek = 티 내다",
+   "note": "belli etme = 티 내지 마",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 3,
    "speaker": "C",
-   "tl": "Hoş geldiniz! Çay içer misiniz? Bu halı sadece on bin lira.",
-   "rd": "호시 겔디니즈! 차이 이체르 미시니즈? 부 할르 사데제 온 빈 리라.",
+   "tl": "Hoş geldiniz! Çay ister misiniz? Bu halı tam on bin lira.",
+   "rd": "호시 겔디니즈! 차이 이스테르 미시니즈? 부 할르 탐 온 빈 리라.",
    "ko": "어서 오세요! 차 드실래요? 이 양탄자 딱 만 리라입니다.",
-   "note": "on bin = 만",
+   "note": "hoş geldiniz = 어서 오세요",
    "tags": [
     "expr:hoş geldiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "On bin mi? Çok pahalı! Biraz indirim yapar mısınız, lütfen?",
-   "rd": "온 빈 미? 촉 파할르! 비라즈 인디림 야파르 므스느즈, 뤼트펜?",
+   "tl": "On bin lira mı? Çok pahalı! Biraz indirir misiniz lütfen?",
+   "rd": "온 빈 리라 므? 촉 파할르! 비라즈 인디리르 미시니즈 뤼트펜?",
    "ko": "만 리라요? 너무 비싸요! 좀 깎아 주실래요?",
-   "note": "indirim = 할인",
+   "note": "çok pahalı = 너무 비싸",
    "tags": [
     "expr:çok pahalı",
     "expr:lütfen"
    ],
-   "new": [
-    "indirim"
-   ]
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Hadi canım, on bin ne? Yan dükkânda bunun aynısı üç bin.",
-   "rd": "하디 자늠, 온 빈 네? 얀 뒤칸다 부눈 아이느스 위치 빈.",
+   "tl": "Hadi canım, on bin lira ne? Yan dükkanda aynısı üç bin.",
+   "rd": "하디 자늠, 온 빈 리라 네? 얀 뒤칸다 아이느스 위치 빈.",
    "ko": "에이 설마요, 만 리라가 뭐예요? 옆 가게엔 똑같은 게 3천이던데요.",
-   "note": "aynısı = 똑같은 것",
+   "note": "hadi canım = 에이 설마",
    "tags": [
     "expr:hadi canım"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "tsukkomi",
+     "Hadi canım, on bin lira ne?"
+    ],
+    [
+     "annoyed",
+     "Yan dükkanda aynısı üç bin."
+    ]
+   ]
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "Eşiniz çok sert, maşallah! Yeni evlilere özel fiyat yapalım mı?",
-   "rd": "에시니즈 촉 세르트, 마샬라흐! 예니 에블릴레레 외젤 피얏 야팔름 므?",
+   "tl": "Eşiniz çok sert, maşallah! Yeni evli indirimi yapayım mı?",
+   "rd": "에시니즈 촉 세르트, 마샬라흐! 예니 에블리 인디리미 야파이음 므?",
    "ko": "배우자분 정말 세시네요, 대단해요! 신혼부부 특가로 해 드릴까요?",
-   "note": "eş = 배우자(남녀 공통)",
+   "note": "maşallah = 대단해요",
    "tags": [
     "expr:maşallah"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "Eşiniz çok sert, maşallah!"
+    ],
+    [
+     "cheerful",
+     "Yeni evli indirimi yapayım mı?"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Eşim mi? Bir dakika, biz aslında…",
-   "rd": "에심 미? 비르 다키카, 비즈 아슬른다…",
+   "tl": "Eş mi? Bir dakika, biz aslında…",
+   "rd": "에시 미? 비르 다키카, 비즈 아슬른다…",
    "ko": "배우자요? 잠깐만요, 저희 사실…",
-   "note": "aslında = 사실은",
+   "note": "eş = 배우자",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Evet, yeni evliyiz. Ne kadar oluyor, söyleyin.",
-   "rd": "에벳, 예니 에블리이즈. 네 카다르 올루요르, 쇠일레인.",
+   "tl": "Evet, biz yeni evliyiz. Ne kadar yaparsınız?",
+   "rd": "에벳, 비즈 예니 에블리이즈. 네 카다르 야파르스느즈?",
    "ko": "네, 저희 신혼이에요. 얼마 해 주실 건데요?",
-   "note": "yeni evli = 신혼 — 반전: Elif 가 받아 버린다",
+   "note": "yeni evli = 신혼",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Yeni evliler! Çocuklar, çabuk gelin! Tatlı getirin, çay getirin!",
-   "rd": "예니 에블릴레르! 초주클라르, 차북 겔린! 타틀르 게티린, 차이 게티린!",
+   "tl": "Yeni evliymiş! Çocuklar, çabuk gelin! Tatlı getirin, çay getirin!",
+   "rd": "예니 에블리이미시! 초주클라르, 차북 겔린! 타틀르 게티린, 차이 게티린!",
    "ko": "신혼부부래! 얘들아, 빨리 와! 디저트 가져와, 차 가져와!",
    "note": "çabuk = 빨리",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Elif, herkes bize bakıyor! Şimdi ne diyeceğiz?",
-   "rd": "엘리프, 헤르케스 비제 바크요르! 심디 네 디예제이즈?",
+   "tl": "Elif, herkes bize bakıyor! Şimdi ne diyelim?",
+   "rd": "엘리프, 헤르케스 비제 바크요르! 심디 네 디옐림?",
    "ko": "Elif, 다들 우리 쳐다봐! 이제 뭐라고 해?",
-   "note": "ne diyeceğiz = 뭐라고 하지",
+   "note": "bakıyor = 쳐다봐",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 11,
    "speaker": "C",
-   "tl": "Düğün nerede oldu? Fotoğraf var mı? Hadi, görelim!",
-   "rd": "뒤윈 네레데 올두? 포토라프 바르 므? 하디, 괴렐림!",
+   "tl": "Düğün nerede oldu? Fotoğraf var mı? Hadi, gösterin!",
+   "rd": "뒤윈 네레데 올두? 포토라프 바르 므? 하디, 괴스테린!",
    "ko": "결혼식은 어디서 했어요? 사진 있어요? 어서, 봅시다!",
    "note": "düğün = 결혼식",
    "tags": [
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Şey… çok küçük bir düğündü. Sadece kedimiz vardı.",
-   "rd": "셰이… 촉 퀴췩 비르 뒤윈뒤. 사데제 케디미즈 바르드.",
+   "tl": "Şey… çok küçük bir düğündü. Sadece kedimiz geldi.",
+   "rd": "셰이… 촉 퀴췩 비르 뒤윈뒤. 사데제 케디미즈 겔디.",
    "ko": "저… 아주 작은 결혼식이었어요. 우리 고양이만 왔어요.",
-   "note": "kedimiz = 우리 고양이",
+   "note": "şey = 저…",
    "tags": [
     "expr:şey"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 13,
    "speaker": "C",
-   "tl": "Kediniz de mi var? Harika! Halıyı iki bine verdim gitti!",
-   "rd": "케디니즈 데 미 바르? 하리카! 할르이으 이키 비네 베르딤 기티!",
+   "tl": "Kedi de mi var? Harika! Halı iki bine, bitti!",
+   "rd": "케디 데 미 바르? 하리카! 할르 이키 비네, 비티!",
    "ko": "고양이도 있어요? 좋네요! 양탄자 2천에 드립니다, 끝!",
-   "note": "verdim gitti = 줘 버렸다",
+   "note": "harika = 좋네요",
    "tags": [
     "expr:harika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 14,
    "speaker": "A",
-   "tl": "Halıyı aldık, çıktık. Bu arada ne zaman evlendik biz?",
-   "rd": "할르이으 알득, 측특. 부 아라다 네 자만 에블렌딕 비즈?",
+   "tl": "Halıyı alıp çıktık. Bu arada biz ne zaman evlendik?",
+   "rd": "할르이으 알릅 측특. 부 아라다 비즈 네 자만 에블렌딕?",
    "ko": "양탄자 사서 나왔네. 그나저나 우리 언제 결혼했대?",
-   "note": "bu arada = 그나저나",
+   "note": "çıktık = 나왔네",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "Halıyı alıp çıktık."
+    ],
+    [
+     "teasing",
+     "Bu arada biz ne zaman evlendik?"
+    ]
+   ]
   },
   {
    "num": 15,
    "speaker": "B",
-   "tl": "Bilmem ki. Ama \"eşim\" demek hoşuma gitti.",
-   "rd": "빌멤 키. 아마 \"에심\" 데멕 호슈마 기티.",
+   "tl": "Bilmem ki. Ama “eşin” dediğinde güzel oldu.",
+   "rd": "빌멤 키. 아마 에신 데디인데 귀젤 올두.",
    "ko": "글쎄. 근데 「내 짝」이라고 말하니까 좋던데.",
-   "note": "hoşuma gitti = 마음에 들었다",
+   "note": "bilmem ki = 글쎄",
    "tags": [
     "expr:bilmem ki",
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 16,
    "speaker": "A",
-   "tl": "Hadi, kedi bulalım. Yalan olmasın.",
-   "rd": "하디, 케디 불랄름. 얄란 올마슨.",
+   "tl": "Hadi, kediyi bulmaya gidelim. Yalan olmasın.",
+   "rd": "하디, 케디이 불마야 기델림. 얄란 올마슨.",
    "ko": "자, 고양이 찾으러 가자. 거짓말이 되면 안 되잖아.",
    "note": "yalan = 거짓말",
    "tags": [
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Hadi, kediyi bulmaya gidelim."
+    ],
+    [
+     "shy",
+     "Yalan olmasın."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

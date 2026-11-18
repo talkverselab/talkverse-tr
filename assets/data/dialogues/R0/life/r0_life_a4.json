@@ -13,7 +13,7 @@
  ],
  "title": "내일의 엘리베이터",
  "emoji": "🛗",
- "scene": "고장 난 엘리베이터, 관리인 Kapıcı 의 대답은 언제나 하나뿐",
+ "scene": "고장 난 엘리베이터, 관리인 Kapıcı의 대답은 언제나 하나뿐",
  "speakers": {
   "A": "{name}",
   "B": "Kapıcı"
@@ -32,16 +32,17 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Günaydın. Asansör ne zaman çalışır?",
-   "rd": "귀나이든. 아산쇠르 네 자만 찰르시르?",
-   "ko": "좋은 아침이에요. 엘리베이터 언제 돼요?",
-   "note": "asansör = 엘리베이터",
+   "tl": "Günaydın. Asansör ne zaman tamir olur?",
+   "rd": "귀나이든. 아산쇠르 네 자만 타미르 올루르?",
+   "ko": "좋은 아침이에요. 엘리베이터 언제 고쳐져요?",
+   "note": "günaydın = 좋은 아침",
    "tags": [
     "expr:günaydın"
    ],
    "new": [
     "asansör"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 2,
@@ -53,39 +54,52 @@
    "tags": [
     "expr:günaydın"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Günaydın."
+    ],
+    [
+     "neutral",
+     "Yarın."
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Dün de 'yarın' dediniz.",
-   "rd": "뒨 데 야른 데디니즈.",
-   "ko": "어제도 '내일'이라고 하셨잖아요.",
-   "note": "dediniz = 말씀하셨다",
+   "tl": "Dün de yarın demiştiniz.",
+   "rd": "뒨 데 야른 데미시티니즈.",
+   "ko": "어제도 내일이라고 하셨잖아요.",
+   "note": "demiştiniz = 하셨잖아요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "tsukkomi"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Doğru. Usta yarın geliyor.",
-   "rd": "도루. 우스타 야른 겔리요르.",
+   "tl": "Aynen. Usta yarın geliyor.",
+   "rd": "아이넨. 우스타 야른 겔리요르.",
    "ko": "맞아요. 기사가 내일 와요.",
-   "note": "usta = 기사, 장인",
+   "note": "aynen = 맞아요",
    "tags": [],
    "new": [
     "usta"
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Geçen hafta da aynı şeyi dediniz.",
-   "rd": "게첸 하프타 다 아이느 셰이 데디니즈.",
+   "tl": "Geçen hafta da aynı şeyi söylediniz.",
+   "rd": "게첸 하프타 다 아이느 셰이 쇠일레디니즈.",
    "ko": "지난주에도 똑같이 말씀하셨어요.",
-   "note": "aynı şey = 같은 것",
+   "note": "aynı şeyi = 똑같은 걸",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 6,
@@ -93,21 +107,23 @@
    "tl": "Aynen. Yarın.",
    "rd": "아이넨. 야른.",
    "ko": "그렇죠. 내일요.",
-   "note": "aynen = 그대로, 맞아",
+   "note": "aynen = 그렇죠",
    "tags": [
     "expr:aynen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Ben sekizinci kattayım!",
-   "rd": "벤 세키진지 카타이음!",
+   "tl": "Ben 8. katta oturuyorum!",
+   "rd": "벤 8. 카타 오투루요룸!",
    "ko": "저 8층에 산다고요!",
-   "note": "sekizinci kat = 8층",
+   "note": "8. katta = 8층에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 8,
@@ -115,14 +131,16 @@
    "tl": "Kolay gelsin.",
    "rd": "콜라이 겔신.",
    "ko": "수고하세요.",
-   "note": "kolay gelsin = 수고하세요 — 반전: 그냥 넘긴다",
+   "note": "kolay gelsin = 수고하세요",
    "tags": [
     "expr:kolay gelsin"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

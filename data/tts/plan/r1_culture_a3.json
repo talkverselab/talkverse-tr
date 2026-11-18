@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Dur! Çantana bir şey takıyorum."
+"Dur! Çantana bir şey takacağım."
 ]
 ]
 },
@@ -20,7 +20,7 @@
 ],
 [
 "neutral",
-"Mavi bir göz mü?"
+"Mavi göz mü?"
 ]
 ]
 },
@@ -32,7 +32,7 @@
 ],
 [
 "gentle",
-"Seni nazardan korur."
+"Kötü bakışlardan korur."
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "gentle",
-"Biri sana çok bakar, sonra başın ağrır."
+"Biri sana çok bakarsa başın ağrır."
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "teasing",
-"Kim bana çok bakıyor?"
+"Kim bana öyle bakıyor?"
 ]
 ]
 },
@@ -76,7 +76,7 @@
 "segs": [
 [
 "teasing",
-"Maşallah de o zaman!"
+"O zaman maşallah de!"
 ]
 ]
 }

@@ -14,7 +14,7 @@
  ],
  "title": "여섯 잔",
  "emoji": "🍵",
- "scene": "Can 의 카페, 그만 달라는데 차가 계속 나온다",
+ "scene": "Can의 카페, 그만 달라는데 차가 계속 나온다",
  "speakers": {
   "A": "{name}",
   "B": "Can"
@@ -34,87 +34,110 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Bir çay daha?",
-   "rd": "비르 차이 다하?",
-   "ko": "차 한 잔 더?",
-   "note": "bir ~ daha = ~ 하나 더",
+   "tl": "Bir çay daha gelsin mi?",
+   "rd": "비르 차이 다하 겔신 미?",
+   "ko": "차 한 잔 더 줄까?",
+   "note": "gelsin mi = 줄까",
    "tags": [],
    "new": [
     "çay"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Yok, sağ ol. Yeter.",
-   "rd": "욕, 사 올. 예테르.",
-   "ko": "아니, 고마워. 됐어.",
-   "note": "yeter = 충분해",
+   "tl": "Yok ya, sağ ol. Yetti.",
+   "rd": "욕 야, 사 올. 예티.",
+   "ko": "아니야, 고마워. 충분해.",
+   "note": "sağ ol = 고마워",
    "tags": [
     "expr:sağ ol"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Buyur, taze çay.",
-   "rd": "부유르, 타제 차이.",
-   "ko": "자, 갓 끓인 차.",
-   "note": "taze = 신선한",
+   "tl": "Buyur, yeni demledim.",
+   "rd": "부유르, 예니 뎀레딤.",
+   "ko": "여기, 방금 우려냈어.",
+   "note": "buyur = 여기",
    "tags": [
     "expr:buyur"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Can, bu altıncı çay! Neden veriyorsun?",
-   "rd": "잔, 부 알튼즈 차이! 네덴 베리요르순?",
-   "ko": "잔, 이거 여섯 잔째야! 왜 자꾸 줘?",
+   "tl": "Altıncı bardak bu! Neden hâlâ veriyorsun?",
+   "rd": "알튼즈 바르닥 부! 네덴 할라 베리요르순?",
+   "ko": "여섯 잔째야 이거! 왜 계속 주냐?",
    "note": "altıncı = 여섯 번째",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Altıncı bardak bu!"
+    ],
+    [
+     "annoyed",
+     "Neden hâlâ veriyorsun?"
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Kaşığı bardağın üstüne koymadın ki.",
-   "rd": "카시으 바르다은 위스튀네 코이마든 키.",
-   "ko": "스푼을 잔 위에 안 올렸잖아.",
-   "note": "kaşık = 스푼 — 반전: 스푼을 잔 위에 얹어야 그만이다",
+   "tl": "Kaşığı üstüne koymadın ya.",
+   "rd": "카시으 위스튀네 코이마든 야.",
+   "ko": "숟가락을 위에 안 올렸잖아.",
+   "note": "kaşığı = 숟가락을",
    "tags": [],
-   "new": [
-    "kaşık",
-    "bardak"
-   ]
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Ne alaka? Kaşık ne demek?",
-   "rd": "네 알라카? 카식 네 데멕?",
-   "ko": "뭔 소리야? 스푼이 무슨 뜻인데?",
-   "note": "ne demek = 무슨 뜻이야",
+   "tl": "Ne alaka şimdi? Kaşık ne demek?",
+   "rd": "네 알라카 심디? 카식 네 데멕?",
+   "ko": "지금 뭔 상관이야? 숟가락이 무슨 뜻인데?",
+   "note": "ne alaka = 뭔 상관",
    "tags": [
     "expr:ne alaka",
     "expr:ne demek"
    ],
-   "new": []
+   "new": [],
+   "emotion": "tsukkomi"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Yeter demek. Altı çay, hesap sende.",
-   "rd": "예테르 데멕. 알트 차이, 헤삽 센데.",
-   "ko": "「그만」이란 뜻. 여섯 잔, 계산은 네가.",
-   "note": "hesap sende = 계산은 네가",
+   "tl": "\"Yeter\" demek. Altı tane, hesap sende.",
+   "rd": "\"예테르\" 데멕. 알트 타네, 헤삽 센데.",
+   "ko": "\"그만\"이란 뜻. 여섯 개, 계산은 네가.",
+   "note": "yeter = 그만",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "\"Yeter\" demek."
+    ],
+    [
+     "teasing",
+     "Altı tane, hesap sende."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

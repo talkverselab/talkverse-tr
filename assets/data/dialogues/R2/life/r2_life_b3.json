@@ -36,127 +36,180 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Hoş geldiniz, usta. Kombi su akıtıyor.",
-   "rd": "호시 겔디니즈, 우스타. 콤비 수 아크트요르.",
-   "ko": "어서 오세요, 기사님. 보일러에서 물이 새요.",
-   "note": "usta = 기사님(호칭)",
+   "tl": "Hoş geldiniz usta, kombiden su sızıyor.",
+   "rd": "호시 겔디니즈 우스타, 콤비덴 수 스즈요르.",
+   "ko": "어서 오세요 기사님, 보일러에서 물이 새요.",
+   "note": "hoş geldiniz = 어서 오세요",
    "tags": [
     "expr:hoş geldiniz"
    ],
-   "new": [
-    "akıtmak"
-   ]
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Hoş bulduk. Önemli değil, on dakikalık iş.",
-   "rd": "호시 불둑. 외넴리 데일, 온 다키칼륵 이시.",
-   "ko": "네, 반갑습니다. 별거 아니에요, 10분이면 끝나요.",
-   "note": "on dakikalık = 10분짜리",
+   "tl": "Hoş bulduk. Önemli değil, on dakikaya biter.",
+   "rd": "호시 불둑. 외넴리 데일, 온 다키카야 비테르.",
+   "ko": "잘 오셨어요. 별거 아니에요, 10분이면 끝나요.",
+   "note": "hoş bulduk = 잘 오셨어요; önemli değil = 별거 아니에요",
    "tags": [
     "expr:önemli değil",
     "expr:hoş bulduk"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Hoş bulduk."
+    ],
+    [
+     "cheerful",
+     "Önemli değil, on dakikaya biter."
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Harika. Çay ister misiniz?",
-   "rd": "하리카. 차이 이스테르 미시니즈?",
+   "tl": "Harika o zaman. Çay ister misiniz?",
+   "rd": "하리카 오 자만. 차이 이스테르 미시니즈?",
    "ko": "잘됐네요. 차 드실래요?",
-   "note": "ister misiniz? = 드실래요?",
+   "note": "harika = 잘됐어요",
    "tags": [
     "expr:harika"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Harika o zaman."
+    ],
+    [
+     "polite",
+     "Çay ister misiniz?"
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "B",
    "tl": "Olur. Bir dakika, bu parça burada yok.",
    "rd": "올루르. 비르 다키카, 부 파르차 부라다 욕.",
-   "ko": "좋죠. 잠깐만요, 이 부품이 여기 없네요.",
-   "note": "parça = 부품",
+   "ko": "좋아요. 잠깐만요, 이 부품이 여기 없네요.",
+   "note": "olur = 좋아요; bir dakika = 잠깐만요",
    "tags": [
     "expr:bir dakika",
     "expr:olur"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Olur."
+    ],
+    [
+     "stiff",
+     "Bir dakika, bu parça burada yok."
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Yani ne oldu? Sorun mu var?",
-   "rd": "야니 네 올두? 소룬 무 바르?",
-   "ko": "그래서 어떻게 됐어요? 문제 있어요?",
-   "note": "ne oldu = 무슨 일이에요",
+   "tl": "Eee, ne oldu şimdi? Sorun mu var?",
+   "rd": "에에에, 네 올두 심디? 소룬 무 바르?",
+   "ko": "어, 어떻게 됐어요? 문제 있어요?",
+   "note": "eee = 어",
    "tags": [
     "expr:ne oldu",
     "expr:yani"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Sorun yok. Kuzenimi çağırıyorum, o bilir.",
-   "rd": "소룬 욕. 쿠제니미 차으르요룸, 오 빌리르.",
+   "tl": "Sorun yok. Kuzeni çağırayım, o bilir.",
+   "rd": "소룬 욕. 쿠제니 차으라이음, 오 빌리르.",
    "ko": "문제없어요. 사촌 부를게요, 걔가 알아요.",
-   "note": "kuzen = 사촌",
+   "note": "sorun yok = 문제없어요",
    "tags": [
     "expr:sorun yok"
    ],
    "new": [
     "kuzen"
+   ],
+   "segs": [
+    [
+     "neutral",
+     "Sorun yok."
+    ],
+    [
+     "cheerful",
+     "Kuzeni çağırayım, o bilir."
+    ]
    ]
   },
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Merhaba. Usta, bu parça eski model.",
-   "rd": "메르하바. 우스타, 부 파르차 에스키 모델.",
+   "tl": "Merhaba. Abi, bu parça eski modelmiş ya.",
+   "rd": "메르하바. 아비, 부 파르차 에스키 모델미시 야.",
    "ko": "안녕하세요. 형님, 이 부품 옛날 모델이에요.",
-   "note": "eski model = 옛날 모델 — 반전",
+   "note": "eski model = 옛 모델",
    "tags": [
     "expr:merhaba"
    ],
    "new": [
     "model"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Eski mi? Yani bugün bitmiyor mu?",
-   "rd": "에스키 미? 야니 부귄 비트미요르 무?",
+   "tl": "Eski mi? Bugün bitmez o zaman?",
+   "rd": "에스키 미? 부귄 비트메즈 오 자만?",
    "ko": "옛날 거요? 그럼 오늘 안 끝나요?",
-   "note": "bitmek = 끝나다",
+   "note": "eski = 옛날 거",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Bugün olmaz. Amcamda var, onu arayalım.",
-   "rd": "부귄 올마즈. 암잠다 바르, 오누 아라얄름.",
+   "tl": "Bugün olmaz. Amcamda var, arayayım.",
+   "rd": "부귄 올마즈. 암잠다 바르, 아라야이음.",
    "ko": "오늘은 안 돼요. 삼촌한테 있어요, 전화해 보죠.",
-   "note": "amcamda = 우리 삼촌한테",
+   "note": "bugün olmaz = 오늘은 안 돼",
    "tags": [
     "expr:olmaz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Kaç kişi geleceksiniz? Kombi ne olacak?",
-   "rd": "카치 키시 겔레젝시니즈? 콤비 네 올라작?",
+   "tl": "Kaç kişi gelecek peki? Kombi ne olacak?",
+   "rd": "카치 키시 겔레젝 페키? 콤비 네 올라작?",
    "ko": "몇 분이나 오세요? 보일러는 어떻게 돼요?",
-   "note": "geleceksiniz = 오실 거다",
+   "note": "kaç kişi = 몇 명",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "worried",
+     "Kaç kişi gelecek peki?"
+    ],
+    [
+     "annoyed",
+     "Kombi ne olacak?"
+    ]
+   ]
   },
   {
    "num": 11,
@@ -168,23 +221,26 @@
    "tags": [
     "callback:r0_life_a4"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Çay şekerli olsun, lütfen.",
-   "rd": "차이 셰케를리 올순, 뤼트펜.",
+   "tl": "Çaya şeker koyar mısınız?",
+   "rd": "차야 셰케르 코야르 므스느즈?",
    "ko": "차는 설탕 넣어 주세요.",
-   "note": "şekerli = 설탕 넣은",
+   "note": "şeker = 설탕",
    "tags": [
     "expr:lütfen",
     "expr:olsun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

@@ -10,7 +10,7 @@
 "segs": [
 [
 "teasing",
-"{name}, sana önemli bir görev veriyorum. Tepsiyi sen tutacaksın."
+"{name}, sana önemli bir görev vereceğim. Tepsiyi sen tut."
 ]
 ]
 },
@@ -18,7 +18,7 @@
 "segs": [
 [
 "neutral",
-"Ne tepsisi? Üstünde yüzükler ve makas var, değil mi?"
+"Ne tepsisi? Üstünde yüzük ve makas olan, değil mi?"
 ]
 ]
 },
@@ -26,7 +26,7 @@
 "segs": [
 [
 "neutral",
-"Aynen. Yüzükler kırmızı bir kurdeleyle bağlı. Dede konuşur, sonra keser."
+"Aynen. Yüzük kırmızı kurdeleyle bağlı. Dede konuştuktan sonra kesecek."
 ]
 ]
 },
@@ -34,7 +34,7 @@
 "segs": [
 [
 "cheerful",
-"Tamam, çok kolay. Ben sadece tutuyorum, hiçbir şeye dokunmuyorum."
+"Tamam, kolay. Ben sadece tutarım, hiçbir şeye dokunmam."
 ]
 ]
 },
@@ -42,7 +42,7 @@
 "segs": [
 [
 "cheerful",
-"Değerli misafirler! İki aile bugün çok mutlu. Size bir şey anlatayım."
+"Değerli misafirler! İki aile bugün çok mutlu. Bir hikaye anlatayım."
 ]
 ]
 },
@@ -50,6 +50,7 @@
 "segs": [
 [
 "amused",
+"Şimdi uzun konuşacak, 20 dakika sürer. Kolun ağrıyor mu?",
 "Şimdi uzun konuşacak, yirmi dakika sürer. Kolun ağrıyor mu?"
 ]
 ]
@@ -74,7 +75,7 @@
 "segs": [
 [
 "shout",
-"Eyvah! Kesildi! Elif, kurdele kesildi!"
+"Eyvah! Kesti! Elif, kurdele kesti!"
 ]
 ]
 },
@@ -82,7 +83,7 @@
 "segs": [
 [
 "shout",
-"Aman! Kim kesti? Dede daha bitirmedi ki!"
+"Eyvah! Kim kesti? Dede daha bitirmedi!"
 ]
 ]
 },
@@ -90,7 +91,7 @@
 "segs": [
 [
 "surprised",
-"Ne oldu? Neden herkes alkışlıyor? Ben daha konuşacaktım!"
+"Ne oluyor? Neden alkışlıyorlar? Daha konuşmam bitmedi!"
 ]
 ]
 },
@@ -98,7 +99,7 @@
 "segs": [
 [
 "flustered",
-"Kusura bakmayın! Kurdeleyi yeniden bağlayalım, tekrar kesersiniz!"
+"Kusura bakmayın! Kurdeleyi tekrar bağlarım, yine kesersiniz!"
 ]
 ]
 },
@@ -106,7 +107,7 @@
 "segs": [
 [
 "worried",
-"Bağlayamazsın, yüzükler yere düştü. Biri masanın altına gitti."
+"Bağlanmaz, yüzük yere düştü. Biri masanın altına gitti."
 ]
 ]
 },
@@ -114,7 +115,7 @@
 "segs": [
 [
 "shout",
-"Herkes dursun! Kimse hareket etmesin, yüzük yerde!"
+"Herkes durun! Kimse kıpırdamasın, yüzük yerde!"
 ]
 ]
 },
@@ -122,7 +123,7 @@
 "segs": [
 [
 "annoyed",
-"Neyse. Konuşmam bitmedi. Hepiniz oturun, yeniden başlıyorum."
+"Neyse. Konuşmam bitmedi. Herkes otursun, baştan başlıyorum."
 ]
 ]
 },
@@ -130,7 +131,8 @@
 "segs": [
 [
 "tsukkomi",
-"Eline sağlık, {name}. Şimdi kırk dakika."
+"Aferin {name}. Şimdi 40 dakika.",
+"Aferin {name}. Şimdi kırk dakika."
 ]
 ]
 }

@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Fincanı ver. Falına bakacağım."
+"Hadi ver fincanı, falına bakayım."
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "excited",
-"Para var mı? Aşk var mı?"
+"Ne var? Para mı, aşk mı?"
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "teasing",
-"Para yok. Bir harf var: E."
+"Para yok. Bir harf var ama... E."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "surprised",
-"E mi? Emre mi?"
+"E? Emre mi?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "tsukkomi",
-"Hayır!"
+"Yok!"
 ],
 [
 "gentle",
@@ -60,11 +60,11 @@
 "segs": [
 [
 "annoyed",
-"Of, E diyorum {name}."
+"Of {name}, E diyorum."
 ],
 [
 "shy",
-"Bir düşün."
+"Düşün biraz."
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "cheerful",
-"Emre'yi mi arayayım?"
+"Emre'ye mi arasam?"
 ]
 ]
 }

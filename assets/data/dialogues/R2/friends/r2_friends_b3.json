@@ -43,31 +43,34 @@
    "tags": [],
    "new": [
     "acil"
-   ]
+   ],
+   "emotion": "flustered"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Hayırdır? Kafandaki ne, köpük mü?",
-   "rd": "하이으르드르? 카판다키 네, 쾨퓍 뮈?",
+   "tl": "Hayırdır? Başındaki o ne, köpük mü?",
+   "rd": "하이으르드르? 바신다키 오 네, 쾨퓍 뮈?",
    "ko": "무슨 일이야? 머리에 그거 뭐야, 거품이야?",
-   "note": "köpük = 거품",
+   "note": "hayırdır = 무슨 일이야",
    "tags": [
     "expr:hayırdır"
    ],
    "new": [
     "köpük"
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Duştaydım, sular kesildi. Gözüm yanıyor!",
-   "rd": "두시타이듬, 술라르 케실디. 괴쥠 야느요르!",
+   "tl": "Duştayken su kesildi. Gözlerim yanıyor!",
+   "rd": "두시타이켄 수 케실디. 괴즐레림 야느요르!",
    "ko": "샤워 중이었는데 물이 끊겼어. 눈 따가워!",
    "note": "sular kesildi = 물이 끊겼다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 4,
@@ -75,21 +78,23 @@
    "tl": "Aman! Sokakta böyle mi geldin?",
    "rd": "아만! 소칵타 뵈일레 미 겔딘?",
    "ko": "아이고! 길에서 그러고 왔어?",
-   "note": "böyle = 이렇게",
+   "note": "aman = 아이고",
    "tags": [
     "expr:aman"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Evet. Üst komşu da kapıyı açmadı.",
-   "rd": "에벳. 위스트 콤슈 다 카프이으 아치마드.",
+   "tl": "Evet. Üst kat da kapıyı açmadı.",
+   "rd": "에벳. 위스트 캇 다 카프이으 아치마드.",
    "ko": "응. 윗집도 문을 안 열어 줬어.",
    "note": "üst komşu = 윗집",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 6,
@@ -97,46 +102,50 @@
    "tl": "Dur, çay suyu var. Ama sıcak.",
    "rd": "두르, 차이 수유 바르. 아마 스작.",
    "ko": "잠깐, 찻물은 있어. 근데 뜨거워.",
-   "note": "çay suyu = 찻물",
+   "note": "dur = 잠깐",
    "tags": [
     "expr:dur"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Olmaz, soğuk su yok mu? Şişesi kaç lira?",
-   "rd": "올마즈, 소욱 수 욕 무? 시셰시 카치 리라?",
+   "tl": "Olmaz, soğuk su yok mu? Bir şişe ne kadar?",
+   "rd": "올마즈, 소욱 수 욕 무? 비르 시셰 네 카다르?",
    "ko": "안 돼, 찬물 없어? 한 병에 얼마야?",
-   "note": "kaç lira = 얼마",
+   "note": "olmaz = 안 돼",
    "tags": [
     "expr:olmaz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Bir dakika. Bak, kapıda köpüklü iki kişi daha.",
-   "rd": "비르 다키카. 박, 카프다 쾨퓌클뤼 이키 키시 다하.",
+   "tl": "Bir dakika. Bak, kapıda iki köpük kafa daha.",
+   "rd": "비르 다키카. 박, 카프다 이키 쾨퓍 카파 다하.",
    "ko": "잠깐만. 봐, 문앞에 거품 머리 두 명 더 왔어.",
-   "note": "köpüklü = 거품 묻은 — 반전",
+   "note": "bir dakika = 잠깐만",
    "tags": [
     "expr:bir dakika",
     "expr:bak"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Üst komşu! O da mı köpüklü?",
-   "rd": "위스트 콤슈! 오 다 므 쾨퓌클뤼?",
+   "tl": "Üst kat o! Onların da köpüğü var mı?",
+   "rd": "위스트 캇 오! 온라른 다 쾨퓌위 바르 므?",
    "ko": "윗집이잖아! 저분도 거품이야?",
    "note": "o da mı = 저 사람도?",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 10,
@@ -146,22 +155,34 @@
    "ko": "얘야, 물 있니? 온 동네가 끊겼어.",
    "note": "mahalle = 동네",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Tamam, sıraya girin. Şişesi elli lira.",
-   "rd": "타맘, 스라야 기린. 시셰시 엘리 리라.",
+   "tl": "Buyurun, sıraya girin. Bir şişe elli lira.",
+   "rd": "부유룬, 스라야 기린. 비르 시셰 엘리 리라.",
    "ko": "자, 줄 서세요. 한 병에 50리라입니다.",
    "note": "sıraya girmek = 줄 서다",
    "tags": [
     "expr:tamam"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Buyurun, sıraya girin."
+    ],
+    [
+     "teasing",
+     "Bir şişe elli lira."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

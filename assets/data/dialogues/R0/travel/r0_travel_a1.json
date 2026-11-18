@@ -32,50 +32,54 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Bir şey ister misiniz? Çay, su?",
-   "rd": "비르 셰이 이스테르 미시니즈? 차이, 수?",
+   "tl": "Ne istersiniz? Çay, su?",
+   "rd": "네 이스테르시니즈? 차이, 수?",
    "ko": "뭐 드릴까요? 차, 물?",
-   "note": "ister misiniz? = 드릴까요?",
+   "note": "ne istersiniz = 뭐 드릴까요",
    "tags": [
     "form:-er misiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Kola, lütfen.",
-   "rd": "콜라, 뤼트펜.",
+   "tl": "Kola lütfen.",
+   "rd": "콜라 뤼트펜.",
    "ko": "콜라 주세요.",
-   "note": "kola = 콜라",
+   "note": "lütfen = 주세요",
    "tags": [
     "expr:lütfen"
    ],
    "new": [
     "kola"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Tabii. Elinizi açın.",
-   "rd": "타비이. 엘리니지 아츤.",
+   "tl": "Tabii. Elinizi açın lütfen.",
+   "rd": "타비이. 엘리니지 아츤 뤼트펜.",
    "ko": "네. 손 펴 주세요.",
-   "note": "açın = 펴세요",
+   "note": "tabii = 네",
    "tags": [
     "expr:tabii"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Elimi mi? Neden?",
-   "rd": "엘리미 미? 네덴?",
+   "tl": "Elim mi? Neden?",
+   "rd": "엘림 미? 네덴?",
    "ko": "손이요? 왜요?",
-   "note": "elimi = 내 손을",
+   "note": "elim = 손",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -83,23 +87,34 @@
    "tl": "Buyurun, kolonya.",
    "rd": "부유룬, 콜론야.",
    "ko": "여기요, 콜로냐입니다.",
-   "note": "kolonya = 레몬 향 손 향수(버스 필수품) — 반전",
+   "note": "buyurun = 여기요",
    "tags": [
     "expr:buyurun"
    ],
    "new": [
     "kolonya"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Hayır! Kola dedim, içmek için!",
-   "rd": "하이으르! 콜라 데딤, 이치멕 이친!",
+   "tl": "Hayır! Kola demiştim, içmek için!",
+   "rd": "하이으르! 콜라 데미시팀, 이치멕 이친!",
    "ko": "아니요! 콜라라고 했어요, 마시려고요!",
-   "note": "dedim = 말했다",
+   "note": "hayır = 아니요",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "shout",
+     "Hayır!"
+    ],
+    [
+     "tsukkomi",
+     "Kola demiştim, içmek için!"
+    ]
+   ]
   },
   {
    "num": 7,
@@ -107,25 +122,37 @@
    "tl": "Aman, içmeyin! Su ister misiniz?",
    "rd": "아만, 이치메인! 수 이스테르 미시니즈?",
    "ko": "어머, 마시지 마세요! 물 드릴까요?",
-   "note": "içmeyin = 마시지 마세요",
+   "note": "aman = 어머",
    "tags": [
     "expr:aman",
     "form:-meyin"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Aman, içmeyin!"
+    ],
+    [
+     "polite",
+     "Su ister misiniz?"
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Su mu? Emin misiniz?",
-   "rd": "수 무? 에민 미시니즈?",
+   "tl": "Su mu gerçekten? Emin misiniz?",
+   "rd": "수 무 게르첵텐? 에민 미시니즈?",
    "ko": "물 맞아요? 확실해요?",
-   "note": "emin misiniz? = 확실해요?",
+   "note": "emin misiniz = 확실해요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

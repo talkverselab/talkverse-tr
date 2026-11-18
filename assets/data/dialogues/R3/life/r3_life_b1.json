@@ -39,31 +39,34 @@
    "tl": "Can, Patron üç gündür yok. İlan yazdım, bak.",
    "rd": "잔, 파트론 위치 귄뒤르 욕. 일란 야즈듬, 박.",
    "ko": "칸, 파트론이 사흘째 안 보여. 전단 썼어, 봐.",
-   "note": "ilan = 공고, 전단",
+   "note": "ilan = 전단",
    "tags": [],
    "new": [
     "ilan"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "'Büyük kedi, bulana beş yüz lira.' Beş yüz mü? Çıldırdın mı?",
-   "rd": "뷔윅 케디, 불라나 베시 위즈 리라. 베시 위즈 뮈? 츨드르든 므?",
+   "tl": "‘Büyük kedi, bulana 500 lira.’ 500? Deli misin?",
+   "rd": "뷔윅 케디, 불라나 500 리라. 500? 델리 미신?",
    "ko": "'큰 고양이, 찾으면 500리라.' 500? 미쳤어?",
-   "note": "bulana = 찾는 사람에게",
+   "note": "deli = 미친",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Ne yapayım? Çok merak ediyorum. Sen de bakar mısın?",
-   "rd": "네 야파이음? 촉 메락 에디요룸. 센 데 바카르 므슨?",
+   "tl": "Ne yapayım? Çok endişeleniyorum. Sen de bakar mısın?",
+   "rd": "네 야파이음? 촉 엔디셸레니요룸. 센 데 바카르 므슨?",
    "ko": "어떡해? 너무 걱정돼. 너도 찾아봐 줄래?",
-   "note": "merak etmek = 걱정하다, 궁금하다",
+   "note": "endişeleniyorum = 걱정돼",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 4,
@@ -71,73 +74,80 @@
    "tl": "Tamam, ama hazır ol. Bu mahalle parayı çok sever.",
    "rd": "타맘, 아마 하즈르 올. 부 마할레 파라이으 촉 세베르.",
    "ko": "알았어, 근데 각오해. 이 동네는 돈을 아주 좋아해.",
-   "note": "hazır ol = 준비해",
+   "note": "tamam = 알았어",
    "tags": [
     "expr:tamam"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "{name}, kapıda bir çocuk var. Elinde kedi, para istiyor.",
-   "rd": "{name}, 카프다 비르 초죽 바르. 엘린데 케디, 파라 이스티요르.",
+   "tl": "{name} bey, kapıda çocuk var. Kedi tutuyor, para istiyor.",
+   "rd": "{name} 베이, 카프다 초죽 바르. 케디 투투요르, 파라 이스티요르.",
    "ko": "{name} 씨, 문 앞에 애가 있어요. 고양이를 들고, 돈 달래요.",
-   "note": "elinde = 손에",
+   "note": "kapıda = 문 앞에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Patron mu? Bu kedi siyah ya! Patron sarı.",
-   "rd": "파트론 무? 부 케디 시야흐 야! 파트론 사르.",
+   "tl": "Patron mu? Bu kedi siyah! Patron sarı.",
+   "rd": "파트론 무? 부 케디 시야흐! 파트론 사르.",
    "ko": "파트론이에요? 이 고양이는 까맣잖아요! 파트론은 노란색이고요.",
-   "note": "siyah = 검은, sarı = 노란",
+   "note": "sarı = 노란",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Bir çocuk daha geldi. Onun kedisi de beyaz. Merdivende sıra var.",
-   "rd": "비르 초죽 다하 겔디. 오눈 케디시 데 베야즈. 메르디벤데 스라 바르.",
+   "tl": "Çocuk yine geldi. Onun kedisi de beyaz. Merdivende sıra var.",
+   "rd": "초죽 이네 겔디. 오눈 케디시 데 베야즈. 메르디벤데 스라 바르.",
    "ko": "애가 또 왔어요. 그 애 고양이도 하얘요. 계단에 줄 섰어요.",
-   "note": "sıra = 줄 — 반전",
+   "note": "sıra = 줄",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Beş yüz lira yazınca böyle olur, kanka. Herkes kedi getirir.",
-   "rd": "베시 위즈 리라 야즌자 뵈일레 올루르, 칸카. 헤르케스 케디 게티리르.",
+   "tl": "500 lira yazınca böyle olur kanka. Herkes kedi getiriyor.",
+   "rd": "500 리라 야즌자 뵈일레 올루르 칸카. 헤르케스 케디 게티리요르.",
    "ko": "500리라라고 쓰면 이렇게 돼, 친구야. 다들 고양이 들고 와.",
-   "note": "-ınca = ~하면, ~하자",
+   "note": "kanka = 친구야",
    "tags": [
     "expr:kanka"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Telefon numaramı da yazdım. Telefon hiç susmuyor!",
-   "rd": "텔레폰 누마라므 다 야즈듬. 텔레폰 히치 수스무요르!",
+   "tl": "Telefon numarası da yazdım. Telefon susmuyor!",
+   "rd": "텔레폰 누마라스 다 야즈듬. 텔레폰 수스무요르!",
    "ko": "전화번호도 썼거든. 전화가 쉬지를 않아!",
-   "note": "susmamak = 멈추지 않다",
+   "note": "susmuyor = 안 멈춰",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 10,
    "speaker": "B",
-   "tl": "Ver bakayım. Alo? Hayır abla, sarı kedi, sarı!",
-   "rd": "베르 바카이음. 알로? 하이으르 아블라, 사르 케디, 사르!",
+   "tl": "Ver bakayım. Alo? Hayır, sarı kedi, sarı!",
+   "rd": "베르 바카이음. 알로? 하이으르, 사르 케디, 사르!",
    "ko": "줘 봐. 여보세요? 아니요, 노란 고양이요, 노란!",
-   "note": "ver bakayım = 줘 봐",
+   "note": "alo = 여보세요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 11,
@@ -145,69 +155,76 @@
    "tl": "İki kedi binaya girdi. Komşular bana kızıyor.",
    "rd": "이키 케디 비나야 기르디. 콤슐라르 바나 크즈요르.",
    "ko": "고양이 두 마리가 건물에 들어왔어요. 이웃들이 저한테 화내요.",
-   "note": "kızmak = 화내다",
+   "note": "kızıyor = 화내요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Eyvah! Ben sadece Patron'u istiyorum.",
-   "rd": "에이바흐! 벤 사데제 파트로누 이스티요룸.",
+   "tl": "Eyvah! Ben sadece Patron’u bulmak istiyorum.",
+   "rd": "에이바흐! 벤 사데제 파트로누 불막 이스티요룸.",
    "ko": "헉! 난 그냥 파트론만 찾으면 되는데.",
-   "note": "sadece = 그냥, ~만",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 13,
    "speaker": "D",
-   "tl": "Ne oluyor burada? Aman, Patron'u uyandıracaksınız.",
-   "rd": "네 올루요르 부라다? 아만, 파트로누 우얀드라작스느즈.",
+   "tl": "Burada ne oluyor? Aman, Patron’u uyandıracaksınız.",
+   "rd": "부라다 네 올루요르? 아만, 파트로누 우얀드라작스느즈.",
    "ko": "여기 왜 이래? 아이고, 파트론 깨우겠다.",
-   "note": "uyandırmak = 깨우다",
+   "note": "aman = 아이고",
    "tags": [
     "expr:aman",
     "callback:r1_life_c1"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 14,
    "speaker": "A",
-   "tl": "Ne?! Patron sizde mi? Üç gündür mü?",
-   "rd": "네?! 파트론 시즈데 미? 위치 귄뒤르 뮈?",
+   "tl": "Ne?! Patron sizin evde mi? Üç gündür mi?",
+   "rd": "네?! 파트론 시진 에브데 미? 위치 귄뒤르 미?",
    "ko": "네?! 파트론이 아주머니 댁에 있어요? 사흘째요?",
-   "note": "sizde = 댁에",
+   "note": "evde = 집에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 15,
    "speaker": "D",
-   "tl": "Tabii. Zayıflamış, köfte verdim. Şimdi gitmek istemiyor.",
-   "rd": "타비이. 자이으플라므시, 쾨프테 베르딤. 심디 기트멕 이스테미요르.",
+   "tl": "Tabii. Zayıflamıştı, köfte verdim. Artık gitmiyor.",
+   "rd": "타비이. 자이으플라므시트, 쾨프테 베르딤. 아르특 기트미요르.",
    "ko": "그럼. 살이 빠졌길래 쾨프테를 줬지. 이제 가려고를 안 해.",
-   "note": "zayıflamak = 살이 빠지다",
+   "note": "tabii = 그럼",
    "tags": [
     "expr:tabii"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 16,
    "speaker": "B",
-   "tl": "Beş yüz lira teyzenin. Köfte de benim.",
-   "rd": "베시 위즈 리라 테이제닌. 쾨프테 데 베님.",
+   "tl": "500 lira teyzenin. Köfte benim.",
+   "rd": "500 리라 테이제닌. 쾨프테 베님.",
    "ko": "500리라는 이모 거네. 쾨프테는 내 거고.",
-   "note": "teyzenin = 이모의",
+   "note": "köfte = 쾨프테",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

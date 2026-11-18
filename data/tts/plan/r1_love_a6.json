@@ -17,7 +17,7 @@
 "segs": [
 [
 "polite",
-"Öne mi? Tabii, buyurun."
+"Öne mi? Buyurun."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "polite",
-"Bunu da lütfen. İki kişi!"
+"Bunu da. İki kişi!"
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "flustered",
-"Tamam… bir dakika, bir dakika!"
+"Evet… Bir dakika, bir dakika!"
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "shout",
-"Arkadan yüz lira var! Üstü sizde!"
+"Arkadan yüz lira! Para üstü size!"
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "surprised",
-"Aa, durağım! Siz inmiyor musunuz?"
+"Aaa, benim durak! İnmiyor musunuz?"
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "shy",
-"Aslında üç durak önce… neyse, görüşürüz!"
+"Aslında üç durak önceydi… Neyse. Görüşürüz!"
 ]
 ]
 }

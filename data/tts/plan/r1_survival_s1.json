@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Hoş geldiniz! Simit, değil mi?"
+"Hoş geldiniz! Simit mi alacaksınız?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Evet, evet. Bir simit, lütfen."
+"Evet, evet. Bir simit lütfen."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "flustered",
-"Evet… şey, evet."
+"Evet... şey, evet."
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "flustered",
-"Evet, evet, evet… Bir dakika!"
+"Evet, evet, evet... Bir dakika!"
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "worried",
-"Ne kadar? Ben sadece simit…"
+"Ne kadar? Ben sadece simit istemiştim..."
 ]
 ]
 }

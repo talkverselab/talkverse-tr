@@ -35,12 +35,13 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Bir çay daha, yavrum?",
-   "rd": "비르 차이 다하, 야브룸?",
+   "tl": "Bir çay daha alırsın?",
+   "rd": "비르 차이 다하 알르르슨?",
    "ko": "차 한 잔 더 하렴?",
-   "note": "yavrum = 얘야",
+   "note": "alırsın = 하렴",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 2,
@@ -48,22 +49,24 @@
    "tl": "Yok, teşekkür ederim. Üç bardak içtim.",
    "rd": "욕, 테셰퀴르 에데림. 위치 바르닥 이치팀.",
    "ko": "아뇨, 고맙습니다. 세 잔 마셨어요.",
-   "note": "bardak = 잔",
+   "note": "teşekkür ederim = 고맙습니다",
    "tags": [
     "expr:teşekkür ederim",
     "expr:yok"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Küçük bardak, yavrum. Al bakalım.",
-   "rd": "퀴췩 바르닥, 야브룸. 알 바칼름.",
+   "tl": "Bardak küçük ya canım. Al, al.",
+   "rd": "바르닥 퀴췩 야 자늠. 알, 알.",
    "ko": "잔이 작잖니, 얘야. 자, 받아.",
-   "note": "al bakalım = 자, 받아",
+   "note": "küçük = 작아",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 4,
@@ -71,21 +74,21 @@
    "tl": "Zeynep, bu nasıl bitecek?",
    "rd": "제이넵, 부 나슬 비테젝?",
    "ko": "Zeynep, 이거 어떻게 끝나?",
-   "note": "bitecek = 끝날 것이다",
+   "note": "nasıl = 어떻게",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Kaşığı bardağın üstüne koy. Bitti demek.",
-   "rd": "카시으 바르다은 위스튀네 코이. 비티 데멕.",
+   "tl": "Kaşığı bardağın üstüne koy. \"Yeter\" demek.",
+   "rd": "카시으 바르다은 위스튀네 코이. \"예테르\" 데멕.",
    "ko": "숟가락을 잔 위에 올려. 그만이라는 뜻이야.",
-   "note": "kaşık = 숟가락",
+   "note": "kaşığı = 숟가락을",
    "tags": [],
-   "new": [
-    "kaşık"
-   ]
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 6,
@@ -93,22 +96,33 @@
    "tl": "Tamam, koydum. Hadi bakalım.",
    "rd": "타맘, 코이둠. 하디 바칼름.",
    "ko": "좋아, 올렸어. 자, 보자.",
-   "note": "koydum = 놓았다",
+   "note": "tamam = 좋아",
    "tags": [
     "expr:tamam",
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Aa, kaşık düşecek! Al, yeni bardak.",
-   "rd": "아아, 카식 뒤셰젝! 알, 예니 바르닥.",
+   "tl": "Ay, kaşık düşecek! Al, yeni bardak.",
+   "rd": "아이, 카식 뒤셰젝! 알, 예니 바르닥.",
    "ko": "어머, 숟가락 떨어지겠다! 자, 새 잔.",
-   "note": "düşecek = 떨어지겠다 — 반전",
+   "note": "ay = 어머",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Ay, kaşık düşecek!"
+    ],
+    [
+     "gentle",
+     "Al, yeni bardak."
+    ]
+   ]
   },
   {
    "num": 8,
@@ -120,10 +134,12 @@
    "tags": [
     "expr:ne yapalım"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

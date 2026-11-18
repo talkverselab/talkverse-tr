@@ -9,11 +9,7 @@
 "segs": [
 [
 "polite",
-"Hoş geldiniz, usta."
-],
-[
-"worried",
-"Kombi su akıtıyor."
+"Hoş geldiniz usta, kombiden su sızıyor."
 ]
 ]
 },
@@ -25,7 +21,7 @@
 ],
 [
 "cheerful",
-"Önemli değil, on dakikalık iş."
+"Önemli değil, on dakikaya biter."
 ]
 ]
 },
@@ -33,7 +29,7 @@
 "segs": [
 [
 "cheerful",
-"Harika."
+"Harika o zaman."
 ],
 [
 "polite",
@@ -57,7 +53,7 @@
 "segs": [
 [
 "worried",
-"Yani ne oldu? Sorun mu var?"
+"Eee, ne oldu şimdi? Sorun mu var?"
 ]
 ]
 },
@@ -69,7 +65,7 @@
 ],
 [
 "cheerful",
-"Kuzenimi çağırıyorum, o bilir."
+"Kuzeni çağırayım, o bilir."
 ]
 ]
 },
@@ -77,7 +73,7 @@
 "segs": [
 [
 "worried",
-"Merhaba. Usta, bu parça eski model."
+"Merhaba. Abi, bu parça eski modelmiş ya."
 ]
 ]
 },
@@ -85,7 +81,7 @@
 "segs": [
 [
 "worried",
-"Eski mi? Yani bugün bitmiyor mu?"
+"Eski mi? Bugün bitmez o zaman?"
 ]
 ]
 },
@@ -93,7 +89,7 @@
 "segs": [
 [
 "neutral",
-"Bugün olmaz. Amcamda var, onu arayalım."
+"Bugün olmaz. Amcamda var, arayayım."
 ]
 ]
 },
@@ -101,7 +97,7 @@
 "segs": [
 [
 "worried",
-"Kaç kişi geleceksiniz?"
+"Kaç kişi gelecek peki?"
 ],
 [
 "annoyed",
@@ -121,7 +117,7 @@
 "segs": [
 [
 "polite",
-"Çay şekerli olsun, lütfen."
+"Çaya şeker koyar mısınız?"
 ]
 ]
 }

@@ -9,7 +9,7 @@
 "segs": [
 [
 "cheerful",
-"Hey, aşağıdaki! Yeni komşu sen misin?"
+"Aşağı bak! Yeni komşu sen misin?"
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "cheerful",
-"Evet, benim! Bu sepet ne?"
+"Evet, benim! Bu sepet ne ya?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "teasing",
-"İçinde not var. Oku, cevap yaz, gönder."
+"İçinde not var. Oku, cevap yaz gönder."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "amused",
-"Bak: \"Akşam çay içelim mi?\" Olur, yazıyorum."
+"Bakayım. “Akşam çay?” Olur, yazıyorum."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "excited",
-"Evladım, sepet bende! \"Olur\" yazıyor, ne olur?"
+"Yavrum, sepet bana geldi! “Olur” yazıyor, ne olur?"
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "flustered",
-"Teyze, lütfen! O sepet bana gelecek!"
+"Teyze, lütfen! O sepet bana gelsin!"
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "excited",
-"Aa, çay mı? Ben de gelirim, börek yaptım!"
+"Ay, çay mı? Ben de geliyorum, börek yaptım!"
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "excited",
-"Üst kat da geliyor! Bütün bina çay içecek!"
+"Üst kat da geliyormuş! Bütün bina çay içecek!"
 ]
 ]
 },
@@ -85,7 +85,7 @@
 ],
 [
 "shy",
-"Ben seninle baş başa içmek istemiştim."
+"Ben seninle baş başa içmek istiyordum."
 ]
 ]
 },
@@ -93,7 +93,7 @@
 "segs": [
 [
 "gentle",
-"Sepet geldi. \"Yarın, sadece ikimiz.\""
+"Sepet geldi. “Yarın, sadece ikimiz.”"
 ]
 ]
 },
@@ -101,7 +101,7 @@
 "segs": [
 [
 "cheerful",
-"Okudum! Olur, ben de gelirim!"
+"Okudum! Olur, ben de geliyorum!"
 ]
 ]
 }

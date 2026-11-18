@@ -9,7 +9,7 @@
 "segs": [
 [
 "surprised",
-"Bu koku ne?"
+"Bu koku ne ya?"
 ],
 [
 "annoyed",
@@ -33,7 +33,7 @@
 ],
 [
 "teasing",
-"Bu arada, soğanlı mı?"
+"Bu arada, soğan koydun mu?"
 ]
 ]
 },
@@ -41,11 +41,11 @@
 "segs": [
 [
 "neutral",
-"Tabii ki soğanlı."
+"Tabii ki soğan koydum."
 ],
 [
 "annoyed",
-"Ne var?"
+"Neden?"
 ]
 ]
 },
@@ -53,7 +53,7 @@
 "segs": [
 [
 "surprised",
-"Soğanlı menemen mi? Ciddi misin?"
+"Soğanlı menemen? Ciddi misin?"
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "shout",
-"Arkadaşlar! Burada soğanlı menemen var!"
+"Çocuklar! Burada soğanlı menemen var!"
 ]
 ]
 },
@@ -93,11 +93,11 @@
 "segs": [
 [
 "amused",
-"Yarısı soğanlı, yarısı soğansız diyor."
+"Yarısı soğan tarafı, yarısı soğansız."
 ],
 [
 "worried",
-"Kavga başladı."
+"Kavga çıktı."
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "flustered",
-"Ben yaptım."
+"Ben."
 ],
 [
 "worried",
@@ -125,7 +125,7 @@
 "segs": [
 [
 "stiff",
-"Soğanlı mı?"
+"Soğan koydun mu?"
 ],
 [
 "annoyed",

@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Merhaba, çorabım balkonunuza düştü."
+"Merhaba efendim. Çorabım sizin balkona düştü galiba."
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Buyurun, girin. Hangisi?"
+"Buyurun lütfen. Hangisiydi?"
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "surprised",
-"Hangisi mi? Bir kırmızı çorap."
+"Şey... kırmızı tek çorap."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "neutral",
-"Burada üç çorap var."
+"Burada üç tane çorap duruyor."
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "amused",
-"Bir de pantolon var, bir de havlu."
+"Pantolon da var, havlu da."
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah! Hepsi benim mi?"
+"Eyvah! Bunların hepsi benim mi?"
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "gentle",
-"Bu hafta rüzgâr çok. Buyurun."
+"Bu hafta rüzgar çok sertti. Buyurun."
 ]
 ]
 }

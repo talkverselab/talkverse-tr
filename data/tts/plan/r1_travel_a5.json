@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Hoş geldiniz. Kese istiyorsunuz, değil mi?"
+"Hoş geldiniz. Kese mi yaptıracaksınız?"
 ]
 ]
 },
@@ -16,11 +16,7 @@
 "segs": [
 [
 "polite",
-"Evet, ama yavaş lütfen."
-],
-[
-"worried",
-"İlk kez."
+"Evet. Ama yavaş lütfen. İlk kez."
 ]
 ]
 },
@@ -32,7 +28,7 @@
 ],
 [
 "neutral",
-"Başlıyorum."
+"Başlıyoruz."
 ]
 ]
 },
@@ -56,7 +52,7 @@
 "segs": [
 [
 "worried",
-"Ya normali nasıl?"
+"O zaman normali nasıl?"
 ]
 ]
 },
@@ -64,7 +60,7 @@
 "segs": [
 [
 "teasing",
-"Görmek ister misiniz?"
+"Göstereyim mi?"
 ]
 ]
 },
@@ -76,7 +72,7 @@
 ],
 [
 "flustered",
-"Bu çok güzel, harika!"
+"Bu harika, en iyisi!"
 ]
 ]
 }

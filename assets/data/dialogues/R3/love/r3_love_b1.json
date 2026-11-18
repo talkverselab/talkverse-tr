@@ -39,39 +39,42 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Bak, şu dondurmacı. Dondurmayı eline alabilirsen sana bir şey söyleyeceğim.",
-   "rd": "박, 슈 돈두르마즈. 돈두르마이으 엘리네 알라빌리르센 사나 비르 셰이 쇠일레예제임.",
+   "tl": "Bak, şu dondurmacı amca. Dondurmayı eline alırsan sana diyeceğim bir şey var.",
+   "rd": "박, 슈 돈두르마즈 암자. 돈두르마이으 엘리네 알르르산 사나 디예제임 비르 셰이 바르.",
    "ko": "봐, 저 아이스크림 아저씨. 아이스크림 손에 넣으면 너한테 할 말이 있어.",
-   "note": "dondurma = 아이스크림",
+   "note": "bak = 봐",
    "tags": [
     "expr:bak"
    ],
    "new": [
     "dondurma"
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Bu kadar mı? Çok kolay. Bir dakikada alırım.",
-   "rd": "부 카다르 므? 촉 콜라이. 비르 다키카다 알르름.",
+   "tl": "Hepsi bu mu? Kolay. Bir dakikada alırım.",
+   "rd": "헵시 부 무? 콜라이. 비르 다키카다 알르름.",
    "ko": "그게 다야? 쉽네. 1분이면 받아.",
-   "note": "bu kadar mı = 그게 다야?",
+   "note": "kolay = 쉬운",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 3,
    "speaker": "C",
-   "tl": "Hoş geldiniz! Buyurun, dondurmanız. Alın, alın lütfen.",
-   "rd": "호시 겔디니즈! 부유룬, 돈두르마느즈. 알른, 알른 뤼트펜.",
+   "tl": "Hoş geldiniz! Buyurun, dondurma. Alın, çabuk.",
+   "rd": "호시 겔디니즈! 부유룬, 돈두르마. 알른, 차북.",
    "ko": "어서 오세요! 여기요, 아이스크림. 받으세요, 어서요.",
-   "note": "alın = 받으세요",
+   "note": "hoş geldiniz = 어서 오세요; buyurun = 여기요",
    "tags": [
     "expr:hoş geldiniz",
     "expr:buyurun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 4,
@@ -79,71 +82,77 @@
    "tl": "Teşekkürler… nereye gitti? Elimde sadece külah var!",
    "rd": "테셰퀴를레르… 네레예 기티? 엘림데 사데제 퀼라흐 바르!",
    "ko": "감사합니다… 어디 갔어? 내 손엔 콘만 있어요!",
-   "note": "külah = 아이스크림콘",
+   "note": "külah = 콘",
    "tags": [
     "expr:teşekkürler"
    ],
    "new": [
     "külah"
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Külah güzel, değil mi? Afiyet olsun efendim!",
-   "rd": "퀼라흐 귀젤, 데일 미? 아피옛 올순 에펜딤!",
+   "tl": "Külah güzel, değil mi? Afiyet olsun, misafir!",
+   "rd": "퀼라흐 귀젤, 데일 미? 아피옛 올순, 미사피르!",
    "ko": "콘 좋죠? 맛있게 드세요, 손님!",
    "note": "afiyet olsun = 맛있게 드세요",
    "tags": [
     "expr:afiyet olsun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Ben söyledim sana. Bu iş kolay değil, hadi bir daha dene.",
-   "rd": "벤 쇠일레딤 사나. 부 이시 콜라이 데일, 하디 비르 다하 데네.",
+   "tl": "Demiştim. Kolay değil, hadi bir daha dene.",
+   "rd": "데미시팀. 콜라이 데일, 하디 비르 다하 데네.",
    "ko": "내가 말했지. 쉬운 일 아니야, 자, 다시 해 봐.",
    "note": "dene = 해 봐",
    "tags": [
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Tamam, şimdi iki elimle alacağım. Ciddiyim, çok ciddiyim.",
-   "rd": "타맘, 심디 이키 엘림레 알라자음. 지디임, 촉 지디임.",
+   "tl": "Tamam, bu sefer iki elle alacağım. Ciddiyim, tamamen ciddi.",
+   "rd": "타맘, 부 세페르 이키 엘레 알라자음. 지디임, 타마멘 지디.",
    "ko": "좋아, 이번엔 두 손으로 받을 거야. 진심이야, 완전 진심.",
-   "note": "ciddiyim = 나 진심이야",
+   "note": "ciddiyim = 진심이야",
    "tags": [
     "expr:tamam"
    ],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Aa, şapkanız düştü! Şaka şaka, buyurun dondurmanız… yok, burada!",
-   "rd": "아아, 샵카느즈 뒤시튀! 샤카 샤카, 부유룬 돈두르마느즈… 욕, 부라다!",
+   "tl": "Ay, şapka düştü! Şaka şaka, işte dondurma… yok, burada!",
+   "rd": "아이, 샵카 뒤시튀! 샤카 샤카, 이시테 돈두르마… 욕, 부라다!",
    "ko": "어, 모자 떨어졌어요! 농담이에요, 여기 아이스크림… 없네, 여기 있네!",
    "note": "şaka şaka = 농담이에요",
    "tags": [
     "expr:şaka şaka"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Neden herkes telefonla çekiyor? Elif, bu kalabalık nereden çıktı?",
-   "rd": "네덴 헤르케스 텔레폰라 체키요르? 엘리프, 부 칼라발륵 네레덴 측트?",
+   "tl": "Neden herkes telefonla çekiyor? Elif, bu insanlar nereden çıktı?",
+   "rd": "네덴 헤르케스 텔레폰라 체키요르? 엘리프, 부 인산라르 네레덴 측트?",
    "ko": "왜 다들 폰으로 찍어? Elif, 이 사람들 다 어디서 나왔어?",
-   "note": "kalabalık = 인파 — 반전: 구경꾼이 불어난다",
+   "note": "çekiyor = 찍고 있어",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 10,
@@ -153,80 +162,97 @@
    "ko": "관광객들이야. 매일 이 쇼를 찍는데, 오늘은 네가 쇼야!",
    "note": "şov = 쇼",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "Turistler."
+    ],
+    [
+     "teasing",
+     "Her gün bu şovu çekiyorlar, bugün şov sensin!"
+    ]
+   ]
   },
   {
    "num": 11,
    "speaker": "C",
-   "tl": "Size yok, ona var. Buyurun hanımefendi, dondurmanız.",
-   "rd": "시제 욕, 오나 바르. 부유룬 하느메펜디, 돈두르마느즈.",
+   "tl": "Müşteri yok, bu var. Buyurun efendim, dondurmanız.",
+   "rd": "뮈시테리 욕, 부 바르. 부유룬 에펜딤, 돈두르마느즈.",
    "ko": "손님은 없고, 이분은 있어요. 여기요, 손님, 아이스크림입니다.",
-   "note": "hanımefendi = 여성 손님 존칭",
+   "note": "buyurun = 여기요",
    "tags": [
     "expr:hanımefendi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Olmaz! Neden ona hemen verdi? Ben on dakikadır buradayım!",
-   "rd": "올마즈! 네덴 오나 헤멘 베르디? 벤 온 다키카드르 부라다이음!",
+   "tl": "Olmaz! Neden ona hemen veriyor? Ben 10 dakikadır buradayım!",
+   "rd": "올마즈! 네덴 오나 헤멘 베리요르? 벤 10 다키카드르 부라다이음!",
    "ko": "안 돼! 왜 쟤는 바로 줘? 나 10분째 여기 있는데!",
    "note": "olmaz = 안 돼",
    "tags": [
     "expr:olmaz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 13,
    "speaker": "C",
-   "tl": "Kusura bakmayın. Bu hanım geldiğinden beri sadece size bakıyor, anladım ben.",
-   "rd": "쿠수라 박마이은. 부 하늠 겔디인덴 베리 사데제 시제 바크요르, 안라듬 벤.",
+   "tl": "Kusura bakmayın. Bu geldiğinden beri sadece müşteriye bakıyor, ben anladım.",
+   "rd": "쿠수라 박마이은. 부 겔디인덴 베리 사데제 뮈시테리예 바크요르, 벤 안라듬.",
    "ko": "죄송합니다. 이분이 오실 때부터 손님만 보던데요, 저는 알아봤죠.",
-   "note": "geldiğinden beri = 온 뒤로 계속",
+   "note": "kusura bakmayın = 죄송합니다",
    "tags": [
     "expr:kusura bakmayın"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 14,
    "speaker": "B",
-   "tl": "Amca, lütfen! Siz dondurmanızı satın.",
-   "rd": "암자, 뤼트펜! 시즈 돈두르마느즈 사튼.",
+   "tl": "Amca, lütfen! Dondurmayı satın.",
+   "rd": "암자, 뤼트펜! 돈두르마이으 사튼.",
    "ko": "아저씨, 제발요! 아이스크림이나 파세요.",
-   "note": "satın = 파세요",
+   "note": "lütfen = 제발",
    "tags": [
     "expr:lütfen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 15,
    "speaker": "A",
-   "tl": "Ben alamadım ama söyle, ne söyleyecektin?",
-   "rd": "벤 알라마듬 아마 쇠일레, 네 쇠일레예젝틴?",
+   "tl": "Ben alamadım ama söyle. Ne söyleyecektin?",
+   "rd": "벤 알라마듬 아마 쇠일레. 네 쇠일레예젝틴?",
    "ko": "난 못 받았지만, 말해 봐. 무슨 말 하려던 거였어?",
-   "note": "söyleyecektin = 말하려고 했다",
+   "note": "söyle = 말해",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 16,
    "speaker": "B",
-   "tl": "Al, yarısı senin. Ne söyleyeceğimi amca söyledi zaten.",
-   "rd": "알, 야르스 세닌. 네 쇠일레예제이미 암자 쇠일레디 자텐.",
+   "tl": "Al, yarısı senin. Söyleyeceğimi amca çoktan söyledi.",
+   "rd": "알, 야르스 세닌. 쇠일레예제이미 암자 촉탄 쇠일레디.",
    "ko": "자, 반은 네 거. 할 말은 아저씨가 벌써 했어.",
-   "note": "zaten = 이미, 어차피",
+   "note": "yarısı = 반",
    "tags": [
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Pardon, burası boş mu?"
+"Afedersiniz, burası boş mu?"
 ]
 ]
 },
@@ -16,7 +16,11 @@
 "segs": [
 [
 "polite",
-"Evet, boş. Buyurun."
+"Evet, boş."
+],
+[
+"polite",
+"Buyurun oturun."
 ]
 ]
 },
@@ -24,7 +28,7 @@
 "segs": [
 [
 "amused",
-"Aslında bütün masalar boş."
+"Ya aslında bütün masalar boş."
 ]
 ]
 },
@@ -32,7 +36,7 @@
 "segs": [
 [
 "surprised",
-"Ha? Gerçekten mi?"
+"Gerçekten mi?"
 ]
 ]
 },
@@ -40,7 +44,11 @@
 "segs": [
 [
 "shy",
-"Evet. Ama ben buraya oturmak istedim."
+"Evet."
+],
+[
+"shy",
+"Ama şey, buraya oturmak istedim."
 ]
 ]
 },
@@ -48,7 +56,7 @@
 "segs": [
 [
 "flustered",
-"Şey… neden burası?"
+"Neden burası?"
 ]
 ]
 },
@@ -56,11 +64,11 @@
 "segs": [
 [
 "shy",
-"Bilmem…"
+"Bilmem..."
 ],
 [
 "gentle",
-"sen buradasın ya."
+"sen buradasın diye."
 ]
 ]
 },
@@ -68,7 +76,7 @@
 "segs": [
 [
 "flustered",
-"Çay ister misin? Sen de… yani."
+"Çay ister misin? Sen de... şey."
 ]
 ]
 }

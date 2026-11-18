@@ -8,11 +8,11 @@
 "segs": [
 [
 "gentle",
-"Uyudun mu?"
+"Yattın mı ya?"
 ],
 [
 "worried",
-"Fincan aklımdan çıkmıyor."
+"O bardak hâlâ kafamda."
 ]
 ]
 },
@@ -20,11 +20,11 @@
 "segs": [
 [
 "neutral",
-"Hangi fincan?"
+"Hangi bardak?"
 ],
 [
 "surprised",
-"Ha, E harfi!"
+"Ha, E!"
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "teasing",
-"Emre'ye sordun mu?"
+"Emre'ye sordun mu peki?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "amused",
-"Sordum. Ne alaka, dedi."
+"Sordum. Ne alaka demiş."
 ]
 ]
 },
@@ -52,7 +52,7 @@
 ],
 [
 "teasing",
-"Başka E bilmiyor musun?"
+"Başka E yok mu aklında?"
 ]
 ]
 },
@@ -68,7 +68,7 @@
 "segs": [
 [
 "shy",
-"Adım Elif."
+"Adım Elif yani."
 ]
 ]
 },
@@ -76,8 +76,8 @@
 "segs": [
 [
 "flustered",
-"Yani… fincan haklıymış 😳",
-"Yani… fincan haklıymış"
+"Yani… bardak tutmuş. 😳",
+"Yani… bardak tutmuş."
 ]
 ]
 }

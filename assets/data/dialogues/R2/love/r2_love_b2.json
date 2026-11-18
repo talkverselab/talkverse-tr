@@ -36,81 +36,88 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hey, aşağıdaki! Yeni komşu sen misin?",
-   "rd": "헤이, 아샤으다키! 예니 콤슈 센 미신?",
-   "ko": "저기, 아래! 새 이웃이 너야?",
-   "note": "aşağıdaki = 아래 있는 사람",
+   "tl": "Aşağı bak! Yeni komşu sen misin?",
+   "rd": "아샤으 박! 예니 콤슈 센 미신?",
+   "ko": "저기, 아래 봐! 새 이웃이 너야?",
+   "note": "bak = 봐",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Evet, benim! Bu sepet ne?",
-   "rd": "에벳, 베님! 부 세펫 네?",
+   "tl": "Evet, benim! Bu sepet ne ya?",
+   "rd": "에벳, 베님! 부 세펫 네 야?",
    "ko": "응, 나야! 이 바구니 뭐야?",
    "note": "sepet = 바구니",
    "tags": [],
    "new": [
     "sepet"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "İçinde not var. Oku, cevap yaz, gönder.",
-   "rd": "이친데 놋 바르. 오쿠, 제밥 야즈, 괸데르.",
+   "tl": "İçinde not var. Oku, cevap yaz gönder.",
+   "rd": "이친데 놋 바르. 오쿠, 제밥 야즈 괸데르.",
    "ko": "안에 쪽지 있어. 읽고, 답 써서 보내.",
-   "note": "göndermek = 보내다",
+   "note": "not = 쪽지",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Bak: \"Akşam çay içelim mi?\" Olur, yazıyorum.",
-   "rd": "박 \"악샴 차이 이첼림 미?\" 올루르, 야즈요룸.",
-   "ko": "어디 보자. 「저녁에 차 마실래?」 좋아, 쓴다.",
+   "tl": "Bakayım. “Akşam çay?” Olur, yazıyorum.",
+   "rd": "바카이음. 악샴 차이? 올루르, 야즈요룸.",
+   "ko": "어디 보자. 「저녁에 차?」 좋아, 쓴다.",
    "note": "olur = 좋아",
    "tags": [
     "expr:bak",
     "expr:olur"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Evladım, sepet bende! \"Olur\" yazıyor, ne olur?",
-   "rd": "에블라듬, 세펫 벤데! \"올루르\" 야즈요르, 네 올루르?",
+   "tl": "Yavrum, sepet bana geldi! “Olur” yazıyor, ne olur?",
+   "rd": "야브룸, 세펫 바나 겔디! 올루르 야즈요르, 네 올루르?",
    "ko": "얘야, 바구니 나한테 왔다! 「좋아」라고 쓰여 있네, 뭐가 좋아?",
-   "note": "bende = 나한테 있다",
+   "note": "olur = 좋아",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Teyze, lütfen! O sepet bana gelecek!",
-   "rd": "테이제, 뤼트펜! 오 세펫 바나 겔레젝!",
+   "tl": "Teyze, lütfen! O sepet bana gelsin!",
+   "rd": "테이제, 뤼트펜! 오 세펫 바나 겔신!",
    "ko": "이모, 제발요! 그 바구니 나한테 와야 돼요!",
-   "note": "gelecek = 올 것이다",
+   "note": "lütfen = 제발",
    "tags": [
     "expr:lütfen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Aa, çay mı? Ben de gelirim, börek yaptım!",
-   "rd": "아아, 차이 므? 벤 데 겔리림, 뵈렉 얍틈!",
+   "tl": "Ay, çay mı? Ben de geliyorum, börek yaptım!",
+   "rd": "아이, 차이 므? 벤 데 겔리요룸, 뵈렉 얍틈!",
    "ko": "어머, 차? 나도 갈게, 뵈렉 만들었어!",
-   "note": "börek = 겹겹이 구운 파이",
+   "note": "börek = 뵈렉",
    "tags": [],
    "new": [
     "börek"
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 8,
@@ -118,57 +125,72 @@
    "tl": "Elif, bu ne? Üst kat da bakıyor!",
    "rd": "엘리프, 부 네? 위스트 캇 다 바크요르!",
    "ko": "Elif, 이게 뭐야? 윗집도 보고 있어!",
-   "note": "üst kat = 윗집",
+   "note": "bakıyor = 보고 있어",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Üst kat da geliyor! Bütün bina çay içecek!",
-   "rd": "위스트 캇 다 겔리요르! 뷔튄 비나 차이 이체젝!",
+   "tl": "Üst kat da geliyormuş! Bütün bina çay içecek!",
+   "rd": "위스트 캇 다 겔리요르무시! 뷔튄 비나 차이 이체젝!",
    "ko": "윗집도 온대! 건물 전체가 차 마시겠네!",
-   "note": "bütün bina = 건물 전체 — 반전",
+   "note": "bina = 건물",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 10,
    "speaker": "B",
-   "tl": "Of! Ben seninle baş başa içmek istemiştim.",
-   "rd": "오프! 벤 세닌레 바시 바샤 이치멕 이스테미시팀.",
+   "tl": "Of! Ben seninle baş başa içmek istiyordum.",
+   "rd": "오프! 벤 세닌레 바시 바샤 이치멕 이스티요르둠.",
    "ko": "아휴! 난 너랑 단둘이 마시고 싶었는데.",
-   "note": "baş başa = 단둘이",
+   "note": "of = 아휴",
    "tags": [
     "expr:of",
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "annoyed",
+     "Of!"
+    ],
+    [
+     "shy",
+     "Ben seninle baş başa içmek istiyordum."
+    ]
+   ]
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Sepet geldi. \"Yarın, sadece ikimiz.\"",
-   "rd": "세펫 겔디. \"야른, 사데제 이키미즈.\"",
+   "tl": "Sepet geldi. “Yarın, sadece ikimiz.”",
+   "rd": "세펫 겔디. 야른, 사데제 이키미즈.",
    "ko": "바구니 왔다. 「내일, 우리 둘만.」",
-   "note": "ikimiz = 우리 둘",
+   "note": "sadece ikimiz = 우리 둘만",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Okudum! Olur, ben de gelirim!",
-   "rd": "오쿠둠! 올루르, 벤 데 겔리림!",
+   "tl": "Okudum! Olur, ben de geliyorum!",
+   "rd": "오쿠둠! 올루르, 벤 데 겔리요룸!",
    "ko": "읽었다! 좋아, 나도 갈게!",
-   "note": "okudum = 읽었다",
+   "note": "olur = 좋아",
    "tags": [
     "expr:olur"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

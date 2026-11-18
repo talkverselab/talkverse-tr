@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Bir çay daha?"
+"Bir çay daha gelsin mi?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Yok, sağ ol. Yeter."
+"Yok ya, sağ ol. Yetti."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "cheerful",
-"Buyur, taze çay."
+"Buyur, yeni demledim."
 ]
 ]
 },
@@ -32,11 +32,11 @@
 "segs": [
 [
 "surprised",
-"Can, bu altıncı çay!"
+"Altıncı bardak bu!"
 ],
 [
 "annoyed",
-"Neden veriyorsun?"
+"Neden hâlâ veriyorsun?"
 ]
 ]
 },
@@ -44,7 +44,7 @@
 "segs": [
 [
 "amused",
-"Kaşığı bardağın üstüne koymadın ki."
+"Kaşığı üstüne koymadın ya."
 ]
 ]
 },
@@ -52,7 +52,7 @@
 "segs": [
 [
 "tsukkomi",
-"Ne alaka? Kaşık ne demek?"
+"Ne alaka şimdi? Kaşık ne demek?"
 ]
 ]
 },
@@ -60,11 +60,11 @@
 "segs": [
 [
 "amused",
-"Yeter demek."
+"\"Yeter\" demek."
 ],
 [
 "teasing",
-"Altı çay, hesap sende."
+"Altı tane, hesap sende."
 ]
 ]
 }

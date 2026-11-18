@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Affedersiniz, Güneş Oteli nerede?"
+"Affedersiniz, Güneş Otel nerede?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Güneş Oteli mi? Uzak, çok uzak."
+"Güneş Otel mi? Uzak, çok uzak."
 ]
 ]
 },
@@ -44,11 +44,7 @@
 "segs": [
 [
 "surprised",
-"Çok pahalı!"
-],
-[
-"worried",
-"Ama… tamam, gidelim."
+"Çok pahalı! Ama... evet, gidelim."
 ]
 ]
 },
@@ -56,7 +52,7 @@
 "segs": [
 [
 "cheerful",
-"Geldik! İşte Güneş Oteli."
+"Geldik! İşte Güneş Otel."
 ]
 ]
 },
@@ -64,7 +60,7 @@
 "segs": [
 [
 "surprised",
-"Bir dakika… ben buradan bindim!"
+"Bir dakika... Ben burada binmiştim!"
 ]
 ]
 },
@@ -72,7 +68,7 @@
 "segs": [
 [
 "amused",
-"Evet. Yol kısa, fiyat aynı."
+"Evet. Yol kısa ama ücret aynı."
 ]
 ]
 }

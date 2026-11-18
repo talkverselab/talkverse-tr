@@ -10,7 +10,7 @@
 "segs": [
 [
 "worried",
-"Pasaportun sende, değil mi? Bir daha sorayım, sonra ağlamayalım."
+"Pasaportu aldın mı? Bir daha soruyorum, sonra ağlama."
 ]
 ]
 },
@@ -18,7 +18,7 @@
 "segs": [
 [
 "amused",
-"Kesinlikle çantamda. Sen de çok düşünüyorsun ya."
+"Kesinlikle çantada. Sen de çok endişeleniyorsun."
 ]
 ]
 },
@@ -26,7 +26,7 @@
 "segs": [
 [
 "polite",
-"Alo, merhaba. Otelden arıyorum, pasaportunuz bizde kalmış."
+"Alo, merhaba. Otelden arıyorum, pasaport bizde kalmış."
 ]
 ]
 },
@@ -34,7 +34,7 @@
 "segs": [
 [
 "surprised",
-"Eyvah! Ne demek bizde kalmış? Ben havalimanına gidiyorum!"
+"Eyvah! Bizde mi? Ben havalimanına gidiyorum!"
 ]
 ]
 },
@@ -42,7 +42,7 @@
 "segs": [
 [
 "polite",
-"Merak etmeyin, hocam. Döneriz, ama köprü şu an dolu."
+"Merak etmeyin hocam. Geri döneriz ama şimdi köprü tıkalı."
 ]
 ]
 },
@@ -50,7 +50,7 @@
 "segs": [
 [
 "worried",
-"Ne kadar sürer? Uçak saat beşte, ne yapacağız şimdi?"
+"Ne kadar sürer? Uçak beşte, şimdi ne yapacağız?"
 ]
 ]
 },
@@ -58,7 +58,7 @@
 "segs": [
 [
 "polite",
-"Bir dakika, bir fikrim var. Kuzenim motosikletle getirir."
+"Bir dakika, bir fikrim var. Kuzenim motorla getirecek."
 ]
 ]
 },
@@ -66,7 +66,7 @@
 "segs": [
 [
 "amused",
-"Söyleyin, köprüde bulsun. Sarı taksi, içinde ağlayan bir yabancı."
+"Köprüde arasınlar. Sarı taksi, içinde ağlayan yabancı."
 ]
 ]
 },
@@ -74,7 +74,7 @@
 "segs": [
 [
 "flustered",
-"Ağlamıyorum! Neyse, şimdi ağlıyorum. Elif, bak, o motosiklet mi?"
+"Ağlamıyorum! Neyse, şimdi ağlıyorum. Elif, bak, o motor mu?"
 ]
 ]
 },
@@ -82,7 +82,7 @@
 "segs": [
 [
 "excited",
-"O bir simitçi! Hayır, dur… arkasında biri var, pasaport sallıyor!"
+"O simitçi! Dur, arkada biri var, pasaport sallıyor!"
 ]
 ]
 },
@@ -90,7 +90,7 @@
 "segs": [
 [
 "polite",
-"Kuzenim aradı, sizi gördü."
+"Kuzen aradı, sizi görmüş."
 ],
 [
 "worried",
@@ -102,7 +102,7 @@
 "segs": [
 [
 "shout",
-"Yürüyerek mi?! Köprüde mi? Yok artık, nerede o?"
+"Yürüyerek mi?! Köprünün üstünde mi? Yok artık, nerede?"
 ]
 ]
 },
@@ -110,7 +110,7 @@
 "segs": [
 [
 "polite",
-"Hocam, camı açın, adam geliyor. Bir çay parası da verin, ayıp olmasın."
+"Hocam, camı açın, geliyor. Biraz da bahşiş verin, adet."
 ]
 ]
 },
@@ -118,11 +118,7 @@
 "segs": [
 [
 "excited",
-"Aldık! Pasaport elimizde."
-],
-[
-"cheerful",
-"Çok şükür, yetişiyoruz!"
+"Aldım! Pasaport elde. Çok şükür, yetişeceğiz!"
 ]
 ]
 },
@@ -130,7 +126,7 @@
 "segs": [
 [
 "surprised",
-"Bir dakika, mesaj geldi. Uçak iki saat geç kalkıyormuş."
+"Bir dakika, mesaj geldi. Uçak iki saat gecikmeli."
 ]
 ]
 },
@@ -138,11 +134,11 @@
 "segs": [
 [
 "teasing",
-"Ağlayan sendin."
+"Ağlayan senmişsin."
 ],
 [
 "amused",
-"Ben simit alıyorum."
+"Ben simit alacağım."
 ]
 ]
 }

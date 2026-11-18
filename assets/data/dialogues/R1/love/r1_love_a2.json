@@ -36,105 +36,123 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Pardon, simidiniz çok güzel görünüyor.",
-   "rd": "파르돈, 시미디니즈 촉 귀젤 괴뤼뉘요르.",
+   "tl": "Pardon, simitin çok lezzetli görünüyor.",
+   "rd": "파르돈, 시미틴 촉 레제틀리 괴뤼뉘요르.",
    "ko": "저기요, 시미트 진짜 맛있어 보여요.",
-   "note": "görünüyor = ~해 보인다",
+   "note": "pardon = 저기요",
    "tags": [
     "expr:pardon"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Yarısını ister misiniz? Buyurun.",
-   "rd": "야르스느 이스테르 미시니즈? 부유룬.",
+   "tl": "Yarısını ister misin? Al.",
+   "rd": "야르스느 이스테르 미신? 알.",
    "ko": "반 드실래요? 여기요.",
    "note": "yarısı = 절반",
    "tags": [
     "expr:buyurun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Sağ olun! Bir dakika, martı!",
-   "rd": "사 올룬! 비르 다키카, 마르트!",
+   "tl": "Sağ ol! Bir dakika, martı!",
+   "rd": "사 올! 비르 다키카, 마르트!",
    "ko": "고마워요! 잠깐만, 갈매기!",
-   "note": "martı = 갈매기",
+   "note": "bir dakika = 잠깐만",
    "tags": [
     "expr:sağ olun",
     "expr:bir dakika"
    ],
    "new": [
     "martı"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Sağ ol!"
+    ],
+    [
+     "surprised",
+     "Bir dakika, martı!"
+    ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Eyvah! Yarısı gitti!",
-   "rd": "에이바흐! 야르스 기티!",
+   "tl": "Eyvah! Yarısı uçtu gitti!",
+   "rd": "에이바흐! 야르스 우치투 기티!",
    "ko": "헉! 반쪽 날아갔어요!",
-   "note": "eyvah = 헉, 큰일 났다",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Bak, on martı daha geliyor!",
-   "rd": "박, 온 마르트 다하 겔리요르!",
+   "tl": "Bak, daha on martı geliyor!",
+   "rd": "박, 다하 온 마르트 겔리요르!",
    "ko": "봐요, 갈매기 열 마리 더 와요!",
    "note": "daha = 더 — 반전: 갈매기 떼",
    "tags": [
     "expr:bak"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Hadi kaçalım! Diğer yarısı bende!",
-   "rd": "하디 카찰름! 디에르 야르스 벤데!",
+   "tl": "Hadi kaçalım! Kalan yarısı bende!",
+   "rd": "하디 카찰름! 칼란 야르스 벤데!",
    "ko": "얼른 도망가요! 나머지 반쪽 나한테 있어요!",
    "note": "bende = 나한테 있다",
    "tags": [
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Simidi at. Sen benimle gel.",
-   "rd": "시미디 앗. 센 베님레 겔.",
+   "tl": "Simiti bırak. Benimle gel.",
+   "rd": "시미티 브락. 베님레 겔.",
    "ko": "시미트 버려. 넌 나랑 가자.",
    "note": "benimle = 나랑 — 여기서 말을 놓는다",
    "tags": [
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Tamam, hadi gidelim! Martılar, afiyet olsun!",
-   "rd": "타맘, 하디 기델림! 마르틀라르, 아피옛 올순!",
+   "tl": "Hadi gidelim! Martılar, afiyet olsun!",
+   "rd": "하디 기델림! 마르틀라르, 아피옛 올순!",
    "ko": "그래, 가자! 갈매기들아, 맛있게 먹어!",
-   "note": "afiyet olsun = 맛있게 드세요",
+   "note": "hadi gidelim = 가자 / afiyet olsun = 맛있게 먹어",
    "tags": [
     "expr:hadi gidelim",
     "expr:afiyet olsun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

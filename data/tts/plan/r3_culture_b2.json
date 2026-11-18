@@ -10,7 +10,7 @@
 "segs": [
 [
 "cheerful",
-"{name}, dün akşam diziyi izledin mi?"
+"{name}, dün diziyi gördün mü?"
 ],
 [
 "excited",
@@ -22,7 +22,8 @@
 "segs": [
 [
 "excited",
-"Evet! Üç saniye çıktım. Sadece kapıyı çalıp mektubu veriyorum."
+"Evet! 3 saniye çıktım. Kapıyı çalıp mektup verdim sadece.",
+"Evet! üç saniye çıktım. Kapıyı çalıp mektup verdim sadece."
 ]
 ]
 },
@@ -30,7 +31,7 @@
 "segs": [
 [
 "excited",
-"O mektup bütün aileyi karıştırdı. Herkes onu konuşuyor, biliyor musun?"
+"O mektup yüzünden ev karıştı ya. Herkes onu konuşuyor, biliyor musun?"
 ]
 ]
 },
@@ -42,7 +43,7 @@
 ],
 [
 "neutral",
-"Bana bunu ver dediler, ben de verdim."
+"Ver dediler, verdim işte."
 ]
 ]
 },
@@ -50,7 +51,7 @@
 "segs": [
 [
 "teasing",
-"Teyzem de izledi. Sabahtan beri seni soruyor, hazır ol."
+"Teyzem de gördü. Sabahtan beri seni arıyor, hazır ol."
 ]
 ]
 },
@@ -58,7 +59,7 @@
 "segs": [
 [
 "amused",
-"Hadi canım, o sadece dizi. Ekmek alıp geliyorum, bir şey olmaz."
+"Hadi canım, sadece dizi. Ekmek almaya gidiyorum, bir şey olmaz."
 ]
 ]
 },
@@ -66,7 +67,7 @@
 "segs": [
 [
 "cheerful",
-"Merhaba! Bir ekmek lütfen. Bugün hava da çok güzel."
+"Merhaba! Bir ekmek lütfen. Hava da çok güzel bugün."
 ]
 ]
 },
@@ -74,11 +75,7 @@
 "segs": [
 [
 "polite",
-"Buyurun."
-],
-[
-"surprised",
-"Bir dakika… siz dün dizide değil miydiniz?"
+"Buyurun. Bir dakika… dün dizide siz miydiniz?"
 ]
 ]
 },
@@ -86,6 +83,7 @@
 "segs": [
 [
 "surprised",
+"Evet, 3 saniye. Beni nasıl tanıdınız? Kimse görmedi sanıyordum.",
 "Evet, üç saniye. Beni nasıl tanıdınız? Kimse görmedi sanıyordum."
 ]
 ]
@@ -94,7 +92,7 @@
 "segs": [
 [
 "excited",
-"Ben de gördüm! O mektupta ne yazıyordu, söyle bakalım."
+"Ben de gördüm! O mektupta ne yazıyordu, söyle."
 ]
 ]
 },
@@ -102,7 +100,7 @@
 "segs": [
 [
 "flustered",
-"Bilmiyorum teyze, gerçekten. Bana sadece zarfı verdiler."
+"Bilmiyorum teyze, gerçekten. Bana sadece zarf verdiler."
 ]
 ]
 },
@@ -110,7 +108,7 @@
 "segs": [
 [
 "teasing",
-"Hadi ama. Haftaya ne oluyor, onu söyleyin bari."
+"Hadi canım, söyle işte. Gelecek hafta ne oluyor, onu bari."
 ]
 ]
 },
@@ -118,7 +116,7 @@
 "segs": [
 [
 "gentle",
-"Teyze, bırak artık. {name} bir şey bilmiyor, değil mi?"
+"Teyze, yeter artık. {name} hiçbir şey bilmiyor, değil mi?"
 ]
 ]
 },
@@ -130,7 +128,7 @@
 ],
 [
 "amused",
-"Ama haftaya yine çıkıyorum, bir mektup daha var."
+"Ama gelecek hafta yine çıkıyorum, bir mektup daha var."
 ]
 ]
 },

@@ -9,7 +9,7 @@
 "segs": [
 [
 "cheerful",
-"Bu otobüs çok güzel."
+"Bu otobüs harika."
 ],
 [
 "excited",
@@ -21,7 +21,7 @@
 "segs": [
 [
 "teasing",
-"Dur, daha görmedin."
+"Dur, daha yolumuz var."
 ],
 [
 "cheerful",
@@ -33,7 +33,7 @@
 "segs": [
 [
 "polite",
-"Kolonya alır mısınız, efendim?"
+"Kolonya ister misiniz efendim?"
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "cheerful",
-"Evet, lütfen. Şu bardağa koyar mısınız?"
+"Evet lütfen. Bu bardağa döker misiniz?"
 ]
 ]
 },
@@ -53,7 +53,7 @@
 ],
 [
 "polite",
-"Emin misiniz, efendim?"
+"Emin misiniz?"
 ]
 ]
 },
@@ -61,7 +61,7 @@
 "segs": [
 [
 "cheerful",
-"Tabii, çok susadım. Limonlu, değil mi?"
+"Tabii, susadım. Limonlu değil mi?"
 ]
 ]
 },
@@ -69,7 +69,7 @@
 "segs": [
 [
 "worried",
-"Bir dakika, sen ne yapıyorsun orada?"
+"Bir dakika, sen ne yapıyorsun?"
 ]
 ]
 },
@@ -77,7 +77,7 @@
 "segs": [
 [
 "surprised",
-"Ne var? Bu içecek değil mi?"
+"Neden? Bu içecek değil mi?"
 ]
 ]
 },
@@ -89,7 +89,7 @@
 ],
 [
 "shout",
-"O içilmez, ellerine sürülür!"
+"O içilmez, ele sürülür!"
 ]
 ]
 },
@@ -101,7 +101,7 @@
 ],
 [
 "flustered",
-"Pardon, o zaman bir çay lütfen."
+"Özür dilerim, o zaman bir çay lütfen."
 ]
 ]
 },
@@ -109,7 +109,7 @@
 "segs": [
 [
 "polite",
-"Tabii efendim. Yanına bisküvi de ister misiniz?"
+"Tabii efendim. Bisküvi de ister misiniz?"
 ]
 ]
 }

@@ -9,11 +9,11 @@
 "segs": [
 [
 "excited",
-"Hayırlı olsun!"
+"Tebrikler!"
 ],
 [
 "teasing",
-"Neden bana söylemedin, kanka?"
+"Neden bana söylemedin kanka?"
 ]
 ]
 },
@@ -21,7 +21,7 @@
 "segs": [
 [
 "surprised",
-"Ne hayırlı olsun? Neyin hayırlı olsun, Can?"
+"Neyi tebrik? Ne kutlanacak şey var, Can?"
 ]
 ]
 },
@@ -29,11 +29,11 @@
 "segs": [
 [
 "neutral",
-"Mahallede herkes konuşuyor."
+"Mahalle herkes konuşuyor."
 ],
 [
 "teasing",
-"Zeynep'le evleniyormuşsun."
+"Sen Zeynep’le evleniyormuşsun."
 ]
 ]
 },
@@ -53,7 +53,7 @@
 "segs": [
 [
 "teasing",
-"Aynen! Teyze sizi orada görmüş, yüzüğe bakıyormuşsunuz."
+"Aynen o! Teyze orada görmüş, yüzük bakıyormuşsunuz."
 ]
 ]
 },
@@ -61,11 +61,11 @@
 "segs": [
 [
 "annoyed",
-"Zeynep'in yüzüğü kırıldı, tamir ettirdik."
+"Zeynep’in yüzüğü kırıldı, tamire gittik."
 ],
 [
 "shout",
-"Bu kadar!"
+"Hepsi bu!"
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "teasing",
-"Sen öyle diyorsun. Manav sana indirim yapacakmış, düğün hediyesi."
+"Sen öyle diyorsun. Manav indirim yapacakmış, düğün hediyesi diye."
 ]
 ]
 },
@@ -85,7 +85,7 @@
 ],
 [
 "shout",
-"Manava bunu kim söyledi?!"
+"Manava kim söyledi?!"
 ]
 ]
 },
@@ -93,7 +93,7 @@
 "segs": [
 [
 "amused",
-"Eczacı. Eczacıya da kuaför söylemiş, herhalde."
+"Eczacı. Eczacıya da kuaför söylemiş herhalde."
 ]
 ]
 },
@@ -101,7 +101,7 @@
 "segs": [
 [
 "annoyed",
-"Annem aradı. “Hayırlı olsun” diyor. Sen bir şey mi dedin?"
+"Annem aradı. “Tebrikler” diyor. Sen ne söyledin?"
 ]
 ]
 },
@@ -117,7 +117,7 @@
 "segs": [
 [
 "worried",
-"Annem bütün akrabaları aramış. Teyzem şimdi yolda, buraya geliyor."
+"Annem bütün akrabalara telefon etmiş. Teyze şimdi buraya geliyor."
 ]
 ]
 },
@@ -125,7 +125,7 @@
 "segs": [
 [
 "flustered",
-"Yok artık! Can, mahalleye sen söyle, lütfen!"
+"Yok artık! Can, mahalleye sen söyle bir şey!"
 ]
 ]
 },
@@ -133,7 +133,7 @@
 "segs": [
 [
 "teasing",
-"Bence önce manavın indirimini alın. Sonra söylersiniz."
+"Bence önce manavdan indirimi al. Konuşmayı sonra yap."
 ]
 ]
 },
@@ -141,7 +141,7 @@
 "segs": [
 [
 "amused",
-"İyi fikir. Ama annemi sen arıyorsun, {name}."
+"İyi fikir. Ama anneme sen ara {name}."
 ]
 ]
 }

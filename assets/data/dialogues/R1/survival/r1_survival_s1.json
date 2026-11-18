@@ -32,24 +32,26 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hoş geldiniz! Simit, değil mi?",
-   "rd": "호시 겔디니즈! 시밋, 데일 미?",
+   "tl": "Hoş geldiniz! Simit mi alacaksınız?",
+   "rd": "호시 겔디니즈! 시밋 미 알라작스느즈?",
    "ko": "어서 오세요! 시미트 맞죠?",
-   "note": "değil mi? = 그렇죠?",
+   "note": "hoş geldiniz = 어서 오세요",
    "tags": [
     "expr:hoş geldiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Evet, evet. Bir simit, lütfen.",
-   "rd": "에벳, 에벳. 비르 시밋, 뤼트펜.",
+   "tl": "Evet, evet. Bir simit lütfen.",
+   "rd": "에벳, 에벳. 비르 시밋 뤼트펜.",
    "ko": "네, 네. 시미트 하나요.",
    "note": "lütfen = 부탁해요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
@@ -61,19 +63,21 @@
    "tags": [
     "form:-misiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Evet… şey, evet.",
-   "rd": "에벳… 셰이, 에벳.",
+   "tl": "Evet... şey, evet.",
+   "rd": "에벳... 셰이, 에벳.",
    "ko": "네… 저, 네.",
    "note": "şey = 저기, 그게(말 고를 때)",
    "tags": [
     "expr:şey"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 5,
@@ -83,19 +87,21 @@
    "ko": "포아차? 아치마? 치즈?",
    "note": "반전: 묻는 대로 다 나온다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Evet, evet, evet… Bir dakika!",
-   "rd": "에벳, 에벳, 에벳… 비르 다키카!",
+   "tl": "Evet, evet, evet... Bir dakika!",
+   "rd": "에벳, 에벳, 에벳... 비르 다키카!",
    "ko": "네, 네, 네… 잠깐만요!",
-   "note": "bir dakika = 잠깐만요",
+   "note": "bir dakika = 잠깐만",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 7,
@@ -107,22 +113,25 @@
    "tags": [
     "expr:afiyet olsun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Ne kadar? Ben sadece simit…",
-   "rd": "네 카다르? 벤 사데제 시밋…",
+   "tl": "Ne kadar? Ben sadece simit istemiştim...",
+   "rd": "네 카다르? 벤 사데제 시밋 이스테미시팀...",
    "ko": "얼마예요? 저는 그냥 시미트만…",
    "note": "ne kadar = 얼마예요",
    "tags": [
     "expr:ne kadar"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

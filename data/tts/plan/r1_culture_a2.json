@@ -9,7 +9,7 @@
 "segs": [
 [
 "cheerful",
-"Hoş geldin! Gir, gir."
+"Hoş geldin! Gir içeri, gir."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "cheerful",
-"Tabii. Bizde herkes çıkarır."
+"Tabii. Bizim evde herkes çıkarır."
 ]
 ]
 },
@@ -41,11 +41,7 @@
 "segs": [
 [
 "tsukkomi",
-"Olmaz, annem içeride."
-],
-[
-"teasing",
-"Hadi."
+"Olmaz. Annem içeride. Hadi."
 ]
 ]
 },
@@ -53,7 +49,7 @@
 "segs": [
 [
 "flustered",
-"Tamam, tamam. Çıkardım."
+"Tamam tamam. Çıkardım."
 ]
 ]
 },
@@ -61,7 +57,7 @@
 "segs": [
 [
 "teasing",
-"{name}, parmağın bize selam veriyor."
+"{name}, ayak parmakların bize selam veriyor."
 ]
 ]
 },
@@ -69,7 +65,7 @@
 "segs": [
 [
 "gentle",
-"Hoş geldin, yavrum. Çorap getireyim mi?"
+"Hoş geldin canım. Çorap getireyim mi?"
 ]
 ]
 }

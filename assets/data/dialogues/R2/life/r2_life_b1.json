@@ -37,14 +37,15 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Kanka, bu koltuk neden bu kadar ağır?",
-   "rd": "칸카, 부 콜툭 네덴 부 카다르 아으르?",
+   "tl": "Kanka, bu koltuk niye bu kadar ağır?",
+   "rd": "칸카, 부 콜툭 니예 부 카다르 아으르?",
    "ko": "야, 이 소파 왜 이렇게 무거워?",
-   "note": "koltuk = 소파, 안락의자",
+   "note": "kanka = 야",
    "tags": [
     "expr:kanka"
    ],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 2,
@@ -52,13 +53,23 @@
    "tl": "Bilmem, ama asansör yok. Hadi, çek!",
    "rd": "빌멤, 아마 아산쇠르 욕. 하디, 첵!",
    "ko": "몰라, 근데 엘리베이터가 없어. 자, 당겨!",
-   "note": "çek = 당겨",
+   "note": "bilmem = 몰라 / hadi = 자",
    "tags": [
     "expr:bilmem",
     "expr:hadi",
     "callback:r0_life_a4"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Bilmem, ama asansör yok."
+    ],
+    [
+     "excited",
+     "Hadi, çek!"
+    ]
+   ]
   },
   {
    "num": 3,
@@ -68,7 +79,8 @@
    "ko": "당기고 있어! 잠깐, 잠깐, 벽에 걸렸어!",
    "note": "takıldı = 걸렸다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 4,
@@ -76,68 +88,74 @@
    "tl": "Olmaz öyle. Sağa çevirin, sağa!",
    "rd": "올마즈 외일레. 사아 체비린, 사아!",
    "ko": "그렇게는 안 돼요. 오른쪽으로 돌려요, 오른쪽!",
-   "note": "sağa = 오른쪽으로",
+   "note": "olmaz = 안 돼요",
    "tags": [
     "expr:olmaz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 5,
    "speaker": "D",
-   "tl": "Sola, canım, sola! Ben otuz yıldır buradayım.",
-   "rd": "솔라, 자늠, 솔라! 벤 오투즈 이을드르 부라다이음.",
+   "tl": "Sola, canım, sola! Ben burada otuz yıl yaşadım.",
+   "rd": "솔라, 자늠, 솔라! 벤 부라다 오투즈 이을 야샤듬.",
    "ko": "왼쪽으로, 얘야, 왼쪽! 나 여기서 30년 살았어.",
-   "note": "sola = 왼쪽으로",
+   "note": "canım = 얘야",
    "tags": [
     "expr:canım"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Sağ mı, sol mu? Elim sıkıştı!",
-   "rd": "사 므, 솔 무? 엘림 스크시트!",
+   "tl": "Sağa mı sola mı? Elim sıkıştı!",
+   "rd": "사아 므 솔라 므? 엘림 스크시트!",
    "ko": "오른쪽이에요, 왼쪽이에요? 손 끼었어요!",
    "note": "sıkıştı = 끼었다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Kıpırdamıyor. Koltuk burada yaşıyor artık.",
-   "rd": "크프르다므요르. 콜툭 부라다 야시요르 아르특.",
+   "tl": "Kıpırdamıyor. Koltuk artık burada yaşıyor.",
+   "rd": "크프르다므요르. 콜툭 아르특 부라다 야시요르.",
    "ko": "꿈쩍도 안 해. 소파는 이제 여기 사는 거야.",
    "note": "kıpırdamak = 꿈쩍하다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Kimse çıkamıyor, kimse inemiyor. Merdiven kapandı.",
-   "rd": "킴세 츠카므요르, 킴세 이네미요르. 메르디벤 카판드.",
+   "tl": "Kimse çıkamıyor, inemiyor. Merdiven kapandı.",
+   "rd": "킴세 츠카므요르, 이네미요르. 메르디벤 카판드.",
    "ko": "아무도 못 올라가고, 못 내려가요. 계단이 막혔어요.",
    "note": "merdiven = 계단 — 반전",
    "tags": [],
    "new": [
     "merdiven"
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 9,
    "speaker": "D",
-   "tl": "Aman, ne yapalım? Madem öyle, çay getiriyorum.",
-   "rd": "아만, 네 야팔름? 마뎀 외일레, 차이 게티리요룸.",
+   "tl": "Ne yapalım? O zaman çay getireyim.",
+   "rd": "네 야팔름? 오 자만 차이 게티레임.",
    "ko": "아이고, 어쩌겠어? 그럼 차 가져올게.",
-   "note": "madem öyle = 그렇다면",
+   "note": "ne yapalım = 어쩌겠어",
    "tags": [
     "expr:ne yapalım",
     "expr:aman"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 10,
@@ -147,7 +165,8 @@
    "ko": "아주머니, 계단에서 차를 마신다고요?",
    "note": "içeceğiz = 마실 거다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 11,
@@ -159,22 +178,25 @@
    "tags": [],
    "new": [
     "börek"
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Hayırlı olsun. Binanın yeni salonu burası.",
-   "rd": "하이으를르 올순. 비나는 예니 살로누 부라스.",
+   "tl": "Tebrikler. Burası binanın yeni salonu.",
+   "rd": "테브리클레르. 부라스 비나는 예니 살로누.",
    "ko": "축하합니다. 여기가 건물의 새 거실이에요.",
    "note": "hayırlı olsun = 잘됐네요, 축하해요",
    "tags": [
     "expr:olsun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

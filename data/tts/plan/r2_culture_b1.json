@@ -9,11 +9,11 @@
 "segs": [
 [
 "gentle",
-"Demek bugün gidiyorsun, yavrum."
+"Bugün gidiyorsun demek, canım."
 ],
 [
 "sad",
-"Çok özleyeceğiz."
+"Çok özleyeceğim."
 ]
 ]
 },
@@ -21,11 +21,11 @@
 "segs": [
 [
 "sad",
-"Ben de sizi özleyeceğim."
+"Ben de sizi."
 ],
 [
 "polite",
-"Börekleriniz için elinize sağlık."
+"Börek için elinize sağlık."
 ]
 ]
 },
@@ -33,11 +33,11 @@
 "segs": [
 [
 "gentle",
-"Estağfurullah."
+"Estağfurullah, ne var bunda."
 ],
 [
 "polite",
-"Bavulların hazır mı, taksi geldi mi?"
+"Çantalar hazır mı, taksi geldi mi?"
 ]
 ]
 },
@@ -49,7 +49,7 @@
 ],
 [
 "cheerful",
-"Hadi gidelim, uçak beklemez."
+"Hadi gidelim, uçak beklemez ya."
 ]
 ]
 },
@@ -69,7 +69,7 @@
 "segs": [
 [
 "gentle",
-"Sen git, yavrum."
+"Hadi git yavrum."
 ],
 [
 "stiff",
@@ -85,7 +85,7 @@
 ],
 [
 "surprised",
-"Arkamda ne var?"
+"Arkamda ne var ki?"
 ]
 ]
 },
@@ -101,11 +101,11 @@
 "segs": [
 [
 "shout",
-"Aman!"
+"Aa!"
 ],
 [
 "flustered",
-"Her yerim su oldu, ben ne yaptım?"
+"Hepsi ıslandı, ne yaptım ben?"
 ]
 ]
 },
@@ -113,11 +113,11 @@
 "segs": [
 [
 "amused",
-"Kızma!"
+"Kızma be!"
 ],
 [
 "cheerful",
-"Yolun açık olsun diye yapılır, çok güzel bir şey."
+"Yolun açık olsun diye, çok iyi."
 ]
 ]
 },
@@ -125,11 +125,11 @@
 "segs": [
 [
 "flustered",
-"Güzel ama…"
+"İyi ama..."
 ],
 [
 "tsukkomi",
-"suyu bana mı atmak gerekiyor?"
+"su atmak şart mı?"
 ]
 ]
 },
@@ -137,11 +137,11 @@
 "segs": [
 [
 "amused",
-"Gözlüğüm evde kaldı."
+"Gözlüğümü unuttum evde."
 ],
 [
 "cheerful",
-"Sen yine gel, bir daha atarım."
+"Yine gel, yine atarım."
 ]
 ]
 }

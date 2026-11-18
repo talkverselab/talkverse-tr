@@ -9,7 +9,7 @@
 "segs": [
 [
 "gentle",
-"Bir çay daha, yavrum?"
+"Bir çay daha alırsın?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "gentle",
-"Küçük bardak, yavrum. Al bakalım."
+"Bardak küçük ya canım. Al, al."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "amused",
-"Kaşığı bardağın üstüne koy. Bitti demek."
+"Kaşığı bardağın üstüne koy. \"Yeter\" demek."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "surprised",
-"Aa, kaşık düşecek!"
+"Ay, kaşık düşecek!"
 ],
 [
 "gentle",

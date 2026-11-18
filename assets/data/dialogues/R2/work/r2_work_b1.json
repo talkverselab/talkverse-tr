@@ -32,24 +32,26 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hoş geldiniz. Çay mı, kahve mi?",
-   "rd": "호시 겔디니즈. 차이 므, 카흐베 미?",
+   "tl": "Hoş geldiniz. Çay mı istersiniz, kahve mi?",
+   "rd": "호시 겔디니즈. 차이 므 이스테르시니즈, 카흐베 미?",
    "ko": "어서 오세요. 차 드릴까요, 커피 드릴까요?",
-   "note": "mı = 아니면(둘 중 고르기)",
+   "note": "hoş geldiniz = 어서 오세요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Fark etmez, teşekkür ederim.",
-   "rd": "파르크 에트메즈, 테셰퀴르 에데림.",
+   "tl": "Fark etmez, teşekkürler.",
+   "rd": "파르크 에트메즈, 테셰퀴를레르.",
    "ko": "아무거나요, 감사합니다.",
-   "note": "fark etmez = 상관없어요",
+   "note": "fark etmez = 아무거나",
    "tags": [
     "expr:fark etmez"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
@@ -57,10 +59,20 @@
    "tl": "Özgeçmişinizde “Türkçe: çok iyi” yazıyor. Harika!",
    "rd": "외즈게치미시니즈데 튀르크체 촉 이이 야즈요르. 하리카!",
    "ko": "이력서에 「터키어: 아주 잘함」 이라고 써 있네요. 훌륭해요!",
-   "note": "özgeçmiş = 이력서",
+   "note": "çok iyi = 아주 잘함",
    "tags": [],
    "new": [
     "özgeçmiş"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Özgeçmişinizde “Türkçe: çok iyi” yazıyor."
+    ],
+    [
+     "excited",
+     "Harika!"
+    ]
    ]
   },
   {
@@ -69,19 +81,21 @@
    "tl": "Evet, evet. Türkçem çok iyi.",
    "rd": "에벳, 에벳. 튀르크쳄 촉 이이.",
    "ko": "네, 네. 제 터키어 아주 좋아요.",
-   "note": "Türkçem = 내 터키어",
+   "note": "çok iyi = 아주 좋아요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "O zaman hızlı gidelim. Beş yıl sonra kendinizi nerede görüyorsunuz?",
-   "rd": "오 자만 흐즐르 기델림. 베시 이을 손라 켄디니지 네레데 괴뤼요르수누즈?",
+   "tl": "O zaman hızlı geçelim. Beş yıl sonra nerede olursunuz?",
+   "rd": "오 자만 흐즐르 게첼림. 베시 이을 손라 네레데 올루르수누즈?",
    "ko": "그럼 빠르게 가죠. 5년 뒤 자신이 어디에 있을 거라고 보세요?",
-   "note": "beş yıl sonra = 5년 뒤",
+   "note": "hızlı = 빠르게",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 6,
@@ -89,12 +103,22 @@
    "tl": "Tekrar eder misiniz? Yavaş lütfen.",
    "rd": "텍라르 에데르 미시니즈? 야바시 뤼트펜.",
    "ko": "다시 말씀해 주시겠어요? 천천히요.",
-   "note": "tekrar eder misiniz = 다시 말씀해 주시겠어요",
+   "note": "tekrar eder misiniz = 다시 말씀해 주시겠어요; yavaş lütfen = 천천히요",
    "tags": [
     "expr:tekrar eder misiniz",
     "expr:yavaş lütfen"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Tekrar eder misiniz?"
+    ],
+    [
+     "polite",
+     "Yavaş lütfen."
+    ]
+   ]
   },
   {
    "num": 7,
@@ -102,21 +126,23 @@
    "tl": "Beş. Yıl. Sonra. Neredesiniz?",
    "rd": "베시. 이을. 손라. 네레데시니즈?",
    "ko": "오. 년. 뒤. 어디 계세요?",
-   "note": "neredesiniz = 어디 계세요",
+   "note": "beş yıl = 5년",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Şey, burada? Bu sandalyede?",
-   "rd": "셰이, 부라다? 부 산달예데?",
+   "tl": "Şey… burada mı? Bu sandalyede mi?",
+   "rd": "셰이… 부라다 므? 부 산달예데 미?",
    "ko": "저… 여기요? 이 의자에요?",
-   "note": "sandalye = 의자",
+   "note": "şey = 저…",
    "tags": [
     "expr:şey"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 9,
@@ -124,19 +150,21 @@
    "tl": "Bu özgeçmişi kim yazdı?",
    "rd": "부 외즈게치미시 킴 야즈드?",
    "ko": "이 이력서 누가 썼어요?",
-   "note": "kim yazdı = 누가 썼어요 — 반전",
+   "note": "özgeçmiş = 이력서",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Bir arkadaşım. Türkçesi çok iyi.",
-   "rd": "비르 아르카다심. 튀르크체시 촉 이이.",
+   "tl": "Arkadaşım. O gerçekten çok iyi Türkçe biliyor.",
+   "rd": "아르카다심. 오 게르첵텐 촉 이이 튀르크체 빌리요르.",
    "ko": "친구요. 걔 터키어 진짜 잘해요.",
-   "note": "arkadaşım = 내 친구",
+   "note": "arkadaşım = 친구",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 11,
@@ -144,14 +172,16 @@
    "tl": "Arkadaşınızın numarasını alabilir miyim?",
    "rd": "아르카다시느즌 누마라스느 알라빌리르 미임?",
    "ko": "친구분 번호 받을 수 있을까요?",
-   "note": "alabilir miyim = 받아도 될까요",
+   "note": "numara = 번호",
    "tags": [
     "form:-abilir"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

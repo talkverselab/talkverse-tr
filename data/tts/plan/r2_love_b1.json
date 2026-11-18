@@ -13,7 +13,7 @@
 ],
 [
 "stiff",
-"Ne olursa olsun, iç."
+"Ne olursa olsun iç."
 ]
 ]
 },
@@ -21,7 +21,7 @@
 "segs": [
 [
 "worried",
-"Neden? Kahvede bir şey mi var?"
+"Neden ya? Kahvede ne var?"
 ]
 ]
 },
@@ -29,7 +29,7 @@
 "segs": [
 [
 "stiff",
-"Hiç sorma. Sadece iç ve gül."
+"Hiç sorma. İç ve gülümse yeter."
 ]
 ]
 },
@@ -37,11 +37,11 @@
 "segs": [
 [
 "excited",
-"Hoş geldin evladım!"
+"Hoş geldin yavrum!"
 ],
 [
 "gentle",
-"Buyur, kahven."
+"Al, kahven."
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "polite",
-"Hoş bulduk. Çok teşekkür ederim."
+"Hoş bulduk. Elinize sağlık."
 ]
 ]
 },
@@ -61,7 +61,7 @@
 ],
 [
 "surprised",
-"bu kahve deniz gibi!"
+"bu kahve deniz suyu gibi!"
 ]
 ]
 },
@@ -69,11 +69,11 @@
 "segs": [
 [
 "stiff",
-"Sus, tuz var, iç."
+"Şşt, tuzlu o, iç."
 ],
 [
 "worried",
-"Herkes sana bakıyor."
+"Herkes bakıyor."
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "excited",
-"Anne, abla, gelin! Bakın, içiyor!"
+"Anne, abla, gelin bakın! Bakın, içiyor!"
 ]
 ]
 },
@@ -97,11 +97,7 @@
 "segs": [
 [
 "cheerful",
-"Bitti mi?"
-],
-[
-"gentle",
-"Maşallah, bir tane daha yapayım mı?"
+"Bitirdin mi? Maşallah! Bir tane daha yapayım mı?"
 ]
 ]
 },
@@ -109,7 +105,7 @@
 "segs": [
 [
 "shy",
-"Annem dedi ki: bunu içen gitmez."
+"Annem dedi. Bunu içen gitmezmiş."
 ]
 ]
 },
@@ -121,7 +117,7 @@
 ],
 [
 "flustered",
-"şimdi su, lütfen."
+"şimdi su lütfen."
 ]
 ]
 }

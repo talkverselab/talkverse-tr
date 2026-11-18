@@ -39,29 +39,32 @@
    "ko": "이즈미르요? 오세요, 오세요!",
    "note": "gelin = 오세요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Bir dakika, ben sadece bakıyorum.",
-   "rd": "비르 다키카, 벤 사데제 바크요룸.",
+   "tl": "Bir dakika, sadece bakıyorum.",
+   "rd": "비르 다키카, 사데제 바크요룸.",
    "ko": "잠깐만요, 저 그냥 보는 중이에요.",
-   "note": "sadece = 그냥, ~만",
+   "note": "bir dakika = 잠깐만요",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 3,
    "speaker": "C",
-   "tl": "Oraya gitmeyin! Bizimki daha iyi!",
-   "rd": "오라야 기트메인! 비짐키 다하 이이!",
+   "tl": "Oraya gitmeyin! Bizimki çok güzel!",
+   "rd": "오라야 기트메인! 비짐키 촉 귀젤!",
    "ko": "거기 가지 마세요! 우리 게 더 좋아요!",
-   "note": "bizimki = 우리 것",
+   "note": "çok güzel = 더 좋아요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 4,
@@ -69,61 +72,67 @@
    "tl": "Aman! Çantanızı verin, hadi!",
    "rd": "아만! 찬타느즈 베린, 하디!",
    "ko": "아이고! 가방 주세요, 어서요!",
-   "note": "çanta = 가방",
+   "note": "aman = 아이고; hadi = 어서요",
    "tags": [
     "expr:aman",
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Hayır, durun… Çantam nerede?",
-   "rd": "하이으르, 두룬… 찬탐 네레데?",
-   "ko": "아니요, 잠깐만요… 제 가방 어디 있어요?",
-   "note": "durun = 멈추세요",
+   "tl": "Eyvah! Çantam nerede?",
+   "rd": "에이바흐! 찬탐 네레데?",
+   "ko": "아니, 잠깐만요… 제 가방 어디 있어요?",
+   "note": "eyvah = 이런",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "Çantanız yazıhanede. Biletiniz de hazır!",
-   "rd": "찬타느즈 야즈하네데. 빌레티니즈 데 하즈르!",
+   "tl": "Çanta gişede. Bilet de hazır!",
+   "rd": "찬타 기셰데. 빌렛 데 하즈르!",
    "ko": "가방은 매표소에 있어요. 표도 준비됐어요!",
    "note": "yazıhane = 버스 회사 매표소",
    "tags": [
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Ben sadece bakıyordum! Ne bileti?",
-   "rd": "벤 사데제 바크요르둠! 네 빌레티?",
+   "tl": "Sadece bakıyordum! Ne bileti?",
+   "rd": "사데제 바크요르둠! 네 빌레티?",
    "ko": "저 그냥 구경만 했는데요! 무슨 표요?",
-   "note": "ne bileti = 무슨 표",
+   "note": "eyvah = 저…",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "On dakikaya kalkıyor. Nakit mi, kart mı?",
-   "rd": "온 다키카야 칼크요르. 나킷 미, 카르트 므?",
+   "tl": "On dakika sonra. Nakit, kart?",
+   "rd": "온 다키카 손라. 나킷, 카르트?",
    "ko": "10분 뒤 출발해요. 현금이요, 카드요?",
    "note": "nakit mi, kart mı = 현금이요 카드요",
    "tags": [
     "expr:çok güzel"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

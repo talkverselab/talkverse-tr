@@ -36,180 +36,195 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Maketi sana veriyorum. Üç aylık emek, lütfen dikkat et.",
-   "rd": "마케티 사나 베리요룸. 위치 아일륵 에멕, 뤼트펜 디캇 엣.",
+   "tl": "Maketi sana emanet ediyorum. Üç aylık emek, lütfen dikkat et.",
+   "rd": "마케티 사나 에마넷 에디요룸. 위치 아일륵 에멕, 뤼트펜 디캇 엣.",
    "ko": "모형 너한테 맡긴다. 석 달 치 고생이야, 제발 조심해.",
-   "note": "maket = 건축 모형",
+   "note": "maket = 모형",
    "tags": [],
    "new": [
     "maket"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Merak etme. Bebek gibi taşırım, ne olacak?",
-   "rd": "메락 에트메. 베벡 기비 타시름, 네 올라작?",
+   "tl": "Merak etme. Bebek gibi bakacağım, ne olabilir ki?",
+   "rd": "메락 에트메. 베벡 기비 바카자음, 네 올라빌리르 키?",
    "ko": "걱정 마. 아기처럼 모실게, 뭔 일 있겠어?",
-   "note": "taşımak = 나르다",
+   "note": "merak etme = 걱정 마",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Jüri saat ikide. Dolmuşta kucağından indirme, tamam mı?",
-   "rd": "쥐리 사앗 이키데. 돌무시타 쿠자은단 인디르메, 타맘 므?",
+   "tl": "Jüri iki. Dolmuşta dizinden indirme, tamam mı?",
+   "rd": "쥐리 이키. 돌무시타 디진덴 인디르메, 타맘 므?",
    "ko": "심사 두 시야. 돌무쉬에서 무릎에서 내려놓지 마, 알았지?",
-   "note": "kucak = 무릎 위",
+   "note": "jüri = 심사",
    "tags": [],
    "new": [
     "jüri"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Tamam, tamam. Sen git, ben arkadan gelirim.",
-   "rd": "타맘, 타맘. 센 깃, 벤 아르카단 겔리림.",
+   "tl": "Tamam, tamam. Sen önden git, ben peşinden gelirim.",
+   "rd": "타맘, 타맘. 센 왼덴 깃, 벤 페신덴 겔리림.",
    "ko": "알았어, 알았어. 너 먼저 가, 나 뒤따라갈게.",
-   "note": "arkadan = 뒤에서",
+   "note": "peşinden = 뒤따라",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Arkadaş, parayı öne uzatır mısın? İki öğrenci.",
-   "rd": "아르카다시, 파라이으 외네 우자트르 므슨? 이키 외렌지.",
+   "tl": "Bakar mısın, parayı öne atar mısın? İki öğrenci.",
+   "rd": "바카르 므슨, 파라이으 외네 아타르 므슨? 이키 외렌지.",
    "ko": "저기, 돈 좀 앞으로 넘겨 줄래? 학생 둘.",
-   "note": "uzatmak = 건네다(돌무쉬에선 요금을 앞으로 넘긴다)",
+   "note": "atar mısın = 넘겨 줄래",
    "tags": [],
-   "new": [
-    "uzatmak"
-   ]
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Tabii, ama ellerim dolu. Bir dakika…",
-   "rd": "타비이, 아마 엘레림 돌루. 비르 다키카…",
+   "tl": "Evet, ama ellerim dolu. Bir dakika…",
+   "rd": "에벳, 아마 엘레림 돌루. 비르 다키카…",
    "ko": "네, 근데 손이 꽉 찼어요. 잠깐만요…",
-   "note": "ellerim dolu = 손이 꽉 찼다",
+   "note": "bir dakika = 잠깐만요",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Ver, maketi ben tutayım. Sen parayı uzat. Hadi!",
-   "rd": "베르, 마케티 벤 투타이음. 센 파라이으 우잣. 하디!",
+   "tl": "Ver, maketi ben tutayım. Sen parayı at. Hadi!",
+   "rd": "베르, 마케티 벤 투타이음. 센 파라이으 앗. 하디!",
    "ko": "줘 봐, 모형은 내가 들게. 넌 돈 넘겨. 어서!",
-   "note": "tutayım = 내가 들게",
+   "note": "hadi = 어서",
    "tags": [
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 8,
    "speaker": "D",
-   "tl": "Kaç kişi? Öğrenci mi, tam mı?",
-   "rd": "카치 키시? 외렌지 미, 탐 므?",
+   "tl": "Kaç kişi? Öğrenci mi, normal mi?",
+   "rd": "카치 키시? 외렌지 미, 노르말 미?",
    "ko": "몇 명이에요? 학생이에요, 일반이에요?",
-   "note": "tam = 일반 요금",
+   "note": "öğrenci = 학생",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "İki öğrenci! Şoför bey, yavaş lütfen, maket var!",
-   "rd": "이키 외렌지! 쇼푀르 베이, 야바시 뤼트펜, 마켓 바르!",
+   "tl": "İki öğrenci! Şoför bey, yavaş, maket var!",
+   "rd": "이키 외렌지! 쇼푀르 베이, 야바시, 마켓 바르!",
    "ko": "학생 둘요! 기사님, 천천히요, 모형 있어요!",
    "note": "yavaş = 천천히",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 10,
    "speaker": "D",
-   "tl": "Tutunun! Duruyorum!",
-   "rd": "투투눈! 두루요룸!",
+   "tl": "Sıkı tutun! Duruyoruz!",
+   "rd": "스크 투툰! 두루요루즈!",
    "ko": "꽉 잡아요! 섭니다!",
-   "note": "tutunmak = 붙잡다 — 반전: 급정거",
+   "note": "sıkı tutun = 꽉 잡아요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Zeynep… kötü bir haberim var. Maketin bir köşesi yok.",
-   "rd": "제이넵… 쾨튀 비르 하베림 바르. 마케틴 비르 쾨셰시 욕.",
+   "tl": "Zeynep… kötü haberim var. Maketin bir köşesi yok.",
+   "rd": "제이넵… 쾨튀 하베림 바르. 마케틴 비르 쾨셰시 욕.",
    "ko": "Zeynep… 안 좋은 소식이 있어. 모형 한쪽 모서리가 없어.",
    "note": "köşe = 모서리",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   },
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Ne demek yok? Nereye gitti? Neredesin sen?",
-   "rd": "네 데멕 욕? 네레예 기티? 네레데신 센?",
+   "tl": "Yok mu ne demek? Nereye gitti? Sen neredesin?",
+   "rd": "욕 무 네 데멕? 네레예 기티? 센 네레데신?",
    "ko": "없다니 무슨 말이야? 어디로 갔는데? 너 어디야?",
-   "note": "ne demek = 무슨 말이야",
+   "note": "neredesin = 어디야",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 13,
    "speaker": "E",
-   "tl": "Zeynep Hanım, bu kırık köşe çok cesur. Ne anlatıyor?",
-   "rd": "제이넵 하늠, 부 크륵 쾨셰 촉 제수르. 네 안라트요르?",
+   "tl": "Zeynep, bu kırık köşe çok cesur. Ne ifade ediyor?",
+   "rd": "제이넵, 부 크륵 쾨셰 촉 제수르. 네 이파데 에디요르?",
    "ko": "Zeynep 씨, 이 깨진 모서리 아주 과감하네요. 뭘 표현한 거죠?",
-   "note": "cesur = 과감한",
+   "note": "kırık = 깨진",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 14,
    "speaker": "B",
-   "tl": "Şey… hocam, şehrin kalabalığını anlatıyor.",
-   "rd": "셰이… 호잠, 셰흐린 칼라발르으느 안라트요르.",
+   "tl": "Şey… hocam, şehrin karmaşasını ifade ettim.",
+   "rd": "셰이… 호잠, 셰흐린 카르마샤스느 이파데 에팀.",
    "ko": "저… 교수님, 도시의 혼잡함을 표현했습니다.",
-   "note": "kalabalık = 혼잡",
+   "note": "şey = 저…; hocam = 교수님",
    "tags": [
     "expr:hocam",
     "expr:şey"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 15,
    "speaker": "E",
-   "tl": "Harika. Yıllardır böyle maket görmedim. Doksan beş.",
-   "rd": "하리카. 이을라르드르 뵈일레 마켓 괴르메딤. 독산 베시.",
+   "tl": "Harika. Yıllardır böyle maket görmemiştim. 95.",
+   "rd": "하리카. 이을라르드르 뵈일레 마켓 괴르메미시팀. 95.",
    "ko": "훌륭해요. 몇 년 만에 이런 모형을 보네요. 95점.",
-   "note": "yıllardır = 몇 년 동안",
+   "note": "harika = 훌륭해요",
    "tags": [
     "expr:harika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 16,
    "speaker": "B",
-   "tl": "Seninle konuşmuyorum. Ama dolmuş parası benden.",
-   "rd": "세닌레 코누시무요룸. 아마 돌무시 파라스 벤덴.",
+   "tl": "Seninle konuşmuyorum. Ama dolmuş parasını ben öderim.",
+   "rd": "세닌레 코누시무요룸. 아마 돌무시 파라스느 벤 외데림.",
    "ko": "너랑 말 안 할 거야. 근데 돌무쉬 값은 내가 낼게.",
-   "note": "benden = 내가 낸다",
+   "note": "öderim = 낼게",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

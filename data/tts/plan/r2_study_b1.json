@@ -9,7 +9,7 @@
 "segs": [
 [
 "worried",
-"Dün neredeydin? Seni kantinde bekledim."
+"Dün neredeydin ya? Kantinde bekledim."
 ]
 ]
 },
@@ -17,11 +17,11 @@
 "segs": [
 [
 "polite",
-"Kusura bakma, telefonum kapalıydı."
+"Kusura bakma, telefon kapalıydı."
 ],
 [
 "neutral",
-"Ders çalıştım."
+"Çalışıyordum."
 ]
 ]
 },
@@ -53,7 +53,7 @@
 "segs": [
 [
 "neutral",
-"Evet, bütün dersler. Hoca gitti, ben kaldım."
+"Evet, hepsinden. Hoca gitti, ben kaldım."
 ]
 ]
 },
@@ -61,7 +61,7 @@
 "segs": [
 [
 "gentle",
-"Geçmiş olsun. Üzülme, bütünleme var."
+"Geçmiş olsun. Üzülme, telafi var."
 ]
 ]
 },
@@ -69,11 +69,11 @@
 "segs": [
 [
 "surprised",
-"O ne?"
+"Ne telafisi?"
 ],
 [
 "cheerful",
-"Sınıf çok güzeldi, yine kalırım."
+"Sınıf güzeldi, yine kalırım."
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "surprised",
-"Ciddi misin? Bir daha mı kalacaksın?!"
+"Ciddi misin? Yine sınıfta kalacağını mı söylüyorsun?!"
 ]
 ]
 },
@@ -97,7 +97,7 @@
 "segs": [
 [
 "flustered",
-"Hocam, ne yaz okulu? Ben sadece sınıfta oturdum!"
+"Hocam, yaz okulu mu? Ben sadece sınıfta oturuyordum!"
 ]
 ]
 },
@@ -105,7 +105,7 @@
 "segs": [
 [
 "teasing",
-"Şimdi öğrendin. Kalmak başka, oturmak başka."
+"Şimdi anladın. Kalmakla oturmak farklı."
 ]
 ]
 }

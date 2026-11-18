@@ -11,7 +11,7 @@
 "segs": [
 [
 "worried",
-"Maketi sana veriyorum. Üç aylık emek, lütfen dikkat et."
+"Maketi sana emanet ediyorum. Üç aylık emek, lütfen dikkat et."
 ]
 ]
 },
@@ -19,7 +19,7 @@
 "segs": [
 [
 "cheerful",
-"Merak etme. Bebek gibi taşırım, ne olacak?"
+"Merak etme. Bebek gibi bakacağım, ne olabilir ki?"
 ]
 ]
 },
@@ -27,7 +27,7 @@
 "segs": [
 [
 "worried",
-"Jüri saat ikide. Dolmuşta kucağından indirme, tamam mı?"
+"Jüri iki. Dolmuşta dizinden indirme, tamam mı?"
 ]
 ]
 },
@@ -35,7 +35,7 @@
 "segs": [
 [
 "neutral",
-"Tamam, tamam. Sen git, ben arkadan gelirim."
+"Tamam, tamam. Sen önden git, ben peşinden gelirim."
 ]
 ]
 },
@@ -43,7 +43,7 @@
 "segs": [
 [
 "polite",
-"Arkadaş, parayı öne uzatır mısın? İki öğrenci."
+"Bakar mısın, parayı öne atar mısın? İki öğrenci."
 ]
 ]
 },
@@ -51,7 +51,7 @@
 "segs": [
 [
 "flustered",
-"Tabii, ama ellerim dolu. Bir dakika…"
+"Evet, ama ellerim dolu. Bir dakika…"
 ]
 ]
 },
@@ -59,7 +59,7 @@
 "segs": [
 [
 "cheerful",
-"Ver, maketi ben tutayım. Sen parayı uzat. Hadi!"
+"Ver, maketi ben tutayım. Sen parayı at. Hadi!"
 ]
 ]
 },
@@ -67,7 +67,7 @@
 "segs": [
 [
 "neutral",
-"Kaç kişi? Öğrenci mi, tam mı?"
+"Kaç kişi? Öğrenci mi, normal mi?"
 ]
 ]
 },
@@ -75,7 +75,7 @@
 "segs": [
 [
 "worried",
-"İki öğrenci! Şoför bey, yavaş lütfen, maket var!"
+"İki öğrenci! Şoför bey, yavaş, maket var!"
 ]
 ]
 },
@@ -83,7 +83,7 @@
 "segs": [
 [
 "shout",
-"Tutunun! Duruyorum!"
+"Sıkı tutun! Duruyoruz!"
 ]
 ]
 },
@@ -91,7 +91,7 @@
 "segs": [
 [
 "sad",
-"Zeynep… kötü bir haberim var. Maketin bir köşesi yok."
+"Zeynep… kötü haberim var. Maketin bir köşesi yok."
 ]
 ]
 },
@@ -99,7 +99,7 @@
 "segs": [
 [
 "shout",
-"Ne demek yok? Nereye gitti? Neredesin sen?"
+"Yok mu ne demek? Nereye gitti? Sen neredesin?"
 ]
 ]
 },
@@ -107,7 +107,7 @@
 "segs": [
 [
 "stiff",
-"Zeynep Hanım, bu kırık köşe çok cesur. Ne anlatıyor?"
+"Zeynep, bu kırık köşe çok cesur. Ne ifade ediyor?"
 ]
 ]
 },
@@ -115,7 +115,7 @@
 "segs": [
 [
 "flustered",
-"Şey… hocam, şehrin kalabalığını anlatıyor."
+"Şey… hocam, şehrin karmaşasını ifade ettim."
 ]
 ]
 },
@@ -123,7 +123,8 @@
 "segs": [
 [
 "excited",
-"Harika. Yıllardır böyle maket görmedim. Doksan beş."
+"Harika. Yıllardır böyle maket görmemiştim. 95.",
+"Harika. Yıllardır böyle maket görmemiştim. doksan beş."
 ]
 ]
 },
@@ -131,7 +132,7 @@
 "segs": [
 [
 "annoyed",
-"Seninle konuşmuyorum. Ama dolmuş parası benden."
+"Seninle konuşmuyorum. Ama dolmuş parasını ben öderim."
 ]
 ]
 }

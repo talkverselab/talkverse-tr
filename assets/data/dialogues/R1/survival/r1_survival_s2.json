@@ -32,24 +32,26 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Affedersiniz, Güneş Oteli nerede?",
-   "rd": "아페데르시니즈, 귀네시 오텔리 네레데?",
+   "tl": "Affedersiniz, Güneş Otel nerede?",
+   "rd": "아페데르시니즈, 귀네시 오텔 네레데?",
    "ko": "실례합니다, 귀네시 호텔 어디예요?",
-   "note": "nerede = 어디에",
+   "note": "affedersiniz = 실례합니다",
    "tags": [
     "expr:affedersiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Güneş Oteli mi? Uzak, çok uzak.",
-   "rd": "귀네시 오텔리 미? 우작, 촉 우작.",
+   "tl": "Güneş Otel mi? Uzak, çok uzak.",
+   "rd": "귀네시 오텔 미? 우작, 촉 우작.",
    "ko": "귀네시 호텔이요? 멀어요, 아주 멀어요.",
    "note": "uzak = 먼",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
@@ -57,11 +59,12 @@
    "tl": "Uzak mı? Ne kadar?",
    "rd": "우작 므? 네 카다르?",
    "ko": "멀어요? 얼마예요?",
-   "note": "ne kadar = 얼마",
+   "note": "ne kadar = 얼마예요",
    "tags": [
     "expr:ne kadar"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 4,
@@ -71,56 +74,69 @@
    "ko": "300리라요. 타세요, 타세요!",
    "note": "binin = 타세요",
    "tags": [],
-   "new": [
-    "binmek"
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Üç yüz lira."
+    ],
+    [
+     "cheerful",
+     "Binin, binin!"
+    ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Çok pahalı! Ama… tamam, gidelim.",
-   "rd": "촉 파할르! 아마… 타맘, 기델림.",
+   "tl": "Çok pahalı! Ama... evet, gidelim.",
+   "rd": "촉 파할르! 아마... 에벳, 기델림.",
    "ko": "너무 비싸요! 근데… 네, 가요.",
-   "note": "gidelim = 가요(가자)",
+   "note": "çok pahalı = 너무 비싸요",
    "tags": [
     "expr:çok pahalı"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Geldik! İşte Güneş Oteli.",
-   "rd": "겔딕! 이시테 귀네시 오텔리.",
+   "tl": "Geldik! İşte Güneş Otel.",
+   "rd": "겔딕! 이시테 귀네시 오텔.",
    "ko": "다 왔습니다! 여기 귀네시 호텔이에요.",
    "note": "geldik = 도착했어요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Bir dakika… ben buradan bindim!",
-   "rd": "비르 다키카… 벤 부라단 빈딤!",
+   "tl": "Bir dakika... Ben burada binmiştim!",
+   "rd": "비르 다키카... 벤 부라다 빈미시팀!",
    "ko": "잠깐만요… 저 여기서 탔는데요!",
-   "note": "buradan = 여기서 — 반전: 호텔 앞에서 탔다",
+   "note": "bir dakika = 잠깐만",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Evet. Yol kısa, fiyat aynı.",
-   "rd": "에벳. 욜 크사, 피얏 아이느.",
+   "tl": "Evet. Yol kısa ama ücret aynı.",
+   "rd": "에벳. 욜 크사 아마 위지렛 아이느.",
    "ko": "네. 길은 짧아도 요금은 같아요.",
    "note": "aynı = 같은",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

@@ -31,72 +31,95 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Bu akşam final var. Sakın söyleme!",
-   "rd": "부 악샴 피날 바르. 사큰 쇠일레메!",
+   "tl": "Bu gece final! Sakın söyleme!",
+   "rd": "부 게제 피날! 사큰 쇠일레메!",
    "ko": "오늘 밤 마지막 회야. 절대 말하지 마!",
-   "note": "sakın = 절대 ~하지 마",
+   "note": "final = 최종회",
    "tags": [],
    "new": [
     "sakın"
    ],
    "at": "20:14",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "excited",
+     "Bu gece final!"
+    ],
+    [
+     "worried",
+     "Sakın söyleme!"
+    ]
+   ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Söylemem.",
-   "rd": "쇠일레멤.",
+   "tl": "Demem.",
+   "rd": "데멤.",
    "ko": "안 해.",
-   "note": "söylemem = 말 안 한다",
+   "note": "valla = 진짜",
    "tags": [],
    "new": [],
    "at": "20:14",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "teasing"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Ben yarın izleyeceğim. Söz mü?",
-   "rd": "벤 야른 이즐레예제임. 쇠즈 뮈?",
+   "tl": "Yarın izlerim. Söz?",
+   "rd": "야른 이즐레림. 쇠즈?",
    "ko": "나 내일 볼 거야. 약속?",
-   "note": "söz = 약속",
+   "note": "bakacam = 볼 거야",
    "tags": [],
    "new": [],
    "at": "20:15",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Söz. Profil fotoğrafıma bakma.",
-   "rd": "쇠즈. 프로필 포토라프마 박마.",
+   "tl": "Söz. Profilime bakma.",
+   "rd": "쇠즈. 프로필리메 박마.",
    "ko": "약속. 내 프사 보지 마.",
-   "note": "profil fotoğrafı = 프로필 사진",
+   "note": "profilime = 프로필에",
    "tags": [],
    "new": [],
    "at": "20:16",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "gentle",
+     "Söz."
+    ],
+    [
+     "teasing",
+     "Profilime bakma."
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Neden bakmayayım? Ne var?",
-   "rd": "네덴 박마야이음? 네 바르?",
+   "tl": "Niye bakma? Ne var?",
+   "rd": "니예 박마? 네 바르?",
    "ko": "왜 보지 마? 뭐 있어?",
-   "note": "ne var = 뭔데",
+   "note": "ne var = 뭐 있어",
    "tags": [
     "expr:ne var"
    ],
    "new": [],
    "at": "20:16",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Hiç. İyi geceler 🙂",
-   "rd": "히치. 이이 게젤레르",
+   "tl": "Yok bir şey. İyi geceler 🙂",
+   "rd": "욕 비르 셰이. 이이 게젤레르",
    "ko": "아무것도. 잘 자 🙂",
    "note": "iyi geceler = 잘 자",
    "tags": [
@@ -105,7 +128,8 @@
    "new": [],
    "stamp": "🙂",
    "at": "20:17",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "teasing"
   },
   {
    "num": 7,
@@ -113,26 +137,29 @@
    "tl": "Zeynep! Doktor öldü mü?!",
    "rd": "제이넵! 독토르 욀뒤 뮈?!",
    "ko": "Zeynep! 의사 죽었어?!",
-   "note": "öldü mü = 죽었어? — 반전: 사진을 봤다",
+   "note": "öldü mü = 죽었니",
    "tags": [],
    "new": [],
    "at": "20:17",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "shout"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Bakma dedim.",
-   "rd": "박마 데딤.",
+   "tl": "Bakma demiştim.",
+   "rd": "박마 데미시팀.",
    "ko": "보지 말랬지.",
-   "note": "bakma dedim = 보지 말라고 했다",
+   "note": "demiştim = 말했잖아",
    "tags": [],
    "new": [],
    "at": "20:18",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "tsukkomi"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

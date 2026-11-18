@@ -8,7 +8,7 @@
 "segs": [
 [
 "excited",
-"Hoş geldin! Çabuk mutfağa gel, bugün ablamı istemeye geliyorlar."
+"Hoş geldin! Çabuk mutfağa gel, bugün ablama istemeye gelmişler."
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "worried",
-"İstemeye mi? Ben o kelimeden korkuyorum, biliyorsun."
+"İsteme mi? O kelimeden korkuyorum, biliyorsun."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "neutral",
-"Tamam ama kural ne? Kahveyi kime vereceğim?"
+"Anladım, ama kural ne? Kahveyi kime vereceğim?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "cheerful",
-"Bak, tuzlu kahve damadın. Üç kaşık tuz koydum, ona ver."
+"Bak, tuzlu kahve damada. Üç kaşık tuz koydum, ona ver."
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "surprised",
-"Neden tuz? Bu adama düşman mısınız?"
+"Neden tuz? O adamla kavgalı mısınız?"
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "excited",
-"Gelenek bu! Damat içer ve susar, yani sabırlı demek."
+"Gelenek! Damat içer ve susar, sabırlı demek."
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "worried",
-"Anladım. Hangi fincandı, sağdaki mi, soldaki mi?"
+"Tamam. Hangi fincan, sağ mı sol mu?"
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "flustered",
-"Sağdaki! Hayır, dur, senin sağın mı benim sağım mı?"
+"Sağ! Dur, bir dakika, senin sağın mı benim sağım mı?"
 ]
 ]
 },
@@ -80,7 +80,7 @@
 "segs": [
 [
 "neutral",
-"Geç kaldın, verdim bile. Yaşlı amca kahvesini içiyor."
+"Geç kaldık, çoktan verdi. Yaşlı amca kahve içiyor."
 ]
 ]
 },
@@ -96,7 +96,7 @@
 "segs": [
 [
 "worried",
-"Yüzü kıpkırmızı oldu ama hiçbir şey demiyor."
+"Yüzü kıpkırmızı oldu ama hiç konuşmuyor."
 ]
 ]
 },
@@ -104,7 +104,7 @@
 "segs": [
 [
 "worried",
-"Damat nasıl? O bir şey fark etti mi?"
+"Damat nasıl? Bir şey fark etti mi?"
 ]
 ]
 },
@@ -112,7 +112,7 @@
 "segs": [
 [
 "worried",
-"Damat mutlu, \"Ne güzel kahve\" diyor. Baba bana bakıyor."
+"Damat beğeniyor, “Kahve güzel” diyor. Baba bana bakıyor."
 ]
 ]
 },
@@ -120,7 +120,7 @@
 "segs": [
 [
 "sad",
-"Bittik. Ablam beni öldürecek, düğün de bitti."
+"Bittik biz. Ablam beni öldürür, isteme de bozuldu."
 ]
 ]
 },
@@ -128,7 +128,7 @@
 "segs": [
 [
 "surprised",
-"Bir dakika… \"Bir fincan daha\" diyor."
+"Bir dakika… “Bir tane daha” diyor."
 ]
 ]
 }

@@ -1,0 +1,19 @@
+=== r0_culture_c1
+kind: chat
+title: 프로필 사진을 보지 마
+emoji: 🖼️
+scene: 드라마 마지막 회를 내일 보기로 했는데, Zeynep 이 말은 안 했다
+speakers: A={name}, B=Zeynep
+register: chat
+twist: 7 reveal
+purpose: media making_friends
+goal: iyi geceler·ne var 로 채팅에서 스포 막기
+expressions: ne var; iyi geceler
+A | Bu gece final! Sakın söyleme! | 오늘 밤 마지막 회야. 절대 말하지 마! |  | emotion=excited+worried
+B | Demem. | 안 해. |  | emotion=teasing
+A | Yarın izlerim. Söz? | 나 내일 볼 거야. 약속? |  | emotion=cheerful
+B | Söz. Profilime bakma. | 약속. 내 프사 보지 마. |  | emotion=gentle+teasing
+A | Niye bakma? Ne var? | 왜 보지 마? 뭐 있어? | ne var = 뭐 있어 | emotion=surprised
+B | Yok bir şey. İyi geceler 🙂 | 아무것도. 잘 자 🙂 | iyi geceler = 잘 자 | emotion=teasing
+A | Zeynep! Doktor öldü mü?! | Zeynep! 의사 죽었어?! |  | emotion=shout
+B | Bakma demiştim. | 보지 말랬지. |  | emotion=tsukkomi

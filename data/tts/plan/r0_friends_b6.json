@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Can, bir çay, lütfen."
+"Çay bir tane lütfen."
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "gentle",
-"Paşam, hoş geldin! Süt ister misin?"
+"Hoş geldin Paşa! Süt vereyim mi canım?"
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "annoyed",
-"Can, ben de buradayım. Çay?"
+"Can, ben de buradayım ya. Çayım nerede?"
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "gentle",
-"Aç mısın, canım? Gel, gel."
+"Aç mısın bebeğim? Gel buraya gel."
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "annoyed",
-"Beni görüyor musun?"
+"Beni görüyor musun hiç?"
 ],
 [
 "shout",
@@ -52,7 +52,7 @@
 "segs": [
 [
 "teasing",
-"Paşa, duydun mu? Bir ses var."
+"Paşa, duydun mu o sesi?"
 ]
 ]
 },
@@ -68,7 +68,7 @@
 "segs": [
 [
 "polite",
-"Buyurun, efendim! Çay mı, süt mü?"
+"Buyurun! Çay mı yoksa süt mü?"
 ]
 ]
 }

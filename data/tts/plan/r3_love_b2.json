@@ -9,7 +9,7 @@
 "segs": [
 [
 "excited",
-"Elif, şu küçük halı çok güzel. Annem için alabilirim."
+"Elif, şu küçük halı gerçekten güzel. Anneme alsak iyi olur."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "worried",
-"Belli etme! Beğendiğini görürse fiyat hemen iki katına çıkar."
+"Belli etme! Beğendiğin görünürse fiyat hemen iki katına çıkar."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "cheerful",
-"Hoş geldiniz! Çay içer misiniz? Bu halı sadece on bin lira."
+"Hoş geldiniz! Çay ister misiniz? Bu halı tam on bin lira."
 ]
 ]
 },
@@ -33,11 +33,7 @@
 "segs": [
 [
 "surprised",
-"On bin mi? Çok pahalı!"
-],
-[
-"polite",
-"Biraz indirim yapar mısınız, lütfen?"
+"On bin lira mı? Çok pahalı! Biraz indirir misiniz lütfen?"
 ]
 ]
 },
@@ -45,11 +41,11 @@
 "segs": [
 [
 "tsukkomi",
-"Hadi canım, on bin ne?"
+"Hadi canım, on bin lira ne?"
 ],
 [
 "annoyed",
-"Yan dükkânda bunun aynısı üç bin."
+"Yan dükkanda aynısı üç bin."
 ]
 ]
 },
@@ -61,7 +57,7 @@
 ],
 [
 "cheerful",
-"Yeni evlilere özel fiyat yapalım mı?"
+"Yeni evli indirimi yapayım mı?"
 ]
 ]
 },
@@ -69,7 +65,7 @@
 "segs": [
 [
 "flustered",
-"Eşim mi? Bir dakika, biz aslında…"
+"Eş mi? Bir dakika, biz aslında…"
 ]
 ]
 },
@@ -77,7 +73,7 @@
 "segs": [
 [
 "stiff",
-"Evet, yeni evliyiz. Ne kadar oluyor, söyleyin."
+"Evet, biz yeni evliyiz. Ne kadar yaparsınız?"
 ]
 ]
 },
@@ -85,11 +81,7 @@
 "segs": [
 [
 "excited",
-"Yeni evliler!"
-],
-[
-"shout",
-"Çocuklar, çabuk gelin! Tatlı getirin, çay getirin!"
+"Yeni evliymiş! Çocuklar, çabuk gelin! Tatlı getirin, çay getirin!"
 ]
 ]
 },
@@ -97,7 +89,7 @@
 "segs": [
 [
 "flustered",
-"Elif, herkes bize bakıyor! Şimdi ne diyeceğiz?"
+"Elif, herkes bize bakıyor! Şimdi ne diyelim?"
 ]
 ]
 },
@@ -105,7 +97,7 @@
 "segs": [
 [
 "excited",
-"Düğün nerede oldu? Fotoğraf var mı? Hadi, görelim!"
+"Düğün nerede oldu? Fotoğraf var mı? Hadi, gösterin!"
 ]
 ]
 },
@@ -113,7 +105,7 @@
 "segs": [
 [
 "flustered",
-"Şey… çok küçük bir düğündü. Sadece kedimiz vardı."
+"Şey… çok küçük bir düğündü. Sadece kedimiz geldi."
 ]
 ]
 },
@@ -121,11 +113,7 @@
 "segs": [
 [
 "surprised",
-"Kediniz de mi var?"
-],
-[
-"excited",
-"Harika! Halıyı iki bine verdim gitti!"
+"Kedi de mi var? Harika! Halı iki bine, bitti!"
 ]
 ]
 },
@@ -133,11 +121,11 @@
 "segs": [
 [
 "amused",
-"Halıyı aldık, çıktık."
+"Halıyı alıp çıktık."
 ],
 [
 "teasing",
-"Bu arada ne zaman evlendik biz?"
+"Bu arada biz ne zaman evlendik?"
 ]
 ]
 },
@@ -145,7 +133,7 @@
 "segs": [
 [
 "shy",
-"Bilmem ki. Ama \"eşim\" demek hoşuma gitti."
+"Bilmem ki. Ama “eşin” dediğinde güzel oldu."
 ]
 ]
 },
@@ -153,7 +141,7 @@
 "segs": [
 [
 "cheerful",
-"Hadi, kedi bulalım."
+"Hadi, kediyi bulmaya gidelim."
 ],
 [
 "shy",

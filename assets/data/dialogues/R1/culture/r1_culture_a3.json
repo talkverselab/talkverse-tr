@@ -13,7 +13,7 @@
  ],
  "title": "보는 사람 누구야",
  "emoji": "🧿",
- "scene": "Elif 가 내 가방에 나자르를 달아 주며 설명하다가 말이 샌다",
+ "scene": "Elif가 내 가방에 나자르를 달아 주며 설명하다가 말이 샌다",
  "speakers": {
   "A": "{name}",
   "B": "Elif"
@@ -34,39 +34,59 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Dur! Çantana bir şey takıyorum.",
-   "rd": "두르! 찬타나 비르 셰이 타크요룸.",
+   "tl": "Dur! Çantana bir şey takacağım.",
+   "rd": "두르! 찬타나 비르 셰이 타카자음.",
    "ko": "잠깐! 네 가방에 뭐 달아 줄게.",
-   "note": "takmak = 달다",
+   "note": "dur = 잠깐",
    "tags": [
     "expr:dur",
     "expr:şey"
    ],
    "new": [
     "çanta"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Bu ne? Mavi bir göz mü?",
-   "rd": "부 네? 마비 비르 괴즈 뮈?",
+   "tl": "Bu ne? Mavi göz mü?",
+   "rd": "부 네? 마비 괴즈 뮈?",
    "ko": "이거 뭐야? 파란 눈이야?",
-   "note": "göz = 눈",
+   "note": "mavi göz = 파란 눈",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Bu ne?"
+    ],
+    [
+     "neutral",
+     "Mavi göz mü?"
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Nazar boncuğu. Seni nazardan korur.",
-   "rd": "나자르 본주우. 세니 나자르단 코루르.",
+   "tl": "Nazar boncuğu. Kötü bakışlardan korur.",
+   "rd": "나자르 본주우. 쾨튀 바크실라르단 코루르.",
    "ko": "나자르 구슬. 나쁜 눈길에서 널 지켜 줘.",
-   "note": "nazar = 시샘하는 눈길",
+   "note": "nazar = 나자르",
    "tags": [],
    "new": [
-    "nazar",
-    "boncuk"
+    "nazar"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Nazar boncuğu."
+    ],
+    [
+     "gentle",
+     "Kötü bakışlardan korur."
+    ]
    ]
   },
   {
@@ -75,31 +95,34 @@
    "tl": "Nazar ne demek?",
    "rd": "나자르 네 데멕?",
    "ko": "나자르가 무슨 뜻이야?",
-   "note": "ne demek = 무슨 뜻이야",
+   "note": "ne demek = 무슨 뜻",
    "tags": [
     "expr:ne demek"
    ],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Biri sana çok bakar, sonra başın ağrır.",
-   "rd": "비리 사나 촉 바카르, 손라 바신 아르르.",
+   "tl": "Biri sana çok bakarsa başın ağrır.",
+   "rd": "비리 사나 촉 바카르사 바신 아르르.",
    "ko": "누가 널 너무 쳐다보면 머리가 아파져.",
-   "note": "başın ağrır = 머리가 아프다",
+   "note": "bakarsa = 보면",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Kim bana çok bakıyor?",
-   "rd": "킴 바나 촉 바크요르?",
+   "tl": "Kim bana öyle bakıyor?",
+   "rd": "킴 바나 외일레 바크요르?",
    "ko": "누가 날 그렇게 쳐다보는데?",
-   "note": "kim = 누구",
+   "note": "kim = 누가",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 7,
@@ -107,27 +130,39 @@
    "tl": "Ben değilim! Yani bazen…",
    "rd": "벤 데일림! 야니 바젠…",
    "ko": "나는 아니야! 그러니까 가끔…",
-   "note": "bazen = 가끔 — 들켰다",
+   "note": "yani = 그러니까",
    "tags": [
     "simkung",
     "expr:yani"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Ben değilim!"
+    ],
+    [
+     "shy",
+     "Yani bazen…"
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Maşallah de o zaman!",
-   "rd": "마샬라흐 데 오 자만!",
+   "tl": "O zaman maşallah de!",
+   "rd": "오 자만 마샬라흐 데!",
    "ko": "그럼 「마샬라」 해 줘!",
-   "note": "maşallah = 눈길을 막는 말",
+   "note": "maşallah = 마샬라",
    "tags": [
     "expr:maşallah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

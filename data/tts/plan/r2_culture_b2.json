@@ -9,7 +9,7 @@
 "segs": [
 [
 "cheerful",
-"Kalk, halay başlıyor. Oturmak yasak."
+"Kalk, halay başlıyor. Oturma yasak."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "worried",
-"Ben bilmiyorum ki. Hiç yapmadım."
+"Bilmiyorum ki. Hiç yapmadım."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "gentle",
-"Çok kolay. Elimi tut, üç adım sağa, bir sola."
+"Kolay. Elimi tut, sağa üç adım, sola bir."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "excited",
-"Üç sağa, bir sola… Vay be, yapıyorum!"
+"Sağa üç, sola bir... Vay be, oluyor!"
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "amused",
-"Aynen. Sadece en başa gitme, orası önemli."
+"Aynen. En öne gitme, orası önemli yer."
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "excited",
-"Gel, gel! Al mendili, bugün başa sen geç!"
+"Gel buraya, gel! Mendili al, bugün sen öndesin!"
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "amused",
-"Mendili salla ve yürü. Herkes arkandan gelir."
+"Mendili sallayarak yürü. Herkes arkandan gelir."
 ]
 ]
 },
@@ -85,7 +85,7 @@
 ],
 [
 "surprised",
-"Neden bahçeye çıkıyorsun?"
+"Neden bahçeye gidiyorsun?"
 ]
 ]
 },
@@ -93,7 +93,7 @@
 "segs": [
 [
 "flustered",
-"Bilmiyorum, kapı açıktı! Durmuyorlar!"
+"Bilmiyorum, kapı açıktı! Durmuyor!"
 ]
 ]
 },

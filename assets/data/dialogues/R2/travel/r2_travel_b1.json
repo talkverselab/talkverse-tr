@@ -42,39 +42,43 @@
    "tags": [],
    "new": [
     "motor"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Nasıl durdu? Denizin ortasındayız!",
-   "rd": "나슬 두르두? 데니진 오르타슨다이으즈!",
+   "tl": "Nasıl durur ya? Denizin ortasındayız!",
+   "rd": "나슬 두루르 야? 데니진 오르타슨다이으즈!",
    "ko": "어떻게 멈춰요? 바다 한가운데잖아요!",
-   "note": "ortasında = 한가운데에",
+   "note": "ortasında = 한가운데",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Sakin ol. Kaptan, ne yapıyoruz şimdi?",
-   "rd": "사킨 올. 캅탄, 네 야프요루즈 심디?",
+   "tl": "Sakin ol. Kaptan, şimdi ne olacak?",
+   "rd": "사킨 올. 캅탄, 심디 네 올라작?",
    "ko": "진정해. 선장님, 이제 어떻게 해요?",
    "note": "sakin ol = 진정해",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 4,
    "speaker": "C",
-   "tl": "Merak etmeyin, kardeşimi aradım. Az kaldı, geliyor.",
-   "rd": "메락 에트메인, 카르데시미 아라듬. 아즈 칼드, 겔리요르.",
+   "tl": "Merak etmeyin, kardeşime telefon ettim. Az kaldı.",
+   "rd": "메락 에트메인, 카르데시메 텔레폰 에팀. 아즈 칼드.",
    "ko": "걱정 마세요, 동생한테 전화했어요. 거의 다 왔대요.",
-   "note": "kardeş = 동생, 형제",
+   "note": "az kaldı = 거의 다 왔어",
    "tags": [
     "expr:az kaldı"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 5,
@@ -84,7 +88,8 @@
    "ko": "엘리프, 저 소리 뭐야? 음악이야?",
    "note": "ses = 소리",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 6,
@@ -92,85 +97,93 @@
    "tl": "Yok artık! Kardeşi parti teknesiyle geliyor!",
    "rd": "욕 아르특! 카르데시 파르티 텍네시일레 겔리요르!",
    "ko": "말도 안 돼! 동생이 파티 배로 오고 있어!",
-   "note": "tekne = 배(보트)",
+   "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 7,
    "speaker": "D",
-   "tl": "Hoş geldiniz! Atlayın, bugün benim bekârlığa veda partim!",
-   "rd": "호시 겔디니즈! 아틀라이은, 부귄 베님 베카를르아 베다 파르팀!",
+   "tl": "Hoş geldiniz! Geçin, bugün benim gelin duşum!",
+   "rd": "호시 겔디니즈! 게친, 부귄 베님 겔린 두슘!",
    "ko": "어서 오세요! 건너오세요, 오늘 제 브라이덜 샤워예요!",
-   "note": "bekârlığa veda = 결혼 전 파티",
+   "note": "hoş geldiniz = 어서 오세요",
    "tags": [
     "expr:hoş geldiniz",
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Bizi kimse çağırmadı ki!",
-   "rd": "비지 킴세 차으르마드 키!",
+   "tl": "Kimse bizi davet etmedi ki!",
+   "rd": "킴세 비지 다벳 에트메디 키!",
    "ko": "우리 아무도 안 불렀는데요!",
-   "note": "çağırmak = 부르다",
+   "note": "davet = 초대",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Önemli değil. Siz oynayın, ben motora bakıyorum.",
-   "rd": "외넴리 데일. 시즈 오이나이은, 벤 모토라 바크요룸.",
+   "tl": "Önemli değil. Siz dans edin, ben motora bakayım.",
+   "rd": "외넴리 데일. 시즈 단스 에딘, 벤 모토라 바카이음.",
    "ko": "괜찮습니다. 손님들은 춤추세요, 전 엔진 볼게요.",
-   "note": "oynamak = 놀다, 춤추다",
+   "note": "önemli değil = 괜찮아요",
    "tags": [
     "expr:önemli değil"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 10,
    "speaker": "B",
-   "tl": "Hadi, gel! Bak, herkes sana bakıyor.",
-   "rd": "하디, 겔! 박, 헤르케스 사나 바크요르.",
+   "tl": "Hadi gel! Bak, herkes sana bakıyor.",
+   "rd": "하디 겔! 박, 헤르케스 사나 바크요르.",
    "ko": "자, 와! 봐, 다들 너 보고 있어.",
-   "note": "herkes = 모두",
+   "note": "hadi = 자",
    "tags": [
     "expr:hadi",
     "expr:bak",
     "expr:gel"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Neden bana? Ben dans bilmiyorum ki!",
-   "rd": "네덴 바나? 벤 단스 빌미요룸 키!",
+   "tl": "Neden bana? Dans edemem ki!",
+   "rd": "네덴 바나? 단스 에데멤 키!",
    "ko": "왜 나를? 나 춤 못 춘다니까!",
-   "note": "ki = ~인데(말끝 강조)",
+   "note": "dans = 춤",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 12,
    "speaker": "D",
-   "tl": "Herkes fotoğrafa! Siz de ortaya, lütfen!",
-   "rd": "헤르케스 포토라파! 시즈 데 오르타야, 뤼트펜!",
+   "tl": "Herkes fotoğraf çeksin! Misafir de ortaya!",
+   "rd": "헤르케스 포토라프 첵신! 미사피르 데 오르타야!",
    "ko": "다들 사진 찍어요! 손님도 가운데로요!",
    "note": "ortaya = 가운데로",
    "tags": [
     "expr:lütfen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

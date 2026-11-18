@@ -31,92 +31,99 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Can, bu kedi kimin?",
-   "rd": "잔, 부 케디 키민?",
+   "tl": "Can ya, bu kedi kimin?",
+   "rd": "잔 야, 부 케디 키민?",
    "ko": "칸, 이 고양이 누구 거야?",
    "note": "kimin = 누구의",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Kimsenin değil. Ama burası onun.",
-   "rd": "킴세닌 데일. 아마 부라스 오눈.",
-   "ko": "누구 것도 아니야. 근데 여긴 걔 땅이야.",
+   "tl": "Kimsenin değil. Burası artık onun yeri.",
+   "rd": "킴세닌 데일. 부라스 아르특 오눈 예리.",
+   "ko": "누구 것도 아니야. 여긴 이제 걔 자리야.",
    "note": "kimsenin değil = 누구 것도 아니다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Üç gündür kapımda uyuyor.",
-   "rd": "위치 귄뒤르 카픔다 우유요르.",
-   "ko": "사흘째 우리 집 문 앞에서 자.",
+   "tl": "Üç gündür kapımızın önünde uyuyor.",
+   "rd": "위치 귄뒤르 카프므즌 외뉜데 우유요르.",
+   "ko": "사흘째 우리 문 앞에서 자고 있어.",
    "note": "üç gündür = 사흘째",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Bak, bu kedi kimseye gitmez.",
-   "rd": "박, 부 케디 킴세예 기트메즈.",
-   "ko": "봐, 이 고양이 아무한테도 안 가.",
+   "tl": "Bak, hiç kimseye yanaşmıyor.",
+   "rd": "박, 히치 킴세예 야나시므요르.",
+   "ko": "봐, 다른 사람한테는 안 가.",
    "note": "kimseye = 아무에게도",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Ben burada kimseyi tanımıyorum ya.",
-   "rd": "벤 부라다 킴세이 타느므요룸 야.",
-   "ko": "나 여기 아는 사람도 없는데.",
+   "tl": "Burada tanıdığım kimse yok ki.",
+   "rd": "부라다 타느드음 킴세 욕 키.",
+   "ko": "나 여기서 아는 사람 없는데.",
    "note": "tanımıyorum = 몰라(사람을)",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Olsun. O seni seçti.",
-   "rd": "올순. 오 세니 세치티.",
-   "ko": "괜찮아. 걔가 널 고른 거야.",
-   "note": "seçti = 골랐다 — 반전: 혼자가 아니다",
+   "tl": "Olsun. Seni seçmiş işte.",
+   "rd": "올순. 세니 세치미시 이시테.",
+   "ko": "괜찮아. 널 고른 거야.",
+   "note": "olsun = 괜찮아",
    "tags": [
     "expr:olsun",
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Bana patron gibi bakıyor.",
-   "rd": "바나 파트론 기비 바크요르.",
+   "tl": "Bana patron gibi bakıyor resmen.",
+   "rd": "바나 파트론 기비 바크요르 레스멘.",
    "ko": "나를 사장님처럼 쳐다봐.",
    "note": "patron = 사장",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Tamam, adı Patron. Sen de işçisin.",
-   "rd": "타맘, 아드 파트론. 센 데 이시치신.",
-   "ko": "좋아, 이름은 파트론. 넌 직원이고.",
-   "note": "işçi = 직원, 일꾼",
+   "tl": "Tamam, adı Patron. Sen de çalışanısın.",
+   "rd": "타맘, 아드 파트론. 센 데 찰르샤느슨.",
+   "ko": "좋아, 이름은 파트론. 넌 직원이야.",
+   "note": "tamam = 좋아",
    "tags": [
     "expr:tamam"
    ],
-   "new": [
-    "işçi"
-   ]
+   "new": [],
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

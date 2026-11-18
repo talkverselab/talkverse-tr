@@ -1,0 +1,19 @@
+=== r1_love_a2
+kind: short
+title: 반쪽 시미트
+emoji: 🐦
+scene: 페리 갑판, Elif 가 내 시미트를 핑계로 말을 거는데 갈매기가 먼저 온다
+speakers: A={name}, B=Elif
+register: mixed
+twist: 5 chaos
+purpose: love
+goal: yarısı·bir dakika·eyvah 로 나눠 주고 받기
+expressions: pardon; bir dakika; eyvah; hadi gidelim; afiyet olsun
+B | Pardon, simitin çok lezzetli görünüyor. | 저기요, 시미트 진짜 맛있어 보여요. | pardon = 저기요 | emotion=shy
+A | Yarısını ister misin? Al. | 반 드실래요? 여기요. |  | emotion=polite
+B | Sağ ol! Bir dakika, martı! | 고마워요! 잠깐만, 갈매기! | bir dakika = 잠깐만 | emotion=cheerful+surprised
+A | Eyvah! Yarısı uçtu gitti! | 헉! 반쪽 날아갔어요! | eyvah = 헉 | emotion=surprised
+B | Bak, daha on martı geliyor! | 봐요, 갈매기 열 마리 더 와요! |  | emotion=excited
+A | Hadi kaçalım! Kalan yarısı bende! | 얼른 도망가요! 나머지 반쪽 나한테 있어요! |  | emotion=excited
+B | Simiti bırak. Benimle gel. | 시미트 버려. 넌 나랑 가자. |  | emotion=gentle
+A | Hadi gidelim! Martılar, afiyet olsun! | 그래, 가자! 갈매기들아, 맛있게 먹어! | hadi gidelim = 가자 / afiyet olsun = 맛있게 먹어 | emotion=cheerful

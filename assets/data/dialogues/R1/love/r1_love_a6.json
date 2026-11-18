@@ -41,58 +41,63 @@
    "tl": "Pardon, bunu öne verir misiniz?",
    "rd": "파르돈, 부누 외네 베리르 미시니즈?",
    "ko": "저기요, 이것 좀 앞으로 전해 주실래요?",
-   "note": "öne = 앞으로",
+   "note": "pardon = 저기요",
    "tags": [
     "expr:pardon"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Öne mi? Tabii, buyurun.",
-   "rd": "외네 미? 타비이, 부유룬.",
-   "ko": "앞으로요? 네, 그럼요.",
-   "note": "tabii = 물론이죠",
+   "tl": "Öne mi? Buyurun.",
+   "rd": "외네 미? 부유룬.",
+   "ko": "앞으로요? 네, 주세요.",
+   "note": "buyurun = 주세요",
    "tags": [
     "expr:tabii",
     "expr:buyurun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "C",
-   "tl": "Bunu da lütfen. İki kişi!",
-   "rd": "부누 다 뤼트펜. 이키 키시!",
+   "tl": "Bunu da. İki kişi!",
+   "rd": "부누 다. 이키 키시!",
    "ko": "이것도요. 두 명이요!",
    "note": "iki kişi = 두 사람",
    "tags": [
     "expr:lütfen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Tamam… bir dakika, bir dakika!",
-   "rd": "타맘… 비르 다키카, 비르 다키카!",
+   "tl": "Evet… Bir dakika, bir dakika!",
+   "rd": "에벳… 비르 다키카, 비르 다키카!",
    "ko": "네… 잠깐만요, 잠깐만요!",
    "note": "bir dakika = 잠깐만요",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Arkadan yüz lira var! Üstü sizde!",
-   "rd": "아르카단 위즈 리라 바르! 위스튀 시즈데!",
+   "tl": "Arkadan yüz lira! Para üstü size!",
+   "rd": "아르카단 위즈 리라! 파라 위스튀 시제!",
    "ko": "뒤에서 100리라 왔어요! 거스름돈은 그쪽이요!",
    "note": "üstü = 거스름돈 — 반전: 온 차의 돈이 내 손에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 6,
@@ -100,42 +105,46 @@
    "tl": "Yavaş lütfen! Ben şoför değilim!",
    "rd": "야바시 뤼트펜! 벤 쇼푀르 데일림!",
    "ko": "천천히요! 저 기사 아니에요!",
-   "note": "şoför = 운전기사",
+   "note": "yavaş lütfen = 천천히요",
    "tags": [
     "expr:yavaş lütfen"
    ],
    "new": [
     "şoför"
-   ]
+   ],
+   "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Aa, durağım! Siz inmiyor musunuz?",
-   "rd": "아아, 두라음! 시즈 인미요르 무수누즈?",
+   "tl": "Aaa, benim durak! İnmiyor musunuz?",
+   "rd": "아아아, 베님 두락! 인미요르 무수누즈?",
    "ko": "어, 제 정류장! 안 내리세요?",
    "note": "durak = 정류장",
    "tags": [],
    "new": [
     "durak"
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Aslında üç durak önce… neyse, görüşürüz!",
-   "rd": "아슬른다 위치 두락 왼제… 네이세, 괴뤼쉬뤼즈!",
+   "tl": "Aslında üç durak önceydi… Neyse. Görüşürüz!",
+   "rd": "아슬른다 위치 두락 왼제이디… 네이세. 괴뤼쉬뤼즈!",
    "ko": "사실 세 정거장 전이었는데… 아무튼. 또 봐요!",
-   "note": "aslında = 사실은 — 끝맺지 않는다",
+   "note": "neyse = 아무튼; görüşürüz = 또 봐요",
    "tags": [
     "expr:neyse",
     "expr:görüşürüz",
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

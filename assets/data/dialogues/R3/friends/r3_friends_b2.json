@@ -36,36 +36,57 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hayırlı olsun! Neden bana söylemedin, kanka?",
-   "rd": "하이으를르 올순! 네덴 바나 쇠일레메딘, 칸카?",
+   "tl": "Tebrikler! Neden bana söylemedin kanka?",
+   "rd": "테브리클레르! 네덴 바나 쇠일레메딘 칸카?",
    "ko": "축하해! 왜 나한테 말 안 했어, 친구야?",
-   "note": "hayırlı olsun = 잘되길, 축하해",
+   "note": "kanka = 친구야",
    "tags": [
     "expr:kanka"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "excited",
+     "Tebrikler!"
+    ],
+    [
+     "teasing",
+     "Neden bana söylemedin kanka?"
+    ]
+   ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Ne hayırlı olsun? Neyin hayırlı olsun, Can?",
-   "rd": "네 하이으를르 올순? 네인 하이으를르 올순, 잔?",
+   "tl": "Neyi tebrik? Ne kutlanacak şey var, Can?",
+   "rd": "네이 테브릭? 네 쿠틀라나작 셰이 바르, 잔?",
    "ko": "뭘 축하해? 뭐가 축하할 일인데, 잔?",
-   "note": "neyin = 무엇의",
+   "note": "tebrik = 축하",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Mahallede herkes konuşuyor. Zeynep'le evleniyormuşsun.",
-   "rd": "마할레데 헤르케스 코누슈요르. 제이네플레 에블레니요르무시순.",
+   "tl": "Mahalle herkes konuşuyor. Sen Zeynep’le evleniyormuşsun.",
+   "rd": "마할레 헤르케스 코누슈요르. 센 제이네플레 에블레니요르무시순.",
    "ko": "동네 사람 다 얘기해. 너 제이넵이랑 결혼한다며.",
-   "note": "-mışsın = ~한다며(들은 말)",
+   "note": "evleniyormuşsun = 결혼한다며",
    "tags": [
     "form:-mış"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Mahalle herkes konuşuyor."
+    ],
+    [
+     "teasing",
+     "Sen Zeynep’le evleniyormuşsun."
+    ]
+   ]
   },
   {
    "num": 4,
@@ -73,82 +94,116 @@
    "tl": "Ne alaka? Ben sadece onunla kuyumcuya gittim.",
    "rd": "네 알라카? 벤 사데제 오눈라 쿠윰주야 기팀.",
    "ko": "뭔 소리야? 난 그냥 걔랑 금은방 갔어.",
-   "note": "kuyumcu = 금은방",
+   "note": "ne alaka = 뭔 상관",
    "tags": [
     "expr:ne alaka"
    ],
    "new": [
     "kuyumcu"
+   ],
+   "segs": [
+    [
+     "tsukkomi",
+     "Ne alaka?"
+    ],
+    [
+     "neutral",
+     "Ben sadece onunla kuyumcuya gittim."
+    ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Aynen! Teyze sizi orada görmüş, yüzüğe bakıyormuşsunuz.",
-   "rd": "아이넨! 테이제 시지 오라다 괴르뮈시, 위쥐에 바크요르무시수누즈.",
+   "tl": "Aynen o! Teyze orada görmüş, yüzük bakıyormuşsunuz.",
+   "rd": "아이넨 오! 테이제 오라다 괴르뮈시, 위쥑 바크요르무시수누즈.",
    "ko": "맞아 그거! 아주머니가 거기서 봤대, 반지 보고 있었다며.",
-   "note": "yüzük = 반지",
+   "note": "aynen = 맞아",
    "tags": [
     "expr:aynen"
    ],
    "new": [
     "yüzük"
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Zeynep'in yüzüğü kırıldı, tamir ettirdik. Bu kadar!",
-   "rd": "제이네핀 위쥐위 크를드, 타미르 에티르딕. 부 카다르!",
+   "tl": "Zeynep’in yüzüğü kırıldı, tamire gittik. Hepsi bu!",
+   "rd": "제이네핀 위쥐위 크를드, 타미레 기틱. 헵시 부!",
    "ko": "제이넵 반지가 부러져서 고치러 간 거야. 그게 다야!",
-   "note": "tamir ettirmek = 고치게 하다",
+   "note": "tamir = 고치기",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "annoyed",
+     "Zeynep’in yüzüğü kırıldı, tamire gittik."
+    ],
+    [
+     "shout",
+     "Hepsi bu!"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Sen öyle diyorsun. Manav sana indirim yapacakmış, düğün hediyesi.",
-   "rd": "센 외일레 디요르순. 마나브 사나 인디림 야파작므시, 뒤윈 헤디예시.",
+   "tl": "Sen öyle diyorsun. Manav indirim yapacakmış, düğün hediyesi diye.",
+   "rd": "센 외일레 디요르순. 마나브 인디림 야파작므시, 뒤윈 헤디예시 디예.",
    "ko": "네 말은 그렇고. 청과상이 깎아 준대, 결혼 선물로.",
-   "note": "manav = 청과상 · indirim = 할인",
+   "note": "manav = 청과상",
    "tags": [],
    "new": [
     "manav",
     "indirim"
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Manav mı? Manava bunu kim söyledi?!",
-   "rd": "마나브 므? 마나바 부누 킴 쇠일레디?!",
+   "tl": "Manav mı? Manava kim söyledi?!",
+   "rd": "마나브 므? 마나바 킴 쇠일레디?!",
    "ko": "청과상? 청과상한테 누가 말했어?!",
-   "note": "kim söyledi = 누가 말했어",
+   "note": "söyledi = 말했어",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Manav mı?"
+    ],
+    [
+     "shout",
+     "Manava kim söyledi?!"
+    ]
+   ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Eczacı. Eczacıya da kuaför söylemiş, herhalde.",
-   "rd": "에지자즈. 에지자즈야 다 쿠아푀르 쇠일레미시, 헤르할데.",
+   "tl": "Eczacı. Eczacıya da kuaför söylemiş herhalde.",
+   "rd": "에지자즈. 에지자즈야 다 쿠아푀르 쇠일레미시 헤르할데.",
    "ko": "약사. 약사한테는 미용사가 말했겠지, 아마.",
-   "note": "eczacı = 약사 · herhalde = 아마",
+   "note": "herhalde = 아마",
    "tags": [
     "expr:herhalde"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Annem aradı. “Hayırlı olsun” diyor. Sen bir şey mi dedin?",
-   "rd": "안넴 아라드. 하이으를르 올순 디요르. 센 비르 셰이 미 데딘?",
+   "tl": "Annem aradı. “Tebrikler” diyor. Sen ne söyledin?",
+   "rd": "안넴 아라드. 테브리클레르 디요르. 센 네 쇠일레딘?",
    "ko": "엄마한테 전화 왔어. 「축하한다」 하셔. 너 무슨 말 했어?",
-   "note": "aramak = 전화하다",
+   "note": "aradı = 전화 왔어",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 11,
@@ -156,58 +211,64 @@
    "tl": "Ben hiçbir şey yapmadım! Mahalle yaptı, mahalle!",
    "rd": "벤 히치비르 셰이 얍마듬! 마할레 얍트, 마할레!",
    "ko": "난 아무것도 안 했어! 동네가 했어, 동네가!",
-   "note": "hiçbir şey = 아무것도",
+   "note": "mahalle = 동네",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Annem bütün akrabaları aramış. Teyzem şimdi yolda, buraya geliyor.",
-   "rd": "안넴 뷔튄 악라발라르 아라므시. 테이젬 심디 욜다, 부라야 겔리요르.",
+   "tl": "Annem bütün akrabalara telefon etmiş. Teyze şimdi buraya geliyor.",
+   "rd": "안넴 뷔튄 악라발라라 텔레폰 에트미시. 테이제 심디 부라야 겔리요르.",
    "ko": "엄마가 친척들한테 다 전화 돌렸대. 이모가 지금 이리로 오는 중이야.",
-   "note": "akraba = 친척 — 반전",
+   "note": "akrabalar = 친척들",
    "tags": [],
    "new": [
     "akraba"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 13,
    "speaker": "A",
-   "tl": "Yok artık! Can, mahalleye sen söyle, lütfen!",
-   "rd": "욕 아르특! 잔, 마할레예 센 쇠일레, 뤼트펜!",
+   "tl": "Yok artık! Can, mahalleye sen söyle bir şey!",
+   "rd": "욕 아르특! 잔, 마할레예 센 쇠일레 비르 셰이!",
    "ko": "말도 안 돼! 잔, 동네에 네가 좀 말해 줘!",
-   "note": "mahalleye = 동네에",
+   "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 14,
    "speaker": "B",
-   "tl": "Bence önce manavın indirimini alın. Sonra söylersiniz.",
-   "rd": "벤제 왼제 마나븐 인디리미니 알른. 손라 쇠일레르시니즈.",
+   "tl": "Bence önce manavdan indirimi al. Konuşmayı sonra yap.",
+   "rd": "벤제 왼제 마나브단 인디리미 알. 코누시마이으 손라 얍.",
    "ko": "내 생각엔 청과상 할인부터 받아. 말은 그다음에 하고.",
-   "note": "önce … sonra = 먼저 … 그다음",
+   "note": "bence = 내 생각엔",
    "tags": [
     "expr:bence"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 15,
    "speaker": "C",
-   "tl": "İyi fikir. Ama annemi sen arıyorsun, {name}.",
-   "rd": "이이 피키르. 아마 안네미 센 아르요르순, {name}.",
+   "tl": "İyi fikir. Ama anneme sen ara {name}.",
+   "rd": "이이 피키르. 아마 안네메 센 아라 {name}.",
    "ko": "좋은 생각이네. 근데 우리 엄마한테는 네가 전화해, {name}.",
-   "note": "arıyorsun = 네가 전화한다(정해짐)",
+   "note": "ara = 전화해",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }
