@@ -11,6 +11,9 @@ from rd_tr import rd  # noqa: E402
 EMO = set(json.load(open(ROOT + '/data/tts/voices.json', encoding='utf-8'))['emotions'])
 
 
+NOTE_MARK = re.compile(r'\s*[—–-]?\s*(반전|punchline|kick|setup|callback|심쿵|멘트\s*#?\d*|새로 씀|작성|필수)\b.*$', re.I)
+
+
 def split(tl):
     return [x for x in re.split(r'(?<=[.!?…])\s+', tl.strip()) if x]
 
@@ -27,7 +30,11 @@ def parse(path):
         if '|' in ln and re.match(r'^[A-E]\s*\|', ln):
             c = [x.strip() for x in ln.split('|')]
             emo = next((x[8:] for x in c if x.startswith('emotion=')), '')
+            if not emo or len(c) != 5:  # 칸이 빠져 뒤 값이 밀려 들어온 줄(인도네시아어 11-19)
+                turns.append({'speaker': c[0], 'tl': '', 'ko': '', 'note': '', 'emo': '', 'bad': ln})
+                continue
             c = [x for x in c if not x.startswith('emotion=')]
+            c[3] = NOTE_MARK.sub('', c[3]).strip()  # 이야기 구성 표시(— 반전·punchline …)는 앱에 💡 로 보인다 — 풀이만 남김
             turns.append({'speaker': c[0], 'tl': c[1], 'ko': c[2] if len(c) > 2 else '', 'note': c[3] if len(c) > 3 else '', 'emo': emo})
         elif ':' in ln:
             k, v = ln.split(':', 1)
@@ -46,11 +53,13 @@ def apply(f, d, head, nt):
     for o, n in zip(old, nt):
         if o['speaker'] != n['speaker']:
             return '턴 %d 화자 %s ≠ %s' % (o['num'], n['speaker'], o['speaker'])
+        if n.get('bad'):
+            return '턴 %d 칸 수 이상: %s' % (o['num'], n['bad'][:60])
         if not n['tl'] or not n['ko']:
             return '턴 %d 빈 칸' % o['num']
     warn = []
     for o, n in zip(old, nt):
-        o['tl'], o['ko'], o['note'] = n['tl'], n['ko'], n['note'] or o.get('note', '')
+        o['tl'], o['ko'], o['note'] = n['tl'], n['ko'], n['note'] or NOTE_MARK.sub('', o.get('note', '')).strip()
         o['rd'] = rd(n['tl'])
         emos = [e.strip() for e in n['emo'].split('+') if e.strip()]
         bad = [e for e in emos if e not in EMO]
