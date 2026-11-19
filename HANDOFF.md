@@ -5,7 +5,10 @@
 - **막힘**: 서버 첫 업로드(R2 `talkverse-art/script/tr/index.json`)가 세션 권한 정책에 막힘 → 사용자 허용 또는 직접: `python3 -c "import sys,json;sys.path.insert(0,'tools');import script_publish as s;b=json.load(open(s.BASE));s.put_index(b['rev'],b['files'])"`. 그전까지 앱은 앱 안 원고로 돈다.
 - **회화 원칙(uk 11-18)**: Claude 는 초안까지, 대사는 Grok(빠른 모드)이 전부 새로 쓰고 그대로 붙여 넣기. Grok 답 3편(r0_love_a1·r0_culture_a1·r2_culture_b1) 그대로 반영 `b39fd55` → 앱의 Claude 문장 67편(R0~R3 62 + L1 5) — uk 에 보고함, 다시 쓸지는 사용자 결정. **Grok 순서 5번(62편)** — uk 의 「tr 시작」을 받은 뒤에만, PC 크롬 9252·빠른 모드. r0_love_a1 시험 음성은 새 대사와 안 맞음(음성 다시 만들 때 새벽에).
 - **Grok 62편 끝(11-19 02:00) `134fded`**: 앱 R0~R3 65편 전부 Grok 대사(빠른 모드, 뼈대만 보냄, 길이 초과 6편은 Grok 재작성). 검사 오류 0·경고 21, 음성 계획 65편 갱신 → 음성은 새벽에 새로 만들어야 함. 남은 Claude 문장 = L1 5편. uk 에 「Grok 끝」 보고함. 나머지 116편은 uk 에 순서 받고.
-- **남은 것**: 언어감각 과정(영상 → 외울 대화 + 참고) 터키어로 · 단어 3단계 + 4지선다 퀴즈 · 회화 카드 〇〇 → 이름 · 장면 컷 10장 · Zealot + TestFlight 빌드 · uk 에 커밋·패키지(`turkish_universe`)·새 에셋(`script_rev.json`)·rev 보고.
+- **메모 칸 정리(uk 11-19 알림)**: 구성 표시 13줄 지움(「반전:」 3 + 「— 반전…」 10, 낱말 풀이는 남김) `478f3a3`·`730da50`·`309211e`, 가져오기 도구가 표시를 거르고 칸 수 틀린 편은 건너뜀 `7c2df16`·`13fb652`.
+- **11-19 됨**: 회화 `{name}` → 이름 없으면 음성과 같은 기본 이름(남 Aleks·여 Emma, 뜻 칸 조사 맞춤, 기기 음성도 읽음) `6154c92` · 단어 퀴즈 복습(철자 = ı/i·ş/s·ç/c·ğ/g·ö/o·ü/u 바꾼 오답 + 뜻, 주제별 단어 화면 위 버튼) `1ecade7` · 언어감각 익히기 L1~L10(외울 대화 10줄 + 참고, 화면 = hu 판, 원고 `tools/sense_course_tr.py`, 영상 칸 비움, `video_player` 추가, 서버 받기 대상) `2be9bab` · CI Flutter 3.47.7 고정(11-18부터 APK 빌드 실패하던 것) `51002e2`.
+- **언어감각 대화 100줄은 Claude 문장**(hu 와 같은 처지) — Grok 으로 다시 쓸지는 사용자 결정, uk 에 보고.
+- **남은 것**: 장면 컷 10장(Grok 빠른, uk 와 한도 맞춤) · 단어 3단계는 외래어 목록이 없어 안 함(퀴즈만) · 장면 설명 「A」→이름은 tr 원고에 A 가 없어 안 함 · uk 에 커밋·패키지(`turkish_universe`)·새 의존성(`video_player`)·새 에셋(`script_rev.json`)·rev 보고.
 
 ## 2026-11-10 새벽 — 정리 후 대기(사용자 지시 "m6 꽉찼네 … 세션 닫아줘")
 - **Grok 재작성 진행 3/181** (r0_love_a1·r2_culture_b1·r0_culture_a1, `data/review/grok/out/`, 아직 JSON 에 반영 안 함). PC 크롬 9252(작업 스케줄러 `Grok-Chrome-tr-9252`, 프로필 `D:\chrome-grok-tr`), 모델 전문가. Grok 주간 한도 → **11/16 초기화 뒤** 이어서 `zsh tools/grok/grok_rewrite_all.sh`(10편씩 방, 3분 넘으면 생성 중지). 터널: M4 `ssh -fN -L 9252:127.0.0.1:9252 Administrator@100.127.143.37` + `grok_cookie_sync.py 9231 9252`, M6 `ssh -fN -L 9252:127.0.0.1:9252 pc`.
