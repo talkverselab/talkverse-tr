@@ -10,6 +10,7 @@ import '../services/memorized_store.dart';
 import '../services/tts_service.dart';
 import '../core/platform.dart';
 import '../core/l10n.dart';
+import 'word_quiz_screen.dart';
 
 /// 여행 터키어 — 주제별 단어·표현 (chinese-universe 포팅).
 class VocabWord {
@@ -119,6 +120,20 @@ class _TopicVocabScreenState extends State<TopicVocabScreen> {
         foregroundColor: AppColors.tinta,
         elevation: 0,
         centerTitle: true,
+        actions: [
+          if (themes.isNotEmpty)
+            IconButton(
+              key: const ValueKey('vocab-quiz'),
+              tooltip: tr('퀴즈 복습'),
+              icon: const Icon(Icons.quiz_outlined),
+              onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+                  builder: (_) => WordQuizScreen(words: [
+                        for (final th in themes)
+                          for (final s in th.sections)
+                            for (final w in s.words) WQWord(w.tx, w.rd, w.ko),
+                      ]))),
+            ),
+        ],
         title: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
