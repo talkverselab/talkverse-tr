@@ -1,0 +1,1357 @@
+{
+ "title": "언어감각 익히기",
+ "subtitle": "L1 장소 어미부터 L10 존댓말까지 · 대화 통째로 외우기",
+ "levels": [
+  {
+   "id": "L1",
+   "title": "장소 — -de · -e · -den",
+   "lessons": [
+    {
+     "id": "L1-1",
+     "title": "어디에 · 어디로 · 어디에서",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "Elif",
+       "tl": "Neredesin? Ben kafe{de|1} oturuyorum.",
+       "rd": "네레데신? 벤 카페데 오투루요룸.",
+       "ko": "어디야? 나 카페{에|1} 앉아 있어."
+      },
+      {
+       "who": "나",
+       "tl": "Pardon, hâlâ otobüs{te|1}yim.",
+       "rd": "파르돈, 할라 오토뷔스테임.",
+       "ko": "미안, 아직 버스{에|1} 있어."
+      },
+      {
+       "who": "Elif",
+       "tl": "Kafe{ye|2} mi geliyorsun, ev{e|2} mi gidiyorsun?",
+       "rd": "카페예 미 겔리요르순, 에베 미 기디요르순?",
+       "ko": "카페{로|2} 와, 아니면 집{으로|2} 가?"
+      },
+      {
+       "who": "나",
+       "tl": "Kafe{ye|2} geliyorum. Beş dakika sonra otobüs{ten|3} iniyorum.",
+       "rd": "카페예 겔리요룸. 베시 다키카 손라 오토뷔스텐 이니요룸.",
+       "ko": "카페{로|2} 가. 5분 뒤에 버스{에서|3} 내려."
+      },
+      {
+       "who": "Elif",
+       "tl": "Şemsiyen var mı? Dışarı{da|1} yağmur yağıyor.",
+       "rd": "솀시옌 바르 므? 드샤르다 야무르 야으요르.",
+       "ko": "우산 있어? 밖{에|1} 비 와."
+      },
+      {
+       "who": "나",
+       "tl": "Yok. Şemsiye ev{de|1} kaldı.",
+       "rd": "욕. 솀시예 에브데 칼드.",
+       "ko": "없어. 우산은 집{에|1} 두고 왔어."
+      },
+      {
+       "who": "Elif",
+       "tl": "Tamam, ben kapı{ya|2} çıkıyorum.",
+       "rd": "타맘, 벤 카프야 츠크요룸.",
+       "ko": "알았어, 내가 문{으로|2} 나갈게."
+      },
+      {
+       "who": "나",
+       "tl": "Durak{tan|3} kafe{ye|2} kaç dakika?",
+       "rd": "두락탄 카페예 카치 다키카?",
+       "ko": "정류장{에서|3} 카페{까지|2} 몇 분이야?"
+      },
+      {
+       "who": "Elif",
+       "tl": "Sadece iki dakika. Köşe{de|1} seni bekliyorum.",
+       "rd": "사데제 이키 다키카. 쾨셰데 세니 베클리요룸.",
+       "ko": "2분이면 돼. 모퉁이{에서|1} 기다릴게."
+      },
+      {
+       "who": "나",
+       "tl": "Geldim! Seni uzak{tan|3} görüyorum.",
+       "rd": "겔딤! 세니 우작탄 괴뤼요룸.",
+       "ko": "왔어! 멀리{서|3} 네가 보여."
+      }
+     ],
+     "footnotes": [
+      "-de·-da — 「있는 곳」. 한국어 「에 있어 / 에서 기다려」 둘 다 -de 예요.",
+      "-e·-a — 「가는 곳」. 한국어는 「카페에 있어 / 카페에 가」 둘 다 「에」지만 터키어는 갈라요. 모음 뒤엔 -ye·-ya.",
+      "-den·-dan — 「떠나는 곳」. 버스에서 내리다 = otobüsten inmek.",
+      "어미 모음은 앞 낱말 모음을 따라가요(모음조화) — a·ı·o·u 뒤엔 -da, e·i·ö·ü 뒤엔 -de. p·ç·t·k·f·h·s·ş 뒤에선 d 가 t 로(otobüste)."
+     ]
+    },
+    {
+     "id": "L1-ref",
+     "kind": "ref",
+     "title": "장소 한눈에",
+     "points": [
+      {
+       "head": "-de / -da (-te / -ta)  ~에, ~에서",
+       "tip": "있는 곳. a·ı·o·u 단어는 -da, e·i·ö·ü 단어는 -de. 센 자음 뒤에선 -te·-ta.",
+       "sentences": [
+        {
+         "tl": "Evdeyim.",
+         "rd": "에브데임.",
+         "ko": "집에 있어요."
+        },
+        {
+         "tl": "Kitapta resim var.",
+         "rd": "키탑타 레심 바르.",
+         "ko": "책에 그림이 있어요."
+        }
+       ]
+      },
+      {
+       "head": "-e / -a (-ye / -ya)  ~에, ~로",
+       "tip": "가는 곳. 모음으로 끝나면 y 를 넣어 -ye·-ya.",
+       "sentences": [
+        {
+         "tl": "Okula gidiyorum.",
+         "rd": "오쿨라 기디요룸.",
+         "ko": "학교에 가요."
+        },
+        {
+         "tl": "Kafeye geliyorum.",
+         "rd": "카페예 겔리요룸.",
+         "ko": "카페로 가요."
+        }
+       ]
+      },
+      {
+       "head": "-den / -dan (-ten / -tan)  ~에서, ~부터",
+       "tip": "떠나는 곳·출발점. 나라·사람 이름 뒤엔 작은따옴표.",
+       "sentences": [
+        {
+         "tl": "İşten çıktım.",
+         "rd": "이시텐 측틈.",
+         "ko": "회사에서 나왔어요."
+        },
+        {
+         "tl": "Kore'den geldim.",
+         "rd": "코레덴 겔딤.",
+         "ko": "한국에서 왔어요."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "title": "정해진 「을/를」 — -(y)ı",
+   "lessons": [
+    {
+     "id": "L2-1",
+     "title": "그거 사 · 아무거나 사",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "Emre",
+       "tl": "Akşam için ne alıyorsun?",
+       "rd": "악샴 이친 네 알르요르순?",
+       "ko": "저녁에 먹을 거 뭐 사?"
+      },
+      {
+       "who": "나",
+       "tl": "Ekmek alıyorum, bir de peynir.",
+       "rd": "엑멕 알르요룸, 비르 데 페이니르.",
+       "ko": "빵 사, 그리고 치즈도."
+      },
+      {
+       "who": "Emre",
+       "tl": "Geçen haftaki peynir{i|1} çok sevdim.",
+       "rd": "게첸 하프타키 페이니리 촉 세브딤.",
+       "ko": "지난주 그 치즈{를|1} 엄청 좋아했어."
+      },
+      {
+       "who": "나",
+       "tl": "Hangisi{ni|1}? Beyaz peynir{i|1} mi?",
+       "rd": "한기시니? 베야즈 페이니리 미?",
+       "ko": "어느 거{를|1}? 흰 치즈{를|1}?"
+      },
+      {
+       "who": "Emre",
+       "tl": "Evet, o{nu|1}. Bir de zeytin al.",
+       "rd": "에벳, 오누. 비르 데 제이틴 알.",
+       "ko": "응, 그거{를|1}. 그리고 올리브도 사."
+      },
+      {
+       "who": "나",
+       "tl": "Tamam. Listen{i|1} bana gönder.",
+       "rd": "타맘. 리스테니 바나 괸데르.",
+       "ko": "알았어. 네 목록{을|1} 나한테 보내 줘."
+      },
+      {
+       "who": "Emre",
+       "tl": "Gönderdim. Mesaj{ı|1} okudun mu?",
+       "rd": "괸데르딤. 메사즈 오쿠둔 무?",
+       "ko": "보냈어. 메시지{를|1} 읽었어?"
+      },
+      {
+       "who": "나",
+       "tl": "Okudum. Çay da alıyorum.",
+       "rd": "오쿠둠. 차이 다 알르요룸.",
+       "ko": "읽었어. 차도 살게."
+      },
+      {
+       "who": "Emre",
+       "tl": "Çay{ı|1} unutma! Geçen sefer unuttun.",
+       "rd": "차이으 우누트마! 게첸 세페르 우누툰.",
+       "ko": "차{를|1} 잊지 마! 지난번에 잊었잖아."
+      },
+      {
+       "who": "나",
+       "tl": "Bu sefer unutmam. Söz!",
+       "rd": "부 세페르 우누트맘. 쇠즈!",
+       "ko": "이번엔 안 잊어. 약속!"
+      }
+     ],
+     "footnotes": [
+      "-ı·-i·-u·-ü — 「그」 물건·이미 말한 것에만 붙는 「을/를」. 아무 빵이나는 맨몸(ekmek alıyorum).",
+      "한국어는 「빵을 사 / 그 빵을 사」 둘 다 「을」이지만 터키어는 정해진 것에만 붙여요.",
+      "모음으로 끝나면 y·n 을 넣어요 — o → onu, hangisi → hangisini."
+     ]
+    },
+    {
+     "id": "L2-ref",
+     "kind": "ref",
+     "title": "정해진 「을/를」 한눈에",
+     "points": [
+      {
+       "head": "-(y)ı · -(y)i · -(y)u · -(y)ü  정해진 「을/를」",
+       "tip": "그 물건·이미 말한 것에만. 아무거나는 맨몸.",
+       "sentences": [
+        {
+         "tl": "Kitap okuyorum.",
+         "rd": "키탑 오쿠요룸.",
+         "ko": "책 읽어요. (아무 책)"
+        },
+        {
+         "tl": "Kitabı okudum.",
+         "rd": "키타브 오쿠둠.",
+         "ko": "그 책을 읽었어요."
+        }
+       ]
+      },
+      {
+       "head": "k → ğ · p → b · ç → c · t → d",
+       "tip": "모음 어미가 붙으면 끝 자음이 부드러워져요.",
+       "sentences": [
+        {
+         "tl": "Ağacı görüyor musun?",
+         "rd": "아아즈 괴뤼요르 무순?",
+         "ko": "그 나무 보여?"
+        },
+        {
+         "tl": "Kitabı masaya koy.",
+         "rd": "키타브 마사야 코이.",
+         "ko": "그 책 탁자에 놔."
+        }
+       ]
+      },
+      {
+       "head": "이름·대명사는 늘",
+       "tip": "사람 이름과 beni·seni·onu 는 늘 「을/를」 꼴.",
+       "sentences": [
+        {
+         "tl": "Seni seviyorum.",
+         "rd": "세니 세비요룸.",
+         "ko": "너를 사랑해."
+        },
+        {
+         "tl": "Elif'i gördüm.",
+         "rd": "엘리피 괴르뒴.",
+         "ko": "Elif 를 봤어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "소유 — 내·네·그의를 끝에",
+   "lessons": [
+    {
+     "id": "L3-1",
+     "title": "내 거 · 네 거 · 누구 거",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "Elif",
+       "tl": "Bu çanta senin mi?",
+       "rd": "부 찬타 세닌 미?",
+       "ko": "이 가방 네 거야?"
+      },
+      {
+       "who": "나",
+       "tl": "Evet, çanta{m|1}. Teşekkürler!",
+       "rd": "에벳, 찬탐. 테셰퀴를레르!",
+       "ko": "응, {내|1} 가방이야. 고마워!"
+      },
+      {
+       "who": "Elif",
+       "tl": "Telefon{un|2} da yerde.",
+       "rd": "텔레포눈 다 예르데.",
+       "ko": "{네|2} 폰도 바닥에 있어."
+      },
+      {
+       "who": "나",
+       "tl": "Of, anahtar{ım|1} nerede?",
+       "rd": "오프, 아나흐타름 네레데?",
+       "ko": "아, {내|1} 열쇠 어디 있지?"
+      },
+      {
+       "who": "Elif",
+       "tl": "Anahtar{ın|2} masada.",
+       "rd": "아나흐타른 마사다.",
+       "ko": "{네|2} 열쇠 탁자 위에 있어."
+      },
+      {
+       "who": "나",
+       "tl": "Bu da Emre'nin kitab{ı|3}.",
+       "rd": "부 다 엠레닌 키타브.",
+       "ko": "이건 Emre{의|3} 책이야."
+      },
+      {
+       "who": "Elif",
+       "tl": "Emre'nin kitab{ı|3} neden sende?",
+       "rd": "엠레닌 키타브 네덴 센데?",
+       "ko": "Emre{의|3} 책이 왜 너한테 있어?"
+      },
+      {
+       "who": "나",
+       "tl": "Arkadaş{ım|1} ya, bana verdi.",
+       "rd": "아르카다심 야, 바나 베르디.",
+       "ko": "{내|1} 친구잖아, 나한테 줬어."
+      },
+      {
+       "who": "Elif",
+       "tl": "Peki benim kalem{im|1} nerede?",
+       "rd": "페키 베님 칼레밈 네레데?",
+       "ko": "그럼 {내|1} 펜은 어디 있어?"
+      },
+      {
+       "who": "나",
+       "tl": "Kalem{in|2} saç{ın|2}da!",
+       "rd": "칼레민 사츤다!",
+       "ko": "{네|2} 펜, {네|2} 머리에 꽂혀 있어!"
+      }
+     ],
+     "footnotes": [
+      "「내·네」를 앞에 두지 않고 명사 끝에 붙여요 — çantam 내 가방, çantan 네 가방.",
+      "「Emre 의 책」은 양쪽에 다 붙어요 — Emre'nin(의) kitabı(그의 책).",
+      "saçında = saç(머리카락) + ın(네) + da(에). 어미가 차례로 쌓여요."
+     ]
+    },
+    {
+     "id": "L3-ref",
+     "kind": "ref",
+     "title": "소유 한눈에",
+     "points": [
+      {
+       "head": "-(ı)m  내 · -(ı)n  네",
+       "tip": "명사 끝에. 모음으로 끝나면 -m·-n 만.",
+       "sentences": [
+        {
+         "tl": "Evim çok küçük.",
+         "rd": "에빔 촉 퀴췩.",
+         "ko": "내 집은 아주 작아요."
+        },
+        {
+         "tl": "Araban nerede?",
+         "rd": "아라반 네레데?",
+         "ko": "네 차 어디 있어?"
+        }
+       ]
+      },
+      {
+       "head": "-(s)ı  그의 · -(ı)mız  우리",
+       "tip": "모음 뒤엔 -sı. 「우리」는 -(ı)mız.",
+       "sentences": [
+        {
+         "tl": "Annesi öğretmen.",
+         "rd": "안네시 외레트멘.",
+         "ko": "그의 엄마는 선생님이에요."
+        },
+        {
+         "tl": "Evimiz yakın.",
+         "rd": "에비미즈 야큰.",
+         "ko": "우리 집은 가까워요."
+        }
+       ]
+      },
+      {
+       "head": "X'in Y'si  X의 Y",
+       "tip": "가진 사람에 -(n)in, 가진 것에 -(s)ı — 양쪽에 다 붙어요.",
+       "sentences": [
+        {
+         "tl": "Elif'in kedisi çok tatlı.",
+         "rd": "엘리핀 케디시 촉 타틀르.",
+         "ko": "Elif 의 고양이는 너무 귀여워요."
+        },
+        {
+         "tl": "Kapının rengi mavi.",
+         "rd": "카프는 렌기 마비.",
+         "ko": "문 색깔은 파란색이에요."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "지금 하는 일 — -iyor",
+   "lessons": [
+    {
+     "id": "L4-1",
+     "title": "뭐 하고 있어?",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "Emre",
+       "tl": "Ne yap{ıyor|1}sun?",
+       "rd": "네 야프요르순?",
+       "ko": "뭐 하{고 있어|1}?"
+      },
+      {
+       "who": "나",
+       "tl": "Yemek yap{ıyor|1}um. Sen?",
+       "rd": "예멕 야프요룸. 센?",
+       "ko": "밥 하{고 있어|1}. 너는?"
+      },
+      {
+       "who": "Emre",
+       "tl": "Ben de sana gel{iyor|1}um.",
+       "rd": "벤 데 사나 겔리요룸.",
+       "ko": "나도 너한테 가{고 있어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Şimdi mi? Ev çok dağınık!",
+       "rd": "심디 미? 에브 촉 다으늑!",
+       "ko": "지금? 집 엄청 지저분해!"
+      },
+      {
+       "who": "Emre",
+       "tl": "Sorun değil. Merdivenleri çık{ıyor|1}um.",
+       "rd": "소룬 데일. 메르디벤레리 츠크요룸.",
+       "ko": "괜찮아. 계단 올라가{고 있어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Bekle! Hızlıca topl{uyor|1}um.",
+       "rd": "베클레! 흐즐르자 토플루요룸.",
+       "ko": "잠깐! 빨리 치우{고 있어|1}."
+      },
+      {
+       "who": "Emre",
+       "tl": "Zili çal{ıyor|1}um. Duyuyor musun?",
+       "rd": "질리 찰르요룸. 두유요르 무순?",
+       "ko": "벨 누르{고 있어|1}. 들려?"
+      },
+      {
+       "who": "나",
+       "tl": "Gel{iyor|1}um, gel{iyor|1}um!",
+       "rd": "겔리요룸, 겔리요룸!",
+       "ko": "나가{고 있어|1}, 나간다고!"
+      },
+      {
+       "who": "Emre",
+       "tl": "Neden gül{üyor|1}sun?",
+       "rd": "네덴 귈뤼요르순?",
+       "ko": "왜 웃{고 있어|1}?"
+      },
+      {
+       "who": "나",
+       "tl": "Çünkü hâlâ pijama giy{iyor|1}um.",
+       "rd": "췬퀴 할라 피자마 기이요룸.",
+       "ko": "아직 잠옷 입{고 있거든|1}."
+      }
+     ],
+     "footnotes": [
+      "-iyor 는 「지금 ~하고 있다」와 「요즘·곧 ~한다」를 다 맡아요.",
+      "누가 하는지는 맨 끝에 — yapıyorum 나, yapıyorsun 너, yapıyor 그. 한국어는 끝이 같아도 터키어는 사람마다 달라요.",
+      "모음으로 끝나는 동사는 그 모음이 빠져요 — topla → topluyorum, bekle → bekliyorum."
+     ]
+    },
+    {
+     "id": "L4-ref",
+     "kind": "ref",
+     "title": "지금 하는 일 한눈에",
+     "points": [
+      {
+       "head": "-iyor  ~하고 있다 · ~한다",
+       "tip": "모음조화로 -ıyor·-iyor·-uyor·-üyor. 모음 끝 동사는 그 모음이 빠져요.",
+       "sentences": [
+        {
+         "tl": "Bekliyorum.",
+         "rd": "베클리요룸.",
+         "ko": "기다리고 있어요."
+        },
+        {
+         "tl": "Türkçe öğreniyorum.",
+         "rd": "튀르크체 외레니요룸.",
+         "ko": "터키어 배우고 있어요."
+        }
+       ]
+      },
+      {
+       "head": "-um · -sun · -uz  누가",
+       "tip": "geliyorum 나, geliyorsun 너, geliyor 그, geliyoruz 우리.",
+       "sentences": [
+        {
+         "tl": "Nereye gidiyorsun?",
+         "rd": "네레예 기디요르순?",
+         "ko": "어디 가?"
+        },
+        {
+         "tl": "Biz de geliyoruz.",
+         "rd": "비즈 데 겔리요루즈.",
+         "ko": "우리도 가."
+        }
+       ]
+      },
+      {
+       "head": "-iyor 로 가까운 미래",
+       "tip": "「내일 가」도 -iyor 로 말해요.",
+       "sentences": [
+        {
+         "tl": "Yarın İstanbul'a gidiyorum.",
+         "rd": "야른 이스탄불라 기디요룸.",
+         "ko": "내일 이스탄불에 가요."
+        },
+        {
+         "tl": "Akşam geliyor musun?",
+         "rd": "악샴 겔리요르 무순?",
+         "ko": "저녁에 와?"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "지난 일 — -dı 와 -mış",
+   "lessons": [
+    {
+     "id": "L5-1",
+     "title": "봤어 · 했대",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "Elif",
+       "tl": "Dün Emre'yi gör{dü|1}n mü?",
+       "rd": "뒨 엠레이 괴르뒨 뮈?",
+       "ko": "어제 Emre {봤|1}어?"
+      },
+      {
+       "who": "나",
+       "tl": "Gör{dü|1}m. Parkta beraber koş{tu|1}k.",
+       "rd": "괴르뒴. 파르크타 베라베르 코시툭.",
+       "ko": "{봤|1}어. 공원에서 같이 {뛰었|1}어."
+      },
+      {
+       "who": "Elif",
+       "tl": "Emre yeni bir iş bul{muş|2}.",
+       "rd": "엠레 예니 비르 이시 불무시.",
+       "ko": "Emre 새 일 {찾았대|2}."
+      },
+      {
+       "who": "나",
+       "tl": "Gerçekten mi? Bana hiç söyleme{di|1}.",
+       "rd": "게르첵텐 미? 바나 히치 쇠일레메디.",
+       "ko": "진짜? 나한테 전혀 말 안 {했|1}어."
+      },
+      {
+       "who": "Elif",
+       "tl": "Ben de bilmiyordum. Ayşe anlat{tı|1}.",
+       "rd": "벤 데 빌미요르둠. 아이셰 안라트.",
+       "ko": "나도 몰랐어. Ayşe 가 얘기{했|1}어."
+      },
+      {
+       "who": "나",
+       "tl": "Ayşe başka ne de{miş|2}?",
+       "rd": "아이셰 바시카 네 데미시?",
+       "ko": "Ayşe 가 또 뭐라고 {했대|2}?"
+      },
+      {
+       "who": "Elif",
+       "tl": "Emre biriyle tanış{mış|2}.",
+       "rd": "엠레 비리일레 타느시므시.",
+       "ko": "Emre 가 누구를 {만났대|2}."
+      },
+      {
+       "who": "나",
+       "tl": "Dur! Dün parkta bir kız var{dı|1}.",
+       "rd": "두르! 뒨 파르크타 비르 크즈 바르드.",
+       "ko": "잠깐! 어제 공원에 어떤 여자가 {있었|1}어."
+      },
+      {
+       "who": "Elif",
+       "tl": "Ne yap{tı|1}nız?",
+       "rd": "네 얍트느즈?",
+       "ko": "뭐 {했|1}어?"
+      },
+      {
+       "who": "나",
+       "tl": "Ben koş{tu|1}m, onlar dondurma ye{di|1}.",
+       "rd": "벤 코시툼, 온라르 돈두르마 예디.",
+       "ko": "나는 {뛰었|1}고, 걔네는 아이스크림 {먹었|1}어."
+      }
+     ],
+     "footnotes": [
+      "-dı — 내가 직접 본 지난 일. 센 자음 뒤에선 -tı (koştuk, anlattı).",
+      "-mış — 남한테 들었거나 나중에 알게 된 일. 한국어 「~했대」「~했네」 자리예요.",
+      "한국어는 「했어」 하나로 말해도 터키어는 본 일(-dı)과 들은 일(-mış)을 갈라요."
+     ]
+    },
+    {
+     "id": "L5-ref",
+     "kind": "ref",
+     "title": "지난 일 한눈에",
+     "points": [
+      {
+       "head": "-dı (-di · -du · -dü · -tı …)  ~했다",
+       "tip": "직접 본 일. 모음조화 넷, 센 자음 뒤에선 t.",
+       "sentences": [
+        {
+         "tl": "Dün film izledim.",
+         "rd": "뒨 필름 이즐레딤.",
+         "ko": "어제 영화 봤어요."
+        },
+        {
+         "tl": "Otobüs geç geldi.",
+         "rd": "오토뷔스 게치 겔디.",
+         "ko": "버스가 늦게 왔어요."
+        }
+       ]
+      },
+      {
+       "head": "-mış (-miş · -muş · -müş)  ~했대 · ~했네",
+       "tip": "들은 일·나중에 안 일.",
+       "sentences": [
+        {
+         "tl": "Elif evlenmiş!",
+         "rd": "엘리프 에블렌미시!",
+         "ko": "Elif 결혼했대!"
+        },
+        {
+         "tl": "Kar yağmış.",
+         "rd": "카르 야므시.",
+         "ko": "(일어나 보니) 눈이 왔네."
+        }
+       ]
+      },
+      {
+       "head": "부정은 -me- 를 앞에",
+       "tip": "gelmedi 안 왔어 · gelmemiş 안 왔대.",
+       "sentences": [
+        {
+         "tl": "Emre gelmedi.",
+         "rd": "엠레 겔메디.",
+         "ko": "Emre 안 왔어요."
+        },
+        {
+         "tl": "Paket gelmemiş.",
+         "rd": "파켓 겔메미시.",
+         "ko": "택배가 안 왔대요."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "title": "있다 · 없다 — var · yok",
+   "lessons": [
+    {
+     "id": "L6-1",
+     "title": "있어? 없어!",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "나",
+       "tl": "Yakında eczane {var|1} mı?",
+       "rd": "야큰다 에지자네 바르 므?",
+       "ko": "근처에 약국 {있어|1}?"
+      },
+      {
+       "who": "Emre",
+       "tl": "{Var|1}, ama şimdi kapalı.",
+       "rd": "바르, 아마 심디 카팔르.",
+       "ko": "{있어|1}, 근데 지금 닫았어."
+      },
+      {
+       "who": "나",
+       "tl": "Of. Başım ağrıyor, ilacım {yok|2}.",
+       "rd": "오프. 바심 아르요르, 일라즘 욕.",
+       "ko": "아. 머리 아픈데 약이 {없어|2}."
+      },
+      {
+       "who": "Emre",
+       "tl": "Bende {var|1}. Çantamda hep ilaç {var|1}.",
+       "rd": "벤데 바르. 찬탐다 헵 일라치 바르.",
+       "ko": "나한테 {있어|1}. 내 가방엔 늘 약이 {있어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Su da {var|1} mı?",
+       "rd": "수 다 바르 므?",
+       "ko": "물도 {있어|1}?"
+      },
+      {
+       "who": "Emre",
+       "tl": "Su {yok|2}, ama çay {var|1}.",
+       "rd": "수 욕, 아마 차이 바르.",
+       "ko": "물은 {없고|2}, 차는 {있어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Sıcak çay mı? Ama bardak {yok|2}.",
+       "rd": "스작 차이 므? 아마 바르닥 욕.",
+       "ko": "뜨거운 차? 근데 컵이 {없잖아|2}."
+      },
+      {
+       "who": "Emre",
+       "tl": "Termosum {var|1}. Kapağı bardak oluyor.",
+       "rd": "테르모숨 바르. 카파으 바르닥 올루요르.",
+       "ko": "보온병이 {있어|1}. 뚜껑이 컵이 돼."
+      },
+      {
+       "who": "나",
+       "tl": "Senin çantanda ne {yok|2} ki?",
+       "rd": "세닌 찬탄다 네 욕 키?",
+       "ko": "네 가방엔 {없는|2} 게 뭐야?"
+      },
+      {
+       "who": "Emre",
+       "tl": "Sadece para {yok|2}.",
+       "rd": "사데제 파라 욕.",
+       "ko": "돈만 {없어|2}."
+      }
+     ],
+     "footnotes": [
+      "var 「있다」·yok 「없다」는 동사 없이 말 끝에 놓아요. 물을 땐 var mı? / yok mu?",
+      "「나는 약이 있다」는 「내 약 있다」 — ilacım var. 「가지다」 동사를 쓰지 않아요.",
+      "「나한테 있어」는 bende var (ben + de)."
+     ]
+    },
+    {
+     "id": "L6-ref",
+     "kind": "ref",
+     "title": "있다 · 없다 한눈에",
+     "points": [
+      {
+       "head": "var  있다 · yok  없다",
+       "tip": "말 끝에. 물을 땐 var mı? / yok mu?",
+       "sentences": [
+        {
+         "tl": "Bugün toplantı var.",
+         "rd": "부귄 토플란트 바르.",
+         "ko": "오늘 회의 있어요."
+        },
+        {
+         "tl": "Süt yok mu?",
+         "rd": "쉿 욕 무?",
+         "ko": "우유 없어?"
+        }
+       ]
+      },
+      {
+       "head": "-(ı)m var  나는 ~가 있다",
+       "tip": "소유 어미 + var. 「가지다」 동사 없이.",
+       "sentences": [
+        {
+         "tl": "Bir kardeşim var.",
+         "rd": "비르 카르데심 바르.",
+         "ko": "동생이 하나 있어요."
+        },
+        {
+         "tl": "Zamanım yok.",
+         "rd": "자마늠 욕.",
+         "ko": "시간이 없어요."
+        }
+       ]
+      },
+      {
+       "head": "bende · sende  나한테 · 너한테",
+       "tip": "사람 + -de + var.",
+       "sentences": [
+        {
+         "tl": "Bende şarj aleti var.",
+         "rd": "벤데 샤르즈 알레티 바르.",
+         "ko": "나한테 충전기 있어."
+        },
+        {
+         "tl": "Sende kalem var mı?",
+         "rd": "센데 칼렘 바르 므?",
+         "ko": "너 펜 있어?"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "title": "안 · ~니? — -me 와 mı",
+   "lessons": [
+    {
+     "id": "L7-1",
+     "title": "안 마셔 · 마실래?",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "Elif",
+       "tl": "Kahve ister {mi|2}sin?",
+       "rd": "카흐베 이스테르 미신?",
+       "ko": "커피 마실{래|2}?"
+      },
+      {
+       "who": "나",
+       "tl": "Hayır, kahve iç{mi|1}yorum.",
+       "rd": "하이으르, 카흐베 이치미요룸.",
+       "ko": "아니, 커피 {안|1} 마셔."
+      },
+      {
+       "who": "Elif",
+       "tl": "Hiç {mi|2} iç{me|1}din?",
+       "rd": "히치 미 이치메딘?",
+       "ko": "한 번도 {안|1} 마셔 봤{어|2}?"
+      },
+      {
+       "who": "나",
+       "tl": "İçtim ama sev{me|1}dim.",
+       "rd": "이치팀 아마 세브메딤.",
+       "ko": "마셔 봤는데 {안|1} 좋았어."
+      },
+      {
+       "who": "Elif",
+       "tl": "Çay sever {mi|2}sin?",
+       "rd": "차이 세베르 미신?",
+       "ko": "차는 좋아{해|2}?"
+      },
+      {
+       "who": "나",
+       "tl": "Çok severim!",
+       "rd": "촉 세베림!",
+       "ko": "완전 좋아해!"
+      },
+      {
+       "who": "Elif",
+       "tl": "Şeker koyayım {mı|2}?",
+       "rd": "셰케르 코야이음 므?",
+       "ko": "설탕 넣을{까|2}?"
+      },
+      {
+       "who": "나",
+       "tl": "Hayır, şeker koy{ma|1}.",
+       "rd": "하이으르, 셰케르 코이마.",
+       "ko": "아니, 설탕 넣지 {마|1}."
+      },
+      {
+       "who": "Elif",
+       "tl": "Tatlı da ye{mi|1}yor {mu|2}sun?",
+       "rd": "타틀르 다 예미요르 무순?",
+       "ko": "디저트도 {안|1} 먹{어|2}?"
+      },
+      {
+       "who": "나",
+       "tl": "Tatlıya hayır de{me|1}m!",
+       "rd": "타틀르야 하이으르 데멤!",
+       "ko": "디저트는 거절 {안|1} 해!"
+      }
+     ],
+     "footnotes": [
+      "-me·-ma 「안」은 동사 줄기 바로 뒤에 — sevmedim 안 좋았어, koyma 넣지 마. -iyor 앞에선 -mi (içmiyorum).",
+      "mı·mi·mu·mü 「~니?」는 띄어 쓰고, 누가 하는지는 mı 뒤에 붙어요 — ister misin, yemiyor musun.",
+      "mı 는 물을 낱말 바로 뒤에 — Hiç mi? 「한 번도?」를 묻는 거예요."
+     ]
+    },
+    {
+     "id": "L7-ref",
+     "kind": "ref",
+     "title": "안 · ~니? 한눈에",
+     "points": [
+      {
+       "head": "-me / -ma  안 ~",
+       "tip": "동사 줄기 바로 뒤. -iyor 앞에선 -mi·-mı·-mu·-mü.",
+       "sentences": [
+        {
+         "tl": "Gelmiyorum.",
+         "rd": "겔미요룸.",
+         "ko": "안 가요."
+        },
+        {
+         "tl": "Sigara içmem.",
+         "rd": "시가라 이치멤.",
+         "ko": "담배 안 피워요."
+        }
+       ]
+      },
+      {
+       "head": "mı · mi · mu · mü  ~니?",
+       "tip": "물을 말 뒤에 띄어 써요. 누가 하는지는 mı 에 붙어요.",
+       "sentences": [
+        {
+         "tl": "Türk müsün?",
+         "rd": "튀르크 뮈쉰?",
+         "ko": "터키 사람이야?"
+        },
+        {
+         "tl": "Yarın mı geliyorsun?",
+         "rd": "야른 므 겔리요르순?",
+         "ko": "내일 오는 거야?"
+        }
+       ]
+      },
+      {
+       "head": "-me 명령  ~하지 마",
+       "tip": "동사 줄기 + -me·-ma.",
+       "sentences": [
+        {
+         "tl": "Unutma!",
+         "rd": "우누트마!",
+         "ko": "잊지 마!"
+        },
+        {
+         "tl": "Korkma.",
+         "rd": "코르크마.",
+         "ko": "겁먹지 마."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "title": "앞일 — -ecek 와 -mek istiyorum",
+   "lessons": [
+    {
+     "id": "L8-1",
+     "title": "할 거야 · 하고 싶어",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "Emre",
+       "tl": "Hafta sonu ne yap{acak|1}sın?",
+       "rd": "하프타 소누 네 야파작슨?",
+       "ko": "주말에 뭐 {할 거야|1}?"
+      },
+      {
+       "who": "나",
+       "tl": "Denize git{mek istiyorum|2}.",
+       "rd": "데니제 기트멕 이스티요룸.",
+       "ko": "바다에 가{고 싶어|2}."
+      },
+      {
+       "who": "Emre",
+       "tl": "Ben de gel{mek istiyorum|2}!",
+       "rd": "벤 데 겔멕 이스티요룸!",
+       "ko": "나도 가{고 싶어|2}!"
+      },
+      {
+       "who": "나",
+       "tl": "Tamam, cumartesi sabah çık{acağ|1}ız.",
+       "rd": "타맘, 주마르테시 사바흐 츠카자으즈.",
+       "ko": "좋아, 토요일 아침에 출발{할 거야|1}."
+      },
+      {
+       "who": "Emre",
+       "tl": "Arabayı ben sür{eceğ|1}im.",
+       "rd": "아라바이으 벤 쉬레제임.",
+       "ko": "운전은 내가 {할게|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Yolda kahvaltı yap{mak istiyorum|2}.",
+       "rd": "욜다 카흐발트 얍막 이스티요룸.",
+       "ko": "가는 길에 아침 먹{고 싶어|2}."
+      },
+      {
+       "who": "Emre",
+       "tl": "Annem börek yap{acak|1}.",
+       "rd": "안넴 뵈렉 야파작.",
+       "ko": "우리 엄마가 뵈렉 만드{실 거야|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Harika! Ben de meyve getir{eceğ|1}im.",
+       "rd": "하리카! 벤 데 메이베 게티레제임.",
+       "ko": "좋다! 나는 과일 가져{갈게|1}."
+      },
+      {
+       "who": "Emre",
+       "tl": "Yüz{mek istiyor|2} musun? Su soğuk ol{acak|1}.",
+       "rd": "위즈멕 이스티요르 무순? 수 소욱 올라작.",
+       "ko": "수영{하고 싶어|2}? 물 차{가울 거야|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Ben sadece kumda uyu{mak istiyorum|2}.",
+       "rd": "벤 사데제 쿰다 우유막 이스티요룸.",
+       "ko": "난 그냥 모래 위에서 자{고 싶어|2}."
+      }
+     ],
+     "footnotes": [
+      "-ecek·-acak — 「~할 거야 / ~할게」. 사람 어미 앞에서 k 가 ğ 로 (çıkacağız, süreceğim).",
+      "-mek istiyorum — 「~하고 싶어」. 동사 원형(-mek·-mak) + istemek(원하다).",
+      "모음으로 끝나는 동사엔 y 를 넣어요 — oku → okuyacağım."
+     ]
+    },
+    {
+     "id": "L8-ref",
+     "kind": "ref",
+     "title": "앞일 한눈에",
+     "points": [
+      {
+       "head": "-ecek / -acak  ~할 것이다",
+       "tip": "모음 뒤엔 y (okuyacağım). 사람 어미 앞에서 k → ğ.",
+       "sentences": [
+        {
+         "tl": "Yarın arayacağım.",
+         "rd": "야른 아라야자음.",
+         "ko": "내일 전화할게요."
+        },
+        {
+         "tl": "Hava güzel olacak.",
+         "rd": "하바 귀젤 올라작.",
+         "ko": "날씨 좋을 거예요."
+        }
+       ]
+      },
+      {
+       "head": "-mek / -mak istiyorum  ~하고 싶다",
+       "tip": "동사 원형 + istiyorum.",
+       "sentences": [
+        {
+         "tl": "Türkiye'ye gitmek istiyorum.",
+         "rd": "튀르키예예 기트멕 이스티요룸.",
+         "ko": "튀르키예에 가고 싶어요."
+        },
+        {
+         "tl": "Ne yemek istiyorsun?",
+         "rd": "네 예멕 이스티요르순?",
+         "ko": "뭐 먹고 싶어?"
+        }
+       ]
+      },
+      {
+       "head": "-(y)elim / -(y)alım  ~하자",
+       "tip": "같이 하자고 할 때.",
+       "sentences": [
+        {
+         "tl": "Gidelim!",
+         "rd": "기델림!",
+         "ko": "가자!"
+        },
+        {
+         "tl": "Biraz oturalım.",
+         "rd": "비라즈 오투랄름.",
+         "ko": "좀 앉자."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "title": "할 수 있어 · ~하면 — -ebil 과 -se",
+   "lessons": [
+    {
+     "id": "L9-1",
+     "title": "도와줄 수 있어?",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "나",
+       "tl": "Bana yardım ed{ebil|1}ir misin?",
+       "rd": "바나 야르듬 에데빌리르 미신?",
+       "ko": "나 좀 도와{줄 수 있|1}어?"
+      },
+      {
+       "who": "Elif",
+       "tl": "Tabii. Ne yap{abil|1}irim?",
+       "rd": "타비이. 네 야파빌리림?",
+       "ko": "당연하지. 내가 뭘 {할 수 있|1}어?"
+      },
+      {
+       "who": "나",
+       "tl": "Bu kutuyu taşı{yabil|1}ir misin?",
+       "rd": "부 쿠투유 타시야빌리르 미신?",
+       "ko": "이 상자 옮{길 수 있|1}어?"
+      },
+      {
+       "who": "Elif",
+       "tl": "Çok ağır{sa|2}, Emre'yi çağırırız.",
+       "rd": "촉 아으르사, 엠레이 차으르르즈.",
+       "ko": "너무 무거우{면|2}, Emre 부르자."
+      },
+      {
+       "who": "나",
+       "tl": "Emre gel{ebil|1}ir mi? Bugün çalışıyor.",
+       "rd": "엠레 겔레빌리르 미? 부귄 찰르시요르.",
+       "ko": "Emre {올 수 있|1}을까? 오늘 일하는데."
+      },
+      {
+       "who": "Elif",
+       "tl": "Arar{sa|2}n gelir.",
+       "rd": "아라르산 겔리르.",
+       "ko": "네가 전화하{면|2} 와."
+      },
+      {
+       "who": "나",
+       "tl": "Ben arar{sa|2}m açmaz. Sen ara!",
+       "rd": "벤 아라르삼 아치마즈. 센 아라!",
+       "ko": "내가 전화하{면|2} 안 받아. 네가 해!"
+      },
+      {
+       "who": "Elif",
+       "tl": "Peki. Ama bana pizza ısmarlar{sa|2}n.",
+       "rd": "페키. 아마 바나 피자 으스마를라르산.",
+       "ko": "알았어. 대신 네가 피자 사{면|2}."
+      },
+      {
+       "who": "나",
+       "tl": "Kutuyu sen taşı{yabil|1}ir{sen|2}, iki pizza!",
+       "rd": "쿠투유 센 타시야빌리르센, 이키 피자!",
+       "ko": "네가 상자 옮{길 수 있|1}으{면|2}, 피자 두 판!"
+      },
+      {
+       "who": "Elif",
+       "tl": "Anlaştık! Ben her şeyi taşı{yabil|1}irim!",
+       "rd": "안라시특! 벤 헤르 셰이 타시야빌리림!",
+       "ko": "콜! 나 뭐든 옮{길 수 있|1}어!"
+      }
+     ],
+     "footnotes": [
+      "-ebil·-abil — 「~할 수 있다」. 동사 줄기 뒤에, 모음 뒤엔 y (taşıyabilir).",
+      "-se·-sa — 「~하면」. 보통 -r 꼴 뒤에 붙어요 (ararsan 네가 전화하면).",
+      "「못 해」는 -ebil 의 부정이 아니라 -eme (gelemiyorum 못 가)."
+     ]
+    },
+    {
+     "id": "L9-ref",
+     "kind": "ref",
+     "title": "할 수 있어 · ~하면 한눈에",
+     "points": [
+      {
+       "head": "-ebil / -abil  ~할 수 있다",
+       "tip": "모음 뒤엔 y. 부탁할 땐 -ebilir misin?",
+       "sentences": [
+        {
+         "tl": "Türkçe konuşabiliyorum.",
+         "rd": "튀르크체 코누샤빌리요룸.",
+         "ko": "터키어 할 수 있어요."
+        },
+        {
+         "tl": "Pencereyi açabilir misin?",
+         "rd": "펜제레이 아차빌리르 미신?",
+         "ko": "창문 열어 줄 수 있어?"
+        }
+       ]
+      },
+      {
+       "head": "-eme / -ama  ~할 수 없다",
+       "tip": "부정은 -ebil 이 아니라 -eme.",
+       "sentences": [
+        {
+         "tl": "Gelemiyorum.",
+         "rd": "겔레미요룸.",
+         "ko": "못 가요."
+        },
+        {
+         "tl": "Uyuyamadım.",
+         "rd": "우유야마듬.",
+         "ko": "잠을 못 잤어요."
+        }
+       ]
+      },
+      {
+       "head": "-se / -sa  ~하면",
+       "tip": "조건. var·yok 뒤에도 바로 붙어요 (varsa 있으면).",
+       "sentences": [
+        {
+         "tl": "Yağmur yağarsa evde kalırız.",
+         "rd": "야무르 야아르사 에브데 칼르르즈.",
+         "ko": "비 오면 우리 집에 있을 거예요."
+        },
+        {
+         "tl": "Zamanın varsa gel.",
+         "rd": "자마는 바르사 겔.",
+         "ko": "시간 있으면 와."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "title": "존댓말 — siz 와 -in",
+   "lessons": [
+    {
+     "id": "L10-1",
+     "title": "호텔에서",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 색칠한 어미가 저절로 익어요.",
+     "sentences": [
+      {
+       "who": "직원",
+       "tl": "Hoş geldi{niz|1}! Nasıl yardımcı olabilirim?",
+       "rd": "호시 겔디니즈! 나슬 야르듬즈 올라빌리림?",
+       "ko": "어서 오{세요|1}! 무엇을 도와드릴까요?"
+      },
+      {
+       "who": "나",
+       "tl": "Bir rezervasyonum var, iki gece.",
+       "rd": "비르 레제르바스요눔 바르, 이키 게제.",
+       "ko": "예약했어요, 이틀 밤이요."
+      },
+      {
+       "who": "직원",
+       "tl": "Pasaportunuzu verir mi{siniz|1}?",
+       "rd": "파사포르투누주 베리르 미시니즈?",
+       "ko": "여권 주시겠어{요|1}?"
+      },
+      {
+       "who": "나",
+       "tl": "Tabii, buyurun.",
+       "rd": "타비이, 부유룬.",
+       "ko": "네, 여기요."
+      },
+      {
+       "who": "직원",
+       "tl": "Şu formu doldur{un|2}, lütfen.",
+       "rd": "슈 포르무 돌두룬, 뤼트펜.",
+       "ko": "이 서류 작성해 주{세요|2}."
+      },
+      {
+       "who": "나",
+       "tl": "Kahvaltı saat kaçta?",
+       "rd": "카흐발트 사앗 카치타?",
+       "ko": "아침은 몇 시예요?"
+      },
+      {
+       "who": "직원",
+       "tl": "Yediden ona kadar. Restoran ikinci katta.",
+       "rd": "예디덴 오나 카다르. 레스토란 이킨지 카타.",
+       "ko": "7시부터 10시까지예요. 식당은 2층에 있어요."
+      },
+      {
+       "who": "나",
+       "tl": "Wi-fi şifresini söyler mi{siniz|1}?",
+       "rd": "이-피 시프레시니 쇠일레르 미시니즈?",
+       "ko": "와이파이 비밀번호 알려 주시겠어{요|1}?"
+      },
+      {
+       "who": "직원",
+       "tl": "Kartın arkasında. Lütfen sakla{yın|2}.",
+       "rd": "카르튼 아르카슨다. 뤼트펜 사클라이은.",
+       "ko": "카드 뒷면에 있어요. 잘 보관하{세요|2}."
+      },
+      {
+       "who": "나",
+       "tl": "Çok teşekkür ederim. İyi akşamlar!",
+       "rd": "촉 테셰퀴르 에데림. 이이 악샴라르!",
+       "ko": "정말 감사합니다. 좋은 저녁 되세요!"
+      }
+     ],
+     "footnotes": [
+      "모르는 어른·손님·가게에선 siz(당신) — 동사 끝이 -siniz·-sınız (verir misiniz).",
+      "「~하세요」는 동사 줄기 + -(y)ın (doldurun, saklayın). 친구에겐 줄기만 (doldur, sakla).",
+      "부탁을 부드럽게 할 땐 -ir misiniz? 「~해 주시겠어요?」."
+     ]
+    },
+    {
+     "id": "L10-ref",
+     "kind": "ref",
+     "title": "존댓말 한눈에",
+     "points": [
+      {
+       "head": "siz  당신 (존댓말·여럿)",
+       "tip": "처음 보는 사람·가게·윗사람. 동사 끝 -siniz·-sınız.",
+       "sentences": [
+        {
+         "tl": "Nerelisiniz?",
+         "rd": "네렐리시니즈?",
+         "ko": "어디 분이세요?"
+        },
+        {
+         "tl": "Türkçe biliyor musunuz?",
+         "rd": "튀르크체 빌리요르 무수누즈?",
+         "ko": "터키어 하세요?"
+        }
+       ]
+      },
+      {
+       "head": "-(y)ın / -(y)in  ~하세요",
+       "tip": "동사 줄기 + -(y)ın. lütfen 을 붙이면 더 부드러워요.",
+       "sentences": [
+        {
+         "tl": "Buyurun, oturun.",
+         "rd": "부유룬, 오투룬.",
+         "ko": "어서 앉으세요."
+        },
+        {
+         "tl": "Lütfen bekleyin.",
+         "rd": "뤼트펜 베클레인.",
+         "ko": "기다려 주세요."
+        }
+       ]
+      },
+      {
+       "head": "-ir misiniz?  ~해 주시겠어요?",
+       "tip": "손님이 부탁할 때 가장 많이 쓰는 꼴.",
+       "sentences": [
+        {
+         "tl": "Yardım eder misiniz?",
+         "rd": "야르듬 에데르 미시니즈?",
+         "ko": "도와주시겠어요?"
+        },
+        {
+         "tl": "Hesabı getirir misiniz?",
+         "rd": "헤사브 게티리르 미시니즈?",
+         "ko": "계산서 갖다주시겠어요?"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

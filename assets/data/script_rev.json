@@ -181,7 +181,8 @@
 "dialogues/R3/work/r3_work_b4.json": "9ee797134b5f",
 "dialogues/R3/work/r3_work_b5.json": "4c105c1dbf3a",
 "dialogues/R3/work/r3_work_b6.json": "d136bd59f0bf",
-"dialogues/_release.json": "e906f8300add"
+"dialogues/_release.json": "e906f8300add",
+"grammar/sense_course.json": "05877830f47c"
 },
 "rev": 1
 }
