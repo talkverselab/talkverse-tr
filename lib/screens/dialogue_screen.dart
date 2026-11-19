@@ -328,7 +328,7 @@ class _Bubble extends StatelessWidget {
                   Text('$name${t.at != null ? ' · ${t.at}' : ''}', style: const TextStyle(fontSize: 10, color: AppColors.muted)),
                   const SizedBox(width: 6),
                   InkWell(
-                    onTap: () => TtsService.instance.speakAs(t.tl.replaceAll(RegExp(r'[（(][^)）]*[)）]'), '').replaceAll(RegExp(r'\{[a-z_]+\}'), ''), gender: d.voiceGender(t.speaker)),
+                    onTap: () => TtsService.instance.speakAs(LearnerPrefs.fill(t.tl).replaceAll(RegExp(r'[（(][^)）]*[)）]'), ''), gender: d.voiceGender(t.speaker)),
                     child: const Icon(Icons.volume_up, size: 16, color: AppColors.beni),
                   ),
                   const SizedBox(width: 4),
@@ -338,9 +338,9 @@ class _Bubble extends StatelessWidget {
                 // 내용어를 누르면 단어창
                 LemmaText(text: LearnerPrefs.fill(t.tl), lemmas: t.lemmas, style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
                 if (t.reading.isNotEmpty && t.reading != t.tl) Text(LearnerPrefs.fill(t.reading), style: const TextStyle(fontSize: 12, color: AppColors.ai, fontWeight: FontWeight.w700)),
-                if (t.rd.isNotEmpty) KoReadingText(LearnerPrefs.fill(t.rd), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
+                if (t.rd.isNotEmpty) KoReadingText(LearnerPrefs.fill(t.rd, 'rd'), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
                 const SizedBox(height: 3),
-                Text(LearnerPrefs.fill(t.ko), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight, height: 1.35)),
+                Text(LearnerPrefs.fill(t.ko, 'ko'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight, height: 1.35)),
                 if (t.note.isNotEmpty) ...[
                   const SizedBox(height: 4),
                   Text('💡 ${t.note}', style: const TextStyle(fontSize: 11, color: AppColors.beniDeep, height: 1.35)),

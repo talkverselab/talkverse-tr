@@ -27,7 +27,7 @@ class LearnerSection extends StatelessWidget {
                   leading: const Icon(Icons.badge_outlined, color: AppColors.beni),
                   title: Text(tr('이름'), style: const TextStyle(fontWeight: FontWeight.w600)),
                   subtitle: Text(
-                      name.isNotEmpty ? trf('{0} — 회화 속 「나」로 나와요', [name]) : tr('없음 — 회화에서 「○○」로 보여요'),
+                      name.isNotEmpty ? trf('{0} — 회화 속 「나」로 나와요', [name]) : trf('없음 — 회화에서는 「{0}」(기본 이름)', [LearnerPrefs.fill('{name}')]),
                       style: const TextStyle(fontSize: 11, color: AppColors.sumiLight)),
                   trailing: const Icon(Icons.edit_outlined, color: AppColors.beni, size: 18),
                   onTap: () => _editName(context),

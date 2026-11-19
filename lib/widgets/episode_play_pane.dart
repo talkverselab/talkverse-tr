@@ -125,8 +125,8 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
   }
 
   String _ttsText(DialogueTurn t) {
-    final s = t.tl.replaceAll(RegExp(r'[（(][^)）]*[)）]'), '').replaceAll(RegExp(r'\{[a-z_]+\}'), '').trim();
-    return s.isEmpty ? t.tl : s;
+    final s = LearnerPrefs.fill(t.tl).replaceAll(RegExp(r'[（(][^)）]*[)）]'), '').trim();
+    return s.isEmpty ? LearnerPrefs.fill(t.tl) : s;
   }
 
   String _gender(String sp) => d.voiceGender(sp); // 데이터에 정해진 성별 우선, `{name}` 자리면 프로필 성별
@@ -268,8 +268,8 @@ class _Script extends StatelessWidget {
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                         LemmaText(text: LearnerPrefs.fill(t.tl), lemmas: t.lemmas, style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
                         if (showKana && t.reading.isNotEmpty && t.reading != t.tl) Text(LearnerPrefs.fill(t.reading), style: const TextStyle(fontSize: 11.5, color: AppColors.ai, fontWeight: FontWeight.w700)),
-                        if (showRd && t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd), style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
-                        if (showKo) Text(LearnerPrefs.fill(t.ko), style: const TextStyle(fontSize: 12.5, color: AppColors.sumiLight, height: 1.35)),
+                        if (showRd && t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, 'rd'), style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
+                        if (showKo) Text(LearnerPrefs.fill(t.ko, 'ko'), style: const TextStyle(fontSize: 12.5, color: AppColors.sumiLight, height: 1.35)),
                         if (on && t.note.isNotEmpty) Padding(padding: const EdgeInsets.only(top: 4), child: Text('💡 ${t.note}', style: const TextStyle(fontSize: 11, color: AppColors.beniDeep, height: 1.35))),
                       ]),
                     ),
@@ -366,8 +366,8 @@ class _Caption extends StatelessWidget {
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               LemmaText(text: LearnerPrefs.fill(turn.tl), lemmas: turn.lemmas, style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
               if (showKana && turn.reading.isNotEmpty && turn.reading != turn.tl) Text(LearnerPrefs.fill(turn.reading), style: const TextStyle(fontSize: 12.5, color: AppColors.ai, fontWeight: FontWeight.w700)),
-              if (showRd && turn.rd.isNotEmpty) Text(LearnerPrefs.fill(turn.rd), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
-              if (showKo) Padding(padding: const EdgeInsets.only(top: 2), child: Text(LearnerPrefs.fill(turn.ko), style: const TextStyle(fontSize: 13.5, color: AppColors.sumiLight, height: 1.35))),
+              if (showRd && turn.rd.isNotEmpty) Text(LearnerPrefs.fill(turn.rd, 'rd'), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
+              if (showKo) Padding(padding: const EdgeInsets.only(top: 2), child: Text(LearnerPrefs.fill(turn.ko, 'ko'), style: const TextStyle(fontSize: 13.5, color: AppColors.sumiLight, height: 1.35))),
               if (turn.lemmas.isNotEmpty) Padding(padding: const EdgeInsets.only(top: 8), child: LemmaChips(turn: turn, compact: !wide)),
             ]),
           ),
