@@ -40,7 +40,8 @@
    "tags": [],
    "new": [],
    "at": "20:02",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "worried"
   },
   {
    "num": 2,
@@ -48,13 +49,14 @@
    "tl": "Elif? Hadi ya, cevap ver.",
    "rd": "엘리프? 하디 야, 제밥 베르.",
    "ko": "Elif? 야 좀, 답해.",
-   "note": "hadi ya = 아 좀",
+   "note": "hadi ya = 야 좀",
    "tags": [
     "expr:hadi ya"
    ],
    "new": [],
    "at": "20:09",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "annoyed"
   },
   {
    "num": 3,
@@ -68,15 +70,16 @@
    ],
    "new": [],
    "at": "20:15",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "annoyed"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Tamam, giriyorum. Biletin kapıda.",
-   "rd": "타맘, 기리요룸. 빌레틴 카프다.",
+   "tl": "Tamam, giriyorum. Biletini kapıda bırakırım. Görüşürüz.",
+   "rd": "타맘, 기리요룸. 빌레티니 카프다 브라크름. 괴뤼쉬뤼즈.",
    "ko": "알았어, 들어간다. 네 표는 입구에 둘게.",
-   "note": "bilet = 표",
+   "note": "tamam = 알았어",
    "tags": [
     "expr:tamam"
    ],
@@ -84,21 +87,32 @@
     "bilet"
    ],
    "at": "20:21",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "sad"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Reklam çıktı! Teyzemdeyim, telefon yasak.",
-   "rd": "레클람 측트! 테이젬데임, 텔레폰 야삭.",
+   "tl": "Reklam çıktı! Teyze'deyim, telefon yasak.",
+   "rd": "레클람 측트! 테이제데임, 텔레폰 야삭.",
    "ko": "광고 나왔다! 이모 집이야, 폰 금지거든.",
-   "note": "yasak = 금지 — 반전",
+   "note": "yasak = 금지",
    "tags": [
     "callback:r1_culture_a6"
    ],
    "new": [],
    "at": "20:34",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "excited",
+     "Reklam çıktı!"
+    ],
+    [
+     "neutral",
+     "Teyze'deyim, telefon yasak."
+    ]
+   ]
   },
   {
    "num": 6,
@@ -110,13 +124,14 @@
    "tags": [],
    "new": [],
    "at": "20:34",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "surprised"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Çocuk onunmuş! Reklam bitti, görüşürüz 😱",
-   "rd": "초죽 오눈무시! 레클람 비티, 괴뤼쉬뤼즈",
+   "tl": "Çocuk onun çocuğuymuş! Reklam bitti, görüşürüz 😱",
+   "rd": "초죽 오눈 초주우이무시! 레클람 비티, 괴뤼쉬뤼즈",
    "ko": "애가 걔 애였대! 광고 끝, 또 봐 😱",
    "note": "-mış = ~래",
    "tags": [
@@ -126,7 +141,17 @@
    "new": [],
    "stamp": "😱",
    "at": "20:35",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "excited",
+     "Çocuk onun çocuğuymuş!"
+    ],
+    [
+     "cheerful",
+     "Reklam bitti, görüşürüz 😱"
+    ]
+   ]
   },
   {
    "num": 8,
@@ -138,10 +163,12 @@
    "tags": [],
    "new": [],
    "at": "20:35",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "shout"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

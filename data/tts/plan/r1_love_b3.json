@@ -8,7 +8,7 @@
 "segs": [
 [
 "excited",
-"Emre, harika haber! Haftaya evleniyorum!"
+"Emre, harika haber! Gelecek hafta evleniyorum!"
 ]
 ]
 },
@@ -28,7 +28,7 @@
 "segs": [
 [
 "excited",
-"Yalnız!"
+"Tek başıma!"
 ],
 [
 "cheerful",
@@ -48,7 +48,7 @@
 "segs": [
 [
 "excited",
-"Ev! Yeni ev, çok güzel!"
+"Ev! Yeni ev, harika!"
 ]
 ]
 },
@@ -60,7 +60,7 @@
 ],
 [
 "amused",
-"O \"taşınıyorum\" demek."
+"Ona \"taşınıyorum\" denir."
 ]
 ]
 },
@@ -72,7 +72,7 @@
 ],
 [
 "neutral",
-"Evleniyorum ne demek peki?"
+"Peki \"evleniyorum\" ne demek?"
 ]
 ]
 },
@@ -80,7 +80,7 @@
 "segs": [
 [
 "shy",
-"Bir an kalbim durdu demek."
+"\"Bir an kalbim durdu\" demek."
 ]
 ]
 }

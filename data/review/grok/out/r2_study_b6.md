@@ -1,0 +1,23 @@
+=== r2_study_b6
+kind: long
+title: 서명 뺑뺑이
+emoji: 🖊️
+scene: 재학증명서 서명 하나 받으려다 두 사무실 사이를 여섯 번 오간다
+speakers: A={name}, B=Zeynep, C=Sekreter, D=Memur
+register: mixed
+twist: 10 chaos
+purpose: study_abroad
+goal: önce·lazım·olmaz 로 학교 행정 버티기
+expressions: olmaz; kusura bakmayın; hadi; hoş geldin
+C | Öğrenci belgesi için dekanlık imzası lazım. | 재학증명서는 학장실 서명이 필요해요. | emotion=stiff
+A | Tamam. Dekanlık nerede? | 네. 학장실이 어디예요? | emotion=polite
+D | Önce bölüm ofisinden imza alın. | 먼저 학과 사무실에서 서명받아 오세요. | emotion=stiff
+A | Ama ofiste buradan alın diyorlar! | 근데 사무실에선 여기서 받아 오래요! | emotion=annoyed
+C | Olmaz, önce dekanlık. Kural bu. | 안 돼요, 학장실이 먼저예요. 규칙이에요. | olmaz = 안 돼요 | emotion=stiff
+B | Bu katta kaçıncı gelişin? | 이 층 몇 번째 오는 거야? | emotion=amused
+A | Altıncı. Kapıda "hoş geldin" sesi duyuyorum. | 여섯 번째. 문 앞에서 「어서 와」 소리 들어. | hoş geldin = 어서 와 | emotion=amused
+B | Bir dakika, ikisini telefonla bağlayalım. Hadi. | 잠깐, 둘을 전화로 연결하자. 얼른. | hadi = 얼른 | emotion=cheerful
+D | Alo? Siz önce imzalayın, kusura bakmayın. | 여보세요? 그쪽이 먼저 서명하세요, 죄송하지만요. | kusura bakmayın = 죄송하지만 | emotion=polite
+C | Bir dakika, bu ses... Geçen yaz düğünde tanışmadık mı? | 잠깐만요, 이 목소리… 지난여름 결혼식에서 만나지 않았어요? | emotion=shy
+A | Zeynep, bir saattir konuşuyorlar. İmza ne oldu? | Zeynep, 한 시간째 통화 중이야. 서명은 어떻게 됐어? | emotion=annoyed
+C | Hangi imza? O belge geçen yıl kayboldu. | 무슨 서명이요? 그 서류 작년에 없어졌어요. | emotion=stiff

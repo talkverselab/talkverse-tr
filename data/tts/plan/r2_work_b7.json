@@ -9,7 +9,7 @@
 "segs": [
 [
 "annoyed",
-"Yine bir dilim pasta eksik."
+"Yine bir dilim pasta yok."
 ],
 [
 "stiff",
@@ -25,7 +25,7 @@
 ],
 [
 "annoyed",
-"Bana niye bakıyorsunuz?"
+"Neden bana bakıyorsunuz?"
 ]
 ]
 },
@@ -41,11 +41,11 @@
 "segs": [
 [
 "neutral",
-"O bugünkü."
+"Bu bugünkü."
 ],
 [
 "flustered",
-"Geceki ben değilim, valla."
+"Gece yiyen ben değilim, valla."
 ]
 ]
 },
@@ -53,7 +53,7 @@
 "segs": [
 [
 "neutral",
-"Tamam, kameraya bakalım. Gece kim geldi?"
+"Tamam, kameraya bakalım. Gece kim gelmiş."
 ]
 ]
 },
@@ -61,11 +61,7 @@
 "segs": [
 [
 "excited",
-"Hadi, saat ikiye git…"
-],
-[
-"surprised",
-"dur, dur!"
+"Hadi. İkiye git… Dur, dur!"
 ]
 ]
 },
@@ -77,7 +73,7 @@
 ],
 [
 "worried",
-"O kim?"
+"Bu kim ya?"
 ]
 ]
 },
@@ -93,11 +89,7 @@
 "segs": [
 [
 "surprised",
-"Eyvah, yüzü…"
-],
-[
-"shout",
-"bu müdür!"
+"Eyvah. Yüzü… Müdür bu!"
 ]
 ]
 },

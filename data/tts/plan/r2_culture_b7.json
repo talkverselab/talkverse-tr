@@ -11,11 +11,11 @@
 "segs": [
 [
 "cheerful",
-"Yemek çok güzeldi."
+"Çok lezzetliydi."
 ],
 [
 "neutral",
-"Hesabı bölüşelim mi?"
+"Hesabı bölsek mi?"
 ]
 ]
 },
@@ -23,11 +23,11 @@
 "segs": [
 [
 "worried",
-"Sus!"
+"Şşt!"
 ],
 [
 "stiff",
-"Burada öyle bir şey söyleme."
+"Burada öyle konuşma."
 ]
 ]
 },
@@ -35,11 +35,11 @@
 "segs": [
 [
 "shout",
-"Garson!"
+"Buraya!"
 ],
 [
 "polite",
-"Hesap lütfen, bana getir."
+"Hesap lütfen, bana verin."
 ]
 ]
 },
@@ -51,7 +51,7 @@
 ],
 [
 "stiff",
-"Bu akşam ben ödüyorum."
+"Bugün ben ödüyorum."
 ]
 ]
 },
@@ -59,11 +59,11 @@
 "segs": [
 [
 "annoyed",
-"Elini çek, kardeşim!"
+"Elini çek kardeşim!"
 ],
 [
 "shout",
-"Çek dedim!"
+"Çek diyorum!"
 ]
 ]
 },
@@ -71,11 +71,11 @@
 "segs": [
 [
 "worried",
-"Zeynep, kavga mı var?"
+"Zeynep, kavga mı ediyorlar?"
 ],
 [
 "neutral",
-"Ben ödeyeyim, biter."
+"Ben ödeyeyim, bitsin."
 ]
 ]
 },
@@ -83,11 +83,11 @@
 "segs": [
 [
 "shout",
-"Sakın!"
+"Asla olmaz!"
 ],
 [
 "teasing",
-"O zaman üçüncü kişi olursun."
+"O zaman sen üçüncü oyuncu olursun."
 ]
 ]
 },
@@ -95,7 +95,7 @@
 "segs": [
 [
 "polite",
-"Kusura bakmayın, hesap ödendi efendim."
+"Kusura bakmayın, hesap kapandı."
 ]
 ]
 },
@@ -107,7 +107,7 @@
 ],
 [
 "worried",
-"Kim ödedi peki?"
+"Kim ödedi o zaman?"
 ]
 ]
 },
@@ -115,7 +115,7 @@
 "segs": [
 [
 "polite",
-"Yan masadaki amca. Size selamı var."
+"Yan masadaki amca. Selam söylüyor."
 ]
 ]
 },
@@ -123,7 +123,7 @@
 "segs": [
 [
 "shout",
-"Ona tatlı gönderin! Hesabı da bana getirin!"
+"Ona tatlı gönderin! Hesabı bana verin!"
 ]
 ]
 },
@@ -135,7 +135,7 @@
 ],
 [
 "tsukkomi",
-"Savaş artık iki masada."
+"Savaş şimdi iki masaya yayıldı."
 ]
 ]
 }

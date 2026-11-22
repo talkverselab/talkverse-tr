@@ -16,7 +16,7 @@
 "segs": [
 [
 "flustered",
-"Hiç, şey, biraz işim vardı."
+"Hiçbir şey, şey, işler vardı."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "annoyed",
-"Mesajları gördün ama. Mavi tik var."
+"Ama mesajı gördün. Mavi tik var."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "stiff",
-"Gördüm, evet. Cevap yazmadım, bilerek."
+"Gördüm, evet. Cevap vermedim, bilerek."
 ]
 ]
 },
@@ -40,11 +40,7 @@
 "segs": [
 [
 "surprised",
-"Bilerek mi, ciddi misin?"
-],
-[
-"sad",
-"Ben ne yaptım ki?"
+"Bilerek? Ciddi misin? Ben ne yaptım?"
 ]
 ]
 },
@@ -52,11 +48,7 @@
 "segs": [
 [
 "neutral",
-"Hiçbir şey."
-],
-[
-"shy",
-"Ablam dedi: \"Üç gün yazma, o yazsın.\""
+"Hiçbir şey. Ablam dedi. \"Üç gün cevap verme, o yazsın.\""
 ]
 ]
 },
@@ -68,7 +60,7 @@
 ],
 [
 "annoyed",
-"Bu nasıl kural böyle?"
+"Ne kuralı bu?"
 ]
 ]
 },
@@ -76,7 +68,7 @@
 "segs": [
 [
 "shy",
-"Kural bu: kim önce yazarsa kaybeder."
+"Kural bu. İlk yazan kaybeder."
 ]
 ]
 },
@@ -84,7 +76,7 @@
 "segs": [
 [
 "sad",
-"Ben sekiz mesaj yazdım. Kaybettim yani."
+"Ben sekiz mesaj attım. Yani ben kaybettim."
 ]
 ]
 },
@@ -116,7 +108,7 @@
 ],
 [
 "gentle",
-"Üç gün çok uzunmuş."
+"Üç gün gerçekten uzunmuş."
 ]
 ]
 }

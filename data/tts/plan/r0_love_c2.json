@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Selam! Naber?"
+"Selam ya, naber?"
 ]
 ]
 },
@@ -16,8 +16,7 @@
 "segs": [
 [
 "worried",
-"Emre? Mesajı gördün. 👀",
-"Emre? Mesajı gördün."
+"Emre? Mesajı gördün değil mi ya?"
 ]
 ]
 },
@@ -41,8 +40,7 @@
 "segs": [
 [
 "annoyed",
-"Günaydın mı? On saat oldu! 😤",
-"Günaydın mı? On saat oldu!"
+"Günaydın mı cidden? On saat geçti be!"
 ]
 ]
 },
@@ -50,7 +48,7 @@
 "segs": [
 [
 "stiff",
-"Yazmayı sevmem."
+"Valla ben mesajı sevmiyorum."
 ]
 ]
 },
@@ -58,7 +56,7 @@
 "segs": [
 [
 "worried",
-"Ama okudun, değil mi?"
+"Ama okudun değil mi?"
 ]
 ]
 },
@@ -66,7 +64,7 @@
 "segs": [
 [
 "shy",
-"Üç kere okudum."
+"Üç kere okudum..."
 ]
 ]
 }

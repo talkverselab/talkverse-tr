@@ -34,22 +34,42 @@
   {
    "num": 1,
    "speaker": "C",
-   "tl": "Yine bir dilim pasta eksik. Kim yiyor bunu?",
-   "rd": "이네 비르 딜림 파스타 엑식. 킴 이요르 부누?",
+   "tl": "Yine bir dilim pasta yok. Kim yiyor bunu?",
+   "rd": "이네 비르 딜림 파스타 욕. 킴 이요르 부누?",
    "ko": "또 케이크 한 조각이 없어요. 누가 먹는 거죠?",
    "note": "eksik = 모자라는",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "annoyed",
+     "Yine bir dilim pasta yok."
+    ],
+    [
+     "stiff",
+     "Kim yiyor bunu?"
+    ]
+   ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Ben değilim! Bana niye bakıyorsunuz?",
-   "rd": "벤 데일림! 바나 니예 바크요르수누즈?",
+   "tl": "Ben değilim! Neden bana bakıyorsunuz?",
+   "rd": "벤 데일림! 네덴 바나 바크요르수누즈?",
    "ko": "저 아니에요! 왜 저를 보세요?",
    "note": "ben değilim = 나 아니다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Ben değilim!"
+    ],
+    [
+     "annoyed",
+     "Neden bana bakıyorsunuz?"
+    ]
+   ]
   },
   {
    "num": 3,
@@ -59,53 +79,76 @@
    "ko": "Can, 입에 케이크 묻었어.",
    "note": "ağzında = 네 입에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "O bugünkü. Geceki ben değilim, valla.",
-   "rd": "오 부귄퀴. 게제키 벤 데일림, 발라.",
+   "tl": "Bu bugünkü. Gece yiyen ben değilim, valla.",
+   "rd": "부 부귄퀴. 게제 이옌 벤 데일림, 발라.",
    "ko": "이건 오늘 거야. 밤에 먹은 건 나 아니야, 진짜.",
-   "note": "valla = 진짜로",
+   "note": "valla = 진짜",
    "tags": [
     "expr:valla"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Bu bugünkü."
+    ],
+    [
+     "flustered",
+     "Gece yiyen ben değilim, valla."
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Tamam, kameraya bakalım. Gece kim geldi?",
-   "rd": "타맘, 카메라야 바칼름. 게제 킴 겔디?",
+   "tl": "Tamam, kameraya bakalım. Gece kim gelmiş.",
+   "rd": "타맘, 카메라야 바칼름. 게제 킴 겔미시.",
    "ko": "알았어, 카메라 보자. 밤에 누가 왔나.",
    "note": "bakalım = 보자",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Hadi, saat ikiye git… dur, dur!",
-   "rd": "하디, 사앗 이키예 깃… 두르, 두르!",
+   "tl": "Hadi. İkiye git… Dur, dur!",
+   "rd": "하디. 이키예 깃… 두르, 두르!",
    "ko": "그래. 두 시로 가 봐… 잠깐, 잠깐!",
-   "note": "hadi = 자, 어서",
+   "note": "hadi = 그래",
    "tags": [
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Yok artık. O kim?",
-   "rd": "욕 아르특. 오 킴?",
+   "tl": "Yok artık. Bu kim ya?",
+   "rd": "욕 아르특. 부 킴 야?",
    "ko": "말도 안 돼. 저거 누구야?",
    "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Yok artık."
+    ],
+    [
+     "worried",
+     "Bu kim ya?"
+    ]
+   ]
   },
   {
    "num": 8,
@@ -117,19 +160,21 @@
    "tags": [],
    "new": [
     "anahtar"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Eyvah, yüzü… bu müdür!",
-   "rd": "에이바흐, 위쥐… 부 뮈뒤르!",
+   "tl": "Eyvah. Yüzü… Müdür bu!",
+   "rd": "에이바흐. 위쥐… 뮈뒤르 부!",
    "ko": "헉. 얼굴이… 매니저님이잖아!",
-   "note": "eyvah = 헉 — 반전",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 10,
@@ -137,13 +182,14 @@
    "tl": "Ee, hırsızı buldunuz mu?",
    "rd": "에에, 흐르스즈 불두누즈 무?",
    "ko": "그래서, 도둑은 찾았어요?",
-   "note": "hırsız = 도둑",
+   "note": "ee = 그래서",
    "tags": [
     "expr:ee"
    ],
    "new": [
     "hırsız"
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 11,
@@ -153,10 +199,21 @@
    "ko": "못 찾았어요, 매니저님. 근데 저 케이크 한 조각 필요해요.",
    "note": "lazım = 필요하다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Bulamadık müdürüm."
+    ],
+    [
+     "amused",
+     "Ama bana bir dilim pasta lazım."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

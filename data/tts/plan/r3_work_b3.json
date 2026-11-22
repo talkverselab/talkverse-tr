@@ -8,7 +8,7 @@
 "segs": [
 [
 "neutral",
-"Müdür beni çağırdı. Ankara'daki ofiste yer açılmış."
+"Müdür çağırdı. Ankara ofisinde yer açılmış."
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "cheerful",
-"Harika! Yani… daha çok para, değil mi?"
+"Harika! Yani… maaş da artıyor değil mi?"
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "neutral",
-"Evet. Maaş daha iyi. Ev de veriyorlar."
+"Evet. Maaş da daha iyi. Ev de veriyorlarmış."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "stiff",
-"Ne zaman cevap vereceksin peki?"
+"Peki ne zaman cevap vereceksin?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "shy",
-"Cuma günü. Sence gideyim mi?"
+"Cuma. Bence gideyim mi?"
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "stiff",
-"Bence git. Bu fırsat her zaman gelmez."
+"Git. Böyle fırsat her zaman gelmez."
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "sad",
-"Hıhı. Çok kolay söyledin ama."
+"Hıhı. Ama çok kolay söyledin."
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "flustered",
-"Ne demek kolay? Ne söyleyeyim yani?"
+"Kolay mı? Ne diyeyim o zaman?"
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "shy",
-"Bilmem. Her sabah sana çayı kim getirecek?"
+"Bilmem. Her sabah çayını kim getiriyor?"
 ]
 ]
 },
@@ -80,7 +80,7 @@
 "segs": [
 [
 "neutral",
-"Amca getirir. Onun işi o."
+"Amca getiriyor. Onun işi zaten."
 ]
 ]
 },
@@ -96,7 +96,7 @@
 "segs": [
 [
 "surprised",
-"Ne? Amca getiriyor sanıyordum. Neden hiç söylemedin?"
+"Ne? Amca getiriyor sanıyordum. Niye söylemedin?"
 ]
 ]
 },
@@ -104,7 +104,7 @@
 "segs": [
 [
 "gentle",
-"Açık, tek şeker. Sabah dokuzda, soğumadan."
+"Açık, bir şeker. Sabah dokuz, soğumadan."
 ]
 ]
 },
@@ -112,7 +112,7 @@
 "segs": [
 [
 "shy",
-"Emre… kalmanı istersem? Yani…"
+"Emre… kal deseydim? Yani…"
 ]
 ]
 },
@@ -120,7 +120,7 @@
 "segs": [
 [
 "gentle",
-"Cuma günü sorma. Bugün sor."
+"Cuma sorma. Bugün sor."
 ]
 ]
 }

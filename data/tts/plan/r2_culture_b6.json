@@ -8,7 +8,7 @@
 "segs": [
 [
 "excited",
-"Kalabalık çok! Elimi tut, kaybolma."
+"Kalabalık çok ya! Elimi tut, kaybolma."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "excited",
-"Tabii ki! Herkes biliyor, sen de söyle!"
+"Tabii ki! Hepsini biliyorum, sen de söyle!"
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "neutral",
-"Anlamadım ki. Ne diyor bu adam?"
+"Anlamadım. Bu adam ne diyor?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "gentle",
-"Diyor ki: Gözlerine bakınca susarım."
+"Şöyle diyor. Gözlerine bakınca sözlerim bitiyor."
 ]
 ]
 },
@@ -56,11 +56,11 @@
 "segs": [
 [
 "shy",
-"Susarım."
+"Susabilirim aslında."
 ],
 [
 "gentle",
-"Bak, şimdi sana bakıyorum."
+"Bak, şu an sana bakıyorum."
 ]
 ]
 },
@@ -76,7 +76,7 @@
 "segs": [
 [
 "shy",
-"Şey…"
+"Şey..."
 ]
 ]
 },
@@ -84,7 +84,7 @@
 "segs": [
 [
 "teasing",
-"Konser bitti, Elif. Elimi bırakabilirsin."
+"Konser bitti Elif. Elini bırakabilirsin."
 ]
 ]
 },
@@ -92,7 +92,7 @@
 "segs": [
 [
 "shy",
-"Kaybolma dedim ya."
+"Kaybolma demiştim ya."
 ]
 ]
 }

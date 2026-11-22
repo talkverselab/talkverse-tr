@@ -8,7 +8,7 @@
 "segs": [
 [
 "worried",
-"Can, çok önemli bir şey söyleyeceğim."
+"Can, şey... gerçekten önemli bir şey söyleyeceğim."
 ]
 ]
 },
@@ -20,7 +20,7 @@
 ],
 [
 "excited",
-"Bu tatlı harika, ya."
+"Bu tatlı harika ya, cidden."
 ]
 ]
 },
@@ -44,7 +44,7 @@
 "segs": [
 [
 "worried",
-"Bir de Patron yatağımda doğurdu."
+"Patron yatağımda doğum yaptı."
 ]
 ]
 },
@@ -60,7 +60,7 @@
 "segs": [
 [
 "shout",
-"Can! Ben yarın aya gidiyorum!"
+"Can! Ay sonu gidiyorum!"
 ]
 ]
 },
@@ -72,7 +72,7 @@
 ],
 [
 "cheerful",
-"Tatlını yiyecek misin?"
+"Senin tatlıyı da yerim mi?"
 ]
 ]
 }

@@ -30,12 +30,13 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Zeynep, notlarını verir misin?",
-   "rd": "제이넵, 노틀라르느 베리르 미신?",
+   "tl": "Zeynep, notlarını ödünç verebilir misin?",
+   "rd": "제이넵, 노틀라르느 외뒨치 베레빌리르 미신?",
    "ko": "Zeynep, 필기 좀 빌려줄래?",
    "note": "verir misin = 줄래?",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
@@ -47,7 +48,8 @@
    "tags": [
     "expr:hıhı"
    ],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -57,7 +59,8 @@
    "ko": "내일 매점에서 커피 마실까?",
    "note": "içelim mi = 마실까?",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 4,
@@ -69,19 +72,21 @@
    "tags": [
     "expr:hıhı"
    ],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Kulaklık takıyorsun. Beni hiç duymuyorsun, değil mi?",
-   "rd": "쿨라클륵 타크요르순. 베니 히치 두이무요르순, 데일 미?",
+   "tl": "Kulaklık takmışsın. Hiçbir şey duymuyorsun değil mi?",
+   "rd": "쿨라클륵 탁므시슨. 히치비르 셰이 두이무요르순 데일 미?",
    "ko": "이어폰 꼈네. 내 말 하나도 안 들리지?",
    "note": "kulaklık = 이어폰",
    "tags": [],
    "new": [
     "kulaklık"
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -93,17 +98,19 @@
    "tags": [
     "expr:hıhı"
    ],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Tamam. Bana yüz lira borcun var.",
-   "rd": "타맘. 바나 위즈 리라 보르준 바르.",
+   "tl": "Güzel. Bana yüz lira borçlusun.",
+   "rd": "귀젤. 바나 위즈 리라 보르칠루순.",
    "ko": "좋아. 너 나한테 100리라 빚졌어.",
    "note": "borç = 빚",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -115,41 +122,54 @@
    "tags": [
     "expr:hıhı"
    ],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Bu dönem tek arkadaşım sensin. Neyse, duymuyorsun.",
-   "rd": "부 되넴 텍 아르카다심 센신. 네이세, 두이무요르순.",
+   "tl": "Bu dönem tek arkadaşım sensin. Neyse, zaten duymuyorsun.",
+   "rd": "부 되넴 텍 아르카다심 센신. 네이세, 자텐 두이무요르순.",
    "ko": "이번 학기 내 유일한 친구는 너야. 됐어, 어차피 안 들리지.",
-   "note": "neyse = 됐어, 아무튼",
+   "note": "neyse = 됐어",
    "tags": [
     "expr:neyse"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Bu dönem tek arkadaşım sensin."
+    ],
+    [
+     "sad",
+     "Neyse, zaten duymuyorsun."
+    ]
+   ]
   },
   {
    "num": 10,
    "speaker": "B",
-   "tl": "Yüz lira yalan.",
-   "rd": "위즈 리라 얄란.",
+   "tl": "Yüz lira yalan tabii.",
+   "rd": "위즈 리라 얄란 타비이.",
    "ko": "100리라는 거짓말이지.",
-   "note": "yalan = 거짓말 — 반전: 다 듣고 있었다",
+   "note": "yalan = 거짓말",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Ne?! Duyuyor muydun?!",
-   "rd": "네?! 두유요르 무이둔?!",
+   "tl": "Ne?! Duydun mu?!",
+   "rd": "네?! 두이둔 무?!",
    "ko": "뭐?! 들렸어?!",
    "note": "duyuyor muydun = 듣고 있었어?",
    "tags": [
     "form:-iyor_muydun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 12,
@@ -161,10 +181,12 @@
    "tags": [
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

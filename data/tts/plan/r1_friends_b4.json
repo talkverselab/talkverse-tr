@@ -9,7 +9,7 @@
 "segs": [
 [
 "annoyed",
-"Bu kanepe neden bu kadar ağır?"
+"Ya offf, bu koltuk harbiden taşınmaz!"
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "cheerful",
-"Az kaldı! Sadece üç kat."
+"Az kaldı be! Üç kat daha."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "surprised",
-"Dur! Kapıdan girmiyor."
+"Dur dur! Kapıdan sığmıyor bu."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "flustered",
-"Nasıl girmiyor? Can, çevir!"
+"Sığmıyor mu? Can, döndür hadi!"
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "worried",
-"Çeviremiyorum. Kanepenin altındayım."
+"Döndüremiyorum ya, altında kaldım."
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "worried",
-"Ben de içeride kaldım. Kapı kapandı."
+"Ben de içeride kaldım, kapı kapandı offf!"
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "worried",
-"Eyvah! Can, iyi misin?"
+"Eyvah! Can, iyisin?"
 ]
 ]
 },
@@ -65,7 +65,11 @@
 "segs": [
 [
 "amused",
-"İyiyim. Çay getir, artık burada yaşıyorum."
+"İyiyim iyiyim."
+],
+[
+"amused",
+"Çay getir, burada yaşarım."
 ]
 ]
 }

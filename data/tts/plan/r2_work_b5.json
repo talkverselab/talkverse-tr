@@ -16,7 +16,7 @@
 "segs": [
 [
 "neutral",
-"Evet. İş çok."
+"Hıhı. İş çok."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "worried",
-"Müdür senden de rapor mu istedi?"
+"Müdür sana da rapor mu istedi?"
 ]
 ]
 },
@@ -56,11 +56,7 @@
 "segs": [
 [
 "gentle",
-"Sağ ol."
-],
-[
-"surprised",
-"Dur, ekranın niye boş?"
+"Sağ ol. Dur bi… Ekranın neden boş?"
 ]
 ]
 },
@@ -68,7 +64,7 @@
 "segs": [
 [
 "flustered",
-"Boş mu? Bilmem."
+"Boş mu? Bilmiyorum."
 ]
 ]
 },
@@ -76,7 +72,7 @@
 "segs": [
 [
 "teasing",
-"Emre, raporun yok. İşin de yok, değil mi?"
+"Emre, senin raporun yok. İşin de yok, değil mi?"
 ]
 ]
 },
@@ -92,7 +88,7 @@
 "segs": [
 [
 "gentle",
-"O zaman niye buradasın?"
+"O zaman neden buradasın?"
 ]
 ]
 },
@@ -100,7 +96,7 @@
 "segs": [
 [
 "shy",
-"Sen gidince ben de giderim."
+"Sen gidince ben de gideyim diye."
 ]
 ]
 }

@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Yine sen! Her sabah bu vapurda mısın?"
+"Yine sen! Her sabah bu vapura mı biniyorsun?"
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "cheerful",
-"İş karşıda herhalde. Ofisin nerede?"
+"Ofisin karşıda herhalde. Nerede ofisin?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "teasing",
-"Konuyu değiştirme! Nerede iniyorsun sen?"
+"Konuyu değiştirme! Nerede iniyorsun?"
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "surprised",
-"Ne demek geri dönüyorum? Ofisin nerede?"
+"Geri dönmek ne demek? Ofisin nerede?"
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "neutral",
-"Kadıköy'de. Evimin yanında, yürüyerek beş dakika."
+"Kadıköy. Evimin yanında, beş dakika yürüyüş."
 ]
 ]
 },
@@ -80,7 +80,7 @@
 "segs": [
 [
 "shy",
-"Üç ay önce seni burada gördüm. Sonra işte…"
+"Üç ay önce seni burada gördüm. Sonrası ne..."
 ]
 ]
 },
@@ -88,7 +88,7 @@
 "segs": [
 [
 "surprised",
-"Ama sen denizi hiç sevmezsin ki!"
+"Ama sen denizi hiç sevmiyorsun ki!"
 ]
 ]
 },
@@ -96,11 +96,7 @@
 "segs": [
 [
 "gentle",
-"Evet, hâlâ midem bulanıyor."
-],
-[
-"shy",
-"Çay alayım mı?"
+"Evet. Hâlâ midem bulanıyor. Çay alayım mı?"
 ]
 ]
 }

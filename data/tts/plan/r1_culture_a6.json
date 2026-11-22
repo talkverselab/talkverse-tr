@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Merhaba, teyze! Ben geldim."
+"Merhaba teyze! Geldim."
 ]
 ]
 },
@@ -20,7 +20,7 @@
 ],
 [
 "excited",
-"Şimdi söyleyecek."
+"Şimdi konuşuyor."
 ]
 ]
 },
@@ -28,7 +28,7 @@
 "segs": [
 [
 "worried",
-"Teyze, mutfakta bir koku var."
+"Teyze, mutfaktan koku geliyor galiba."
 ]
 ]
 },
@@ -40,7 +40,7 @@
 ],
 [
 "surprised",
-"Çocuk onun değilmiş!"
+"Çocuk onun çocuğu değilmiş!"
 ]
 ]
 },
@@ -68,7 +68,7 @@
 "segs": [
 [
 "neutral",
-"Tamam, reklam geldi."
+"Tamam, reklam çıktı."
 ],
 [
 "tsukkomi",

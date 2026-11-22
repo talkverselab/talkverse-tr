@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Çantanız iki kilo fazla."
+"Valiziniz iki kilo fazla efendim."
 ]
 ]
 },
@@ -56,7 +56,7 @@
 ],
 [
 "cheerful",
-"Çanta şimdi nasıl?"
+"Şimdi valiz nasıl?"
 ]
 ]
 },
@@ -64,11 +64,11 @@
 "segs": [
 [
 "polite",
-"Çanta tamam."
+"Valiz tamam."
 ],
 [
 "tsukkomi",
-"Siz yürüyebiliyor musunuz?"
+"Siz yürüyebilir misiniz?"
 ]
 ]
 },
@@ -76,7 +76,7 @@
 "segs": [
 [
 "amused",
-"Yürürüm. Yavaş yavaş yürürüm."
+"Yürürüm. Yavaş yavaş giderim."
 ]
 ]
 }

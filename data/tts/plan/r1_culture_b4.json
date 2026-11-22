@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Hoş geldiniz. Nereye gidiyoruz?"
+"Hoş geldiniz. Nereye gidelim?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Havalimanına, lütfen. Uçak saat beşte."
+"Havalimanına lütfen. Uçağım 5'te."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "cheerful",
-"Tabii. Siz hangi takımı tutuyorsunuz?"
+"Tabii. Hangi takımı tutuyorsunuz?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "surprised",
-"Hiç mi? Yok artık, bu olmaz!"
+"Hiç mi? Yok artık, olmaz bu!"
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "worried",
-"Neden bu yoldan gidiyorsunuz?"
+"Neden bu yoldan?"
 ],
 [
 "shout",
@@ -60,7 +60,7 @@
 "segs": [
 [
 "cheerful",
-"Kısa yol, stadın önünden."
+"Kestirme, stadyum önünden."
 ],
 [
 "excited",
@@ -72,11 +72,11 @@
 "segs": [
 [
 "surprised",
-"Maç günü stat mı?"
+"Maç günü stadyum mu?"
 ],
 [
 "shout",
-"Uçak beklemez, beyefendi!"
+"Uçak beklemez efendim!"
 ]
 ]
 }

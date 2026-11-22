@@ -9,11 +9,11 @@
 "segs": [
 [
 "surprised",
-"Bu tabak ne?"
+"Bu tabak ne ya?"
 ],
 [
 "cheerful",
-"Çok güzel kokuyor."
+"Kokusu çok güzel."
 ]
 ]
 },
@@ -21,7 +21,7 @@
 "segs": [
 [
 "neutral",
-"Komşu börek getirdi. Tabağı boş götüreceğim."
+"Komşudan börek geldi. Tabağı boş götüreceğim."
 ]
 ]
 },
@@ -45,7 +45,7 @@
 ],
 [
 "neutral",
-"Neden peki?"
+"Neden ki?"
 ]
 ]
 },
@@ -57,7 +57,7 @@
 ],
 [
 "gentle",
-"İçine bir şey koy, öyle götür."
+"Bir şey koy götür."
 ]
 ]
 },
@@ -69,7 +69,7 @@
 ],
 [
 "cheerful",
-"Tabağın içinde elma var."
+"Tabağa elma koydum."
 ]
 ]
 },
@@ -77,7 +77,7 @@
 "segs": [
 [
 "surprised",
-"Aa, zahmet ettin!"
+"Aaa, ne gerek vardı!"
 ],
 [
 "gentle",
@@ -97,11 +97,11 @@
 "segs": [
 [
 "worried",
-"Eyvah."
+"Valla."
 ],
 [
 "teasing",
-"Şimdi senin sıran."
+"Şimdi sıra sende."
 ]
 ]
 },
@@ -109,7 +109,7 @@
 "segs": [
 [
 "flustered",
-"Bu dördüncü tabak! Mutfakta yer kalmadı!"
+"Bu dördüncü tabak! Mutfakta yer yok!"
 ]
 ]
 },
@@ -121,7 +121,7 @@
 ],
 [
 "worried",
-"Bir tabak daha geliyor, kokusu kapıda."
+"Bir tane daha geliyor, koku kapıda."
 ]
 ]
 },
@@ -129,7 +129,7 @@
 "segs": [
 [
 "gentle",
-"Yavrum, üst kat da senden tabak bekliyor."
+"Yavrum, üst kat da senin tabağını bekliyormuş."
 ]
 ]
 }

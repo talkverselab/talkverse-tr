@@ -17,7 +17,7 @@
 "segs": [
 [
 "cheerful",
-"Size özel, iki bin lira."
+"Sana özel iki bin lira."
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "teasing",
-"Arkadaşım buralı. Bana her şeyi anlattı."
+"Arkadaşım buradan. Her şeyi anlattı."
 ]
 ]
 },
@@ -73,7 +73,7 @@
 ],
 [
 "annoyed",
-"Yoksa gidiyorum, bak!"
+"Yoksa giderim, gerçekten!"
 ]
 ]
 },
@@ -81,11 +81,11 @@
 "segs": [
 [
 "annoyed",
-"Gidin, gidin."
+"Git, git."
 ],
 [
 "cheerful",
-"Bin yedi yüz, çay da benden."
+"Tamam, bin yedi yüz, çayı ben ısmarlarım."
 ]
 ]
 },
@@ -105,7 +105,7 @@
 "segs": [
 [
 "surprised",
-"Amca mı?! Elif, bu adam senin amcan mı?"
+"Amca?! Elif, bu senin amcan mı?"
 ]
 ]
 },
@@ -117,7 +117,7 @@
 ],
 [
 "polite",
-"Elif'in arkadaşıysanız, bin lira tamam."
+"Elif'in arkadaşıysa bin lira olur."
 ]
 ]
 },
@@ -129,7 +129,7 @@
 ],
 [
 "tsukkomi",
-"Amca, o cezve beş yüz."
+"Amca, o beş yüz ya."
 ]
 ]
 }

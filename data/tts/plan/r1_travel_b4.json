@@ -9,7 +9,7 @@
 "segs": [
 [
 "polite",
-"Hoş geldiniz. Nereye gidiyorsunuz?"
+"Hoş geldiniz! Nereye kadar gideceksiniz?"
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "polite",
-"Ankara'ya bir bilet, lütfen."
+"Ankara'ya bir tane lütfen."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "surprised",
-"Ankara? Emin misiniz?"
+"Ankara mı? Emin misiniz gerçekten?"
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "cheerful",
-"Evet. Deniz çok güzel, değil mi?"
+"Evet. Deniz çok güzel ya, değil mi?"
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "polite",
-"Allah allah… Buyurun, gece on bir."
+"Allah allah... Buyurun, gece on birdeki otobüs."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "worried",
-"Deniz nerede? Burası neresi?"
+"Deniz nerede acaba? Burası neresi?"
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "amused",
-"Deniz Antalya'da. Burası Ankara."
+"Deniz Antalya'da olur. Burası Ankara."
 ]
 ]
 }

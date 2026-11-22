@@ -35,29 +35,31 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Affedersiniz, bunu şoföre verir misiniz?",
-   "rd": "아페데르시니즈, 부누 쇼푀레 베리르 미시니즈?",
+   "tl": "Affedersiniz, bunu şoföre iletir misiniz?",
+   "rd": "아페데르시니즈, 부누 쇼푀레 일레티르 미시니즈?",
    "ko": "실례합니다, 이것 좀 기사님께 전해 주시겠어요?",
-   "note": "şoför = 기사",
+   "note": "affedersiniz = 실례합니다",
    "tags": [
     "expr:affedersiniz"
    ],
    "new": [
     "şoför"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Tabii. Buyurun, bu para sizin.",
-   "rd": "타비이. 부유룬, 부 파라 시진.",
-   "ko": "네. 여기요, 이 돈 기사님 거예요.",
-   "note": "bu para = 이 돈",
+   "tl": "Tabii, buyurun. Bu para şoförün.",
+   "rd": "타비이, 부유룬. 부 파라 쇼푀륀.",
+   "ko": "네, 여기요. 이 돈 기사님 거예요.",
+   "note": "buyurun = 여기요",
    "tags": [
     "expr:buyurun",
     "expr:tabii"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
@@ -67,17 +69,28 @@
    "ko": "몇 명이요?",
    "note": "kaç kişi? = 몇 명?",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "İki kişi! Bir de arkadan para geliyor.",
-   "rd": "이키 키시! 비르 데 아르카단 파라 겔리요르.",
+   "tl": "İki kişi! Arkadan daha geliyor.",
+   "rd": "이키 키시! 아르카단 다하 겔리요르.",
    "ko": "두 명이요! 뒤에서 돈 또 와요.",
    "note": "arkadan = 뒤에서",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "shout",
+     "İki kişi!"
+    ],
+    [
+     "neutral",
+     "Arkadan daha geliyor."
+    ]
+   ]
   },
   {
    "num": 5,
@@ -85,51 +98,72 @@
    "tl": "Bir dakika! Bu kimin, bu kimin?",
    "rd": "비르 다키카! 부 키민, 부 키민?",
    "ko": "잠깐만요! 이건 누구 거, 이건 누구 거예요?",
-   "note": "bu kimin = 이건 누구 거",
+   "note": "bir dakika = 잠깐만",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "Üç kişi! Üstünü arkaya verin, hadi!",
-   "rd": "위치 키시! 위스튀뉘 아르카야 베린, 하디!",
+   "tl": "Üç kişi! Para üstünü arkaya verin, hadi!",
+   "rd": "위치 키시! 파라 위스튀뉘 아르카야 베린, 하디!",
    "ko": "세 명이요! 거스름돈 뒤로 넘겨요, 얼른!",
-   "note": "üstü = 거스름돈 — 반전: 내가 경리가 됐다",
+   "note": "hadi = 얼른",
    "tags": [
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "shout",
+     "Üç kişi!"
+    ],
+    [
+     "annoyed",
+     "Para üstünü arkaya verin, hadi!"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Ben de iniyorum! Müsait bir yerde, lütfen.",
-   "rd": "벤 데 이니요룸! 뮈사잇 비르 예르데, 뤼트펜.",
+   "tl": "Ben de ineceğim! Uygun yerde durun lütfen.",
+   "rd": "벤 데 이네제임! 우이군 예르데 두룬 뤼트펜.",
    "ko": "저도 내려요! 적당한 데서 세워 주세요.",
    "note": "müsait bir yerde = 적당한 데서(내릴 때)",
    "tags": [
     "expr:müsait bir yerde",
     "expr:lütfen"
    ],
-   "new": [
-    "müsait"
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Ben de ineceğim!"
+    ],
+    [
+     "polite",
+     "Uygun yerde durun lütfen."
+    ]
    ]
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Önce üstünü verin, sonra inin.",
-   "rd": "왼제 위스튀뉘 베린, 손라 이닌.",
+   "tl": "Önce para üstünü verin, sonra inin.",
+   "rd": "왼제 파라 위스튀뉘 베린, 손라 이닌.",
    "ko": "거스름돈부터 넘기고 내리세요.",
    "note": "inin = 내리세요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

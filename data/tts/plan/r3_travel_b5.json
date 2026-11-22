@@ -12,7 +12,7 @@
 ],
 [
 "surprised",
-"Elif, gerçekten uyanık mısın?"
+"Elif, gerçekten uyandın mı?"
 ]
 ]
 },
@@ -20,7 +20,7 @@
 "segs": [
 [
 "amused",
-"Uyanığım. Şaşırma, ben de şaşırdım. Bak, çayı bile kendim aldım."
+"Uyandım. Şaşırma, ben de şaşırdım. Bak, çayı da ben aldım."
 ]
 ]
 },
@@ -28,7 +28,7 @@
 "segs": [
 [
 "teasing",
-"Kapadokya'da balon için bile kalkmadın. Kahvaltı deyince kalktın."
+"Kapadokya'da balon için bile kalkmamıştın. Kahvaltı deyince kalkmıştın."
 ]
 ]
 },
@@ -36,7 +36,7 @@
 "segs": [
 [
 "amused",
-"Aynen, çünkü kahvaltı vardı. Burada kahvaltı da yok, yol da zor."
+"Aynen, kahvaltı vardı. Burada kahvaltı da yok, yol da zor."
 ]
 ]
 },
@@ -44,7 +44,7 @@
 "segs": [
 [
 "teasing",
-"O zaman neden geldin? Üç saat dağa çıktık, taşlara bakacağız."
+"O zaman niye geldin? Üç saat dağa çıkıp taş mı göreceğiz?"
 ]
 ]
 },
@@ -52,7 +52,7 @@
 "segs": [
 [
 "shy",
-"Bilmem ki… Taşları çok seviyorum herhalde."
+"Bilmem ki… Taşı çok seviyorum herhalde."
 ]
 ]
 },
@@ -60,11 +60,11 @@
 "segs": [
 [
 "teasing",
-"Dün «taş taştır» diyordun."
+"Dün «taş taştır» demiştin."
 ],
 [
 "gentle",
-"Üşüyorsun, gel, ceketimi al."
+"Üşüyorsun, gel, montumu giy."
 ]
 ]
 },
@@ -76,7 +76,7 @@
 ],
 [
 "shy",
-"Yarısı senin, gel yanıma, böyle oturalım."
+"Yarısı senin, yanıma gel, şöyle oturalım."
 ]
 ]
 },
@@ -84,7 +84,7 @@
 "segs": [
 [
 "excited",
-"Bak, güneş geliyor."
+"Bak, güneş doğuyor."
 ],
 [
 "gentle",
@@ -96,7 +96,7 @@
 "segs": [
 [
 "shy",
-"Hiç bakmıyorum ki. Yani bakıyorum… ama dağa değil."
+"Ben bakmıyorum. Yok bakıyorum ama… dağa değil."
 ]
 ]
 },
@@ -104,11 +104,7 @@
 "segs": [
 [
 "surprised",
-"Ne demek dağa değil?"
-],
-[
-"flustered",
-"Elif, ben… şey…"
+"Dağa değil mi ne demek? Elif, ben… şey…"
 ]
 ]
 },
@@ -116,11 +112,7 @@
 "segs": [
 [
 "gentle",
-"Sus. Ben sabah uyanmam, biliyorsun."
-],
-[
-"shy",
-"Neden kalktım, bir düşün."
+"Şşt. Sabah kalkamadığımı biliyorsun. Niye kalktığımı düşün."
 ]
 ]
 },
@@ -128,11 +120,7 @@
 "segs": [
 [
 "gentle",
-"Düşündüm. Sanırım anladım."
-],
-[
-"teasing",
-"Ama bir daha söyler misin?"
+"Düşündüm. Sanırım anladım. Bir daha söyler misin?"
 ]
 ]
 },
@@ -140,7 +128,7 @@
 "segs": [
 [
 "teasing",
-"Olmaz. Şimdi kahvaltı, sonra belki."
+"Olmaz. Önce kahvaltı, ondan sonra belki."
 ]
 ]
 }

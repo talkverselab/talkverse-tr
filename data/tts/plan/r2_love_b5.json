@@ -9,7 +9,7 @@
 "segs": [
 [
 "cheerful",
-"Hadi gel, ablamın düğünü var. Kimse seni tanımıyor, sorun yok."
+"Gel, ablanın düğünü. Kimse seni tanımıyor, sorun yok."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "worried",
-"Beni ne diye tanıtacaksın?"
+"Beni nasıl tanıtacaksın?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "excited",
-"Elif, bu kim kızım? Çok tatlı!"
+"Elif, bu kim? Çok tatlı!"
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "teasing",
-"Hıhı, arkadaş. Darısı başınıza, evladım!"
+"Hıhı, arkadaş. Darısı başınıza, canım!"
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "flustered",
-"Hiç sorma. Hadi, gülüyoruz."
+"Hiç sorma. Hadi gülümse."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "excited",
-"Hadi, halaya! Sen en öne geç, evladım!"
+"Hadi, halay çekelim! Sen en öne geç, canım!"
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "gentle",
-"Merak etme, bırakmam."
+"Sorun yok, bırakmam."
 ]
 ]
 },
@@ -101,7 +101,7 @@
 ],
 [
 "shy",
-"Arkadaşlar böyle yapar."
+"Arkadaşlar böyle olur."
 ]
 ]
 }

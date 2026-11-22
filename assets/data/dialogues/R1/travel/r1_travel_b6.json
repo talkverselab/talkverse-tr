@@ -35,77 +35,92 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Sakin olun. Hava bugün çok güzel.",
-   "rd": "사킨 올룬. 하바 부귄 촉 귀젤.",
-   "ko": "진정하세요. 오늘 날씨 아주 좋습니다.",
+   "tl": "Hadi sakin olun. Bugün hava çok güzel.",
+   "rd": "하디 사킨 올룬. 부귄 하바 촉 귀젤.",
+   "ko": "자, 진정하세요. 오늘 날씨 진짜 좋아요.",
    "note": "sakin olun = 진정하세요",
    "tags": [
     "expr:çok güzel"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "D",
-   "tl": "Kaptan, kahvaltı var mı?",
-   "rd": "캅탄, 카흐발트 바르 므?",
-   "ko": "캡틴, 아침 있어요?",
-   "note": "kaptan = 선장, 조종사",
+   "tl": "Kaptan, kahvaltı var mı bugün?",
+   "rd": "캅탄, 카흐발트 바르 므 부귄?",
+   "ko": "캡틴, 오늘 아침 있어요?",
+   "note": "kahvaltı = 아침",
    "tags": [
     "callback:r0_travel_a4"
    ],
    "new": [
     "kaptan"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Elif, lütfen! Aşağı bak, çok güzel.",
-   "rd": "엘리프, 뤼트펜! 아샤으 박, 촉 귀젤.",
-   "ko": "엘리프, 제발! 아래 봐, 너무 예뻐.",
-   "note": "aşağı = 아래",
+   "tl": "Elif, lütfen! Bak aşağıya, çok güzel ya.",
+   "rd": "엘리프, 뤼트펜! 박 아샤으야, 촉 귀젤 야.",
+   "ko": "엘리프, 제발! 아래 봐, 진짜 예쁘잖아.",
+   "note": "bak = 봐",
    "tags": [
     "expr:lütfen",
     "expr:çok güzel"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "annoyed",
+     "Elif, lütfen!"
+    ],
+    [
+     "gentle",
+     "Bak aşağıya, çok güzel ya."
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Şey… iniyoruz.",
-   "rd": "셰이… 이니요루즈.",
-   "ko": "저… 내려갑니다.",
-   "note": "iniyoruz = 내려간다",
+   "tl": "Şey... iniyoruz şimdi.",
+   "rd": "셰이... 이니요루즈 심디.",
+   "ko": "저… 지금 내려가요.",
+   "note": "şey = 저",
    "tags": [
     "expr:şey"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Nereye? Orası birinin bahçesi!",
-   "rd": "네레예? 오라스 비리닌 바흐체시!",
-   "ko": "어디로요? 저기 누구네 마당이잖아요!",
-   "note": "bahçe = 마당, 정원",
+   "tl": "Nereye? Orası birinin bahçesi değil mi!",
+   "rd": "네레예? 오라스 비리닌 바흐체시 데일 미!",
+   "ko": "어디로요? 저긴 누구네 마당이잖아요!",
+   "note": "bahçe = 마당",
    "tags": [],
    "new": [
     "bahçe"
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "Hoş geldiniz! Yine mi bahçeme indiniz?",
-   "rd": "호시 겔디니즈! 이네 미 바흐체메 인디니즈?",
-   "ko": "어서 오세요! 또 우리 마당에 내렸어요?",
-   "note": "yine mi? = 또? — 반전: 처음이 아니다",
+   "tl": "Hoş geldiniz! Yine bizim bahçeye mi indiniz?",
+   "rd": "호시 겔디니즈! 이네 비짐 바흐체예 미 인디니즈?",
+   "ko": "어서 오세요! 또 우리 마당에 내리셨어요?",
+   "note": "Hoş geldiniz = 어서 오세요",
    "tags": [
     "expr:hoş geldiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 7,
@@ -113,26 +128,38 @@
    "tl": "Kusura bakmayın. Çay var mı?",
    "rd": "쿠수라 박마이은. 차이 바르 므?",
    "ko": "죄송합니다. 차 있어요?",
-   "note": "kusura bakmayın = 죄송합니다",
+   "note": "Kusura bakmayın = 죄송합니다",
    "tags": [
     "expr:kusura bakmayın"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Kusura bakmayın."
+    ],
+    [
+     "cheerful",
+     "Çay var mı?"
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "D",
-   "tl": "Gördün mü? Kahvaltı var.",
-   "rd": "괴르뒨 뮈? 카흐발트 바르.",
+   "tl": "Gördün mü? Kahvaltı var işte.",
+   "rd": "괴르뒨 뮈? 카흐발트 바르 이시테.",
    "ko": "봤지? 아침 있잖아.",
-   "note": "gördün mü? = 봤지?",
+   "note": "gördün mü = 봤지",
    "tags": [
     "callback:r0_travel_a4"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

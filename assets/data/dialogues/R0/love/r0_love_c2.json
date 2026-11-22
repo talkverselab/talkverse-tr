@@ -35,9 +35,9 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Selam! Naber?",
-   "rd": "셀람! 나베르?",
-   "ko": "안녕! 뭐 해?",
+   "tl": "Selam ya, naber?",
+   "rd": "셀람 야, 나베르?",
+   "ko": "안녕, 뭐 해?",
    "note": "naber = 뭐 해",
    "tags": [
     "expr:selam",
@@ -45,20 +45,22 @@
    ],
    "new": [],
    "at": "21:03",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Emre? Mesajı gördün. 👀",
-   "rd": "엠레? 메사즈 괴르뒨.",
-   "ko": "Emre? 메시지 봤잖아. 👀",
+   "tl": "Emre? Mesajı gördün değil mi ya?",
+   "rd": "엠레? 메사즈 괴르뒨 데일 미 야?",
+   "ko": "Emre? 메시지 봤잖아.",
    "note": "gördün = 봤다",
    "tags": [],
    "new": [],
    "at": "21:40",
    "stamp": "👀",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "worried"
   },
   {
    "num": 3,
@@ -73,7 +75,8 @@
    ],
    "new": [],
    "at": "23:10",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "sad"
   },
   {
    "num": 4,
@@ -81,56 +84,60 @@
    "tl": "Günaydın.",
    "rd": "귀나이든.",
    "ko": "좋은 아침.",
-   "note": "반전: 열 시간 만의 답이 이것",
+   "note": "günaydın = 좋은 아침",
    "tags": [
     "expr:günaydın"
    ],
    "new": [],
    "at": "07:02",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "neutral"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Günaydın mı? On saat oldu! 😤",
-   "rd": "귀나이든 므? 온 사앗 올두!",
-   "ko": "좋은 아침? 열 시간 지났거든! 😤",
+   "tl": "Günaydın mı cidden? On saat geçti be!",
+   "rd": "귀나이든 므 지덴? 온 사앗 게치티 베!",
+   "ko": "좋은 아침? 열 시간 지났거든!",
    "note": "on saat = 열 시간",
    "tags": [],
    "new": [],
    "at": "07:03",
    "stamp": "😤",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "annoyed"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Yazmayı sevmem.",
-   "rd": "야즈마이으 세브멤.",
+   "tl": "Valla ben mesajı sevmiyorum.",
+   "rd": "발라 벤 메사즈 세브미요룸.",
    "ko": "나 문자 안 좋아해.",
    "note": "yazmak = 쓰다, 문자하다",
    "tags": [],
    "new": [],
    "at": "07:03",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "stiff"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Ama okudun, değil mi?",
-   "rd": "아마 오쿠둔, 데일 미?",
+   "tl": "Ama okudun değil mi?",
+   "rd": "아마 오쿠둔 데일 미?",
    "ko": "근데 읽긴 했지?",
    "note": "değil mi = 그렇지?",
    "tags": [],
    "new": [],
    "at": "07:04",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "worried"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Üç kere okudum.",
-   "rd": "위치 케레 오쿠둠.",
+   "tl": "Üç kere okudum...",
+   "rd": "위치 케레 오쿠둠...",
    "ko": "세 번 읽었어.",
    "note": "üç kere = 세 번",
    "tags": [
@@ -138,10 +145,12 @@
    ],
    "new": [],
    "at": "07:04",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "shy"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

@@ -9,6 +9,7 @@
 "segs": [
 [
 "cheerful",
+"Buyurun! Taze domates, kilosu 40 lira!",
 "Buyurun! Taze domates, kilosu kırk lira!"
 ]
 ]
@@ -29,7 +30,8 @@
 "segs": [
 [
 "neutral",
-"Kırk mı?"
+"40 mı?",
+"kırk mı?"
 ],
 [
 "surprised",
@@ -41,7 +43,7 @@
 "segs": [
 [
 "polite",
-"Ee, kaç verirsiniz?"
+"Ee, ne kadar verirsiniz?"
 ]
 ]
 },
@@ -49,6 +51,7 @@
 "segs": [
 [
 "flustered",
+"Şey… 50?",
 "Şey… elli?"
 ]
 ]
@@ -65,7 +68,7 @@
 "segs": [
 [
 "tsukkomi",
-"Pazarlık aşağı gider, yukarı değil!"
+"Pazarlık aşağı iner, yukarı değil!"
 ]
 ]
 },
@@ -73,6 +76,7 @@
 "segs": [
 [
 "amused",
+"Yarın yine gelin, size 60!",
 "Yarın yine gelin, size altmış!"
 ]
 ]

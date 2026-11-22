@@ -1,0 +1,19 @@
+=== r1_love_b2
+kind: long
+title: 훈수 부대
+emoji: 🎲
+scene: 찻집 마당, Elif 가 번호를 걸고 타블라를 하자는데 옆 테이블 아저씨들이 몰려온다
+speakers: A={name}, B=Elif, C=Amca
+register: casual
+twist: 6 chaos
+purpose: love
+goal: hadi·olur·tamam mı 로 내기 걸기
+expressions: hadi; olur; ne alaka
+B | Tavla biliyor musun? Hadi, bir el. | 타블라 할 줄 알아? 자, 한 판 하자. | hadi = 자 | emotion=teasing
+A | Biraz biliyorum. Ne koyuyoruz? | 조금 알아. 뭐 걸고 해? |  | emotion=cheerful
+B | Kaybeden numara verir. Olur mu? | 진 사람이 번호 주기. 됐지? | olur = 됐어 | emotion=teasing
+A | Tamam. Ama ben gerçekten kötüyüm. | 좋아. 근데 나 진짜 못해. |  | emotion=cheerful+shy
+C | Oğlum, onu değil! Bunu koy, bunu! | 얘야, 그거 말고! 이거, 이거 둬! |  | emotion=shout
+B | Amca, ne alaka? Masada beş amca var! | 아저씨, 이게 뭐예요? 테이블에 아저씨만 다섯이잖아요! | ne alaka = 이게 뭐예요 | emotion=tsukkomi
+C | Yendik, oğlum, yendik! | 이겼다, 얘야, 우리가 이겼어! |  | emotion=excited
+B | Bilerek kaybettim. Al, numaram. | 일부러 진 거야. 자, 내 번호. |  | emotion=shy

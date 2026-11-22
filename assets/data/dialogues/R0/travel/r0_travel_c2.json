@@ -31,14 +31,15 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Elif, kayboldum.",
-   "rd": "엘리프, 카이볼둠.",
-   "ko": "엘리프, 나 길 잃었어.",
+   "tl": "Elif, kayboldum gene.",
+   "rd": "엘리프, 카이볼둠 게네.",
+   "ko": "엘리프, 나 또 길 잃었어.",
    "note": "kaybolmak = 길을 잃다",
    "tags": [],
    "new": [],
    "at": "16:10",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "worried"
   },
   {
    "num": 2,
@@ -50,13 +51,14 @@
    "tags": [],
    "new": [],
    "at": "16:10",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "tsukkomi"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Baharat. Çok baharat.",
-   "rd": "바하랏. 촉 바하랏.",
+   "tl": "Baharat. Tonla baharat.",
+   "rd": "바하랏. 톤라 바하랏.",
    "ko": "향신료. 향신료 엄청.",
    "note": "baharat = 향신료",
    "tags": [],
@@ -64,7 +66,8 @@
     "baharat"
    ],
    "at": "16:12",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "neutral"
   },
   {
    "num": 4,
@@ -76,20 +79,22 @@
    "tags": [],
    "new": [],
    "at": "16:12",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "worried"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Bir adam çay verdi 😊",
-   "rd": "비르 아담 차이 베르디",
+   "tl": "Bir dayı çay verdi 😊",
+   "rd": "비르 다이으 차이 베르디",
    "ko": "어떤 아저씨가 차 줬어 😊",
    "note": "adam = 남자, 아저씨",
    "tags": [],
    "new": [],
    "at": "16:15",
    "stamp": "😊",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "cheerful"
   },
   {
    "num": 6,
@@ -101,39 +106,43 @@
    "tags": [],
    "new": [],
    "at": "16:15",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "shout"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "İçtim. Şimdi bir halım var.",
-   "rd": "이치팀. 심디 비르 할름 바르.",
+   "tl": "İçtim. Şimdi halım var.",
+   "rd": "이치팀. 심디 할름 바르.",
    "ko": "마셨어. 이제 나 카펫 있어.",
-   "note": "halı = 카펫 — 반전",
+   "note": "halı = 카펫",
    "tags": [],
    "new": [
     "halı"
    ],
    "at": "16:41",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Yok artık! Geliyorum, hiç konuşma!",
-   "rd": "욕 아르특! 겔리요룸, 히치 코누시마!",
+   "tl": "Yok artık! Geliyorum, hiçbir şey söyleme!",
+   "rd": "욕 아르특! 겔리요룸, 히치비르 셰이 쇠일레메!",
    "ko": "말도 안 돼! 나 간다, 아무 말도 하지 마!",
-   "note": "geliyorum = 지금 가",
+   "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık",
     "expr:geliyorum"
    ],
    "new": [],
    "at": "16:41",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "shout"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

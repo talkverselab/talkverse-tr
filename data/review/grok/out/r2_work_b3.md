@@ -1,0 +1,22 @@
+=== r2_work_b3
+kind: long
+title: 아까 그거 내 말
+emoji: 🙈
+scene: 회의에서 내 아이디어만 아무도 못 들은 척하는데, Emre 가 똑같이 말하자 박수가 나온다
+speakers: A={name}, B=Emre, C=Müdür
+register: mixed
+twist: 8 ignore
+purpose: work_abroad
+goal: bence·neyse·boş ver 로 회의에서 말 꺼내고 넘기기
+expressions: bence; neyse; harika; helal olsun; boş ver
+C | Bu ay satışlar düşük. Fikri olan var mı? | 이번 달 매출이 낮아요. 아이디어 있는 사람? |  | emotion=stiff
+A | Bence müşterilere indirim mesajı atsak iyi olur. | 제 생각엔 고객들한테 할인 문자를 보내면 좋겠어요. | bence = 제 생각엔 | emotion=polite
+C | Başka? Kimse yok mu? | 다른 건요? 아무도 없어요? |  | emotion=stiff
+A | Müdürüm, ben az önce bir şey söyledim ama… | 부장님, 제가 뭐 좀 말씀드렸는데요… |  | emotion=polite
+C | Neyse. Kahveyi kim getirecekti? | 아무튼. 커피 누가 가져오기로 했죠? | neyse = 아무튼 | emotion=stiff
+A | Emre, bu adam beni duyuyor mu ya? | Emre, 이 사람 내 말 들리긴 해? |  | emotion=annoyed
+B | Müdürüm, müşterilere indirim mesajı atalım. | 부장님, 고객들한테 할인 문자를 보내시죠. |  | emotion=polite
+C | Harika, işte bu fikir! Helal olsun Emre! | 훌륭해요, 이게 바로 아이디어죠! 역시 Emre! | harika = 훌륭해요 | emotion=excited
+B | Benim fikrim değil. {name} söyledi. | 제 아이디어 아니에요. {name} 씨가 말했어요. |  | emotion=polite
+C | Kim? O da kim? | 누구요? 그게 누구죠? |  | emotion=stiff
+B | Boş ver. Ben duydum. | 신경 쓰지 마. 난 들었어. | boş ver = 신경 쓰지 마 | emotion=gentle

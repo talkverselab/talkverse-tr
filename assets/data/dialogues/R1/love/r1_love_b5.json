@@ -34,94 +34,121 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Bu kedi senin mi? Çok tatlı.",
-   "rd": "부 케디 세닌 미? 촉 타틀르.",
+   "tl": "Bu kedi senin mi? Harika, çok tatlı.",
+   "rd": "부 케디 세닌 미? 하리카, 촉 타틀르.",
    "ko": "이 고양이 네 고양이야? 진짜 귀엽다.",
-   "note": "senin mi = 네 거야?",
+   "note": "harika = 진짜 귀엽다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Sokağın kedisi. Ama adını ben koydum.",
-   "rd": "소카은 케디시. 아마 아드느 벤 코이둠.",
+   "tl": "Mahallenin kedisi. Ama adını ben koydum.",
+   "rd": "마할레닌 케디시. 아마 아드느 벤 코이둠.",
    "ko": "동네 고양이야. 근데 이름은 내가 지었어.",
    "note": "ad koymak = 이름 짓다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Mahallenin kedisi."
+    ],
+    [
+     "shy",
+     "Ama adını ben koydum."
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Harika! Adı ne?",
-   "rd": "하리카! 아드 네?",
+   "tl": "Güzel! Adı ne?",
+   "rd": "귀젤! 아드 네?",
    "ko": "좋다! 이름이 뭔데?",
    "note": "adı ne = 이름이 뭐야",
    "tags": [
     "expr:harika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Söylemem. Sonra gülersin.",
-   "rd": "쇠일레멤. 손라 귈레르신.",
+   "tl": "Söylemem. Güleceksin.",
+   "rd": "쇠일레멤. 귈레젝신.",
    "ko": "말 안 해. 너 웃을 거야.",
    "note": "gülersin = 넌 웃을 거야",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "shy",
+     "Söylemem."
+    ],
+    [
+     "teasing",
+     "Güleceksin."
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Gülmem, valla. Hadi, söyle.",
-   "rd": "귈멤, 발라. 하디, 쇠일레.",
+   "tl": "Gülmem, valla. Hadi söyle.",
+   "rd": "귈멤, 발라. 하디 쇠일레.",
    "ko": "안 웃어, 진짜로. 어서 말해.",
    "note": "valla = 진짜로",
    "tags": [
     "expr:valla",
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Adı {name}.",
-   "rd": "아드 {name}.",
+   "tl": "Adı... {name}.",
+   "rd": "아드... {name}.",
    "ko": "이름은… {name}.",
-   "note": "반전: 내 이름",
+   "note": "",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Yok artık! Neden benim adım?",
-   "rd": "욕 아르특! 네덴 베님 아듬?",
+   "tl": "Yok artık! Niye benim adım?",
+   "rd": "욕 아르특! 니예 베님 아듬?",
    "ko": "말도 안 돼! 왜 내 이름이야?",
    "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Güzel, ama beni hiç aramıyor.",
-   "rd": "귀젤, 아마 베니 히치 아라므요르.",
+   "tl": "Güzel ama bana mesaj atmıyor.",
+   "rd": "귀젤 아마 바나 메사즈 아트므요르.",
    "ko": "예쁜데, 나한테 연락을 안 해.",
-   "note": "aramak = 전화하다, 찾다 — 고양이 얘기가 아니다",
+   "note": "hadi = 어서",
    "tags": [
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

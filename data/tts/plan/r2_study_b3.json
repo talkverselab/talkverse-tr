@@ -9,7 +9,8 @@
 "segs": [
 [
 "worried",
-"Hocanın kapısında “Beş dakikaya dönerim” yazıyor."
+"Hocanın kapısında \"5 dakika sonra dönerim\" yazıyor.",
+"Hocanın kapısında \"beş dakika sonra dönerim\" yazıyor."
 ]
 ]
 },
@@ -17,7 +18,7 @@
 "segs": [
 [
 "amused",
-"Ee? Bekle o zaman."
+"Ee, ne olmuş? Bekle o zaman."
 ]
 ]
 },
@@ -41,7 +42,7 @@
 "segs": [
 [
 "polite",
-"Hocamı. Kapıda beş dakika yazıyor."
+"Hocamı. Kapıda beş dakika yazıyor diye."
 ]
 ]
 },
@@ -49,7 +50,7 @@
 "segs": [
 [
 "stiff",
-"O yazı üç yıldır orada."
+"O not üç yıldır orada."
 ]
 ]
 },
@@ -57,7 +58,7 @@
 "segs": [
 [
 "surprised",
-"Yok artık! Hoca nerede peki?"
+"Yok artık! Hocam nerede o zaman?"
 ]
 ]
 },
@@ -65,7 +66,7 @@
 "segs": [
 [
 "polite",
-"Az önce kantine gitti. Çabuk olun."
+"Az önce kantinde. Acele edin."
 ]
 ]
 },
@@ -73,7 +74,7 @@
 "segs": [
 [
 "excited",
-"Kantindeyim. Hoca burada, telefonla konuşuyor."
+"Kantindeyim. Hoca burada, telefonda."
 ]
 ]
 },
@@ -81,7 +82,7 @@
 "segs": [
 [
 "excited",
-"Hemen geliyorum! Hocayı tut, lütfen!"
+"Hemen geliyorum! Hocayı tut biraz!"
 ]
 ]
 },
@@ -89,7 +90,7 @@
 "segs": [
 [
 "sad",
-"Geç kaldın. Bana bir şey söyledi, gitti."
+"Geç kaldın. Bana bir şey söyleyip gitti."
 ]
 ]
 },
@@ -101,7 +102,7 @@
 ],
 [
 "tsukkomi",
-"“Beş dakikaya dönerim.”"
+"\"Beş dakika sonra dönerim.\""
 ]
 ]
 }

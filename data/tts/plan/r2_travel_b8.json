@@ -34,7 +34,7 @@
 "segs": [
 [
 "excited",
-"Bak, ip hareket ediyor! Çekiyor, çekiyor!"
+"Bak, ip hareket ediyor! Çek, çek!"
 ]
 ]
 },
@@ -42,7 +42,7 @@
 "segs": [
 [
 "shout",
-"Eyvah, çok güçlü! Elif, yardım et!"
+"Eyvah, çok sert! Elif, yardım et!"
 ]
 ]
 },
@@ -50,7 +50,7 @@
 "segs": [
 [
 "shout",
-"Bırakma! Abi, yardım edin, tutun şunu!"
+"Bırakma! Amca, yardım edin, şunu tutun!"
 ]
 ]
 },
@@ -58,11 +58,7 @@
 "segs": [
 [
 "shout",
-"Geldim, tutun!"
-],
-[
-"surprised",
-"Dur, bu ip yandaki ipe karışmış."
+"Geldim, tutuyorum! Bir dakika… bu ip yanındakine dolanmış."
 ]
 ]
 },
@@ -82,7 +78,7 @@
 "segs": [
 [
 "tsukkomi",
-"Yok artık! Yandaki amcanın ipini çekiyoruz!"
+"Yok artık! Yanındaki amcanın ipini çekiyormuşuz!"
 ]
 ]
 },
@@ -90,11 +86,11 @@
 "segs": [
 [
 "amused",
-"Burada her gün olur."
+"Burada her gün olan şey."
 ],
 [
 "gentle",
-"Bırakın, ben açarım."
+"Bırakın, ben çözerim."
 ]
 ]
 },
@@ -106,7 +102,7 @@
 ],
 [
 "excited",
-"Ee, balık var mı?"
+"Ee, balık tuttunuz mu?"
 ]
 ]
 },
@@ -114,7 +110,7 @@
 "segs": [
 [
 "amused",
-"Balık yok. Ama yandaki amcayla tanıştık."
+"Balık yok. Ama yanındaki amcayla tanıştık."
 ]
 ]
 }

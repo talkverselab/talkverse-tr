@@ -8,7 +8,7 @@
 "segs": [
 [
 "gentle",
-"Bak, şu ışıklar. Bence İstanbul'un en güzel yeri burası."
+"Bak, şu ışıklar. Bence İstanbul'da burası en güzel yer."
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "gentle",
-"Çok güzel ya. Saat kaç oldu?"
+"Gerçekten güzel. Saat kaç oldu?"
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "worried",
-"Üçüncü çay! Vapur kaçta, biliyor musun?"
+"Üçüncü çay! Vapur saatini biliyor musun?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "amused",
-"Vapur mu? Daha çok var, merak etme."
+"Vapur? Daha çok var, merak etme."
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "surprised",
-"Dur, şu giden vapur ne? Eyvah!"
+"Bir dakika, o giden gemi ne? Eyvah!"
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "amused",
-"Aa. Son vapur gitti galiba."
+"Ay. Galiba son vapur gitti."
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "tsukkomi",
-"Galiba mı? Sen saati biliyordun, değil mi?"
+"Galiba? Saati biliyordun değil mi?"
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "flustered",
-"Neden öyle diyorsun? Hadi canım…"
+"Neden öyle diyorsun? Hadi canım..."
 ]
 ]
 },
@@ -92,7 +92,7 @@
 ],
 [
 "gentle",
-"Sen gitme diye."
+"Gitme diye."
 ]
 ]
 },
@@ -100,7 +100,7 @@
 "segs": [
 [
 "amused",
-"Eve yürüyerek dört saat. Hadi, bir çay daha."
+"Eve kadar dört saat yürümek. Hadi, bir çay daha."
 ]
 ]
 }

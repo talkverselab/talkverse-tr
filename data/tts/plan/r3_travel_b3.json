@@ -11,7 +11,7 @@
 "segs": [
 [
 "excited",
-"Ne güzel yol ya! Bak, dağlar, ağaçlar, her yer yeşil."
+"Yol harika! Bak, dağ, ağaç, her yer yemyeşil."
 ]
 ]
 },
@@ -19,7 +19,7 @@
 "segs": [
 [
 "worried",
-"Bu otobüs neden duruyor? Burada köy bile yok ki."
+"Bu otobüs niye durdu? Burada köy bile yok."
 ]
 ]
 },
@@ -27,7 +27,7 @@
 "segs": [
 [
 "polite",
-"Arkadaşlar, yolda yüz koyun var, biraz bekliyoruz."
+"Arkadaşlar, yolda yüz tane koyun var, biraz bekliyoruz."
 ]
 ]
 },
@@ -35,7 +35,7 @@
 "segs": [
 [
 "annoyed",
-"Yarım saat oldu, Allah allah. Koyunlar yolda oturuyor mu ne?"
+"Otuz dakika oldu, allah allah. Koyunlar yolda oturmuş mu ne."
 ]
 ]
 },
@@ -43,7 +43,7 @@
 "segs": [
 [
 "polite",
-"Kusura bakmayın, şoför bey. Şu kuzu hasta, köye kadar alır mısınız?"
+"Kusura bakmayın şoför bey. Bu kuzu hasta, köye kadar alabilir misiniz?"
 ]
 ]
 },
@@ -51,7 +51,7 @@
 "segs": [
 [
 "polite",
-"Tabii, ne demek. Arkada boş koltuk var, oraya koyun."
+"Tabii, ne demek. Arkada boş yer var, oraya koyun."
 ]
 ]
 },
@@ -59,7 +59,7 @@
 "segs": [
 [
 "flustered",
-"O boş koltuk benim koltuğum! Çantam orada duruyor, bir dakika!"
+"O boş yer benim! Çantam orada, bir dakika!"
 ]
 ]
 },
@@ -67,7 +67,7 @@
 "segs": [
 [
 "gentle",
-"Çok şükür, yer var. Al, kucağına koyuyorum, bak seni sevdi."
+"İyi, yer var. Al, kucağına koyayım, bak seni seviyor."
 ]
 ]
 },
@@ -75,11 +75,11 @@
 "segs": [
 [
 "surprised",
-"Ne demek kucağıma?"
+"Kucağım mı?"
 ],
 [
 "flustered",
-"Şoför bey, bu hayvan neden telefonumu yiyor?"
+"Hocam, bu hayvan niye telefonumu yiyor?"
 ]
 ]
 },
@@ -87,7 +87,7 @@
 "segs": [
 [
 "excited",
-"Dur, kıpırdama, fotoğraf çekiyorum. Bayıldım, ikiniz de çok tatlısınız!"
+"Dur, kımıldama, foto çekiyorum. Bayıldım, ikiniz de çok tatlı!"
 ]
 ]
 },
@@ -95,7 +95,7 @@
 "segs": [
 [
 "polite",
-"Biletler lütfen. Kontrol var, herkes biletini göstersin."
+"Bilet lütfen. Kontrol var, herkes biletini göstersin."
 ]
 ]
 },
@@ -103,7 +103,7 @@
 "segs": [
 [
 "flustered",
-"Biletim nerede? Koltuktaydı… Elif, kuzunun ağzında ne var?"
+"Biletim nereye gitti? Koltuktaydı… Elif, koyunun ağzında ne var?"
 ]
 ]
 },
@@ -111,7 +111,7 @@
 "segs": [
 [
 "amused",
-"Eyvah. Biletini yedi, afiyet olsun. Son köşesi burada, al."
+"Eyvah. Biletini yemiş, afiyet olsun. Son parçası burada, al."
 ]
 ]
 },
@@ -119,11 +119,11 @@
 "segs": [
 [
 "stiff",
-"Biletiniz yoksa yeni bilet almanız lazım."
+"Bilet yoksa yenisini alırsınız."
 ],
 [
 "polite",
-"Kuralımız bu, kusura bakmayın."
+"Kural bu, kusura bakmayın."
 ]
 ]
 },
@@ -139,11 +139,11 @@
 "segs": [
 [
 "amused",
-"Onun bileti karnında, efendim."
+"Onun bileti karnında, buyurun."
 ],
 [
 "polite",
-"Siz yeni bilet alın."
+"Siz yenisini alın."
 ]
 ]
 }

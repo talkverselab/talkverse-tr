@@ -17,7 +17,7 @@
 "segs": [
 [
 "polite",
-"Bence müşterilere indirim mesajı gönderelim."
+"Bence müşterilere indirim mesajı atsak iyi olur."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "stiff",
-"Başka? Hiç kimse yok mu?"
+"Başka? Kimse yok mu?"
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "polite",
-"Müdürüm, ben bir şey söyledim…"
+"Müdürüm, ben az önce bir şey söyledim ama…"
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "annoyed",
-"Emre, bu adam beni duyuyor mu?"
+"Emre, bu adam beni duyuyor mu ya?"
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "polite",
-"Müdürüm, müşterilere indirim mesajı gönderelim."
+"Müdürüm, müşterilere indirim mesajı atalım."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "excited",
-"Harika, işte fikir budur! Helal olsun Emre!"
+"Harika, işte bu fikir! Helal olsun Emre!"
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "polite",
-"Fikir benim değil. {name} söyledi."
+"Benim fikrim değil. {name} söyledi."
 ]
 ]
 },

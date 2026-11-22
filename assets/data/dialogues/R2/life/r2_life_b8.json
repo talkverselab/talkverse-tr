@@ -35,32 +35,35 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Can, dinle. Yan daireden yine ses geliyor.",
-   "rd": "잔, 딘레. 얀 다이레덴 이네 세스 겔리요르.",
+   "tl": "Kanka, dinle. Yandan yine bağırma geliyor.",
+   "rd": "칸카, 딘레. 얀단 이네 바으르마 겔리요르.",
    "ko": "칸, 들어 봐. 옆집에서 또 소리 나.",
-   "note": "yan daire = 옆집",
+   "note": "kanka = 친구",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Gece üçte mi? Ne sesi?",
-   "rd": "게제 위치테 미? 네 세시?",
+   "tl": "Saat üçte mi? Ne sesi bu?",
+   "rd": "사앗 위치테 미? 네 세시 부?",
    "ko": "새벽 세 시에? 무슨 소리?",
    "note": "gece üçte = 새벽 세 시에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Bağırıyor, 'Vur, arkanda!' diye.",
-   "rd": "바으르요르, 부르, 아르칸다! 디예.",
+   "tl": "Bağırıyor, 'vur arkanda!' diye.",
+   "rd": "바으르요르, 부르 아르칸다! 디예.",
    "ko": "소리 질러, '쳐, 뒤에!' 하고.",
    "note": "diye = ~라고",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 4,
@@ -72,73 +75,98 @@
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Her gece! Bir de 'Öldüm' diyor.",
-   "rd": "헤르 게제! 비르 데 욀뒴 디요르.",
+   "tl": "Her gece! Bir de 'öldü' diyor.",
+   "rd": "헤르 게제! 비르 데 욀뒤 디요르.",
    "ko": "매일 밤! 거기다 '죽었다'고도 해.",
    "note": "her gece = 매일 밤",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Eyvah. Polisi arayalım mı?",
-   "rd": "에이바흐. 폴리시 아라얄름 므?",
+   "tl": "Eyvah. Polisi mi çağıralım?",
+   "rd": "에이바흐. 폴리시 미 차으랄름?",
    "ko": "헉. 경찰 부를까?",
-   "note": "arayalım mı? = 부를까?",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Eyvah."
+    ],
+    [
+     "worried",
+     "Polisi mi çağıralım?"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Dur, önce kapıyı çalalım. Hadi, gel.",
-   "rd": "두르, 왼제 카프이으 찰랄름. 하디, 겔.",
+   "tl": "Dur, önce kapıyı çalalım. Hadi gel.",
+   "rd": "두르, 왼제 카프이으 찰랄름. 하디 겔.",
    "ko": "잠깐, 먼저 문 두드려 보자. 자, 와.",
-   "note": "kapı çalmak = 문을 두드리다",
+   "note": "hadi = 자",
    "tags": [
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Aa, gelin, gelin! Kapıyı kapatın, oyun başladı.",
-   "rd": "아아, 겔린, 겔린! 카프이으 카파튼, 오윤 바실라드.",
+   "tl": "Ay gelin gelin! Kapıyı kapatın, oyun başladı.",
+   "rd": "아이 겔린 겔린! 카프이으 카파튼, 오윤 바실라드.",
    "ko": "어머, 들어와, 들어와! 문 닫아라, 게임 시작했다.",
-   "note": "oyun = 게임 — 반전",
+   "note": "oyun = 게임",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Teyze, kulağındaki ne? Bilgisayar mı oynuyorsun?",
-   "rd": "테이제, 쿨라은다키 네? 빌기사야르 므 오이누요르순?",
+   "tl": "Teyze, kulaklığınızda ne var? Oyun mu oynuyorsunuz?",
+   "rd": "테이제, 쿨라클르으느즈다 네 바르? 오윤 무 오이누요르수누즈?",
    "ko": "이모, 귀에 그거 뭐야? 컴퓨터 게임 해?",
    "note": "kulak = 귀",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Dur kanka, takım bekliyor. Torunum öğretti!",
-   "rd": "두르 칸카, 타큼 베클리요르. 토루눔 외레티!",
+   "tl": "Bir dakika çocuklar, takım bekliyor. Torunum öğretti!",
+   "rd": "비르 다키카 초주클라르, 타큼 베클리요르. 토루눔 외레티!",
    "ko": "잠깐만 얘들아, 팀이 기다려. 손주가 가르쳐 줬어!",
    "note": "kanka = 친구야(teyze 입에서 나와서 웃김)",
    "tags": [
     "expr:kanka"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "excited",
+     "Bir dakika çocuklar, takım bekliyor."
+    ],
+    [
+     "cheerful",
+     "Torunum öğretti!"
+    ]
+   ]
   },
   {
    "num": 11,
@@ -146,26 +174,29 @@
    "tl": "Torununuz mu? Gerçekten mi?",
    "rd": "토루누누즈 무? 게르첵텐 미?",
    "ko": "손주분이요? 진짜요?",
-   "note": "torun = 손주",
+   "note": "gerçekten mi = 진짜요",
    "tags": [
     "expr:gerçekten mi"
    ],
    "new": [
     "torun"
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Evet. {name}, otur, bize bir kişi lazım.",
-   "rd": "에벳. {name}, 오투르, 비제 비르 키시 라즘.",
+   "tl": "Evet. {name}, otur. Bir kişi lazım.",
+   "rd": "에벳. {name}, 오투르. 비르 키시 라즘.",
    "ko": "그래. {name}, 앉아. 한 명 필요해.",
    "note": "lazım = 필요하다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

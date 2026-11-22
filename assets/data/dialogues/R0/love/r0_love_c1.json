@@ -36,86 +36,119 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Selam! Bu kedi senin mi?",
-   "rd": "셀람! 부 케디 세닌 미?",
-   "ko": "안녕! 이 고양이 네 고양이야?",
-   "note": "senin mi = 네 거야?",
+   "tl": "Selam ya! O kedi senin mi?",
+   "rd": "셀람 야! 오 케디 세닌 미?",
+   "ko": "안녕! 그 고양이 네 거야?",
+   "note": "selam = 안녕",
    "tags": [
     "expr:selam"
    ],
    "new": [],
    "at": "21:03",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "excited"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Selam. Yok, arkadaşımın kedisi.",
-   "rd": "셀람. 욕, 아르카다시믄 케디시.",
-   "ko": "안녕. 아니, 친구네 고양이야.",
-   "note": "arkadaşımın = 내 친구의",
+   "tl": "Selam. Yok ya, arkadaşımın.",
+   "rd": "셀람. 욕 야, 아르카다시믄.",
+   "ko": "안녕. 아니, 친구 거야.",
+   "note": "yok = 아니야",
    "tags": [
     "expr:yok"
    ],
    "new": [],
    "at": "21:05",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "cheerful",
+     "Selam."
+    ],
+    [
+     "neutral",
+     "Yok ya, arkadaşımın."
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Ha. Tamam, görüşürüz 👋",
-   "rd": "하. 타맘, 괴뤼쉬뤼즈",
-   "ko": "아. 그래, 잘 가 👋",
-   "note": "görüşürüz = 또 보자",
+   "tl": "Aa tamam. Görüşürüz o zaman 👋",
+   "rd": "아아 타맘. 괴뤼쉬뤼즈 오 자만",
+   "ko": "아 그래. 그럼 잘 가 👋",
+   "note": "görüşürüz = 잘 가",
    "tags": [
     "expr:görüşürüz"
    ],
    "new": [],
    "at": "21:05",
    "stamp": "👋",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "neutral",
+     "Aa tamam."
+    ],
+    [
+     "cheerful",
+     "Görüşürüz o zaman 👋"
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Dur! Ne alaka?",
-   "rd": "두르! 네 알라카?",
-   "ko": "잠깐! 뭐야 그게?",
-   "note": "ne alaka = 뭔 소리야",
+   "tl": "Dur! Ne alaka şimdi bu?",
+   "rd": "두르! 네 알라카 심디 부?",
+   "ko": "잠깐! 지금 뭔 상관이야?",
+   "note": "dur = 잠깐",
    "tags": [
     "expr:dur",
     "expr:ne alaka"
    ],
    "new": [],
    "at": "21:06",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "surprised",
+     "Dur!"
+    ],
+    [
+     "tsukkomi",
+     "Ne alaka şimdi bu?"
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ben kedi için yazdım.",
-   "rd": "벤 케디 이친 야즈듬.",
-   "ko": "나 고양이 때문에 말 건 건데.",
-   "note": "için = ~때문에 — 반전",
+   "tl": "Kedi yüzünden yazdım sadece.",
+   "rd": "케디 위쥔덴 야즈듬 사데제.",
+   "ko": "그냥 고양이 때문에 쓴 거였어.",
+   "note": "yüzünden = 때문에",
    "tags": [],
    "new": [],
    "at": "21:06",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "neutral"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Öldüm. Ya ben?",
-   "rd": "욀뒴. 야 벤?",
-   "ko": "충격이다. 난?",
-   "note": "ya ben = 나는?",
+   "tl": "Valla öldüm... ben?",
+   "rd": "발라 욀뒴... 벤?",
+   "ko": "진짜 충격... 나는?",
+   "note": "öldüm = 죽다(놀람)",
    "tags": [
     "expr:öldüm"
    ],
    "new": [],
    "at": "21:07",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "sad"
   },
   {
    "num": 7,
@@ -123,14 +156,15 @@
    "tl": "Şaka şaka 😂",
    "rd": "샤카 샤카",
    "ko": "농담이야 😂",
-   "note": "şaka şaka = 농담이야",
+   "note": "şaka şaka = 농담",
    "tags": [
     "expr:şaka şaka"
    ],
    "new": [],
    "at": "21:07",
    "stamp": "😂",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "amused"
   },
   {
    "num": 8,
@@ -138,16 +172,18 @@
    "tl": "Üç gündür fotoğrafına bakıyorum.",
    "rd": "위치 귄뒤르 포토라프나 바크요룸.",
    "ko": "사흘째 네 사진 보고 있어.",
-   "note": "üç gündür = 사흘째",
+   "note": "bakıyorum = 보고 있어",
    "tags": [
     "simkung"
    ],
    "new": [],
    "at": "21:09",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "shy"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

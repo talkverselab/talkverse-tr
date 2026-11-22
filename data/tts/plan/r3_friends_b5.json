@@ -13,7 +13,7 @@
 ],
 [
 "neutral",
-"Ona az veriyorum."
+"Az veriyorum."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 ],
 [
 "neutral",
-"Şu sarı kedi mi?"
+"O sarı kedi mi?"
 ],
 [
 "amused",
@@ -37,7 +37,7 @@
 "segs": [
 [
 "annoyed",
-"Hayır, o benim kedim. Ben ona Bulut diyorum."
+"Yok, o benim kedim. Ben ona Bulut diyorum."
 ]
 ]
 },
@@ -45,7 +45,7 @@
 "segs": [
 [
 "teasing",
-"Canım, o benim balkonuma geliyor. Her öğlen tavuk yiyor."
+"Canım, o bizim balkona geliyor. Her gün öğlen tavuk yiyor."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 ],
 [
 "annoyed",
-"Her sabah benimle kahvaltı yapıyor, bu kedi."
+"Her sabah benimle kahvaltı ediyor ya."
 ]
 ]
 },
@@ -69,7 +69,7 @@
 ],
 [
 "surprised",
-"Bu, Can'ın kafesindeki Paşa değil mi?"
+"Bu Can’ın kafedeki Paşa değil mi?"
 ]
 ]
 },
@@ -85,11 +85,11 @@
 "segs": [
 [
 "cheerful",
-"Aa, Pamuk!"
+"Aman, Pamuk!"
 ],
 [
 "gentle",
-"Gel oğlum, gel, tavuğun hazır."
+"Gel oğlum, tavuk hazır."
 ]
 ]
 },
@@ -97,7 +97,7 @@
 "segs": [
 [
 "surprised",
-"Pamuk mu?! Teyze, bu kedi sizin mi?"
+"Pamuk mu?! Teyze, bu sizin kediniz mi?"
 ]
 ]
 },
@@ -105,7 +105,7 @@
 "segs": [
 [
 "gentle",
-"Dört yıldır benim kedim, evladım. Geceleri bende yatıyor."
+"Dört yıldır benim kedim, evladım. Gece bizde yatıyor."
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "amused",
-"Yani dört ev, dört isim, dört yemek. Maşallah!"
+"Demek ki beş ev, dört isim, dört öğün. Maşallah!"
 ]
 ]
 },
@@ -121,7 +121,7 @@
 "segs": [
 [
 "sad",
-"Ben onu kurtardım sanıyordum! \"Aç, zavallı\" diyordum."
+"Ben kurtardım sanıyordum! “Aç kalmış, yazık” diyordum."
 ]
 ]
 },
@@ -129,7 +129,7 @@
 "segs": [
 [
 "amused",
-"Size de o yüzle mi baktı? Herkese öyle bakıyor."
+"Size de o yüzle baktı mı? Herkese öyle yapıyor."
 ]
 ]
 },
@@ -137,7 +137,7 @@
 "segs": [
 [
 "amused",
-"Bu kedi hepimizden iyi yaşıyor, valla. İşi de yok."
+"Bu bizden iyi yaşıyor, valla. İş de yapmıyor."
 ]
 ]
 },
@@ -145,7 +145,7 @@
 "segs": [
 [
 "worried",
-"Peki bu sabah neredeydi? Bana gelmedi."
+"Ama bu sabah neredeydi? Bana gelmedi."
 ]
 ]
 },
@@ -157,7 +157,7 @@
 ],
 [
 "amused",
-"Orada adı Müdür Bey."
+"Orada adı Müdür."
 ]
 ]
 }

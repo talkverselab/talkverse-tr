@@ -33,38 +33,37 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "İddiaya var mısın? Zeynep'e tek kelime söyletemezsin.",
-   "rd": "이디아야 바르 므슨? 제이네페 텍 켈리메 쇠일레테메즈신.",
+   "tl": "Bahse var mısın? Zeynep'ten tek kelime bile alamazsın.",
+   "rd": "바흐세 바르 므슨? 제이넵텐 텍 켈리메 빌레 알라마즈슨.",
    "ko": "내기할래? 넌 제이넵 입에서 한 마디도 못 뽑아.",
-   "note": "iddia = 내기 · söyletmek = 말하게 하다",
+   "note": "bahis = 내기",
    "tags": [],
-   "new": [
-    "iddia"
-   ]
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Olur! Kaybeden künefe ısmarlar.",
-   "rd": "올루르! 카이베덴 퀴네페 으스마를라르.",
+   "tl": "Olur! Kaybeden künefe alır.",
+   "rd": "올루르! 카이베덴 퀴네페 알르르.",
    "ko": "좋아! 진 사람이 퀴네페 사기.",
-   "note": "ısmarlamak = 사다, 쏘다",
+   "note": "olur = 좋아",
    "tags": [
     "expr:olur"
    ],
-   "new": [
-    "ısmarlamak"
-   ]
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Zeynep, bu elbise sana çok yakışmış.",
-   "rd": "제이넵, 부 엘비세 사나 촉 야크시므시.",
+   "tl": "Zeynep, bu kıyafet sana çok yakışıyor.",
+   "rd": "제이넵, 부 크야펫 사나 촉 야크시요르.",
    "ko": "제이넵, 이 옷 너한테 너무 잘 어울린다.",
-   "note": "yakışmak = 어울리다",
+   "note": "yakışıyor = 어울린다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 4,
@@ -72,21 +71,23 @@
    "tl": "Bakmadı bile. Bir sıfır.",
    "rd": "박마드 빌레. 비르 스프르.",
    "ko": "쳐다보지도 않았어. 1대 0.",
-   "note": "sıfır = 0",
+   "note": "bakmadı = 쳐다보지 않았어",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Bence tasarımın çok kötü, Zeynep.",
-   "rd": "벤제 타사르믄 촉 쾨튀, 제이넵.",
+   "tl": "Bence senin tasarımın berbat, Zeynep.",
+   "rd": "벤제 세닌 타사르믄 베르밧, 제이넵.",
    "ko": "내 생각엔 네 디자인 진짜 별로야, 제이넵.",
-   "note": "bence = 내 생각엔",
+   "note": "berbat = 별로",
    "tags": [
     "expr:bence"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -94,11 +95,12 @@
    "tl": "Aman, o bakışı gördün mü? Ama ses yok.",
    "rd": "아만, 오 바크시 괴르뒨 뮈? 아마 세스 욕.",
    "ko": "아이고, 그 눈빛 봤어? 근데 소리는 없어.",
-   "note": "bakış = 눈빛",
+   "note": "aman = 아이고",
    "tags": [
     "expr:aman"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 7,
@@ -106,64 +108,80 @@
    "tl": "Zeynep, telefonun çalıyor! Annen arıyor!",
    "rd": "제이넵, 텔레포눈 찰르요르! 안넨 아르요르!",
    "ko": "제이넵, 너 폰 울려! 엄마 전화야!",
-   "note": "aramak = 전화하다",
+   "note": "çalıyor = 울려",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Telefonu açtı, mesaj yazdı. Yine tek kelime yok!",
-   "rd": "텔레포누 아치트, 메사즈 야즈드. 이네 텍 켈리메 욕!",
+   "tl": "Telefonu açıp mesaj yazdı. Yine tek kelime yok!",
+   "rd": "텔레포누 아츱 메사즈 야즈드. 이네 텍 켈리메 욕!",
    "ko": "전화 받더니 문자로 썼어. 또 한 마디도 없어!",
-   "note": "telefonu açmak = 전화를 받다",
+   "note": "mesaj = 문자",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Telefonu açıp mesaj yazdı."
+    ],
+    [
+     "tsukkomi",
+     "Yine tek kelime yok!"
+    ]
+   ]
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Yok artık! Bu kız insan değil.",
-   "rd": "욕 아르특! 부 크즈 인산 데일.",
+   "tl": "Yok artık! Bu insan değil.",
+   "rd": "욕 아르특! 부 인산 데일.",
    "ko": "말도 안 돼! 얘 사람 아니야.",
-   "note": "insan = 사람",
+   "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Bitti. Bir saat tamam.",
-   "rd": "비티. 비르 사앗 타맘.",
+   "tl": "Bitti. Bir saat doldu.",
+   "rd": "비티. 비르 사앗 돌두.",
    "ko": "끝. 한 시간 채웠어.",
-   "note": "bitti = 끝났다 — 반전",
+   "note": "bitti = 끝",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Ne bir saati? Sen konuştun!",
-   "rd": "네 비르 사아티? 센 코누시툰!",
+   "tl": "Ne bir saati? Konuştun!",
+   "rd": "네 비르 사아티? 코누시툰!",
    "ko": "무슨 한 시간? 너 말했어!",
-   "note": "ne ~i = 무슨 ~",
+   "note": "konuştun = 말했어",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Can'la iddiam vardı. Künefe ondan.",
-   "rd": "잔라 이디암 바르드. 퀴네페 온단.",
+   "tl": "Can'la bahse girdim. Künefe'yi o alacak.",
+   "rd": "잔라 바흐세 기르딤. 퀴네페이 오 알라작.",
    "ko": "잔이랑 내기했거든. 퀴네페는 걔가 사.",
-   "note": "ondan = 그에게서",
+   "note": "bahis = 내기",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

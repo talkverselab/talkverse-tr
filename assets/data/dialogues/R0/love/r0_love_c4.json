@@ -35,22 +35,23 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Elif, naber? Uyuyor musun?",
-   "rd": "엘리프, 나베르? 우유요르 무순?",
+   "tl": "Elif, naber ya? Uyudun mu?",
+   "rd": "엘리프, 나베르 야? 우유둔 무?",
    "ko": "Elif, 뭐 해? 자?",
-   "note": "uyuyor musun = 자?",
+   "note": "naber = 뭐 해",
    "tags": [
     "expr:naber"
    ],
    "new": [],
    "at": "22:10",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Uyumuyorum. Yemek yedin mi?",
-   "rd": "우유무요룸. 예멕 예딘 미?",
+   "tl": "Uyumadım. Yemek yedin mi?",
+   "rd": "우유마듬. 예멕 예딘 미?",
    "ko": "안 자. 밥 먹었니?",
    "note": "yemek yedin mi = 밥 먹었어? — 어딘가 수상하다",
    "tags": [
@@ -58,61 +59,75 @@
    ],
    "new": [],
    "at": "22:12",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "gentle"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Yedim 😊 Bugün çok güzeldin.",
-   "rd": "예딤 부귄 촉 귀젤딘.",
+   "tl": "Yedim 😊 Bugün cidden güzeldin.",
+   "rd": "예딤 부귄 지덴 귀젤딘.",
    "ko": "먹었지 😊 오늘 진짜 예뻤어.",
    "note": "güzeldin = 예뻤다",
    "tags": [],
    "new": [],
    "at": "22:12",
    "stamp": "😊",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "shy"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Sağ ol evladım.",
-   "rd": "사 올 에블라듬.",
+   "tl": "Sağ ol, yavrum.",
+   "rd": "사 올, 야브룸.",
    "ko": "고맙다, 얘야.",
-   "note": "evladım = 얘야",
+   "note": "sağ ol = 고맙다",
    "tags": [
     "expr:sağ ol"
    ],
    "new": [],
    "at": "22:13",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "gentle"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Evladım mı? 😂 Ne alaka?",
-   "rd": "에블라듬 므? 네 알라카?",
+   "tl": "Yavrum mu? 😂 Ne alaka o?",
+   "rd": "야브룸 무? 네 알라카 오?",
    "ko": "얘야? 😂 뭐야 그게?",
-   "note": "ne alaka = 뭔 소리야",
+   "note": "ne alaka = 뭐야 그게",
    "tags": [
     "expr:ne alaka"
    ],
    "new": [],
    "at": "22:13",
    "stamp": "😂",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "surprised",
+     "Yavrum mu?"
+    ],
+    [
+     "tsukkomi",
+     "😂 Ne alaka o?"
+    ]
+   ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Ben annesiyim.",
-   "rd": "벤 안네시임.",
+   "tl": "Ben onun annesiyim.",
+   "rd": "벤 오눈 안네시임.",
    "ko": "나 걔 엄마다.",
-   "note": "annesi = 그 애의 엄마 — 반전",
+   "note": "annesi = 그 애의 엄마",
    "tags": [],
    "new": [],
    "at": "22:14",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "stiff"
   },
   {
    "num": 7,
@@ -120,20 +135,21 @@
    "tl": "Eyvah! Özür dilerim, teyze!",
    "rd": "에이바흐! 외쥐르 딜레림, 테이제!",
    "ko": "헉! 죄송합니다, 어머님!",
-   "note": "teyze = 친구 어머니를 부르는 말",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah",
     "expr:özür dilerim"
    ],
    "new": [],
    "at": "22:14",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Telefon bende. Bir daha söyle: güzel miydim?",
-   "rd": "텔레폰 벤데. 비르 다하 쇠일레 귀젤 미이딤?",
+   "tl": "Telefonu buldum. Tekrar söyle, gerçekten güzeldin mi?",
+   "rd": "텔레포누 불둠. 텍라르 쇠일레, 게르첵텐 귀젤딘 미?",
    "ko": "폰 찾았다. 다시 말해 봐, 나 진짜 예뻤어?",
    "note": "bir daha = 한 번 더 — Elif 가 돌아왔다",
    "tags": [
@@ -141,10 +157,21 @@
    ],
    "new": [],
    "at": "23:02",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "neutral",
+     "Telefonu buldum."
+    ],
+    [
+     "teasing",
+     "Tekrar söyle, gerçekten güzeldin mi?"
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

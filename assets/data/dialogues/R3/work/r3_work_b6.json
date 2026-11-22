@@ -35,24 +35,26 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Günaydın müdürüm. Altıncı kat, değil mi?",
-   "rd": "귀나이든 뮈뒤륌. 알튼즈 캇, 데일 미?",
+   "tl": "Günaydın müdürüm. Altıncı kat değil mi?",
+   "rd": "귀나이든 뮈뒤륌. 알튼즈 캇 데일 미?",
    "ko": "좋은 아침입니다, 부장님. 6층이시죠?",
-   "note": "altıncı = 여섯 번째",
+   "note": "günaydın = 좋은 아침입니다",
    "tags": [
     "expr:günaydın"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "C",
-   "tl": "Evet, toplantıya geç kaldık. Emre, rapor hazır mı?",
-   "rd": "에벳, 토플란트야 게치 칼득. 엠레, 라포르 하즈르 므?",
+   "tl": "Evet, toplantıya geç kaldım. Emre, rapor hazır mı?",
+   "rd": "에벳, 토플란트야 게치 칼듬. 엠레, 라포르 하즈르 므?",
    "ko": "네, 회의에 늦었어요. Emre, 보고서 됐어요?",
    "note": "geç kalmak = 늦다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 3,
@@ -64,30 +66,42 @@
    "tags": [],
    "new": [
     "asansör"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Hazır müdürüm."
+    ],
+    [
+     "surprised",
+     "Bir dakika, asansör niye durdu?"
+    ]
    ]
   },
   {
    "num": 4,
    "speaker": "D",
-   "tl": "Eyvah. Elektrik gitti galiba hocam. Tepsi de elimde.",
-   "rd": "에이바흐. 엘렉트릭 기티 갈리바 호잠. 텝시 데 엘림데.",
+   "tl": "Eyvah. Elektrik gitmiş galiba, hocam. Tepsi de elimde.",
+   "rd": "에이바흐. 엘렉트릭 기트미시 갈리바, 호잠. 텝시 데 엘림데.",
    "ko": "헉. 전기 나갔나 봐요, 선생님. 쟁반도 들고 있는데.",
-   "note": "galiba = 아마",
+   "note": "eyvah = 헉 / galiba = 나 봐요",
    "tags": [
     "expr:eyvah",
     "expr:galiba"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Nasıl yani? Kapı açılmıyor! Alo, kimse var mı?",
-   "rd": "나슬 야니? 카프 아츨므요르! 알로, 킴세 바르 므?",
+   "tl": "Ne? Kapı açılmıyor! Alo, kimse yok mu?",
+   "rd": "네? 카프 아츨므요르! 알로, 킴세 욕 무?",
    "ko": "네? 문이 안 열려요! 여보세요, 아무도 없어요?",
    "note": "açılmıyor = 안 열린다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 6,
@@ -95,9 +109,10 @@
    "tl": "Panik yok. Toplantıyı burada yapalım. Emre, başla.",
    "rd": "파닉 욕. 토플란트이으 부라다 야팔름. 엠레, 바실라.",
    "ko": "당황할 것 없어요. 회의를 여기서 하죠. Emre, 시작해요.",
-   "note": "panik yok = 당황하지 마요 — 반전",
+   "note": "panik yok = 당황하지 마요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 7,
@@ -107,7 +122,8 @@
    "ko": "여기서요, 부장님? 진심이세요?",
    "note": "ciddi misiniz = 진심이세요?",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 8,
@@ -117,98 +133,108 @@
    "ko": "네 명이고, 차도 있어요. 뭐가 더 필요해요?",
    "note": "dört kişiyiz = 우리는 네 명",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 9,
    "speaker": "D",
-   "tl": "Çok şükür dört bardak var. Buyurun hocam.",
-   "rd": "촉 쉬퀴르 되르트 바르닥 바르. 부유룬 호잠.",
+   "tl": "Çok şükür bardak tam dört tane. Buyurun hocam.",
+   "rd": "촉 쉬퀴르 바르닥 탐 되르트 타네. 부유룬 호잠.",
    "ko": "다행히 잔이 딱 네 개네요. 드세요, 선생님.",
-   "note": "çok şükür = 다행이다",
+   "note": "çok şükür = 다행히",
    "tags": [
     "expr:çok şükür"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Müdürüm, izninizle… ben çıkmak istiyorum.",
-   "rd": "뮈뒤륌, 이즈니니즐레… 벤 측막 이스티요룸.",
+   "tl": "Müdürüm, kusura bakmayın ama… çıkmak istiyorum.",
+   "rd": "뮈뒤륌, 쿠수라 박마이은 아마… 측막 이스티요룸.",
    "ko": "부장님, 죄송하지만… 저 나가고 싶어요.",
    "note": "izninizle = 실례지만",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 11,
    "speaker": "C",
-   "tl": "Önce karar. Yeni projeyi kim alsın? Amca, sen ne dersin?",
-   "rd": "왼제 카라르. 예니 프로제이 킴 알슨? 암자, 센 네 데르신?",
+   "tl": "Önce karar. Yeni projeyi kim alacak? Amcanın fikri ne?",
+   "rd": "왼제 카라르. 예니 프로제이 킴 알라작? 암자는 픽리 네?",
    "ko": "먼저 결정부터요. 새 프로젝트 누가 맡을까요? 아저씨 생각은요?",
    "note": "ne dersin = 어떻게 생각해?",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 12,
    "speaker": "D",
-   "tl": "{name} hocam alsın müdürüm. Herkesin işini bilir.",
-   "rd": "{name} 호잠 알슨 뮈뒤륌. 헤르케신 이시니 빌리르.",
+   "tl": "{name} hocam alsın müdürüm. Başkalarının işini de biliyor ya.",
+   "rd": "{name} 호잠 알슨 뮈뒤륌. 바시칼라르는 이시니 데 빌리요르 야.",
    "ko": "{name} 선생님이 맡으시죠, 부장님. 남들 일까지 다 아시잖아요.",
    "note": "alsın = 맡으라고 하죠",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 13,
    "speaker": "B",
-   "tl": "Ben de {name} diyorum. Kesinlikle.",
-   "rd": "벤 데 {name} 디요룸. 케신리클레.",
+   "tl": "Ben de {name}. Kesinlikle.",
+   "rd": "벤 데 {name}. 케신리클레.",
    "ko": "저도 {name}요. 확실합니다.",
-   "note": "kesinlikle = 확실히",
+   "note": "kesinlikle = 확실합니다",
    "tags": [
     "expr:kesinlikle"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 14,
    "speaker": "A",
-   "tl": "Ne?! Daha kapı açılmadı, yeni proje bana mı kaldı?!",
-   "rd": "네?! 다하 카프 아츨마드, 예니 프로제 바나 므 칼드?!",
+   "tl": "Ne?! Kapı açılmadan yeni proje bana mı düştü?!",
+   "rd": "네?! 카프 아츨마단 예니 프로제 바나 므 뒤시튀?!",
    "ko": "네?! 문도 안 열렸는데 새 프로젝트가 저한테 떨어졌다고요?!",
    "note": "bana kaldı = 나한테 떨어졌다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 15,
    "speaker": "D",
-   "tl": "Açıldı işte. Hayırlı olsun hocam.",
-   "rd": "아츨드 이시테. 하이으를르 올순 호잠.",
+   "tl": "Açıldı. Kolay gelsin hocam.",
+   "rd": "아츨드. 콜라이 겔신 호잠.",
    "ko": "열렸네요. 잘 해 보세요, 선생님.",
    "note": "hayırlı olsun = 잘되길",
    "tags": [
     "callback:r2_work_b8"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 16,
    "speaker": "C",
-   "tl": "Toplantı bitti. Çaylar {name} hocamdan.",
-   "rd": "토플란트 비티. 차일라르 {name} 호잠단.",
+   "tl": "Toplantı bitti. Çay {name} hocamın.",
+   "rd": "토플란트 비티. 차이 {name} 호자믄.",
    "ko": "회의 끝. 차는 {name} 선생님이 쏘세요.",
    "note": "çaylar … hocamdan = 차는 ~가 쏜다",
    "tags": [
     "callback:r2_work_b2"
    ],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

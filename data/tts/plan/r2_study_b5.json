@@ -17,7 +17,7 @@
 "segs": [
 [
 "surprised",
-"Sunum mu? Bugün sunum yok ki."
+"Sunum mu? Bugün sunum yok."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "polite",
-"Var hocam, listede benim adım var."
+"Var hocam. Listede adım var."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "neutral",
-"Hangi liste? Adınız ne, bakayım."
+"Hangi liste? Adınız ne, bakalım."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "surprised",
-"Kimya mı? Anlamadım, hocam."
+"Kimya mı? Anlamadım hocam."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "worried",
-"Neredesin? Sıra sende, hoca bekliyor!"
+"Neredesin sen? Sıra sende, hoca bekliyor!"
 ]
 ]
 },
@@ -73,7 +73,8 @@
 "segs": [
 [
 "flustered",
-"Sınıftayım! Yüz iki numara, değil mi?"
+"Dersteyim! 102 değil mi?",
+"Dersteyim! yüz iki değil mi?"
 ]
 ]
 },
@@ -81,7 +82,8 @@
 "segs": [
 [
 "tsukkomi",
-"Yüz iki mi? Biz iki yüz birdeyiz!"
+"102 mi? Biz 201'deyiz!",
+"yüz iki mi? Biz 201'deyiz!"
 ]
 ]
 },
@@ -89,7 +91,7 @@
 "segs": [
 [
 "amused",
-"Burası kimya. Ama konu güzel, haftaya bize de anlatın."
+"Burası kimya. Ama konu güzel, haftaya bize de yap."
 ]
 ]
 },
@@ -97,7 +99,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah, pardon hocam! Zeynep, az kaldı, geliyorum!"
+"Eyvah, özür dilerim hocam! Az kaldı, geliyorum!"
 ]
 ]
 }

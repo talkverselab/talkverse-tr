@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Bu kedi senin mi? Çok tatlı."
+"Bu kedi senin mi? Harika, çok tatlı."
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "neutral",
-"Sokağın kedisi."
+"Mahallenin kedisi."
 ],
 [
 "shy",
@@ -28,7 +28,7 @@
 "segs": [
 [
 "excited",
-"Harika! Adı ne?"
+"Güzel! Adı ne?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 ],
 [
 "teasing",
-"Sonra gülersin."
+"Güleceksin."
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "teasing",
-"Gülmem, valla. Hadi, söyle."
+"Gülmem, valla. Hadi söyle."
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "shy",
-"Adı {name}."
+"Adı... {name}."
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "surprised",
-"Yok artık! Neden benim adım?"
+"Yok artık! Niye benim adım?"
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "teasing",
-"Güzel, ama beni hiç aramıyor."
+"Güzel ama bana mesaj atmıyor."
 ]
 ]
 }

@@ -33,23 +33,24 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Can, evime bir kedi girdi 😅",
-   "rd": "잔, 에비메 비르 케디 기르디",
-   "ko": "잔, 우리 집에 고양이 들어왔어 😅",
-   "note": "girdi = 들어왔다",
+   "tl": "Can ya, eve kedi girdi 😅",
+   "rd": "잔 야, 에베 케디 기르디",
+   "ko": "캔, 집에 고양이 들어왔어 😅",
+   "note": "eve kedi girdi = 집에 고양이 들어왔어",
    "tags": [],
    "new": [],
    "at": "20:11",
    "stamp": "😅",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "flustered"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Süper! Süt ver.",
-   "rd": "쉬페르! 쉿 베르.",
-   "ko": "최고네! 우유 줘.",
-   "note": "süt = 우유",
+   "tl": "Süper! Süt ver hemen.",
+   "rd": "쉬페르! 쉿 베르 헤멘.",
+   "ko": "최고야! 우유 바로 줘.",
+   "note": "süper = 최고야",
    "tags": [
     "expr:süper"
    ],
@@ -57,41 +58,53 @@
     "süt"
    ],
    "at": "20:12",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "A",
    "tl": "Verdim. Şimdi yatağımda uyuyor.",
    "rd": "베르딤. 심디 야타음다 우유요르.",
-   "ko": "줬어. 지금 내 침대에서 자.",
-   "note": "yatak = 침대",
+   "ko": "줬어. 지금 내 침대에서 자고 있어.",
+   "note": "verdim = 줬어",
    "tags": [],
    "new": [],
    "at": "20:20",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "amused"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Maşallah. Adını da koy.",
-   "rd": "마샬라흐. 아드느 다 코이.",
-   "ko": "아이고 예뻐라. 이름도 지어 줘.",
-   "note": "ad koymak = 이름 짓다",
+   "tl": "Ay ne tatlı. İsim koy hadi canım.",
+   "rd": "아이 네 타틀르. 이심 코이 하디 자늠.",
+   "ko": "아이고 예뻐라. 이름 지어 줘 빨리.",
+   "note": "hadi canım = 빨리",
    "tags": [
     "expr:maşallah"
    ],
    "new": [],
    "at": "20:21",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "gentle",
+     "Ay ne tatlı."
+    ],
+    [
+     "amused",
+     "İsim koy hadi canım."
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "A",
    "tl": "Bir dakika… yatağın altında üç yavru var!",
    "rd": "비르 다키카… 야타은 알튼다 위치 야브루 바르!",
-   "ko": "잠깐만… 침대 밑에 새끼가 세 마리 있어!",
-   "note": "yavru = 새끼 — 반전",
+   "ko": "잠깐만… 침대 밑에 새끼 세 마리 있어!",
+   "note": "bir dakika = 잠깐만",
    "tags": [
     "expr:bir dakika"
    ],
@@ -99,33 +112,45 @@
     "yavru"
    ],
    "at": "20:40",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Hadi canım! Anne kedi mi o?",
-   "rd": "하디 자늠! 안네 케디 미 오?",
-   "ko": "에이 설마! 걔 엄마 고양이야?",
-   "note": "hadi canım = 에이 설마",
+   "tl": "Yok artık! O anne kedi mi?",
+   "rd": "욕 아르특! 오 안네 케디 미?",
+   "ko": "설마! 걔 엄마 고양이야?",
+   "note": "yok artık = 설마",
    "tags": [
     "expr:hadi canım"
    ],
    "new": [],
    "at": "20:41",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "surprised",
+     "Yok artık!"
+    ],
+    [
+     "excited",
+     "O anne kedi mi?"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Evet. Ben bu gece koltukta uyuyorum.",
-   "rd": "에벳. 벤 부 게제 콜툭타 우유요룸.",
-   "ko": "응. 나 오늘 밤 소파에서 자.",
-   "note": "koltuk = 소파",
+   "tl": "Aynen. Bu gece koltukta yatıyorum.",
+   "rd": "아이넨. 부 게제 콜툭타 야트요룸.",
+   "ko": "응. 나 오늘 밤 소파에서 잘게.",
+   "note": "koltukta = 소파에서",
    "tags": [],
    "new": [],
    "at": "21:15",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "flustered"
   },
   {
    "num": 8,
@@ -140,10 +165,12 @@
    ],
    "at": "21:15",
    "stamp": "😂",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

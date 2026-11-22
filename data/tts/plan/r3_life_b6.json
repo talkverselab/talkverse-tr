@@ -9,7 +9,7 @@
 "segs": [
 [
 "polite",
-"Buyurun, ev sahibi de burada. Kendinizi biraz anlatın."
+"Buyurun, ev sahibi de burada. Kendinizi tanıtır mısınız?"
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "polite",
-"Merhaba, adım {name}. Türkçem biraz kötü, kusura bakmayın."
+"Merhaba, adım {name}. Türkçem biraz zayıf, kusura bakmayın."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "cheerful",
-"Çünkü çok güzel. Sizinle yaşamak istiyorum."
+"Çok güzel çünkü. Hocamla birlikte yaşamak istiyorum."
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "flustered",
-"'Evinizde' demek istedi, efendim. Türkçesi daha yeni."
+"\"Evde\" demek istemişti hocam. Türkçesi daha yeni."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "flustered",
-"Evet, evet! Pardon. Yani eviniz çok yaşlı, çok güzel."
+"Evet, evet! Pardon. Yani eviniz çok... çok yaşlı, çok güzel."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "annoyed",
-"Yaşlı mı? Ev mi yaşlı, ben mi?"
+"Yaşlı mı? Ev mi yaşlı, ben mi yaşlıyım?"
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "flustered",
-"Hayır, siz değil! Siz çok… çok taze görünüyorsunuz."
+"Hayır! Siz değil! Siz... siz çok taze görünüyorsunuz."
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "annoyed",
-"Lütfen artık konuşmayın. Ben anlatırım."
+"Lütfen artık konuşmayın. Ben anlatayım."
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "polite",
-"Tamam. Son bir soru: Kirayı ne zaman öpeyim?"
+"Tamam. Son soru. Kirayı ne zaman öpeyim?"
 ]
 ]
 },
@@ -97,7 +97,7 @@
 "segs": [
 [
 "shout",
-"Öpmek mi?! Eşim bunu duymasın!"
+"Öpecek misiniz?! Eşim duymasın!"
 ]
 ]
 },
@@ -105,7 +105,7 @@
 "segs": [
 [
 "flustered",
-"Bitti. Kusura bakmayın, efendim. Biz gidiyoruz."
+"Bitti. Kusura bakmayın hocam, gidiyoruz."
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "amused",
-"Yok, yok, oturun. Elli yıldır bu kadar gülmedim. Ev sizin."
+"Yok yok, oturun. Elli yıldır böyle gülmemiştim. Evi veriyorum."
 ]
 ]
 },
@@ -129,7 +129,7 @@
 "segs": [
 [
 "teasing",
-"Kira yine de artar."
+"Yine de kira artıyor."
 ]
 ]
 }

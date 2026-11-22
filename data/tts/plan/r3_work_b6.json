@@ -10,7 +10,7 @@
 "segs": [
 [
 "polite",
-"Günaydın müdürüm. Altıncı kat, değil mi?"
+"Günaydın müdürüm. Altıncı kat değil mi?"
 ]
 ]
 },
@@ -18,7 +18,7 @@
 "segs": [
 [
 "stiff",
-"Evet, toplantıya geç kaldık. Emre, rapor hazır mı?"
+"Evet, toplantıya geç kaldım. Emre, rapor hazır mı?"
 ]
 ]
 },
@@ -38,7 +38,7 @@
 "segs": [
 [
 "worried",
-"Eyvah. Elektrik gitti galiba hocam. Tepsi de elimde."
+"Eyvah. Elektrik gitmiş galiba, hocam. Tepsi de elimde."
 ]
 ]
 },
@@ -46,7 +46,7 @@
 "segs": [
 [
 "flustered",
-"Nasıl yani? Kapı açılmıyor! Alo, kimse var mı?"
+"Ne? Kapı açılmıyor! Alo, kimse yok mu?"
 ]
 ]
 },
@@ -78,7 +78,7 @@
 "segs": [
 [
 "polite",
-"Çok şükür dört bardak var. Buyurun hocam."
+"Çok şükür bardak tam dört tane. Buyurun hocam."
 ]
 ]
 },
@@ -86,7 +86,7 @@
 "segs": [
 [
 "worried",
-"Müdürüm, izninizle… ben çıkmak istiyorum."
+"Müdürüm, kusura bakmayın ama… çıkmak istiyorum."
 ]
 ]
 },
@@ -94,7 +94,7 @@
 "segs": [
 [
 "stiff",
-"Önce karar. Yeni projeyi kim alsın? Amca, sen ne dersin?"
+"Önce karar. Yeni projeyi kim alacak? Amcanın fikri ne?"
 ]
 ]
 },
@@ -102,7 +102,7 @@
 "segs": [
 [
 "teasing",
-"{name} hocam alsın müdürüm. Herkesin işini bilir."
+"{name} hocam alsın müdürüm. Başkalarının işini de biliyor ya."
 ]
 ]
 },
@@ -110,7 +110,7 @@
 "segs": [
 [
 "amused",
-"Ben de {name} diyorum. Kesinlikle."
+"Ben de {name}. Kesinlikle."
 ]
 ]
 },
@@ -118,7 +118,7 @@
 "segs": [
 [
 "shout",
-"Ne?! Daha kapı açılmadı, yeni proje bana mı kaldı?!"
+"Ne?! Kapı açılmadan yeni proje bana mı düştü?!"
 ]
 ]
 },
@@ -126,7 +126,7 @@
 "segs": [
 [
 "cheerful",
-"Açıldı işte. Hayırlı olsun hocam."
+"Açıldı. Kolay gelsin hocam."
 ]
 ]
 },
@@ -134,7 +134,7 @@
 "segs": [
 [
 "stiff",
-"Toplantı bitti. Çaylar {name} hocamdan."
+"Toplantı bitti. Çay {name} hocamın."
 ]
 ]
 }

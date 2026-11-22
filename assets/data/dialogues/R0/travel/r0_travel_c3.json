@@ -45,64 +45,96 @@
    "new": [],
    "at": "22:04",
    "stamp": "😍",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "excited"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Deniz kim? Neredesin sen?",
-   "rd": "데니즈 킴? 네레데신 센?",
+   "tl": "Deniz kim ya? Neredesin?",
+   "rd": "데니즈 킴 야? 네레데신?",
    "ko": "Deniz 가 누군데? 너 어디야?",
    "note": "kim = 누구",
    "tags": [],
    "new": [],
    "at": "22:05",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "surprised",
+     "Deniz kim ya?"
+    ],
+    [
+     "worried",
+     "Neredesin?"
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Antalya'dayım. Her gün birlikteyiz.",
-   "rd": "안탈야다이음. 헤르 귄 비를릭테이즈.",
+   "tl": "Antalya'dayım. Her gün beraberiz.",
+   "rd": "안탈야다이음. 헤르 귄 베라베리즈.",
    "ko": "안탈리아야. 매일 같이 있어.",
    "note": "birlikte = 같이",
    "tags": [],
    "new": [],
    "at": "22:05",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "cheerful",
+     "Antalya'dayım."
+    ],
+    [
+     "gentle",
+     "Her gün beraberiz."
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Her gün mü?! Kaç yaşında?",
-   "rd": "헤르 귄 뮈?! 카치 야신다?",
+   "tl": "Her gün?! Kaç yaşında o?",
+   "rd": "헤르 귄?! 카치 야신다 오?",
    "ko": "매일?! 몇 살인데?",
    "note": "kaç yaşında = 몇 살",
    "tags": [],
    "new": [],
    "at": "22:06",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "shout",
+     "Her gün?!"
+    ],
+    [
+     "annoyed",
+     "Kaç yaşında o?"
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Ne alaka? Deniz işte, su! 🌊",
-   "rd": "네 알라카? 데니즈 이시테, 수!",
+   "tl": "Ne alaka? Deniz diyorum, su! 🌊",
+   "rd": "네 알라카? 데니즈 디요룸, 수!",
    "ko": "뭔 소리야? 바다 말이야, 물! 🌊",
-   "note": "ne alaka = 뭔 소리야 — 반전",
+   "note": "ne alaka = 뭔 소리야",
    "tags": [
     "expr:ne alaka"
    ],
    "new": [],
    "at": "22:06",
    "stamp": "🌊",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "tsukkomi"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Ha, deniz. Biliyordum tabii.",
-   "rd": "하, 데니즈. 빌리요르둠 타비이.",
+   "tl": "Aa… deniz. Tabii biliyordum.",
+   "rd": "아아… 데니즈. 타비이 빌리요르둠.",
    "ko": "아… 바다. 당연히 알고 있었지.",
    "note": "biliyordum = 알고 있었다",
    "tags": [
@@ -110,7 +142,8 @@
    ],
    "new": [],
    "at": "22:09",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -118,31 +151,43 @@
    "tl": "Kıskandın mı?",
    "rd": "크스칸든 므?",
    "ko": "질투했어?",
-   "note": "kıskandın mı? = 질투했어?",
+   "note": "kıskandın mı = 질투했어?",
    "tags": [
     "expr:kıskandın mı"
    ],
    "new": [],
    "at": "22:09",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "teasing"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Yok ya. Sadece çabuk dön.",
-   "rd": "욕 야. 사데제 차북 된.",
+   "tl": "Yok ya. Hemen gel.",
+   "rd": "욕 야. 헤멘 겔.",
    "ko": "아니거든. 그냥 빨리 와.",
-   "note": "çabuk = 빨리",
+   "note": "yok ya = 아니거든",
    "tags": [
     "expr:yok ya",
     "simkung"
    ],
    "new": [],
    "at": "22:11",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "flustered",
+     "Yok ya."
+    ],
+    [
+     "shy",
+     "Hemen gel."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

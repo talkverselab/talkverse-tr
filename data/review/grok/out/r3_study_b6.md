@@ -1,0 +1,27 @@
+=== r3_study_b6
+kind: long
+title: 손바닥 컨닝
+emoji: 🖐️
+scene: 시험장, 손바닥에 적은 터키어 표현 하나로 컨닝 검사가 시작되고 줄줄이 걸린다
+speakers: A={name}, B=Zeynep, C=Gözetmen, D=Hoca
+register: mixed
+twist: 9 chaos
+purpose: study_abroad
+goal: tekrar eder misiniz·yavaş lütfen·anlamadım 를 시험장에서 쓰기
+expressions: tekrar eder misiniz; yavaş lütfen; anlamadım; eyvah; allah allah
+B | Elindeki o ne? Sınava on dakika kaldı. | 손에 그거 뭐야? 시험까지 10분 남았어. |  | emotion=worried
+A | Hiçbir şey. Türkçe kelimeler. Bazen unutuyorum. | 아무것도 아냐. 터키어 단어들. 가끔 까먹어서. |  | emotion=shy
+B | Elime mi yazdın? Kopya sanırlar, hemen sil. | 손에 썼어? 컨닝인 줄 알아, 당장 지워. |  | emotion=worried
+A | Kopya değil. Sadece «tekrar eder misiniz» yazıyor. | 컨닝 아니야. 「다시 말씀해 주시겠어요」 만 적혀 있어. | tekrar eder misiniz = 다시 말씀해 주시겠어요 | emotion=amused
+C | Sessiz olun. Çantalar öne, telefonlar kapansın. Başlıyoruz. | 조용히 하세요. 가방은 앞으로, 휴대폰은 끄세요. 시작합니다. |  | emotion=stiff
+A | Hocam, bu soru ne demek? Anlamadım. | 선생님, 이 문제 무슨 뜻이에요? 못 알아들었어요. | anlamadım = 못 알아들었어요 | emotion=polite
+C | Elini göster. Bu ne? Kopya mı? | 손 보여 주세요. 이게 뭐예요? 컨닝이에요? |  | emotion=stiff
+A | Değil, bakın: «tekrar eder misiniz, yavaş lütfen.» | 아니에요, 보세요: 「다시 말씀해 주시겠어요, 천천히요.」 | yavaş lütfen = 천천히요 | emotion=flustered
+C | Herkes elini açsın! Hemen! Tüm sınıf! | 다들 손 펴세요! 당장요! 반 전체요! |  | emotion=shout
+B | Eyvah. Arkadaşın kolu dolu. Önündekinin ayakkabısında formül var. | 헉. 뒷사람 팔이 빽빽해. 앞사람은 신발에도 공식이 있어. | eyvah = 헉 | emotion=surprised
+C | Hocam, gelin! On kişi daha kopya çekmiş! | 교수님, 와 주세요! 열 명이 더 컨닝했어요! |  | emotion=shout
+D | Allah allah! Kim başlattı bunu? | 세상에! 누가 시작한 거예요? | allah allah = 세상에 | emotion=surprised
+C | Bu öğrenci. Elinde «yavaş lütfen» yazıyor. | 이 학생이요. 손에 「천천히요」 라고 적혀 있어요. |  | emotion=stiff
+D | Sınav iptal. Yarın tekrar, ellerinizi yıkayıp gelin. | 시험 취소입니다. 내일 다시, 손 씻고 오세요. |  | emotion=stiff
+A | Zeynep, herkes bana bakıyor. Alkışla! | Zeynep, 다들 날 봐. 박수 쳐! |  | emotion=excited
+B | Kimse çalışmamıştı zaten. Yarın da eline yaz, lütfen. | 아무도 공부 안 했거든. 내일도 손에 써 줘, 제발. |  | emotion=amused

@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Elif, naber? Uyuyor musun?"
+"Elif, naber ya? Uyudun mu?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "gentle",
-"Uyumuyorum. Yemek yedin mi?"
+"Uyumadım. Yemek yedin mi?"
 ]
 ]
 },
@@ -24,8 +24,8 @@
 "segs": [
 [
 "shy",
-"Yedim 😊 Bugün çok güzeldin.",
-"Yedim Bugün çok güzeldin."
+"Yedim 😊 Bugün cidden güzeldin.",
+"Yedim Bugün cidden güzeldin."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "gentle",
-"Sağ ol evladım."
+"Sağ ol, yavrum."
 ]
 ]
 },
@@ -41,12 +41,12 @@
 "segs": [
 [
 "surprised",
-"Evladım mı?"
+"Yavrum mu?"
 ],
 [
 "tsukkomi",
-"😂 Ne alaka?",
-"Ne alaka?"
+"😂 Ne alaka o?",
+"Ne alaka o?"
 ]
 ]
 },
@@ -54,7 +54,7 @@
 "segs": [
 [
 "stiff",
-"Ben annesiyim."
+"Ben onun annesiyim."
 ]
 ]
 },
@@ -70,11 +70,11 @@
 "segs": [
 [
 "neutral",
-"Telefon bende."
+"Telefonu buldum."
 ],
 [
 "teasing",
-"Bir daha söyle: güzel miydim?"
+"Tekrar söyle, gerçekten güzeldin mi?"
 ]
 ]
 }

@@ -34,14 +34,15 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Selam! Dans ediyor musun?",
-   "rd": "셀람! 단스 에디요르 무순?",
+   "tl": "Selam! Dans yok mu?",
+   "rd": "셀람! 단스 욕 무?",
    "ko": "안녕! 춤 안 춰?",
-   "note": "dans etmek = 춤추다",
+   "note": "selam = 안녕",
    "tags": [
     "expr:selam"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -49,79 +50,96 @@
    "tl": "Ne? Anlamadım!",
    "rd": "네? 안라마듬!",
    "ko": "뭐? 못 들었어!",
-   "note": "anlamadım = 못 알아들었어",
+   "note": "anlamadım = 못 들었어",
    "tags": [
     "expr:anlamadım"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Dans! Dans edelim mi?",
-   "rd": "단스! 단스 에델림 미?",
+   "tl": "Dans etsek?",
+   "rd": "단스 에트섹?",
    "ko": "춤! 춤출래?",
-   "note": "edelim mi = ~할까?",
+   "note": "dans = 춤",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Ne dedin? Müzik çok yüksek!",
-   "rd": "네 데딘? 뮈직 촉 윅섹!",
+   "tl": "Ne dedin ya? Müzik çok yüksek!",
+   "rd": "네 데딘 야? 뮈직 촉 윅섹!",
    "ko": "뭐라고? 음악이 너무 커!",
-   "note": "ne dedin = 뭐라고 했어",
+   "note": "ne dedin = 뭐라고",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "SENDEN HOŞLANIYORUM!",
-   "rd": "센덴 호실라느요룸!",
+   "tl": "Seni sevdiğimi dedim!",
+   "rd": "세니 세브디이미 데딤!",
    "ko": "나 너 좋아한다고!",
-   "note": "hoşlanmak = 좋아하다(-den 과 함께)",
+   "note": "sevdiğimi = 좋아한다고",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Müzik durdu. Herkes bize bakıyor.",
-   "rd": "뮈직 두르두. 헤르케스 비제 바크요르.",
+   "tl": "Müzik kesildi. Herkes bize bakıyor.",
+   "rd": "뮈직 케실디. 헤르케스 비제 바크요르.",
    "ko": "음악 멈췄어. 다 우릴 보고 있어.",
-   "note": "반전: 하필 그 순간",
+   "note": "müzik kesildi = 음악 멈췄어",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Eyvah! Hadi, dans edelim, hemen!",
-   "rd": "에이바흐! 하디, 단스 에델림, 헤멘!",
+   "tl": "Eyvah! Hadi dans, şimdi!",
+   "rd": "에이바흐! 하디 단스, 심디!",
    "ko": "헉! 자, 춤추자, 당장!",
-   "note": "hemen = 지금 당장",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah",
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Eyvah!"
+    ],
+    [
+     "excited",
+     "Hadi dans, şimdi!"
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Aslında ilk seferde duydum.",
-   "rd": "아슬른다 일크 세페르데 두이둠.",
+   "tl": "Aslında ilk seferde duymuştum.",
+   "rd": "아슬른다 일크 세페르데 두이무시툼.",
    "ko": "사실 처음에 바로 들었어.",
    "note": "ilk seferde = 처음에",
    "tags": [
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

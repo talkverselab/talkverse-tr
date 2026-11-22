@@ -35,16 +35,17 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Usta, merhaba. Zeynep size bahsetmişti. Saz öğrenmek istiyorum.",
-   "rd": "우스타, 메르하바. 제이넵 시제 바흐세트미시티. 사즈 외렌멕 이스티요룸.",
+   "tl": "Usta, merhaba. Zeynep söylemiştir. Saz öğrenmek istiyorum.",
+   "rd": "우스타, 메르하바. 제이넵 쇠일레미시티르. 사즈 외렌멕 이스티요룸.",
    "ko": "스승님, 안녕하세요. Zeynep 이 말씀드렸을 거예요. 사즈 배우고 싶어요.",
-   "note": "usta = 장인, 스승",
+   "note": "merhaba = 안녕하세요",
    "tags": [
     "expr:merhaba"
    ],
    "new": [
     "usta"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 2,
@@ -56,31 +57,34 @@
    "tags": [],
    "new": [
     "süpürge"
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Tabii, hemen. Sonra derse başlıyoruz, değil mi?",
-   "rd": "타비이, 헤멘. 손라 데르세 바실르요루즈, 데일 미?",
+   "tl": "Tabii, hemen. Ondan sonra ders başlıyor değil mi?",
+   "rd": "타비이, 헤멘. 온단 손라 데르스 바실르요르 데일 미?",
    "ko": "네, 바로요. 그다음에 수업 시작하는 거죠?",
-   "note": "ders = 수업",
+   "note": "tabii = 바로요",
    "tags": [
     "expr:tabii"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Çay bitti. Aşağıdan iki çay getir, sıcak olsun.",
-   "rd": "차이 비티. 아샤으단 이키 차이 게티르, 스작 올순.",
+   "tl": "Çay bitti. Aşağıdan iki bardak getir, sıcak.",
+   "rd": "차이 비티. 아샤으단 이키 바르닥 게티르, 스작.",
    "ko": "차 떨어졌다. 아래서 두 잔 가져와라, 뜨겁게.",
    "note": "sıcak = 뜨거운",
    "tags": [
     "expr:olsun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 5,
@@ -90,7 +94,8 @@
    "ko": "어떻게 돼 가? 2주째 거기 있는데, 사즈 쳐 봤어?",
    "note": "bir aydır = 한 달째",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -102,7 +107,8 @@
    "tags": [
     "expr:hiç sorma"
    ],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   },
   {
    "num": 7,
@@ -112,20 +118,22 @@
    "ko": "스승님 원래 그래. 나한테도 첫 달엔 대답 한 번 안 하셨어.",
    "note": "cevap vermek = 답하다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Usta, lütfen, bir dakika. Bugün sazı görebilir miyim, sadece bir kere?",
-   "rd": "우스타, 뤼트펜, 비르 다키카. 부귄 사즈 괴레빌리르 미임, 사데제 비르 케레?",
+   "tl": "Usta, lütfen, bir dakika. Bugün sazı görebilir miyim? Sadece bir kez.",
+   "rd": "우스타, 뤼트펜, 비르 다키카. 부귄 사즈 괴레빌리르 미임? 사데제 비르 케즈.",
    "ko": "스승님, 제발, 잠깐만요. 오늘 사즈 볼 수 있어요? 딱 한 번만요.",
-   "note": "görebilir miyim = 봐도 돼요?",
+   "note": "bir dakika = 잠깐만요",
    "tags": [
     "expr:bir dakika",
     "expr:lütfen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 9,
@@ -133,79 +141,103 @@
    "tl": "Kapının önü yine kirlenmiş. Süpürge köşede.",
    "rd": "카프는 외뉘 이네 키를렌미시. 쉬퓌르게 쾨셰데.",
    "ko": "문 앞이 또 더러워졌구나. 빗자루는 구석에 있다.",
-   "note": "köşe = 구석 — 반전: 또 안 듣는다",
+   "note": "köşe = 구석",
    "tags": [],
    "new": [
     "köşe"
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Usta, ben para veriyorum! Üç haftadır süpürüyorum, beni hiç görmüyorsunuz!",
-   "rd": "우스타, 벤 파라 베리요룸! 위치 하프타드르 쉬퓌뤼요룸, 베니 히치 괴르뮈요르수누즈!",
+   "tl": "Usta, ben para ödüyorum! Üç haftadır süpürüyorum, bana bakmıyorsunuz bile!",
+   "rd": "우스타, 벤 파라 외뒤요룸! 위치 하프타드르 쉬퓌뤼요룸, 바나 박므요르수누즈 빌레!",
    "ko": "스승님, 저 돈 내고 있어요! 3주째 쓸고 있는데, 저를 보시지도 않잖아요!",
    "note": "üç aydır = 석 달째",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "annoyed",
+     "Usta, ben para ödüyorum!"
+    ],
+    [
+     "sad",
+     "Üç haftadır süpürüyorum, bana bakmıyorsunuz bile!"
+    ]
+   ]
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Görmüyorum, doğru. Ama duyuyorum.",
-   "rd": "괴르뮈요룸, 도루. 아마 두유요룸.",
+   "tl": "Bakmıyorum, doğru. Ama dinliyorum.",
+   "rd": "박므요룸, 도루. 아마 딘리요룸.",
    "ko": "안 본다, 맞아. 하지만 듣고 있다.",
    "note": "duymak = 듣다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "stiff",
+     "Bakmıyorum, doğru."
+    ],
+    [
+     "gentle",
+     "Ama dinliyorum."
+    ]
+   ]
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Ne duyuyorsunuz? Ben burada hiç ses çıkarmıyorum ki.",
-   "rd": "네 두유요르수누즈? 벤 부라다 히치 세스 츠카르므요룸 키.",
+   "tl": "Neyi dinliyorsunuz? Ben burada ses çıkarmıyorum ki.",
+   "rd": "네이 딘리요르수누즈? 벤 부라다 세스 츠카르므요룸 키.",
    "ko": "뭘 들으세요? 저 여기서 소리 하나 안 내는데요.",
    "note": "ses çıkarmak = 소리 내다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 13,
    "speaker": "B",
-   "tl": "Süpürürken ritim tutuyorsun. İlk hafta yanlıştı, şimdi doğru.",
-   "rd": "쉬퓌뤼르켄 리팀 투투요르순. 일크 하프타 얀르시트, 심디 도루.",
+   "tl": "Süpürürken tempo tutuyorsun. İlk hafta yanlıştı, şimdi doğru.",
+   "rd": "쉬퓌뤼르켄 템포 투투요르순. 일크 하프타 얀르시트, 심디 도루.",
    "ko": "너 비질할 때 박자를 타더라. 첫 주엔 틀렸는데, 이젠 맞아.",
    "note": "ritim tutmak = 박자를 맞추다",
    "tags": [],
-   "new": [
-    "ritim"
-   ]
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 14,
    "speaker": "A",
-   "tl": "Yok artık! Yani yarın saz çalabilirim, öyle mi?",
-   "rd": "욕 아르특! 야니 야른 사즈 찰라빌리림, 외일레 미?",
+   "tl": "Olmaz! O zaman yarın saz çalabilirim değil mi?",
+   "rd": "올마즈! 오 자만 야른 사즈 찰라빌리림 데일 미?",
    "ko": "말도 안 돼요! 그럼 내일 사즈 칠 수 있는 거죠?",
-   "note": "çalabilirim = 칠 수 있다",
+   "note": "olsun = 말도 안 돼요",
    "tags": [
     "expr:yok artık",
     "expr:yani"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 15,
    "speaker": "B",
-   "tl": "Hayır. Yarın sazı sadece tutacaksın. Çalmak gelecek ay.",
-   "rd": "하이으르. 야른 사즈 사데제 투타작슨. 찰막 겔레젝 아이.",
+   "tl": "Hayır. Yarın sadece sazı tut. Çalmak gelecek ay.",
+   "rd": "하이으르. 야른 사데제 사즈 툿. 찰막 겔레젝 아이.",
    "ko": "아니. 내일은 사즈를 들고만 있어라. 치는 건 다음 달이다.",
    "note": "seneye = 내년에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

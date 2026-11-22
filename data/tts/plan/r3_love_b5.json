@@ -8,7 +8,7 @@
 "segs": [
 [
 "gentle",
-"Elif, çantan düştü. Dur, toplayayım. Bu defter senin mi?"
+"Elif, çantan düştü. Dur, alayım. Bu defter senin mi?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "flustered",
-"Ver onu! Hemen ver. Açma lütfen, önemli bir şey değil."
+"Ver onu! Hemen ver. Açma, lütfen, bir şey değil."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "teasing",
-"Önemli değilse yüzün neden bu kadar kırmızı?"
+"Bir şey değilse yüzün niye böyle kırmızı?"
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "flustered",
-"Sıcaktan. Bugün hava çok sıcak, değil mi?"
+"Sıcaktan. Bugün hava çok sıcak değil mi?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "teasing",
-"Hava on derece, Elif. Tamam, açıyorum. Ne var bunda?"
+"Bugün on derece Elif. Tamam, açıyorum. Ne olacak ki?"
 ]
 ]
 },
@@ -48,11 +48,7 @@
 "segs": [
 [
 "shout",
-"Aman!"
-],
-[
-"flustered",
-"Sana yalvarıyorum, sayfayı çevirme. Ölüyorum şu an."
+"Aman! Lütfen yalvarırım, çevirme. Şu an ölüyorum."
 ]
 ]
 },
@@ -60,7 +56,7 @@
 "segs": [
 [
 "surprised",
-"Bir dakika… bu benim dilim! Neden burada {lang} kelimeler var?"
+"Bir dakika… bu benim dilim! Neden burada {lang} kelimeleri var?"
 ]
 ]
 },
@@ -68,7 +64,7 @@
 "segs": [
 [
 "shy",
-"Şey… altı aydır her gece öğreniyorum. Kursa gidiyorum, gizli gizli."
+"Şey… altı aydır her gece çalışıyorum. Kursa da gidiyorum, gizlice."
 ]
 ]
 },
@@ -76,11 +72,7 @@
 "segs": [
 [
 "surprised",
-"Altı aydır mı? Ciddi misin?"
-],
-[
-"gentle",
-"Neden bana hiç söylemedin?"
+"Altı aydır mı? Ciddi misin? Neden bana söylemedin?"
 ]
 ]
 },
@@ -88,7 +80,7 @@
 "segs": [
 [
 "shy",
-"Söylersem gülersin. Çok kötü konuşuyorum, hocam bile utanıyor."
+"Söylesem gülecektin. O kadar kötüyüm ki hoca bile utanıyor."
 ]
 ]
 },
@@ -96,7 +88,7 @@
 "segs": [
 [
 "gentle",
-"Peki neden öğreniyorsun? İş için mi, tatil için mi?"
+"Peki niye öğreniyorsun? İş için mi? Seyahat için mi?"
 ]
 ]
 },
@@ -104,7 +96,7 @@
 "segs": [
 [
 "shy",
-"Hayır, senin annenle konuşmak için. Bir gün tanışırsak diye…"
+"Hayır, annenle konuşmak için. Bir gün karşılaşırsak diye…"
 ]
 ]
 },
@@ -112,7 +104,7 @@
 "segs": [
 [
 "gentle",
-"Elif… ilk sayfada ne yazıyor? Bana oku, lütfen."
+"Elif… ilk sayfada ne yazıyor? Oku bana."
 ]
 ]
 },
@@ -120,7 +112,7 @@
 "segs": [
 [
 "shy",
-"Öğrendiğim ilk cümle. Annem söyledi, ilk bunu öğren dedi."
+"İlk öğrendiğim cümle. Annem bunu öğren dedi."
 ]
 ]
 },
@@ -128,7 +120,7 @@
 "segs": [
 [
 "gentle",
-"Hangi cümle? Bak, gülmüyorum. Söz veriyorum, gülmüyorum."
+"Hangi cümle? Bak, gülmüyorum. Söz veriyorum, gülmem."
 ]
 ]
 },
@@ -136,7 +128,7 @@
 "segs": [
 [
 "shy",
-"\"Yemek yedin mi?\" Bunu {lang} söyleyebiliyorum artık."
+"«Yemek yedin mi?» Artık bunu {lang} söyleyebiliyorum."
 ]
 ]
 }

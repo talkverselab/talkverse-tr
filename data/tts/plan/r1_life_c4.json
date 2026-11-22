@@ -24,7 +24,7 @@
 "segs": [
 [
 "cheerful",
-"Evet, yüz. Bugün yemek yapacağım."
+"Evet, yüz tane. Bugün yemek yapacağım."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "cheerful",
-"Maşallah! Yumurtalar yolda."
+"Maşallah! Yumurtalar yola çıktı."
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "flustered",
-"Bir dakika, 'yüz' kaç? Ben on istedim!"
+"Bir dakika, 'yüz' kaçtı? On tane istiyordum!"
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "surprised",
-"Eyvah. Bizim çocuk kapınızda."
+"Eyvah. Çocuğum şimdi kapıda."
 ]
 ]
 },
@@ -68,7 +68,7 @@
 ],
 [
 "cheerful",
-"Komşulara satarsınız, gruba yazdım bile."
+"Komşulara satın, gruba yazdım bile."
 ]
 ]
 }

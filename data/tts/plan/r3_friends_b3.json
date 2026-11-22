@@ -9,7 +9,7 @@
 "segs": [
 [
 "cheerful",
-"Bak, masada yer var. Pilav da geldi, gel otur."
+"Bak, o masada yer var. Pilav da gelmiş, gel otur."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "neutral",
-"Düğün çok kalabalık. Zeynep'i görebiliyor musun?"
+"Düğünde insan çok. Zeynep görünüyor mu?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "cheerful",
-"Zeynep'i boş ver, önce yiyelim. Et çok güzel."
+"Zeynep boş ver, önce yiyelim. Et çok lezzetli."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "amused",
-"Ben de tanımıyorum. Zeynep'in kuzeni, o kadar."
+"Ben de bilmiyorum. Zeynep’in kuzeni, o kadar."
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "cheerful",
-"Hoş geldiniz evladım! Siz damat tarafından mısınız?"
+"Hoş geldiniz! Damat tarafı mısınız?"
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "flustered",
-"Evet… şey, galiba. Çok güzel düğün, maşallah."
+"Evet… şey, galiba. Maşallah, çok güzel düğün."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "cheerful",
-"Sağ olun. Hadi, takı zamanı, sıra sizde."
+"Teşekkürler. Hadi, takı zamanı, şimdi sizin sıranız."
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "amused",
-"Ver, ver. Yemeğini yedik, ayıp olur."
+"Ver, ver. Yemek yedik, ayıp olur."
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "surprised",
-"Bak, Zeynep yazmış: \"Neredesiniz? Düğün Mavi Salon'da başladı.\""
+"Bak, Zeynep yazmış. “Neredesiniz? Düğün mavi salonda başladı.”"
 ]
 ]
 },
@@ -97,7 +97,7 @@
 "segs": [
 [
 "surprised",
-"Mavi mi? Can, burası Kırmızı Salon!"
+"Mavi salon mu? Can, burası kırmızı salon!"
 ]
 ]
 },
@@ -105,7 +105,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah. Yani yanlış düğünde yedik, para da taktık."
+"Eyvah. Yani başkasının düğününde yedik, üstüne para da taktık."
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "shout",
-"Yanlış gelin! İki yüz lira! Hemen gidelim!"
+"Yanlış gelini bulduk! İki yüz lira! Hemen gidelim!"
 ]
 ]
 },
@@ -121,7 +121,7 @@
 "segs": [
 [
 "cheerful",
-"Evladım, nereye? Halay başlıyor, gelin sizi çağırıyor."
+"Aman, nereye gidiyorsunuz? Halay başlıyor, gelin çağırıyor."
 ]
 ]
 },
@@ -129,7 +129,7 @@
 "segs": [
 [
 "amused",
-"Gel. Parayı taktık, pastayı yemeden gitmiyorum."
+"Vay be. Para taktık, pastayı yemeden gidemeyiz."
 ]
 ]
 }

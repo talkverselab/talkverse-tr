@@ -32,21 +32,31 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Neredesin? Kahven soğuyor.",
-   "rd": "네레데신? 카흐벤 소우요르.",
-   "ko": "어디야? 네 커피 식는다.",
+   "tl": "Neredesin ya sen? Kahven buz oldu.",
+   "rd": "네레데신 야 센? 카흐벤 부즈 올두.",
+   "ko": "어디야 너? 커피 다 식었어.",
    "note": "neredesin = 어디야",
    "tags": [],
    "new": [],
    "ui": "bubble",
-   "at": "11:02"
+   "at": "11:02",
+   "segs": [
+    [
+     "neutral",
+     "Neredesin ya sen?"
+    ],
+    [
+     "teasing",
+     "Kahven buz oldu."
+    ]
+   ]
   },
   {
    "num": 2,
    "speaker": "A",
    "tl": "Yoldayım! Az kaldı.",
    "rd": "욜다이음! 아즈 칼드.",
-   "ko": "가는 중! 거의 다 왔어.",
+   "ko": "가는 중이야! 거의 다 왔어.",
    "note": "yoldayım = 가는 중",
    "tags": [
     "expr:yoldayım",
@@ -54,89 +64,133 @@
    ],
    "new": [],
    "ui": "bubble",
-   "at": "11:03"
+   "at": "11:03",
+   "segs": [
+    [
+     "flustered",
+     "Yoldayım!"
+    ],
+    [
+     "flustered",
+     "Az kaldı."
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Hangi yoldasın?",
-   "rd": "한기 욜다슨?",
-   "ko": "어느 길인데?",
-   "note": "hangi = 어느",
+   "tl": "Hangi sokaktasın peki?",
+   "rd": "한기 소칵타슨 페키?",
+   "ko": "어느 길인데 지금?",
+   "note": "hangi sokak = 어느 길",
    "tags": [],
    "new": [],
    "ui": "bubble",
-   "at": "11:03"
+   "at": "11:03",
+   "emotion": "teasing"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Şey… büyük yolda.",
-   "rd": "셰이… 뷔윅 욜다.",
-   "ko": "어… 큰길.",
-   "note": "şey = 그게",
+   "tl": "Ee... ana cadde.",
+   "rd": "에에... 아나 자데.",
+   "ko": "어... 큰길.",
+   "note": "ana cadde = 큰길",
    "tags": [],
    "new": [],
    "ui": "bubble",
-   "at": "11:05"
+   "at": "11:05",
+   "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Kanka, pencereye bak.",
-   "rd": "칸카, 펜제레예 박.",
-   "ko": "야, 창문 봐.",
-   "note": "pencere = 창문 — 반전",
+   "tl": "Ya, camdan bak bi.",
+   "rd": "야, 잠단 박 비.",
+   "ko": "야, 창문 밖 좀 봐.",
+   "note": "camdan bak = 창문 봐",
    "tags": [
     "expr:kanka"
    ],
    "new": [],
    "ui": "bubble",
-   "at": "11:05"
+   "at": "11:05",
+   "emotion": "teasing"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Yok artık! Neredesin sen?!",
-   "rd": "욕 아르특! 네레데신 센?!",
-   "ko": "말도 안 돼! 너 어딘데?!",
+   "tl": "Yok artık! Sen neredesin?!",
+   "rd": "욕 아르특! 센 네레데신?!",
+   "ko": "말도 안 돼! 너 어디야?!",
    "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık"
    ],
    "new": [],
    "ui": "bubble",
-   "at": "11:06"
+   "at": "11:06",
+   "segs": [
+    [
+     "surprised",
+     "Yok artık!"
+    ],
+    [
+     "surprised",
+     "Sen neredesin?!"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Evinin önünde. Pijaman çok güzel 😂",
-   "rd": "에비닌 외뉜데. 피자만 촉 귀젤",
-   "ko": "너네 집 앞. 잠옷 예쁘다 😂",
-   "note": "önünde = 앞에",
+   "tl": "Senin evinin önündeyim. Pijama çok tatlı 😂",
+   "rd": "세닌 에비닌 외뉜데임. 피자마 촉 타틀르",
+   "ko": "너희 집 앞이야. 잠옷 너무 귀엽다 😂",
+   "note": "evinin önü = 집 앞",
    "tags": [],
    "new": [],
    "ui": "bubble",
    "at": "11:06",
-   "stamp": "😂"
+   "stamp": "😂",
+   "segs": [
+    [
+     "amused",
+     "Senin evinin önündeyim."
+    ],
+    [
+     "amused",
+     "Pijama çok tatlı 😂"
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Öldüm. Beş dakika!",
-   "rd": "욀뒴. 베시 다키카!",
-   "ko": "나 죽었다. 5분만!",
-   "note": "öldüm = 죽었다(창피해서)",
+   "tl": "Öldüm. 5 dakika!",
+   "rd": "욀뒴. 5 다키카!",
+   "ko": "나 죽었어. 5분만!",
+   "note": "öldüm = 나 죽었어",
    "tags": [
     "expr:öldüm"
    ],
    "new": [],
    "ui": "bubble",
-   "at": "11:07"
+   "at": "11:07",
+   "segs": [
+    [
+     "flustered",
+     "Öldüm."
+    ],
+    [
+     "flustered",
+     "5 dakika!"
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

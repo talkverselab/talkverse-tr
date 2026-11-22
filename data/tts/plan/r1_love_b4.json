@@ -9,7 +9,7 @@
 "segs": [
 [
 "cheerful",
-"Elif, günaydın! Çay ister misin?"
+"Elif, günaydın! Çay içer misin?"
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "stiff",
-"Abi, ona söyle: konuşmuyorum."
+"Amca, ona söyle. Konuşmuyorum."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "polite",
-"Elif Hanım konuşmuyor. Kusura bakmayın."
+"Elif Hanım konuşmuyormuş. Kusura bakmayın."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "worried",
-"Ne oldu? Ben ne yaptım?"
+"Niye öyle? Ben ne yaptım?"
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "annoyed",
-"Abi, söyle: dün gece yazdım, cevap yok."
+"Amca, söyle. Dün gece mesaj attım, cevap yoktu."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "shy",
-"Abi, ona söyle… çok özledim."
+"Amca, ona söyle... Çok özledim."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "gentle",
-"Onu kendin söyle kızım. Çay soğuyor."
+"Onu sen söyle, kızım. Çay soğuyor."
 ]
 ]
 }

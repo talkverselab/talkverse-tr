@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Merhaba. Kirayı konuşalım mı?"
+"Merhaba. Kira konusunu konuşalım mı?"
 ]
 ]
 },
@@ -20,7 +20,7 @@
 ],
 [
 "worried",
-"Ama önce kombi bozuk."
+"Ama önce kombi bozulmuş."
 ]
 ]
 },
@@ -28,7 +28,7 @@
 "segs": [
 [
 "polite",
-"Tamam, yarın usta gelir."
+"Anladım, yarın usta gelir."
 ]
 ]
 },
@@ -36,10 +36,6 @@
 "segs": [
 [
 "worried",
-"Efendim?"
-],
-[
-"annoyed",
 "Bir de pencere kapanmıyor."
 ]
 ]
@@ -60,7 +56,7 @@
 ],
 [
 "annoyed",
-"Su da çok az geliyor."
+"Su da çok zayıf geliyor."
 ]
 ]
 },
@@ -68,11 +64,11 @@
 "segs": [
 [
 "polite",
-"Hepsini yaptırırım."
+"Hepsini hallettiririz."
 ],
 [
 "amused",
-"Kira da yüzde elli artar."
+"Kira da yüzde elli artıyor."
 ]
 ]
 },
@@ -80,7 +76,7 @@
 "segs": [
 [
 "flustered",
-"Yok! Ev harika, çok güzel!"
+"Yok! Ev çok güzel, harika!"
 ]
 ]
 }

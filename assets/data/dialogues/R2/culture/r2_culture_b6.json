@@ -35,15 +35,15 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Kalabalık çok! Elimi tut, kaybolma.",
-   "rd": "칼라발륵 촉! 엘리미 툿, 카이볼마.",
+   "tl": "Kalabalık çok ya! Elimi tut, kaybolma.",
+   "rd": "칼라발륵 촉 야! 엘리미 툿, 카이볼마.",
    "ko": "사람 진짜 많다! 내 손 잡아, 길 잃지 마.",
-   "note": "kaybolmak = 길을 잃다",
+   "note": "elimi tut = 손 잡아",
    "tags": [],
    "new": [
-    "kalabalık",
-    "kaybolmak"
-   ]
+    "kalabalık"
+   ],
+   "emotion": "excited"
   },
   {
    "num": 2,
@@ -51,43 +51,47 @@
    "tl": "Tuttum. Bu şarkıyı biliyor musun?",
    "rd": "투툼. 부 샤르크이으 빌리요르 무순?",
    "ko": "잡았어. 이 노래 알아?",
-   "note": "şarkı = 노래",
+   "note": "tuttum = 잡았어",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Tabii ki! Herkes biliyor, sen de söyle!",
-   "rd": "타비이 키! 헤르케스 빌리요르, 센 데 쇠일레!",
+   "tl": "Tabii ki! Hepsini biliyorum, sen de söyle!",
+   "rd": "타비이 키! 헵시니 빌리요룸, 센 데 쇠일레!",
    "ko": "당연하지! 다 알아, 너도 불러!",
    "note": "tabii ki = 당연하지",
    "tags": [
     "expr:tabii ki"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Anlamadım ki. Ne diyor bu adam?",
-   "rd": "안라마듬 키. 네 디요르 부 아담?",
+   "tl": "Anlamadım. Bu adam ne diyor?",
+   "rd": "안라마듬. 부 아담 네 디요르?",
    "ko": "못 알아듣겠어. 이 사람 뭐래?",
-   "note": "anlamadım = 못 알아들었어",
+   "note": "anlamadım = 못 알아듣겠어",
    "tags": [
     "expr:anlamadım"
    ],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Diyor ki: Gözlerine bakınca susarım.",
-   "rd": "디요르 키 괴즐레리네 바큰자 수사름.",
+   "tl": "Şöyle diyor. Gözlerine bakınca sözlerim bitiyor.",
+   "rd": "쇠일레 디요르. 괴즐레리네 바큰자 쇠즐레림 비티요르.",
    "ko": "이러잖아. 네 눈을 보면 말을 잃어.",
-   "note": "susmak = 말을 멈추다",
+   "note": "şöyle = 이렇게",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 6,
@@ -99,19 +103,30 @@
    "tags": [
     "expr:valla"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Susarım. Bak, şimdi sana bakıyorum.",
-   "rd": "수사름. 박, 심디 사나 바크요룸.",
+   "tl": "Susabilirim aslında. Bak, şu an sana bakıyorum.",
+   "rd": "수사빌리림 아슬른다. 박, 슈 안 사나 바크요룸.",
    "ko": "멈출 수 있거든. 봐, 지금 너 보고 있잖아.",
    "note": "bak = 봐",
    "tags": [
     "expr:bak"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "shy",
+     "Susabilirim aslında."
+    ],
+    [
+     "gentle",
+     "Bak, şu an sana bakıyorum."
+    ]
+   ]
   },
   {
    "num": 8,
@@ -119,50 +134,55 @@
    "tl": "Ee? Hâlâ konuşuyorsun ama.",
    "rd": "에에? 할라 코누슈요르순 아마.",
    "ko": "그래서? 아직 말하고 있는데.",
-   "note": "ee = 그래서?",
+   "note": "ee = 그래서",
    "tags": [
     "expr:ee"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Şey…",
-   "rd": "셰이…",
+   "tl": "Şey...",
+   "rd": "셰이...",
    "ko": "저기…",
-   "note": "şey = 저기 — 반전: 처음으로 말이 끊겼다",
+   "note": "şey = 저기",
    "tags": [
     "simkung",
     "expr:şey"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Konser bitti, Elif. Elimi bırakabilirsin.",
-   "rd": "콘세르 비티, 엘리프. 엘리미 브라카빌리르신.",
-   "ko": "콘서트 끝났어, Elif. 손 놔도 돼.",
-   "note": "bırakmak = 놓다",
+   "tl": "Konser bitti Elif. Elini bırakabilirsin.",
+   "rd": "콘세르 비티 엘리프. 엘리니 브라카빌리르신.",
+   "ko": "콘서트 끝났어, 엘리프. 손 놔도 돼.",
+   "note": "bitti = 끝났어",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Kaybolma dedim ya.",
-   "rd": "카이볼마 데딤 야.",
+   "tl": "Kaybolma demiştim ya.",
+   "rd": "카이볼마 데미시팀 야.",
    "ko": "길 잃지 말랬잖아.",
-   "note": "dedim ya = 말했잖아",
+   "note": "kaybolma = 길 잃지 마",
    "tags": [
     "simkung",
     "expr:ya"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

@@ -37,15 +37,16 @@
    "speaker": "A",
    "tl": "Merhaba. Eve ekmek ve yüz yumurta lütfen.",
    "rd": "메르하바. 에베 엑멕 베 위즈 유무르타 뤼트펜.",
-   "ko": "안녕하세요. 집으로 빵이랑 달걀 백 개요.",
-   "note": "yüz = 백(100)",
+   "ko": "안녕하세요. 집으로 빵이랑 달걀 백 개 주세요.",
+   "note": "merhaba = 안녕하세요",
    "tags": [
     "expr:merhaba",
     "expr:lütfen"
    ],
    "new": [],
    "at": "17:20",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "polite"
   },
   {
    "num": 2,
@@ -53,68 +54,73 @@
    "tl": "Yüz yumurta mı? Hayırdır, düğün mü var?",
    "rd": "위즈 유무르타 므? 하이으르드르, 뒤윈 뮈 바르?",
    "ko": "달걀 백 개요? 무슨 일이에요, 잔치 있어요?",
-   "note": "düğün = 결혼식, 잔치",
+   "note": "hayırdır = 무슨 일이에요",
    "tags": [
     "expr:hayırdır"
    ],
    "new": [],
    "at": "17:21",
    "stamp": "🥚",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Evet, yüz. Bugün yemek yapacağım.",
-   "rd": "에벳, 위즈. 부귄 예멕 야파자음.",
+   "tl": "Evet, yüz tane. Bugün yemek yapacağım.",
+   "rd": "에벳, 위즈 타네. 부귄 예멕 야파자음.",
    "ko": "네, 백 개요. 오늘 요리할 거예요.",
    "note": "yapacağım = 할 거예요",
    "tags": [],
    "new": [],
    "at": "17:21",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Maşallah! Yumurtalar yolda.",
-   "rd": "마샬라흐! 유무르탈라르 욜다.",
+   "tl": "Maşallah! Yumurtalar yola çıktı.",
+   "rd": "마샬라흐! 유무르탈라르 욜라 측트.",
    "ko": "대단하시네요! 달걀 출발했어요.",
-   "note": "maşallah = 어머 대단해",
+   "note": "maşallah = 대단하시네요",
    "tags": [
     "expr:maşallah"
    ],
    "new": [],
    "at": "17:22",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "cheerful"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Bir dakika, 'yüz' kaç? Ben on istedim!",
-   "rd": "비르 다키카, 위즈 카치? 벤 온 이스테딤!",
+   "tl": "Bir dakika, 'yüz' kaçtı? On tane istiyordum!",
+   "rd": "비르 다키카, 위즈 카치트? 온 타네 이스티요르둠!",
    "ko": "잠깐만요, 'yüz'가 몇이에요? 저 열 개 원했어요!",
-   "note": "on = 열(10) — 반전",
+   "note": "bir dakika = 잠깐만",
    "tags": [
     "expr:bir dakika"
    ],
    "new": [],
    "at": "17:26",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "flustered"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Eyvah. Bizim çocuk kapınızda.",
-   "rd": "에이바흐. 비짐 초죽 카프느즈다.",
+   "tl": "Eyvah. Çocuğum şimdi kapıda.",
+   "rd": "에이바흐. 초주움 심디 카프다.",
    "ko": "헉. 우리 애가 벌써 문 앞이에요.",
-   "note": "kapınızda = 댁 문 앞에",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
    "new": [],
    "at": "17:26",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -126,13 +132,14 @@
    "tags": [],
    "new": [],
    "at": "17:27",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "worried"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Olmaz. Komşulara satarsınız, gruba yazdım bile.",
-   "rd": "올마즈. 콤슐라라 사타르스느즈, 그루바 야즈듬 빌레.",
+   "tl": "Olmaz. Komşulara satın, gruba yazdım bile.",
+   "rd": "올마즈. 콤슐라라 사튼, 그루바 야즈듬 빌레.",
    "ko": "안 돼요. 이웃들한테 파세요, 단톡방에 벌써 올렸어요.",
    "note": "satmak = 팔다",
    "tags": [
@@ -140,10 +147,21 @@
    ],
    "new": [],
    "at": "17:27",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "stiff",
+     "Olmaz."
+    ],
+    [
+     "cheerful",
+     "Komşulara satın, gruba yazdım bile."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

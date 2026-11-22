@@ -10,7 +10,7 @@
 "segs": [
 [
 "shout",
-"Köftelerim nerede?! Balkonda soğuyordu!"
+"Köftem nerede?! Balkonda soğutuyordum!"
 ]
 ]
 },
@@ -18,7 +18,7 @@
 "segs": [
 [
 "polite",
-"Balkonunuzda bir kedi gördüm. Büyük."
+"Sizin balkonda kedi gördüm. Kocaman bir tane."
 ]
 ]
 },
@@ -26,7 +26,7 @@
 "segs": [
 [
 "worried",
-"Eyvah. Patron mu?"
+"Eyvah. Patron mu o?"
 ]
 ]
 },
@@ -34,7 +34,7 @@
 "segs": [
 [
 "annoyed",
-"Patron kim?!"
+"Patron kim o?!"
 ]
 ]
 },
@@ -42,7 +42,7 @@
 "segs": [
 [
 "polite",
-"Kedi şimdi asansörde. Köfte de ağzında."
+"Kedi şu an asansörde. Ağzında köfteyle."
 ]
 ]
 },
@@ -50,7 +50,7 @@
 "segs": [
 [
 "flustered",
-"Çıkarın onu! Asansör ne zaman çalışır?"
+"Çıkarın lütfen! Asansör ne zaman olur?"
 ]
 ]
 },
@@ -66,11 +66,11 @@
 "segs": [
 [
 "sad",
-"Aman, zavallı…"
+"Aman, zavallı..."
 ],
 [
 "gentle",
-"Yarın ona da yaparım."
+"Yarın onunkini de yaparım."
 ]
 ]
 }

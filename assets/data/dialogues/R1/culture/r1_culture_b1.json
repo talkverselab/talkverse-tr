@@ -35,46 +35,50 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Para hazır mı? Sıra bize geliyor.",
-   "rd": "파라 하즈르 므? 스라 비제 겔리요르.",
+   "tl": "Para hazır mı? Sıra bizde.",
+   "rd": "파라 하즈르 므? 스라 비즈데.",
    "ko": "돈 준비됐어? 우리 차례 온다.",
    "note": "sıra = 차례",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Hazır. Geline mi takıyoruz?",
-   "rd": "하즈르. 겔리네 미 타크요루즈?",
+   "tl": "Hazır. Gelin'e mi takacağız?",
+   "rd": "하즈르. 겔리네 미 타카자으즈?",
    "ko": "됐어. 신부한테 다는 거야?",
    "note": "gelin = 신부",
    "tags": [],
    "new": [
     "gelin"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Aynen. Sonra mikrofondan söylüyorlar.",
-   "rd": "아이넨. 손라 믹로폰단 쇠일뤼요를라르.",
+   "tl": "Aynen. Sonra mikrofonda söyle.",
+   "rd": "아이넨. 손라 믹로폰다 쇠일레.",
    "ko": "맞아. 그다음에 마이크로 말해 줘.",
-   "note": "mikrofon = 마이크",
+   "note": "aynen = 맞아",
    "tags": [
     "expr:aynen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Ne? Herkes duyuyor mu?",
-   "rd": "네? 헤르케스 두유요르 무?",
+   "tl": "Ne? Herkes duyacak mı?",
+   "rd": "네? 헤르케스 두야작 므?",
    "ko": "뭐? 다 듣는다고?",
    "note": "duymak = 듣다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -87,44 +91,49 @@
     "expr:ne kadar",
     "expr:tabii"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "{name} adına on lira!",
-   "rd": "{name} 아드나 온 리라!",
+   "tl": "{name}, 10 lira!",
+   "rd": "{name}, 10 리라!",
    "ko": "{name} 님, 10리라!",
-   "note": "on lira = 10리라 — 반전: 식장이 조용해진다",
+   "note": "on lira = 10리라",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Eyvah! Müzik neden durdu?",
-   "rd": "에이바흐! 뮈직 네덴 두르두?",
+   "tl": "Eyvah! Müzik niye durdu?",
+   "rd": "에이바흐! 뮈직 니예 두르두?",
    "ko": "헉! 음악이 왜 멈춰?",
    "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Görüşürüz. Ben seni tanımıyorum.",
-   "rd": "괴뤼쉬뤼즈. 벤 세니 타느므요룸.",
+   "tl": "Görüşürüz. Seni tanımıyorum.",
+   "rd": "괴뤼쉬뤼즈. 세니 타느므요룸.",
    "ko": "잘 가. 나 너 모르는 사람이야.",
-   "note": "tanımak = 알다(사람을)",
+   "note": "görüşürüz = 잘 가",
    "tags": [
     "expr:görüşürüz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

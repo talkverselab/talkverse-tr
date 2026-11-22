@@ -41,39 +41,43 @@
    "tags": [],
    "new": [
     "satış"
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Bence müşterilere indirim mesajı gönderelim.",
-   "rd": "벤제 뮈시테릴레레 인디림 메사즈 괸데렐림.",
+   "tl": "Bence müşterilere indirim mesajı atsak iyi olur.",
+   "rd": "벤제 뮈시테릴레레 인디림 메사즈 아트삭 이이 올루르.",
    "ko": "제 생각엔 고객들한테 할인 문자를 보내면 좋겠어요.",
    "note": "bence = 제 생각엔",
    "tags": [
     "expr:bence"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "C",
-   "tl": "Başka? Hiç kimse yok mu?",
-   "rd": "바시카? 히치 킴세 욕 무?",
+   "tl": "Başka? Kimse yok mu?",
+   "rd": "바시카? 킴세 욕 무?",
    "ko": "다른 건요? 아무도 없어요?",
    "note": "hiç kimse = 아무도",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Müdürüm, ben bir şey söyledim…",
-   "rd": "뮈뒤륌, 벤 비르 셰이 쇠일레딤…",
+   "tl": "Müdürüm, ben az önce bir şey söyledim ama…",
+   "rd": "뮈뒤륌, 벤 아즈 왼제 비르 셰이 쇠일레딤 아마…",
    "ko": "부장님, 제가 뭐 좀 말씀드렸는데요…",
    "note": "müdürüm = 부장님(내 상사)",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 5,
@@ -85,50 +89,55 @@
    "tags": [
     "expr:neyse"
    ],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Emre, bu adam beni duyuyor mu?",
-   "rd": "엠레, 부 아담 베니 두유요르 무?",
+   "tl": "Emre, bu adam beni duyuyor mu ya?",
+   "rd": "엠레, 부 아담 베니 두유요르 무 야?",
    "ko": "Emre, 이 사람 내 말 들리긴 해?",
    "note": "duymak = 듣다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Müdürüm, müşterilere indirim mesajı gönderelim.",
-   "rd": "뮈뒤륌, 뮈시테릴레레 인디림 메사즈 괸데렐림.",
+   "tl": "Müdürüm, müşterilere indirim mesajı atalım.",
+   "rd": "뮈뒤륌, 뮈시테릴레레 인디림 메사즈 아탈름.",
    "ko": "부장님, 고객들한테 할인 문자를 보내시죠.",
    "note": "gönderelim = 보내죠",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Harika, işte fikir budur! Helal olsun Emre!",
-   "rd": "하리카, 이시테 피키르 부두르! 헬랄 올순 엠레!",
+   "tl": "Harika, işte bu fikir! Helal olsun Emre!",
+   "rd": "하리카, 이시테 부 피키르! 헬랄 올순 엠레!",
    "ko": "훌륭해요, 이게 바로 아이디어죠! 역시 Emre!",
-   "note": "helal olsun = 대단해, 인정 — 반전: 같은 말인데 박수",
+   "note": "harika = 훌륭해요",
    "tags": [
     "expr:harika",
     "expr:helal olsun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Fikir benim değil. {name} söyledi.",
-   "rd": "피키르 베님 데일. {name} 쇠일레디.",
+   "tl": "Benim fikrim değil. {name} söyledi.",
+   "rd": "베님 픽림 데일. {name} 쇠일레디.",
    "ko": "제 아이디어 아니에요. {name} 씨가 말했어요.",
    "note": "benim değil = 내 것이 아니다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 10,
@@ -138,7 +147,8 @@
    "ko": "누구요? 그게 누구죠?",
    "note": "kim = 누구",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 11,
@@ -151,10 +161,12 @@
     "expr:boş ver",
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

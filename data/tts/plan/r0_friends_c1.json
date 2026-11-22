@@ -8,11 +8,11 @@
 "segs": [
 [
 "neutral",
-"Neredesin?"
+"Neredesin ya sen?"
 ],
 [
 "teasing",
-"Kahven soğuyor."
+"Kahven buz oldu."
 ]
 ]
 },
@@ -20,7 +20,11 @@
 "segs": [
 [
 "flustered",
-"Yoldayım! Az kaldı."
+"Yoldayım!"
+],
+[
+"flustered",
+"Az kaldı."
 ]
 ]
 },
@@ -28,7 +32,7 @@
 "segs": [
 [
 "teasing",
-"Hangi yoldasın?"
+"Hangi sokaktasın peki?"
 ]
 ]
 },
@@ -36,7 +40,7 @@
 "segs": [
 [
 "flustered",
-"Şey… büyük yolda."
+"Ee... ana cadde."
 ]
 ]
 },
@@ -44,7 +48,7 @@
 "segs": [
 [
 "teasing",
-"Kanka, pencereye bak."
+"Ya, camdan bak bi."
 ]
 ]
 },
@@ -52,7 +56,11 @@
 "segs": [
 [
 "surprised",
-"Yok artık! Neredesin sen?!"
+"Yok artık!"
+],
+[
+"surprised",
+"Sen neredesin?!"
 ]
 ]
 },
@@ -60,8 +68,12 @@
 "segs": [
 [
 "amused",
-"Evinin önünde. Pijaman çok güzel 😂",
-"Evinin önünde. Pijaman çok güzel"
+"Senin evinin önündeyim."
+],
+[
+"amused",
+"Pijama çok tatlı 😂",
+"Pijama çok tatlı"
 ]
 ]
 },
@@ -69,7 +81,12 @@
 "segs": [
 [
 "flustered",
-"Öldüm. Beş dakika!"
+"Öldüm."
+],
+[
+"flustered",
+"5 dakika!",
+"beş dakika!"
 ]
 ]
 }

@@ -8,7 +8,7 @@
 "segs": [
 [
 "gentle",
-"Alo, neredesin? Bütün gün ses yok."
+"Alo, neredesin? Bütün gün sessizsin."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "worried",
-"Bayramda tek başına ne yapıyorsun?"
+"Bayramda yalnız ne yapıyorsun?"
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "sad",
-"Hiç. Makarna yaptım, önemli değil."
+"Hiç. Makarna kaynattım, önemli değil."
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "sad",
-"Olsun, ben alıştım. Sorun yok."
+"Olsun, alışığım. Sorun yok."
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "gentle",
-"Annem sofrayı kurdu. Sana da tabak koymuş."
+"Annem sofra kurdu. Senin tabağın da var."
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "surprised",
-"Bana mı? Ben oraya gelmiyorum ki…"
+"Bana mı? Ben oraya gitmiyorum ki..."
 ]
 ]
 },
@@ -72,11 +72,11 @@
 "segs": [
 [
 "gentle",
-"\"O da benim çocuğum\" diyor."
+"\"O da benim çocuğum\" dedi."
 ],
 [
 "cheerful",
-"Kanka, pencereye bak."
+"Kanka, bak pencereye."
 ]
 ]
 },
@@ -88,7 +88,7 @@
 ],
 [
 "sad",
-"Ben ağlıyorum galiba."
+"Galiba ağlıyorum."
 ]
 ]
 },
@@ -96,11 +96,11 @@
 "segs": [
 [
 "gentle",
-"Ağlama, in."
+"Ağlama, in aşağı."
 ],
 [
 "cheerful",
-"Annemin elini öp, harçlık da var."
+"Annemin elini öp, bayram harçlığı da var."
 ]
 ]
 }

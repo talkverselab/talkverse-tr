@@ -44,54 +44,59 @@
    "ko": "오늘 저녁에 축구 있어. 동네 찻집에서 볼 거야, 와.",
    "note": "maç = 경기",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Futboldan hiç anlamam ama olur. Ben kimi tutuyorum?",
-   "rd": "푸트볼단 히치 안라맘 아마 올루르. 벤 키미 투투요룸?",
+   "tl": "Futboldan hiç anlamam ama olur. Kimi tutuyorum ben?",
+   "rd": "푸트볼단 히치 안라맘 아마 올루르. 키미 투투요룸 벤?",
    "ko": "축구는 하나도 모르지만 좋아. 나 누구 응원해?",
-   "note": "tutmak = 응원하다",
+   "note": "olur = 좋아, 괜찮아",
    "tags": [
     "expr:olur"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Beni dinle. Sarılar bizim, onları tut. Başka bir şey söyleme.",
-   "rd": "베니 딘레. 사를라르 비짐, 온라르 툿. 바시카 비르 셰이 쇠일레메.",
+   "tl": "İyi dinle. Sarı takım bizim taraf, onları tut. Başka bir şey söyleme.",
+   "rd": "이이 딘레. 사르 타큼 비짐 타라프, 온라르 툿. 바시카 비르 셰이 쇠일레메.",
    "ko": "내 말 잘 들어. 노란 팀이 우리 편이야, 걔네 응원해. 딴말은 하지 마.",
    "note": "sarılar = 노란 팀",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Tamam, anladım. Sarılar bizim, başka bir şey yok.",
-   "rd": "타맘, 안라듬. 사를라르 비짐, 바시카 비르 셰이 욕.",
+   "tl": "Tamam, anladım. Sarı takım bizim, gerisi yok.",
+   "rd": "타맘, 안라듬. 사르 타큼 비짐, 게리시 욕.",
    "ko": "알았어, 이해했어. 노란 팀이 우리 편, 그 외엔 없음.",
    "note": "anladım = 알겠어",
    "tags": [
     "expr:tamam",
     "expr:anladım"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Hoş geldin! Emre'nin arkadaşı mısın? Çay, kahve, ne istersen söyle.",
-   "rd": "호시 겔딘! 엠레닌 아르카다시 므슨? 차이, 카흐베, 네 이스테르센 쇠일레.",
+   "tl": "Hoş geldin! Emre'nin arkadaşı mısın? Çay kahve ne istersen söyle.",
+   "rd": "호시 겔딘! 엠레닌 아르카다시 므슨? 차이 카흐베 네 이스테르센 쇠일레.",
    "ko": "어서 와! Emre 친구야? 차든 커피든 뭐든 말해.",
    "note": "ne istersen = 뭐든 원하는 대로",
    "tags": [
     "expr:hoş geldin"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 6,
@@ -104,17 +109,19 @@
     "expr:sağ olun",
     "expr:lütfen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Başladı. Sakın bağırma, burada herkes çok ciddi.",
-   "rd": "바실라드. 사큰 바으르마, 부라다 헤르케스 촉 지디.",
+   "tl": "Başladı. Sakın bağırma, buradakiler çok ciddi.",
+   "rd": "바실라드. 사큰 바으르마, 부라다킬레르 촉 지디.",
    "ko": "시작했어. 절대 소리 지르지 마, 여기 다들 엄청 진지해.",
    "note": "sakın = 절대 ~하지 마",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 8,
@@ -122,105 +129,128 @@
    "tl": "Gol! Vay be, harika gol! Yaşasın!",
    "rd": "골! 바이 베, 하리카 골! 야샤슨!",
    "ko": "골! 와 대박, 끝내주는 골! 야호!",
-   "note": "yaşasın = 야호",
+   "note": "vay be = 와 / harika = 끝내주다 / yaşasın = 야호",
    "tags": [
     "expr:vay be",
     "expr:harika",
     "expr:yaşasın"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Bir dakika. O gol onların golü. Sen kimi tutuyorsun?",
-   "rd": "비르 다키카. 오 골 온라른 골뤼. 센 키미 투투요르순?",
+   "tl": "Bir dakika. O gol karşı tarafın. Sen kimi tutuyorsun?",
+   "rd": "비르 다키카. 오 골 카르시 타라픈. 센 키미 투투요르순?",
    "ko": "잠깐. 그 골은 저쪽 골인데. 너 누구 응원해?",
-   "note": "onların = 저쪽의 — 반전",
+   "note": "bir dakika = 잠깐",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Eyvah. Ben hepsine sevindim. Gol güzel bir şey, değil mi?",
-   "rd": "에이바흐. 벤 헵시네 세빈딤. 골 귀젤 비르 셰이, 데일 미?",
+   "tl": "Eyvah. Ben her golü seviyorum. Gol güzel değil mi?",
+   "rd": "에이바흐. 벤 헤르 골뤼 세비요룸. 골 귀젤 데일 미?",
    "ko": "헉. 전 골이면 다 좋아서요. 골은 좋은 거잖아요?",
-   "note": "sevinmek = 기뻐하다",
+   "note": "eyvah = 헉, 아차",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 11,
    "speaker": "C",
-   "tl": "Gençler, duydunuz mu? Bu masada karşı takımdan biri var!",
-   "rd": "겐칠레르, 두이두누즈 무? 부 마사다 카르시 타큼단 비리 바르!",
+   "tl": "Çocuklar, duydunuz mu? Bu masada karşı takımdan biri var!",
+   "rd": "초주클라르, 두이두누즈 무? 부 마사다 카르시 타큼단 비리 바르!",
    "ko": "얘들아, 들었냐? 이 테이블에 상대 팀 사람 있다!",
    "note": "karşı takım = 상대 팀",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Emre, otuz kişi bana bakıyor. Eve gitmeli miyim şimdi?",
-   "rd": "엠레, 오투즈 키시 바나 바크요르. 에베 기트멜리 미임 심디?",
+   "tl": "Emre, otuz kişi bana bakıyor. Eve mi gitmem lazım şimdi?",
+   "rd": "엠레, 오투즈 키시 바나 바크요르. 에베 미 기트멤 라즘 심디?",
    "ko": "Emre, 서른 명이 날 보고 있어. 나 지금 집에 가야 해?",
    "note": "gitmeli miyim = 가야 해?",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 13,
    "speaker": "B",
-   "tl": "Amca, bir dakika. O benimle geldi, benimle de çıkar.",
-   "rd": "암자, 비르 다키카. 오 베님레 겔디, 베님레 데 츠카르.",
+   "tl": "Abi, bir dakika. Bu benimle geldi, çıkarken de benimle çıkacak.",
+   "rd": "아비, 비르 다키카. 부 베님레 겔디, 츠카르켄 데 베님레 츠카작.",
    "ko": "아저씨, 잠깐요. 얘는 나랑 왔고, 나갈 때도 나랑 나가요.",
    "note": "benimle = 나랑",
    "tags": [
     "expr:bir dakika",
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 14,
    "speaker": "C",
-   "tl": "Tamam Emre, sen bilirsin. Hadi oturun, ikinci yarı başlıyor.",
-   "rd": "타맘 엠레, 센 빌리르신. 하디 오투룬, 이킨지 야르 바실르요르.",
+   "tl": "Tamam Emre, sen halledersin. Oturun, ikinci yarı başlıyor.",
+   "rd": "타맘 엠레, 센 할레데르신. 오투룬, 이킨지 야르 바실르요르.",
    "ko": "알았다 Emre, 네가 알아서 해. 자 앉아, 후반 시작한다.",
    "note": "sen bilirsin = 네가 알아서 해",
    "tags": [
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 15,
    "speaker": "A",
-   "tl": "Benimle geldi, benimle çıkar. Bunu bir daha söyler misin?",
-   "rd": "베님레 겔디, 베님레 츠카르. 부누 비르 다하 쇠일레르 미신?",
+   "tl": "Benimle geldi, benimle çıkacak. Bir daha söyler misin?",
+   "rd": "베님레 겔디, 베님레 츠카작. 비르 다하 쇠일레르 미신?",
    "ko": "나랑 왔고, 나랑 나간다. 그거 한 번 더 말해 줄래?",
    "note": "bir daha = 한 번 더",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 16,
    "speaker": "B",
-   "tl": "Sarılar bizim. Sen de bizimsin. Otur.",
-   "rd": "사를라르 비짐. 센 데 비짐신. 오투르.",
+   "tl": "Sarı takım bizim taraf. Sen de bizim tarafsın. Otur.",
+   "rd": "사르 타큼 비짐 타라프. 센 데 비짐 타라프슨. 오투르.",
    "ko": "노란 팀은 우리 편. 너도 우리 편. 앉아.",
    "note": "bizimsin = 넌 우리 편이야",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Sarı takım bizim taraf."
+    ],
+    [
+     "shy",
+     "Sen de bizim tarafsın."
+    ],
+    [
+     "gentle",
+     "Otur."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

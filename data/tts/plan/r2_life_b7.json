@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Müşteri hizmetlerine hoş geldiniz. Size nasıl yardımcı olabilirim?"
+"Hoş geldiniz, müşteri hizmetleri. Nasıl yardımcı olayım?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "polite",
-"Merhaba. Üç gündür internet yok."
+"Merhaba. Üç gündür internetim çalışmıyor."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "polite",
-"Üzgünüm. Modemi kapatıp açtınız mı?"
+"Özür dilerim. Modemi kapatıp açmayı denediniz mi?"
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "annoyed",
-"Evet, on kere kapatıp açtım."
+"Evet, tam on kere yaptım."
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "annoyed",
-"Tekrar mı? Modem yanmıyor, sorun orada!"
+"Yine mi? Modem açılmıyor, sorun o ya!"
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "polite",
-"Modem yanmıyorsa, önce modemi açın."
+"Modem açılmıyorsa önce onu açın lütfen."
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "annoyed",
-"Ciddi misiniz? Beni dinliyor musunuz?"
+"Ciddi misiniz? Beni dinliyor musunuz gerçekten?"
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "polite",
-"Sizi çok iyi anlıyorum. Modemi kapatıp açtınız mı?"
+"Anlıyorum efendim. Modemi kapatıp açmayı denediniz mi?"
 ]
 ]
 },
@@ -80,7 +80,7 @@
 "segs": [
 [
 "shout",
-"Allah Allah! Siz makine misiniz, insan mı?"
+"Allah allah! Makine misiniz, insan mısınız?"
 ]
 ]
 },
@@ -88,7 +88,7 @@
 "segs": [
 [
 "polite",
-"Görüşmemizi beş üzerinden puanlar mısınız?"
+"Bu görüşmeyi beş üzerinden puanlar mısınız?"
 ]
 ]
 },
@@ -96,7 +96,7 @@
 "segs": [
 [
 "teasing",
-"Modemi kapatıp açın."
+"Modemi kapatıp açın lütfen."
 ]
 ]
 }

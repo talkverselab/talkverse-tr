@@ -1,0 +1,26 @@
+=== r3_life_b3
+kind: long
+title: 하루 관리인
+emoji: 🗝️
+scene: Kapıcı 가 시골에 가며 하루만 건물을 맡겼다. 쉬워 보였다
+speakers: A={name}, B=Kapıcı, C=Komşu, D=Teyze
+register: mixed
+twist: 11 chaos
+purpose: study_abroad work_abroad
+goal: hemen·bir dakika 로 몰려드는 부탁 처리하기
+expressions: ne var; olur; günaydın; lütfen; geliyorum; tamam
+B | Bir ricam var. Bugün köye gidiyorum, binaya bakar mısınız? | 부탁이 하나 있어요. 오늘 시골에 가는데, 건물 좀 봐 주시겠어요? |  | emotion=polite
+A | Ben mi? Olur, ne var ki? Sadece bir gün. | 저요? 좋아요, 뭐 어렵겠어요? 하루뿐인데요. | olur = 좋아요 | emotion=cheerful
+B | Çok kolay. Anahtar burada. Sabah ekmek, akşam çöp. | 아주 쉬워요. 열쇠는 여기요. 아침엔 빵, 저녁엔 쓰레기요. |  | emotion=cheerful
+C | Günaydın. Yedinci kata iki ekmek, bir gazete. Hemen. | 좋은 아침이에요. 7층에 빵 두 개, 신문 하나요. 당장요. | günaydın = 좋은 아침 | emotion=stiff
+A | Hemen mi? Asansör yok ki! Tamam, geliyorum. | 당장요? 엘리베이터가 없는데요! 네, 가요. | geliyorum = 가요 | emotion=surprised
+D | Evladım, musluk akıyor. Kapak da açılmıyor, gel bak. | 얘야, 수도꼭지가 샌다. 병뚜껑도 안 열리고, 와 봐라. |  | emotion=gentle
+A | Teyze, ben kapıcı değilim! Sadece bugün… | 아주머니, 저 관리인 아니에요! 오늘만… |  | emotion=flustered
+D | Bugün sen kapıcısın. Hadi, ekmeği de ver. | 오늘은 네가 관리인이지. 자, 빵도 줘. |  | emotion=teasing
+C | Kapıcı! Yan dairenin köpeği yine havlıyor. Bir şey yapın lütfen! | 관리인님! 옆집 개가 또 짖어요. 어떻게 좀 해 주세요! | lütfen = 주세요 | emotion=annoyed
+A | Bir dakika! Bu ekmek kimin, bu çöp kimin? | 잠깐만요! 이 빵은 누구 거고, 이 쓰레기는 누구 거예요? |  | emotion=flustered
+C | Bana çöp getirdiniz! Benim ekmeğim nerede? | 저한테 쓰레기를 갖다주셨어요! 제 빵 어디 있어요? |  | emotion=annoyed
+D | Ekmek çöplüğe gitmiş evladım. Patron yiyor. | 빵은 쓰레기장으로 갔다더라, 얘야. 파트론이 먹고 있어. |  | emotion=amused
+A | Ölüyorum. Yedinci katı, on kez. Artık bacak yok. | 죽겠어요. 7층을, 열 번이요. 이제 다리가 없어요. |  | emotion=sad
+B | Merhaba, geldim! Bina nasıl? Asansör? | 안녕하세요, 저 왔어요! 건물은 어때요? 엘리베이터는요? |  | emotion=cheerful
+A | Yarın. Kolay gelsin. | 내일요. 수고하세요. |  | emotion=stiff

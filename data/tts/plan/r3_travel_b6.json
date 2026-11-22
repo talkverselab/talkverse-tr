@@ -9,7 +9,7 @@
 "segs": [
 [
 "worried",
-"Nemrut'ta söylediğin şeyi konuşacak mıyız, yoksa unuttun mu?"
+"Nemrut'ta söylediğini konuşacak mıyız, yoksa unuttun mu?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "sad",
-"Elif, kedi güzel ama cevap vermedin. Uçağım bir saat sonra."
+"Elif, kedi güzel ama cevap vermedin. Uçak bir saat sonra."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "cheerful",
-"Bir saat mi? Çok vakit var. Su alalım mı, simit alalım mı?"
+"Bir saat mi? Çok zaman var. Su mu alalım, simit mi?"
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "annoyed",
-"Simit istemiyorum, seni dinlemek istiyorum. Bir kez olsun ciddi ol."
+"Simit istemiyorum, senin sözünü istiyorum. Bir kere ciddi ol."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "sad",
-"Üç gündür mesajlarıma da bakmıyorsun. Hayırdır, ne oldu sana?"
+"Üç gündür mesajlarımı okumuyorsun. Hayırdır, ne oldu?"
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "flustered",
-"Bakıyorum, hepsini okudum. Bak, oradaki kedi sana bakıyor."
+"Okuyorum, hepsini okudum. Bak, şu kedi sana bakıyor."
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "polite",
-"{city} uçağının son yolcuları, lütfen kapıya geliniz."
+"{city} uçuşunun son yolcuları kapıya gelsin lütfen."
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "sad",
-"Tamam, gidiyorum. Son kez soruyorum, Elif, bana bir şey söyleyecek misin?"
+"Tamam, gidiyorum. Son kez soruyorum Elif, bana söyleyecek bir şeyin var mı?"
 ]
 ]
 },
@@ -97,7 +97,7 @@
 "segs": [
 [
 "shout",
-"Kedi yok! Etrafta hiç kedi yok, başından beri yok!"
+"Kedi yok! Etrafta tek kedi yok, baştan beri yoktu!"
 ]
 ]
 },
@@ -105,7 +105,7 @@
 "segs": [
 [
 "sad",
-"Biliyorum. Hiç kedi yoktu."
+"Biliyorum. Kedi zaten yoktu."
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "sad",
-"Neden yapıyorsun bunu? Bir şey söyle, lütfen."
+"Neden böyle yapıyorsun? Bir şey söyle, lütfen."
 ]
 ]
 },
@@ -125,7 +125,7 @@
 ],
 [
 "gentle",
-"Dönüş biletini al, sonra söylerim."
+"Dönüş bileti al, o zaman söylerim."
 ]
 ]
 },
@@ -133,7 +133,7 @@
 "segs": [
 [
 "gentle",
-"Aldım bile."
+"Zaten aldım."
 ],
 [
 "teasing",

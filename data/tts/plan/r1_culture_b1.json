@@ -9,7 +9,7 @@
 "segs": [
 [
 "excited",
-"Para hazır mı? Sıra bize geliyor."
+"Para hazır mı? Sıra bizde."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "cheerful",
-"Hazır. Geline mi takıyoruz?"
+"Hazır. Gelin'e mi takacağız?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "cheerful",
-"Aynen. Sonra mikrofondan söylüyorlar."
+"Aynen. Sonra mikrofonda söyle."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "surprised",
-"Ne? Herkes duyuyor mu?"
+"Ne? Herkes duyacak mı?"
 ]
 ]
 },
@@ -49,7 +49,8 @@
 "segs": [
 [
 "shout",
-"{name} adına on lira!"
+"{name}, 10 lira!",
+"{name}, on lira!"
 ]
 ]
 },
@@ -57,7 +58,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah! Müzik neden durdu?"
+"Eyvah! Müzik niye durdu?"
 ]
 ]
 },
@@ -65,7 +66,7 @@
 "segs": [
 [
 "teasing",
-"Görüşürüz. Ben seni tanımıyorum."
+"Görüşürüz. Seni tanımıyorum."
 ]
 ]
 }

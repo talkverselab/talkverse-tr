@@ -9,7 +9,7 @@
 "segs": [
 [
 "polite",
-"Yirmi dakika mola var, efendim. Buyurun."
+"Yirmi dakika mola efendim, buyurun inin."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "cheerful",
-"Yirmi dakika mı? Harika, bir çorba içerim."
+"Yirmi dakika mı? Tamam, bir çorba içeyim."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "worried",
-"Evladım, otobüsün gidiyor galiba."
+"Evladım, otobüsün kalkıyor gibi."
 ]
 ]
 },
@@ -33,11 +33,11 @@
 "segs": [
 [
 "shout",
-"Yok artık, durun!"
+"Yok artık!"
 ],
 [
 "flustered",
-"Çantam, telefonum, her şey içinde!"
+"Durun, çantam telefonum hepsi içeride!"
 ]
 ]
 },
@@ -45,7 +45,7 @@
 "segs": [
 [
 "shout",
-"Koş, koş! Bağır, muavin duyar."
+"Koş koş! Bağır, muavin duyar."
 ]
 ]
 },
@@ -53,7 +53,7 @@
 "segs": [
 [
 "shout",
-"Durun, bir dakika lütfen! Yolcu var!"
+"Durun bir dakika! Yolcu kaldı!"
 ]
 ]
 },
@@ -61,7 +61,7 @@
 "segs": [
 [
 "surprised",
-"Aman, durun! Bir yolcu eksik!"
+"Aman, durdurun! Bir yolcu eksik!"
 ]
 ]
 },
@@ -69,11 +69,11 @@
 "segs": [
 [
 "shout",
-"Benim, yolcu benim!"
+"Benim ben!"
 ],
 [
 "annoyed",
-"Yirmi dakika demiştiniz!"
+"Yolcu benim, yirmi dakika demiştiniz!"
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "polite",
-"Yirmi dakikaydı efendim. Saatinize bakın, lütfen."
+"Yirmi dakikaydı efendim. Saatine bak."
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah, saatimi değiştirmemişim. Kusura bakmayın."
+"Kusura bakmayın, saati ayarlamamışım."
 ]
 ]
 },
@@ -105,7 +105,7 @@
 "segs": [
 [
 "sad",
-"Kolonya değil, su lütfen. Çorbam orada kaldı."
+"Kolonya değil, su lütfen. Çorbamı orada bıraktım."
 ]
 ]
 }

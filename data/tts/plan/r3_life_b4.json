@@ -9,7 +9,7 @@
 "segs": [
 [
 "cheerful",
-"Merhaba. Bugün maaş aldım. Defterdeki borcumu ödemeye geldim."
+"Merhaba. Bugün maaş aldım. Defterdeki borcu ödemeye geldim."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "polite",
-"Hoş geldiniz. Bir bakayım… Sizin borcunuz yok ki."
+"Hoş geldiniz. Bakayım… Borç yok."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "surprised",
-"Nasıl yok? Üç aydır her gün yazdınız. Ekmek, süt, çikolata."
+"Nasıl yok? Üç aydır her gün yazıyordunuz. Ekmek, süt, çikolata."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "polite",
-"Evet, yazdım. Sonra da sildim. Bakın, hepsinin üstü çizili."
+"Evet, yazdım. Sonra sildim. Bakın, hepsi çizilmiş."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "surprised",
-"Şaka mı bu? Bir yanlışlık var herhalde."
+"Şaka mı? Herhalde bir yanlışlık var."
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "polite",
-"Yanlışlık yok, çünkü para geldi. Her ayın başında."
+"Yanlışlık yok, para gelmiş. Her ayın başında."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "worried",
-"Kimden? Burada kimseyi tanımıyorum ki. Kim benim için öder?"
+"Kimden? Burada tanıdığım kimse yok. Kim benim yerime ödüyor?"
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "polite",
-"Söyleyemem, söz verdim. Ama bu mahallede herkesi doyurmak isteyen biri."
+"Söyleyemem, söz verdim. Ama bu mahalledeki herkesi doyurmak isteyen biri."
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "surprised",
-"Bir dakika. Her hafta bana tabak getiren biri mi?"
+"Bir dakika. Her hafta bana tabak getiren kişi mi?"
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "polite",
-"Ben bir şey demedim. Ekmeğiniz, buyurun."
+"Ben hiçbir şey söylemedim. Ekmek burada."
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "surprised",
-"Teyze! Bakkaldaki borcumu siz mi ödediniz?"
+"Teyze! Bakkal borcunu siz mi ödediniz?"
 ]
 ]
 },
@@ -97,7 +97,7 @@
 "segs": [
 [
 "gentle",
-"Hangi borç? Aman, sen yemek yedin mi?"
+"Hangi borç? Aman, yemek yedin mi?"
 ]
 ]
 },
@@ -105,7 +105,7 @@
 "segs": [
 [
 "sad",
-"Teyze, lütfen. Neden? Beni tanımıyorsunuz bile."
+"Teyze, lütfen. Neden? Beni pek tanımıyorsunuz ki."
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "gentle",
-"Oğlum da yıllarca uzakta okudu, canım. Orada biri ona da tabak verdi."
+"Bizim oğlan da uzun süre gurbette okudu evladım. Orada biri ona da tabak verdi."
 ]
 ]
 },
@@ -121,7 +121,7 @@
 "segs": [
 [
 "shy",
-"Teyze… şey… ne diyeceğimi bilmiyorum."
+"Teyze… Ben… Ne diyeceğimi bilmiyorum."
 ]
 ]
 },

@@ -37,12 +37,13 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Alo, neredesin? Bütün gün ses yok.",
-   "rd": "알로, 네레데신? 뷔튄 귄 세스 욕.",
+   "tl": "Alo, neredesin? Bütün gün sessizsin.",
+   "rd": "알로, 네레데신? 뷔튄 귄 세시즈신.",
    "ko": "여보세요, 어디야? 하루 종일 조용하네.",
-   "note": "ses yok = 소식 없다",
+   "note": "alo = 여보세요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 2,
@@ -50,35 +51,38 @@
    "tl": "Evdeyim. İstanbul boş, herkes memlekete gitti.",
    "rd": "에브데임. 이스탄불 보시, 헤르케스 멤레케테 기티.",
    "ko": "집이야. 이스탄불 텅 비었어, 다 고향 갔어.",
-   "note": "memleket = 고향",
+   "note": "boş = 텅 빈",
    "tags": [],
    "new": [
     "memleket"
-   ]
+   ],
+   "emotion": "sad"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Bayramda tek başına ne yapıyorsun?",
-   "rd": "바이람다 텍 바시나 네 야프요르순?",
+   "tl": "Bayramda yalnız ne yapıyorsun?",
+   "rd": "바이람다 얄느즈 네 야프요르순?",
    "ko": "명절에 혼자 뭐 해?",
-   "note": "bayram = 명절 · tek başına = 혼자",
+   "note": "bayram = 명절",
    "tags": [],
    "new": [
     "bayram"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Hiç. Makarna yaptım, önemli değil.",
-   "rd": "히치. 마카르나 얍틈, 외넴리 데일.",
+   "tl": "Hiç. Makarna kaynattım, önemli değil.",
+   "rd": "히치. 마카르나 카이나틈, 외넴리 데일.",
    "ko": "아무것도. 파스타 끓였어, 별거 아니야.",
-   "note": "makarna = 파스타",
+   "note": "önemli değil = 별거 아니야",
    "tags": [
     "expr:önemli değil"
    ],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   },
   {
    "num": 5,
@@ -86,90 +90,123 @@
    "tl": "Bayramda makarna mı? Yok artık.",
    "rd": "바이람다 마카르나 므? 욕 아르특.",
    "ko": "명절에 파스타? 말도 안 돼.",
-   "note": "bayramda = 명절에",
+   "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Olsun, ben alıştım. Sorun yok.",
-   "rd": "올순, 벤 알르시틈. 소룬 욕.",
+   "tl": "Olsun, alışığım. Sorun yok.",
+   "rd": "올순, 알르시음. 소룬 욕.",
    "ko": "괜찮아, 나 익숙해. 문제없어.",
-   "note": "alışmak = 익숙해지다",
+   "note": "olsun = 괜찮아",
    "tags": [
     "expr:olsun",
     "expr:sorun yok"
    ],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Annem sofrayı kurdu. Sana da tabak koymuş.",
-   "rd": "안넴 소프라이으 쿠르두. 사나 다 타박 코이무시.",
+   "tl": "Annem sofra kurdu. Senin tabağın da var.",
+   "rd": "안넴 소프라 쿠르두. 세닌 타바은 다 바르.",
    "ko": "엄마가 상 차리셨어. 네 접시도 놓으셨더라.",
-   "note": "sofra kurmak = 상 차리다 — 반전",
+   "note": "sofra = 상",
    "tags": [
     "simkung"
    ],
    "new": [
     "sofra"
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Bana mı? Ben oraya gelmiyorum ki…",
-   "rd": "바나 므? 벤 오라야 겔미요룸 키…",
+   "tl": "Bana mı? Ben oraya gitmiyorum ki...",
+   "rd": "바나 므? 벤 오라야 기트미요룸 키...",
    "ko": "나한테? 나 거기 안 가는데…",
-   "note": "oraya = 거기로",
+   "note": "tabağın = 네 접시",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "\"O da benim çocuğum\" diyor. Kanka, pencereye bak.",
-   "rd": "\"오 다 베님 초주움\" 디요르. 칸카, 펜제레예 박.",
+   "tl": "\"O da benim çocuğum\" dedi. Kanka, bak pencereye.",
+   "rd": "\"오 다 베님 초주움\" 데디. 칸카, 박 펜제레예.",
    "ko": "「걔도 내 자식」이래. 야, 창문 봐.",
-   "note": "çocuğum = 내 아이",
+   "note": "kanka = 야",
    "tags": [
     "expr:kanka",
     "expr:bak",
     "simkung",
     "callback:r0_friends_c1"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "\"O da benim çocuğum\" dedi."
+    ],
+    [
+     "cheerful",
+     "Kanka, bak pencereye."
+    ]
+   ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Can, aşağıda mısın? Ben ağlıyorum galiba.",
-   "rd": "잔, 아샤으다 므슨? 벤 알르요룸 갈리바.",
+   "tl": "Can, aşağıda mısın? Galiba ağlıyorum.",
+   "rd": "잔, 아샤으다 므슨? 갈리바 알르요룸.",
    "ko": "잔, 밑에 있어? 나 우는 것 같아.",
-   "note": "aşağıda = 아래에",
+   "note": "galiba = 것 같아",
    "tags": [
     "expr:galiba"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Can, aşağıda mısın?"
+    ],
+    [
+     "sad",
+     "Galiba ağlıyorum."
+    ]
+   ]
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Ağlama, in. Annemin elini öp, harçlık da var.",
-   "rd": "알라마, 인. 안네민 엘리니 욉, 하르칠륵 다 바르.",
+   "tl": "Ağlama, in aşağı. Annemin elini öp, bayram harçlığı da var.",
+   "rd": "알라마, 인 아샤으. 안네민 엘리니 욉, 바이람 하르칠르으 다 바르.",
    "ko": "울지 말고 내려와. 엄마 손에 입 맞춰, 세뱃돈도 있어.",
-   "note": "el öpmek = 손 입맞춤(명절 인사) · harçlık = 용돈",
+   "note": "in = 내려와",
    "tags": [],
-   "new": [
-    "harçlık"
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Ağlama, in aşağı."
+    ],
+    [
+     "cheerful",
+     "Annemin elini öp, bayram harçlığı da var."
+    ]
    ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

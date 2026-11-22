@@ -31,26 +31,28 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Alo? On dört numaradan arıyorum.",
-   "rd": "알로? 온 되르트 누마라단 아르요룸.",
+   "tl": "Alo? 14 numara.",
+   "rd": "알로? 14 누마라.",
    "ko": "여보세요? 14호실인데요.",
    "note": "alo = 여보세요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Buyurun efendim. Deniz görünen oda, değil mi?",
-   "rd": "부유룬 에펜딤. 데니즈 괴뤼넨 오다, 데일 미?",
+   "tl": "Buyurun efendim. Deniz manzaralı oda, değil mi?",
+   "rd": "부유룬 에펜딤. 데니즈 만자랄르 오다, 데일 미?",
    "ko": "네, 손님. 바다 보이는 방 맞으시죠?",
-   "note": "deniz = 바다 · görünen = 보이는",
+   "note": "buyurun = 네",
    "tags": [
     "expr:buyurun"
    ],
    "new": [
     "deniz"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 3,
@@ -60,7 +62,17 @@
    "ko": "네. 근데 여기 바다가 없어요.",
    "note": "ama = 근데",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Evet."
+    ],
+    [
+     "annoyed",
+     "Ama burada deniz yok."
+    ]
+   ]
   },
   {
    "num": 4,
@@ -68,17 +80,18 @@
    "tl": "Balkona çıkın, sağa bakın lütfen.",
    "rd": "발코나 츠큰, 사아 바큰 뤼트펜.",
    "ko": "발코니로 나가서 오른쪽을 보세요.",
-   "note": "balkona çıkın = 발코니로 나가세요",
+   "note": "lütfen = 주세요",
    "tags": [
     "expr:lütfen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Baktım. Allah allah, bina var.",
-   "rd": "박틈. 알라흐 알라흐, 비나 바르.",
+   "tl": "Baktım. Tuhaf, bina var.",
+   "rd": "박틈. 투하프, 비나 바르.",
    "ko": "봤어요. 이상하다, 건물이 있는데요.",
    "note": "bina = 건물 · allah allah = 어머 이상하네",
    "tags": [
@@ -86,42 +99,45 @@
    ],
    "new": [
     "bina"
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Biraz eğilin. Mavi bir şey var mı?",
-   "rd": "비라즈 에일린. 마비 비르 셰이 바르 므?",
+   "tl": "Biraz daha uzanın. Mavi bir şey görüyor musunuz?",
+   "rd": "비라즈 다하 우자는. 마비 비르 셰이 괴뤼요르 무수누즈?",
    "ko": "조금 더 몸을 내밀어 보세요. 파란 거 보이세요?",
    "note": "eğilmek = 몸을 기울이다",
    "tags": [],
-   "new": [
-    "eğilmek"
-   ]
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Küçük bir mavi! Başka oda var mı?",
-   "rd": "퀴췩 비르 마비! 바시카 오다 바르 므?",
-   "ko": "손톱만 한 파란색! 다른 방 있어요?",
-   "note": "başka oda = 다른 방 — 반전",
+   "tl": "Allah allah! Tırnak kadar mavi! Başka oda var mı?",
+   "rd": "알라흐 알라흐! 트르낙 카다르 마비! 바시카 오다 바르 므?",
+   "ko": "아이고! 손톱만 한 파란색! 다른 방 있어요?",
+   "note": "allah allah = 아이고",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "tsukkomi"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Yarın var efendim. Bu gece biraz eğilin.",
-   "rd": "야른 바르 에펜딤. 부 게제 비라즈 에일린.",
+   "tl": "Yarın var efendim. Bu gece biraz daha uzanın.",
+   "rd": "야른 바르 에펜딤. 부 게제 비라즈 다하 우자는.",
    "ko": "내일은 있어요, 손님. 오늘 밤은 조금 내밀어 보세요.",
    "note": "yarın var = 내일은 있다 — 정색하는 끝 줄",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

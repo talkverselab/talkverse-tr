@@ -8,7 +8,7 @@
 "segs": [
 [
 "gentle",
-"Aç kapıyı. Çorba getirdim."
+"Kapıyı aç. Çorba getirdim."
 ]
 ]
 },
@@ -28,7 +28,7 @@
 "segs": [
 [
 "gentle",
-"Dün sesin kötüydü. Geçmiş olsun."
+"Dün sesin bozuktu. Geçmiş olsun."
 ]
 ]
 },
@@ -36,7 +36,7 @@
 "segs": [
 [
 "tsukkomi",
-"Bir dakika, sen yemek yapmayı bilmiyorsun ki."
+"Bir dakika, sen yemek yapamıyorsun ki."
 ]
 ]
 },
@@ -44,7 +44,7 @@
 "segs": [
 [
 "neutral",
-"Bilmiyorum. Annemi aradım."
+"Yapamıyorum. Annemi aradım."
 ]
 ]
 },
@@ -56,7 +56,7 @@
 ],
 [
 "cheerful",
-"Bu çorba gerçekten güzel olmuş."
+"Bu çorba gerçekten güzel."
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "stiff",
-"İkincisi bu. İlk tencere yandı."
+"Bu ikinci. Birinci tencereyi yaktım."
 ]
 ]
 },
@@ -84,7 +84,7 @@
 "segs": [
 [
 "annoyed",
-"Hiç sorma. Annem “Mutfağa bir daha girme” dedi."
+"Hiç sorma. Annem \"bir daha mutfağa girme\" dedi."
 ]
 ]
 },
@@ -92,11 +92,11 @@
 "segs": [
 [
 "gentle",
-"Neden bu kadar uğraştın?"
+"Neden bu kadar zahmet ettin?"
 ],
 [
 "polite",
-"Ben iyiyim, yarın geçer."
+"Ben iyiyim, yarın düzelirim."
 ]
 ]
 },
@@ -104,7 +104,7 @@
 "segs": [
 [
 "shy",
-"Hemen iyileşme. Yarın yine geleceğim."
+"Çabuk iyileşme. Yarın yine geleceğim."
 ]
 ]
 },
@@ -112,7 +112,7 @@
 "segs": [
 [
 "shy",
-"Yarın yine mi? O zaman üçüncü tencere…"
+"Yarın yine? O zaman üçüncü tencere..."
 ]
 ]
 }

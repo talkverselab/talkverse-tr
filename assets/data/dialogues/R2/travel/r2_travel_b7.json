@@ -38,144 +38,161 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Niyet tut, evladım. Tavşan senin için seçecek.",
-   "rd": "니옛 툿, 에블라듬. 타브샨 세닌 이친 세체젝.",
+   "tl": "Dilek tut evladım. Tavşan çekecek.",
+   "rd": "딜렉 툿 에블라듬. 타브샨 체케젝.",
    "ko": "소원 빌어, 얘야. 토끼가 뽑아 줄 거야.",
    "note": "niyet tutmak = 소원을 빌다 · tavşan = 토끼",
    "tags": [],
    "new": [
-    "niyet",
     "tavşan"
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Elif, ben buna inanmıyorum ki. Bu bir tavşan.",
-   "rd": "엘리프, 벤 부나 이난므요룸 키. 부 비르 타브샨.",
+   "tl": "Elif, ben bunlara inanmam. Bu tavşan ya.",
+   "rd": "엘리프, 벤 분라라 이난맘. 부 타브샨 야.",
    "ko": "엘리프, 난 이런 거 안 믿는다니까. 이거 토끼잖아.",
    "note": "inanmak = 믿다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 3,
    "speaker": "C",
-   "tl": "Sus, sus. Bu tavşan her şeyi biliyor.",
-   "rd": "수스, 수스. 부 타브샨 헤르 셰이 빌리요르.",
+   "tl": "Şşşt, şşşt. Bu tavşan her şeyi biliyor.",
+   "rd": "스스트, 스스트. 부 타브샨 헤르 셰이 빌리요르.",
    "ko": "쉿, 쉿. 이 토끼는 다 알아.",
    "note": "sus = 조용히 해",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Bak, kâğıdı aldı. Hadi aç, oku.",
-   "rd": "박, 카으드 알드. 하디 아치, 오쿠.",
+   "tl": "Bak, kağıdı aldı. Hadi aç oku.",
+   "rd": "박, 카으드 알드. 하디 아치 오쿠.",
    "ko": "봐, 쪽지 물었다. 자 펴서 읽어 봐.",
-   "note": "kâğıt = 쪽지, 종이",
+   "note": "bak = 봐",
    "tags": [
     "expr:bak",
     "expr:hadi"
    ],
-   "new": [
-    "kâğıt"
-   ]
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "«Yanındaki kişi seni çok düşünüyor.» Gerçekten mi?",
-   "rd": "야는다키 키시 세니 촉 뒤쉬뉘요르. 게르첵텐 미?",
+   "tl": "“Yanındaki seni çok düşünüyor.” Gerçekten mi?",
+   "rd": "야는다키 세니 촉 뒤쉬뉘요르. 게르첵텐 미?",
    "ko": "「옆 사람이 당신을 많이 생각합니다.」 진짜요?",
-   "note": "yanındaki kişi = 옆 사람",
+   "note": "gerçekten mi = 진짜요",
    "tags": [
     "expr:gerçekten mi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "Vay be! Sence kim o?",
-   "rd": "바이 베! 센제 킴 오?",
+   "tl": "Vay be! Sence kim olabilir?",
+   "rd": "바이 베! 센제 킴 올라빌리르?",
    "ko": "와 대박! 네 생각엔 누구 같아?",
-   "note": "sence = 네 생각엔",
+   "note": "vay be = 와 대박",
    "tags": [
     "expr:vay be"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Yanımda kim var? Bu amca mı?",
-   "rd": "야늠다 킴 바르? 부 암자 므?",
+   "tl": "Yanımda kim var ki? Bu amca mı?",
+   "rd": "야늠다 킴 바르 키? 부 암자 므?",
    "ko": "내 옆에 누가 있지? 이 아저씨?",
    "note": "amca = 아저씨",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Ben evliyim, evladım. Bir daha seçelim.",
-   "rd": "벤 에블리임, 에블라듬. 비르 다하 세첼림.",
+   "tl": "Ben evliyim evladım. Hadi bir daha çekelim.",
+   "rd": "벤 에블리임 에블라듬. 하디 비르 다하 체켈림.",
    "ko": "난 결혼했다, 얘야. 한 번 더 뽑자.",
-   "note": "evli = 결혼한",
+   "note": "hadi = 자",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "«Yanındaki kişi bugün çok güzel.» Bu kâğıt garip.",
-   "rd": "야는다키 키시 부귄 촉 귀젤. 부 카읏 가립.",
+   "tl": "“Yanındaki bugün çok güzel.” Bu kağıt garip.",
+   "rd": "야는다키 부귄 촉 귀젤. 부 카읏 가립.",
    "ko": "「옆 사람은 오늘 아주 예쁩니다.」 이 쪽지 이상한데.",
    "note": "garip = 이상한",
    "tags": [
     "expr:çok güzel"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Hiç garip değil. Tavşan çok akıllı.",
-   "rd": "히치 가립 데일. 타브샨 촉 아클르.",
+   "tl": "Hiç garip değil. Tavşan akıllı işte.",
+   "rd": "히치 가립 데일. 타브샨 아클르 이시테.",
    "ko": "하나도 안 이상해. 토끼가 똑똑한 거지.",
    "note": "akıllı = 똑똑한",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Elif kızım, tavşan yoruldu. Yüz lira az.",
-   "rd": "엘리프 크즘, 타브샨 요룰두. 위즈 리라 아즈.",
+   "tl": "Elif, tavşan yoruldu. Yüz lira yaz.",
+   "rd": "엘리프, 타브샨 요룰두. 위즈 리라 야즈.",
    "ko": "엘리프야, 토끼 지쳤다. 100리라는 적어.",
-   "note": "yorulmak = 지치다 — 반전",
+   "note": "yorulmak = 지치다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Yüz lira mı? Bana bedava söyleseydin.",
-   "rd": "위즈 리라 므? 바나 베다바 쇠일레세이딘.",
+   "tl": "Yüz lira mı? Bana direkt söyleseydin.",
+   "rd": "위즈 리라 므? 바나 디렉트 쇠일레세이딘.",
    "ko": "100리라? 나한테 그냥 말하지 그랬어.",
    "note": "bedava = 공짜 · -seydin = ~했으면 좋았을 텐데",
    "tags": [
     "form:-seydin",
     "simkung"
    ],
-   "new": [
-    "bedava"
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Yüz lira mı?"
+    ],
+    [
+     "gentle",
+     "Bana direkt söyleseydin."
+    ]
    ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

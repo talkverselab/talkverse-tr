@@ -31,12 +31,13 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Çantanız iki kilo fazla.",
-   "rd": "찬타느즈 이키 킬로 파즐라.",
+   "tl": "Valiziniz iki kilo fazla efendim.",
+   "rd": "발리지니즈 이키 킬로 파즐라 에펜딤.",
    "ko": "가방이 2킬로 초과예요.",
    "note": "çanta = 가방 · kilo = 킬로 · fazla = 초과",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
@@ -48,7 +49,8 @@
    "tags": [
     "expr:ne kadar"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 3,
@@ -58,7 +60,8 @@
    "ko": "100달러입니다, 고객님.",
    "note": "efendim = 손님(남녀 공용)",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 4,
@@ -71,7 +74,17 @@
     "expr:çok pahalı",
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Çok pahalı!"
+    ],
+    [
+     "flustered",
+     "Bir dakika…"
+    ]
+   ]
   },
   {
    "num": 5,
@@ -81,42 +94,65 @@
    "ko": "뭐 하시는 거예요?",
    "note": "ne yapıyorsunuz = 뭐 하세요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Hepsini giyiyorum. Çanta şimdi nasıl?",
-   "rd": "헵시니 기이요룸. 찬타 심디 나슬?",
+   "tl": "Hepsini giyiyorum. Şimdi valiz nasıl?",
+   "rd": "헵시니 기이요룸. 심디 발리즈 나슬?",
    "ko": "다 입고 있어요. 이제 가방 어때요?",
-   "note": "giymek = 입다 — 반전",
+   "note": "giymek = 입다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "Hepsini giyiyorum."
+    ],
+    [
+     "cheerful",
+     "Şimdi valiz nasıl?"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Çanta tamam. Siz yürüyebiliyor musunuz?",
-   "rd": "찬타 타맘. 시즈 위뤼예빌리요르 무수누즈?",
+   "tl": "Valiz tamam. Siz yürüyebilir misiniz?",
+   "rd": "발리즈 타맘. 시즈 위뤼예빌리르 미시니즈?",
    "ko": "가방은 됐어요. 손님은 걸으실 수 있어요?",
    "note": "yürüyebilmek = 걸을 수 있다",
    "tags": [
     "form:-ebil"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Valiz tamam."
+    ],
+    [
+     "tsukkomi",
+     "Siz yürüyebilir misiniz?"
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Yürürüm. Yavaş yavaş yürürüm.",
-   "rd": "위뤼륌. 야바시 야바시 위뤼륌.",
+   "tl": "Yürürüm. Yavaş yavaş giderim.",
+   "rd": "위뤼륌. 야바시 야바시 기데림.",
    "ko": "걸어요. 천천히 걸으면 돼요.",
    "note": "yavaş yavaş = 천천히",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

@@ -40,14 +40,15 @@
    "tl": "Burada ayakkabı olmaz. Lütfen çıkarın.",
    "rd": "부라다 아야카브 올마즈. 뤼트펜 츠카른.",
    "ko": "여기선 신발 안 됩니다. 벗어 주세요.",
-   "note": "ayakkabı = 신발 · olmaz = 안 돼요",
+   "note": "olmaz = 안 됩니다",
    "tags": [
     "expr:olmaz",
     "expr:lütfen"
    ],
    "new": [
     "ayakkabı"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 2,
@@ -55,83 +56,116 @@
    "tl": "Tamam. Elif, burası çok güzel!",
    "rd": "타맘. 엘리프, 부라스 촉 귀젤!",
    "ko": "네. 엘리프, 여기 너무 예뻐!",
-   "note": "burası = 여기",
+   "note": "tamam = 알겠어",
    "tags": [
     "expr:tamam",
     "expr:çok güzel"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Tamam."
+    ],
+    [
+     "excited",
+     "Elif, burası çok güzel!"
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Dikkat et, kayıyor. Al, elimi tut.",
-   "rd": "디캇 엣, 카이으요르. 알, 엘리미 툿.",
+   "tl": "Dikkat et, kayıyor. Tut elimi.",
+   "rd": "디캇 엣, 카이으요르. 툿 엘리미.",
    "ko": "조심해, 미끄러워. 자, 내 손 잡아.",
    "note": "kaymak = 미끄러지다",
    "tags": [],
-   "new": [
-    "kaymak"
+   "new": [],
+   "segs": [
+    [
+     "worried",
+     "Dikkat et, kayıyor."
+    ],
+    [
+     "gentle",
+     "Tut elimi."
+    ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Çok mu kayıyor?",
-   "rd": "촉 무 카이으요르?",
+   "tl": "Çok mu kaygan?",
+   "rd": "촉 무 카이간?",
    "ko": "많이 미끄러워?",
    "note": "çok mu? = 많이?",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Çok! Hiç bırakma.",
-   "rd": "촉! 히치 브락마.",
+   "tl": "Çok! Asla bırakma.",
+   "rd": "촉! 아슬라 브락마.",
    "ko": "엄청! 절대 놓지 마.",
    "note": "hiç = 절대",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "worried",
+     "Çok!"
+    ],
+    [
+     "gentle",
+     "Asla bırakma."
+    ]
+   ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Ama bak, çocuklar oynuyor.",
-   "rd": "아마 박, 초주클라르 오이누요르.",
+   "tl": "Bak, çocuklar koşuyor ama.",
+   "rd": "박, 초주클라르 코슈요르 아마.",
    "ko": "근데 봐, 애들은 뛰어노는데.",
-   "note": "oynamak = 놀다",
+   "note": "bak = 봐",
    "tags": [
     "expr:bak"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Evet… kaymıyor zaten.",
-   "rd": "에벳… 카이므요르 자텐.",
+   "tl": "Ya… aslında kaygan değil.",
+   "rd": "야… 아슬른다 카이간 데일.",
    "ko": "응… 사실 안 미끄러워.",
    "note": "zaten = 사실, 어차피 — 들켰다",
    "tags": [
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Bırakmıyorum.",
-   "rd": "브락므요룸.",
+   "tl": "Bırakmam zaten.",
+   "rd": "브락맘 자텐.",
    "ko": "나 안 놓을 건데.",
    "note": "bırakmak = 놓다",
    "tags": [
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

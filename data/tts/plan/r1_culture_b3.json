@@ -9,6 +9,7 @@
 "segs": [
 [
 "worried",
+"Zeynep, saat 12. Komşular uyuyor.",
 "Zeynep, saat on iki. Komşular uyuyor."
 ]
 ]
@@ -57,7 +58,7 @@
 ],
 [
 "sad",
-"O türküyü babam çalardı."
+"O şarkı, babamın çaldığıydı."
 ]
 ]
 },
@@ -65,7 +66,7 @@
 "segs": [
 [
 "gentle",
-"Bir daha çalayım mı?"
+"Bir kez daha çalayım mı?"
 ]
 ]
 },
@@ -77,7 +78,7 @@
 ],
 [
 "cheerful",
-"Ben de sazımı getiriyorum."
+"Ben de sazımı getireyim."
 ]
 ]
 }

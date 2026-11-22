@@ -35,148 +35,161 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hoş geldiniz. Nasıl olsun?",
-   "rd": "호시 겔디니즈. 나슬 올순?",
-   "ko": "어서 오세요. 어떻게 해 드릴까요?",
-   "note": "nasıl olsun? = 어떻게 할까요?",
+   "tl": "Hoş geldiniz. Bugün ne yapalım?",
+   "rd": "호시 겔디니즈. 부귄 네 야팔름?",
+   "ko": "어서 오세요. 오늘은 어떻게 해 드릴까요?",
+   "note": "hoş geldiniz = 어서 오세요",
    "tags": [
     "expr:hoş geldiniz",
     "expr:olsun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Bilmiyorum. Biraz kısa, ama çok değil.",
-   "rd": "빌미요룸. 비라즈 크사, 아마 촉 데일.",
-   "ko": "모르겠어요. 조금 짧게요, 근데 많이는 말고요.",
-   "note": "kısa = 짧은",
+   "tl": "Bilmiyorum ya. Biraz kısaltın ama çok değil.",
+   "rd": "빌미요룸 야. 비라즈 크살튼 아마 촉 데일.",
+   "ko": "모르겠어요. 조금 짧게 해 주세요, 근데 많이는 말고요.",
+   "note": "bilmiyorum = 모르겠어요",
    "tags": [
     "expr:bilmiyorum"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Anladım. Arkası kısa mı, uzun mu?",
-   "rd": "안라듬. 아르카스 크사 므, 우준 무?",
-   "ko": "알겠습니다. 뒤쪽은요? 짧게요, 길게요?",
-   "note": "arkası = 뒤쪽",
+   "tl": "Anladım. Arkası nasıl olsun peki?",
+   "rd": "안라듬. 아르카스 나슬 올순 페키?",
+   "ko": "알겠습니다. 뒤쪽은 어떻게 할까요?",
+   "note": "anladım = 알겠습니다",
    "tags": [
     "expr:anladım"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Şey, kesin değil. Düşünüyorum.",
-   "rd": "셰이, 케신 데일. 뒤쉬뉘요룸.",
-   "ko": "저… 아직 확실하지 않아요. 생각 중이에요.",
-   "note": "kesin = 확실한",
+   "tl": "Şey... henüz kesin değilim. Hâlâ düşünüyorum.",
+   "rd": "셰이... 헤뉘즈 케신 데일림. 할라 뒤쉬뉘요룸.",
+   "ko": "저… 아직 확실하지 않아요. 계속 생각 중이에요.",
+   "note": "şey = 저…",
    "tags": [
     "expr:şey"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Kesin mi? Tamam, kesiyorum!",
-   "rd": "케신 미? 타맘, 케시요룸!",
-   "ko": "자르라고요? 네, 자를게요!",
-   "note": "kesin! = 자르세요 — 반전: 같은 소리, 다른 뜻",
+   "tl": "Kesin mi? Tamam, kesiyorum hemen!",
+   "rd": "케신 미? 타맘, 케시요룸 헤멘!",
+   "ko": "확실하다고? 네, 바로 자를게요!",
+   "note": "tamam = 네",
    "tags": [
     "expr:tamam"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Hayır, bir dakika! Kesin değil!",
-   "rd": "하이으르, 비르 다키카! 케신 데일!",
-   "ko": "아뇨, 잠깐만요! 확실한 게 아니라고요!",
+   "tl": "Hayır, durun! Kesin demedim ki!",
+   "rd": "하이으르, 두룬! 케신 데메딤 키!",
+   "ko": "아뇨, 잠깐만요! 확실하다는 뜻이 아니라고요!",
    "note": "hayır = 아니요",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Ne demek 'kesin değil'? Kestim bile.",
-   "rd": "네 데멕 케신 데일? 케스팀 빌레.",
-   "ko": "'kesin değil'이 무슨 말이에요? 벌써 잘랐는데요.",
+   "tl": "'Kesin değil' ne demek? Zaten kestim.",
+   "rd": "케신 데일 네 데멕? 자텐 케스팀.",
+   "ko": "'kesin değil'이 무슨 말이에요? 이미 잘랐는데요.",
    "note": "kestim bile = 벌써 잘랐다",
    "tags": [
     "expr:ne demek"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Aman! Ne kadar kestiniz?",
-   "rd": "아만! 네 카다르 케스티니즈?",
+   "tl": "Ay! Ne kadar kestiniz?",
+   "rd": "아이! 네 카다르 케스티니즈?",
    "ko": "아이고! 얼마나 자르셨어요?",
    "note": "ne kadar = 얼마나",
    "tags": [
     "expr:ne kadar",
     "expr:aman"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Az. Yani şurası az.",
-   "rd": "아즈. 야니 슈라스 아즈.",
-   "ko": "조금요. 그러니까… 이쪽은 조금요.",
+   "tl": "Birazcık. Şöyle... şurası biraz.",
+   "rd": "비라즈즉. 쇠일레... 슈라스 비라즈.",
+   "ko": "조금요. 그러니까… 이쪽은 조금.",
    "note": "şurası = 이쪽",
    "tags": [
     "expr:yani"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Ya burası? Burası neden yok?",
-   "rd": "야 부라스? 부라스 네덴 욕?",
+   "tl": "Peki burası? Neden yok burada?",
+   "rd": "페키 부라스? 네덴 욕 부라다?",
    "ko": "그럼 여기는요? 여기는 왜 없어요?",
    "note": "ya burası? = 여기는요?",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Önemli değil. Saç büyür, inşallah.",
-   "rd": "외넴리 데일. 사치 뷔위르, 인샬라흐.",
+   "tl": "Olsun. Saç uzar, herhalde.",
+   "rd": "올순. 사치 우자르, 헤르할데.",
    "ko": "괜찮아요. 머리는 자라요, 아마도요.",
-   "note": "büyür = 자란다",
+   "note": "olsun = 괜찮아요",
    "tags": [
     "expr:önemli değil",
     "expr:inşallah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Peki… şapka da satıyor musunuz?",
-   "rd": "페키… 샵카 다 사트요르 무수누즈?",
+   "tl": "O zaman... şapka da satıyor musunuz?",
+   "rd": "오 자만... 샵카 다 사트요르 무수누즈?",
    "ko": "그럼… 모자도 파세요?",
    "note": "şapka = 모자",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

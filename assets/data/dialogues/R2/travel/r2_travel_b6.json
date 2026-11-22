@@ -33,126 +33,153 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Yirmi dakika mola var, efendim. Buyurun.",
-   "rd": "이르미 다키카 몰라 바르, 에펜딤. 부유룬.",
-   "ko": "20분 쉽니다, 손님. 내리세요.",
-   "note": "mola = 휴식(휴게소)",
+   "tl": "Yirmi dakika mola efendim, buyurun inin.",
+   "rd": "이르미 다키카 몰라 에펜딤, 부유룬 이닌.",
+   "ko": "이십 분 쉬는 시간이에요, 손님. 내리세요.",
+   "note": "mola = 쉬는 시간",
    "tags": [
     "expr:buyurun"
    ],
    "new": [
     "mola"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Yirmi dakika mı? Harika, bir çorba içerim.",
-   "rd": "이르미 다키카 므? 하리카, 비르 초르바 이체림.",
-   "ko": "20분이요? 좋다, 수프 한 그릇 먹어야지.",
+   "tl": "Yirmi dakika mı? Tamam, bir çorba içeyim.",
+   "rd": "이르미 다키카 므? 타맘, 비르 초르바 이체임.",
+   "ko": "이십 분이요? 좋다, 수프 한 그릇 먹어야지.",
    "note": "çorba = 수프",
    "tags": [
     "expr:harika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "C",
-   "tl": "Evladım, otobüsün gidiyor galiba.",
-   "rd": "에블라듬, 오토뷔쉰 기디요르 갈리바.",
+   "tl": "Evladım, otobüsün kalkıyor gibi.",
+   "rd": "에블라듬, 오토뷔쉰 칼크요르 기비.",
    "ko": "얘야, 네 버스 가는 것 같은데.",
-   "note": "galiba = 아마 — 반전",
+   "note": "galiba = 아마",
    "tags": [
     "expr:galiba"
    ],
    "new": [
     "otobüs"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Yok artık, durun! Çantam, telefonum, her şey içinde!",
-   "rd": "욕 아르특, 두룬! 찬탐, 텔레포눔, 헤르 셰이 이친데!",
-   "ko": "말도 안 돼, 멈춰요! 가방, 폰, 전부 안에 있어요!",
-   "note": "her şey = 전부",
+   "tl": "Yok artık! Durun, çantam telefonum hepsi içeride!",
+   "rd": "욕 아르특! 두룬, 찬탐 텔레포눔 헵시 이체리데!",
+   "ko": "말도 안 돼! 멈춰요, 가방이랑 폰 다 안에 있어요!",
+   "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "shout",
+     "Yok artık!"
+    ],
+    [
+     "flustered",
+     "Durun, çantam telefonum hepsi içeride!"
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Koş, koş! Bağır, muavin duyar.",
-   "rd": "코시, 코시! 바으르, 무아빈 두야르.",
+   "tl": "Koş koş! Bağır, muavin duyar.",
+   "rd": "코시 코시! 바으르, 무아빈 두야르.",
    "ko": "뛰어, 뛰어! 소리쳐, 차장이 들을 거야.",
    "note": "bağırmak = 소리치다 · muavin = 버스 차장",
    "tags": [],
    "new": [
-    "bağırmak",
     "muavin"
-   ]
+   ],
+   "emotion": "shout"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Durun, bir dakika lütfen! Yolcu var!",
-   "rd": "두룬, 비르 다키카 뤼트펜! 욜주 바르!",
+   "tl": "Durun bir dakika! Yolcu kaldı!",
+   "rd": "두룬 비르 다키카! 욜주 칼드!",
    "ko": "세워요, 잠깐만요! 승객 있어요!",
    "note": "durun = 멈추세요",
    "tags": [
     "expr:lütfen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Aman, durun! Bir yolcu eksik!",
-   "rd": "아만, 두룬! 비르 욜주 엑식!",
+   "tl": "Aman, durdurun! Bir yolcu eksik!",
+   "rd": "아만, 두르두룬! 비르 욜주 엑식!",
    "ko": "어머, 세워 주세요! 승객 한 명 빠졌어요!",
    "note": "eksik = 빠진, 모자라는",
    "tags": [
     "expr:aman"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Benim, yolcu benim! Yirmi dakika demiştiniz!",
-   "rd": "베님, 욜주 베님! 이르미 다키카 데미시티니즈!",
-   "ko": "저예요, 승객 저예요! 20분이라면서요!",
+   "tl": "Benim ben! Yolcu benim, yirmi dakika demiştiniz!",
+   "rd": "베님 벤! 욜주 베님, 이르미 다키카 데미시티니즈!",
+   "ko": "저예요, 승객 저예요! 이십 분이라면서요!",
    "note": "demiştiniz = 말씀하셨잖아요",
    "tags": [
     "form:-miştiniz"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "shout",
+     "Benim ben!"
+    ],
+    [
+     "annoyed",
+     "Yolcu benim, yirmi dakika demiştiniz!"
+    ]
+   ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Yirmi dakikaydı efendim. Saatinize bakın, lütfen.",
-   "rd": "이르미 다키카이드 에펜딤. 사아티니제 바큰, 뤼트펜.",
-   "ko": "20분이었어요, 손님. 시계 좀 보세요.",
+   "tl": "Yirmi dakikaydı efendim. Saatine bak.",
+   "rd": "이르미 다키카이드 에펜딤. 사아티네 박.",
+   "ko": "이십 분이었어요, 손님. 시계 좀 보세요.",
    "note": "saat = 시계",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Eyvah, saatimi değiştirmemişim. Kusura bakmayın.",
-   "rd": "에이바흐, 사아티미 데이시티르메미심. 쿠수라 박마이은.",
+   "tl": "Kusura bakmayın, saati ayarlamamışım.",
+   "rd": "쿠수라 박마이은, 사아티 아야를라마므심.",
    "ko": "헉, 시계를 안 바꿔 놨네요. 죄송해요.",
-   "note": "değiştirmemişim = 안 바꿨네(깨달음 -miş) — 반전",
+   "note": "kusura bakmayın = 죄송해요",
    "tags": [
     "form:-miş",
     "expr:kusura bakmayın"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 11,
@@ -160,27 +187,30 @@
    "tl": "Geçmiş olsun. Kolonya ister misiniz?",
    "rd": "게치미시 올순. 콜론야 이스테르 미시니즈?",
    "ko": "고생하셨어요. 콜로냐 드릴까요?",
-   "note": "geçmiş olsun = 고생했어요",
+   "note": "geçmiş olsun = 고생하셨어요",
    "tags": [
     "expr:geçmiş olsun",
     "callback:r0_travel_a1"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Kolonya değil, su lütfen. Çorbam orada kaldı.",
-   "rd": "콜론야 데일, 수 뤼트펜. 초르밤 오라다 칼드.",
+   "tl": "Kolonya değil, su lütfen. Çorbamı orada bıraktım.",
+   "rd": "콜론야 데일, 수 뤼트펜. 초르바므 오라다 브락틈.",
    "ko": "콜로냐 말고 물 주세요. 제 수프는 거기 두고 왔어요.",
-   "note": "kaldı = 남았다, 두고 왔다",
+   "note": "lütfen = 주세요",
    "tags": [
     "callback:r0_travel_a1"
    ],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

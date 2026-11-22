@@ -35,26 +35,28 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Merhaba. Sultanahmet'e lütfen.",
-   "rd": "메르하바. 술타나흐메테 뤼트펜.",
+   "tl": "Merhaba. Sultanahmet lütfen.",
+   "rd": "메르하바. 술타나흐멧 뤼트펜.",
    "ko": "안녕하세요. 술탄아흐메트요.",
-   "note": "-e lütfen = ~로 가 주세요",
+   "note": "merhaba = 안녕하세요",
    "tags": [
     "expr:merhaba"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Tabii. Ama yol biraz kalabalık.",
-   "rd": "타비이. 아마 욜 비라즈 칼라발륵.",
+   "tl": "Tabii. Ama yol biraz yoğun.",
+   "rd": "타비이. 아마 욜 비라즈 요운.",
    "ko": "네. 근데 길이 좀 막혀요.",
-   "note": "kalabalık = 붐비는, 막히는",
+   "note": "tabii = 네",
    "tags": [
     "expr:tabii"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
@@ -62,11 +64,12 @@
    "tl": "Ne kadar sürer?",
    "rd": "네 카다르 쉬레르?",
    "ko": "얼마나 걸려요?",
-   "note": "ne kadar sürer? = 얼마나 걸려요?",
+   "note": "ne kadar = 얼마나",
    "tags": [
     "expr:ne kadar"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 4,
@@ -74,60 +77,91 @@
    "tl": "Yirmi dakika. Bir dakika, annem arıyor.",
    "rd": "이르미 다키카. 비르 다키카, 안넴 아르요르.",
    "ko": "20분요. 잠깐만요, 어머니 전화예요.",
-   "note": "aramak = 전화하다 — 반전: 스피커폰",
+   "note": "bir dakika = 잠깐만",
    "tags": [
     "expr:bir dakika"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Yirmi dakika."
+    ],
+    [
+     "flustered",
+     "Bir dakika, annem arıyor."
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Alo, evladım! Arabada kim var?",
-   "rd": "알로, 에블라듬! 아라바다 킴 바르?",
+   "tl": "Alo, oğlum! Arabada kim var?",
+   "rd": "알로, 올룸! 아라바다 킴 바르?",
    "ko": "여보세요, 아들! 차에 누구 있니?",
    "note": "alo = 여보세요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Şey, merhaba teyze. Ben yolcuyum.",
-   "rd": "셰이, 메르하바 테이제. 벤 욜주윰.",
+   "tl": "Şey... Merhaba teyze. Ben müşteriyim.",
+   "rd": "셰이... 메르하바 테이제. 벤 뮈시테리임.",
    "ko": "저… 안녕하세요, 어머님. 저 손님이에요.",
-   "note": "yolcu = 승객",
+   "note": "şey = 저",
    "tags": [
     "expr:şey"
    ],
-   "new": [
-    "yolcu"
-   ]
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Hoş geldin, yavrum! Akşam bize yemeğe gel.",
-   "rd": "호시 겔딘, 야브룸! 악샴 비제 예메에 겔.",
+   "tl": "Hoş geldin, canım! Akşam bize yemeğe gel.",
+   "rd": "호시 겔딘, 자늠! 악샴 비제 예메에 겔.",
    "ko": "어서 와라, 얘야! 저녁에 우리 집에 밥 먹으러 와.",
-   "note": "yemeğe gelmek = 밥 먹으러 오다",
+   "note": "hoş geldin = 어서 와라",
    "tags": [
     "expr:hoş geldin"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Hoş geldin, canım!"
+    ],
+    [
+     "gentle",
+     "Akşam bize yemeğe gel."
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Geldik. Annem ciddi, adresi vereyim mi?",
-   "rd": "겔딕. 안넴 지디, 아드레시 베레임 미?",
+   "tl": "Geldik. Annem ciddi, adres vereyim mi?",
+   "rd": "겔딕. 안넴 지디, 아드레스 베레임 미?",
    "ko": "다 왔습니다. 어머니 진심이세요, 주소 드릴까요?",
    "note": "geldik = 도착했다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Geldik."
+    ],
+    [
+     "amused",
+     "Annem ciddi, adres vereyim mi?"
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

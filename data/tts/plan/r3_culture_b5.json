@@ -10,11 +10,11 @@
 "segs": [
 [
 "neutral",
-"Annem üç gündür bu yemek için uğraşıyor."
+"Annem üç gündür bu yemeği hazırlıyor."
 ],
 [
 "worried",
-"Sonunda güzel bir şey söyle."
+"Bitince güzel bir şey söyle."
 ]
 ]
 },
@@ -22,7 +22,7 @@
 "segs": [
 [
 "cheerful",
-"Merak etme, ezberledim. Yemekten sonra söylenen çok güzel bir söz."
+"Merak etme, ezberledim. Yemekten sonra söylenen gerçekten güzel laf."
 ]
 ]
 },
@@ -30,7 +30,7 @@
 "segs": [
 [
 "polite",
-"Buyurun, afiyet olsun. Tuzu biraz az oldu galiba, kusura bakmayın."
+"Buyurun, afiyet olsun. Tuzu biraz az galiba, kusura bakmayın."
 ]
 ]
 },
@@ -38,7 +38,7 @@
 "segs": [
 [
 "excited",
-"Yok, harika! Hayatımda böyle bir yemek yemedim."
+"Yok, çok güzel! Hayatımda böyle yemek yemedim."
 ]
 ]
 },
@@ -50,7 +50,7 @@
 ],
 [
 "gentle",
-"Bir tabak daha koyayım mı, yavrum?"
+"Bir tabak daha vereyim mi evladım?"
 ]
 ]
 },
@@ -62,7 +62,7 @@
 ],
 [
 "excited",
-"Bir dakika, güzel sözümü söyleyeceğim."
+"Durun, güzel lafımı söyleyeyim."
 ]
 ]
 },
@@ -70,7 +70,7 @@
 "segs": [
 [
 "worried",
-"Hadi, sakin ol. Yavaş söyle, aklından çıkmasın."
+"Tamam, sakin ol. Yavaş söyle, unutma."
 ]
 ]
 },
@@ -78,7 +78,7 @@
 "segs": [
 [
 "polite",
-"Başınız sağ olsun, hanımefendi."
+"Başınız sağ olsun, anne."
 ]
 ]
 },
@@ -86,7 +86,7 @@
 "segs": [
 [
 "surprised",
-"Ne? Kim ölmüş? Kızım, kim ölmüş?"
+"Ne? Kim öldü? Evladım, kim öldü?"
 ]
 ]
 },
@@ -94,11 +94,11 @@
 "segs": [
 [
 "annoyed",
-"Kimse ölmedi, baba!"
+"Kimse ölmedi baba!"
 ],
 [
 "sad",
-"Yavrum, yemek o kadar kötü müydü?"
+"Evladım, yemek o kadar kötü müydü?"
 ]
 ]
 },
@@ -106,11 +106,11 @@
 "segs": [
 [
 "tsukkomi",
-"{name}, o söz cenazede söylenir."
+"{name}, o laf cenazede söylenir."
 ],
 [
 "worried",
-"Elinize sağlık olacaktı."
+"“Elinize sağlık” demeliydin."
 ]
 ]
 },
@@ -118,7 +118,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah! Özür dilerim! İkisinde de sağ var, karıştı!"
+"Eyvah! Kusura bakmayın! İkisinde de sağ var diye karıştırdım!"
 ]
 ]
 },
@@ -126,11 +126,11 @@
 "segs": [
 [
 "annoyed",
-"Bana kimse söylemiyor."
+"Kimse benimle konuşmuyor."
 ],
 [
 "stiff",
-"Telefonu verin, ben arayacağım."
+"Telefonu ver, ben arayayım."
 ]
 ]
 },
@@ -138,11 +138,7 @@
 "segs": [
 [
 "polite",
-"Geçmiş olsun, dede!"
-],
-[
-"flustered",
-"Yani pardon, şey… kusura bakmayın!"
+"Geçmiş olsun dede! Yok, kusura bakmayın, o değil… Özür dilerim!"
 ]
 ]
 },
@@ -150,11 +146,11 @@
 "segs": [
 [
 "sad",
-"Hiç konuşma artık, yavrum."
+"Artık konuşma evladım."
 ],
 [
 "gentle",
-"Al, tatlını ye."
+"Buyurun, tatlıyı ye."
 ]
 ]
 },
@@ -162,7 +158,7 @@
 "segs": [
 [
 "amused",
-"Dedem akrabaları aramaya başladı."
+"Dede akrabaları aramaya başladı."
 ],
 [
 "teasing",

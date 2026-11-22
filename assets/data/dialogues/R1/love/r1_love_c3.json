@@ -35,14 +35,15 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Elif? Üç yıl önceki fotoğrafımı beğendin.",
-   "rd": "엘리프? 위치 이을 왼제키 포토라프므 베엔딘.",
+   "tl": "Elif? Üç yıl önceki fotoğrafıma beğeni basmışsın.",
+   "rd": "엘리프? 위치 이을 왼제키 포토라프마 베에니 바스므시슨.",
    "ko": "Elif? 너 내 3년 전 사진에 좋아요 눌렀어.",
    "note": "beğenmek = 좋아요를 누르다",
    "tags": [],
    "new": [],
    "at": "02:11",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "teasing"
   },
   {
    "num": 2,
@@ -50,25 +51,27 @@
    "tl": "Ben mi? Yok ya!",
    "rd": "벤 미? 욕 야!",
    "ko": "내가? 아니야!",
-   "note": "yok ya = 아니 뭐 설마",
+   "note": "yok ya = 아니야",
    "tags": [
     "expr:yok ya"
    ],
    "new": [],
    "at": "02:11",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "flustered"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Şimdi bir tane daha!",
-   "rd": "심디 비르 타네 다하!",
+   "tl": "Bir tane daha attın!",
+   "rd": "비르 타네 다하 아튼!",
    "ko": "방금 또 하나!",
    "note": "bir tane daha = 하나 더",
    "tags": [],
    "new": [],
    "at": "02:12",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "surprised"
   },
   {
    "num": 4,
@@ -76,27 +79,38 @@
    "tl": "Eyvah! Kedi yaptı, kedi! 🐈",
    "rd": "에이바흐! 케디 얍트, 케디!",
    "ko": "헉! 고양이가 그랬어, 고양이! 🐈",
-   "note": "kedi yaptı = 고양이가 했어",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
    "new": [],
    "at": "02:12",
    "stamp": "🐈",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "On beş beğeni geldi. Kedi çok çalışıyor. 😂",
-   "rd": "온 베시 베에니 겔디. 케디 촉 찰르시요르.",
+   "tl": "On beş beğeni geldi. Kedi çalışkanmış 😂",
+   "rd": "온 베시 베에니 겔디. 케디 찰르시칸므시",
    "ko": "좋아요 열다섯 개 왔어. 고양이 열일하네 😂",
-   "note": "beğeni = 좋아요 — 반전: 손을 쓸수록 늘어난다",
+   "note": "beğeni = 좋아요",
    "tags": [],
    "new": [],
    "at": "02:13",
    "stamp": "😂",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "neutral",
+     "On beş beğeni geldi."
+    ],
+    [
+     "teasing",
+     "Kedi çalışkanmış 😂"
+    ]
+   ]
   },
   {
    "num": 6,
@@ -108,21 +122,23 @@
    "tags": [],
    "new": [],
    "at": "02:14",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "shy"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Ee? Saat iki, ne yapıyorsun?",
-   "rd": "에에? 사앗 이키, 네 야프요르순?",
+   "tl": "Ee? Saat ikide ne yapıyorsun?",
+   "rd": "에에? 사앗 이키데 네 야프요르순?",
    "ko": "그래서? 새벽 두 시에 뭐 해?",
-   "note": "saat iki = 두 시",
+   "note": "ee = 그래서",
    "tags": [
     "expr:ee"
    ],
    "new": [],
    "at": "02:14",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -138,10 +154,21 @@
    ],
    "new": [],
    "at": "02:15",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "gentle",
+     "Seni düşünüyorum."
+    ],
+    [
+     "flustered",
+     "İyi geceler!"
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

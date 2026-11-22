@@ -9,7 +9,7 @@
 "segs": [
 [
 "neutral",
-"Müdür geldi. Üç gün hastaydı."
+"Müdür geldi. Üç gün hasta yatmış."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "worried",
-"Ne diyeyim? Türkçede bir şey var, değil mi?"
+"Ne diyeceğim? Türkçede o laf var ya."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "teasing",
-"Var tabii, çok kolay. Hadi, git söyle."
+"Var, çok kolay. Hadi git söyle."
 ]
 ]
 },
@@ -33,11 +33,11 @@
 "segs": [
 [
 "worried",
-"Dur, bekle…"
+"Dur bir dakika…"
 ],
 [
 "cheerful",
-"tamam, hatırladım."
+"Tamam, hatırladım."
 ]
 ]
 },
@@ -45,7 +45,7 @@
 "segs": [
 [
 "polite",
-"Günaydın. Bugün biraz daha iyiyim."
+"Günaydın. Bugün biraz iyiyim."
 ]
 ]
 },
@@ -53,7 +53,7 @@
 "segs": [
 [
 "stiff",
-"Müdürüm… başınız sağ olsun."
+"Müdürüm… Başınız sağ olsun."
 ]
 ]
 },
@@ -69,7 +69,7 @@
 "segs": [
 [
 "flustered",
-"Yok, şey… siz?"
+"Yok… Şey… Siz mi?"
 ]
 ]
 },
@@ -81,7 +81,7 @@
 ],
 [
 "annoyed",
-"Ben buradayım!"
+"Ben buradayım ya!"
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "polite",
-"“Geçmiş olsun” diyecekti müdürüm. Kusura bakmayın."
+"Geçmiş olsun demek istedi, müdürüm. Kusura bakmayın."
 ]
 ]
 },
@@ -109,7 +109,7 @@
 ],
 [
 "cheerful",
-"Çok şükür yaşıyorsunuz."
+"Çok şükür buradasınız."
 ]
 ]
 }

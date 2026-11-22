@@ -33,14 +33,15 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Emre, harika haber! Haftaya evleniyorum!",
-   "rd": "엠레, 하리카 하베르! 하프타야 에블레니요룸!",
+   "tl": "Emre, harika haber! Gelecek hafta evleniyorum!",
+   "rd": "엠레, 하리카 하베르! 겔레젝 하프타 에블레니요룸!",
    "ko": "Emre, 대박 소식! 나 다음 주에 결혼해!",
-   "note": "evlenmek = 결혼하다",
+   "note": "harika = 대박",
    "tags": [
     "expr:harika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 2,
@@ -50,19 +51,39 @@
    "ko": "뭐? 누구랑?",
    "note": "kiminle = 누구랑",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Ne?"
+    ],
+    [
+     "sad",
+     "Kiminle?"
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Yalnız! Küçük ama çok güzel.",
-   "rd": "얄느즈! 퀴췩 아마 촉 귀젤.",
+   "tl": "Tek başıma! Küçük ama çok güzel.",
+   "rd": "텍 바시마! 퀴췩 아마 촉 귀젤.",
    "ko": "혼자! 작은데 진짜 예뻐.",
    "note": "yalnız = 혼자",
    "tags": [
     "expr:çok güzel"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "excited",
+     "Tek başıma!"
+    ],
+    [
+     "cheerful",
+     "Küçük ama çok güzel."
+    ]
+   ]
   },
   {
    "num": 4,
@@ -72,55 +93,79 @@
    "ko": "누가 작아? 너 무슨 소리야?",
    "note": "ne diyorsun = 무슨 말이야",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Ev! Yeni ev, çok güzel!",
-   "rd": "에브! 예니 에브, 촉 귀젤!",
+   "tl": "Ev! Yeni ev, harika!",
+   "rd": "에브! 예니 에브, 하리카!",
    "ko": "집! 새집, 진짜 좋아!",
-   "note": "반전: 결혼이 아니라 집 이야기",
+   "note": "",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Ev mi? O \"taşınıyorum\" demek.",
-   "rd": "에브 미? 오 \"타시느요룸\" 데멕.",
+   "tl": "Ev mi? Ona \"taşınıyorum\" denir.",
+   "rd": "에브 미? 오나 \"타시느요룸\" 데니르.",
    "ko": "집? 그건 「이사해」라고 하는 거야.",
    "note": "taşınmak = 이사하다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Ev mi?"
+    ],
+    [
+     "amused",
+     "Ona \"taşınıyorum\" denir."
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Eyvah. Evleniyorum ne demek peki?",
-   "rd": "에이바흐. 에블레니요룸 네 데멕 페키?",
+   "tl": "Eyvah. Peki \"evleniyorum\" ne demek?",
+   "rd": "에이바흐. 페키 \"에블레니요룸\" 네 데멕?",
    "ko": "헉. 그럼 「evleniyorum」은 무슨 뜻이야?",
-   "note": "ne demek = 무슨 뜻",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah",
     "expr:ne demek"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Eyvah."
+    ],
+    [
+     "neutral",
+     "Peki \"evleniyorum\" ne demek?"
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Bir an kalbim durdu demek.",
-   "rd": "비르 안 칼빔 두르두 데멕.",
+   "tl": "\"Bir an kalbim durdu\" demek.",
+   "rd": "\"비르 안 칼빔 두르두\" 데멕.",
    "ko": "「순간 내 심장이 멎었어」라는 뜻.",
-   "note": "bir an = 한순간",
+   "note": "ne demek = 무슨 뜻",
    "tags": [
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

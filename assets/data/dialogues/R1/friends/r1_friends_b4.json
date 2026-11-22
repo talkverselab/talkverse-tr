@@ -35,95 +35,111 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Bu kanepe neden bu kadar ağır?",
-   "rd": "부 카네페 네덴 부 카다르 아으르?",
-   "ko": "이 소파 왜 이렇게 무거워?",
-   "note": "ağır = 무거운 · kanepe = 소파",
+   "tl": "Ya offf, bu koltuk harbiden taşınmaz!",
+   "rd": "야 오프프, 부 콜툭 하르비덴 타신마즈!",
+   "ko": "야 오프, 이 소파 진짜 옮기기 불가능이야!",
+   "note": "taşınmaz = 옮길 수 없는",
    "tags": [],
-   "new": [
-    "kanepe"
-   ]
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Az kaldı! Sadece üç kat.",
-   "rd": "아즈 칼드! 사데제 위치 캇.",
-   "ko": "거의 다 왔어! 세 층만 더.",
-   "note": "az kaldı = 거의 다 왔어",
+   "tl": "Az kaldı be! Üç kat daha.",
+   "rd": "아즈 칼드 베! 위치 캇 다하.",
+   "ko": "거의 다 됐어! 세 층만 더.",
+   "note": "az kaldı = 거의 다 왔다",
    "tags": [
     "expr:az kaldı"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "C",
-   "tl": "Dur! Kapıdan girmiyor.",
-   "rd": "두르! 카프단 기르미요르.",
-   "ko": "스톱! 문으로 안 들어가.",
-   "note": "dur = 멈춰",
+   "tl": "Dur dur! Kapıdan sığmıyor bu.",
+   "rd": "두르 두르! 카프단 스므요르 부.",
+   "ko": "잠깐잠깐! 문으로 안 들어가.",
+   "note": "sığmıyor = 안 들어간다",
    "tags": [
     "expr:dur"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Nasıl girmiyor? Can, çevir!",
-   "rd": "나슬 기르미요르? 잔, 체비르!",
-   "ko": "안 들어간다니? 잔, 돌려!",
-   "note": "çevirmek = 돌리다",
+   "tl": "Sığmıyor mu? Can, döndür hadi!",
+   "rd": "스므요르 무? 잔, 된뒤르 하디!",
+   "ko": "안 들어간다고? 잔, 돌려 빨리!",
+   "note": "döndür = 돌려",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Çeviremiyorum. Kanepenin altındayım.",
-   "rd": "체비레미요룸. 카네페닌 알튼다이음.",
-   "ko": "못 돌려. 나 소파 밑에 있어.",
-   "note": "altındayım = 밑에 있어",
+   "tl": "Döndüremiyorum ya, altında kaldım.",
+   "rd": "된뒤레미요룸 야, 알튼다 칼듬.",
+   "ko": "못 돌려. 나 밑에 끼었어.",
+   "note": "altında = 그 밑에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "Ben de içeride kaldım. Kapı kapandı.",
-   "rd": "벤 데 이체리데 칼듬. 카프 카판드.",
-   "ko": "나도 안에 갇혔어. 문이 닫혔어.",
-   "note": "kapanmak = 닫히다 — 반전",
+   "tl": "Ben de içeride kaldım, kapı kapandı offf!",
+   "rd": "벤 데 이체리데 칼듬, 카프 카판드 오프프!",
+   "ko": "나도 안에 갇혔어. 문이 닫혔어 오프!",
+   "note": "içeride = 안에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Eyvah! Can, iyi misin?",
-   "rd": "에이바흐! 잔, 이이 미신?",
+   "tl": "Eyvah! Can, iyisin?",
+   "rd": "에이바흐! 잔, 이이신?",
    "ko": "헉! 잔, 괜찮아?",
-   "note": "iyi misin = 괜찮아?",
+   "note": "eyvah = 아이고",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "İyiyim. Çay getir, artık burada yaşıyorum.",
-   "rd": "이이임. 차이 게티르, 아르특 부라다 야시요룸.",
-   "ko": "괜찮아. 차나 가져와, 나 이제 여기서 살래.",
-   "note": "getir = 가져와",
+   "tl": "İyiyim iyiyim. Çay getir, burada yaşarım.",
+   "rd": "이이임 이이임. 차이 게티르, 부라다 야샤름.",
+   "ko": "괜찮아 괜찮아. 차나 가져와, 여기서 살게.",
+   "note": "iyiyim = 괜찮아",
    "tags": [
     "expr:iyiyim"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "İyiyim iyiyim."
+    ],
+    [
+     "amused",
+     "Çay getir, burada yaşarım."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

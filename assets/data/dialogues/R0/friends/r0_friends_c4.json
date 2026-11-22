@@ -34,51 +34,67 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Zeynep, sınav saat kaçta?",
-   "rd": "제이넵, 스나브 사앗 카치타?",
+   "tl": "Zeynep ya, sınav saat kaç?",
+   "rd": "제이넵 야, 스나브 사앗 카치?",
    "ko": "제이넵, 시험 몇 시야?",
-   "note": "saat kaçta = 몇 시에",
+   "note": "sınav saat = 시험 시간",
    "tags": [],
    "new": [
     "sınav"
    ],
    "at": "08:31",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Dokuzda.",
-   "rd": "도쿠즈다.",
+   "tl": "Dokuz.",
+   "rd": "도쿠즈.",
    "ko": "아홉 시.",
-   "note": "dokuzda = 9시에",
+   "note": "dokuz = 아홉",
    "tags": [],
    "new": [],
    "at": "08:32",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "neutral"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Eyvah, saat sekiz buçuk! Geliyorum!",
-   "rd": "에이바흐, 사앗 세키즈 부축! 겔리요룸!",
+   "tl": "Eyvah! Saat sekiz buçuk! Geliyorum!",
+   "rd": "에이바흐! 사앗 세키즈 부축! 겔리요룸!",
    "ko": "헉! 지금 여덟 시 반이야! 간다!",
-   "note": "buçuk = 반",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah",
     "expr:geliyorum"
    ],
    "new": [],
    "at": "08:32",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "flustered",
+     "Eyvah!"
+    ],
+    [
+     "flustered",
+     "Saat sekiz buçuk!"
+    ],
+    [
+     "excited",
+     "Geliyorum!"
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Yoldayım! Yine pijamayla çıktım!",
-   "rd": "욜다이음! 이네 피자마일라 측틈!",
+   "tl": "Yoldayım! Pijamayla koşuyorum yine!",
+   "rd": "욜다이음! 피자마일라 코슈요룸 이네!",
    "ko": "가는 중! 또 잠옷 입고 나왔어!",
-   "note": "-yla = ~를 입고, ~로",
+   "note": "yoldayım = 가는 중",
    "tags": [
     "expr:yoldayım",
     "callback:r0_friends_c1"
@@ -87,19 +103,21 @@
     "pijama"
    ],
    "at": "08:41",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "excited"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Okuldayım. Kapı kapalı, bekçi bana bakıyor.",
-   "rd": "오쿨다이음. 카프 카팔르, 벡치 바나 바크요르.",
+   "tl": "Okuldayım. Kapı kilitli, bekçi bana bakıyor.",
+   "rd": "오쿨다이음. 카프 킬리틀리, 벡치 바나 바크요르.",
    "ko": "학교 왔어. 문 닫혔고, 경비 아저씨가 쳐다봐.",
-   "note": "bekçi = 경비",
+   "note": "kapı kilitli = 문 닫혔어",
    "tags": [],
    "new": [],
    "at": "09:02",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "worried"
   },
   {
    "num": 6,
@@ -107,41 +125,45 @@
    "tl": "Normal. Bugün pazar.",
    "rd": "노르말. 부귄 파자르.",
    "ko": "당연하지. 오늘 일요일이야.",
-   "note": "pazar = 일요일 — 반전",
+   "note": "pazar = 일요일",
    "tags": [],
    "new": [],
    "at": "09:03",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "neutral"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Yok artık! Neden söylemedin?!",
-   "rd": "욕 아르특! 네덴 쇠일레메딘?!",
+   "tl": "Yok artık! Niye demedin?!",
+   "rd": "욕 아르특! 니예 데메딘?!",
    "ko": "말도 안 돼! 왜 말 안 했어?!",
-   "note": "söylemek = 말하다",
+   "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık"
    ],
    "new": [],
    "at": "09:03",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "shout"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Sormadın 😐",
-   "rd": "소르마든",
+   "tl": "Sormadın ki 😐",
+   "rd": "소르마든 키",
    "ko": "안 물어봤잖아 😐",
-   "note": "sormak = 묻다",
+   "note": "sormadın = 안 물어봤어",
    "tags": [],
    "new": [],
    "at": "09:04",
    "stamp": "😐",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "stiff"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

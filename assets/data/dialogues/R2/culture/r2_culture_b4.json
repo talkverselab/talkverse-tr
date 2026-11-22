@@ -35,149 +35,234 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Bu tabak ne? Çok güzel kokuyor.",
-   "rd": "부 타박 네? 촉 귀젤 코쿠요르.",
-   "ko": "이 접시 뭐야? 냄새 너무 좋아.",
-   "note": "tabak = 접시",
+   "tl": "Bu tabak ne ya? Kokusu çok güzel.",
+   "rd": "부 타박 네 야? 코쿠수 촉 귀젤.",
+   "ko": "이 접시 뭐야? 냄새 진짜 좋다.",
+   "note": "çok güzel = 아주 좋다",
    "tags": [
     "expr:çok güzel"
    ],
    "new": [
     "tabak"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Bu tabak ne ya?"
+    ],
+    [
+     "cheerful",
+     "Kokusu çok güzel."
+    ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Komşu börek getirdi. Tabağı boş götüreceğim.",
-   "rd": "콤슈 뵈렉 게티르디. 타바으 보시 괴튀레제임.",
-   "ko": "옆집에서 뵈렉 줬어. 접시는 빈 채로 갖다주려고.",
-   "note": "götürmek = 가져가다",
+   "tl": "Komşudan börek geldi. Tabağı boş götüreceğim.",
+   "rd": "콤슈단 뵈렉 겔디. 타바으 보시 괴튀레제임.",
+   "ko": "옆집에서 뵈렉 받았어. 접시는 빈 채로 돌려주려고.",
+   "note": "tabak = 접시",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 3,
    "speaker": "B",
    "tl": "Boş mu? Olmaz, tabak boş dönmez {name}.",
    "rd": "보시 무? 올마즈, 타박 보시 된메즈 {name}.",
-   "ko": "빈 채로? 안 돼, 접시는 빈 채로 안 돌아가 {name}.",
-   "note": "boş dönmez = 빈손으로 안 돌아간다",
+   "ko": "빈 채로? 안 돼, 접시는 빈 채로 안 돌아가.",
+   "note": "olmaz = 안 돼",
    "tags": [
     "expr:olmaz"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Boş mu?"
+    ],
+    [
+     "stiff",
+     "Olmaz, tabak boş dönmez {name}."
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Ciddi misin? Neden peki?",
-   "rd": "지디 미신? 네덴 페키?",
+   "tl": "Ciddi misin? Neden ki?",
+   "rd": "지디 미신? 네덴 키?",
    "ko": "진심이야? 왜?",
    "note": "ciddi misin = 진심이야?",
    "tags": [
     "expr:ciddi misin"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Ciddi misin?"
+    ],
+    [
+     "neutral",
+     "Neden ki?"
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ayıp olur. İçine bir şey koy, öyle götür.",
-   "rd": "아이읍 올루르. 이치네 비르 셰이 코이, 외일레 괴튀르.",
-   "ko": "예의가 아니야. 뭐 하나 담아서 갖다줘.",
-   "note": "ayıp = 예의 없는 일",
+   "tl": "Ayıp olur. Bir şey koy götür.",
+   "rd": "아이읍 올루르. 비르 셰이 코이 괴튀르.",
+   "ko": "예의 아니야. 뭐 하나 담아서 갖다줘.",
+   "note": "olur = 되다",
    "tags": [
     "expr:olur",
     "expr:şey"
    ],
    "new": [
     "ayıp"
+   ],
+   "segs": [
+    [
+     "stiff",
+     "Ayıp olur."
+    ],
+    [
+     "gentle",
+     "Bir şey koy götür."
+    ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Elinize sağlık! Tabağın içinde elma var.",
-   "rd": "엘리니제 살륵! 타바은 이친데 엘마 바르.",
+   "tl": "Elinize sağlık! Tabağa elma koydum.",
+   "rd": "엘리니제 살륵! 타바아 엘마 코이둠.",
    "ko": "잘 먹었어요! 접시에 사과 담았어요.",
-   "note": "elma = 사과",
+   "note": "elinize sağlık = 수고하셨습니다",
    "tags": [
     "expr:elinize sağlık"
    ],
    "new": [
     "elma"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Elinize sağlık!"
+    ],
+    [
+     "cheerful",
+     "Tabağa elma koydum."
+    ]
    ]
   },
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Aa, zahmet ettin! Bekle yavrum, hemen geliyorum.",
-   "rd": "아아, 자흐멧 에틴! 베클레 야브룸, 헤멘 겔리요룸.",
-   "ko": "어머, 뭘 이런 걸! 기다려라 얘야, 금방 올게.",
-   "note": "zahmet ettin = 뭘 이런 걸",
+   "tl": "Aaa, ne gerek vardı! Bekle yavrum, hemen geliyorum.",
+   "rd": "아아아, 네 게렉 바르드! 베클레 야브룸, 헤멘 겔리요룸.",
+   "ko": "어머, 뭘 이런 걸! 기다려, 금방 올게.",
+   "note": "bekle = 기다려",
    "tags": [
     "expr:geliyorum",
     "expr:bekle"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Aaa, ne gerek vardı!"
+    ],
+    [
+     "gentle",
+     "Bekle yavrum, hemen geliyorum."
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "A",
    "tl": "Elif, tabak geri geldi! İçinde dolma var!",
    "rd": "엘리프, 타박 게리 겔디! 이친데 돌마 바르!",
-   "ko": "Elif, 접시가 돌아왔어! 안에 돌마가 있어!",
-   "note": "dolma = 속 채운 음식 — 반전",
+   "ko": "엘리프, 접시 돌아왔어! 안에 돌마 있어!",
+   "note": "dolma = 돌마",
    "tags": [],
    "new": [
     "dolma"
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Eyvah. Şimdi senin sıran.",
-   "rd": "에이바흐. 심디 세닌 스란.",
-   "ko": "헉. 이제 네 차례야.",
-   "note": "sıra = 차례",
+   "tl": "Valla. Şimdi sıra sende.",
+   "rd": "발라. 심디 스라 센데.",
+   "ko": "헐. 이제 네 차례야.",
+   "note": "valla = 진짜로",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "worried",
+     "Valla."
+    ],
+    [
+     "teasing",
+     "Şimdi sıra sende."
+    ]
+   ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Bu dördüncü tabak! Mutfakta yer kalmadı!",
-   "rd": "부 되르뒨쥐 타박! 무트팍타 예르 칼마드!",
-   "ko": "이게 네 번째 접시야! 주방에 자리가 없어!",
+   "tl": "Bu dördüncü tabak! Mutfakta yer yok!",
+   "rd": "부 되르뒨쥐 타박! 무트팍타 예르 욕!",
+   "ko": "이게 네 번째 접시야! 주방에 자리 없어!",
    "note": "dördüncü = 네 번째",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Dayan. Bir tabak daha geliyor, kokusu kapıda.",
-   "rd": "다얀. 비르 타박 다하 겔리요르, 코쿠수 카프다.",
+   "tl": "Dayan. Bir tane daha geliyor, koku kapıda.",
+   "rd": "다얀. 비르 타네 다하 겔리요르, 코쿠 카프다.",
    "ko": "버텨. 접시 하나 더 온다, 냄새가 문 앞이야.",
    "note": "dayan = 버텨",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Dayan."
+    ],
+    [
+     "worried",
+     "Bir tane daha geliyor, koku kapıda."
+    ]
+   ]
   },
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Yavrum, üst kat da senden tabak bekliyor.",
-   "rd": "야브룸, 위스트 캇 다 센덴 타박 베클리요르.",
+   "tl": "Yavrum, üst kat da senin tabağını bekliyormuş.",
+   "rd": "야브룸, 위스트 캇 다 세닌 타바으느 베클리요르무시.",
    "ko": "얘야, 윗집도 네 접시 기다린단다.",
    "note": "üst kat = 윗집",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

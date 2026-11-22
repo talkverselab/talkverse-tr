@@ -38,12 +38,13 @@
    "tl": "Evladım, şunu bir dakika tutar mısın? Hemen geliyorum.",
    "rd": "에블라듬, 슈누 비르 다키카 투타르 므슨? 헤멘 겔리요룸.",
    "ko": "얘야, 이것 좀 잠깐 잡아 줄래? 금방 올게.",
-   "note": "tutar mısın? = 잡아 줄래?",
+   "note": "bir dakika = 잠깐",
    "tags": [
     "expr:bir dakika",
     "form:-er misin"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 2,
@@ -53,7 +54,8 @@
    "ko": "저요? 근데 저 낚시할 줄 몰라요.",
    "note": "balık tutmak = 낚시하다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 3,
@@ -63,13 +65,14 @@
    "ko": "아무 일 없어. 여기 두 시간째 고기 없어.",
    "note": "bir şey olmaz = 아무 일 없어",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 4,
    "speaker": "C",
-   "tl": "Bak, ip hareket ediyor! Çekiyor, çekiyor!",
-   "rd": "박, 입 하레켓 에디요르! 체키요르, 체키요르!",
+   "tl": "Bak, ip hareket ediyor! Çek, çek!",
+   "rd": "박, 입 하레켓 에디요르! 첵, 첵!",
    "ko": "봐, 줄이 움직여! 당겨, 당겨!",
    "note": "ip = 줄 · çekmek = 당기다",
    "tags": [
@@ -77,43 +80,47 @@
    ],
    "new": [
     "ip"
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Eyvah, çok güçlü! Elif, yardım et!",
-   "rd": "에이바흐, 촉 귀칠뤼! 엘리프, 야르듬 엣!",
+   "tl": "Eyvah, çok sert! Elif, yardım et!",
+   "rd": "에이바흐, 촉 세르트! 엘리프, 야르듬 엣!",
    "ko": "헉, 엄청 세! 엘리프, 도와줘!",
-   "note": "yardım et = 도와줘",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "Bırakma! Abi, yardım edin, tutun şunu!",
-   "rd": "브락마! 아비, 야르듬 에딘, 투툰 슈누!",
+   "tl": "Bırakma! Amca, yardım edin, şunu tutun!",
+   "rd": "브락마! 암자, 야르듬 에딘, 슈누 투툰!",
    "ko": "놓지 마! 아저씨, 도와주세요, 이것 좀 잡아요!",
    "note": "tutun = 잡으세요",
    "tags": [
     "expr:abi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 7,
    "speaker": "D",
-   "tl": "Geldim, tutun! Dur, bu ip yandaki ipe karışmış.",
-   "rd": "겔딤, 투툰! 두르, 부 입 얀다키 이페 카르시므시.",
+   "tl": "Geldim, tutuyorum! Bir dakika… bu ip yanındakine dolanmış.",
+   "rd": "겔딤, 투투요룸! 비르 다키카… 부 입 야는다키네 돌란므시.",
    "ko": "왔어요, 잡아요! 잠깐… 이 줄 옆 줄이랑 엉켰네.",
-   "note": "karışmak = 엉키다 — 반전",
+   "note": "geldim = 왔어요",
    "tags": [
     "expr:geldim"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 8,
@@ -121,59 +128,92 @@
    "tl": "Ne? Balık değil galiba?",
    "rd": "네? 발륵 데일 갈리바?",
    "ko": "뭐? 물고기가 아닌가 봐?",
-   "note": "galiba = ~인가 봐",
+   "note": "galiba = 인가 봐",
    "tags": [
     "expr:galiba"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Ne?"
+    ],
+    [
+     "sad",
+     "Balık değil galiba?"
+    ]
+   ]
   },
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Yok artık! Yandaki amcanın ipini çekiyoruz!",
-   "rd": "욕 아르특! 얀다키 암자는 이피니 체키요루즈!",
+   "tl": "Yok artık! Yanındaki amcanın ipini çekiyormuşuz!",
+   "rd": "욕 아르특! 야는다키 암자는 이피니 체키요르무슈즈!",
    "ko": "말도 안 돼! 우리 옆 아저씨 줄을 당기고 있었어!",
-   "note": "yandaki = 옆에 있는",
+   "note": "yok artık = 말도 안 돼",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "emotion": "tsukkomi"
   },
   {
    "num": 10,
    "speaker": "D",
-   "tl": "Burada her gün olur. Bırakın, ben açarım.",
-   "rd": "부라다 헤르 귄 올루르. 브라큰, 벤 아차름.",
+   "tl": "Burada her gün olan şey. Bırakın, ben çözerim.",
+   "rd": "부라다 헤르 귄 올란 셰이. 브라큰, 벤 최제림.",
    "ko": "여기선 매일 있는 일이에요. 놔 둬요, 내가 풀게요.",
    "note": "açmak = 풀다, 열다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "Burada her gün olan şey."
+    ],
+    [
+     "gentle",
+     "Bırakın, ben çözerim."
+    ]
+   ]
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Geldim. Ee, balık var mı?",
-   "rd": "겔딤. 에에, 발륵 바르 므?",
+   "tl": "Geldim. Ee, balık tuttunuz mu?",
+   "rd": "겔딤. 에에, 발륵 투투누즈 무?",
    "ko": "나 왔다. 그래서, 고기 좀 잡았어?",
    "note": "ee = 그래서",
    "tags": [
     "expr:geldim",
     "expr:ee"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Geldim."
+    ],
+    [
+     "excited",
+     "Ee, balık tuttunuz mu?"
+    ]
+   ]
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Balık yok. Ama yandaki amcayla tanıştık.",
-   "rd": "발륵 욕. 아마 얀다키 암자일라 타느시특.",
+   "tl": "Balık yok. Ama yanındaki amcayla tanıştık.",
+   "rd": "발륵 욕. 아마 야는다키 암자일라 타느시특.",
    "ko": "고기는 없어요. 대신 옆 아저씨랑 친해졌어요.",
    "note": "tanışmak = 인사하고 알게 되다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

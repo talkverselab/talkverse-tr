@@ -8,7 +8,7 @@
 "segs": [
 [
 "gentle",
-"Sınav nasıl geçti?"
+"Ee, sınav nasıl geçti?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "sad",
-"Hiç sorma. Türkçe çok zor."
+"Hiç sorma ya... Türkçe harbiden zor."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "gentle",
-"Bak, bu benim defterim."
+"Bak bir. Bu benim defterim."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "surprised",
-"Bu {lang}! Neden öğreniyorsun?"
+"Bu {lang} değil mi? Niye öğreniyorsun ki?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "shy",
-"Seninle kendi dilinde konuşmak için."
+"Seninle konuşayım diye, senin dilinde."
 ]
 ]
 },
@@ -52,7 +52,7 @@
 ],
 [
 "cheerful",
-"İlk ne öğrendin?"
+"İlk ne öğrendin peki?"
 ]
 ]
 },
@@ -60,7 +60,7 @@
 "segs": [
 [
 "teasing",
-"Aptal demeyi. Sana lazım."
+"Aptal demeyi. Sana lazım olur ya."
 ]
 ]
 }

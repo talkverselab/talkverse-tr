@@ -8,7 +8,7 @@
 "segs": [
 [
 "gentle",
-"Hoş geldin, yavrum. Mantı yapmayı biliyor musun?"
+"Hoş geldin, yavrum. Mantı mı öğreneceksin?"
 ]
 ]
 },
@@ -44,7 +44,7 @@
 "segs": [
 [
 "gentle",
-"Aferin. Yemek yapmayı seviyor musun?"
+"Aferin. Yemek yapmayı sever misin?"
 ]
 ]
 },
@@ -52,7 +52,7 @@
 "segs": [
 [
 "cheerful",
-"Seviyorum."
+"Severim."
 ],
 [
 "polite",
@@ -64,7 +64,7 @@
 "segs": [
 [
 "teasing",
-"Torunum yirmi sekiz yaşında. Bekâr."
+"Torunum yirmi sekiz. Bekar."
 ]
 ]
 },

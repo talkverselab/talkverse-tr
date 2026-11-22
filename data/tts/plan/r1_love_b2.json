@@ -9,7 +9,7 @@
 "segs": [
 [
 "teasing",
-"Tavla biliyor musun? Hadi, oynayalım."
+"Tavla biliyor musun? Hadi, bir el."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "cheerful",
-"Biraz biliyorum. Ne için oynuyoruz?"
+"Biraz biliyorum. Ne koyuyoruz?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "teasing",
-"Kaybeden numarasını verir. Tamam mı?"
+"Kaybeden numara verir. Olur mu?"
 ]
 ]
 },
@@ -33,11 +33,11 @@
 "segs": [
 [
 "cheerful",
-"Olur."
+"Tamam."
 ],
 [
 "shy",
-"Ama ben çok kötüyüm."
+"Ama ben gerçekten kötüyüm."
 ]
 ]
 },
@@ -45,7 +45,7 @@
 "segs": [
 [
 "shout",
-"Evladım, onu oynama! Şunu oyna, şunu!"
+"Oğlum, onu değil! Bunu koy, bunu!"
 ]
 ]
 },
@@ -53,7 +53,7 @@
 "segs": [
 [
 "tsukkomi",
-"Ne alaka amca? Masada beş amca var!"
+"Amca, ne alaka? Masada beş amca var!"
 ]
 ]
 },
@@ -61,7 +61,7 @@
 "segs": [
 [
 "excited",
-"Kazandık evladım, kazandık!"
+"Yendik, oğlum, yendik!"
 ]
 ]
 },
@@ -69,7 +69,7 @@
 "segs": [
 [
 "shy",
-"Bile bile kaybettim. Al, numaram."
+"Bilerek kaybettim. Al, numaram."
 ]
 ]
 }

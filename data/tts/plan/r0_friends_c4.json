@@ -8,7 +8,7 @@
 "segs": [
 [
 "worried",
-"Zeynep, sınav saat kaçta?"
+"Zeynep ya, sınav saat kaç?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "neutral",
-"Dokuzda."
+"Dokuz."
 ]
 ]
 },
@@ -24,7 +24,15 @@
 "segs": [
 [
 "flustered",
-"Eyvah, saat sekiz buçuk! Geliyorum!"
+"Eyvah!"
+],
+[
+"flustered",
+"Saat sekiz buçuk!"
+],
+[
+"excited",
+"Geliyorum!"
 ]
 ]
 },
@@ -32,7 +40,7 @@
 "segs": [
 [
 "excited",
-"Yoldayım! Yine pijamayla çıktım!"
+"Yoldayım! Pijamayla koşuyorum yine!"
 ]
 ]
 },
@@ -40,7 +48,7 @@
 "segs": [
 [
 "worried",
-"Okuldayım. Kapı kapalı, bekçi bana bakıyor."
+"Okuldayım. Kapı kilitli, bekçi bana bakıyor."
 ]
 ]
 },
@@ -56,7 +64,7 @@
 "segs": [
 [
 "shout",
-"Yok artık! Neden söylemedin?!"
+"Yok artık! Niye demedin?!"
 ]
 ]
 },
@@ -64,8 +72,8 @@
 "segs": [
 [
 "stiff",
-"Sormadın 😐",
-"Sormadın"
+"Sormadın ki 😐",
+"Sormadın ki"
 ]
 ]
 }

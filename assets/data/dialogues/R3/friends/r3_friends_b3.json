@@ -36,38 +36,41 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Bak, masada yer var. Pilav da geldi, gel otur.",
-   "rd": "박, 마사다 예르 바르. 필라브 다 겔디, 겔 오투르.",
+   "tl": "Bak, o masada yer var. Pilav da gelmiş, gel otur.",
+   "rd": "박, 오 마사다 예르 바르. 필라브 다 겔미시, 겔 오투르.",
    "ko": "봐, 저 테이블 자리 있어. 필라브도 나왔어, 와서 앉아.",
-   "note": "pilav = 볶음밥",
+   "note": "bak = 봐",
    "tags": [
     "expr:bak"
    ],
    "new": [
     "pilav"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Düğün çok kalabalık. Zeynep'i görebiliyor musun?",
-   "rd": "뒤윈 촉 칼라발륵. 제이네피 괴레빌리요르 무순?",
+   "tl": "Düğünde insan çok. Zeynep görünüyor mu?",
+   "rd": "뒤윈데 인산 촉. 제이넵 괴뤼뉘요르 무?",
    "ko": "결혼식 사람 진짜 많다. 제이넵 보여?",
    "note": "kalabalık = 붐비는",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Zeynep'i boş ver, önce yiyelim. Et çok güzel.",
-   "rd": "제이네피 보시 베르, 왼제 이옐림. 엣 촉 귀젤.",
+   "tl": "Zeynep boş ver, önce yiyelim. Et çok lezzetli.",
+   "rd": "제이넵 보시 베르, 왼제 이옐림. 엣 촉 레제틀리.",
    "ko": "제이넵은 됐고, 일단 먹자. 고기 진짜 맛있어.",
-   "note": "boş ver = 됐어",
+   "note": "boş ver = 됐고",
    "tags": [
     "expr:boş ver"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 4,
@@ -79,49 +82,53 @@
    "tags": [],
    "new": [
     "gelin"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Ben de tanımıyorum. Zeynep'in kuzeni, o kadar.",
-   "rd": "벤 데 타느므요룸. 제이네핀 쿠제니, 오 카다르.",
+   "tl": "Ben de bilmiyorum. Zeynep’in kuzeni, o kadar.",
+   "rd": "벤 데 빌미요룸. 제이네핀 쿠제니, 오 카다르.",
    "ko": "나도 몰라. 제이넵 사촌, 그게 다야.",
    "note": "kuzen = 사촌",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "Hoş geldiniz evladım! Siz damat tarafından mısınız?",
-   "rd": "호시 겔디니즈 에블라듬! 시즈 다맛 타라픈단 므스느즈?",
+   "tl": "Hoş geldiniz! Damat tarafı mısınız?",
+   "rd": "호시 겔디니즈! 다맛 타라프 므스느즈?",
    "ko": "어서들 와요! 신랑 쪽이에요?",
    "note": "taraf = 쪽",
    "tags": [
     "expr:hoş geldiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Evet… şey, galiba. Çok güzel düğün, maşallah.",
-   "rd": "에벳… 셰이, 갈리바. 촉 귀젤 뒤윈, 마샬라흐.",
+   "tl": "Evet… şey, galiba. Maşallah, çok güzel düğün.",
+   "rd": "에벳… 셰이, 갈리바. 마샬라흐, 촉 귀젤 뒤윈.",
    "ko": "네… 저, 아마도요. 정말 좋은 결혼식이네요.",
-   "note": "maşallah = 어머 대단해",
+   "note": "galiba = 아마도",
    "tags": [
     "expr:şey",
     "expr:galiba",
     "expr:maşallah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Sağ olun. Hadi, takı zamanı, sıra sizde.",
-   "rd": "사 올룬. 하디, 타크 자마느, 스라 시즈데.",
+   "tl": "Teşekkürler. Hadi, takı zamanı, şimdi sizin sıranız.",
+   "rd": "테셰퀴를레르. 하디, 타크 자마느, 심디 시진 스라느즈.",
    "ko": "고마워요. 자, 축의금 달아 줄 시간이에요, 이제 그쪽 차례예요.",
    "note": "takı = 신부에게 달아 주는 금·돈 · sıra sizde = 당신 차례",
    "tags": [
@@ -129,7 +136,8 @@
    ],
    "new": [
     "takı"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 9,
@@ -139,91 +147,100 @@
    "ko": "잔, 나 200리라밖에 없어!",
    "note": "bende = 나한테",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 10,
    "speaker": "B",
-   "tl": "Ver, ver. Yemeğini yedik, ayıp olur.",
-   "rd": "베르, 베르. 예메이니 예딕, 아이읍 올루르.",
+   "tl": "Ver, ver. Yemek yedik, ayıp olur.",
+   "rd": "베르, 베르. 예멕 예딕, 아이읍 올루르.",
    "ko": "내, 내. 밥을 먹었는데, 체면이 있지.",
    "note": "ayıp olur = 예의가 아니다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Bak, Zeynep yazmış: \"Neredesiniz? Düğün Mavi Salon'da başladı.\"",
-   "rd": "박, 제이넵 야즈므시 \"네레데시니즈? 뒤윈 마비 살론다 바실라드.\"",
+   "tl": "Bak, Zeynep yazmış. “Neredesiniz? Düğün mavi salonda başladı.”",
+   "rd": "박, 제이넵 야즈므시. 네레데시니즈? 뒤윈 마비 살론다 바실라드.",
    "ko": "봐, 제이넵이 썼어. 「어디야? 결혼식 푸른 홀에서 시작했어.」",
-   "note": "yazmış = 썼더라",
+   "note": "bak = 봐",
    "tags": [
     "expr:bak"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Mavi mi? Can, burası Kırmızı Salon!",
-   "rd": "마비 미? 잔, 부라스 크르므즈 살론!",
+   "tl": "Mavi salon mu? Can, burası kırmızı salon!",
+   "rd": "마비 살론 무? 잔, 부라스 크르므즈 살론!",
    "ko": "푸른 홀? 잔, 여기 붉은 홀이야!",
-   "note": "burası = 여기 — 반전",
+   "note": "burası = 여기",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 13,
    "speaker": "B",
-   "tl": "Eyvah. Yani yanlış düğünde yedik, para da taktık.",
-   "rd": "에이바흐. 야니 얀르시 뒤윈데 예딕, 파라 다 탁특.",
+   "tl": "Eyvah. Yani başkasının düğününde yedik, üstüne para da taktık.",
+   "rd": "에이바흐. 야니 바시카스는 뒤위뉜데 예딕, 위스튀네 파라 다 탁특.",
    "ko": "헉. 그러니까 남의 결혼식에서 먹고, 돈까지 달았네.",
-   "note": "yanlış = 잘못된",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 14,
    "speaker": "A",
-   "tl": "Yanlış gelin! İki yüz lira! Hemen gidelim!",
-   "rd": "얀르시 겔린! 이키 위즈 리라! 헤멘 기델림!",
+   "tl": "Yanlış gelini bulduk! İki yüz lira! Hemen gidelim!",
+   "rd": "얀르시 겔리니 불둑! 이키 위즈 리라! 헤멘 기델림!",
    "ko": "신부를 잘못 찾았어! 200리라! 당장 가자!",
    "note": "hemen = 당장",
    "tags": [
     "expr:gidelim"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 15,
    "speaker": "C",
-   "tl": "Evladım, nereye? Halay başlıyor, gelin sizi çağırıyor.",
-   "rd": "에블라듬, 네레예? 할라이 바실르요르, 겔린 시지 차으르요르.",
+   "tl": "Aman, nereye gidiyorsunuz? Halay başlıyor, gelin çağırıyor.",
+   "rd": "아만, 네레예 기디요르수누즈? 할라이 바실르요르, 겔린 차으르요르.",
    "ko": "아이고, 어딜 가요? 할라이 시작해요, 신부가 불러요.",
    "note": "halay = 손잡고 추는 군무",
    "tags": [],
    "new": [
     "halay"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 16,
    "speaker": "B",
-   "tl": "Gel. Parayı taktık, pastayı yemeden gitmiyorum.",
-   "rd": "겔. 파라이으 탁특, 파스타이으 예메덴 기트미요룸.",
+   "tl": "Vay be. Para taktık, pastayı yemeden gidemeyiz.",
+   "rd": "바이 베. 파라 탁특, 파스타이으 예메덴 기데메이즈.",
    "ko": "와. 돈을 달았는데, 케이크 안 먹고는 못 가.",
    "note": "-meden = ~하지 않고",
    "tags": [
     "expr:gel",
     "form:-meden"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

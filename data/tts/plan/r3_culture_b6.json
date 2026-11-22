@@ -9,7 +9,7 @@
 "segs": [
 [
 "polite",
-"Usta, merhaba. Zeynep size bahsetmişti. Saz öğrenmek istiyorum."
+"Usta, merhaba. Zeynep söylemiştir. Saz öğrenmek istiyorum."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "polite",
-"Tabii, hemen. Sonra derse başlıyoruz, değil mi?"
+"Tabii, hemen. Ondan sonra ders başlıyor değil mi?"
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "stiff",
-"Çay bitti. Aşağıdan iki çay getir, sıcak olsun."
+"Çay bitti. Aşağıdan iki bardak getir, sıcak."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "worried",
-"Usta, lütfen, bir dakika. Bugün sazı görebilir miyim, sadece bir kere?"
+"Usta, lütfen, bir dakika. Bugün sazı görebilir miyim? Sadece bir kez."
 ]
 ]
 },
@@ -81,11 +81,11 @@
 "segs": [
 [
 "annoyed",
-"Usta, ben para veriyorum!"
+"Usta, ben para ödüyorum!"
 ],
 [
 "sad",
-"Üç haftadır süpürüyorum, beni hiç görmüyorsunuz!"
+"Üç haftadır süpürüyorum, bana bakmıyorsunuz bile!"
 ]
 ]
 },
@@ -93,11 +93,11 @@
 "segs": [
 [
 "stiff",
-"Görmüyorum, doğru."
+"Bakmıyorum, doğru."
 ],
 [
 "gentle",
-"Ama duyuyorum."
+"Ama dinliyorum."
 ]
 ]
 },
@@ -105,7 +105,7 @@
 "segs": [
 [
 "surprised",
-"Ne duyuyorsunuz? Ben burada hiç ses çıkarmıyorum ki."
+"Neyi dinliyorsunuz? Ben burada ses çıkarmıyorum ki."
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "gentle",
-"Süpürürken ritim tutuyorsun. İlk hafta yanlıştı, şimdi doğru."
+"Süpürürken tempo tutuyorsun. İlk hafta yanlıştı, şimdi doğru."
 ]
 ]
 },
@@ -121,7 +121,7 @@
 "segs": [
 [
 "excited",
-"Yok artık! Yani yarın saz çalabilirim, öyle mi?"
+"Olmaz! O zaman yarın saz çalabilirim değil mi?"
 ]
 ]
 },
@@ -129,11 +129,7 @@
 "segs": [
 [
 "stiff",
-"Hayır. Yarın sazı sadece tutacaksın."
-],
-[
-"amused",
-"Çalmak gelecek ay."
+"Hayır. Yarın sadece sazı tut. Çalmak gelecek ay."
 ]
 ]
 }

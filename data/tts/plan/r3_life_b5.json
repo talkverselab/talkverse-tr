@@ -8,11 +8,11 @@
 "segs": [
 [
 "gentle",
-"Elektrik gitti, ben de çatıya çıktım."
+"Elektrikler gitti ya, direkt çatıya çıktım."
 ],
 [
 "cheerful",
-"Gel, yıldızlar harika."
+"Gel bak, yıldızlar harika."
 ]
 ]
 },
@@ -20,7 +20,7 @@
 "segs": [
 [
 "amused",
-"Bu saatte çatıda ne yiyorsun? Kesin bir şey yiyorsun."
+"Bu saatte çatıda ne yiyosun sen? Belli ki bi şeyler atıştırıyosun."
 ]
 ]
 },
@@ -32,11 +32,11 @@
 ],
 [
 "gentle",
-"Al, sana da bıraktım."
+"Al, sana da ayırdım."
 ],
 [
 "amused",
-"Üç tane."
+"Üç tane sadece."
 ]
 ]
 },
@@ -48,7 +48,7 @@
 ],
 [
 "amused",
-"Helal olsun sana, kanka."
+"Helal olsun kanka, gerçekten."
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "gentle",
-"Bu mahalle hiç bu kadar sessiz olmaz. Teyze bile oyunda değil."
+"Bu mahalle hiç böyle sessiz olmamıştı. Teyzem bile oyun oynamıyo."
 ]
 ]
 },
@@ -64,11 +64,11 @@
 "segs": [
 [
 "worried",
-"Can, bir şey söyleyeceğim."
+"Can, bi şey söyleyeceğim."
 ],
 [
 "sad",
-"Annem aradı, eve dönmemi istiyor."
+"Annem aradı, eve dön diyo."
 ]
 ]
 },
@@ -84,7 +84,7 @@
 "segs": [
 [
 "sad",
-"Bilmiyorum. Belki bu yaz. Daha karar vermedim."
+"Bilmiyorum ki. Belki bu yaz. Daha karar vermedim."
 ]
 ]
 },
@@ -92,7 +92,7 @@
 "segs": [
 [
 "stiff",
-"Hıhı."
+"Hmm."
 ],
 [
 "sad",
@@ -100,7 +100,7 @@
 ],
 [
 "gentle",
-"İyi olur, annen seni özlemiştir."
+"İyi olmuş, annen seni görmek istiyodur."
 ]
 ]
 },
@@ -108,7 +108,7 @@
 "segs": [
 [
 "sad",
-"Bu kadar mı? 'İyi olur' mu diyorsun?"
+"Bu kadar mı? 'İyi olmuş' mu diyosun?"
 ]
 ]
 },
@@ -116,11 +116,7 @@
 "segs": [
 [
 "annoyed",
-"Ne diyeyim? 'Gitme' mi diyeyim?"
-],
-[
-"sad",
-"O senin hayatın."
+"Ne diyeyim? 'Gitme' mi diyeyim? Senin hayatın, olmaz."
 ]
 ]
 },
@@ -128,11 +124,11 @@
 "segs": [
 [
 "sad",
-"Bilmem."
+"Bilmiyorum."
 ],
 [
 "shy",
-"Belki biri 'gitme' demeli."
+"Birinin 'gitme' demesi lazım değil mi?"
 ]
 ]
 },
@@ -140,7 +136,7 @@
 "segs": [
 [
 "gentle",
-"Bak, ben yemeğimi kimseye vermem. Al, hepsi senin."
+"Bak, ben kimseye çekirdek vermem. Al, hepsi senin."
 ]
 ]
 },
@@ -148,7 +144,7 @@
 "segs": [
 [
 "shy",
-"Can… bu ne demek şimdi?"
+"Can... bu ne demek şimdi?"
 ]
 ]
 },
@@ -156,7 +152,7 @@
 "segs": [
 [
 "flustered",
-"Bilmiyorum ki."
+"Ben de bilmiyorum ki."
 ],
 [
 "gentle",
@@ -172,7 +168,7 @@
 ],
 [
 "shy",
-"Karanlık daha güzeldi."
+"Karanlık daha güzeldi aslında."
 ]
 ]
 }

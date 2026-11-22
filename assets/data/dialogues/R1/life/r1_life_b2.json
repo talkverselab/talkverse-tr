@@ -34,50 +34,63 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Merhaba. Kirayı konuşalım mı?",
-   "rd": "메르하바. 키라이으 코누샬름 므?",
+   "tl": "Merhaba. Kira konusunu konuşalım mı?",
+   "rd": "메르하바. 키라 코누수누 코누샬름 므?",
    "ko": "안녕하세요. 월세 얘기 좀 할까요?",
-   "note": "kira = 월세",
+   "note": "merhaba = 안녕하세요",
    "tags": [
     "expr:merhaba"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Tabii. Ama önce kombi bozuk.",
-   "rd": "타비이. 아마 왼제 콤비 보죽.",
+   "tl": "Tabii. Ama önce kombi bozulmuş.",
+   "rd": "타비이. 아마 왼제 콤비 보줄무시.",
    "ko": "네. 근데 우선 보일러가 고장 났어요.",
-   "note": "kombi = 가정용 보일러",
+   "note": "tabii = 물론",
    "tags": [
     "expr:tabii"
    ],
    "new": [
     "kombi"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Tabii."
+    ],
+    [
+     "worried",
+     "Ama önce kombi bozulmuş."
+    ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Tamam, yarın usta gelir.",
-   "rd": "타맘, 야른 우스타 겔리르.",
+   "tl": "Anladım, yarın usta gelir.",
+   "rd": "안라듬, 야른 우스타 겔리르.",
    "ko": "알겠어요, 내일 기사님 올 거예요.",
    "note": "usta = 수리 기사",
    "tags": [],
    "new": [
     "usta"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Efendim? Bir de pencere kapanmıyor.",
-   "rd": "에펜딤? 비르 데 펜제레 카판므요르.",
-   "ko": "저기요, 창문도 안 닫혀요.",
+   "tl": "Bir de pencere kapanmıyor.",
+   "rd": "비르 데 펜제레 카판므요르.",
+   "ko": "창문도 안 닫혀요.",
    "note": "kapanmıyor = 안 닫힌다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 5,
@@ -87,47 +100,68 @@
    "ko": "기사님이 그것도 봐 줄 거예요.",
    "note": "bakmak = 봐 주다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Aman! Su da çok az geliyor.",
-   "rd": "아만! 수 다 촉 아즈 겔리요르.",
+   "tl": "Aman! Su da çok zayıf geliyor.",
+   "rd": "아만! 수 다 촉 자이으프 겔리요르.",
    "ko": "아이고! 물도 너무 약하게 나와요.",
-   "note": "az geliyor = 조금 나온다",
+   "note": "aman = 아이고",
    "tags": [
     "expr:aman"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Aman!"
+    ],
+    [
+     "annoyed",
+     "Su da çok zayıf geliyor."
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Hepsini yaptırırım. Kira da yüzde elli artar.",
-   "rd": "헵시니 얍트르름. 키라 다 위즈데 엘리 아르타르.",
+   "tl": "Hepsini hallettiririz. Kira da yüzde elli artıyor.",
+   "rd": "헵시니 할레티리리즈. 키라 다 위즈데 엘리 아르트요르.",
    "ko": "다 고쳐 드리죠. 월세는 50퍼센트 오르고요.",
-   "note": "artmak = 오르다 — 반전",
+   "note": "artmak = 오르다",
    "tags": [],
-   "new": [
-    "artmak"
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Hepsini hallettiririz."
+    ],
+    [
+     "amused",
+     "Kira da yüzde elli artıyor."
+    ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Yok! Ev harika, çok güzel!",
-   "rd": "욕! 에브 하리카, 촉 귀젤!",
+   "tl": "Yok! Ev çok güzel, harika!",
+   "rd": "욕! 에브 촉 귀젤, 하리카!",
    "ko": "아뇨! 집 끝내줘요, 너무 좋아요!",
-   "note": "harika = 끝내준다",
+   "note": "çok güzel = 아주 좋아요",
    "tags": [
     "expr:çok güzel",
     "expr:harika"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

@@ -9,7 +9,7 @@
 "segs": [
 [
 "stiff",
-"Müşteri yarın imza atacak. Bu akşamki yemeği bozma."
+"Müşteri yarın imzalıyor. Bu akşamı bozma."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "cheerful",
-"Merak etme. Üç cümle ezberledim, hepsi çok kibar."
+"Merak etme. Üç cümle ezberledim, hepsi çok nazik."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "neutral",
-"Bir tanesi yeter. Yemekten sonra “Elinize sağlık” de."
+"Bir tane yeter. Yemekten sonra «Elinize sağlık» de."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "cheerful",
-"Hoş geldiniz! Hepsini ben yaptım. Buyurun, oturun."
+"Hoş geldiniz! Hepsini ben yaptım. Oturun."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "polite",
-"Hoş bulduk. Evin kokusu bile harika."
+"Hoş bulduk. Ev kokusu bile harika."
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "polite",
-"Bir tabak daha alır mısınız? Çok az yediniz."
+"Bir tabak daha ister misiniz? Çok az yediniz."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "polite",
-"Üç tabak yedim. Artık kalkamıyorum. Çok teşekkür ederim."
+"Üç tabak yedim. Artık kalkamam. Teşekkür ederim."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "stiff",
-"Şimdi söyle. Hadi, tam zamanı."
+"Şimdi söyle. Hemen, tam şimdi."
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "polite",
-"Hanımefendi… ayağınıza sağlık!"
+"Hanımefendi… Ayağınıza sağlık!"
 ]
 ]
 },
@@ -85,7 +85,7 @@
 ],
 [
 "tsukkomi",
-"Yemeği ayağımla mı yaptım ben?"
+"Yemeği ayağımla mı yaptım?"
 ]
 ]
 },
@@ -93,7 +93,7 @@
 "segs": [
 [
 "flustered",
-"“Elinize” demek istedi."
+"«Elinize» diyecekti."
 ],
 [
 "polite",
@@ -105,11 +105,11 @@
 "segs": [
 [
 "flustered",
-"Evet, eller!"
+"Evet, elinize!"
 ],
 [
 "cheerful",
-"Ama ayaklarınız da çok güzel."
+"Ama ayağınız da çok güzel."
 ]
 ]
 },
@@ -121,7 +121,7 @@
 ],
 [
 "cheerful",
-"Hadi, sözleşmeyi getirin."
+"Alın, sözleşmeyi getirin."
 ]
 ]
 },
@@ -137,11 +137,11 @@
 "segs": [
 [
 "cheerful",
-"Bugün imzalayalım."
+"Bugün imzalıyoruz."
 ],
 [
 "teasing",
-"Ama ayağımla imzalarım, haberiniz olsun."
+"Ama ayağımla yapacağım, haberiniz olsun."
 ]
 ]
 }

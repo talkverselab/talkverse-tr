@@ -38,24 +38,26 @@
    "tl": "Merhaba. Bu cezve ne kadar?",
    "rd": "메르하바. 부 제즈베 네 카다르?",
    "ko": "안녕하세요. 이 체즈베 얼마예요?",
-   "note": "cezve = 튀르키예 커피 주전자",
+   "note": "ne kadar = 얼마예요",
    "tags": [
     "expr:merhaba",
     "expr:ne kadar"
    ],
    "new": [
     "cezve"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Size özel, iki bin lira.",
-   "rd": "시제 외젤, 이키 빈 리라.",
+   "tl": "Sana özel iki bin lira.",
+   "rd": "사나 외젤 이키 빈 리라.",
    "ko": "손님만 특별히 2천 리라.",
    "note": "size özel = 손님만 특별히",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
@@ -63,11 +65,21 @@
    "tl": "Çok pahalı! Bin lira veririm.",
    "rd": "촉 파할르! 빈 리라 베리림.",
    "ko": "너무 비싸요! 천 리라 드릴게요.",
-   "note": "veririm = 낼게요",
+   "note": "çok pahalı = 너무 비싸요",
    "tags": [
     "expr:çok pahalı"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Çok pahalı!"
+    ],
+    [
+     "neutral",
+     "Bin lira veririm."
+    ]
+   ]
   },
   {
    "num": 4,
@@ -75,21 +87,32 @@
    "tl": "Bin mi? Yok artık, çocuklarım aç kalır.",
    "rd": "빈 미? 욕 아르특, 초주클라름 아치 칼르르.",
    "ko": "천이요? 말도 안 돼요, 우리 애들 굶어요.",
-   "note": "aç kalmak = 굶다",
+   "note": "yok artık = 말도 안 돼요",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Bin mi?"
+    ],
+    [
+     "sad",
+     "Yok artık, çocuklarım aç kalır."
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Arkadaşım buralı. Bana her şeyi anlattı.",
-   "rd": "아르카다심 부랄르. 바나 헤르 셰이 안라트.",
+   "tl": "Arkadaşım buradan. Her şeyi anlattı.",
+   "rd": "아르카다심 부라단. 헤르 셰이 안라트.",
    "ko": "제 친구가 여기 사람이에요. 다 얘기해 줬어요.",
    "note": "buralı = 여기 사람",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -99,29 +122,59 @@
    "ko": "그래요? 1,800, 마지막 가격이에요.",
    "note": "öyle mi? = 그래요?",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Öyle mi?"
+    ],
+    [
+     "polite",
+     "Bin sekiz yüz, son fiyat."
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Bin iki yüz. Yoksa gidiyorum, bak!",
-   "rd": "빈 이키 위즈. 욕사 기디요룸, 박!",
+   "tl": "Bin iki yüz. Yoksa giderim, gerçekten!",
+   "rd": "빈 이키 위즈. 욕사 기데림, 게르첵텐!",
    "ko": "1,200. 안 그러면 갑니다, 진짜!",
    "note": "yoksa = 안 그러면",
    "tags": [
     "expr:bak"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "stiff",
+     "Bin iki yüz."
+    ],
+    [
+     "annoyed",
+     "Yoksa giderim, gerçekten!"
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Gidin, gidin. Bin yedi yüz, çay da benden.",
-   "rd": "기딘, 기딘. 빈 예디 위즈, 차이 다 벤덴.",
+   "tl": "Git, git. Tamam, bin yedi yüz, çayı ben ısmarlarım.",
+   "rd": "깃, 깃. 타맘, 빈 예디 위즈, 차이으 벤 으스마를라름.",
    "ko": "가세요, 가세요. 1,700, 차는 제가 살게요.",
-   "note": "benden = 내가 낸다",
+   "note": "tamam = 알겠어",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "annoyed",
+     "Git, git."
+    ],
+    [
+     "cheerful",
+     "Tamam, bin yedi yüz, çayı ben ısmarlarım."
+    ]
+   ]
   },
   {
    "num": 9,
@@ -129,52 +182,84 @@
    "tl": "Amca, selam! Yine turist mi yakaladın?",
    "rd": "암자, 셀람! 이네 투리스트 미 야칼라든?",
    "ko": "삼촌, 안녕! 또 관광객 잡았어?",
-   "note": "amca = 삼촌 · turist = 관광객 — 반전",
+   "note": "amca = 삼촌 · turist = 관광객",
    "tags": [
     "expr:selam"
    ],
    "new": [
     "turist"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Amca, selam!"
+    ],
+    [
+     "teasing",
+     "Yine turist mi yakaladın?"
+    ]
    ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Amca mı?! Elif, bu adam senin amcan mı?",
-   "rd": "암자 므?! 엘리프, 부 아담 세닌 암잔 므?",
+   "tl": "Amca?! Elif, bu senin amcan mı?",
+   "rd": "암자?! 엘리프, 부 세닌 암잔 므?",
    "ko": "삼촌?! 엘리프, 이분이 네 삼촌이야?",
    "note": "amcan = 너의 삼촌",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Aman! Elif'in arkadaşıysanız, bin lira tamam.",
-   "rd": "아만! 엘리핀 아르카다시이사느즈, 빈 리라 타맘.",
+   "tl": "Aman! Elif'in arkadaşıysa bin lira olur.",
+   "rd": "아만! 엘리핀 아르카다시이사 빈 리라 올루르.",
    "ko": "아이고! 엘리프 친구면 천 리라 좋습니다.",
-   "note": "-ysanız = ~라면",
+   "note": "aman = 아이고",
    "tags": [
     "expr:aman",
     "expr:tamam",
     "form:-ysanız"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Aman!"
+    ],
+    [
+     "polite",
+     "Elif'in arkadaşıysa bin lira olur."
+    ]
+   ]
   },
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Bin mi? Amca, o cezve beş yüz.",
-   "rd": "빈 미? 암자, 오 제즈베 베시 위즈.",
+   "tl": "Bin mi? Amca, o beş yüz ya.",
+   "rd": "빈 미? 암자, 오 베시 위즈 야.",
    "ko": "천? 삼촌, 저거 500이잖아.",
    "note": "beş yüz = 500",
    "tags": [
     "callback:r1_travel_b1"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Bin mi?"
+    ],
+    [
+     "tsukkomi",
+     "Amca, o beş yüz ya."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

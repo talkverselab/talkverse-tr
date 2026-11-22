@@ -34,43 +34,45 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hoş geldiniz. Nereye gidiyoruz?",
-   "rd": "호시 겔디니즈. 네레예 기디요루즈?",
+   "tl": "Hoş geldiniz. Nereye gidelim?",
+   "rd": "호시 겔디니즈. 네레예 기델림?",
    "ko": "어서 오세요. 어디로 모실까요?",
-   "note": "nereye = 어디로",
+   "note": "hoş geldiniz = 어서 오세요",
    "tags": [
     "expr:hoş geldiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Havalimanına, lütfen. Uçak saat beşte.",
-   "rd": "하발리마느나, 뤼트펜. 우착 사앗 베시테.",
+   "tl": "Havalimanına lütfen. Uçağım 5'te.",
+   "rd": "하발리마느나 뤼트펜. 우차음 5테.",
    "ko": "공항이요. 비행기가 5시예요.",
-   "note": "havalimanı = 공항",
+   "note": "lütfen = 요",
    "tags": [
     "expr:lütfen"
    ],
    "new": [
-    "havalimanı",
-    "uçak"
-   ]
+    "havalimanı"
+   ],
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Tabii. Siz hangi takımı tutuyorsunuz?",
-   "rd": "타비이. 시즈 한기 타크므 투투요르수누즈?",
+   "tl": "Tabii. Hangi takımı tutuyorsunuz?",
+   "rd": "타비이. 한기 타크므 투투요르수누즈?",
    "ko": "네. 손님은 어느 팀 응원하세요?",
-   "note": "takım tutmak = 팀을 응원하다",
+   "note": "tabii = 네",
    "tags": [
     "expr:tabii"
    ],
    "new": [
     "takım"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 4,
@@ -78,61 +80,94 @@
    "tl": "Takım mı? Bilmem, futbol izlemiyorum.",
    "rd": "타큼 므? 빌멤, 푸트볼 이즐레미요룸.",
    "ko": "팀이요? 글쎄요, 축구 안 봐요.",
-   "note": "izlemek = 보다",
+   "note": "bilmem = 글쎄요",
    "tags": [
     "expr:bilmem"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Hiç mi? Yok artık, bu olmaz!",
-   "rd": "히치 미? 욕 아르특, 부 올마즈!",
+   "tl": "Hiç mi? Yok artık, olmaz bu!",
+   "rd": "히치 미? 욕 아르특, 올마즈 부!",
    "ko": "하나도요? 말도 안 돼요, 이건 안 되죠!",
-   "note": "hiç mi? = 전혀요?",
+   "note": "yok artık = 말도 안 돼요",
    "tags": [
     "expr:yok artık",
     "expr:olmaz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Neden bu yoldan gidiyorsunuz? Havalimanı orada!",
-   "rd": "네덴 부 욜단 기디요르수누즈? 하발리마느 오라다!",
+   "tl": "Neden bu yoldan? Havalimanı orada!",
+   "rd": "네덴 부 욜단? 하발리마느 오라다!",
    "ko": "왜 이 길로 가세요? 공항은 저쪽이에요!",
    "note": "bu yoldan = 이 길로",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "worried",
+     "Neden bu yoldan?"
+    ],
+    [
+     "shout",
+     "Havalimanı orada!"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Kısa yol, stadın önünden. Büyük maç var.",
-   "rd": "크사 욜, 스타든 외뉜덴. 뷔윅 마치 바르.",
+   "tl": "Kestirme, stadyum önünden. Büyük maç var.",
+   "rd": "케스티르메, 스타드윰 외뉜덴. 뷔윅 마치 바르.",
    "ko": "지름길이에요, 경기장 앞으로요. 큰 경기 있거든요.",
-   "note": "kısa yol = 지름길 — 반전",
+   "note": "kısa yol = 지름길",
    "tags": [],
    "new": [
     "maç"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Kestirme, stadyum önünden."
+    ],
+    [
+     "excited",
+     "Büyük maç var."
+    ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Maç günü stat mı? Uçak beklemez, beyefendi!",
-   "rd": "마치 귀뉘 스탓 므? 우착 베클레메즈, 베예펜디!",
+   "tl": "Maç günü stadyum mu? Uçak beklemez efendim!",
+   "rd": "마치 귀뉘 스타드윰 무? 우착 베클레메즈 에펜딤!",
    "ko": "경기 날 경기장이요? 비행기는 안 기다려요, 기사님!",
    "note": "beklemez = 기다리지 않는다",
    "tags": [
     "expr:beyefendi"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Maç günü stadyum mu?"
+    ],
+    [
+     "shout",
+     "Uçak beklemez efendim!"
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

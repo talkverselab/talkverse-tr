@@ -8,7 +8,8 @@
 "segs": [
 [
 "polite",
-"Alo? On dört numaradan arıyorum."
+"Alo? 14 numara.",
+"Alo? on dört numara."
 ]
 ]
 },
@@ -16,7 +17,7 @@
 "segs": [
 [
 "polite",
-"Buyurun efendim. Deniz görünen oda, değil mi?"
+"Buyurun efendim. Deniz manzaralı oda, değil mi?"
 ]
 ]
 },
@@ -44,7 +45,7 @@
 "segs": [
 [
 "surprised",
-"Baktım. Allah allah, bina var."
+"Baktım. Tuhaf, bina var."
 ]
 ]
 },
@@ -52,7 +53,7 @@
 "segs": [
 [
 "polite",
-"Biraz eğilin. Mavi bir şey var mı?"
+"Biraz daha uzanın. Mavi bir şey görüyor musunuz?"
 ]
 ]
 },
@@ -60,11 +61,7 @@
 "segs": [
 [
 "tsukkomi",
-"Küçük bir mavi!"
-],
-[
-"polite",
-"Başka oda var mı?"
+"Allah allah! Tırnak kadar mavi! Başka oda var mı?"
 ]
 ]
 },
@@ -72,7 +69,7 @@
 "segs": [
 [
 "polite",
-"Yarın var efendim. Bu gece biraz eğilin."
+"Yarın var efendim. Bu gece biraz daha uzanın."
 ]
 ]
 }

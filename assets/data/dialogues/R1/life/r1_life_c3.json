@@ -32,16 +32,17 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Merhaba. Kombi bozuk, ev çok soğuk.",
-   "rd": "메르하바. 콤비 보죽, 에브 촉 소욱.",
+   "tl": "Merhaba. Kombi bozuldu, ev çok soğuk.",
+   "rd": "메르하바. 콤비 보줄두, 에브 촉 소욱.",
    "ko": "안녕하세요. 보일러가 고장 나서 집이 너무 추워요.",
-   "note": "soğuk = 추운",
+   "note": "merhaba = 안녕하세요",
    "tags": [
     "expr:merhaba"
    ],
    "new": [],
    "at": "08:10",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "polite"
   },
   {
    "num": 2,
@@ -53,7 +54,8 @@
    "tags": [],
    "new": [],
    "at": "12:30",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "worried"
   },
   {
    "num": 3,
@@ -65,19 +67,21 @@
    "tags": [],
    "new": [],
    "at": "19:45",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Mesajımı okudunuz, biliyorum.",
-   "rd": "메사즈므 오쿠두누즈, 빌리요룸.",
+   "tl": "Mesajları okuduğunuzu biliyorum.",
+   "rd": "메사즐라르 오쿠두우누주 빌리요룸.",
    "ko": "메시지 읽으신 거 다 알아요.",
    "note": "okudunuz = 읽으셨다",
    "tags": [],
    "new": [],
    "at": "22:05",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "annoyed"
   },
   {
    "num": 5,
@@ -85,17 +89,18 @@
    "tl": "Bugün ayın biri. Kira?",
    "rd": "부귄 아이은 비리. 키라?",
    "ko": "오늘 1일이에요. 월세는요?",
-   "note": "ayın biri = 매달 1일 — 반전: 이때만 답한다",
+   "note": "ayın biri = 매달 1일",
    "tags": [],
    "new": [],
    "at": "00:01",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "stiff"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Yok artık! Şimdi mi yazıyorsunuz?!",
-   "rd": "욕 아르특! 심디 미 야즈요르수누즈?!",
+   "tl": "Yok artık! Şimdi mi cevap veriyorsunuz?!",
+   "rd": "욕 아르특! 심디 미 제밥 베리요르수누즈?!",
    "ko": "말도 안 돼! 이제야 답하세요?!",
    "note": "yok artık = 말도 안 돼",
    "tags": [
@@ -104,7 +109,17 @@
    "new": [],
    "at": "00:02",
    "stamp": "🥶",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "shout",
+     "Yok artık!"
+    ],
+    [
+     "annoyed",
+     "Şimdi mi cevap veriyorsunuz?!"
+    ]
+   ]
   },
   {
    "num": 7,
@@ -116,24 +131,36 @@
    "tags": [],
    "new": [],
    "at": "00:02",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "annoyed"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Geçmiş olsun. Hesap numaramı biliyorsunuz.",
-   "rd": "게치미시 올순. 헤삽 누마라므 빌리요르수누즈.",
+   "tl": "Geçmiş olsun. Hesap numarasını biliyorsunuzdur.",
+   "rd": "게치미시 올순. 헤삽 누마라스느 빌리요르수누즈두르.",
    "ko": "고생 많으시네요. 계좌 번호는 아시죠.",
-   "note": "hesap numarası = 계좌 번호",
+   "note": "geçmiş olsun = 고생 많으시네요",
    "tags": [
     "expr:geçmiş olsun"
    ],
    "new": [],
    "at": "00:03",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "polite",
+     "Geçmiş olsun."
+    ],
+    [
+     "stiff",
+     "Hesap numarasını biliyorsunuzdur."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

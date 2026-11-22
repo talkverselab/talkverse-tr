@@ -9,7 +9,7 @@
 "segs": [
 [
 "polite",
-"Merhaba. Sultanahmet'e lütfen."
+"Merhaba. Sultanahmet lütfen."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "polite",
-"Tabii. Ama yol biraz kalabalık."
+"Tabii. Ama yol biraz yoğun."
 ]
 ]
 },
@@ -45,7 +45,7 @@
 "segs": [
 [
 "cheerful",
-"Alo, evladım! Arabada kim var?"
+"Alo, oğlum! Arabada kim var?"
 ]
 ]
 },
@@ -53,7 +53,7 @@
 "segs": [
 [
 "flustered",
-"Şey, merhaba teyze. Ben yolcuyum."
+"Şey... Merhaba teyze. Ben müşteriyim."
 ]
 ]
 },
@@ -61,7 +61,7 @@
 "segs": [
 [
 "cheerful",
-"Hoş geldin, yavrum!"
+"Hoş geldin, canım!"
 ],
 [
 "gentle",
@@ -77,7 +77,7 @@
 ],
 [
 "amused",
-"Annem ciddi, adresi vereyim mi?"
+"Annem ciddi, adres vereyim mi?"
 ]
 ]
 }

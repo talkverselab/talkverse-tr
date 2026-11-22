@@ -33,14 +33,15 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Zeynep, saat on iki. Komşular uyuyor.",
-   "rd": "제이넵, 사앗 온 이키. 콤슐라르 우유요르.",
+   "tl": "Zeynep, saat 12. Komşular uyuyor.",
+   "rd": "제이넵, 사앗 12. 콤슐라르 우유요르.",
    "ko": "Zeynep, 12시야. 이웃들 자.",
    "note": "komşu = 이웃",
    "tags": [],
    "new": [
     "komşu"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 2,
@@ -48,14 +49,14 @@
    "tl": "Boş ver. Sadece bir türkü.",
    "rd": "보시 베르. 사데제 비르 튀르퀴.",
    "ko": "신경 쓰지 마. 민요 하나만.",
-   "note": "türkü = 튀르키예 민요",
+   "note": "boş ver = 신경 쓰지 마",
    "tags": [
     "expr:boş ver"
    ],
    "new": [
-    "türkü",
-    "saz"
-   ]
+    "türkü"
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 3,
@@ -63,11 +64,12 @@
    "tl": "Eyvah, kapı çalıyor!",
    "rd": "에이바흐, 카프 찰르요르!",
    "ko": "헉, 초인종 울린다!",
-   "note": "kapı çalıyor = 누가 왔다",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 4,
@@ -77,7 +79,8 @@
    "ko": "이 소리 뭡니까? 몇 시인지 아세요?",
    "note": "ses = 소리",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 5,
@@ -89,40 +92,72 @@
    "tags": [
     "expr:kusura bakmayın"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Kusura bakmayın!"
+    ],
+    [
+     "polite",
+     "Hemen bitiriyoruz."
+    ]
+   ]
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "Hayır. O türküyü babam çalardı.",
-   "rd": "하이으르. 오 튀르퀴위 바밤 찰라르드.",
+   "tl": "Hayır. O şarkı, babamın çaldığıydı.",
+   "rd": "하이으르. 오 샤르크, 바바믄 찰드으이드.",
    "ko": "아니요. 그 노래, 우리 아버지가 치시던 거예요.",
-   "note": "çalardı = 치곤 했다 — 반전",
+   "note": "çalardı = 치곤 했다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "stiff",
+     "Hayır."
+    ],
+    [
+     "sad",
+     "O şarkı, babamın çaldığıydı."
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Bir daha çalayım mı?",
-   "rd": "비르 다하 찰라이음 므?",
+   "tl": "Bir kez daha çalayım mı?",
+   "rd": "비르 케즈 다하 찰라이음 므?",
    "ko": "한 번 더 칠까요?",
    "note": "bir daha = 한 번 더",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Çalın. Ben de sazımı getiriyorum.",
-   "rd": "찰른. 벤 데 사즈므 게티리요룸.",
+   "tl": "Çalın. Ben de sazımı getireyim.",
+   "rd": "찰른. 벤 데 사즈므 게티레임.",
    "ko": "치세요. 나도 내 사즈 가져올게요.",
    "note": "getiriyorum = 가져온다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Çalın."
+    ],
+    [
+     "cheerful",
+     "Ben de sazımı getireyim."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

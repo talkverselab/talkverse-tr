@@ -33,16 +33,17 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hoş geldin, yavrum. Mantı yapmayı biliyor musun?",
-   "rd": "호시 겔딘, 야브룸. 만트 얍마이으 빌리요르 무순?",
+   "tl": "Hoş geldin, yavrum. Mantı mı öğreneceksin?",
+   "rd": "호시 겔딘, 야브룸. 만트 므 외레네젝신?",
    "ko": "어서 와라, 얘야. 만티 빚을 줄 아니?",
-   "note": "yapmayı biliyor musun = 할 줄 아니",
+   "note": "hoş geldin = 어서 와",
    "tags": [
     "expr:hoş geldin"
    ],
    "new": [
     "mantı"
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 2,
@@ -50,11 +51,21 @@
    "tl": "Bilmiyorum, teyze. Ama öğrenmek istiyorum.",
    "rd": "빌미요룸, 테이제. 아마 외렌멕 이스티요룸.",
    "ko": "몰라요, 이모. 근데 배우고 싶어요.",
-   "note": "öğrenmek = 배우다",
+   "note": "bilmiyorum = 몰라요",
    "tags": [
     "expr:bilmiyorum"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "shy",
+     "Bilmiyorum, teyze."
+    ],
+    [
+     "cheerful",
+     "Ama öğrenmek istiyorum."
+    ]
+   ]
   },
   {
    "num": 3,
@@ -64,7 +75,8 @@
    "ko": "더 작게! 한 숟가락에 마흔 개.",
    "note": "kırk = 40",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 4,
@@ -72,44 +84,56 @@
    "tl": "Kırk mı? Yok artık!",
    "rd": "크르크 므? 욕 아르특!",
    "ko": "마흔 개요? 말도 안 돼요!",
-   "note": "yok artık = 말도 안 돼",
+   "note": "yok artık = 말도 안 돼요",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Aferin. Yemek yapmayı seviyor musun?",
-   "rd": "아페린. 예멕 얍마이으 세비요르 무순?",
+   "tl": "Aferin. Yemek yapmayı sever misin?",
+   "rd": "아페린. 예멕 얍마이으 세베르 미신?",
    "ko": "잘했다. 음식 하는 거 좋아하니?",
    "note": "aferin = 잘했다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Seviyorum. Neden sordunuz, teyze?",
-   "rd": "세비요룸. 네덴 소르두누즈, 테이제?",
+   "tl": "Severim. Neden sordunuz, teyze?",
+   "rd": "세베림. 네덴 소르두누즈, 테이제?",
    "ko": "좋아해요. 왜 물으세요, 이모?",
    "note": "sordunuz = 물으셨다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Severim."
+    ],
+    [
+     "polite",
+     "Neden sordunuz, teyze?"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Torunum yirmi sekiz yaşında. Bekâr.",
-   "rd": "토루눔 이르미 세키즈 야신다. 베카르.",
+   "tl": "Torunum yirmi sekiz. Bekar.",
+   "rd": "토루눔 이르미 세키즈. 베카르.",
    "ko": "우리 손주가 스물여덟이야. 혼자고.",
-   "note": "bekâr = 미혼 — 반전: 맞선 시험이었다",
+   "note": "bekâr = 미혼",
    "tags": [],
    "new": [
-    "torun",
-    "bekâr"
-   ]
+    "torun"
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -117,15 +141,26 @@
    "tl": "Ne alaka? Ben mantı için geldim!",
    "rd": "네 알라카? 벤 만트 이친 겔딤!",
    "ko": "뭔 소리예요? 저 만티 때문에 왔어요!",
-   "note": "ne alaka = 뭔 소리야",
+   "note": "ne alaka = 뭔 소리예요",
    "tags": [
     "expr:ne alaka",
     "expr:geldim"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "tsukkomi",
+     "Ne alaka?"
+    ],
+    [
+     "flustered",
+     "Ben mantı için geldim!"
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Merhaba. Kombi bozuk, ev çok soğuk."
+"Merhaba. Kombi bozuldu, ev çok soğuk."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "annoyed",
-"Mesajımı okudunuz, biliyorum."
+"Mesajları okuduğunuzu biliyorum."
 ]
 ]
 },
@@ -52,7 +52,7 @@
 ],
 [
 "annoyed",
-"Şimdi mi yazıyorsunuz?!"
+"Şimdi mi cevap veriyorsunuz?!"
 ]
 ]
 },
@@ -72,7 +72,7 @@
 ],
 [
 "stiff",
-"Hesap numaramı biliyorsunuz."
+"Hesap numarasını biliyorsunuzdur."
 ]
 ]
 }

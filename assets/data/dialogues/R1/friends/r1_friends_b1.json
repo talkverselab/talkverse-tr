@@ -40,13 +40,14 @@
    "tl": "Bak, yukarıdan sepet iniyor!",
    "rd": "박, 유카르단 세펫 이니요르!",
    "ko": "봐, 위에서 바구니 내려온다!",
-   "note": "sepet = 바구니",
+   "note": "bak = 봐",
    "tags": [
     "expr:bak"
    ],
    "new": [
     "sepet"
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 2,
@@ -56,32 +57,35 @@
    "ko": "안에 뭐 있어? 돈이야?",
    "note": "içinde = 안에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Para ve not: \"Bir ekmek.\" Ben giderim!",
-   "rd": "파라 베 놋 \"비르 엑멕.\" 벤 기데림!",
+   "tl": "Para ve not. 「Bir ekmek.」 Geldim, ben alıp geliyorum! Yaşasın!",
+   "rd": "파라 베 놋. 비르 엑멕. 겔딤, 벤 알릅 겔리요룸! 야샤슨!",
    "ko": "돈이랑 쪽지. 「빵 하나.」 내가 갔다 올게!",
-   "note": "not = 쪽지",
+   "note": "yaşasın = 만세",
    "tags": [
     "expr:yaşasın",
     "expr:geliyorum"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Can, dur! Üstünü de sepete koy!",
-   "rd": "잔, 두르! 위스튀뉘 데 세페테 코이!",
+   "tl": "Dur, dur! Para üstünü de sepete koy!",
+   "rd": "두르, 두르! 파라 위스튀뉘 데 세페테 코이!",
    "ko": "잔, 잠깐! 거스름돈도 바구니에 넣어!",
-   "note": "üstü = 거스름돈",
+   "note": "dur = 잠깐",
    "tags": [
     "expr:dur"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 5,
@@ -94,48 +98,60 @@
     "expr:geldim",
     "expr:buyur"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Ekmek bitmiş."
+    ],
+    [
+     "amused",
+     "Üç simit aldım, biri benim."
+    ]
+   ]
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "Evladım! Ekmeğim nerede?!",
-   "rd": "에블라듬! 엑메임 네레데?!",
+   "tl": "Yavrum! Ekmeğim nerede?!",
+   "rd": "야브룸! 엑메임 네레데?!",
    "ko": "얘야! 내 빵 어디 있니?!",
-   "note": "evladım = 얘야 · ekmek = 빵 — 반전",
+   "note": "evladım = 얘야 · ekmek = 빵",
    "tags": [],
-   "new": [
-    "ekmek"
-   ]
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Eyvah! Teyze, kusura bakmayın, ekmek bitmiş!",
-   "rd": "에이바흐! 테이제, 쿠수라 박마이은, 엑멕 비트미시!",
+   "tl": "Eyvah! Teyze, özür dilerim, ekmek bitmiş!",
+   "rd": "에이바흐! 테이제, 외쥐르 딜레림, 엑멕 비트미시!",
    "ko": "헉! 아주머니, 죄송해요, 빵이 다 떨어졌대요!",
-   "note": "kusura bakmayın = 죄송합니다",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Bak, sepet yine iniyor. İçinde terlik var.",
-   "rd": "박, 세펫 이네 이니요르. 이친데 테를릭 바르.",
+   "tl": "Bak, sepet yine iniyor. Buyur, içinde terlik var.",
+   "rd": "박, 세펫 이네 이니요르. 부유르, 이친데 테를릭 바르.",
    "ko": "봐, 바구니 또 내려온다. 안에 슬리퍼가 있어.",
-   "note": "terlik = 슬리퍼(튀르키예 어른의 무기)",
+   "note": "buyur = 자",
    "tags": [
     "expr:bak"
    ],
    "new": [
     "terlik"
-   ]
+   ],
+   "emotion": "amused"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

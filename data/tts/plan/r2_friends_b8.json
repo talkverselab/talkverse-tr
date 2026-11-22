@@ -9,7 +9,7 @@
 "segs": [
 [
 "stiff",
-"Alo, buyurun, kimsiniz?"
+"Alo, merhaba. Kim arıyor efendim?"
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "polite",
-"Merhaba efendim, ben {name}. Zeynep'in arkadaşıyım."
+"Merhaba, ben {name}. Zeynep'le arkadaşız."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "polite",
-"Memnun oldum."
+"Tanıştığımıza memnun oldum."
 ],
 [
 "neutral",
@@ -37,7 +37,7 @@
 "segs": [
 [
 "polite",
-"Kusura bakmayın, çok önemli bir konu var."
+"Kusura bakmayın, acil bir şey var."
 ]
 ]
 },
@@ -49,7 +49,7 @@
 ],
 [
 "stiff",
-"Ne istemiştiniz?"
+"Ne istiyorsunuz?"
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "polite",
-"Kızınızı istiyorum, efendim."
+"Kızınızı istiyorum."
 ],
 [
 "excited",
@@ -69,11 +69,11 @@
 "segs": [
 [
 "surprised",
-"Efendim?!"
+"Ne dediniz?!"
 ],
 [
 "stiff",
-"Anneniz babanız biliyor mu?"
+"Aileniz biliyor mu?"
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "polite",
-"Hayır, onlar bilmiyor. Sadece ikimiz konuştuk."
+"Hayır, bilmiyorlar. Sadece ikimiz konuştuk."
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "shout",
-"Zeynep! Kızım, gel buraya hemen!"
+"Zeynep! Hemen gel buraya kızım!"
 ]
 ]
 },
@@ -101,7 +101,7 @@
 ],
 [
 "tsukkomi",
-"Alo, sen ne yaptın?"
+"Alo, sen ne yaptın ya?"
 ]
 ]
 },
@@ -109,7 +109,7 @@
 "segs": [
 [
 "flustered",
-"Ödev için seni istedim!"
+"Ödev için arıyordum seni!"
 ],
 [
 "worried",
@@ -121,11 +121,11 @@
 "segs": [
 [
 "annoyed",
-"Beni istemişsin."
+"Bana evlenme teklifi yapmışsın."
 ],
 [
 "amused",
-"Babam \"Baban nerede\" diyor."
+"Babam da babanı soruyor."
 ]
 ]
 }

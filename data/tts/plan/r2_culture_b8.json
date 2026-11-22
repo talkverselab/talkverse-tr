@@ -9,7 +9,7 @@
 "segs": [
 [
 "excited",
-"Hello my friend! Where are you from?"
+"Hello my friend! Nereden geldiniz?"
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "polite",
-"Merhaba, Türkçe öğreniyorum. Kekik var mı?"
+"Merhaba, Türkçe öğreniyorum. Kekik var mı lütfen?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "excited",
-"Yes yes, very good price! Special for you!"
+"Yes yes, çok iyi fiyat! Sadece size özel!"
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "annoyed",
-"Lütfen Türkçe konuşun. Kekik istiyorum, kekik."
+"Türkçe konuşun lütfen. Kekik istiyorum, kekik."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "cheerful",
-"Apple tea? Very good, my friend!"
+"Apple tea? Çok güzel, my friend!"
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "teasing",
-"Tamam, bak şimdi. Do you have thyme?"
+"Tamam, bak. Do you have thyme?"
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "surprised",
-"Efendim? Ne diyorsunuz, anlamadım."
+"Ne? Anlamadım ne dediğinizi."
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "annoyed",
-"İngilizce sordum. Siz İngilizce bilmiyor musunuz?"
+"İngilizce sordum ama. İngilizce bilmiyor musunuz?"
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "amused",
-"Yok ya, on cümle biliyorum. Ne istemiştiniz?"
+"Yok ya, on cümle biliyorum. Ne arıyordunuz?"
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "shout",
-"Kekik! Yarım saattir kekik diyorum!"
+"Kekik! Otuz dakikadır kekik diyorum!"
 ]
 ]
 },

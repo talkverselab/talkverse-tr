@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Bugün kahveler benden. Geçen hafta sen ısmarlamıştın, borcum kalmasın."
+"Bugün kahve benden. Geçen hafta sen almıştın, borç istemem."
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "tsukkomi",
-"Borç mu? Yok artık, kahvede borç olmaz."
+"Borç mu? Yok artık, kahvede borç olur mu?"
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "neutral",
-"Nasıl olmaz? Ben hesap tutuyorum, kafamda her şey yazıyor."
+"Neden olmasın? Ben hepsini sayıyorum, kafamda yazılı."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "gentle",
-"Bizde bir söz var: Bir fincan kahvenin kırk yıl hatırı vardır."
+"Bizde atasözü var. Bir fincan kahvenin hatırı kırk yıl."
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "surprised",
-"Kırk yıl mı? Bir kahve için mi? Ne demek bu?"
+"Kırk yıl mı? Bir fincana? Bu ne demek?"
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "amused",
-"Çok pahalı bir kahveymiş. O zaman ben ödemeyeyim, olur mu?"
+"Çok pahalı kahve bu. O zaman ben almayayım mı?"
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "teasing",
-"Geç kaldın, garson getirdi bile. Al, iç, kaçış yok."
+"Geç kaldın, çoktan getirdim. Hadi iç, kaçamazsın."
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "surprised",
-"Peki bu kırk yıl ne zaman başlıyor? Bugün mü?"
+"O kırk yıl ne zaman başlıyor? Bugün mü?"
 ]
 ]
 },
@@ -96,7 +96,7 @@
 "segs": [
 [
 "shy",
-"Otuz dokuz yıl, elli bir haftamız kaldı."
+"Bizim otuz dokuz yıl elli bir haftamız kaldı."
 ]
 ]
 },
@@ -104,7 +104,7 @@
 "segs": [
 [
 "flustered",
-"Bu bir matematik sorusu mu, yoksa başka bir şey mi?"
+"Bu matematik problemi mi, yoksa başka bir şey mi?"
 ]
 ]
 },
@@ -112,7 +112,7 @@
 "segs": [
 [
 "gentle",
-"Kahveni iç, {name}. Fincan sana söyler."
+"Kahveni iç, {name}. Fincan söyler."
 ]
 ]
 }

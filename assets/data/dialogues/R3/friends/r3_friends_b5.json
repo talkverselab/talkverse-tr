@@ -36,74 +36,120 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Elif, Bulut neden bu kadar şişman? Ona az veriyorum.",
-   "rd": "엘리프, 불룻 네덴 부 카다르 시시만? 오나 아즈 베리요룸.",
+   "tl": "Elif, Bulut neden bu kadar şişman? Az veriyorum.",
+   "rd": "엘리프, 불룻 네덴 부 카다르 시시만? 아즈 베리요룸.",
    "ko": "엘리프, 불루트 왜 이렇게 뚱뚱해? 조금밖에 안 주는데.",
    "note": "şişman = 뚱뚱한",
    "tags": [],
    "new": [
     "şişman"
+   ],
+   "segs": [
+    [
+     "worried",
+     "Elif, Bulut neden bu kadar şişman?"
+    ],
+    [
+     "neutral",
+     "Az veriyorum."
+    ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Bulut kim? Şu sarı kedi mi? Onun adı Tombik.",
-   "rd": "불룻 킴? 슈 사르 케디 미? 오눈 아드 톰빅.",
+   "tl": "Bulut kim? O sarı kedi mi? Onun adı Tombik.",
+   "rd": "불룻 킴? 오 사르 케디 미? 오눈 아드 톰빅.",
    "ko": "불루트가 누구야? 저 노란 고양이? 쟤 이름 톰빅이야.",
    "note": "şu = 저",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Bulut kim?"
+    ],
+    [
+     "neutral",
+     "O sarı kedi mi?"
+    ],
+    [
+     "amused",
+     "Onun adı Tombik."
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Hayır, o benim kedim. Ben ona Bulut diyorum.",
-   "rd": "하이으르, 오 베님 케딤. 벤 오나 불룻 디요룸.",
+   "tl": "Yok, o benim kedim. Ben ona Bulut diyorum.",
+   "rd": "욕, 오 베님 케딤. 벤 오나 불룻 디요룸.",
    "ko": "아니야, 쟤 내 고양이야. 내가 불루트라고 불러.",
    "note": "bulut = 구름",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Canım, o benim balkonuma geliyor. Her öğlen tavuk yiyor.",
-   "rd": "자늠, 오 베님 발코누마 겔리요르. 헤르 욀렌 타북 이요르.",
+   "tl": "Canım, o bizim balkona geliyor. Her gün öğlen tavuk yiyor.",
+   "rd": "자늠, 오 비짐 발코나 겔리요르. 헤르 귄 욀렌 타북 이요르.",
    "ko": "얘, 쟤 우리 발코니 오거든. 매일 점심에 닭고기 먹어.",
-   "note": "canım = 얘 · tavuk = 닭",
+   "note": "canım = 얘",
    "tags": [
     "expr:canım"
    ],
    "new": [
     "balkon",
     "tavuk"
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Ne alaka? Her sabah benimle kahvaltı yapıyor, bu kedi.",
-   "rd": "네 알라카? 헤르 사바흐 베님레 카흐발트 야프요르, 부 케디.",
+   "tl": "Ne alaka? Her sabah benimle kahvaltı ediyor ya.",
+   "rd": "네 알라카? 헤르 사바흐 베님레 카흐발트 에디요르 야.",
    "ko": "뭔 소리야? 매일 아침 나랑 같이 아침 먹는데, 얘.",
-   "note": "kahvaltı = 아침 식사",
+   "note": "ne alaka = 뭔 소리야",
    "tags": [
     "expr:ne alaka"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "tsukkomi",
+     "Ne alaka?"
+    ],
+    [
+     "annoyed",
+     "Her sabah benimle kahvaltı ediyor ya."
+    ]
+   ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Bir dakika, bakayım. Bu, Can'ın kafesindeki Paşa değil mi?",
-   "rd": "비르 다키카, 바카이음. 부, 자는 카페신데키 파샤 데일 미?",
+   "tl": "Bir dakika, bakayım. Bu Can’ın kafedeki Paşa değil mi?",
+   "rd": "비르 다키카, 바카이음. 부 자는 카페데키 파샤 데일 미?",
    "ko": "잠깐만, 어디 보자. 얘 잔네 카페 파샤 아니야?",
-   "note": "değil mi = 그렇지?",
+   "note": "bir dakika = 잠깐만",
    "tags": [
     "expr:bir dakika",
     "callback:r0_friends_b6"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Bir dakika, bakayım."
+    ],
+    [
+     "surprised",
+     "Bu Can’ın kafedeki Paşa değil mi?"
+    ]
+   ]
   },
   {
    "num": 7,
@@ -113,109 +159,136 @@
    "ko": "파샤? 아침엔 나, 점심엔 너, 저녁엔 카페라고?",
    "note": "bende = 내게",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Aa, Pamuk! Gel oğlum, gel, tavuğun hazır.",
-   "rd": "아아, 파묵! 겔 올룸, 겔, 타부운 하즈르.",
+   "tl": "Aman, Pamuk! Gel oğlum, tavuk hazır.",
+   "rd": "아만, 파묵! 겔 올룸, 타북 하즈르.",
    "ko": "어머, 파묵! 이리 온, 우리 아들, 닭고기 다 됐다.",
    "note": "pamuk = 솜",
    "tags": [
     "expr:gel"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Aman, Pamuk!"
+    ],
+    [
+     "gentle",
+     "Gel oğlum, tavuk hazır."
+    ]
+   ]
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Pamuk mu?! Teyze, bu kedi sizin mi?",
-   "rd": "파묵 무?! 테이제, 부 케디 시진 미?",
+   "tl": "Pamuk mu?! Teyze, bu sizin kediniz mi?",
+   "rd": "파묵 무?! 테이제, 부 시진 케디니즈 미?",
    "ko": "파묵이요?! 아주머니, 얘 아주머니 고양이예요?",
    "note": "sizin = 당신의",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Dört yıldır benim kedim, evladım. Geceleri bende yatıyor.",
-   "rd": "되르트 이을드르 베님 케딤, 에블라듬. 게젤레리 벤데 야트요르.",
+   "tl": "Dört yıldır benim kedim, evladım. Gece bizde yatıyor.",
+   "rd": "되르트 이을드르 베님 케딤, 에블라듬. 게제 비즈데 야트요르.",
    "ko": "4년째 내 고양이지, 얘야. 밤엔 우리 집에서 자.",
-   "note": "dört yıldır = 4년째 — 반전",
+   "note": "dört yıldır = 4년째",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Yani dört ev, dört isim, dört yemek. Maşallah!",
-   "rd": "야니 되르트 에브, 되르트 이심, 되르트 예멕. 마샬라흐!",
+   "tl": "Demek ki beş ev, dört isim, dört öğün. Maşallah!",
+   "rd": "데멕 키 베시 에브, 되르트 이심, 되르트 외윈. 마샬라흐!",
    "ko": "그러니까 네 집, 이름 넷, 밥 네 끼. 대단하다!",
-   "note": "yani = 그러니까",
+   "note": "maşallah = 대단하다",
    "tags": [
     "expr:yani",
     "expr:maşallah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Ben onu kurtardım sanıyordum! \"Aç, zavallı\" diyordum.",
-   "rd": "벤 오누 쿠르타르듬 사느요르둠! \"아치, 자발르\" 디요르둠.",
+   "tl": "Ben kurtardım sanıyordum! “Aç kalmış, yazık” diyordum.",
+   "rd": "벤 쿠르타르듬 사느요르둠! 아치 칼므시, 야즉 디요르둠.",
    "ko": "내가 구해 준 줄 알았어! 「배고프겠다, 불쌍해」 그랬는데.",
    "note": "zavallı = 불쌍한",
    "tags": [],
-   "new": [
-    "zavallı"
-   ]
+   "new": [],
+   "emotion": "sad"
   },
   {
    "num": 13,
    "speaker": "C",
-   "tl": "Size de o yüzle mi baktı? Herkese öyle bakıyor.",
-   "rd": "시제 데 오 위즐레 미 박트? 헤르케세 외일레 바크요르.",
+   "tl": "Size de o yüzle baktı mı? Herkese öyle yapıyor.",
+   "rd": "시제 데 오 위즐레 박트 므? 헤르케세 외일레 야프요르.",
    "ko": "그쪽한테도 그 얼굴로 봤어요? 누구한테나 그래요.",
    "note": "o yüzle = 그 얼굴로",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 14,
    "speaker": "B",
-   "tl": "Bu kedi hepimizden iyi yaşıyor, valla. İşi de yok.",
-   "rd": "부 케디 헤피미즈덴 이이 야시요르, 발라. 이시 데 욕.",
+   "tl": "Bu bizden iyi yaşıyor, valla. İş de yapmıyor.",
+   "rd": "부 비즈덴 이이 야시요르, 발라. 이시 데 얍므요르.",
    "ko": "얘 우리보다 잘 산다, 진짜. 일도 안 하고.",
-   "note": "hepimizden = 우리 모두보다",
+   "note": "valla = 진짜",
    "tags": [
     "expr:valla"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 15,
    "speaker": "A",
-   "tl": "Peki bu sabah neredeydi? Bana gelmedi.",
-   "rd": "페키 부 사바흐 네레데이디? 바나 겔메디.",
+   "tl": "Ama bu sabah neredeydi? Bana gelmedi.",
+   "rd": "아마 부 사바흐 네레데이디? 바나 겔메디.",
    "ko": "근데 오늘 아침엔 어디 있었어요? 저한테 안 왔는데.",
    "note": "neredeydi = 어디 있었어",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 16,
    "speaker": "C",
-   "tl": "Eczanede. Orada adı Müdür Bey.",
-   "rd": "에지자네데. 오라다 아드 뮈뒤르 베이.",
+   "tl": "Eczanede. Orada adı Müdür.",
+   "rd": "에지자네데. 오라다 아드 뮈뒤르.",
    "ko": "약국에요. 거기선 이름이 부장님이에요.",
    "note": "eczane = 약국",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Eczanede."
+    ],
+    [
+     "amused",
+     "Orada adı Müdür."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

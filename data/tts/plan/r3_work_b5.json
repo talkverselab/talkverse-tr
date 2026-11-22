@@ -18,7 +18,7 @@
 "segs": [
 [
 "cheerful",
-"Tamam. Sessiz otururum. Ağzımı bile açmam."
+"Tamam. Sessiz oturacağım. Ağzımı bile açmam."
 ]
 ]
 },
@@ -26,7 +26,7 @@
 "segs": [
 [
 "polite",
-"Hoş geldiniz. Yıllık bakım için fiyatınız ne kadar?"
+"Hoş geldiniz. Yıllık bakım ne kadar?"
 ]
 ]
 },
@@ -42,11 +42,7 @@
 "segs": [
 [
 "surprised",
-"Elli bin mi?"
-],
-[
-"shout",
-"Çok pahalı! Olmaz!"
+"Elli bin mi? Çok pahalı! Olmaz!"
 ]
 ]
 },
@@ -66,11 +62,11 @@
 "segs": [
 [
 "amused",
-"Haklı, bence de pahalı."
+"Haklısınız, ben de pahalı buldum."
 ],
 [
 "teasing",
-"Kırk bin olur mu?"
+"Kırk bin nasıl?"
 ]
 ]
 },
@@ -78,15 +74,15 @@
 "segs": [
 [
 "surprised",
-"Kırk mı?"
+"Kırk bin mi?"
 ],
 [
 "annoyed",
-"Yok, yok."
+"Hayır, hayır."
 ],
 [
 "shout",
-"Otuz, son fiyat!"
+"Otuz bin, son fiyat!"
 ]
 ]
 },
@@ -94,7 +90,7 @@
 "segs": [
 [
 "shout",
-"Kendi fiyatımızı kırıyorsun! Dur artık!"
+"Kendi fiyatımızı sen düşürüyorsun! Dur artık!"
 ]
 ]
 },
@@ -118,7 +114,7 @@
 "segs": [
 [
 "flustered",
-"Bir dakika… ben sizin tarafınızda değilim ki!"
+"Bir dakika… ben sizin tarafınızda değilim!"
 ]
 ]
 },
@@ -134,7 +130,7 @@
 "segs": [
 [
 "sad",
-"Müdürüm, hiç sormayın. Elli bin otuz oldu."
+"Müdürüm, sormayın. Elli bin otuz bin oldu."
 ]
 ]
 },
@@ -142,7 +138,7 @@
 "segs": [
 [
 "shout",
-"Otuz mu?! Kim yaptı bunu?!"
+"Otuz bin mi?! Kim söyledi bunu?!"
 ]
 ]
 },
@@ -154,7 +150,7 @@
 ],
 [
 "amused",
-"Bu arkadaşın maaşı ne kadar?"
+"Bu kişinin maaşı ne kadar?"
 ]
 ]
 },

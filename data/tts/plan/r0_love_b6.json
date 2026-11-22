@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Selam! Dans ediyor musun?"
+"Selam! Dans yok mu?"
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "excited",
-"Dans! Dans edelim mi?"
+"Dans etsek?"
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "shout",
-"Ne dedin? Müzik çok yüksek!"
+"Ne dedin ya? Müzik çok yüksek!"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "shout",
-"SENDEN HOŞLANIYORUM!"
+"Seni sevdiğimi dedim!"
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "flustered",
-"Müzik durdu. Herkes bize bakıyor."
+"Müzik kesildi. Herkes bize bakıyor."
 ]
 ]
 },
@@ -60,7 +60,7 @@
 ],
 [
 "excited",
-"Hadi, dans edelim, hemen!"
+"Hadi dans, şimdi!"
 ]
 ]
 },
@@ -68,7 +68,7 @@
 "segs": [
 [
 "shy",
-"Aslında ilk seferde duydum."
+"Aslında ilk seferde duymuştum."
 ]
 ]
 }

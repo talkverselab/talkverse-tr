@@ -13,7 +13,7 @@
 ],
 [
 "teasing",
-"Falına bakıyorum."
+"Fal bakayım."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 ],
 [
 "neutral",
-"Sen fal biliyor musun?"
+"Sen fal bakabiliyor musun?"
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "excited",
-"Ee? Ne görüyorsun, söyle hadi."
+"Ee? Ne görünüyor, söyle hadi."
 ]
 ]
 },
@@ -49,11 +49,11 @@
 "segs": [
 [
 "gentle",
-"Bak, burada bir yol var."
+"Bak, burada yol var."
 ],
 [
 "neutral",
-"Uzun bir yol."
+"Uzun yol."
 ]
 ]
 },
@@ -61,7 +61,7 @@
 "segs": [
 [
 "excited",
-"Vay! Ben yazın ülkeme gidiyorum!"
+"Vay! Yazın memlekete gideceğim!"
 ]
 ]
 },
@@ -69,11 +69,11 @@
 "segs": [
 [
 "neutral",
-"Bir de kuş var."
+"Kuş da var."
 ],
 [
 "cheerful",
-"Yakında güzel haber geliyor."
+"Yakında güzel haber gelecek."
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "stiff",
-"Elif, o fincan onun değil."
+"Elif, o fincan bunun değil."
 ],
 [
 "neutral",
@@ -105,7 +105,7 @@
 ],
 [
 "flustered",
-"Ben fincanı ondan aldım!"
+"Ben bundan aldım!"
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "sad",
-"O zaman yol, kuş, para… hepsi Can'ın mı?"
+"Yani yol, kuş, para… hepsi Can'ın mı?"
 ]
 ]
 },
@@ -121,11 +121,11 @@
 "segs": [
 [
 "stiff",
-"Hepsi Can'ın."
+"Hepsi."
 ],
 [
 "teasing",
-"O yol da mutfağa gidiyor."
+"O yol da mutfağa giden yol."
 ]
 ]
 }

@@ -34,14 +34,15 @@
   {
    "num": 1,
    "speaker": "C",
-   "tl": "Öğrenci belgesi için dekanlıktan imza lazım.",
-   "rd": "외렌지 벨게시 이친 데칸륵탄 임자 라즘.",
+   "tl": "Öğrenci belgesi için dekanlık imzası lazım.",
+   "rd": "외렌지 벨게시 이친 데칸륵 임자스 라즘.",
    "ko": "재학증명서는 학장실 서명이 필요해요.",
    "note": "belge = 증명서",
    "tags": [],
    "new": [
     "belge"
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 2,
@@ -53,27 +54,30 @@
    "tags": [],
    "new": [
     "dekanlık"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "D",
-   "tl": "Önce bölüm sekreteri imzalasın. Sonra gelin.",
-   "rd": "왼제 뵐륌 섹레테리 임잘라슨. 손라 겔린.",
+   "tl": "Önce bölüm ofisinden imza alın.",
+   "rd": "왼제 뵐륌 오피신덴 임자 알른.",
    "ko": "먼저 학과 사무실에서 서명받아 오세요.",
    "note": "önce = 먼저",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Ama sekreter sizden istiyor!",
-   "rd": "아마 섹레테르 시즈덴 이스티요르!",
+   "tl": "Ama ofiste buradan alın diyorlar!",
+   "rd": "아마 오피스테 부라단 알른 디요를라르!",
    "ko": "근데 사무실에선 여기서 받아 오래요!",
    "note": "sizden = 여기서(당신에게서)",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 5,
@@ -81,67 +85,73 @@
    "tl": "Olmaz, önce dekanlık. Kural bu.",
    "rd": "올마즈, 왼제 데칸륵. 쿠랄 부.",
    "ko": "안 돼요, 학장실이 먼저예요. 규칙이에요.",
-   "note": "kural = 규칙",
+   "note": "olmaz = 안 돼요",
    "tags": [
     "expr:olmaz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 6,
    "speaker": "B",
-   "tl": "Bu kata kaçıncı gelişin?",
+   "tl": "Bu katta kaçıncı gelişin?",
    "rd": "부 카타 카츤즈 겔리신?",
    "ko": "이 층 몇 번째 오는 거야?",
    "note": "kaçıncı = 몇 번째",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Altıncı. Kapıda bana “Hoş geldin” diyorlar.",
-   "rd": "알튼즈. 카프다 바나 호시 겔딘 디요를라르.",
+   "tl": "Altıncı. Kapıda \"hoş geldin\" sesi duyuyorum.",
+   "rd": "알튼즈. 카프다 \"호시 겔딘\" 세시 두유요룸.",
    "ko": "여섯 번째. 문 앞에서 「어서 와」 소리 들어.",
    "note": "hoş geldin = 어서 와",
    "tags": [
     "expr:hoş geldin"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Bekle, ikisini telefonla bağlayalım. Hadi.",
-   "rd": "베클레, 이키시니 텔레폰라 발라얄름. 하디.",
+   "tl": "Bir dakika, ikisini telefonla bağlayalım. Hadi.",
+   "rd": "비르 다키카, 이키시니 텔레폰라 발라얄름. 하디.",
    "ko": "잠깐, 둘을 전화로 연결하자. 얼른.",
-   "note": "bağlamak = 연결하다",
+   "note": "hadi = 얼른",
    "tags": [
     "expr:hadi"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 9,
    "speaker": "D",
-   "tl": "Alo? Önce siz imzalayın, kusura bakmayın.",
-   "rd": "알로? 왼제 시즈 임잘라이은, 쿠수라 박마이은.",
+   "tl": "Alo? Siz önce imzalayın, kusura bakmayın.",
+   "rd": "알로? 시즈 왼제 임잘라이은, 쿠수라 박마이은.",
    "ko": "여보세요? 그쪽이 먼저 서명하세요, 죄송하지만요.",
-   "note": "kusura bakmayın = 죄송합니다",
+   "note": "kusura bakmayın = 죄송하지만",
    "tags": [
     "expr:kusura bakmayın"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Bir dakika, bu ses… geçen yaz düğünde tanışmadık mı?",
-   "rd": "비르 다키카, 부 세스… 게첸 야즈 뒤윈데 타느시마득 므?",
+   "tl": "Bir dakika, bu ses... Geçen yaz düğünde tanışmadık mı?",
+   "rd": "비르 다키카, 부 세스... 게첸 야즈 뒤윈데 타느시마득 므?",
    "ko": "잠깐만요, 이 목소리… 지난여름 결혼식에서 만나지 않았어요?",
-   "note": "düğün = 결혼식 — 반전: 서명은 뒷전이다",
+   "note": "düğün = 결혼식",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 11,
@@ -151,20 +161,23 @@
    "ko": "Zeynep, 한 시간째 통화 중이야. 서명은 어떻게 됐어?",
    "note": "bir saattir = 한 시간째",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 12,
    "speaker": "C",
-   "tl": "Hangi imza? O belge geçen yıl kalktı.",
-   "rd": "한기 임자? 오 벨게 게첸 이을 칼크트.",
+   "tl": "Hangi imza? O belge geçen yıl kayboldu.",
+   "rd": "한기 임자? 오 벨게 게첸 이을 카이볼두.",
    "ko": "무슨 서명이요? 그 서류 작년에 없어졌어요.",
    "note": "kalktı = 없어졌다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

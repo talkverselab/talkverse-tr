@@ -25,11 +25,7 @@
 "segs": [
 [
 "cheerful",
-"Para ve not: \"Bir ekmek.\""
-],
-[
-"excited",
-"Ben giderim!"
+"Para ve not. 「Bir ekmek.」 Geldim, ben alıp geliyorum! Yaşasın!"
 ]
 ]
 },
@@ -37,7 +33,7 @@
 "segs": [
 [
 "worried",
-"Can, dur! Üstünü de sepete koy!"
+"Dur, dur! Para üstünü de sepete koy!"
 ]
 ]
 },
@@ -57,7 +53,7 @@
 "segs": [
 [
 "shout",
-"Evladım! Ekmeğim nerede?!"
+"Yavrum! Ekmeğim nerede?!"
 ]
 ]
 },
@@ -65,7 +61,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah! Teyze, kusura bakmayın, ekmek bitmiş!"
+"Eyvah! Teyze, özür dilerim, ekmek bitmiş!"
 ]
 ]
 },
@@ -73,7 +69,7 @@
 "segs": [
 [
 "amused",
-"Bak, sepet yine iniyor. İçinde terlik var."
+"Bak, sepet yine iniyor. Buyur, içinde terlik var."
 ]
 ]
 }

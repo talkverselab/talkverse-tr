@@ -20,7 +20,7 @@
 "segs": [
 [
 "surprised",
-"Türkçe kart mı yazdın?"
+"Türkçe kart mı yazmışsın?"
 ],
 [
 "excited",
@@ -32,7 +32,7 @@
 "segs": [
 [
 "shy",
-"Evet, iki saat uğraştım. Hadi, oku."
+"Evet, iki saat sürdü. Hadi, oku."
 ]
 ]
 },
@@ -40,11 +40,11 @@
 "segs": [
 [
 "cheerful",
-"\"Sevgilim Elif\"…"
+"\"Sevgilim Elif\"..."
 ],
 [
 "surprised",
-"bir dakika, ne yazmışsın sen?"
+"Bir dakika, ne yazmışsın sen?"
 ]
 ]
 },
@@ -52,7 +52,7 @@
 "segs": [
 [
 "neutral",
-"Normal bir şey, değil mi? Mektuplarda öyle yazılıyor."
+"Normal bir şey değil mi? Mektuplarda öyle yazılır diye duydum."
 ]
 ]
 },
@@ -60,7 +60,7 @@
 "segs": [
 [
 "teasing",
-"\"Sevgili Elif\" normal. \"Sevgilim Elif\" başka bir şey."
+"\"Sevgili Elif\" normal. \"Sevgilim Elif\" başka."
 ]
 ]
 },
@@ -68,7 +68,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah, bir m harfi mi? Öldüm, ver sileyim!"
+"Eyvah, bir m yüzünden mi? Öldüm, ver silayım!"
 ]
 ]
 },
@@ -76,7 +76,7 @@
 "segs": [
 [
 "teasing",
-"Aman, dur! Önce geri kalanını okuyalım."
+"Aman, dur! Gerisini okuyalım önce."
 ]
 ]
 },
@@ -84,7 +84,7 @@
 "segs": [
 [
 "flustered",
-"Hayır, lütfen, sesli okuma!"
+"Olmaz, lütfen, sesli okuma!"
 ]
 ]
 },
@@ -92,7 +92,7 @@
 "segs": [
 [
 "shy",
-"\"Seni her gün görmek istiyorum.\" Bu da mı yanlış?"
+"\"Seni her gün özlüyorum.\" Bu da hata mı?"
 ]
 ]
 },
@@ -100,7 +100,7 @@
 "segs": [
 [
 "shy",
-"Şey… o doğru galiba."
+"Şey... bu galiba doğru."
 ]
 ]
 },
@@ -108,7 +108,7 @@
 "segs": [
 [
 "gentle",
-"Sakın silme. O harf kalsın."
+"Asla silme. O harfi olduğu gibi bırak."
 ]
 ]
 }

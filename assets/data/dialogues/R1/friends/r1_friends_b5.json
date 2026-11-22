@@ -33,85 +33,102 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Sınav nasıl geçti?",
-   "rd": "스나브 나슬 게치티?",
-   "ko": "시험 어땠어?",
+   "tl": "Ee, sınav nasıl geçti?",
+   "rd": "에에, 스나브 나슬 게치티?",
+   "ko": "응, 시험 어땠어?",
    "note": "nasıl geçti = 어땠어",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Hiç sorma. Türkçe çok zor.",
-   "rd": "히치 소르마. 튀르크체 촉 조르.",
-   "ko": "말도 마. 튀르키예어 너무 어려워.",
+   "tl": "Hiç sorma ya... Türkçe harbiden zor.",
+   "rd": "히치 소르마 야... 튀르크체 하르비덴 조르.",
+   "ko": "말도 마 야... 터키어 진짜 어려워.",
    "note": "hiç sorma = 말도 마",
    "tags": [
     "expr:hiç sorma"
    ],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Bak, bu benim defterim.",
-   "rd": "박, 부 베님 데프테림.",
-   "ko": "봐, 이거 내 공책이야.",
-   "note": "defter = 공책",
+   "tl": "Bak bir. Bu benim defterim.",
+   "rd": "박 비르. 부 베님 데프테림.",
+   "ko": "봐 봐. 이거 내 공책이야.",
+   "note": "bak = 봐",
    "tags": [
     "expr:bak"
    ],
    "new": [
     "defter"
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Bu {lang}! Neden öğreniyorsun?",
-   "rd": "부 {lang}! 네덴 외레니요르순?",
-   "ko": "이거 {lang}잖아! 왜 배워?",
+   "tl": "Bu {lang} değil mi? Niye öğreniyorsun ki?",
+   "rd": "부 {lang} 데일 미? 니예 외레니요르순 키?",
+   "ko": "이거 {lang}잖아? 왜 배우는 거야?",
    "note": "öğrenmek = 배우다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Seninle kendi dilinde konuşmak için.",
-   "rd": "세닌레 켄디 딜린데 코누시막 이친.",
-   "ko": "너랑 네 말로 얘기하려고.",
-   "note": "kendi dilinde = 네 말로 — 반전",
+   "tl": "Seninle konuşayım diye, senin dilinde.",
+   "rd": "세닌레 코누샤이음 디예, 세닌 딜린데.",
+   "ko": "너랑 얘기하려고, 네 말로.",
+   "note": "kendi dilinde = 네 말로",
    "tags": [
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Gerçekten mi? İlk ne öğrendin?",
-   "rd": "게르첵텐 미? 일크 네 외렌딘?",
-   "ko": "진짜? 처음에 뭐 배웠어?",
-   "note": "ilk = 처음",
+   "tl": "Gerçekten mi? İlk ne öğrendin peki?",
+   "rd": "게르첵텐 미? 일크 네 외렌딘 페키?",
+   "ko": "진짜? 그럼 처음에 뭐 배웠어?",
+   "note": "gerçekten mi = 진짜?",
    "tags": [
     "expr:gerçekten mi"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "excited",
+     "Gerçekten mi?"
+    ],
+    [
+     "cheerful",
+     "İlk ne öğrendin peki?"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Aptal demeyi. Sana lazım.",
-   "rd": "압탈 데메이. 사나 라즘.",
+   "tl": "Aptal demeyi. Sana lazım olur ya.",
+   "rd": "압탈 데메이. 사나 라즘 올루르 야.",
    "ko": "「바보」라고 하는 법. 너한테 필요하잖아.",
-   "note": "lazım = 필요해",
+   "note": "aptal = 바보",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

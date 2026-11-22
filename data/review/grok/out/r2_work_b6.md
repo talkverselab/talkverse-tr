@@ -1,0 +1,23 @@
+=== r2_work_b6
+kind: long
+title: 커피 점쟁이
+emoji: ☕
+scene: 카페 알바 중 손님이 커피 잔 점을 봐 달라는데, 아무 말이나 한 게 다 맞아 버린다
+speakers: A={name}, B=Can, C=Müşteri, D=Müdür
+register: mixed
+twist: 7 chaos
+purpose: work_abroad
+goal: kolay gelsin·ne demek 으로 손님 응대하고 fal 문화 맛보기
+expressions: kolay gelsin; ne demek; şey; ne yapalım; özür dilerim
+C | Kolay gelsin. Fincanımı bakar mısınız? | 수고 많으세요. 제 잔 좀 봐 주시겠어요? | kolay gelsin = 수고 많으세요 | emotion=polite
+A | Can, bu ne demek? Temiz fincan mı istiyor? | Can, 이게 무슨 말이야? 깨끗한 잔 달라는 거야? | ne demek = 무슨 말이야 | emotion=surprised
+B | Yok, fal bak diyor. Bak, kolay, bir şeyler söyle. | 아니, 점 봐 달래. 봐, 쉬워, 아무 말이나 해. |  | emotion=amused
+A | Şey… Burada bir yol görünüyor. | 저… 여기 길이 하나 보이네요. | şey = 저 | emotion=flustered
+C | Yol mu? Oğlumuz Almanya’dan geliyor! | 길이요? 우리 아들이 독일에서 온다니까요! |  | emotion=excited
+A | Evet… Bir de para var, çok. | 네… 그리고 돈이 있어요, 많이요. |  | emotion=flustered
+C | Maaş bugün yattı! Arkadaşları arayayım! | 월급 오늘 들어왔어요! 친구들 부를게요! |  | emotion=excited
+B | Dört kahve daha geldi, hepsi fal istiyor! | 커피 네 잔 더 들어왔어, 다 점 봐 달래! |  | emotion=flustered
+A | Can, ne yapalım? Ben fal bakmayı bilmiyorum! | Can, 어떡해? 나 점 볼 줄 모른다니까! | ne yapalım = 어떡해 | emotion=flustered
+D | Burada ne oluyor? Neden herkes fincan istiyor? | 여기 무슨 일이에요? 왜 다들 잔을 달래요? |  | emotion=stiff+surprised
+A | Müdürüm, özür dilerim, ben sadece… | 매니저님, 죄송해요, 저는 그냥… | özür dilerim = 죄송해요 | emotion=flustered
+D | Özür dileme. Kahve iyi satılıyor, fal da servis olsun. | 사과 안 해도 돼. 커피 잘 팔리네, 점은 서비스로 해. |  | emotion=gentle+amused

@@ -12,7 +12,7 @@
  ],
  "title": "호랑이가 몰아요",
  "emoji": "🐅",
- "scene": "카시 보트 투어, 뱃멀미하는 Elif 때문에 선장을 찾는데 kaptan 이 kaplan 으로 나온다",
+ "scene": "카시 보트 투어, 뱃멀미하는 Elif 때문에 선장을 찾는데 kaptan이 kaplan으로 나온다",
  "speakers": {
   "A": "{name}",
   "B": "Elif",
@@ -38,183 +38,209 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Çok kötüyüm. Kaptana sor, ne zaman duruyoruz?",
-   "rd": "촉 쾨튀윔. 캅타나 소르, 네 자만 두루요루즈?",
+   "tl": "Çok kötüyüm. Kaptana sor, ne zaman duracak.",
+   "rd": "촉 쾨튀윔. 캅타나 소르, 네 자만 두라작.",
    "ko": "나 너무 안 좋아. 선장님한테 언제 서는지 물어봐.",
    "note": "kaptan = 선장",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Tamam, sakin ol, hemen gidiyorum. Su da getiririm.",
-   "rd": "타맘, 사킨 올, 헤멘 기디요룸. 수 다 게티리림.",
+   "tl": "Tamam, sakin ol, gidiyorum. Su da getireceğim.",
+   "rd": "타맘, 사킨 올, 기디요룸. 수 다 게티레제임.",
    "ko": "알았어, 진정해, 바로 갈게. 물도 가져올게.",
-   "note": "getiririm = 가져올게",
+   "note": "tamam = 알았어",
    "tags": [
     "expr:tamam"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 3,
    "speaker": "D",
-   "tl": "Evladım, neden koşuyorsun? Otur, biraz çay iç.",
-   "rd": "에블라듬, 네덴 코슈요르순? 오투르, 비라즈 차이 이치.",
+   "tl": "Yavrum, niye koşuyorsun? Otur, çay iç.",
+   "rd": "야브룸, 니예 코슈요르순? 오투르, 차이 이치.",
    "ko": "얘야, 왜 뛰어? 앉아, 차 좀 마셔.",
    "note": "koşmak = 뛰다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Sağ olun, teyze. Ama kaplan nerede? Kaplanla konuşmam lazım!",
-   "rd": "사 올룬, 테이제. 아마 카플란 네레데? 카플란라 코누시맘 라즘!",
+   "tl": "Sağ olun teyzeciğim. Kaplan nerede? Kaplanla konuşmam lazım!",
+   "rd": "사 올룬 테이제지임. 카플란 네레데? 카플란라 코누시맘 라즘!",
    "ko": "고맙습니다, 이모님. 근데 호랑이 어디 있어요? 호랑이랑 얘기해야 돼요!",
-   "note": "kaplan = 호랑이 · kaptan(선장)을 잘못 말함",
+   "note": "sağ olun = 고맙습니다",
    "tags": [
     "expr:sağ olun"
    ],
    "new": [
     "kaplan"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 5,
    "speaker": "D",
-   "tl": "Kaplan mı?! Aman Allah'ım! Teknede kaplan mı var?!",
-   "rd": "카플란 므?! 아만 알라흠! 텍네데 카플란 므 바르?!",
+   "tl": "Kaplan mı?! Allah allah! Gemide kaplan mı var?!",
+   "rd": "카플란 므?! 알라흐 알라흐! 게미데 카플란 므 바르?!",
    "ko": "호랑이?! 세상에! 배에 호랑이가 있어?!",
    "note": "tekne = 배",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Evet, tabii var. Kaplan yoksa bu tekneyi kim sürüyor?",
-   "rd": "에벳, 타비이 바르. 카플란 욕사 부 텍네이 킴 쉬뤼요르?",
+   "tl": "Tabii var. Kaplan yoksa bu gemiyi kim sürüyor?",
+   "rd": "타비이 바르. 카플란 욕사 부 게미이 킴 쉬뤼요르?",
    "ko": "네, 당연히 있죠. 호랑이 없으면 이 배를 누가 몰아요?",
-   "note": "sürmek = 몰다 — 반전",
+   "note": "tabii = 당연히",
    "tags": [
     "expr:tabii"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 7,
    "speaker": "D",
-   "tl": "Kaplan sürüyor! Çocuklar, yukarı çıkın! Herkes yukarı, hemen!",
-   "rd": "카플란 쉬뤼요르! 초주클라르, 유카르 츠큰! 헤르케스 유카르, 헤멘!",
+   "tl": "Kaplan sürüyormuş! Çocuklar, yukarı çıkın! Herkes yukarı, hemen!",
+   "rd": "카플란 쉬뤼요르무시! 초주클라르, 유카르 츠큰! 헤르케스 유카르, 헤멘!",
    "ko": "호랑이가 몬대! 얘들아, 위로 올라가! 다들 위로, 당장!",
    "note": "yukarı = 위로",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Ne oluyor arkadaşlar? Neden herkes bağırıyor? Sakin olun!",
-   "rd": "네 올루요르 아르카다실라르? 네덴 헤르케스 바으르요르? 사킨 올룬!",
+   "tl": "Ne oluyor arkadaşlar? Niye bağırıyorsunuz? Sakin olun!",
+   "rd": "네 올루요르 아르카다실라르? 니예 바으르요르수누즈? 사킨 올룬!",
    "ko": "무슨 일입니까, 여러분? 왜 다들 소리 지르세요? 진정하세요!",
    "note": "bağırmak = 소리 지르다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Çok şükür, kaplan sizsiniz! Arkadaşım çok kötü, ne zaman duruyoruz?",
-   "rd": "촉 쉬퀴르, 카플란 시즈시니즈! 아르카다심 촉 쾨튀, 네 자만 두루요루즈?",
+   "tl": "Çok şükür, kaplan kaptanmış! Arkadaşım çok kötü, ne zaman duruyoruz?",
+   "rd": "촉 쉬퀴르, 카플란 캅탄므시! 아르카다심 촉 쾨튀, 네 자만 두루요루즈?",
    "ko": "다행이다, 호랑이가 선장님이군요! 제 친구가 많이 안 좋아요, 언제 서요?",
    "note": "çok şükür = 다행이다",
    "tags": [
     "expr:çok şükür"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Ben ne? Kaptan, efendim, kap-tan! Kaplan bu denizde ne yapsın?",
-   "rd": "벤 네? 캅탄, 에펜딤, 캅-탄! 카플란 부 데니즈데 네 얍슨?",
+   "tl": "Ben neyim? Kaptanım, kaptan! Kaplan bu denizde ne yapsın?",
+   "rd": "벤 네임? 캅타늠, 캅탄! 카플란 부 데니즈데 네 얍슨?",
    "ko": "제가 뭐라고요? 선장요, 손님, 선-장! 호랑이가 이 바다에서 뭘 합니까?",
    "note": "ne yapsın? = 뭘 하겠어요?",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "tsukkomi"
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Kaptan mı? Kaplan değil mi? Eyvah, ben ne dedim?",
-   "rd": "캅탄 므? 카플란 데일 미? 에이바흐, 벤 네 데딤?",
+   "tl": "Kaptan mı? Kaplan değil mi? Eyvah, ne dedim ben?",
+   "rd": "캅탄 므? 카플란 데일 미? 에이바흐, 네 데딤 벤?",
    "ko": "선장이요? 호랑이 아니에요? 헉, 제가 뭐라고 했죠?",
-   "note": "ne dedim? = 뭐라고 했지?",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Öldüm! Ne yaptın sen? Çocuklar yukarıda, teyze hâlâ kaplan arıyor!",
-   "rd": "욀뒴! 네 얍튼 센? 초주클라르 유카르다, 테이제 할라 카플란 아르요르!",
+   "tl": "Öldüm! Sen ne yaptın? Çocuklar yukarıda, teyze hâlâ kaplan arıyor!",
+   "rd": "욀뒴! 센 네 얍튼? 초주클라르 유카르다, 테이제 할라 카플란 아르요르!",
    "ko": "나 죽어! 너 뭐 한 거야? 애들은 위에 있고, 이모님은 아직 호랑이 찾고 계셔!",
-   "note": "aramak = 찾다",
+   "note": "öldüm = 나 죽어",
    "tags": [
     "expr:öldüm"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 13,
    "speaker": "D",
-   "tl": "Kaplan yok mu? Çok şükür. Ben çantamı bile hazırlamıştım.",
-   "rd": "카플란 욕 무? 촉 쉬퀴르. 벤 찬타므 빌레 하즈를라므시틈.",
+   "tl": "Kaplan yok mu? Çok şükür. Ben çantamı bile toplamıştım.",
+   "rd": "카플란 욕 무? 촉 쉬퀴르. 벤 찬타므 빌레 토플라므시틈.",
    "ko": "호랑이 없어? 다행이다. 난 가방까지 싸 놨는데.",
    "note": "bile = ~까지",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 14,
    "speaker": "C",
-   "tl": "Yok artık, teyze! Kaplan yok. Yirmi dakika sonra koyda duruyoruz.",
-   "rd": "욕 아르특, 테이제! 카플란 욕. 이르미 다키카 손라 코이다 두루요루즈.",
+   "tl": "Yok artık teyzeciğim! Kaplan yok. Yirmi dakikaya koyda duruyoruz.",
+   "rd": "욕 아르특 테이제지임! 카플란 욕. 이르미 다키카야 코이다 두루요루즈.",
    "ko": "아이고 참, 이모님! 호랑이 없어요. 20분 뒤에 만에서 섭니다.",
-   "note": "koy = 만(바닷가)",
+   "note": "yok artık = 아이고 참",
    "tags": [
     "expr:yok artık"
    ],
    "new": [
     "koy"
-   ]
+   ],
+   "emotion": "tsukkomi"
   },
   {
    "num": 15,
    "speaker": "E",
-   "tl": "Kaptan, koyda yer var. Kaç dakikada gelirsiniz?",
-   "rd": "캅탄, 코이다 예르 바르. 카치 다키카다 겔리르시니즈?",
+   "tl": "Kaptan, koyda yer var. Kaç dakikaya varırız?",
+   "rd": "캅탄, 코이다 예르 바르. 카치 다키카야 바르르즈?",
    "ko": "선장님, 만에 자리 있습니다. 몇 분이면 도착합니까?",
    "note": "kaç dakikada = 몇 분 만에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 16,
    "speaker": "C",
-   "tl": "Yirmi dakika. Kaplanla geliyoruz.",
-   "rd": "이르미 다키카. 카플란라 겔리요루즈.",
+   "tl": "Yirmi dakika. Kaplanla birlikte geliyoruz.",
+   "rd": "이르미 다키카. 카플란라 비를릭테 겔리요루즈.",
    "ko": "20분. 호랑이랑 같이 갑니다.",
    "note": "-la = ~와 함께",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Yirmi dakika."
+    ],
+    [
+     "amused",
+     "Kaplanla birlikte geliyoruz."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

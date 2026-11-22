@@ -11,7 +11,7 @@
 "segs": [
 [
 "sad",
-"Çok kötüyüm. Kaptana sor, ne zaman duruyoruz?"
+"Çok kötüyüm. Kaptana sor, ne zaman duracak."
 ]
 ]
 },
@@ -19,7 +19,7 @@
 "segs": [
 [
 "gentle",
-"Tamam, sakin ol, hemen gidiyorum. Su da getiririm."
+"Tamam, sakin ol, gidiyorum. Su da getireceğim."
 ]
 ]
 },
@@ -27,7 +27,7 @@
 "segs": [
 [
 "gentle",
-"Evladım, neden koşuyorsun? Otur, biraz çay iç."
+"Yavrum, niye koşuyorsun? Otur, çay iç."
 ]
 ]
 },
@@ -35,7 +35,7 @@
 "segs": [
 [
 "worried",
-"Sağ olun, teyze. Ama kaplan nerede? Kaplanla konuşmam lazım!"
+"Sağ olun teyzeciğim. Kaplan nerede? Kaplanla konuşmam lazım!"
 ]
 ]
 },
@@ -43,7 +43,7 @@
 "segs": [
 [
 "shout",
-"Kaplan mı?! Aman Allah'ım! Teknede kaplan mı var?!"
+"Kaplan mı?! Allah allah! Gemide kaplan mı var?!"
 ]
 ]
 },
@@ -51,7 +51,7 @@
 "segs": [
 [
 "surprised",
-"Evet, tabii var. Kaplan yoksa bu tekneyi kim sürüyor?"
+"Tabii var. Kaplan yoksa bu gemiyi kim sürüyor?"
 ]
 ]
 },
@@ -59,7 +59,7 @@
 "segs": [
 [
 "shout",
-"Kaplan sürüyor! Çocuklar, yukarı çıkın! Herkes yukarı, hemen!"
+"Kaplan sürüyormuş! Çocuklar, yukarı çıkın! Herkes yukarı, hemen!"
 ]
 ]
 },
@@ -67,7 +67,7 @@
 "segs": [
 [
 "stiff",
-"Ne oluyor arkadaşlar? Neden herkes bağırıyor? Sakin olun!"
+"Ne oluyor arkadaşlar? Niye bağırıyorsunuz? Sakin olun!"
 ]
 ]
 },
@@ -75,7 +75,7 @@
 "segs": [
 [
 "worried",
-"Çok şükür, kaplan sizsiniz! Arkadaşım çok kötü, ne zaman duruyoruz?"
+"Çok şükür, kaplan kaptanmış! Arkadaşım çok kötü, ne zaman duruyoruz?"
 ]
 ]
 },
@@ -83,7 +83,7 @@
 "segs": [
 [
 "tsukkomi",
-"Ben ne? Kaptan, efendim, kap-tan! Kaplan bu denizde ne yapsın?"
+"Ben neyim? Kaptanım, kaptan! Kaplan bu denizde ne yapsın?"
 ]
 ]
 },
@@ -91,7 +91,7 @@
 "segs": [
 [
 "flustered",
-"Kaptan mı? Kaplan değil mi? Eyvah, ben ne dedim?"
+"Kaptan mı? Kaplan değil mi? Eyvah, ne dedim ben?"
 ]
 ]
 },
@@ -99,11 +99,7 @@
 "segs": [
 [
 "amused",
-"Öldüm!"
-],
-[
-"tsukkomi",
-"Ne yaptın sen? Çocuklar yukarıda, teyze hâlâ kaplan arıyor!"
+"Öldüm! Sen ne yaptın? Çocuklar yukarıda, teyze hâlâ kaplan arıyor!"
 ]
 ]
 },
@@ -111,11 +107,7 @@
 "segs": [
 [
 "surprised",
-"Kaplan yok mu? Çok şükür."
-],
-[
-"flustered",
-"Ben çantamı bile hazırlamıştım."
+"Kaplan yok mu? Çok şükür. Ben çantamı bile toplamıştım."
 ]
 ]
 },
@@ -123,11 +115,7 @@
 "segs": [
 [
 "tsukkomi",
-"Yok artık, teyze! Kaplan yok."
-],
-[
-"polite",
-"Yirmi dakika sonra koyda duruyoruz."
+"Yok artık teyzeciğim! Kaplan yok. Yirmi dakikaya koyda duruyoruz."
 ]
 ]
 },
@@ -135,7 +123,7 @@
 "segs": [
 [
 "polite",
-"Kaptan, koyda yer var. Kaç dakikada gelirsiniz?"
+"Kaptan, koyda yer var. Kaç dakikaya varırız?"
 ]
 ]
 },
@@ -147,7 +135,7 @@
 ],
 [
 "amused",
-"Kaplanla geliyoruz."
+"Kaplanla birlikte geliyoruz."
 ]
 ]
 }

@@ -9,7 +9,7 @@
 "segs": [
 [
 "polite",
-"Evet, soru var mı?"
+"Peki, sorusu olan var mı?"
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "teasing",
-"Sor hadi. Türkçen gelişsin."
+"Sor. Türkçen gelişsin."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "worried",
-"Çok korkuyorum. Yanlış söylerim."
+"Çok korkuyorum. Yanlış söyleyeceğim."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "gentle",
-"Önce “Hocam” de, sonra sor. Bu kadar."
+"Önce \"Hocam\" de, sonra sor. O kadar."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "shy",
-"Tamam… Kocam, bir sorum var."
+"Tamam... Kocam, bir sorum var."
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "surprised",
-"Efendim? Ne dediniz?"
+"Ne oldu? Ne dediniz?"
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "flustered",
-"Kocam… yani kocam, sınav ne zaman?"
+"Kocam... yani kocam, sınav ne zaman?"
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "worried",
-"Ne oldu? Ne dedim ben?"
+"Neden? Ne dedim ben?"
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "teasing",
-"Hocaya “kocam” dedin. Hem de iki kez."
+"Hocama \"kocam\" dedin. Hem de iki kere."
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah! Hocam, özür dilerim, ben…"
+"Eyvah! Hocam, özür dilerim, ben..."
 ]
 ]
 },
@@ -97,7 +97,7 @@
 "segs": [
 [
 "amused",
-"Sınav cuma. Eşim duymasın yeter."
+"Sınav cuma. Eşimin kulağına gitmesin yeter."
 ]
 ]
 }

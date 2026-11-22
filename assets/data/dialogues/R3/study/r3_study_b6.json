@@ -35,56 +35,61 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Elindeki ne? Sınava on dakika var.",
-   "rd": "엘린데키 네? 스나바 온 다키카 바르.",
+   "tl": "Elindeki o ne? Sınava on dakika kaldı.",
+   "rd": "엘린데키 오 네? 스나바 온 다키카 칼드.",
    "ko": "손에 그거 뭐야? 시험까지 10분 남았어.",
    "note": "elindeki = 손에 있는 것",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Hiç. Türkçe kelimeler. Bazen aklımdan çıkıyor.",
-   "rd": "히치. 튀르크체 켈리멜레르. 바젠 아클름단 츠크요르.",
+   "tl": "Hiçbir şey. Türkçe kelimeler. Bazen unutuyorum.",
+   "rd": "히치비르 셰이. 튀르크체 켈리멜레르. 바젠 우누투요룸.",
    "ko": "아무것도 아냐. 터키어 단어들. 가끔 까먹어서.",
    "note": "aklımdan çıkıyor = 까먹는다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Eline mi yazdın? Kopya sanırlar, sil hemen.",
-   "rd": "엘리네 미 야즈든? 콥야 사느를라르, 실 헤멘.",
+   "tl": "Elime mi yazdın? Kopya sanırlar, hemen sil.",
+   "rd": "엘리메 미 야즈든? 콥야 사느를라르, 헤멘 실.",
    "ko": "손에 썼어? 컨닝인 줄 알아, 당장 지워.",
    "note": "kopya = 컨닝",
    "tags": [],
    "new": [
     "kopya"
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Kopya değil ki. Sadece “Tekrar eder misiniz” yazıyor.",
-   "rd": "콥야 데일 키. 사데제 텍라르 에데르 미시니즈 야즈요르.",
+   "tl": "Kopya değil. Sadece «tekrar eder misiniz» yazıyor.",
+   "rd": "콥야 데일. 사데제 텍라르 에데르 미시니즈 야즈요르.",
    "ko": "컨닝 아니야. 「다시 말씀해 주시겠어요」 만 적혀 있어.",
-   "note": "sadece = 그냥, ~만",
+   "note": "tekrar eder misiniz = 다시 말씀해 주시겠어요",
    "tags": [
     "expr:tekrar eder misiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Sessiz olun. Çantalar öne, telefonlar kapalı. Başlıyoruz.",
-   "rd": "세시즈 올룬. 찬탈라르 외네, 텔레폰라르 카팔르. 바실르요루즈.",
+   "tl": "Sessiz olun. Çantalar öne, telefonlar kapansın. Başlıyoruz.",
+   "rd": "세시즈 올룬. 찬탈라르 외네, 텔레폰라르 카판슨. 바실르요루즈.",
    "ko": "조용히 하세요. 가방은 앞으로, 휴대폰은 끄세요. 시작합니다.",
    "note": "kapalı = 꺼진",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 6,
@@ -96,62 +101,68 @@
    "tags": [
     "expr:anlamadım"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 7,
    "speaker": "C",
-   "tl": "Elinizi gösterin. Bu ne? Kopya mı?",
-   "rd": "엘리니지 괴스테린. 부 네? 콥야 므?",
+   "tl": "Elini göster. Bu ne? Kopya mı?",
+   "rd": "엘리니 괴스테르. 부 네? 콥야 므?",
    "ko": "손 보여 주세요. 이게 뭐예요? 컨닝이에요?",
    "note": "göstermek = 보여 주다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Hayır, bakın: “Tekrar eder misiniz, yavaş lütfen.”",
-   "rd": "하이으르, 바큰 텍라르 에데르 미시니즈, 야바시 뤼트펜.",
+   "tl": "Değil, bakın: «tekrar eder misiniz, yavaş lütfen.»",
+   "rd": "데일, 바큰 텍라르 에데르 미시니즈, 야바시 뤼트펜.",
    "ko": "아니에요, 보세요: 「다시 말씀해 주시겠어요, 천천히요.」",
-   "note": "bakın = 보세요",
+   "note": "yavaş lütfen = 천천히요",
    "tags": [
     "expr:tekrar eder misiniz",
     "expr:yavaş lütfen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Herkes ellerini açsın! Hemen! Bütün sınıf!",
-   "rd": "헤르케스 엘레리니 아치슨! 헤멘! 뷔튄 스느프!",
+   "tl": "Herkes elini açsın! Hemen! Tüm sınıf!",
+   "rd": "헤르케스 엘리니 아치슨! 헤멘! 튐 스느프!",
    "ko": "다들 손 펴세요! 당장요! 반 전체요!",
-   "note": "açsın = 펴세요 — 반전: 일이 커진다",
+   "note": "açsın = 펴세요",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 10,
    "speaker": "B",
-   "tl": "Eyvah. Arkadakinin kolu dolu. Öndekinin ayakkabısında da formül var.",
-   "rd": "에이바흐. 아르카다키닌 콜루 돌루. 왼데키닌 아야카브슨다 다 포르뮐 바르.",
+   "tl": "Eyvah. Arkadaşın kolu dolu. Önündekinin ayakkabısında formül var.",
+   "rd": "에이바흐. 아르카다신 콜루 돌루. 외뉜데키닌 아야카브슨다 포르뮐 바르.",
    "ko": "헉. 뒷사람 팔이 빽빽해. 앞사람은 신발에도 공식이 있어.",
-   "note": "arkadaki = 뒤에 있는 사람",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 11,
    "speaker": "C",
-   "tl": "Hocam, gelin! On kişide daha kopya var!",
-   "rd": "호잠, 겔린! 온 키시데 다하 콥야 바르!",
+   "tl": "Hocam, gelin! On kişi daha kopya çekmiş!",
+   "rd": "호잠, 겔린! 온 키시 다하 콥야 첵미시!",
    "ko": "교수님, 와 주세요! 열 명이 더 컨닝했어요!",
    "note": "otuz kişiden = 서른 명 중",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 12,
@@ -159,58 +170,64 @@
    "tl": "Allah allah! Kim başlattı bunu?",
    "rd": "알라흐 알라흐! 킴 바실라트 부누?",
    "ko": "세상에! 누가 시작한 거예요?",
-   "note": "başlatmak = 시작시키다",
+   "note": "allah allah = 세상에",
    "tags": [
     "expr:allah allah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 13,
    "speaker": "C",
-   "tl": "Bu öğrenci. Elinde “Yavaş lütfen” yazıyor.",
+   "tl": "Bu öğrenci. Elinde «yavaş lütfen» yazıyor.",
    "rd": "부 외렌지. 엘린데 야바시 뤼트펜 야즈요르.",
    "ko": "이 학생이요. 손에 「천천히요」 라고 적혀 있어요.",
    "note": "elinde = 손에",
    "tags": [
     "expr:yavaş lütfen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 14,
    "speaker": "D",
-   "tl": "Sınav iptal. Yarın tekrar, eller yıkanmış gelsin.",
-   "rd": "스나브 입탈. 야른 텍라르, 엘레르 이으칸므시 겔신.",
+   "tl": "Sınav iptal. Yarın tekrar, ellerinizi yıkayıp gelin.",
+   "rd": "스나브 입탈. 야른 텍라르, 엘레리니지 이으카이읍 겔린.",
    "ko": "시험 취소입니다. 내일 다시, 손 씻고 오세요.",
    "note": "iptal = 취소",
    "tags": [],
    "new": [
     "iptal"
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 15,
    "speaker": "A",
-   "tl": "Zeynep, herkes bana bakıyor. Alkışlıyorlar!",
-   "rd": "제이넵, 헤르케스 바나 바크요르. 알크실르요를라르!",
+   "tl": "Zeynep, herkes bana bakıyor. Alkışla!",
+   "rd": "제이넵, 헤르케스 바나 바크요르. 알크실라!",
    "ko": "Zeynep, 다들 날 봐. 박수 쳐!",
    "note": "alkışlamak = 박수 치다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 16,
    "speaker": "B",
-   "tl": "Kimse çalışmamıştı. Yarın da eline yaz, lütfen.",
-   "rd": "킴세 찰르시마므시트. 야른 다 엘리네 야즈, 뤼트펜.",
+   "tl": "Kimse çalışmamıştı zaten. Yarın da eline yaz, lütfen.",
+   "rd": "킴세 찰르시마므시트 자텐. 야른 다 엘리네 야즈, 뤼트펜.",
    "ko": "아무도 공부 안 했거든. 내일도 손에 써 줘, 제발.",
    "note": "çalışmamıştı = 공부 안 했었다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

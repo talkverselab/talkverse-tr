@@ -29,7 +29,7 @@
 "segs": [
 [
 "teasing",
-"İç bakalım. Yüzüme bak."
+"Bak, iç. Yüzüme bakarak."
 ]
 ]
 },
@@ -37,7 +37,7 @@
 "segs": [
 [
 "worried",
-"Şey… bu kahve biraz tuzlu mu?"
+"Şey… bu kahve biraz tuzlu değil mi?"
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "sad",
-"Tamam, bitti. Öldüm ama bitti."
+"Tamam, bitti. Canım çıktı ama bitti."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "surprised",
-"Elif, bu evlilik kahvesi! Hepsini mi içti?"
+"Elif, bu evlilik kahvesi! Hepsini mi içtin?"
 ]
 ]
 },
@@ -77,7 +77,7 @@
 ],
 [
 "shy",
-"Bir şey demek değil…"
+"Hiçbir anlamı yok…"
 ]
 ]
 }

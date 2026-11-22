@@ -37,27 +37,30 @@
    "ko": "열 시 됐어. 너 아직 여기 있어?",
    "note": "hâlâ = 아직",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Evet. İş çok.",
-   "rd": "에벳. 이시 촉.",
+   "tl": "Hıhı. İş çok.",
+   "rd": "흐흐. 이시 촉.",
    "ko": "응. 일 많아.",
-   "note": "iş = 일",
+   "note": "hıhı = 응",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Müdür senden de rapor mu istedi?",
-   "rd": "뮈뒤르 센덴 데 라포르 무 이스테디?",
+   "tl": "Müdür sana da rapor mu istedi?",
+   "rd": "뮈뒤르 사나 다 라포르 무 이스테디?",
    "ko": "부장님이 너한테도 보고서 달래?",
    "note": "rapor = 보고서",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 4,
@@ -69,7 +72,8 @@
    "tags": [
     "expr:hıhı"
    ],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 5,
@@ -79,7 +83,8 @@
    "ko": "나도. 이거 아침까지 안 끝나.",
    "note": "sabaha kadar = 아침까지",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   },
   {
    "num": 6,
@@ -87,47 +92,51 @@
    "tl": "Tost ister misin? Aşağıdan aldım.",
    "rd": "토스트 이스테르 미신? 아샤으단 알듬.",
    "ko": "토스트 먹을래? 밑에서 샀어.",
-   "note": "ister misin = 먹을래?",
+   "note": "ister misin = 먹을래",
    "tags": [
     "expr:ister misin"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Sağ ol. Dur, ekranın niye boş?",
-   "rd": "사 올. 두르, 엑라는 니예 보시?",
+   "tl": "Sağ ol. Dur bi… Ekranın neden boş?",
+   "rd": "사 올. 두르 비… 엑라는 네덴 보시?",
    "ko": "고마워. 잠깐… 네 화면 왜 비어 있어?",
-   "note": "ekran = 화면",
+   "note": "sağ ol = 고마워",
    "tags": [
     "expr:sağ ol"
    ],
    "new": [
     "ekran"
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Boş mu? Bilmem.",
-   "rd": "보시 무? 빌멤.",
+   "tl": "Boş mu? Bilmiyorum.",
+   "rd": "보시 무? 빌미요룸.",
    "ko": "비었어? 몰라.",
    "note": "boş = 빈",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Emre, raporun yok. İşin de yok, değil mi?",
-   "rd": "엠레, 라포룬 욕. 이신 데 욕, 데일 미?",
+   "tl": "Emre, senin raporun yok. İşin de yok, değil mi?",
+   "rd": "엠레, 세닌 라포룬 욕. 이신 데 욕, 데일 미?",
    "ko": "Emre, 너 보고서 없지. 일도 없지, 그치?",
-   "note": "değil mi = 그렇지? — 반전: 일은 핑계였다",
+   "note": "değil mi = 그렇지?",
    "tags": [
     "expr:yok"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 10,
@@ -135,37 +144,41 @@
    "tl": "Yok.",
    "rd": "욕.",
    "ko": "없어.",
-   "note": "yok = 없다",
+   "note": "yok = 없어",
    "tags": [
     "expr:yok"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "O zaman niye buradasın?",
-   "rd": "오 자만 니예 부라다슨?",
+   "tl": "O zaman neden buradasın?",
+   "rd": "오 자만 네덴 부라다슨?",
    "ko": "그럼 왜 여기 있는 건데?",
    "note": "niye = 왜",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Sen gidince ben de giderim.",
-   "rd": "센 기딘제 벤 데 기데림.",
+   "tl": "Sen gidince ben de gideyim diye.",
+   "rd": "센 기딘제 벤 데 기데임 디예.",
    "ko": "너 가면 나도 가려고.",
    "note": "gidince = 가면",
    "tags": [
     "simkung",
     "form:-ince"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

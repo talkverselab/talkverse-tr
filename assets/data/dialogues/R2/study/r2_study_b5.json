@@ -36,29 +36,31 @@
    "tl": "Hocam, sunuma başlayabilir miyim?",
    "rd": "호잠, 수누마 바실라야빌리르 미임?",
    "ko": "교수님, 발표 시작해도 될까요?",
-   "note": "sunum = 발표",
+   "note": "hocam = 교수님",
    "tags": [
     "expr:hocam"
    ],
    "new": [
     "sunum"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "C",
-   "tl": "Sunum mu? Bugün sunum yok ki.",
-   "rd": "수눔 무? 부귄 수눔 욕 키.",
+   "tl": "Sunum mu? Bugün sunum yok.",
+   "rd": "수눔 무? 부귄 수눔 욕.",
    "ko": "발표요? 오늘은 발표가 없는데요.",
    "note": "yok ki = 없는데",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Var hocam, listede benim adım var.",
-   "rd": "바르 호잠, 리스테데 베님 아듬 바르.",
+   "tl": "Var hocam. Listede adım var.",
+   "rd": "바르 호잠. 리스테데 아듬 바르.",
    "ko": "있어요, 교수님. 명단에 제 이름 있어요.",
    "note": "liste = 명단",
    "tags": [
@@ -66,17 +68,19 @@
    ],
    "new": [
     "liste"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 4,
    "speaker": "C",
-   "tl": "Hangi liste? Adınız ne, bakayım.",
-   "rd": "한기 리스테? 아드느즈 네, 바카이음.",
+   "tl": "Hangi liste? Adınız ne, bakalım.",
+   "rd": "한기 리스테? 아드느즈 네, 바칼름.",
    "ko": "무슨 명단이요? 이름이 뭐예요, 어디 봅시다.",
    "note": "bakayım = 어디 봅시다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 5,
@@ -86,7 +90,8 @@
    "ko": "{name}입니다. 제 주제는 터키 커피의 역사예요.",
    "note": "konum = 내 주제",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 6,
@@ -98,77 +103,85 @@
    "tags": [],
    "new": [
     "kimya"
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Kimya mı? Anlamadım, hocam.",
-   "rd": "킴야 므? 안라마듬, 호잠.",
+   "tl": "Kimya mı? Anlamadım hocam.",
+   "rd": "킴야 므? 안라마듬 호잠.",
    "ko": "화학이요? 못 알아들었어요, 교수님.",
    "note": "anlamadım = 못 알아들었어요",
    "tags": [
     "expr:hocam",
     "expr:anlamadım"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Neredesin? Sıra sende, hoca bekliyor!",
-   "rd": "네레데신? 스라 센데, 호자 베클리요르!",
+   "tl": "Neredesin sen? Sıra sende, hoca bekliyor!",
+   "rd": "네레데신 센? 스라 센데, 호자 베클리요르!",
    "ko": "너 어디야? 네 차례야, 교수님 기다리셔!",
    "note": "sıra sende = 네 차례",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Sınıftayım! Yüz iki numara, değil mi?",
-   "rd": "스느프타이음! 위즈 이키 누마라, 데일 미?",
+   "tl": "Dersteyim! 102 değil mi?",
+   "rd": "데르스테임! 102 데일 미?",
    "ko": "강의실이야! 102호 맞지?",
    "note": "sınıf = 강의실",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 10,
    "speaker": "C",
-   "tl": "Yüz iki mi? Biz iki yüz birdeyiz!",
-   "rd": "위즈 이키 미? 비즈 이키 위즈 비르데이즈!",
+   "tl": "102 mi? Biz 201'deyiz!",
+   "rd": "102 미? 비즈 201데이즈!",
    "ko": "102? 우리 201호에 있어!",
-   "note": "iki yüz bir = 201 — 반전: 숫자를 거꾸로 읽었다",
+   "note": "iki yüz bir = 201",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "tsukkomi"
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Burası kimya. Ama konu güzel, haftaya bize de anlatın.",
-   "rd": "부라스 킴야. 아마 코누 귀젤, 하프타야 비제 데 안라튼.",
+   "tl": "Burası kimya. Ama konu güzel, haftaya bize de yap.",
+   "rd": "부라스 킴야. 아마 코누 귀젤, 하프타야 비제 데 얍.",
    "ko": "여긴 화학이에요. 근데 주제가 좋네요, 다음 주에 우리한테도 해 줘요.",
    "note": "haftaya = 다음 주에",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Eyvah, pardon hocam! Zeynep, az kaldı, geliyorum!",
-   "rd": "에이바흐, 파르돈 호잠! 제이넵, 아즈 칼드, 겔리요룸!",
-   "ko": "헉, 죄송합니다 교수님! Zeynep, 거의 다 왔어, 간다!",
-   "note": "az kaldı = 거의 다 왔어",
+   "tl": "Eyvah, özür dilerim hocam! Az kaldı, geliyorum!",
+   "rd": "에이바흐, 외쥐르 딜레림 호잠! 아즈 칼드, 겔리요룸!",
+   "ko": "헉, 죄송합니다 교수님! 거의 다 왔어, 간다!",
+   "note": "eyvah = 헉; az kaldı = 거의 다 왔어",
    "tags": [
     "expr:eyvah",
     "expr:hocam",
     "expr:az kaldı"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

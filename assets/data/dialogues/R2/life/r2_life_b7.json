@@ -34,48 +34,52 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Müşteri hizmetlerine hoş geldiniz. Size nasıl yardımcı olabilirim?",
-   "rd": "뮈시테리 히즈메틀레리네 호시 겔디니즈. 시제 나슬 야르듬즈 올라빌리림?",
+   "tl": "Hoş geldiniz, müşteri hizmetleri. Nasıl yardımcı olayım?",
+   "rd": "호시 겔디니즈, 뮈시테리 히즈메틀레리. 나슬 야르듬즈 올라이음?",
    "ko": "고객센터입니다. 어떻게 도와드릴까요?",
-   "note": "yardımcı olmak = 돕다",
+   "note": "hoş geldiniz = 어서 오세요",
    "tags": [
     "expr:hoş geldiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Merhaba. Üç gündür internet yok.",
-   "rd": "메르하바. 위치 귄뒤르 인테르넷 욕.",
+   "tl": "Merhaba. Üç gündür internetim çalışmıyor.",
+   "rd": "메르하바. 위치 귄뒤르 인테르네팀 찰르시므요르.",
    "ko": "안녕하세요. 사흘째 인터넷이 안 돼요.",
-   "note": "üç gündür = 사흘째",
+   "note": "merhaba = 안녕하세요",
    "tags": [
     "expr:merhaba"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Üzgünüm. Modemi kapatıp açtınız mı?",
-   "rd": "위즈귀뉨. 모데미 카파틉 아치트느즈 므?",
+   "tl": "Özür dilerim. Modemi kapatıp açmayı denediniz mi?",
+   "rd": "외쥐르 딜레림. 모데미 카파틉 아치마이으 데네디니즈 미?",
    "ko": "죄송합니다. 모뎀을 껐다 켜 보셨나요?",
    "note": "kapatıp açmak = 껐다 켜다",
    "tags": [],
    "new": [
     "modem"
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Evet, on kere kapatıp açtım.",
-   "rd": "에벳, 온 케레 카파틉 아치틈.",
+   "tl": "Evet, tam on kere yaptım.",
+   "rd": "에벳, 탐 온 케레 얍틈.",
    "ko": "네, 열 번 껐다 켰어요.",
    "note": "on kere = 열 번",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 5,
@@ -83,89 +87,96 @@
    "tl": "Anladım. Lütfen modemi kapatıp açın.",
    "rd": "안라듬. 뤼트펜 모데미 카파틉 아츤.",
    "ko": "알겠습니다. 모뎀을 껐다 켜 주세요.",
-   "note": "açın = 켜 주세요",
+   "note": "anladım = 알겠습니다; lütfen = 제발",
    "tags": [
     "expr:anladım",
     "expr:lütfen"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Tekrar mı? Modem yanmıyor, sorun orada!",
-   "rd": "텍라르 므? 모뎀 얀므요르, 소룬 오라다!",
+   "tl": "Yine mi? Modem açılmıyor, sorun o ya!",
+   "rd": "이네 미? 모뎀 아츨므요르, 소룬 오 야!",
    "ko": "또요? 모뎀이 안 켜져요, 그게 문제라고요!",
    "note": "yanmıyor = 불이 안 들어온다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Modem yanmıyorsa, önce modemi açın.",
-   "rd": "모뎀 얀므요르사, 왼제 모데미 아츤.",
-   "ko": "모뎀이 안 켜지면, 먼저 모뎀을 켜 주세요.",
+   "tl": "Modem açılmıyorsa önce onu açın lütfen.",
+   "rd": "모뎀 아츨므요르사 왼제 오누 아츤 뤼트펜.",
+   "ko": "모뎀이 안 켜지면 먼저 모뎀을 켜 주세요.",
    "note": "-sa = ~면",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Ciddi misiniz? Beni dinliyor musunuz?",
-   "rd": "지디 미시니즈? 베니 딘리요르 무수누즈?",
+   "tl": "Ciddi misiniz? Beni dinliyor musunuz gerçekten?",
+   "rd": "지디 미시니즈? 베니 딘리요르 무수누즈 게르첵텐?",
    "ko": "진심이세요? 제 말 듣고 계세요?",
    "note": "dinlemek = 듣다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Sizi çok iyi anlıyorum. Modemi kapatıp açtınız mı?",
-   "rd": "시지 촉 이이 안르요룸. 모데미 카파틉 아치트느즈 므?",
+   "tl": "Anlıyorum efendim. Modemi kapatıp açmayı denediniz mi?",
+   "rd": "안르요룸 에펜딤. 모데미 카파틉 아치마이으 데네디니즈 미?",
    "ko": "충분히 이해합니다, 고객님. 모뎀을 껐다 켜 보셨나요?",
-   "note": "반전: 처음으로 돌아갔다",
+   "note": "",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Allah Allah! Siz makine misiniz, insan mı?",
-   "rd": "알라흐 알라흐! 시즈 마키네 미시니즈, 인산 므?",
+   "tl": "Allah allah! Makine misiniz, insan mısınız?",
+   "rd": "알라흐 알라흐! 마키네 미시니즈, 인산 므스느즈?",
    "ko": "아니 참! 기계세요, 사람이세요?",
-   "note": "makine = 기계",
+   "note": "allah allah = 아니 참",
    "tags": [
     "expr:allah allah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shout"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Görüşmemizi beş üzerinden puanlar mısınız?",
-   "rd": "괴뤼시메미지 베시 위제린덴 푸안라르 므스느즈?",
+   "tl": "Bu görüşmeyi beş üzerinden puanlar mısınız?",
+   "rd": "부 괴뤼시메이 베시 위제린덴 푸안라르 므스느즈?",
    "ko": "이번 통화를 5점 만점으로 평가해 주시겠어요?",
    "note": "puanlamak = 점수 매기다",
    "tags": [],
-   "new": [
-    "puanlamak"
-   ]
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Modemi kapatıp açın.",
-   "rd": "모데미 카파틉 아츤.",
+   "tl": "Modemi kapatıp açın lütfen.",
+   "rd": "모데미 카파틉 아츤 뤼트펜.",
    "ko": "모뎀을 껐다 켜 주세요.",
    "note": "그대로 돌려주기",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

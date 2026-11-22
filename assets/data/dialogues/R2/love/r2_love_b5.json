@@ -37,37 +37,40 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Hadi gel, ablamın düğünü var. Kimse seni tanımıyor, sorun yok.",
-   "rd": "하디 겔, 아블라믄 뒤위뉘 바르. 킴세 세니 타느므요르, 소룬 욕.",
+   "tl": "Gel, ablanın düğünü. Kimse seni tanımıyor, sorun yok.",
+   "rd": "겔, 아블라는 뒤위뉘. 킴세 세니 타느므요르, 소룬 욕.",
    "ko": "어서 와, 언니 결혼식이야. 아무도 널 몰라, 괜찮아.",
-   "note": "düğün = 결혼식",
+   "note": "sorun yok = 괜찮아",
    "tags": [
     "expr:hadi",
     "expr:sorun yok"
    ],
    "new": [
     "düğün"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Beni ne diye tanıtacaksın?",
-   "rd": "베니 네 디예 타느타작슨?",
+   "tl": "Beni nasıl tanıtacaksın?",
+   "rd": "베니 나슬 타느타작슨?",
    "ko": "나를 뭐라고 소개할 건데?",
    "note": "tanıtmak = 소개하다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 3,
    "speaker": "C",
-   "tl": "Elif, bu kim kızım? Çok tatlı!",
-   "rd": "엘리프, 부 킴 크즘? 촉 타틀르!",
+   "tl": "Elif, bu kim? Çok tatlı!",
+   "rd": "엘리프, 부 킴? 촉 타틀르!",
    "ko": "Elif, 얘는 누구니? 너무 귀엽다!",
    "note": "kızım = 얘야(딸에게 하듯)",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 4,
@@ -77,19 +80,21 @@
    "ko": "친구예요, 이모. 그냥 친구.",
    "note": "sadece = 그냥, 오직",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Hıhı, arkadaş. Darısı başınıza, evladım!",
-   "rd": "흐흐, 아르카다시. 다르스 바시느자, 에블라듬!",
+   "tl": "Hıhı, arkadaş. Darısı başınıza, canım!",
+   "rd": "흐흐, 아르카다시. 다르스 바시느자, 자늠!",
    "ko": "그래그래, 친구. 다음은 너희 차례다, 얘야!",
-   "note": "darısı başınıza = 다음은 당신들 차례(결혼식 덕담)",
+   "note": "hıhı = 그래그래",
    "tags": [
     "expr:hıhı"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -97,35 +102,38 @@
    "tl": "Elif, darısı ne demek?",
    "rd": "엘리프, 다르스 네 데멕?",
    "ko": "Elif, darısı 가 무슨 뜻이야?",
-   "note": "ne demek = 무슨 뜻",
+   "note": "ne demek = 무슨 뜻이야",
    "tags": [
     "expr:ne demek"
    ],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Hiç sorma. Hadi, gülüyoruz.",
-   "rd": "히치 소르마. 하디, 귈뤼요루즈.",
+   "tl": "Hiç sorma. Hadi gülümse.",
+   "rd": "히치 소르마. 하디 귈륌세.",
    "ko": "말도 마. 자, 웃자.",
-   "note": "hiç sorma = 말도 마",
+   "note": "hiç sorma = 말도 마; hadi = 자",
    "tags": [
     "expr:hiç sorma"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Hadi, halaya! Sen en öne geç, evladım!",
-   "rd": "하디, 할라야! 센 엔 외네 게치, 에블라듬!",
+   "tl": "Hadi, halay çekelim! Sen en öne geç, canım!",
+   "rd": "하디, 할라이 체켈림! 센 엔 외네 게치, 자늠!",
    "ko": "자, 할라이 추자! 네가 맨 앞에 서라, 얘야!",
-   "note": "halay = 손잡고 추는 줄춤 — 반전",
+   "note": "hadi = 자",
    "tags": [],
    "new": [
     "halay"
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 9,
@@ -135,17 +143,19 @@
    "ko": "Elif, 백 명이 보고 있어! 내 손 놓지 마!",
    "note": "bırakma = 놓지 마",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 10,
    "speaker": "B",
-   "tl": "Merak etme, bırakmam.",
-   "rd": "메락 에트메, 브락맘.",
+   "tl": "Sorun yok, bırakmam.",
+   "rd": "소룬 욕, 브락맘.",
    "ko": "걱정 마, 안 놔.",
-   "note": "merak etme = 걱정 마",
+   "note": "sorun yok = 괜찮아",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 11,
@@ -155,22 +165,34 @@
    "ko": "할라이 끝났어. Elif, 내 손 아직 너한테 있어.",
    "note": "sende = 너한테 있다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 12,
    "speaker": "B",
-   "tl": "Biliyorum. Arkadaşlar böyle yapar.",
-   "rd": "빌리요룸. 아르카다실라르 뵈일레 야파르.",
+   "tl": "Biliyorum. Arkadaşlar böyle olur.",
+   "rd": "빌리요룸. 아르카다실라르 뵈일레 올루르.",
    "ko": "알아. 친구끼리는 원래 이래.",
    "note": "böyle = 이렇게",
    "tags": [
     "simkung"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Biliyorum."
+    ],
+    [
+     "shy",
+     "Arkadaşlar böyle olur."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

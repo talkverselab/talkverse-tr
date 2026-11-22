@@ -32,24 +32,26 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Hocanın kapısında “Beş dakikaya dönerim” yazıyor.",
-   "rd": "호자는 카프슨다 베시 다키카야 되네림 야즈요르.",
+   "tl": "Hocanın kapısında \"5 dakika sonra dönerim\" yazıyor.",
+   "rd": "호자는 카프슨다 \"5 다키카 손라 되네림\" 야즈요르.",
    "ko": "교수님 문에 「5분 뒤 돌아옴」 이라고 써 있어.",
    "note": "dönerim = 돌아온다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Ee? Bekle o zaman.",
-   "rd": "에에? 베클레 오 자만.",
+   "tl": "Ee, ne olmuş? Bekle o zaman.",
+   "rd": "에에, 네 올무시? 베클레 오 자만.",
    "ko": "그래서? 그럼 기다려.",
-   "note": "ee = 그래서?",
+   "note": "ee = 그래서",
    "tags": [
     "expr:ee"
    ],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 3,
@@ -59,7 +61,8 @@
    "ko": "기다렸어. 한 시간 됐어.",
    "note": "bir saat = 한 시간",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 4,
@@ -67,96 +70,115 @@
    "tl": "Affedersiniz, kimi bekliyorsunuz?",
    "rd": "아페데르시니즈, 키미 베클리요르수누즈?",
    "ko": "실례합니다, 누구 기다리세요?",
-   "note": "kimi = 누구를",
+   "note": "affedersiniz = 실례합니다",
    "tags": [
     "expr:affedersiniz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Hocamı. Kapıda beş dakika yazıyor.",
-   "rd": "호자므. 카프다 베시 다키카 야즈요르.",
+   "tl": "Hocamı. Kapıda beş dakika yazıyor diye.",
+   "rd": "호자므. 카프다 베시 다키카 야즈요르 디예.",
    "ko": "교수님이요. 문에 5분이라고 써 있어서요.",
    "note": "yazıyor = 쓰여 있다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 6,
    "speaker": "C",
-   "tl": "O yazı üç yıldır orada.",
-   "rd": "오 야즈 위치 이을드르 오라다.",
+   "tl": "O not üç yıldır orada.",
+   "rd": "오 놋 위치 이을드르 오라다.",
    "ko": "그 쪽지, 3년째 거기 붙어 있어요.",
-   "note": "üç yıldır = 3년째 — 반전",
+   "note": "üç yıldır = 3년째",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Yok artık! Hoca nerede peki?",
-   "rd": "욕 아르특! 호자 네레데 페키?",
+   "tl": "Yok artık! Hocam nerede o zaman?",
+   "rd": "욕 아르특! 호잠 네레데 오 자만?",
    "ko": "말도 안 돼요! 그럼 교수님은 어디 계세요?",
-   "note": "peki = 그럼",
+   "note": "yok artık = 말도 안 돼요",
    "tags": [
     "expr:yok artık"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Az önce kantine gitti. Çabuk olun.",
-   "rd": "아즈 왼제 칸티네 기티. 차북 올룬.",
+   "tl": "Az önce kantinde. Acele edin.",
+   "rd": "아즈 왼제 칸틴데. 아젤레 에딘.",
    "ko": "방금 매점에 가셨어요. 서두르세요.",
    "note": "az önce = 방금",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 9,
    "speaker": "B",
-   "tl": "Kantindeyim. Hoca burada, telefonla konuşuyor.",
-   "rd": "칸틴데임. 호자 부라다, 텔레폰라 코누슈요르.",
+   "tl": "Kantindeyim. Hoca burada, telefonda.",
+   "rd": "칸틴데임. 호자 부라다, 텔레폰다.",
    "ko": "나 매점이야. 교수님 여기 계셔, 통화 중이셔.",
    "note": "telefonla konuşmak = 통화하다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 10,
    "speaker": "A",
-   "tl": "Hemen geliyorum! Hocayı tut, lütfen!",
-   "rd": "헤멘 겔리요룸! 호자이으 툿, 뤼트펜!",
+   "tl": "Hemen geliyorum! Hocayı tut biraz!",
+   "rd": "헤멘 겔리요룸! 호자이으 툿 비라즈!",
    "ko": "당장 갈게! 교수님 좀 붙잡아 줘!",
    "note": "tutmak = 붙잡다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 11,
    "speaker": "B",
-   "tl": "Geç kaldın. Bana bir şey söyledi, gitti.",
-   "rd": "게치 칼든. 바나 비르 셰이 쇠일레디, 기티.",
+   "tl": "Geç kaldın. Bana bir şey söyleyip gitti.",
+   "rd": "게치 칼든. 바나 비르 셰이 쇠일레입 기티.",
    "ko": "늦었어. 나한테 뭐라고 하시고 가셨어.",
    "note": "geç kalmak = 늦다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "sad"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Biliyorum. “Beş dakikaya dönerim.”",
-   "rd": "빌리요룸. 베시 다키카야 되네림.",
+   "tl": "Biliyorum. \"Beş dakika sonra dönerim.\"",
+   "rd": "빌리요룸. \"베시 다키카 손라 되네림.\"",
    "ko": "알아. 「5분 뒤 돌아옴.」",
    "note": "dönerim = 돌아올게",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "annoyed",
+     "Biliyorum."
+    ],
+    [
+     "tsukkomi",
+     "\"Beş dakika sonra dönerim.\""
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

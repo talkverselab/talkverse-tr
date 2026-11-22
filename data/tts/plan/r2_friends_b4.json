@@ -9,7 +9,7 @@
 "segs": [
 [
 "polite",
-"Günaydın! Bu ayın ekmek parası altı yüz lira."
+"Günaydın! Bu ay ekmek parası altı yüz lira."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "surprised",
-"Ne ekmeği? Ben ekmek almıyorum ki."
+"Hangi ekmek? Ben ekmek almıyorum."
 ]
 ]
 },
@@ -37,7 +37,7 @@
 ],
 [
 "annoyed",
-"Ben sabah dokuzdan önce kalkmıyorum!"
+"Ben sabah dokuzdan önce kalkmam!"
 ]
 ]
 },
@@ -53,7 +53,7 @@
 "segs": [
 [
 "surprised",
-"Arkadaşım mı? Hangi arkadaşım, nasıl biri?"
+"Benim arkadaşım mı? Hangi arkadaş, nasıl biri?"
 ]
 ]
 },
@@ -61,7 +61,7 @@
 "segs": [
 [
 "cheerful",
-"Can Bey. \"Hesaba yaz\" diyor, çok tatlı çocuk."
+"Can bey. \"Yazın\" diyordu, çok iyi genç."
 ]
 ]
 },
@@ -69,7 +69,7 @@
 "segs": [
 [
 "cheerful",
-"Günaydın! Ne var, sabah sabah niye bağırıyorsun?"
+"Günaydın! Ne oluyor, sabah sabah neden bağırıyorsun?"
 ]
 ]
 },
@@ -77,7 +77,7 @@
 "segs": [
 [
 "shout",
-"Can! Aylardır benim paramla mı kahvaltı yapıyorsun?"
+"Can! Aylardır benim paramla kahvaltı mı ediyordun?"
 ]
 ]
 },
@@ -93,7 +93,7 @@
 "segs": [
 [
 "shout",
-"Üç ay mı?! Ben sana ne yaptım?"
+"Üç ay mı?! Sana ne yaptım ben?"
 ]
 ]
 },
@@ -101,7 +101,7 @@
 "segs": [
 [
 "teasing",
-"Neyse. Yarın peynir de geliyor."
+"Neyse. Yarın peynir de gelsin."
 ]
 ]
 }

@@ -1,0 +1,23 @@
+=== r2_work_b5
+kind: long
+title: 빈 화면
+emoji: 🌃
+scene: 밤 열 시 텅 빈 사무실, 야근 중이라던 Emre 의 화면이 이상하다
+speakers: A={name}, B=Emre
+register: casual
+twist: 9 emotion
+purpose: work_abroad
+goal: hâlâ·hıhı·neden 으로 야근 수다 떨기
+expressions: hıhı; sağ ol; ister misin; yok
+A | Saat on oldu. Sen hâlâ burada mısın? | 열 시 됐어. 너 아직 여기 있어? |  | emotion=surprised
+B | Hıhı. İş çok. | 응. 일 많아. | hıhı = 응 | emotion=neutral
+A | Müdür sana da rapor mu istedi? | 부장님이 너한테도 보고서 달래? |  | emotion=worried
+B | Hıhı. | 응응. | hıhı = 응응 | emotion=neutral
+A | Bana da. Bu sabaha kadar bitmez. | 나도. 이거 아침까지 안 끝나. |  | emotion=sad
+B | Tost ister misin? Aşağıdan aldım. | 토스트 먹을래? 밑에서 샀어. | ister misin = 먹을래 | emotion=gentle
+A | Sağ ol. Dur bi… Ekranın neden boş? | 고마워. 잠깐… 네 화면 왜 비어 있어? | sağ ol = 고마워 | emotion=gentle+surprised
+B | Boş mu? Bilmiyorum. | 비었어? 몰라. |  | emotion=flustered
+A | Emre, senin raporun yok. İşin de yok, değil mi? | Emre, 너 보고서 없지. 일도 없지, 그치? |  | emotion=teasing
+B | Yok. | 없어. | yok = 없어 | emotion=shy
+A | O zaman neden buradasın? | 그럼 왜 여기 있는 건데? |  | emotion=gentle
+B | Sen gidince ben de gideyim diye. | 너 가면 나도 가려고. |  | emotion=shy

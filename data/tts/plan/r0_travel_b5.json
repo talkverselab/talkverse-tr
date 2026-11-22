@@ -33,7 +33,7 @@
 ],
 [
 "gentle",
-"Al, elimi tut."
+"Tut elimi."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "neutral",
-"Çok mu kayıyor?"
+"Çok mu kaygan?"
 ]
 ]
 },
@@ -53,7 +53,7 @@
 ],
 [
 "gentle",
-"Hiç bırakma."
+"Asla bırakma."
 ]
 ]
 },
@@ -61,7 +61,7 @@
 "segs": [
 [
 "teasing",
-"Ama bak, çocuklar oynuyor."
+"Bak, çocuklar koşuyor ama."
 ]
 ]
 },
@@ -69,7 +69,7 @@
 "segs": [
 [
 "shy",
-"Evet… kaymıyor zaten."
+"Ya… aslında kaygan değil."
 ]
 ]
 },
@@ -77,7 +77,7 @@
 "segs": [
 [
 "gentle",
-"Bırakmıyorum."
+"Bırakmam zaten."
 ]
 ]
 }

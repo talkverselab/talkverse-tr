@@ -38,11 +38,12 @@
    "tl": "Hoş geldin, yavrum. Elini uzat.",
    "rd": "호시 겔딘, 야브룸. 엘리니 우잣.",
    "ko": "어서 와라, 얘야. 손 내밀어 봐.",
-   "note": "uzatmak = 내밀다",
+   "note": "hoş geldin = 어서 와",
    "tags": [
     "expr:hoş geldin"
    ],
-   "new": []
+   "new": [],
+   "emotion": "gentle"
   },
   {
    "num": 2,
@@ -50,24 +51,35 @@
    "tl": "Hoş bulduk, teyze. Bu ne?",
    "rd": "호시 불둑, 테이제. 부 네?",
    "ko": "안녕하세요, 이모. 이게 뭐예요?",
-   "note": "bu ne = 이게 뭐야",
+   "note": "hoş bulduk = 안녕하세요",
    "tags": [
     "expr:hoş bulduk"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "polite",
+     "Hoş bulduk, teyze."
+    ],
+    [
+     "neutral",
+     "Bu ne?"
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Kolonya. Bizde misafire önce bu verilir.",
-   "rd": "콜론야. 비즈데 미사피레 왼제 부 베릴리르.",
+   "tl": "Kolonya. Misafire önce bunu veririz.",
+   "rd": "콜론야. 미사피레 왼제 부누 베리리즈.",
    "ko": "콜로냐야. 우리는 손님한테 이걸 먼저 준단다.",
    "note": "misafir = 손님",
    "tags": [],
    "new": [
     "kolonya",
     "misafir"
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 4,
@@ -75,47 +87,69 @@
    "tl": "Çok güzel! Limon mu?",
    "rd": "촉 귀젤! 리몬 무?",
    "ko": "너무 좋아요! 레몬이에요?",
-   "note": "limon = 레몬",
+   "note": "çok güzel = 너무 좋아요",
    "tags": [
     "expr:çok güzel"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "excited",
+     "Çok güzel!"
+    ],
+    [
+     "neutral",
+     "Limon mu?"
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Limon. Buyur, lokum da al.",
-   "rd": "리몬. 부유르, 로쿰 다 알.",
+   "tl": "Limon. Buyur, lokum da ye.",
+   "rd": "리몬. 부유르, 로쿰 다 예.",
    "ko": "레몬이지. 자, 로쿰도 먹어.",
-   "note": "buyur = 자, 받아",
+   "note": "buyur = 자",
    "tags": [
     "expr:buyur"
    ],
    "new": [
     "lokum"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Lokumun üstüne döküyorum. Afiyet olsun!",
-   "rd": "로쿠문 위스튀네 되퀴요룸. 아피옛 올순!",
+   "tl": "Lokumun üstüne dökeyim. Afiyet olsun!",
+   "rd": "로쿠문 위스튀네 되케임. 아피옛 올순!",
    "ko": "로쿰 위에 뿌릴게요. 맛있게 드세요!",
-   "note": "dökmek = 붓다",
+   "note": "afiyet olsun = 맛있게 드세요",
    "tags": [
     "expr:afiyet olsun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "cheerful"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Yavrum, ne yapıyorsun? O ele dökülür!",
-   "rd": "야브룸, 네 야프요르순? 오 엘레 되퀼뤼르!",
+   "tl": "Yavrum, ne yapıyorsun? O ele sıkılır!",
+   "rd": "야브룸, 네 야프요르순? 오 엘레 스클르르!",
    "ko": "얘야, 뭐 하는 거니? 그건 손에 뿌리는 거야!",
-   "note": "ele dökülür = 손에 뿌린다 — 반전",
+   "note": "ele dökülür = 손에 뿌린다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Yavrum, ne yapıyorsun?"
+    ],
+    [
+     "tsukkomi",
+     "O ele sıkılır!"
+    ]
+   ]
   },
   {
    "num": 8,
@@ -123,14 +157,25 @@
    "tl": "Anladım. Ama lokum fena değil.",
    "rd": "안라듬. 아마 로쿰 페나 데일.",
    "ko": "알겠어요. 근데 로쿰 나쁘지 않은데요.",
-   "note": "fena değil = 나쁘지 않다",
+   "note": "anladım = 알겠어요",
    "tags": [
     "expr:anladım"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Anladım."
+    ],
+    [
+     "amused",
+     "Ama lokum fena değil."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

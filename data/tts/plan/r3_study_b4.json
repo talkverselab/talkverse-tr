@@ -9,7 +9,7 @@
 "segs": [
 [
 "gentle",
-"Yurtta kimse kaldı mı? Bayramda ne yapacaksın?"
+"Yurtta kim kaldı? Bayramda ne yapacaksın?"
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "sad",
-"Hiç. Herkes memlekete gitti. Koridor bomboş."
+"Hiçbir şey. Herkes memlekete gitti. Koridor bomboş."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "gentle",
-"Bize gelseydin. Annem seni sordu."
+"Bizim eve gelseydin. Annem seni sordu."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "gentle",
-"Olsun, ben ders çalışırım. Sana iyi bayramlar."
+"Olsun, ben çalışırım. İyi bayramlar sana."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "polite",
-"Işığı gördüm, geldim. {name}, hâlâ burada mısınız?"
+"Işık gördüm, geldim. {name} öğrencisi, hâlâ buradasın?"
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "sad",
-"Evet. Uçak bileti çok pahalı. Burada kalıyorum."
+"Evet. Uçak bileti çok pahalıydı. Burada kalayım dedim."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "gentle",
-"Yurtta bir siz kaldınız, bir de ben."
+"Yurtta bir sen bir ben kaldık."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "polite",
-"Kusura bakmayın, ışığı kapatayım o zaman."
+"Kusura bakmayın, o zaman ışığı kapatayım."
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "gentle",
-"Kapatmayın. Şunu tutun, eşim size gönderdi."
+"Kapatma. Al bunu, evden öğrenciye diye gönderdiler."
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "surprised",
-"Baklava mı? Bana mı? Yok artık, eşinizin eline sağlık!"
+"Baklava mı? Bana mı? Yok artık, çok teşekkür ederim!"
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "gentle",
-"Bir de bu var. Mutfağın anahtarı. Bu gece ocak serbest."
+"Bir de bu. Mutfak anahtarı. Bu gece ocak serbest."
 ]
 ]
 },
@@ -97,7 +97,7 @@
 "segs": [
 [
 "surprised",
-"Hocam, siz yasak demiştiniz! Hem de iki kez!"
+"Hocam, yasak demiştiniz! Hem de iki kere!"
 ]
 ]
 },
@@ -105,7 +105,7 @@
 "segs": [
 [
 "amused",
-"Bayramda yurt boş, kurallar da izinli."
+"Bayramda yurt boş, kurallar da tatilde."
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "sad",
-"Yurtta kimse kalmadı, biraz üzülüyordum…"
+"Yurtta kimse yok diye biraz üzüldüm…"
 ]
 ]
 },
@@ -121,7 +121,7 @@
 "segs": [
 [
 "gentle",
-"Kimse kalmadı mı? Siz kaldınız ya. Menemen yapın, soğanlı olsun."
+"Kimse yok mu? Sen varsın ya. Menemen yap, soğan da koy. Eline sağlık."
 ]
 ]
 }

@@ -42,36 +42,37 @@
    "tags": [],
    "new": [],
    "at": "01:12",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "gentle"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Yok. Yanımdaki kadın omzumda uyuyor 😅",
-   "rd": "욕. 야늠다키 카든 옴줌다 우유요르",
+   "tl": "Yok. Yanımdaki teyze omzumda uyuyor 😅",
+   "rd": "욕. 야늠다키 테이제 옴줌다 우유요르",
    "ko": "아니. 옆자리 아주머니가 내 어깨에서 자 😅",
-   "note": "omuz = 어깨(omzum)",
+   "note": "yok = 아니",
    "tags": [
     "expr:yok"
    ],
-   "new": [
-    "omuz"
-   ],
+   "new": [],
    "at": "01:12",
    "stamp": "😅",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "amused"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Ben üç sıra arkandayım.",
-   "rd": "벤 위치 스라 아르칸다이음.",
+   "tl": "Ben üç sıra arkadayım.",
+   "rd": "벤 위치 스라 아르카다이음.",
    "ko": "나 세 줄 뒤에 있어.",
    "note": "sıra = 줄",
    "tags": [],
    "new": [],
    "at": "01:13",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "gentle"
   },
   {
    "num": 4,
@@ -83,13 +84,14 @@
    "tags": [],
    "new": [],
    "at": "01:13",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "teasing"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Benim omzum boş.",
-   "rd": "베님 옴줌 보시.",
+   "tl": "Benim omzum boş ama.",
+   "rd": "베님 옴줌 보시 아마.",
    "ko": "내 어깨는 비었는데.",
    "note": "boş = 빈",
    "tags": [
@@ -97,7 +99,8 @@
    ],
    "new": [],
    "at": "01:15",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "shy"
   },
   {
    "num": 6,
@@ -105,13 +108,14 @@
    "tl": "Ciddi misin?",
    "rd": "지디 미신?",
    "ko": "진심이야?",
-   "note": "ciddi misin? = 진심이야?",
+   "note": "ciddi misin = 진심이야?",
    "tags": [
     "expr:ciddi misin"
    ],
    "new": [],
    "at": "01:18",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -126,7 +130,8 @@
    "new": [],
    "at": "01:18",
    "stamp": "😌",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "teasing"
   },
   {
    "num": 8,
@@ -134,17 +139,19 @@
    "tl": "Geliyorum.",
    "rd": "겔리요룸.",
    "ko": "간다.",
-   "note": "geliyorum = 지금 가",
+   "note": "geliyorum = 간다",
    "tags": [
     "expr:geliyorum",
     "simkung"
    ],
    "new": [],
    "at": "01:19",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "shy"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

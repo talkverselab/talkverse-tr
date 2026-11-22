@@ -17,7 +17,7 @@
 "segs": [
 [
 "amused",
-"Üç mü? Az bile, ben on attım."
+"Üç mü? Azmış, ben on tane attım."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "annoyed",
-"Yanına gidiyorum, “Mail at” diyor."
+"Gidince “mail at” diyor."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "polite",
-"Kolay gelsin. Çay alır mısınız hocam?"
+"Kolay gelsin. Çay ister misiniz hocam?"
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "polite",
-"Mail mi? Müdür bey bilgisayar açmaz ki hocam."
+"Mail mi? Müdür bilgisayarı açmıyor hocam."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "surprised",
-"Ne?! İzin lazım, ben ne yapacağım?"
+"Ne?! İzin almam lazım, ne yapacağım?"
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "gentle",
-"Kâğıda yazın, tepsiye koyun. Bardağın altına."
+"Kâğıda yazın, tepsiye koyun. Fincanın altına."
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "tsukkomi",
-"Ne alaka? Bu ne şimdi?"
+"Ne alaka? Bu da ne şimdi?"
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "cheerful",
-"Buyurun hocam, imzalandı. Üç gün yazmıştınız, beş verdi."
+"Buyurun hocam, imza alındı. Üç gün istediniz, beş gün verdi."
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "surprised",
-"Yok artık! Amca, zam da oluyor mu?"
+"Yok artık! Amca, maaş zammı da olur mu?"
 ]
 ]
 },
@@ -97,7 +97,7 @@
 "segs": [
 [
 "amused",
-"Zam için büyük tepsi lazım."
+"Zam için daha büyük tepsi lazım."
 ]
 ]
 }

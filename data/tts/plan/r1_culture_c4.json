@@ -32,7 +32,7 @@
 "segs": [
 [
 "sad",
-"Tamam, giriyorum. Biletin kapıda."
+"Tamam, giriyorum. Biletini kapıda bırakırım. Görüşürüz."
 ]
 ]
 },
@@ -44,7 +44,7 @@
 ],
 [
 "neutral",
-"Teyzemdeyim, telefon yasak."
+"Teyze'deyim, telefon yasak."
 ]
 ]
 },
@@ -60,7 +60,7 @@
 "segs": [
 [
 "excited",
-"Çocuk onunmuş!"
+"Çocuk onun çocuğuymuş!"
 ],
 [
 "cheerful",

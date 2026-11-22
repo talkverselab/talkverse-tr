@@ -34,64 +34,79 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Müdür geldi. Üç gün hastaydı.",
-   "rd": "뮈뒤르 겔디. 위치 귄 하스타이드.",
+   "tl": "Müdür geldi. Üç gün hasta yatmış.",
+   "rd": "뮈뒤르 겔디. 위치 귄 하스타 야트므시.",
    "ko": "부장님 오셨어. 사흘 아프셨대.",
    "note": "hastaydı = 아팠다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Ne diyeyim? Türkçede bir şey var, değil mi?",
-   "rd": "네 디예임? 튀르크체데 비르 셰이 바르, 데일 미?",
+   "tl": "Ne diyeceğim? Türkçede o laf var ya.",
+   "rd": "네 디예제임? 튀르크체데 오 라프 바르 야.",
    "ko": "뭐라고 해야 해? 터키어로 그런 말 있잖아.",
    "note": "ne diyeyim = 뭐라고 할까",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "worried"
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Var tabii, çok kolay. Hadi, git söyle.",
-   "rd": "바르 타비이, 촉 콜라이. 하디, 깃 쇠일레.",
+   "tl": "Var, çok kolay. Hadi git söyle.",
+   "rd": "바르, 촉 콜라이. 하디 깃 쇠일레.",
    "ko": "있지, 아주 쉬워. 얼른, 가서 말해.",
    "note": "kolay = 쉬운",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Dur, bekle… tamam, hatırladım.",
-   "rd": "두르, 베클레… 타맘, 하트를라듬.",
+   "tl": "Dur bir dakika… Tamam, hatırladım.",
+   "rd": "두르 비르 다키카… 타맘, 하트를라듬.",
    "ko": "잠깐, 기다려… 됐어, 기억났어.",
    "note": "hatırladım = 기억났다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "worried",
+     "Dur bir dakika…"
+    ],
+    [
+     "cheerful",
+     "Tamam, hatırladım."
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "C",
-   "tl": "Günaydın. Bugün biraz daha iyiyim.",
-   "rd": "귀나이든. 부귄 비라즈 다하 이이임.",
+   "tl": "Günaydın. Bugün biraz iyiyim.",
+   "rd": "귀나이든. 부귄 비라즈 이이임.",
    "ko": "좋은 아침이에요. 오늘은 좀 낫네요.",
    "note": "biraz daha = 조금 더",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Müdürüm… başınız sağ olsun.",
+   "tl": "Müdürüm… Başınız sağ olsun.",
    "rd": "뮈뒤륌… 바시느즈 사 올순.",
    "ko": "부장님… 삼가 조의를 표합니다.",
-   "note": "başınız sağ olsun = 삼가 조의를 — 반전: 초상집 인사",
+   "note": "başınız sağ olsun = 삼가 조의를",
    "tags": [
     "expr:olsun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "stiff"
   },
   {
    "num": 7,
@@ -101,42 +116,55 @@
    "ko": "네?! 누가 죽었어요?",
    "note": "öldü = 죽었다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Yok, şey… siz?",
-   "rd": "욕, 셰이… 시즈?",
+   "tl": "Yok… Şey… Siz mi?",
+   "rd": "욕… 셰이… 시즈 미?",
    "ko": "아뇨… 저… 부장님이요?",
    "note": "siz = 당신",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 9,
    "speaker": "C",
-   "tl": "Ben mi? Ben buradayım!",
-   "rd": "벤 미? 벤 부라다이음!",
+   "tl": "Ben mi? Ben buradayım ya!",
+   "rd": "벤 미? 벤 부라다이음 야!",
    "ko": "저요? 저 여기 있는데요!",
    "note": "buradayım = 여기 있다",
    "tags": [],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Ben mi?"
+    ],
+    [
+     "annoyed",
+     "Ben buradayım ya!"
+    ]
+   ]
   },
   {
    "num": 10,
    "speaker": "B",
-   "tl": "“Geçmiş olsun” diyecekti müdürüm. Kusura bakmayın.",
-   "rd": "게치미시 올순 디예젝티 뮈뒤륌. 쿠수라 박마이은.",
+   "tl": "Geçmiş olsun demek istedi, müdürüm. Kusura bakmayın.",
+   "rd": "게치미시 올순 데멕 이스테디, 뮈뒤륌. 쿠수라 박마이은.",
    "ko": "「쾌차하세요」 라고 하려던 거예요, 부장님. 죄송합니다.",
-   "note": "diyecekti = 말하려고 했다",
+   "note": "geçmiş olsun = 쾌차하세요",
    "tags": [
     "expr:geçmiş olsun",
     "expr:kusura bakmayın",
     "expr:olsun",
     "form:-ecekti"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 11,
@@ -144,27 +172,39 @@
    "tl": "Allah allah. Bugün kimse benimle konuşmasın.",
    "rd": "알라흐 알라흐. 부귄 킴세 베님레 코누시마슨.",
    "ko": "참 나. 오늘은 아무도 저한테 말 걸지 마요.",
-   "note": "benimle = 나와",
+   "note": "allah allah = 참 나",
    "tags": [
     "expr:allah allah"
    ],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 12,
    "speaker": "A",
-   "tl": "Olsun müdürüm. Çok şükür yaşıyorsunuz.",
-   "rd": "올순 뮈뒤륌. 촉 쉬퀴르 야시요르수누즈.",
+   "tl": "Olsun müdürüm. Çok şükür buradasınız.",
+   "rd": "올순 뮈뒤륌. 촉 쉬퀴르 부라다스느즈.",
    "ko": "그래도요, 부장님. 다행히 살아 계시잖아요.",
-   "note": "çok şükür = 다행이다",
+   "note": "çok şükür = 다행히",
    "tags": [
     "expr:olsun",
     "expr:çok şükür"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Olsun müdürüm."
+    ],
+    [
+     "cheerful",
+     "Çok şükür buradasınız."
+    ]
+   ]
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

@@ -9,7 +9,7 @@
 "segs": [
 [
 "stiff",
-"Bugün sana bir soru soracağım. Cevaptan kaçmak yok, tamam mı?"
+"Bugün sana bir şey soracağım. Kaçmak yok, tamam mı?"
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "teasing",
-"Hayırdır? Yine fal mı? Para çıkmayacak, biliyorum."
+"Hayırdır? Yine fal mı? Para çıkmadığını biliyorum."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "amused",
-"Yok, fal değil. Annem soruyor: \"Arkadaşın yemek yedi mi?\""
+"Yok, fal değil. Annem soruyor. «Arkadaşın yemek yedi mi?»"
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "amused",
-"Annen hâlâ bunu mu soruyor? Çok tatlı. Yedim, söyle."
+"Annen hâlâ bunu mu soruyor? Tatlı. Yedi de."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "shy",
-"Hayır, asıl soru şu: \"Arkadaşın\" demeli miyim? Ne diyeyim anneme?"
+"Hayır, asıl soru şu. «Arkadaş» mı demeliyim? Anneme ne diyeyim?"
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "flustered",
-"Teyzen de \"Darısı başınıza\" demişti. Hâlâ ne demek bilmiyorum."
+"Teyzen de «darısı başınıza» demişti. Hâlâ ne demek bilmiyorum."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "tsukkomi",
-"Konuyu değiştirme! Halıcı bizi evli sanıyor, mahalle seni tanıyor."
+"Konuyu değiştirme! Halıcı bizi çift sanıyor, mahalle seni tanıyor."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "shy",
-"Kediye de benim adımı verdin. Haklısın, çok şey oldu."
+"Kediye bile adımı vermişler. Haklısın, çok şey oldu."
 ]
 ]
 },
@@ -101,11 +101,11 @@
 ],
 [
 "shout",
-"Garson!"
+"Affedersiniz!"
 ],
 [
 "polite",
-"Affedersiniz, bakar mısınız?"
+"Lütfen buraya bakar mısınız?"
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "annoyed",
-"Ciddi misin? Ben sana soru soruyorum, sen garson çağırıyorsun!"
+"Ciddi misin? Ben soruyorum sen garson mu çağırıyorsun?"
 ]
 ]
 },
@@ -121,7 +121,7 @@
 "segs": [
 [
 "polite",
-"Buyurun efendim, ne alırdınız?"
+"Buyurun, ne alırsınız?"
 ]
 ]
 },
@@ -137,7 +137,7 @@
 "segs": [
 [
 "gentle",
-"Tamam. Anneme yazıyorum: \"İki çatal.\""
+"Tamam. Anneme mesaj atıyorum. «İki çatal.»"
 ]
 ]
 }

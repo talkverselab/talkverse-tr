@@ -9,7 +9,7 @@
 "segs": [
 [
 "polite",
-"Arkadaşlar, sağda gördüğünüz bina iki bin yıllık."
+"Arkadaşlar, sağdaki bina tam iki bin yıllık."
 ]
 ]
 },
@@ -17,7 +17,11 @@
 "segs": [
 [
 "polite",
-"Pardon, bir şey soracağım. Tuvalet nerede?"
+"Pardon, bir şey sorabilir miyim?"
+],
+[
+"polite",
+"Tuvalet nerede?"
 ]
 ]
 },
@@ -25,7 +29,11 @@
 "segs": [
 [
 "polite",
-"Güzel soru. Solda gördüğünüz kapı çok eski."
+"Güzel soru."
+],
+[
+"polite",
+"Soldaki kapı da epey eski."
 ]
 ]
 },
@@ -33,7 +41,7 @@
 "segs": [
 [
 "amused",
-"Sana cevap vermedi. Bir daha sor."
+"Sana cevap vermedi ki. Bir daha sor."
 ]
 ]
 },
@@ -49,7 +57,7 @@
 "segs": [
 [
 "cheerful",
-"O taraf eski şehir. Hadi, yürüyoruz arkadaşlar!"
+"Orası antik şehir. Hadi yürüyelim arkadaşlar!"
 ]
 ]
 },
@@ -65,7 +73,7 @@
 "segs": [
 [
 "tsukkomi",
-"Aman, ne yapalım? Yüksek sesle sor."
+"Aman, ne yapalım. Yüksek sesle sor."
 ]
 ]
 },
@@ -81,7 +89,7 @@
 "segs": [
 [
 "polite",
-"Ah, güzel soru. Romalılar da aynı şeyi sordu."
+"Aa, güzel soru. Romalılar da aynı şeyi sormuş."
 ]
 ]
 },
@@ -97,7 +105,7 @@
 "segs": [
 [
 "polite",
-"Yalnız iki bin yıldır kapalı, arkadaşlar."
+"Ama iki bin yıldır kapalı, arkadaşlar."
 ]
 ]
 }

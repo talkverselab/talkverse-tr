@@ -37,39 +37,43 @@
    "ko": "내일 시험인데 넌 뭘 그려?",
    "note": "çizmek = 그리다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   },
   {
    "num": 2,
    "speaker": "B",
-   "tl": "Hiç. Ders çalışıyorum.",
-   "rd": "히치. 데르스 찰르시요룸.",
+   "tl": "Hiçbir şey. Çalışıyorum.",
+   "rd": "히치비르 셰이. 찰르시요룸.",
    "ko": "아무것도. 공부 중이야.",
    "note": "hiç = 아무것도",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Defterin ders gibi durmuyor. Ver bakayım.",
-   "rd": "데프테린 데르스 기비 두르무요르. 베르 바카이음.",
+   "tl": "Defterin çalışmaya benzemiyor. Ver bakayım.",
+   "rd": "데프테린 찰르시마야 벤제미요르. 베르 바카이음.",
    "ko": "공책이 공부 같아 보이진 않는데. 줘 봐.",
    "note": "ver bakayım = 줘 봐",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Olmaz. Sen kitabına bak.",
-   "rd": "올마즈. 센 키타브나 박.",
+   "tl": "Olmaz. Sen kendi kitabına bak.",
+   "rd": "올마즈. 센 켄디 키타브나 박.",
    "ko": "안 돼. 넌 네 책이나 봐.",
    "note": "olmaz = 안 돼",
    "tags": [
     "expr:olmaz"
    ],
-   "new": []
+   "new": [],
+   "emotion": "annoyed"
   },
   {
    "num": 5,
@@ -81,7 +85,8 @@
    "tags": [
     "expr:hadi ya"
    ],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -91,63 +96,69 @@
    "ko": "손. 내일 그리기 시험이라 손 연습 중이야.",
    "note": "el = 손",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "neutral"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Vay be, çok güzel. Bu kimin eli?",
-   "rd": "바이 베, 촉 귀젤. 부 키민 엘리?",
+   "tl": "Vay be, gerçekten güzel. Bu kimin eli?",
+   "rd": "바이 베, 게르첵텐 귀젤. 부 키민 엘리?",
    "ko": "와, 진짜 잘 그렸다. 이거 누구 손이야?",
-   "note": "kimin = 누구의",
+   "note": "vay be = 와",
    "tags": [
     "expr:vay be"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Bilmem. Bir el işte.",
-   "rd": "빌멤. 비르 엘 이시테.",
+   "tl": "Bilmem. Sadece bir el.",
+   "rd": "빌멤. 사데제 비르 엘.",
    "ko": "몰라. 그냥 손이야.",
-   "note": "işte = 그냥, 뭐",
+   "note": "bilmem = 몰라",
    "tags": [
     "expr:bilmem"
    ],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 9,
    "speaker": "A",
-   "tl": "Dur, bu yara benim elimde var!",
-   "rd": "두르, 부 야라 베님 엘림데 바르!",
+   "tl": "Bir dakika, bu yara benim elimde de var!",
+   "rd": "비르 다키카, 부 야라 베님 엘림데 데 바르!",
    "ko": "잠깐, 이 흉터 내 손에도 있는데!",
-   "note": "yara = 상처 — 반전",
+   "note": "yara = 상처",
    "tags": [],
    "new": [
     "yara"
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 10,
    "speaker": "B",
-   "tl": "Model lazımdı. Sen de uyuyordun.",
-   "rd": "모델 라즘드. 센 데 우유요르둔.",
+   "tl": "Modele ihtiyacım vardı. Sen uyuyordun zaten.",
+   "rd": "모델레 이흐티야즘 바르드. 센 우유요르둔 자텐.",
    "ko": "모델이 필요했어. 너 마침 자고 있었고.",
    "note": "uyuyordun = 자고 있었다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "shy"
   },
   {
    "num": 11,
    "speaker": "A",
-   "tl": "Kaç sayfa bu? Zeynep, yirmi sayfa var!",
-   "rd": "카치 사이파 부? 제이넵, 이르미 사이파 바르!",
+   "tl": "Bu kaç sayfa? Zeynep, yirmi sayfa var!",
+   "rd": "부 카치 사이파? 제이넵, 이르미 사이파 바르!",
    "ko": "이거 몇 장이야? Zeynep, 스무 장이나 있잖아!",
    "note": "kaç sayfa = 몇 장",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 12,
@@ -159,12 +170,12 @@
    "tags": [
     "simkung"
    ],
-   "new": [
-    "ezberlemek"
-   ]
+   "new": [],
+   "emotion": "gentle"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

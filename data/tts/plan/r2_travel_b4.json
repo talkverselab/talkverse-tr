@@ -16,7 +16,7 @@
 "segs": [
 [
 "teasing",
-"Dökmem. Beni özleyeceksin, değil mi?"
+"Dökmem. Beni özleyeceksin değil mi?"
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "gentle",
-"Seni kim unutur? Uçağın saat kaçta?"
+"Seni kim unutur? Uçak saat kaçta?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "gentle",
-"İyi. Boş kalsın."
+"İyi. Boş bırak."
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "surprised",
-"Ne demek boş kalsın? Elif, ciddi misin?"
+"Boş bırakmak ne demek? Elif, ciddi misin?"
 ]
 ]
 },
@@ -60,7 +60,7 @@
 ],
 [
 "gentle",
-"Hadi bak, güneş batıyor."
+"Bak, güneş batıyor."
 ]
 ]
 },
@@ -68,7 +68,7 @@
 "segs": [
 [
 "gentle",
-"Çok güzel. Keşke bu vapur hiç durmasa."
+"Gerçekten güzel. Keşke bu gemi durmasa."
 ]
 ]
 },
@@ -76,7 +76,7 @@
 "segs": [
 [
 "sad",
-"Vapur durur. Karaköy'de herkes iner."
+"Gemi durur. Karaköy'de herkes iner."
 ]
 ]
 },
@@ -84,7 +84,7 @@
 "segs": [
 [
 "sad",
-"Evet… herkes iner."
+"Evet... herkes iner."
 ]
 ]
 },
@@ -96,7 +96,7 @@
 ],
 [
 "shy",
-"Bir tur daha, sen de kal."
+"Bir tur daha, sen de varsın."
 ]
 ]
 },
@@ -104,7 +104,7 @@
 "segs": [
 [
 "shy",
-"Uçağı kaçırırım, inşallah."
+"İnşallah uçağı kaçarım."
 ]
 ]
 }

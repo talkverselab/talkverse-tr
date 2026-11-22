@@ -9,7 +9,7 @@
 "segs": [
 [
 "polite",
-"Alo, {name}? Bursa başvurmuştunuz, değil mi?"
+"Alo, {name} Bey/Hanım? Burs başvurusu yapmıştınız değil mi?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "cheerful",
-"Müjde, çıktı! Pazartesi başlıyor, hayırlı olsun."
+"Güzel haber, oldu! Pazartesiden itibaren başlıyor, tebrikler."
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "worried",
-"Bilmiyorum ki. Bileti aldım bile, pazar sabahı otobüs."
+"Bilmiyorum ki. Bileti de aldım bile, pazar sabahı otobüs."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "sad",
-"Bursa'yı hiç sevmem. Çok uzak."
+"Ben Bursa'yı hiç sevmem. Çok uzak."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "tsukkomi",
-"Otobüsle üç saat, Zeynep. Çok yakın."
+"Otobüsle üç saat Zeynep. Gayet yakın."
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "shy",
-"Olsun. Yine de uzak."
+"Umurumda değil. Yine de uzak."
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "worried",
-"{name}, burs formunu imzalamadınız. Para yatmayacak!"
+"{name} Bey/Hanım, burs evrakını imzalamadınız. Para gelmez!"
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "surprised",
-"Burs mu? Hangi burs? Ben Bursa'ya gidiyorum!"
+"Burs mu? Ne bursu? Ben Bursa'ya gidiyorum!"
 ]
 ]
 },
@@ -97,7 +97,7 @@
 "segs": [
 [
 "tsukkomi",
-"Bursa mı? Burs dedim canım, burs! Her ay para!"
+"Bursa mı? Burs dedim, burs! Her ay para!"
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "sad",
-"Geri almıyorlar. Ne yapalım, boşa gitti."
+"İade olmuyormuş. Ne yapalım, uçtu gitti."
 ]
 ]
 },
@@ -121,7 +121,7 @@
 "segs": [
 [
 "shy",
-"Bir bilet daha alırım. Zaten Bursa'yı severim."
+"Bir bilet daha alsak olur. Ben zaten Bursa'yı severim."
 ]
 ]
 }

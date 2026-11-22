@@ -38,16 +38,17 @@
   {
    "num": 1,
    "speaker": "C",
-   "tl": "Buyurun! Taze domates, kilosu kırk lira!",
-   "rd": "부유룬! 타제 도마테스, 킬로수 크르크 리라!",
+   "tl": "Buyurun! Taze domates, kilosu 40 lira!",
+   "rd": "부유룬! 타제 도마테스, 킬로수 40 리라!",
    "ko": "어서 오세요! 싱싱한 토마토, 킬로에 40리라!",
-   "note": "kilosu = 1킬로에",
+   "note": "buyurun = 어서 오세요",
    "tags": [
     "expr:buyurun"
    ],
    "new": [
     "domates"
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -55,49 +56,71 @@
    "tl": "Hadi, pazarlık yap. Sen de öğren.",
    "rd": "하디, 파자를륵 얍. 센 데 외렌.",
    "ko": "자, 흥정해 봐. 너도 배워야지.",
-   "note": "pazarlık = 흥정",
+   "note": "hadi = 자",
    "tags": [
     "expr:hadi"
    ],
    "new": [
     "pazarlık"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Hadi, pazarlık yap."
+    ],
+    [
+     "teasing",
+     "Sen de öğren."
+    ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Kırk mı? Çok pahalı!",
-   "rd": "크르크 므? 촉 파할르!",
+   "tl": "40 mı? Çok pahalı!",
+   "rd": "40 므? 촉 파할르!",
    "ko": "40이요? 너무 비싸요!",
    "note": "çok pahalı = 너무 비싸요",
    "tags": [
     "expr:çok pahalı"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "40 mı?"
+    ],
+    [
+     "surprised",
+     "Çok pahalı!"
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "C",
-   "tl": "Ee, kaç verirsiniz?",
-   "rd": "에에, 카치 베리르시니즈?",
+   "tl": "Ee, ne kadar verirsiniz?",
+   "rd": "에에, 네 카다르 베리르시니즈?",
    "ko": "그럼 얼마 주실래요?",
-   "note": "ee = 그래서?",
+   "note": "ee = 그럼",
    "tags": [
     "expr:ee"
    ],
-   "new": []
+   "new": [],
+   "emotion": "polite"
   },
   {
    "num": 5,
    "speaker": "A",
-   "tl": "Şey… elli?",
-   "rd": "셰이… 엘리?",
+   "tl": "Şey… 50?",
+   "rd": "셰이… 50?",
    "ko": "저… 50?",
-   "note": "elli = 50 — 반전",
+   "note": "şey = 저",
    "tags": [
     "expr:şey"
    ],
-   "new": []
+   "new": [],
+   "emotion": "flustered"
   },
   {
    "num": 6,
@@ -105,35 +128,39 @@
    "tl": "Olur! Hemen, hemen, buyurun!",
    "rd": "올루르! 헤멘, 헤멘, 부유룬!",
    "ko": "좋습니다! 바로, 바로, 여기요!",
-   "note": "olur = 좋아요",
+   "note": "olur = 좋습니다",
    "tags": [
     "expr:olur",
     "expr:buyurun"
    ],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Pazarlık aşağı gider, yukarı değil!",
-   "rd": "파자를륵 아샤으 기데르, 유카르 데일!",
+   "tl": "Pazarlık aşağı iner, yukarı değil!",
+   "rd": "파자를륵 아샤으 이네르, 유카르 데일!",
    "ko": "흥정은 내려가는 거야, 올라가는 게 아니라!",
    "note": "aşağı = 아래로 · yukarı = 위로",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "tsukkomi"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Yarın yine gelin, size altmış!",
-   "rd": "야른 이네 겔린, 시제 알트므시!",
+   "tl": "Yarın yine gelin, size 60!",
+   "rd": "야른 이네 겔린, 시제 60!",
    "ko": "내일 또 오세요, 손님한텐 60!",
    "note": "altmış = 60",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "amused"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

@@ -33,17 +33,16 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Seni aile grubuna ekledim 😂",
-   "rd": "세니 아일레 그루부나 에클레딤",
+   "tl": "Seni aile grubuna aldım 😂",
+   "rd": "세니 아일레 그루부나 알듬",
    "ko": "너 우리 친척방에 넣었다 😂",
    "note": "eklemek = 넣다",
    "tags": [],
-   "new": [
-    "grup"
-   ],
+   "new": [],
    "stamp": "😂",
    "at": "06:02",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "teasing"
   },
   {
    "num": 2,
@@ -55,15 +54,16 @@
    "tags": [],
    "new": [],
    "at": "06:03",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "C",
-   "tl": "Günaydın! Hoş geldin, yavrum 🌹",
-   "rd": "귀나이든! 호시 겔딘, 야브룸",
+   "tl": "Günaydın! Hoş geldin yavrum 🌹",
+   "rd": "귀나이든! 호시 겔딘 야브룸",
    "ko": "좋은 아침! 어서 와라, 얘야 🌹",
-   "note": "günaydın = 좋은 아침",
+   "note": "hoş geldin = 어서 와",
    "tags": [
     "expr:hoş geldin",
     "expr:günaydın"
@@ -71,13 +71,14 @@
    "new": [],
    "stamp": "🌹",
    "at": "06:03",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Günaydın, teyze. Teşekkür ederim.",
-   "rd": "귀나이든, 테이제. 테셰퀴르 에데림.",
+   "tl": "Günaydın teyze. Teşekkür ederim.",
+   "rd": "귀나이든 테이제. 테셰퀴르 에데림.",
    "ko": "좋은 아침이에요, 이모. 감사합니다.",
    "note": "teşekkür ederim = 감사합니다",
    "tags": [
@@ -86,7 +87,8 @@
    ],
    "new": [],
    "at": "06:04",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "polite"
   },
   {
    "num": 5,
@@ -94,13 +96,14 @@
    "tl": "Eyvah, cevap verdin! Telefonu kapat!",
    "rd": "에이바흐, 제밥 베르딘! 텔레포누 카팟!",
    "ko": "헉, 답장했어! 폰 꺼!",
-   "note": "cevap vermek = 답하다",
+   "note": "eyvah = 헉",
    "tags": [
     "expr:eyvah"
    ],
    "new": [],
    "at": "06:04",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "flustered"
   },
   {
    "num": 6,
@@ -108,40 +111,44 @@
    "tl": "Cumartesi herkes bize! {name} börek getirsin.",
    "rd": "주마르테시 헤르케스 비제! {name} 뵈렉 게티르신.",
    "ko": "토요일에 다들 우리 집으로! {name} 뵈렉 가져오고.",
-   "note": "getirsin = 가져오게 해 — 반전",
+   "note": "getirsin = 가져오게 해",
    "tags": [],
    "new": [
     "börek"
    ],
    "at": "06:05",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "excited"
   },
   {
    "num": 7,
    "speaker": "A",
-   "tl": "Börek mi? Elif, ne oluyor?!",
-   "rd": "뵈렉 미? 엘리프, 네 올루요르?!",
+   "tl": "Börek mi? Elif, bu ne?!",
+   "rd": "뵈렉 미? 엘리프, 부 네?!",
    "ko": "뵈렉이요? Elif, 이게 뭐야?!",
    "note": "ne oluyor = 무슨 일이야",
    "tags": [],
    "new": [],
    "at": "06:06",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Kırk kişiyiz, yavrum 🌹",
-   "rd": "크르크 키시이즈, 야브룸",
+   "tl": "Biz kırk kişiyiz yavrum 🌹",
+   "rd": "비즈 크르크 키시이즈 야브룸",
    "ko": "우리 마흔 명이다, 얘야 🌹",
    "note": "kırk kişi = 40명",
    "tags": [],
    "new": [],
    "at": "06:06",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "cheerful"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

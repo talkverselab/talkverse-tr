@@ -8,7 +8,7 @@
 "segs": [
 [
 "polite",
-"Hoş geldiniz. Nasıl olsun?"
+"Hoş geldiniz. Bugün ne yapalım?"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "worried",
-"Bilmiyorum. Biraz kısa, ama çok değil."
+"Bilmiyorum ya. Biraz kısaltın ama çok değil."
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "polite",
-"Anladım. Arkası kısa mı, uzun mu?"
+"Anladım. Arkası nasıl olsun peki?"
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "shy",
-"Şey, kesin değil. Düşünüyorum."
+"Şey... henüz kesin değilim. Hâlâ düşünüyorum."
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "cheerful",
-"Kesin mi? Tamam, kesiyorum!"
+"Kesin mi? Tamam, kesiyorum hemen!"
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "flustered",
-"Hayır, bir dakika! Kesin değil!"
+"Hayır, durun! Kesin demedim ki!"
 ]
 ]
 },
@@ -56,7 +56,7 @@
 "segs": [
 [
 "surprised",
-"Ne demek 'kesin değil'? Kestim bile."
+"'Kesin değil' ne demek? Zaten kestim."
 ]
 ]
 },
@@ -64,7 +64,7 @@
 "segs": [
 [
 "worried",
-"Aman! Ne kadar kestiniz?"
+"Ay! Ne kadar kestiniz?"
 ]
 ]
 },
@@ -72,7 +72,7 @@
 "segs": [
 [
 "flustered",
-"Az. Yani şurası az."
+"Birazcık. Şöyle... şurası biraz."
 ]
 ]
 },
@@ -80,7 +80,7 @@
 "segs": [
 [
 "surprised",
-"Ya burası? Burası neden yok?"
+"Peki burası? Neden yok burada?"
 ]
 ]
 },
@@ -88,7 +88,7 @@
 "segs": [
 [
 "polite",
-"Önemli değil. Saç büyür, inşallah."
+"Olsun. Saç uzar, herhalde."
 ]
 ]
 },
@@ -96,7 +96,7 @@
 "segs": [
 [
 "sad",
-"Peki… şapka da satıyor musunuz?"
+"O zaman... şapka da satıyor musunuz?"
 ]
 ]
 }

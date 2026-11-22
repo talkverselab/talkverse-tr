@@ -38,25 +38,27 @@
    "tl": "Naber? Hâlâ uyumadın mı?",
    "rd": "나베르? 할라 우유마든 므?",
    "ko": "뭐 해? 아직 안 잤어?",
-   "note": "hâlâ = 아직도",
+   "note": "naber = 뭐 해",
    "tags": [
     "expr:naber"
    ],
    "new": [],
    "at": "00:41",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "gentle"
   },
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Uyuyamıyorum. Evimi özledim.",
-   "rd": "우유야므요룸. 에비미 외즐레딤.",
+   "tl": "Uyku tutmuyor. Evi özledim.",
+   "rd": "우이쿠 투트무요르. 에비 외즐레딤.",
    "ko": "잠이 안 와. 집이 그리워.",
    "note": "özledim = 그리웠다",
    "tags": [],
    "new": [],
    "at": "00:42",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "sad"
   },
   {
    "num": 3,
@@ -68,13 +70,14 @@
    "tags": [],
    "new": [],
    "at": "00:42",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "gentle"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "O da. Burada kimsem yok ya.",
-   "rd": "오 다. 부라다 킴셈 욕 야.",
+   "tl": "Onu da. Burada kimse yok ki.",
+   "rd": "오누 다. 부라다 킴세 욕 키.",
    "ko": "그것도. 여기 아무도 없잖아.",
    "note": "kimsem yok = 내 사람이 없다",
    "tags": [
@@ -82,56 +85,78 @@
    ],
    "new": [],
    "at": "00:44",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "sad"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Hadi canım. Ya ben?",
-   "rd": "하디 자늠. 야 벤?",
+   "tl": "Yok ya. Ben?",
+   "rd": "욕 야. 벤?",
    "ko": "에이 설마. 나는?",
-   "note": "ya ben? = 나는?",
+   "note": "yok ya = 에이 설마",
    "tags": [
     "expr:hadi canım"
    ],
    "new": [],
    "at": "00:44",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "tsukkomi",
+     "Yok ya."
+    ],
+    [
+     "gentle",
+     "Ben?"
+    ]
+   ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Sen yemeğimi yiyorsun.",
-   "rd": "센 예메이미 이요르순.",
+   "tl": "Sen benim yemeğimi yiyorsun.",
+   "rd": "센 베님 예메이미 이요르순.",
    "ko": "넌 내 밥을 먹잖아.",
    "note": "yiyorsun = 먹고 있어",
    "tags": [],
    "new": [],
    "at": "00:45",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "amused"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Aynen. Aile işi bu.",
-   "rd": "아이넨. 아일레 이시 부.",
+   "tl": "Aynen. Bu da aile demek.",
+   "rd": "아이넨. 부 다 아일레 데멕.",
    "ko": "맞아. 그게 가족이지.",
-   "note": "aile = 가족 — 반전",
+   "note": "aynen = 맞아",
    "tags": [
     "expr:aynen",
     "simkung"
    ],
    "new": [],
    "at": "00:45",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "teasing",
+     "Aynen."
+    ],
+    [
+     "gentle",
+     "Bu da aile demek."
+    ]
+   ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Öldüm 😂 İyi geceler, kanka.",
-   "rd": "욀뒴 이이 게젤레르, 칸카.",
+   "tl": "Hadi canım 😂 İyi geceler kanka.",
+   "rd": "하디 자늠 이이 게젤레르 칸카.",
    "ko": "죽겠다 😂 잘 자, 친구야.",
-   "note": "öldüm = 죽겠다(웃겨서)",
+   "note": "hadi canım = 에이",
    "tags": [
     "expr:iyi geceler",
     "expr:kanka",
@@ -140,10 +165,12 @@
    "new": [],
    "at": "00:46",
    "stamp": "😂",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "amused"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

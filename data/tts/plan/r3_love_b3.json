@@ -17,7 +17,7 @@
 "segs": [
 [
 "cheerful",
-"Futboldan hiç anlamam ama olur. Ben kimi tutuyorum?"
+"Futboldan hiç anlamam ama olur. Kimi tutuyorum ben?"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "gentle",
-"Beni dinle. Sarılar bizim, onları tut. Başka bir şey söyleme."
+"İyi dinle. Sarı takım bizim taraf, onları tut. Başka bir şey söyleme."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "cheerful",
-"Tamam, anladım. Sarılar bizim, başka bir şey yok."
+"Tamam, anladım. Sarı takım bizim, gerisi yok."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "cheerful",
-"Hoş geldin! Emre'nin arkadaşı mısın? Çay, kahve, ne istersen söyle."
+"Hoş geldin! Emre'nin arkadaşı mısın? Çay kahve ne istersen söyle."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "worried",
-"Başladı. Sakın bağırma, burada herkes çok ciddi."
+"Başladı. Sakın bağırma, buradakiler çok ciddi."
 ]
 ]
 },
@@ -73,7 +73,7 @@
 "segs": [
 [
 "stiff",
-"Bir dakika. O gol onların golü. Sen kimi tutuyorsun?"
+"Bir dakika. O gol karşı tarafın. Sen kimi tutuyorsun?"
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah. Ben hepsine sevindim. Gol güzel bir şey, değil mi?"
+"Eyvah. Ben her golü seviyorum. Gol güzel değil mi?"
 ]
 ]
 },
@@ -89,7 +89,7 @@
 "segs": [
 [
 "shout",
-"Gençler, duydunuz mu? Bu masada karşı takımdan biri var!"
+"Çocuklar, duydunuz mu? Bu masada karşı takımdan biri var!"
 ]
 ]
 },
@@ -97,7 +97,7 @@
 "segs": [
 [
 "worried",
-"Emre, otuz kişi bana bakıyor. Eve gitmeli miyim şimdi?"
+"Emre, otuz kişi bana bakıyor. Eve mi gitmem lazım şimdi?"
 ]
 ]
 },
@@ -105,7 +105,7 @@
 "segs": [
 [
 "gentle",
-"Amca, bir dakika. O benimle geldi, benimle de çıkar."
+"Abi, bir dakika. Bu benimle geldi, çıkarken de benimle çıkacak."
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "amused",
-"Tamam Emre, sen bilirsin. Hadi oturun, ikinci yarı başlıyor."
+"Tamam Emre, sen halledersin. Oturun, ikinci yarı başlıyor."
 ]
 ]
 },
@@ -121,7 +121,7 @@
 "segs": [
 [
 "shy",
-"Benimle geldi, benimle çıkar. Bunu bir daha söyler misin?"
+"Benimle geldi, benimle çıkacak. Bir daha söyler misin?"
 ]
 ]
 },
@@ -129,11 +129,11 @@
 "segs": [
 [
 "neutral",
-"Sarılar bizim."
+"Sarı takım bizim taraf."
 ],
 [
 "shy",
-"Sen de bizimsin."
+"Sen de bizim tarafsın."
 ],
 [
 "gentle",

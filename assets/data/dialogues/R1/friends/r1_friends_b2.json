@@ -32,13 +32,23 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Tavla biliyor musun? Kaybeden çayları öder.",
-   "rd": "타블라 빌리요르 무순? 카이베덴 차일라르 외데르.",
+   "tl": "Tavla biliyor musun? Kaybeden çayı ısmarlar.",
+   "rd": "타블라 빌리요르 무순? 카이베덴 차이으 으스마를라르.",
    "ko": "타블라 할 줄 알아? 진 사람이 찻값 내는 거야.",
    "note": "kaybeden = 진 사람 · tavla = 타블라(주사위 말판 놀이)",
    "tags": [],
    "new": [
     "tavla"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Tavla biliyor musun?"
+    ],
+    [
+     "teasing",
+     "Kaybeden çayı ısmarlar."
+    ]
    ]
   },
   {
@@ -47,79 +57,96 @@
    "tl": "Bilmem, biraz. Olur, oynayalım.",
    "rd": "빌멤, 비라즈. 올루르, 오이나얄름.",
    "ko": "글쎄, 조금. 좋아, 하자.",
-   "note": "oynayalım = 놀자",
+   "note": "bilmem = 글쎄",
    "tags": [
     "expr:bilmem",
     "expr:olur"
    ],
-   "new": []
+   "new": [],
+   "segs": [
+    [
+     "shy",
+     "Bilmem, biraz."
+    ],
+    [
+     "cheerful",
+     "Olur, oynayalım."
+    ]
+   ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Korkma. Ben yavaş oynarım.",
-   "rd": "코르크마. 벤 야바시 오이나름.",
+   "tl": "Korkma. Yavaş oynarım.",
+   "rd": "코르크마. 야바시 오이나름.",
    "ko": "쫄지 마. 살살 할게.",
    "note": "korkma = 겁내지 마",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Şeş beş! Yine kazandım.",
-   "rd": "셰시 베시! 이네 카잔듬.",
+   "tl": "6-5! Yine kazandım.",
+   "rd": "6-5! 이네 카잔듬.",
    "ko": "6·5! 또 이겼다.",
    "note": "şeş beş = 주사위 6과 5 · kazanmak = 이기다",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "excited"
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Üç oyun üst üste! Sen kimsin?",
-   "rd": "위치 오윤 위스트 위스테! 센 킴신?",
+   "tl": "Üç el üst üste! Sen kimsin?",
+   "rd": "위치 엘 위스트 위스테! 센 킴신?",
    "ko": "세 판 연속이라니! 너 누구야?",
    "note": "üst üste = 연달아",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Bana deden öğretti.",
-   "rd": "바나 데덴 외레티.",
+   "tl": "Deden öğretti.",
+   "rd": "데덴 외레티.",
    "ko": "네 할아버지가 가르쳐 줬어.",
-   "note": "dede = 할아버지 — 반전",
+   "note": "dede = 할아버지",
    "tags": [],
    "new": [
     "dede"
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Dedem mi? Ne zaman?!",
-   "rd": "데뎀 미? 네 자만?!",
+   "tl": "Bizim dedem mi? Ne zaman?!",
+   "rd": "비짐 데뎀 미? 네 자만?!",
    "ko": "우리 할아버지가? 언제?!",
    "note": "ne zaman = 언제",
    "tags": [
     "expr:ne zaman"
    ],
-   "new": []
+   "new": [],
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Her sabah, parkta. \"Çayları Can ödesin\" dedi.",
-   "rd": "헤르 사바흐, 파르크타. \"차일라르 잔 외데신\" 데디.",
+   "tl": "Her sabah parkta. 「Çayı kaybeden ısmarlar」 derdi.",
+   "rd": "헤르 사바흐 파르크타. 차이으 카이베덴 으스마를라르 데르디.",
    "ko": "매일 아침, 공원에서. 「찻값은 잔이 내라」 하시던데.",
    "note": "ödesin = 내라고 해",
    "tags": [],
-   "new": []
+   "new": [],
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

@@ -10,7 +10,7 @@
 "segs": [
 [
 "polite",
-"Sakin olun. Hava bugün çok güzel."
+"Hadi sakin olun. Bugün hava çok güzel."
 ]
 ]
 },
@@ -18,7 +18,7 @@
 "segs": [
 [
 "cheerful",
-"Kaptan, kahvaltı var mı?"
+"Kaptan, kahvaltı var mı bugün?"
 ]
 ]
 },
@@ -30,7 +30,7 @@
 ],
 [
 "gentle",
-"Aşağı bak, çok güzel."
+"Bak aşağıya, çok güzel ya."
 ]
 ]
 },
@@ -38,7 +38,7 @@
 "segs": [
 [
 "flustered",
-"Şey… iniyoruz."
+"Şey... iniyoruz şimdi."
 ]
 ]
 },
@@ -46,7 +46,7 @@
 "segs": [
 [
 "surprised",
-"Nereye? Orası birinin bahçesi!"
+"Nereye? Orası birinin bahçesi değil mi!"
 ]
 ]
 },
@@ -54,7 +54,7 @@
 "segs": [
 [
 "amused",
-"Hoş geldiniz! Yine mi bahçeme indiniz?"
+"Hoş geldiniz! Yine bizim bahçeye mi indiniz?"
 ]
 ]
 },
@@ -74,7 +74,7 @@
 "segs": [
 [
 "teasing",
-"Gördün mü? Kahvaltı var."
+"Gördün mü? Kahvaltı var işte."
 ]
 ]
 }

@@ -35,13 +35,14 @@
    "tl": "Geldim! Neredesin?",
    "rd": "겔딤! 네레데신?",
    "ko": "도착! 어디야?",
-   "note": "neredesin = 어디야",
+   "note": "geldim = 도착했어",
    "tags": [
     "expr:geldim"
    ],
    "new": [],
    "at": "14:02",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -49,7 +50,7 @@
    "tl": "Bak, kedi! 😍",
    "rd": "박, 케디!",
    "ko": "봐, 고양이! 😍",
-   "note": "kedi = 고양이",
+   "note": "bak = 봐",
    "tags": [
     "expr:bak"
    ],
@@ -58,13 +59,14 @@
    ],
    "at": "14:20",
    "stamp": "😍",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "A",
-   "tl": "Çok güzel. Elif, neredesin?",
-   "rd": "촉 귀젤. 엘리프, 네레데신?",
+   "tl": "Tatlı. Elif, neredesin ya?",
+   "rd": "타틀르. 엘리프, 네레데신 야?",
    "ko": "귀엽다. 엘리프, 어디야?",
    "note": "çok güzel = 너무 좋다",
    "tags": [
@@ -72,19 +74,30 @@
    ],
    "new": [],
    "at": "14:21",
-   "ui": "bubble"
+   "ui": "bubble",
+   "segs": [
+    [
+     "neutral",
+     "Tatlı."
+    ],
+    [
+     "annoyed",
+     "Elif, neredesin ya?"
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "tl": "Bu da başka kedi.",
-   "rd": "부 다 바시카 케디.",
+   "tl": "Bu başka kedi.",
+   "rd": "부 바시카 케디.",
    "ko": "이건 다른 고양이.",
    "note": "başka = 다른",
    "tags": [],
    "new": [],
    "at": "14:40",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "cheerful"
   },
   {
    "num": 5,
@@ -98,7 +111,8 @@
    ],
    "new": [],
    "at": "15:05",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "annoyed"
   },
   {
    "num": 6,
@@ -106,13 +120,14 @@
    "tl": "Mama aldım.",
    "rd": "마마 알듬.",
    "ko": "사료 샀어.",
-   "note": "mama = 사료 — 반전: 또 고양이 얘기",
+   "note": "mama = 사료",
    "tags": [],
    "new": [
     "mama"
    ],
    "at": "15:30",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "cheerful"
   },
   {
    "num": 7,
@@ -124,13 +139,14 @@
    "tags": [],
    "new": [],
    "at": "15:30",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "B",
-   "tl": "Kediye. Sen bekle 😘",
-   "rd": "케디예. 센 베클레",
+   "tl": "Kedinin. Sen bekle 😘",
+   "rd": "케디닌. 센 베클레",
    "ko": "고양이 거. 넌 기다려 😘",
    "note": "bekle = 기다려",
    "tags": [
@@ -139,10 +155,12 @@
    "new": [],
    "at": "15:31",
    "stamp": "😘",
-   "ui": "bubble"
+   "ui": "bubble",
+   "emotion": "teasing"
   }
  ],
  "review": {
-  "draft": "claude 2026-11-07"
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
  }
 }

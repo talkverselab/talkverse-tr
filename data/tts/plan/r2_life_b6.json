@@ -10,11 +10,11 @@
 "segs": [
 [
 "stiff",
-"Toplantı başladı."
+"Toplantıya başlayalım."
 ],
 [
 "annoyed",
-"Aidat yine mi artıyor?"
+"Aidat yine mi yükseliyor?"
 ]
 ]
 },
@@ -22,7 +22,7 @@
 "segs": [
 [
 "sad",
-"Asansör bozuk, kapı bozuk, ben de yorgunum."
+"Asansör bozuk, kapı da bozuk, ben de bıktım artık."
 ]
 ]
 },
@@ -30,7 +30,7 @@
 "segs": [
 [
 "polite",
-"Affedersiniz, bir şey söyleyebilir miyim?"
+"Affedersiniz, bir şey diyebilir miyim?"
 ]
 ]
 },
@@ -38,11 +38,11 @@
 "segs": [
 [
 "gentle",
-"Sonra, canım."
+"Sonra olsun canım."
 ],
 [
 "stiff",
-"Önce çöpü konuşalım."
+"Önce çöp konusu."
 ]
 ]
 },
@@ -50,7 +50,7 @@
 "segs": [
 [
 "annoyed",
-"Üst kat hep su döküyor, teyze!"
+"Üst kat her gün su döküyor, teyze!"
 ]
 ]
 },
@@ -58,11 +58,11 @@
 "segs": [
 [
 "surprised",
-"Ben mi?"
+"Ben mi yaptım?"
 ],
 [
 "annoyed",
-"Balkonu yıkadım, ayıp oluyor!"
+"Balkonu sildim sadece, abartma!"
 ]
 ]
 },
@@ -70,7 +70,7 @@
 "segs": [
 [
 "polite",
-"Bakın, ben sadece…"
+"Şey, ben sadece..."
 ]
 ]
 },
@@ -78,7 +78,7 @@
 "segs": [
 [
 "sad",
-"Kimse yönetici olmak istemiyor mu?"
+"Kimse başkan olmak istemiyor mu gerçekten?"
 ]
 ]
 },
@@ -86,7 +86,7 @@
 "segs": [
 [
 "flustered",
-"Şey, ben bir şey…"
+"Ben... ne yapıyorum..."
 ]
 ]
 },
@@ -94,11 +94,11 @@
 "segs": [
 [
 "excited",
-"Bak, {name} konuşuyor!"
+"Bakın, {name} konuşuyor!"
 ],
 [
 "cheerful",
-"O olsun."
+"O yapsın o zaman."
 ]
 ]
 },
@@ -106,11 +106,11 @@
 "segs": [
 [
 "cheerful",
-"Kesinlikle."
+"Kesinlikle katılıyorum."
 ],
 [
 "excited",
-"Hayırlı olsun, yönetici!"
+"Tebrikler başkanım!"
 ]
 ]
 },
@@ -118,7 +118,7 @@
 "segs": [
 [
 "sad",
-"Ben sadece tuvaleti soracaktım."
+"Ben sadece tuvalet nerede diye soracaktım."
 ]
 ]
 }

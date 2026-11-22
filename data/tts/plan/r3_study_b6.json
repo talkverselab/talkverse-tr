@@ -10,7 +10,7 @@
 "segs": [
 [
 "worried",
-"Elindeki ne? Sınava on dakika var."
+"Elindeki o ne? Sınava on dakika kaldı."
 ]
 ]
 },
@@ -18,7 +18,7 @@
 "segs": [
 [
 "shy",
-"Hiç. Türkçe kelimeler. Bazen aklımdan çıkıyor."
+"Hiçbir şey. Türkçe kelimeler. Bazen unutuyorum."
 ]
 ]
 },
@@ -26,7 +26,7 @@
 "segs": [
 [
 "worried",
-"Eline mi yazdın? Kopya sanırlar, sil hemen."
+"Elime mi yazdın? Kopya sanırlar, hemen sil."
 ]
 ]
 },
@@ -34,7 +34,7 @@
 "segs": [
 [
 "amused",
-"Kopya değil ki. Sadece “Tekrar eder misiniz” yazıyor."
+"Kopya değil. Sadece «tekrar eder misiniz» yazıyor."
 ]
 ]
 },
@@ -42,7 +42,7 @@
 "segs": [
 [
 "stiff",
-"Sessiz olun. Çantalar öne, telefonlar kapalı. Başlıyoruz."
+"Sessiz olun. Çantalar öne, telefonlar kapansın. Başlıyoruz."
 ]
 ]
 },
@@ -58,7 +58,7 @@
 "segs": [
 [
 "stiff",
-"Elinizi gösterin. Bu ne? Kopya mı?"
+"Elini göster. Bu ne? Kopya mı?"
 ]
 ]
 },
@@ -66,7 +66,7 @@
 "segs": [
 [
 "flustered",
-"Hayır, bakın: “Tekrar eder misiniz, yavaş lütfen.”"
+"Değil, bakın: «tekrar eder misiniz, yavaş lütfen.»"
 ]
 ]
 },
@@ -74,7 +74,7 @@
 "segs": [
 [
 "shout",
-"Herkes ellerini açsın! Hemen! Bütün sınıf!"
+"Herkes elini açsın! Hemen! Tüm sınıf!"
 ]
 ]
 },
@@ -82,7 +82,7 @@
 "segs": [
 [
 "surprised",
-"Eyvah. Arkadakinin kolu dolu. Öndekinin ayakkabısında da formül var."
+"Eyvah. Arkadaşın kolu dolu. Önündekinin ayakkabısında formül var."
 ]
 ]
 },
@@ -90,7 +90,7 @@
 "segs": [
 [
 "shout",
-"Hocam, gelin! On kişide daha kopya var!"
+"Hocam, gelin! On kişi daha kopya çekmiş!"
 ]
 ]
 },
@@ -106,7 +106,7 @@
 "segs": [
 [
 "stiff",
-"Bu öğrenci. Elinde “Yavaş lütfen” yazıyor."
+"Bu öğrenci. Elinde «yavaş lütfen» yazıyor."
 ]
 ]
 },
@@ -114,7 +114,7 @@
 "segs": [
 [
 "stiff",
-"Sınav iptal. Yarın tekrar, eller yıkanmış gelsin."
+"Sınav iptal. Yarın tekrar, ellerinizi yıkayıp gelin."
 ]
 ]
 },
@@ -122,7 +122,7 @@
 "segs": [
 [
 "excited",
-"Zeynep, herkes bana bakıyor. Alkışlıyorlar!"
+"Zeynep, herkes bana bakıyor. Alkışla!"
 ]
 ]
 },
@@ -130,7 +130,7 @@
 "segs": [
 [
 "amused",
-"Kimse çalışmamıştı. Yarın da eline yaz, lütfen."
+"Kimse çalışmamıştı zaten. Yarın da eline yaz, lütfen."
 ]
 ]
 }
