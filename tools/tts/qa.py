@@ -3,6 +3,7 @@
   python qa.py <wav폴더> <편id>... [--jobs <moss_jobs.json>]   결과는 <wav폴더>/qa.json 에 쌓인다(조각 → sim·dur·tries·ok)
 소문자로 바꿔 글자·숫자만 남겨 견준다(띄어쓰기·문장부호 무시). 나쁨 = 비슷함 0.90 미만·앞뒤 낱말 누락 또는 길이가 글자 수에 견줘 지나치게 길거나 짧음.
 재생성본은 PC 의 out/tr/retake/<편>/<조각>.t<N>.wav — 받아 온 뒤 다시 돌리면 가장 잘 나온 판을 본 파일로 고른다. 세 번 해도 나쁘면 가장 나은 판을 쓰고 qa.json 에 ok=false 로 남긴다."""
+import hashlib
 import difflib, glob, json, os, re, shutil, subprocess, sys
 import mlx_whisper
 import ttslib as L
@@ -61,12 +62,16 @@ def main():
                         q['tries'] += 1
                         jobs.append({**L.job(ep, name, voice, emo, text, out=f"tr/retake/{k[:-4]}.t{q['tries']}.wav"), 'seed': 42 + 97 * q['tries']})
                     continue
-            if 'sim' not in q:
-                q['sim'], q['dur'] = score(f, text)
+            # 점수는 파일 내용·대사 기준으로 기억(같은 이름으로 다시 만든 조각에 옛 합격 점수가 남지 않게 — 한국어앱 c6433c4, 11-23)
+            h = hashlib.sha1(open(f, 'rb').read()).hexdigest()[:16]
+            if q.get('text') != text:
+                q.update(tries=0, text=text); q.pop('sim', None)
+            if 'sim' not in q or q.get('h') != h:
+                q['sim'], q['dur'] = score(f, text); q['h'] = h
             for c in sorted(glob.glob(f'{wav}/retake/{k[:-4]}.t*.wav')):          # 받아 온 재생성본 중 더 나은 것을 본 파일로
                 s, d = score(c, text)
                 if s > q['sim']:
-                    shutil.copy(c, f); q['sim'], q['dur'] = s, d
+                    shutil.copy(c, f); q['sim'], q['dur'] = s, d; q['h'] = hashlib.sha1(open(f, 'rb').read()).hexdigest()[:16]
                 os.remove(c)
             q['ok'] = q['sim'] >= PASS
             if not q['ok']:
