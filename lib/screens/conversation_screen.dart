@@ -50,7 +50,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
           : ListView(
               padding: const EdgeInsets.all(16),
               children: [
-                for (final level in EpisodeCatalog.levels) ...[
+                for (final level in EpisodeCatalog.levels.where((l) => catalog.forLevel(l).isNotEmpty)) ...[  // 빈 급은 숨김(심사 11-23)
                   Row(
                     children: [
                       TileBadge(text: level, size: 28),

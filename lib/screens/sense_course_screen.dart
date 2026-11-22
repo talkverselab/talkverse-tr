@@ -88,7 +88,7 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
     final next = all.indexWhere((e) => !isRef(e.$2) && !_done.contains(e.$2['id']));
     final real = all.where((e) => !isRef(e.$2)).toList();
     final children = <Widget>[
-      Text(tr('영상을 보고, 대화를 통째로 외워요. 규칙은 참고에만 있어요.'),
+      Text(tr(all.any((e) => ((e.$2['video'] as String?) ?? '').isNotEmpty) ? '영상을 보고, 대화를 통째로 외워요. 규칙은 참고에만 있어요.' : '대화를 통째로 외워요. 규칙은 참고에만 있어요.'),
           style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
       const SizedBox(height: 4),
       Text(trf('{0}/{1}회 마침', [real.where((e) => _done.contains(e.$2['id'])).length, real.length]),
@@ -328,8 +328,7 @@ class _Memorize extends StatelessWidget {
     const tlStyle = TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.45);
     const koStyle = TextStyle(fontSize: 14, color: AppColors.sumi, height: 1.45);
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-      LessonVideo(url: video),
-      const SizedBox(height: 12),
+      if (video.isNotEmpty) ...[LessonVideo(url: video), const SizedBox(height: 12)],  // 영상 없으면 칸을 숨김(심사 11-23)
       Container(
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(color: AppColors.washiDeep, borderRadius: BorderRadius.circular(10)),
