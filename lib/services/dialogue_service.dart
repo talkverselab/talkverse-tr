@@ -271,7 +271,7 @@ class DialogueService {
         final id = rel.split('/').last.replaceAll('.json', '');
         if (!release.contains(id)) continue;
         try {
-          final d = _fromEpisode(json.decode(await sync.load(rel)) as Map<String, dynamic>);
+          final d = fromEpisode(json.decode(await sync.load(rel)) as Map<String, dynamic>);
           if (d.turns.isNotEmpty) next[d.id] = d;
         } catch (_) {}
       }
@@ -289,7 +289,7 @@ class DialogueService {
   }
 
   /// R0~R4 편 파일 한 개(`{id, region, island, kind, title, emoji, scene, speakers, expressions, turns}`).
-  static Dialogue _fromEpisode(Map<String, dynamic> j) => Dialogue(
+  static Dialogue fromEpisode(Map<String, dynamic> j) => Dialogue(
         id: '${j['id']}',
         region: j['region'] as String? ?? 'R1',
         island: j['island'] as String? ?? 'life',
