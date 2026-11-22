@@ -182,7 +182,9 @@
 "dialogues/R3/work/r3_work_b5.json": "9dba43c28ade",
 "dialogues/R3/work/r3_work_b6.json": "3bdeb42e0be7",
 "dialogues/_release.json": "e906f8300add",
-"grammar/sense_course.json": "05877830f47c"
+"grammar/lesson1.json": "3f7f37e92d10",
+"grammar/sense_course.json": "05877830f47c",
+"grammar/steps.json": "dd3414feaedf"
 },
-"rev": 2
+"rev": 3
 }
