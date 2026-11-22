@@ -1,11 +1,10 @@
-import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 import '../core/theme.dart';
 import '../services/ko_reading.dart';
+import '../services/script_sync.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
 import 'grammar_test_screen.dart';
@@ -26,21 +25,37 @@ class GrammarLesson {
   int get exampleCount =>
       patterns.fold(0, (n, p) => n + ((p['examples'] as List?)?.length ?? 0));
 
-  static Future<List<GrammarLesson>> loadAll() async {
-    final out = <GrammarLesson>[];
-    for (var i = 1; i <= 20; i++) {
+  /// 스텝 — 목록(개수·순서·제목)은 `grammar/steps.json` 그대로, 내용은 스텝마다 `grammar/lessonN.json`.
+  /// 둘 다 서버 원고([ScriptSync])에 있으면 그것, 없으면 앱 안 것. 내용 파일이 없는 스텝은 숨긴다(「준비 중」 안 보임).
+  /// 그래서 문법 내용·스텝 구성은 앱을 다시 내지 않고 서버 원고만 올려 바꾼다(사용자 지시 2026-11-23).
+  static Future<List<GrammarLesson>> loadAll({bool refresh = true}) async {
+    final sync = ScriptSync.instance;
+    if (refresh) {
       try {
-        final raw = await rootBundle.loadString(assetPath('assets/data/grammar/lesson$i.json'));
-        final d = json.decode(raw) as Map<String, dynamic>;
+        await sync.refresh().timeout(const Duration(seconds: 5));
+      } catch (_) {}
+    }
+    var steps = <Map<String, dynamic>>[];
+    try {
+      final j = json.decode(await sync.load('grammar/steps.json')) as Map<String, dynamic>;
+      steps = [for (final e in (j['steps'] as List? ?? const [])) if (e is Map) Map<String, dynamic>.from(e)];
+    } catch (_) {}
+    final out = <GrammarLesson>[];
+    for (final st in steps) {
+      final i = (st['step'] as num?)?.toInt() ?? out.length + 1;
+      try {
+        final d = json.decode(await sync.load('${st['file'] ?? 'grammar/lesson$i.json'}')) as Map<String, dynamic>;
+        final patterns = [for (final p in (d['patterns'] as List? ?? const [])) Map<String, dynamic>.from(p as Map)];
+        if (patterns.isEmpty) continue; // 빈 스텝은 숨김
         out.add(GrammarLesson(
           (d['lesson'] as num?)?.toInt() ?? i,
-          d['title'] as String? ?? trf('문법 {0}', [i]),
+          (st['title'] as String?) ?? d['title'] as String? ?? trf('문법 {0}', [i]),
           d['subtitle'] as String? ?? '',
           [for (final s in (d['stages'] as List? ?? const [])) Map<String, dynamic>.from(s as Map)],
-          [for (final p in (d['patterns'] as List? ?? const [])) Map<String, dynamic>.from(p as Map)],
+          patterns,
         ));
       } catch (_) {
-        break;
+        continue; // 내용 파일이 아직 없는 스텝
       }
     }
     return out;

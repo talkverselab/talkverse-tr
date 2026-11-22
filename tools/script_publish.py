@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """원고를 서버에 올려 깔린 앱이 심사·새 빌드 없이 받게 한다(사용자 지시 2026-11-17). 규격 = docs/CONTENT_SYNC.md §6.
 
-대상: 회화 편 `assets/data/dialogues/R0~R4/**.json` + 보여 줄 편 목록 `dialogues/_release.json` + 언어감각 과정(있으면) `assets/data/grammar/sense_course.json`.
+대상: 회화 편 `assets/data/dialogues/R0~R4/**.json` + 보여 줄 편 목록 `dialogues/_release.json` + 문법(언어감각 과정 `grammar/sense_course.json`·스텝 목록 `grammar/steps.json`·스텝 내용 `grammar/lessonN.json`).
 앱 안 기준표 `assets/data/script_rev.json`(rev·파일별 sha1 앞 12자리)과 지금 파일을 견주어 바뀐 것만 올린다.
 
   python3 tools/script_publish.py             # 무엇이 바뀌었는지만 본다(아무것도 안 올림)
@@ -29,8 +29,10 @@ PREFIX = 'script/tr'
 
 def current():
     paths = sorted(glob.glob(str(DATA / 'dialogues/R[0-4]/*/*.json'))) + [str(DATA / 'dialogues/_release.json')]
-    if (DATA / 'grammar/sense_course.json').exists():
-        paths.append(str(DATA / 'grammar/sense_course.json'))
+    # 문법(언어감각 과정 + 스텝 목록 + 스텝 내용 lessonN) — 서버에서 고치면 앱을 다시 내지 않고 갱신(2026-11-23)
+    for g in ['grammar/sense_course.json', 'grammar/steps.json'] + sorted(str(Path(x).relative_to(DATA)) for x in glob.glob(str(DATA / 'grammar/lesson*.json'))):
+        if (DATA / g).exists():
+            paths.append(str(DATA / g))
     out = {}
     for p in paths:
         b = Path(p).read_bytes()

@@ -1,0 +1,65 @@
+{
+ "note": "문법 스텝 목록 — 이 목록 그대로 그린다(개수·순서·제목). 내용 파일이 없거나 빈 스텝은 숨김. 서버 원고에서 이 파일·lessonN.json 을 바꾸면 앱을 다시 내지 않고 스텝이 늘거나 줄어든다(2026-11-23, 지금 15칸).",
+ "steps": [
+  {
+   "step": 1,
+   "file": "grammar/lesson1.json"
+  },
+  {
+   "step": 2,
+   "file": "grammar/lesson2.json"
+  },
+  {
+   "step": 3,
+   "file": "grammar/lesson3.json"
+  },
+  {
+   "step": 4,
+   "file": "grammar/lesson4.json"
+  },
+  {
+   "step": 5,
+   "file": "grammar/lesson5.json"
+  },
+  {
+   "step": 6,
+   "file": "grammar/lesson6.json"
+  },
+  {
+   "step": 7,
+   "file": "grammar/lesson7.json"
+  },
+  {
+   "step": 8,
+   "file": "grammar/lesson8.json"
+  },
+  {
+   "step": 9,
+   "file": "grammar/lesson9.json"
+  },
+  {
+   "step": 10,
+   "file": "grammar/lesson10.json"
+  },
+  {
+   "step": 11,
+   "file": "grammar/lesson11.json"
+  },
+  {
+   "step": 12,
+   "file": "grammar/lesson12.json"
+  },
+  {
+   "step": 13,
+   "file": "grammar/lesson13.json"
+  },
+  {
+   "step": 14,
+   "file": "grammar/lesson14.json"
+  },
+  {
+   "step": 15,
+   "file": "grammar/lesson15.json"
+  }
+ ]
+}
