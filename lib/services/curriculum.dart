@@ -183,7 +183,7 @@ class Curriculum {
   /// 회화 레벨(R0~) — 이야기(L1)는 넣지 않는다.
   static List<String> levels(DialogueService svc) => svc.regions.where((r) => r.startsWith('R')).toList()..sort();
 
-  /// 열린 레벨: 가장 낮은 레벨 + 앞 레벨 편을 모두 통과한 레벨.
+  /// (참고용) 앞 레벨 편을 모두 통과했는지 — 레벨 잠금은 없다(일본어 기준 ceb91c3).
   static bool unlocked(DialogueService svc, CurriculumState s, String level) {
     final ls = levels(svc);
     final i = ls.indexOf(level);
@@ -233,9 +233,11 @@ List<CQuestion> makeQuestions(Dialogue d, List<Dialogue> pool, {int max = 10, Ra
   final r = rnd ?? Random();
   final turns = d.turns.where((t) => t.tl.trim().isNotEmpty && t.ko.trim().isNotEmpty && (onlyTurns == null || onlyTurns.contains(t.num))).toList()
     ..shuffle(r);
-  final otherKo = <String>{for (final x in [d, ...pool]) for (final t in x.turns) LearnerPrefs.fill(t.ko, 'ko')};
+  final others = [for (final x in pool) if (x.id != d.id) x];
+  final src = others.isEmpty ? [d] : others; // 오답 보기 = 같은 레벨 다른 편(일본어 기준)
+  final otherKo = <String>{for (final x in src) for (final t in x.turns) LearnerPrefs.fill(t.ko, 'ko')};
   final otherWords = <String>{
-    for (final x in [d, ...pool]) for (final t in x.turns) for (final m in _word.allMatches(LearnerPrefs.fill(t.tl))) if (m.group(0)!.length >= 3) m.group(0)!
+    for (final x in src) for (final t in x.turns) for (final m in _word.allMatches(LearnerPrefs.fill(t.tl))) if (m.group(0)!.length >= 3) m.group(0)!
   };
   final out = <CQuestion>[];
   for (final t in turns.take(max)) {
@@ -265,7 +267,7 @@ List<CQuestion> makeQuestions(Dialogue d, List<Dialogue> pool, {int max = 10, Ra
 List<CQuestion> makeExam(List<Dialogue> ds, List<Dialogue> pool, {Random? rnd}) {
   final r = rnd ?? Random();
   if (ds.isEmpty) return [];
-  final per = max(3, (30 / ds.length).floor());
+  final per = max(3, min(10, 30 ~/ ds.length)); // 편당 max(3, min(10, 30÷편수))
   final out = <CQuestion>[for (final d in ds) ...makeQuestions(d, pool, max: per, rnd: r)];
   out.shuffle(r);
   return out.take(30).toList();

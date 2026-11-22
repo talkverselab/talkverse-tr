@@ -72,30 +72,26 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
     return ListView(
       padding: EdgeInsets.fromLTRB(16, 16, 16, 24 + bottomInset(context)),
       children: [
-        Text(tr('레벨을 고르세요'), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+        Text(tr('회화 레벨을 골라요'), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi)),
         const SizedBox(height: 4),
-        Text(tr('처음이면 가장 낮은 레벨부터 권해요.'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
+        Text(tr('처음이면 가장 낮은 레벨부터 권해요. 문법 레벨과는 따로예요.'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
         const SizedBox(height: 12),
         for (final (i, l) in ls.indexed)
           Builder(builder: (_) {
-            final open = Curriculum.unlocked(svc, st, l);
             final n = svc.count(l);
             final done = svc.list(region: l).where((d) => st.passedDialogues.contains(d.id)).length;
             return Card(
               key: ValueKey('cur-level-$l'),
               child: ListTile(
-                enabled: open,
-                leading: CircleAvatar(backgroundColor: open ? AppColors.ai : AppColors.line, child: Text(l, style: const TextStyle(color: Colors.white, fontSize: 13))),
+                leading: CircleAvatar(backgroundColor: AppColors.ai, child: Text(l, style: const TextStyle(color: Colors.white, fontSize: 13))),
                 title: Text('${tr(DialogueService.levelKo[l] ?? l)}${i == 0 && st.level == null ? ' · ${tr('추천')}' : ''}'),
-                subtitle: Text(open ? trf('회화 {0}편 · 통과 {1}', [n, done]) : tr('앞 레벨을 모두 통과하면 열려요')),
-                trailing: open ? const Icon(Icons.chevron_right) : const Icon(Icons.lock_outline, size: 18),
-                onTap: open
-                    ? () async {
-                        st.level = l;
-                        await _save();
-                        setState(() => pickingLevel = false);
-                      }
-                    : null,
+                subtitle: Text(trf('{0}편 · 통과 {1}', [n, done])),
+                trailing: const Icon(Icons.chevron_right), // 레벨 잠금 없음(일본어 기준 ceb91c3)
+                onTap: () async {
+                  st.level = l;
+                  await _save();
+                  setState(() => pickingLevel = false);
+                },
               ),
             );
           }),
@@ -128,7 +124,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
                 Text(dailyDone ? tr('오늘 분량 끝') : trf('오늘: 복습 {0} · 새 편 {1}', [due.length, newLeft]),
                     style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi)),
                 const Spacer(),
-                if (st.streakCount > 0) Text(trf('연속 {0}일', [st.streakCount]), style: const TextStyle(color: AppColors.ai, fontWeight: FontWeight.w700)),
+                if (st.streakCount > 0) Text(trf('🔥 {0}일 연속', [st.streakCount]), style: const TextStyle(color: AppColors.ai, fontWeight: FontWeight.w700)),
               ]),
               const SizedBox(height: 8),
               LinearProgressIndicator(value: total == 0 ? 1 : (doneN / total).clamp(0.0, 1.0), minHeight: 6, color: AppColors.ai, backgroundColor: AppColors.line),
@@ -151,13 +147,27 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
                   key: const ValueKey('cur-review'),
                   onPressed: () => _review(st),
                   icon: const Icon(Icons.replay),
-                  label: Text(trf('복습하기 ({0})', [due.length])),
+                  label: Text(trf('복습 {0}줄 시작', [due.length])),
                 ),
               ],
             ]),
           ),
         ),
         const SizedBox(height: 8),
+        if (_nextLevel(st) case final nx?)
+          Card(
+            key: const ValueKey('cur-next-level'),
+            color: AppColors.kinBright,
+            child: ListTile(
+              title: Text(trf('{0} 편을 모두 통과했어요 → {1} 로', [st.level, nx])),
+              trailing: const Icon(Icons.arrow_forward),
+              onTap: () async {
+                st.level = nx;
+                st.course = null;
+                await _save();
+              },
+            ),
+          ),
         if (c == null)
           _noCourse(st)
         else
@@ -166,19 +176,26 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
     );
   }
 
-  Widget _noCourse(CurriculumState st) {
+  /// 지금 레벨 편을 모두 통과했으면 다음 레벨(있을 때).
+  String? _nextLevel(CurriculumState st) {
     final pool = levelPool;
-    final left = pool.where((d) => !st.passedDialogues.contains(d.id)).length;
+    if (pool.isEmpty || !pool.every((d) => st.passedDialogues.contains(d.id))) return null;
+    final ls = Curriculum.levels(svc);
+    final i = ls.indexOf(st.level ?? '');
+    return i >= 0 && i + 1 < ls.length ? ls[i + 1] : null;
+  }
+
+  Widget _noCourse(CurriculumState st) {
     return Card(
       child: Padding(
         padding: const EdgeInsets.all(14),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Text(left == 0 && pool.isNotEmpty ? tr('이 레벨의 회화를 모두 통과했어요') : tr('코스를 만들어 시작하세요'),
+          Text(tr('다이얼로그 고르기'),
               style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi)),
           const SizedBox(height: 4),
-          Text(tr('회화를 3·5·10편 골라 연습하고, 코스 시험 80% 이상이면 다음 코스로 넘어가요.'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
+          Text(tr('이 편들로 연습하고, 코스 시험에서 80% 이상이면 다음 코스로 넘어가요.'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
           const SizedBox(height: 10),
-          FilledButton(key: const ValueKey('cur-new-course'), onPressed: () => _pickCourse(st), child: Text(tr('코스 만들기'))),
+          FilledButton(key: const ValueKey('cur-new-course'), onPressed: () => _pickCourse(st), child: Text(tr('다이얼로그 고르기'))),
         ]),
       ),
     );
@@ -194,7 +211,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
           Row(children: [
             Text(trf('지금 코스 · {0}편', [ds.length]), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi)),
             const Spacer(),
-            TextButton(onPressed: () => _pickCourse(st), child: Text(tr('새 코스'))),
+            TextButton(key: const ValueKey('cur-new-course2'), onPressed: () => _pickCourse(st), child: Text(tr('새 코스'))),
           ]),
           if (c.examScores.isNotEmpty)
             Text(trf('시험 기록: {0}', [c.examScores.map((e) => '$e%').join(' · ')]), style: const TextStyle(fontSize: 12, color: AppColors.sumiLight)),
@@ -215,7 +232,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
             FilledButton(key: const ValueKey('cur-next'), onPressed: () => _practice(st, next), child: Text(trf('다음 연습: {0}', [next.title])))
           else
             FilledButton.icon(
-                key: const ValueKey('cur-exam'), onPressed: () => _exam(st, ds), icon: const Icon(Icons.flag), label: Text(tr('코스 시험 보기'))),
+                key: const ValueKey('cur-exam'), onPressed: () => _exam(st, ds), icon: const Icon(Icons.flag), label: Text(tr('코스 시험 보기 (80% 이상 통과)'))),
         ]),
       ),
     );
@@ -223,7 +240,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
 
   Future<void> _pickCourse(CurriculumState st) async {
     final ids = await Navigator.push<List<String>>(
-        context, MaterialPageRoute(builder: (_) => _CoursePicker(pool: levelPool, passed: st.passedDialogues.toSet(), hasCourse: st.course != null)));
+        context, MaterialPageRoute(builder: (_) => CoursePickerScreen(pool: levelPool, passed: st.passedDialogues.toSet(), hasCourse: st.course != null)));
     if (ids == null || ids.isEmpty) return;
     st.course = CourseState(id: '${st.level}-${DateTime.now().millisecondsSinceEpoch}', dialogueIds: ids);
     await _save();
@@ -258,7 +275,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
       await _save();
       return;
     }
-    final res = await Navigator.push<List<(CQuestion, bool)>>(context, MaterialPageRoute(builder: (_) => _QuizScreen(title: tr('복습'), qs: qs)));
+    final res = await Navigator.push<List<(CQuestion, bool)>>(context, MaterialPageRoute(builder: (_) => _QuizScreen(title: tr('오늘 복습'), qs: qs)));
     if (res == null) return;
     for (final (q, ok) in res) {
       st.answerReview(q.lineId, ok, today);
@@ -296,16 +313,16 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
 }
 
 /// 코스 고르기 — 3·5·10편, 추천으로 채우기, 지금 코스가 있으면 화면 안에서 버릴지 묻기.
-class _CoursePicker extends StatefulWidget {
+class CoursePickerScreen extends StatefulWidget {
   final List<Dialogue> pool;
   final Set<String> passed;
   final bool hasCourse;
-  const _CoursePicker({required this.pool, required this.passed, required this.hasCourse});
+  const CoursePickerScreen({super.key, required this.pool, required this.passed, required this.hasCourse});
   @override
-  State<_CoursePicker> createState() => _CoursePickerState();
+  State<CoursePickerScreen> createState() => _CoursePickerScreenState();
 }
 
-class _CoursePickerState extends State<_CoursePicker> {
+class _CoursePickerScreenState extends State<CoursePickerScreen> {
   int size = 5;
   final picked = <String>[];
   bool confirming = false;
@@ -315,14 +332,14 @@ class _CoursePickerState extends State<_CoursePicker> {
     final full = picked.length == size;
     return Scaffold(
       backgroundColor: AppColors.washi,
-      appBar: AppBar(title: Text(tr('코스 만들기'))),
+      appBar: AppBar(title: Text(tr('다이얼로그 고르기'))),
       body: Column(children: [
         Padding(
           padding: const EdgeInsets.fromLTRB(16, 10, 16, 0),
-          child: Row(children: [
+          child: Wrap(spacing: 6, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
             for (final n in kCourseSizes)
               Padding(
-                padding: const EdgeInsets.only(right: 6),
+                padding: EdgeInsets.zero,
                 child: ChoiceChip(
                   key: ValueKey('cur-size-$n'),
                   label: Text(trf('{0}편', [n])),
@@ -333,7 +350,6 @@ class _CoursePickerState extends State<_CoursePicker> {
                   }),
                 ),
               ),
-            const Spacer(),
             TextButton(
               key: const ValueKey('cur-recommend'),
               onPressed: () => setState(() {
@@ -367,14 +383,15 @@ class _CoursePickerState extends State<_CoursePicker> {
           color: AppColors.washiDeep,
           child: confirming
               ? Column(mainAxisSize: MainAxisSize.min, children: [
-                  Text(tr('지금 코스를 버리고 새로 시작할까요? 연습 기록과 복습은 남아요.'), textAlign: TextAlign.center),
+                  Text(tr('지금 코스를 그만두고 새로 고를까요?'), textAlign: TextAlign.center, style: const TextStyle(fontWeight: FontWeight.w700)),
+                  Text(tr('연습한 표시와 시험 점수는 사라져요. 통과한 편과 복습 줄은 남아요.'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 12)),
                   const SizedBox(height: 8),
                   Row(children: [
                     Expanded(child: OutlinedButton(onPressed: () => setState(() => confirming = false), child: Text(tr('취소')))),
                     const SizedBox(width: 8),
                     Expanded(
                         child: FilledButton(
-                            key: const ValueKey('cur-confirm-new'), onPressed: () => Navigator.pop(context, picked), child: Text(tr('새로 시작')))),
+                            key: const ValueKey('cur-confirm-new'), onPressed: () => Navigator.pop(context, picked), child: Text(tr('새로 고르기')))),
                   ]),
                 ])
               : SizedBox(
@@ -382,7 +399,7 @@ class _CoursePickerState extends State<_CoursePicker> {
                   child: FilledButton(
                     key: const ValueKey('cur-start'),
                     onPressed: full ? () => widget.hasCourse ? setState(() => confirming = true) : Navigator.pop(context, picked) : null,
-                    child: Text(trf('{0}/{1}편 · 시작', [picked.length, size])),
+                    child: Text(trf('{0}/{1}편으로 코스 시작', [picked.length, size])),
                   ),
                 ),
         ),
@@ -447,7 +464,7 @@ class _PracticeScreenState extends State<_PracticeScreen> {
         children: [
           Text(d.scene, style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
           const SizedBox(height: 8),
-          Text(tr('1. 듣고 읽기 — 줄을 누르면 뜻이 보여요. 스피커는 그 줄 다시 듣기(따라 말해 보세요).'),
+          Text(tr('① 전체 듣기 ② 줄을 눌러 따라 말하기 ③ 확인 문제'),
               style: const TextStyle(fontSize: 12, color: AppColors.sumiLight)),
           const SizedBox(height: 8),
           for (final t in d.turns)
@@ -470,7 +487,7 @@ class _PracticeScreenState extends State<_PracticeScreen> {
               child: OutlinedButton.icon(
                   key: const ValueKey('cur-play-all'), onPressed: _playAll, icon: const Icon(Icons.play_arrow), label: Text(tr('전체 듣기')))),
           const SizedBox(width: 8),
-          Expanded(child: FilledButton(key: const ValueKey('cur-quiz'), onPressed: _quiz, child: Text(tr('2. 확인 문제')))),
+          Expanded(child: FilledButton(key: const ValueKey('cur-quiz'), onPressed: _quiz, child: Text(tr('확인 문제')))),
         ]),
       ),
     );
@@ -496,7 +513,7 @@ class _QuizScreenState extends State<_QuizScreen> {
     if (widget.qs.isEmpty) {
       return Scaffold(
           appBar: AppBar(title: Text(widget.title)),
-          body: Center(child: FilledButton(onPressed: () => Navigator.pop(context, res), child: Text(tr('끝')))));
+          body: Center(child: FilledButton(onPressed: () => Navigator.pop(context, res), child: Text(tr('마침')))));
     }
     final q = widget.qs[i];
     final last = i == widget.qs.length - 1;
@@ -504,7 +521,7 @@ class _QuizScreenState extends State<_QuizScreen> {
       backgroundColor: AppColors.washi,
       appBar: AppBar(title: Text('${widget.title} · ${i + 1}/${widget.qs.length}')),
       body: ListView(padding: EdgeInsets.fromLTRB(16, 16, 16, 24 + bottomInset(context)), children: [
-        Text(q.kind == 'blank' ? tr('빈칸에 들어갈 낱말은?') : tr('이 문장의 뜻은?'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
+        Text(q.kind == 'blank' ? tr('빈칸에 들어갈 말은?') : tr('뜻으로 맞는 것을 고르세요.'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
         const SizedBox(height: 8),
         Text(q.prompt, key: const ValueKey('cur-q-prompt'), style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800, color: AppColors.sumi)),
         if (q.hint.isNotEmpty) Padding(padding: const EdgeInsets.only(top: 6), child: Text(q.hint, style: const TextStyle(color: AppColors.sumiLight))),
@@ -543,7 +560,7 @@ class _QuizScreenState extends State<_QuizScreen> {
                     i++;
                     chosen = null;
                   }),
-            child: Text(last ? tr('끝') : tr('다음')),
+            child: Text(last ? tr('결과 보기') : tr('다음')),
           ),
       ]),
     );
@@ -566,7 +583,9 @@ class _ResultScreen extends StatelessWidget {
             Text('$pct%', key: const ValueKey('cur-score'), textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 48, fontWeight: FontWeight.w900, color: pass ? AppColors.matcha : AppColors.sakuraDeep)),
             const SizedBox(height: 8),
-            Text(pass ? (levelDone ? tr('통과! 이 레벨을 모두 마쳐 다음 레벨이 열렸어요.') : tr('통과! 다음 코스를 만들어 이어 가세요.')) : tr('80% 에 못 미쳤어요. 틀린 편을 다시 연습하고 다시 시험 봐요.'),
+            Text(pass ? tr('코스 통과!') : tr('조금만 더'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+            const SizedBox(height: 6),
+            Text(pass ? trf('{0}점 — 80점을 넘었어요. 다음 코스를 골라요.', [pct]) : trf('{0}점 — 80점이 넘어야 통과예요. 틀린 편만 다시 연습하고 시험을 봐요.', [pct]),
                 textAlign: TextAlign.center, style: const TextStyle(fontSize: 15, color: AppColors.sumi)),
             if (!pass && wrongTitles.isNotEmpty) ...[
               const SizedBox(height: 12),

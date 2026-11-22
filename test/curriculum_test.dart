@@ -118,4 +118,22 @@ void main() {
     // 통합 앱에서 언어끼리 덮어쓰지 않게 언어 접두가 붙은 키
     expect((await SharedPreferences.getInstance()).getString('tr_curriculum_v1'), contains('"level":"R0"'));
   });
+
+  for (final w in [390.0, 300.0]) {
+    testWidgets('코스 고르기 — ${w.toInt()}px 폭에서 넘침 없음(칩 줄 Wrap)', (t) async {
+      t.view.physicalSize = Size(w * 3, 2400);
+      t.view.devicePixelRatio = 3;
+      addTearDown(t.view.reset);
+      final pool = [_d('a1', 'love', 1), _d('b1', 'travel', 2), _d('c1', 'life', 3), _d('d1', 'work', 4), _d('e1', 'study', 5)];
+      await t.pumpWidget(MaterialApp(home: CoursePickerScreen(pool: pool, passed: const {}, hasCourse: true)));
+      await t.pump();
+      expect(t.takeException(), isNull);
+      await t.tap(find.byKey(const ValueKey('cur-recommend')));
+      await t.pump();
+      await t.tap(find.byKey(const ValueKey('cur-start')));
+      await t.pump();
+      expect(find.byKey(const ValueKey('cur-confirm-new')), findsOneWidget); // 지금 코스가 있으면 화면 안에서 묻기
+      expect(t.takeException(), isNull);
+    });
+  }
 }

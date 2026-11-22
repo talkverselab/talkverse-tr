@@ -373,7 +373,7 @@ class _MenuGrid extends StatelessWidget {
   Widget build(BuildContext context) {
     final sections = <(String, List<_MenuItem>)>[
       (tr('토크버스 커리큘럼'), [
-        _MenuItem(label: tr('토크버스 커리큘럼'), sub: tr('코스 · 오늘 분량 · 복습'), badge: 'TV', color: AppColors.rojoDeep, // 전 언어 공통(CURRICULUM_SPEC 2026-11-22)
+        _MenuItem(label: tr('토크버스 커리큘럼'), sub: tr('레벨에서 다이얼로그를 골라 연습 · 80% 넘으면 다음 코스'), badge: 'TV', color: AppColors.rojoDeep, // 전 언어 공통(CURRICULUM_SPEC 2026-11-22)
           builder: (_) => const CurriculumScreen()),
       ]),
       (tr('정규과정'), [
