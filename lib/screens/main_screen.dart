@@ -10,6 +10,7 @@ import 'alphabet_screen.dart';
 import 'sense_course_screen.dart';
 import 'about_screen.dart';
 import 'conversation_screen.dart';
+import 'curriculum_screen.dart';
 import 'dialogue_screen.dart';
 import 'episode_screen.dart';
 import 'grammar_lesson_screen.dart';
@@ -371,6 +372,10 @@ class _MenuGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final sections = <(String, List<_MenuItem>)>[
+      (tr('토크버스 커리큘럼'), [
+        _MenuItem(label: tr('토크버스 커리큘럼'), sub: tr('코스 · 오늘 분량 · 복습'), badge: 'TV', color: AppColors.rojoDeep, // 전 언어 공통(CURRICULUM_SPEC 2026-11-22)
+          builder: (_) => const CurriculumScreen()),
+      ]),
       (tr('정규과정'), [
         _MenuItem(label: tr('언어감각 익히기'), sub: 'Dil duygusu', badge: 'L', color: AppColors.ai, // 일본어앱 정규과정(빌드 96~112, 2026-11-18 전달)
           builder: (_) => const SenseCourseScreen()),
