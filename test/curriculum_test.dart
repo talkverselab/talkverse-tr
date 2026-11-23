@@ -100,15 +100,17 @@ void main() {
     expect(makeExam(pool, pool, rnd: Random(2)).length, lessThanOrEqualTo(30));
   });
 
-  testWidgets('커리큘럼 화면 — 처음 열면 레벨 고르기', (t) async {
+  testWidgets('커리큘럼 화면 — 처음 열면 단계 고르기', (t) async {
     SharedPreferences.setMockInitialValues({});
+    CurriculumContent.fetchForTest = (_) async => null; // 시험에선 서버에 안 감(묶음 기본값)
+    addTearDown(() => CurriculumContent.fetchForTest = null);
     await t.pumpWidget(const MaterialApp(home: CurriculumScreen()));
     for (var i = 0; i < 20; i++) {
       await t.runAsync(() => Future.delayed(const Duration(milliseconds: 50)));
       await t.pump();
     }
-    expect(find.byKey(const ValueKey('cur-level-R0')), findsOneWidget);
-    await t.tap(find.byKey(const ValueKey('cur-level-R0')));
+    expect(find.byKey(const ValueKey('cur-level-1')), findsOneWidget);
+    await t.tap(find.byKey(const ValueKey('cur-level-1')));
     for (var i = 0; i < 10; i++) {
       await t.runAsync(() => Future.delayed(const Duration(milliseconds: 30)));
       await t.pump();
@@ -116,7 +118,7 @@ void main() {
     expect(find.byKey(const ValueKey('cur-today')), findsOneWidget);
     expect(find.byKey(const ValueKey('cur-new-course')), findsOneWidget);
     // 통합 앱에서 언어끼리 덮어쓰지 않게 언어 접두가 붙은 키
-    expect((await SharedPreferences.getInstance()).getString('tr_curriculum_v1'), contains('"level":"R0"'));
+    expect((await SharedPreferences.getInstance()).getString('tr_curriculum_v1'), contains('"level":"1"'));
   });
 
   for (final w in [390.0, 300.0]) {
@@ -136,4 +138,12 @@ void main() {
       expect(t.takeException(), isNull);
     });
   }
+
+  test('단계 — 옛 R 값은 R0·R1→1, R2→2', () {
+    expect(stageOfLevel('R0'), '1');
+    expect(stageOfLevel('R1'), '1');
+    expect(stageOfLevel('R3'), '3');
+    expect(stageOfLevel('2'), '2');
+  });
+
 }

@@ -25,6 +25,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
   final svc = DialogueService.instance;
   CurriculumState? s;
   bool pickingLevel = false;
+  List<CStage> stages = const []; // 1~5단계 — 서버 DB(묶음 기본값), §12
 
   String get today => dayKey((widget.clock ?? DateTime.now)());
 
@@ -37,10 +38,15 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
   Future<void> _load() async {
     await svc.ensureLoaded();
     final st = await Curriculum.load();
+    final ss = await CurriculumContent.load(svc);
     st.rollDay(today);
+    if (st.level != null) st.level = stageOfLevel(st.level); // 옛 R 값 → 단계
     if (!mounted) return;
     setState(() {
       s = st;
+      stages = [for (final x in ss) if (_pool(x).isNotEmpty) x]; // 편이 0개인 단계는 숨김
+      if (st.level != null && _stage(st.level) == null) st.level = null;
+      st.goals = curStage?.daily ?? kDailyGoals;
       pickingLevel = st.level == null;
     });
   }
@@ -51,7 +57,11 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
     if (mounted) setState(() {});
   }
 
-  List<Dialogue> get levelPool => s?.level == null ? const [] : svc.list(region: s!.level);
+  /// 단계의 편 — 서버 목록 순서, 앱에 없는(미공개) 편 id 는 건너뜀.
+  List<Dialogue> _pool(CStage x) => [for (final id in x.dialogueIds) ?svc.byId(id)];
+  CStage? _stage(String? key) => stages.where((x) => x.key == key).firstOrNull;
+  CStage? get curStage => _stage(s?.level);
+  List<Dialogue> get levelPool => curStage == null ? const [] : _pool(curStage!);
 
   @override
   Widget build(BuildContext context) {
@@ -68,27 +78,27 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
   }
 
   Widget _levelPicker(CurriculumState st) {
-    final ls = Curriculum.levels(svc);
     return ListView(
       padding: EdgeInsets.fromLTRB(16, 16, 16, 24 + bottomInset(context)),
       children: [
-        Text(tr('회화 레벨을 골라요'), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+        Text(tr('단계를 골라요'), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi)),
         const SizedBox(height: 4),
-        Text(tr('처음이면 가장 낮은 레벨부터 권해요. 문법 레벨과는 따로예요.'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
+        Text(tr('처음이면 1단계부터 권해요. 문법 레벨과는 따로예요.'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
         const SizedBox(height: 12),
-        for (final (i, l) in ls.indexed)
+        for (final (i, x) in stages.indexed)
           Builder(builder: (_) {
-            final n = svc.count(l);
-            final done = svc.list(region: l).where((d) => st.passedDialogues.contains(d.id)).length;
+            final pool = _pool(x);
+            final done = pool.where((d) => st.passedDialogues.contains(d.id)).length;
             return Card(
-              key: ValueKey('cur-level-$l'),
+              key: ValueKey('cur-level-${x.key}'),
               child: ListTile(
-                leading: CircleAvatar(backgroundColor: AppColors.ai, child: Text(l, style: const TextStyle(color: Colors.white, fontSize: 13))),
-                title: Text('${tr(DialogueService.levelKo[l] ?? l)}${i == 0 && st.level == null ? ' · ${tr('추천')}' : ''}'),
-                subtitle: Text(trf('{0}편 · 통과 {1}', [n, done])),
+                leading: CircleAvatar(backgroundColor: AppColors.ai, child: Text(x.key, style: const TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w800))),
+                title: Text('${x.title}${i == 0 && st.level == null ? ' · ${tr('추천')}' : ''}'),
+                subtitle: Text([if (x.desc.isNotEmpty) x.desc, trf('{0}편 · 통과 {1}', [pool.length, done])].join('\n')),
                 trailing: const Icon(Icons.chevron_right), // 레벨 잠금 없음(일본어 기준 ceb91c3)
                 onTap: () async {
-                  st.level = l;
+                  st.level = x.key;
+                  st.goals = x.daily;
                   await _save();
                   setState(() => pickingLevel = false);
                 },
@@ -110,9 +120,9 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
       padding: EdgeInsets.fromLTRB(16, 12, 16, 24 + bottomInset(context)),
       children: [
         Row(children: [
-          Text('${st.level} · ${tr(DialogueService.levelKo[st.level] ?? '')}', style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+          Text(curStage?.title ?? trf('{0}단계', [st.level ?? '']), style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800, color: AppColors.sumi)),
           const Spacer(),
-          TextButton(key: const ValueKey('cur-change-level'), onPressed: () => setState(() => pickingLevel = true), child: Text(tr('레벨 바꾸기'))),
+          TextButton(key: const ValueKey('cur-change-level'), onPressed: () => setState(() => pickingLevel = true), child: Text(tr('단계 바꾸기'))),
         ]),
         // 오늘 분량
         Card(
@@ -159,10 +169,11 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
             key: const ValueKey('cur-next-level'),
             color: AppColors.kinBright,
             child: ListTile(
-              title: Text(trf('{0} 편을 모두 통과했어요 → {1} 로', [st.level, nx])),
+              title: Text(trf('{0} 편을 모두 통과했어요 → {1} 로', [trf('{0}단계', [st.level ?? '']), trf('{0}단계', [nx])])),
               trailing: const Icon(Icons.arrow_forward),
               onTap: () async {
                 st.level = nx;
+                st.goals = _stage(nx)?.daily ?? kDailyGoals;
                 st.course = null;
                 await _save();
               },
@@ -180,9 +191,8 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
   String? _nextLevel(CurriculumState st) {
     final pool = levelPool;
     if (pool.isEmpty || !pool.every((d) => st.passedDialogues.contains(d.id))) return null;
-    final ls = Curriculum.levels(svc);
-    final i = ls.indexOf(st.level ?? '');
-    return i >= 0 && i + 1 < ls.length ? ls[i + 1] : null;
+    final i = stages.indexWhere((x) => x.key == st.level);
+    return i >= 0 && i + 1 < stages.length ? stages[i + 1].key : null;
   }
 
   Widget _noCourse(CurriculumState st) {
@@ -193,7 +203,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
           Text(tr('다이얼로그 고르기'),
               style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi)),
           const SizedBox(height: 4),
-          Text(tr('이 편들로 연습하고, 코스 시험에서 80% 이상이면 다음 코스로 넘어가요.'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
+          Text(trf('이 편들로 연습하고, 코스 시험에서 {0}% 이상이면 다음 코스로 넘어가요.', [curStage?.pass ?? kPassPercent]), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
           const SizedBox(height: 10),
           FilledButton(key: const ValueKey('cur-new-course'), onPressed: () => _pickCourse(st), child: Text(tr('다이얼로그 고르기'))),
         ]),
@@ -232,7 +242,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
             FilledButton(key: const ValueKey('cur-next'), onPressed: () => _practice(st, next), child: Text(trf('다음 연습: {0}', [next.title])))
           else
             FilledButton.icon(
-                key: const ValueKey('cur-exam'), onPressed: () => _exam(st, ds), icon: const Icon(Icons.flag), label: Text(tr('코스 시험 보기 (80% 이상 통과)'))),
+                key: const ValueKey('cur-exam'), onPressed: () => _exam(st, ds), icon: const Icon(Icons.flag), label: Text(trf('코스 시험 보기 ({0}% 이상 통과)', [curStage?.pass ?? kPassPercent]))),
         ]),
       ),
     );
@@ -240,7 +250,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
 
   Future<void> _pickCourse(CurriculumState st) async {
     final ids = await Navigator.push<List<String>>(
-        context, MaterialPageRoute(builder: (_) => CoursePickerScreen(pool: levelPool, passed: st.passedDialogues.toSet(), hasCourse: st.course != null)));
+        context, MaterialPageRoute(builder: (_) => CoursePickerScreen(pool: levelPool, passed: st.passedDialogues.toSet(), hasCourse: st.course != null, sizes: curStage?.pick ?? kCourseSizes)));
     if (ids == null || ids.isEmpty) return;
     st.course = CourseState(id: '${st.level}-${DateTime.now().millisecondsSinceEpoch}', dialogueIds: ids);
     await _save();
@@ -293,7 +303,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
     final pct = scorePercent(ok, res.length);
     final c = st.course!;
     final wrongEps = {for (final (q, good) in res) if (!good) q.lineId.split('#').first};
-    final pass = isPass(ok, res.length);
+    final pass = isPass(ok, res.length, curStage?.pass ?? kPassPercent);
     if (pass) {
       st.passedDialogues = {...st.passedDialogues, ...c.dialogueIds}.toList();
       st.course = null;
@@ -308,7 +318,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
         context,
         MaterialPageRoute(
             builder: (_) => _ResultScreen(
-                pct: pct, pass: pass, levelDone: levelDone, wrongTitles: [for (final id in wrongEps) svc.byId(id)?.title ?? id])));
+                pct: pct, passMark: curStage?.pass ?? kPassPercent, pass: pass, levelDone: levelDone, wrongTitles: [for (final id in wrongEps) svc.byId(id)?.title ?? id])));
   }
 }
 
@@ -317,13 +327,14 @@ class CoursePickerScreen extends StatefulWidget {
   final List<Dialogue> pool;
   final Set<String> passed;
   final bool hasCourse;
-  const CoursePickerScreen({super.key, required this.pool, required this.passed, required this.hasCourse});
+  final List<int> sizes;
+  const CoursePickerScreen({super.key, required this.pool, required this.passed, required this.hasCourse, this.sizes = kCourseSizes});
   @override
   State<CoursePickerScreen> createState() => _CoursePickerScreenState();
 }
 
 class _CoursePickerScreenState extends State<CoursePickerScreen> {
-  int size = 5;
+  late int size = widget.sizes.contains(5) ? 5 : widget.sizes.first;
   final picked = <String>[];
   bool confirming = false;
 
@@ -337,7 +348,7 @@ class _CoursePickerScreenState extends State<CoursePickerScreen> {
         Padding(
           padding: const EdgeInsets.fromLTRB(16, 10, 16, 0),
           child: Wrap(spacing: 6, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
-            for (final n in kCourseSizes)
+            for (final n in widget.sizes)
               Padding(
                 padding: EdgeInsets.zero,
                 child: ChoiceChip(
@@ -568,10 +579,10 @@ class _QuizScreenState extends State<_QuizScreen> {
 }
 
 class _ResultScreen extends StatelessWidget {
-  final int pct;
+  final int pct, passMark;
   final bool pass, levelDone;
   final List<String> wrongTitles;
-  const _ResultScreen({required this.pct, required this.pass, required this.levelDone, required this.wrongTitles});
+  const _ResultScreen({required this.pct, this.passMark = kPassPercent, required this.pass, required this.levelDone, required this.wrongTitles});
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -585,7 +596,7 @@ class _ResultScreen extends StatelessWidget {
             const SizedBox(height: 8),
             Text(pass ? tr('코스 통과!') : tr('조금만 더'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi)),
             const SizedBox(height: 6),
-            Text(pass ? trf('{0}점 — 80점을 넘었어요. 다음 코스를 골라요.', [pct]) : trf('{0}점 — 80점이 넘어야 통과예요. 틀린 편만 다시 연습하고 시험을 봐요.', [pct]),
+            Text(pass ? trf('{0}점 — {1}점을 넘었어요. 다음 코스를 골라요.', [pct, passMark]) : trf('{0}점 — {1}점이 넘어야 통과예요. 틀린 편만 다시 연습하고 시험을 봐요.', [pct, passMark]),
                 textAlign: TextAlign.center, style: const TextStyle(fontSize: 15, color: AppColors.sumi)),
             if (!pass && wrongTitles.isNotEmpty) ...[
               const SizedBox(height: 12),

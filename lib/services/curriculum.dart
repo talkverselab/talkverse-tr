@@ -1,6 +1,10 @@
 import 'dart:convert';
+import 'dart:io';
 import 'dart:math';
 
+import 'package:flutter/services.dart' show rootBundle;
+
+import '../core/embed_env.dart';
 import '../core/prefs.dart';
 import 'dialogue_service.dart';
 import 'learner_prefs.dart';
@@ -16,7 +20,7 @@ const kDailyGoals = {'light': 1, 'normal': 2, 'focus': 3};
 
 /// 점수 = 정답 수 / 문제 수, 소수점 버림.
 int scorePercent(int correct, int total) => total <= 0 ? 0 : (correct * 100) ~/ total;
-bool isPass(int correct, int total) => total > 0 && scorePercent(correct, total) >= kPassPercent;
+bool isPass(int correct, int total, [int pass = kPassPercent]) => total > 0 && scorePercent(correct, total) >= pass;
 
 String dayKey(DateTime d) =>
     '${d.year.toString().padLeft(4, '0')}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
@@ -123,7 +127,9 @@ class CurriculumState {
     );
   }
 
-  int get newGoal => kDailyGoals[dailyGoal] ?? 2;
+  /// 단계 JSON 의 daily(없으면 1·2·3) — 화면이 지금 단계 값을 넣어 준다.
+  Map<String, int> goals = kDailyGoals;
+  int get newGoal => goals[dailyGoal] ?? kDailyGoals[dailyGoal] ?? 2;
 
   /// 날이 바뀌었으면 오늘 칸을 0 으로.
   void rollDay(String today) {
@@ -271,4 +277,109 @@ List<CQuestion> makeExam(List<Dialogue> ds, List<Dialogue> pool, {Random? rnd}) 
   final out = <CQuestion>[for (final d in ds) ...makeQuestions(d, pool, max: per, rnd: r)];
   out.shuffle(r);
   return out.take(30).toList();
+}
+
+/// 커리큘럼 단계(1~5) — 어느 편이 어느 단계인지는 서버가 준다(CURRICULUM_SPEC §12, 2026-11-23).
+class CStage {
+  final int n;
+  final String title, desc;
+  final List<String> dialogueIds;
+  final List<int> pick;
+  final int pass;
+  final Map<String, int> daily; // 하루 새 편 수 light·normal·focus
+  const CStage(this.n, this.title, this.desc, this.dialogueIds, this.pick, this.pass, [this.daily = kDailyGoals]);
+  String get key => '$n';
+  factory CStage.fromJson(Map j) => CStage(
+        (j['n'] as num).toInt(),
+        '${j['title'] ?? '${j['n']}단계'}',
+        '${j['desc'] ?? ''}',
+        [for (final e in (j['dialogueIds'] as List? ?? const [])) '$e'],
+        [for (final e in (j['pick'] as List? ?? kCourseSizes)) (e as num).toInt()],
+        (j['pass'] as num?)?.toInt() ?? kPassPercent,
+        {
+          for (final k in kDailyGoals.keys)
+            k: ((j['daily'] as Map?)?[k] as num?)?.toInt() ?? kDailyGoals[k]!,
+        },
+      );
+}
+
+/// 옛 저장값(R0~R5) → 단계 번호(R0·R1 → 1, R2 → 2 …).
+String stageOfLevel(String? level) {
+  if (level == null) return '';
+  final m = RegExp(r'^R(\d)$').firstMatch(level);
+  if (m == null) return level;
+  final r = int.parse(m.group(1)!);
+  return '${r <= 1 ? 1 : r}';
+}
+
+/// 단계 목록 — 앱에 묶은 `assets/curriculum_tr.json`(기본값) < 기기에 받아 둔 서버 판 < 서버의 더 높은 rev.
+/// 서버 `GET https://talkverse.uk/api/curriculum/tr`(배포 전엔 404 → 묶음 그대로). 다 실패하면 회화 레벨로 만든 단계.
+class CurriculumContent {
+  static const url = 'https://talkverse.uk/api/curriculum/tr';
+  static const _kCache = 'curriculum_content';
+  static Future<String?> Function(String url)? fetchForTest;
+
+  static Future<List<CStage>> load(DialogueService svc, {bool refresh = true}) async {
+    Map? best;
+    try {
+      best = json.decode(await rootBundle.loadString(assetPath('assets/curriculum_tr.json'))) as Map;
+    } catch (_) {}
+    final prefs = await Prefs.getInstance();
+    try {
+      final c = prefs.getString(_kCache);
+      if (c != null) {
+        final j = json.decode(c) as Map;
+        if (_rev(j) > _rev(best)) best = j;
+      }
+    } catch (_) {}
+    if (refresh) {
+      try {
+        final body = await (fetchForTest ?? _get)(url).timeout(const Duration(seconds: 6));
+        if (body != null) {
+          final j = json.decode(body) as Map;
+          if (j['stages'] is List && _rev(j) > _rev(best)) {
+            best = j;
+            await prefs.setString(_kCache, body);
+          }
+        }
+      } catch (_) {}
+    }
+    final out = <CStage>[];
+    try {
+      for (final e in (best?['stages'] as List? ?? const [])) {
+        if (e is Map) out.add(CStage.fromJson(e));
+      }
+    } catch (_) {
+      out.clear();
+    }
+    if (out.isEmpty) {
+      // 기본값: 회화 레벨로 단계(R0+R1 → 1 …)
+      final by = <int, List<String>>{};
+      for (final d in svc.all) {
+        final s = int.tryParse(stageOfLevel(d.region)) ?? 0;
+        if (s > 0) by.putIfAbsent(s, () => []).add(d.id);
+      }
+      for (final n in by.keys.toList()..sort()) {
+        out.add(CStage(n, '$n단계', '', by[n]!, kCourseSizes, kPassPercent));
+      }
+    }
+    out.sort((a, b) => a.n.compareTo(b.n));
+    return out;
+  }
+
+  static int _rev(Map? j) => (j?['rev'] as num?)?.toInt() ?? 0;
+
+  static Future<String?> _get(String url) async {
+    final client = HttpClient()..connectionTimeout = const Duration(seconds: 5);
+    try {
+      final req = await client.getUrl(Uri.parse(url));
+      final res = await req.close().timeout(const Duration(seconds: 6));
+      if (res.statusCode != 200) return null;
+      return await res.transform(utf8.decoder).join();
+    } catch (_) {
+      return null;
+    } finally {
+      client.close(force: true);
+    }
+  }
 }
