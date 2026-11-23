@@ -28,7 +28,7 @@ PREFIX = 'script/tr'
 
 
 def current():
-    paths = sorted(glob.glob(str(DATA / 'dialogues/R[0-4]/*/*.json'))) + [str(DATA / 'dialogues/_release.json')]
+    paths = sorted(glob.glob(str(DATA / 'dialogues/R[0-4]/*/*.json'))) + [str(DATA / 'dialogues/_release.json'), str(DATA / 'dialogues/L1.json')]
     # 문법(언어감각 과정 + 스텝 목록 + 스텝 내용 lessonN) — 서버에서 고치면 앱을 다시 내지 않고 갱신(2026-11-23)
     for g in ['grammar/sense_course.json', 'grammar/steps.json'] + sorted(str(Path(x).relative_to(DATA)) for x in glob.glob(str(DATA / 'grammar/lesson*.json'))):
         if (DATA / g).exists():

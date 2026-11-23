@@ -49,6 +49,9 @@ def apply(write):
         if head.get('title'):
             e['title'] = head['title']
         ok += 1
+    # Grok 이 A 를 {name}(학습자)로 쓰면 인물표도 R 편처럼 A={name} — 화자 표시·목소리가 대사와 맞게
+    if any('{name}' in t.get('es', '') + t.get('ko', '') for e in d['episodes'] for t in e['turns'] if t['speaker'] == 'A'):
+        d['characters'].setdefault('A', {})['name'] = '{name}'
     if write:
         open(L1, 'w', encoding='utf-8').write(json.dumps(d, ensure_ascii=False, indent=1) + '\n')
     print('반영' if write else '검사', ok, '/', len(d['episodes']))

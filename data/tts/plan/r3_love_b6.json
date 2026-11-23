@@ -9,7 +9,7 @@
 "segs": [
 [
 "stiff",
-"Bugün sana bir şey soracağım. Kaçmak yok, tamam mı?"
+"Bugün sana bir şey soracağım. Kaçmak yok tamam mı?"
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "teasing",
-"Hayırdır? Yine fal mı? Para çıkmadığını biliyorum."
+"Hayırdır? Gene fal mı? Para çıkmadığını biliyorum ya."
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "amused",
-"Yok, fal değil. Annem soruyor. «Arkadaşın yemek yedi mi?»"
+"Fal değil. Annem soruyor. \"Arkadaşın yemek yedi mi?\" diyor."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "amused",
-"Annen hâlâ bunu mu soruyor? Tatlı. Yedi de."
+"Annen hâlâ soruyor mu? Çok tatlısın. Yedi de."
 ]
 ]
 },
@@ -41,7 +41,7 @@
 "segs": [
 [
 "shy",
-"Hayır, asıl soru şu. «Arkadaş» mı demeliyim? Anneme ne diyeyim?"
+"Asıl soru şu yani. \"Arkadaş\" mı diyeyim? Anneme ne diyeyim?"
 ]
 ]
 },
@@ -49,7 +49,7 @@
 "segs": [
 [
 "flustered",
-"Teyzen de «darısı başınıza» demişti. Hâlâ ne demek bilmiyorum."
+"Teyzen \"darısı başınıza\" demişti ya. Hâlâ anlamadım."
 ]
 ]
 },
@@ -57,7 +57,7 @@
 "segs": [
 [
 "tsukkomi",
-"Konuyu değiştirme! Halıcı bizi çift sanıyor, mahalle seni tanıyor."
+"Konuyu değiştirme! Halıcı bizi karı koca sanıyor, mahalle seni tanıyor."
 ]
 ]
 },
@@ -65,7 +65,7 @@
 "segs": [
 [
 "shy",
-"Kediye bile adımı vermişler. Haklısın, çok şey oldu."
+"Kedinin adını bile benim adım koydun. Haklısın, çok şey oldu."
 ]
 ]
 },
@@ -81,7 +81,7 @@
 "segs": [
 [
 "worried",
-"Yani? Ne söylemek istiyorsun? Biraz korktum şimdi."
+"E yani? Ne demek istiyorsun? Korkmaya başladım."
 ]
 ]
 },
@@ -105,7 +105,7 @@
 ],
 [
 "polite",
-"Lütfen buraya bakar mısınız?"
+"Şuraya bakın lütfen."
 ]
 ]
 },
@@ -113,7 +113,7 @@
 "segs": [
 [
 "annoyed",
-"Ciddi misin? Ben soruyorum sen garson mu çağırıyorsun?"
+"Ciddi misin? Ben soruyorum, sen garsonu mu çağırıyorsun?"
 ]
 ]
 },
@@ -121,7 +121,7 @@
 "segs": [
 [
 "polite",
-"Buyurun, ne alırsınız?"
+"Buyurun efendim, ne istersiniz?"
 ]
 ]
 },
@@ -137,7 +137,7 @@
 "segs": [
 [
 "gentle",
-"Tamam. Anneme mesaj atıyorum. «İki çatal.»"
+"Tamam. Anneme mesaj atıyorum. \"İki çatal.\""
 ]
 ]
 }

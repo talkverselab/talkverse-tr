@@ -11,9 +11,9 @@
  "domain": [
   "life"
  ],
- "title": "왜 반만 있어?",
+ "title": "수프가 반만?",
  "emoji": "🍲",
- "scene": "아파서 누워 있는데 Can 이 수프를 들고 왔다. 양이 좀 이상하다",
+ "scene": "아파서 누워 있는데 Can 이 수프를 들고 왔다. 양이 반밖에 없다",
  "speakers": {
   "A": "{name}",
   "B": "Can"
@@ -35,10 +35,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Geçmiş olsun! Kapıyı aç, çorba getirdim.",
-   "rd": "게치미시 올순! 카프이으 아치, 초르바 게티르딤.",
-   "ko": "얼른 나아! 문 열어, 수프 가져왔어.",
-   "note": "geçmiş olsun = 빨리 나아",
+   "tl": "Geçmiş olsun ya, çorba getirdim!",
+   "rd": "게치미시 올순 야, 초르바 게티르딤!",
+   "ko": "빨리 나으라고, 수프 가져왔어!",
+   "note": "geçmiş olsun = 빨리 나으라고",
    "tags": [
     "expr:geçmiş olsun"
    ],
@@ -50,9 +50,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Gerçekten mi? Can, sen harikasın.",
-   "rd": "게르첵텐 미? 잔, 센 하리카슨.",
-   "ko": "진짜? 칸, 너 최고다.",
+   "tl": "Gerçekten mi? Can, harikasın!",
+   "rd": "게르첵텐 미? 잔, 하리카슨!",
+   "ko": "진짜? 칸, 너 최고야!",
    "note": "gerçekten mi = 진짜?",
    "tags": [
     "expr:gerçekten mi"
@@ -63,10 +63,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Annem yaptı. Sana selam söyledi.",
-   "rd": "안넴 얍트. 사나 셀람 쇠일레디.",
-   "ko": "우리 엄마가 끓였어. 너한테 안부 전하래.",
-   "note": "selam = 안부",
+   "tl": "Annem pişirdi, selam dedi.",
+   "rd": "안넴 피시르디, 셀람 데디.",
+   "ko": "엄마가 끓였어, 안부인사 하래.",
+   "note": "selam = 안부인사",
    "tags": [
     "expr:selam"
    ],
@@ -76,9 +76,9 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Bir dakika. Bu çorba niye yarım kalmış?",
-   "rd": "비르 다키카. 부 초르바 니예 야름 칼므시?",
-   "ko": "잠깐. 이 수프 왜 반밖에 없어?",
+   "tl": "Bir dakika, neden yarım bu?",
+   "rd": "비르 다키카, 네덴 야름 부?",
+   "ko": "잠깐, 이거 왜 반이야?",
    "note": "bir dakika = 잠깐",
    "tags": [
     "expr:bir dakika"
@@ -89,10 +89,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Yolda baktım. Sıcak mı diye.",
-   "rd": "욜다 박틈. 스작 므 디예.",
-   "ko": "오다가 봤지. 뜨거운지 확인하려고.",
-   "note": "kontrol ettim = 확인했다",
+   "tl": "Yolda tadına baktım.",
+   "rd": "욜다 타드나 박틈.",
+   "ko": "오다가 맛봤어.",
+   "note": "tadına baktım = 맛봤어",
    "tags": [],
    "new": [],
    "emotion": "amused"
@@ -100,8 +100,8 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Ciddi misin? Yarısını yedin mi sen?",
-   "rd": "지디 미신? 야르스느 예딘 미 센?",
+   "tl": "Ciddi misin? Yarısını mı?",
+   "rd": "지디 미신? 야르스느 므?",
    "ko": "진심이야? 반을 먹었다고?",
    "note": "ciddi misin = 진심이야?",
    "tags": [
@@ -113,10 +113,10 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Ama bugün kafede senin yerin boştu. O canımı sıktı.",
-   "rd": "아마 부귄 카페데 세닌 예린 보시투. 오 자느므 슥트.",
-   "ko": "근데 오늘 카페에 네 자리가 비어 있더라. 그게 싫었어.",
-   "note": "hoşuma gitmedi = 마음에 안 들었다",
+   "tl": "Şey... yerin boştu, üzüldüm.",
+   "rd": "셰이... 예린 보시투, 위쥘뒴.",
+   "ko": "저기... 네 자리가 비어서 속상했어.",
+   "note": "şey = 저기",
    "tags": [
     "simkung"
    ],
@@ -124,21 +124,21 @@
    "segs": [
     [
      "gentle",
-     "Ama bugün kafede senin yerin boştu."
+     "Şey..."
     ],
     [
      "shy",
-     "O canımı sıktı."
+     "yerin boştu, üzüldüm."
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Şey... Yarısı da yeter.",
-   "rd": "셰이... 야르스 다 예테르.",
-   "ko": "저기… 반만으로도 충분해.",
-   "note": "şey = 저기",
+   "tl": "Yarım yeter bana.",
+   "rd": "야름 예테르 바나.",
+   "ko": "반만으로도 충분해.",
+   "note": "yeter = 충분하다",
    "tags": [
     "expr:şey"
    ],

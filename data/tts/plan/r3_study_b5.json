@@ -9,7 +9,7 @@
 "segs": [
 [
 "polite",
-"Merhaba, ikamet için geldim. Randevum vardı."
+"Merhaba, ikamet izni için geldim. Randevum vardı."
 ]
 ]
 },
@@ -17,7 +17,7 @@
 "segs": [
 [
 "stiff",
-"Numara alın, bekleyin."
+"Numara çekin, bekleyin lütfen."
 ]
 ]
 },
@@ -25,8 +25,8 @@
 "segs": [
 [
 "neutral",
-"Aldım. 147. İki saattir bekliyorum.",
-"Aldım. yüz kırk yedi. İki saattir bekliyorum."
+"Çektim. 147 numara. İki saattir buradayım.",
+"Çektim. yüz kırk yedi numara. İki saattir buradayım."
 ]
 ]
 },
@@ -34,7 +34,7 @@
 "segs": [
 [
 "stiff",
-"Şimdi öğle arası, bekleyin."
+"Öğle arası şimdi, bekleyin."
 ]
 ]
 },
@@ -42,11 +42,11 @@
 "segs": [
 [
 "annoyed",
-"Ama saat dört!"
+"Ama saat dört oldu!"
 ],
 [
 "tsukkomi",
-"Şimdi öğle arası mı?"
+"Öğle arası mı hâlâ?"
 ]
 ]
 },
@@ -54,7 +54,7 @@
 "segs": [
 [
 "stiff",
-"Şimdi öğle arası, bekleyin."
+"Öğle arası, bekleyin dedim."
 ]
 ]
 },
@@ -62,7 +62,7 @@
 "segs": [
 [
 "annoyed",
-"Bana bakmıyor bile Zeynep. Üç dakikadır çay karıştırıyor."
+"Yüzüme bakmıyor bile, Zeynep. Çayını karıştırıyor üç dakikadır."
 ]
 ]
 },
@@ -70,7 +70,7 @@
 "segs": [
 [
 "neutral",
-"Ne dedin? İlk cümlen neydi?"
+"İlk ne dedin ki? Ne söyledin?"
 ]
 ]
 },
@@ -78,7 +78,7 @@
 "segs": [
 [
 "annoyed",
-"«Merhaba» dedim. Sonra «randevum vardı». Çok naziktim."
+"Merhaba dedim. Randevum var dedim. Kibardım valla."
 ]
 ]
 },
@@ -86,11 +86,11 @@
 "segs": [
 [
 "stiff",
-"Yanlış."
+"Yanlış yaptın."
 ],
 [
 "gentle",
-"Önce «Kolay gelsin» de, sonra konuş."
+"Önce kolay gelsin de, sonra anlat."
 ]
 ]
 },
@@ -98,11 +98,11 @@
 "segs": [
 [
 "tsukkomi",
-"Ne alaka?"
+"Ne alaka ya?"
 ],
 [
 "surprised",
-"Bu kadar kolay mı?"
+"O kadar basit mi?"
 ]
 ]
 },
@@ -110,7 +110,7 @@
 "segs": [
 [
 "teasing",
-"Dene. Kaybedecek ne var?"
+"Dene bir. Kaybedecek ne var?"
 ]
 ]
 },
@@ -118,7 +118,7 @@
 "segs": [
 [
 "polite",
-"Kolay gelsin…"
+"Kolay gelsin size, efendim..."
 ]
 ]
 },
@@ -126,7 +126,7 @@
 "segs": [
 [
 "gentle",
-"Sağ ol, öğrenci. Al bakalım evrakları."
+"Sağ ol, öğrenci. Hadi evraklarını ver."
 ]
 ]
 },
@@ -134,7 +134,7 @@
 "segs": [
 [
 "excited",
-"Zeynep, baktı! Yüzüme baktı! Konuştu bile!"
+"Zeynep, baktı bana! Yüzüme baktı! Konuştu bile!"
 ]
 ]
 },
@@ -142,7 +142,7 @@
 "segs": [
 [
 "stiff",
-"Fotoğraf yok. Yarın gel. Hadi kolay gelsin."
+"Fotoğraf eksik. Yarın gel. Hadi kolay gelsin."
 ]
 ]
 }

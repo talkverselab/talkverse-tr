@@ -221,7 +221,8 @@ class DialogueService {
     final regions = <String>[], old = <String>[];
     for (final e in _files.entries) {
       try {
-        final j = json.decode(await rootBundle.loadString(assetPath(e.value))) as Map<String, dynamic>;
+        // 옛 이야기 L1 도 서버 원고가 있으면 그것(Grok 판 교체 2026-11-23)
+        final j = json.decode(await sync.load(e.value.substring('assets/data/'.length))) as Map<String, dynamic>;
         final chars = (j['characters'] as Map?) ?? const {};
         final names = <String, String>{};
         final genders = <String, String>{};

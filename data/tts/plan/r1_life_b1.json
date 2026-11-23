@@ -8,7 +8,7 @@
 "segs": [
 [
 "surprised",
-"Oha! Elektrik gitti ya. Yemek ne olacak?"
+"Oha! Elektrik gitti ya."
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "tsukkomi",
-"Yemek mi önce? Bir dakika, telefonum nerede?"
+"Yemek mi? Bir dakika, telefon nerede?"
 ]
 ]
 },
@@ -24,7 +24,11 @@
 "segs": [
 [
 "amused",
-"Bu mahalle hep böyle olur. Yarım saatte gelir."
+"Bu mahalle hep böyle."
+],
+[
+"amused",
+"Otuz dakikada gelir."
 ]
 ]
 },
@@ -32,7 +36,11 @@
 "segs": [
 [
 "teasing",
-"Tamam tamam. Karanlıkta yeriz, romantik olur."
+"Tamam tamam."
+],
+[
+"teasing",
+"Karanlıkta yiyelim, romantik olur."
 ]
 ]
 },
@@ -40,7 +48,7 @@
 "segs": [
 [
 "surprised",
-"Bir dakika ya. Yan komşularda ışık var."
+"Hadi ya. Yan evler yanıyor ama."
 ]
 ]
 },
@@ -48,7 +56,7 @@
 "segs": [
 [
 "surprised",
-"Hadi ya... Üst katta da yanıyor."
+"Üst kat da yanıyor ya."
 ]
 ]
 },
@@ -56,7 +64,7 @@
 "segs": [
 [
 "teasing",
-"Sizin evde yok sadece. Faturayı ödedin mi?"
+"Senin evde yok. Fatura ödedin mi?"
 ]
 ]
 },
@@ -64,7 +72,7 @@
 "segs": [
 [
 "flustered",
-"Fatura mı? Ne faturası o?"
+"Fatura mı? Ne faturası ya?"
 ]
 ]
 }

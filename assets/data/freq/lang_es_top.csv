@@ -2008,3 +2008,5 @@ rank,word,pos,gender,ko,freq,cum_pct,region,cefr
 3006,gezdirmek,verb,,구경시켜 주다,,,conv,
 3007,anlaşmak,verb,,합의하다,,,conv,
 3008,üzücü,adj,,"슬픈, 안타까운",,,conv,
+3009,baklava,noun,,바클라바(견과류를 넣은 겹겹 파이 디저트),,,conv,
+3010,metro,noun,,지하철,,,conv,

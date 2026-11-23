@@ -14,7 +14,7 @@
  },
  "characters": {
   "A": {
-   "name": "Minjun",
+   "name": "{name}",
    "role": "",
    "gender": "male"
   },
@@ -35,28 +35,10 @@
     {
      "num": 1,
      "speaker": "A",
-     "es": "Merhaba! Ben Minjun. Ya sen?",
-     "rd": "메르하바! 벤 민준. 야 센?",
-     "ko": "안녕! 나는 민준이야. 너는?",
-     "note": "ben = 나",
-     "tags": [
-      "draft"
-     ],
-     "lemmas": [
-      [
-       "Merhaba",
-       "merhaba",
-       ""
-      ]
-     ]
-    },
-    {
-     "num": 2,
-     "speaker": "B",
-     "es": "Selam, benim adım Elif. Nerelisin?",
-     "rd": "셀람, 베님 아듬 엘리프. 네렐리신?",
-     "ko": "안녕, 내 이름은 엘리프야. 어디 사람이야?",
-     "note": "nereli = 어디 출신",
+     "es": "Selam! Ben {name}. Sen?",
+     "rd": "셀람! 벤 {name}. 센?",
+     "ko": "안녕! 나는 {name}이야. 너는?",
+     "note": "Selam = 안녕",
      "tags": [
       "draft"
      ],
@@ -65,10 +47,23 @@
        "Selam",
        "selam",
        ""
-      ],
+      ]
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Selam, ben Elif. Nerelisin ya?",
+     "rd": "셀람, 벤 엘리프. 네렐리신 야?",
+     "ko": "안녕, 엘리프야. 어디 사람이야?",
+     "note": "Nerelisin = 어디 사람이야",
+     "tags": [
+      "draft"
+     ],
+     "lemmas": [
       [
-       "adım",
-       "ad",
+       "Selam",
+       "selam",
        ""
       ]
      ]
@@ -79,7 +74,7 @@
      "es": "Koreliyim. Türkçe öğreniyorum.",
      "rd": "코렐리임. 튀르크체 외레니요룸.",
      "ko": "한국인이야. 터키어 배우고 있어.",
-     "note": "-im = ~이다",
+     "note": "Koreliyim = 한국인이야",
      "tags": [
       "draft"
      ],
@@ -94,27 +89,17 @@
     {
      "num": 4,
      "speaker": "B",
-     "es": "Harika! Türkçen şimdiden iyi.",
-     "rd": "하리카! 튀르크첸 심디덴 이이.",
-     "ko": "멋지다! 네 터키어 벌써 좋은데.",
-     "note": "şimdiden = 벌써",
+     "es": "Vay! Türkçen güzelmiş.",
+     "rd": "바이! 튀르크첸 귀젤미시.",
+     "ko": "와! 터키어 잘하네.",
+     "note": "Vay = 와",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Harika",
-       "harika",
-       ""
-      ],
-      [
-       "şimdiden",
-       "şimdiden",
-       ""
-      ],
-      [
-       "iyi",
-       "iyi",
+       "güzelmiş",
+       "güzel",
        ""
       ]
      ]
@@ -122,17 +107,22 @@
     {
      "num": 5,
      "speaker": "A",
-     "es": "Teşekkürler! Her gün çalışıyorum.",
-     "rd": "테셰퀴를레르! 헤르 귄 찰르셔룸.",
-     "ko": "고마워! 매일 연습해.",
-     "note": "her gün = 매일",
+     "es": "Sağ ol! Her gün çalışıyorum.",
+     "rd": "사 올! 헤르 귄 찰르시요룸.",
+     "ko": "고마워! 매일 공부해.",
+     "note": "Sağ ol = 고마워",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Teşekkürler",
-       "teşekkür",
+       "Sağ",
+       "sağ",
+       ""
+      ],
+      [
+       "ol",
+       "olmak",
        ""
       ],
       [
@@ -150,20 +140,14 @@
     {
      "num": 6,
      "speaker": "B",
-     "es": "İstanbul'da mı oturuyorsun?",
-     "rd": "이스탄불다 므 오투루요르순?",
+     "es": "İstanbul'da mısın?",
+     "rd": "이스탄불다 므슨?",
      "ko": "이스탄불에 살아?",
-     "note": "oturmak = 살다",
+     "note": "İstanbul'da = 이스탄불에",
      "tags": [
       "draft"
      ],
-     "lemmas": [
-      [
-       "oturuyorsun",
-       "oturmak",
-       ""
-      ]
-     ]
+     "lemmas": []
     },
     {
      "num": 7,
@@ -171,7 +155,7 @@
      "es": "Evet, iki aydır.",
      "rd": "에벳, 이키 아이드르.",
      "ko": "응, 두 달째야.",
-     "note": "-dır = ~째",
+     "note": "iki aydır = 두 달째",
      "tags": [
       "draft"
      ],
@@ -191,27 +175,22 @@
     {
      "num": 8,
      "speaker": "B",
-     "es": "O zaman sana şehri gezdireyim!",
-     "rd": "오 자만 사나 셰흐리 게즈디레임.",
-     "ko": "그럼 내가 도시를 보여 줄게!",
-     "note": "sana = 너에게",
+     "es": "Hadi, şehri göstereyim!",
+     "rd": "하디, 셰흐리 괴스테레임!",
+     "ko": "자, 도시 보여 줄게!",
+     "note": "Hadi = 자",
      "tags": [
       "draft"
      ],
      "lemmas": [
-      [
-       "zaman",
-       "zaman",
-       ""
-      ],
       [
        "şehri",
        "şehir",
        ""
       ],
       [
-       "gezdireyim",
-       "gezdirmek",
+       "göstereyim",
+       "göstermek",
        ""
       ]
      ]
@@ -227,10 +206,10 @@
     {
      "num": 1,
      "speaker": "B",
-     "es": "Ne içmek istersin?",
-     "rd": "네 이치멕 이스테르신?",
-     "ko": "뭐 마실래?",
-     "note": "ne = 무엇",
+     "es": "Ne alıyon?",
+     "rd": "네 알르욘?",
+     "ko": "뭐 시킬래?",
+     "note": "Ne alıyon = 뭐 시킬래",
      "tags": [
       "draft"
      ],
@@ -239,26 +218,16 @@
        "Ne",
        "ne",
        ""
-      ],
-      [
-       "içmek",
-       "içmek",
-       ""
-      ],
-      [
-       "istersin",
-       "istemek",
-       ""
       ]
      ]
     },
     {
      "num": 2,
      "speaker": "A",
-     "es": "Bir kahve, lütfen. Ya sen?",
-     "rd": "비르 카흐베, 뤼트펜. 야 센?",
-     "ko": "커피 하나, 부탁해. 너는?",
-     "note": "lütfen = 부탁해요",
+     "es": "Bir kahve. Sen?",
+     "rd": "비르 카흐베. 센?",
+     "ko": "커피 하나. 너는?",
+     "note": "Bir kahve = 커피 하나",
      "tags": [
       "draft"
      ],
@@ -266,11 +235,6 @@
       [
        "kahve",
        "kahve",
-       ""
-      ],
-      [
-       "lütfen",
-       "lütfen",
        ""
       ]
      ]
@@ -278,27 +242,22 @@
     {
      "num": 3,
      "speaker": "B",
-     "es": "Ben sütlü çay alayım.",
-     "rd": "벤 쉬틀뤼 차이 알라이음.",
-     "ko": "나는 밀크티로 할게.",
-     "note": "almak = 고르다·사다",
+     "es": "Sütlü çay bana.",
+     "rd": "쉬틀뤼 차이 바나.",
+     "ko": "밀크티로 할게.",
+     "note": "Sütlü çay bana = 밀크티로",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "sütlü",
+       "Sütlü",
        "sütlü",
        ""
       ],
       [
        "çay",
        "çay",
-       ""
-      ],
-      [
-       "alayım",
-       "almak",
        ""
       ]
      ]
@@ -306,27 +265,22 @@
     {
      "num": 4,
      "speaker": "A",
-     "es": "Buranın tatlısı güzel mi?",
-     "rd": "부라는 타틀르스 귀젤 미?",
-     "ko": "여기 디저트 맛있어?",
-     "note": "mi = ~니?(의문)",
+     "es": "Tatlılar nasıl?",
+     "rd": "타틀를라르 나슬?",
+     "ko": "디저트 어때?",
+     "note": "Tatlılar nasıl = 디저트 어때",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Buranın",
-       "bura",
-       ""
-      ],
-      [
-       "tatlısı",
+       "Tatlılar",
        "tatlı",
        ""
       ],
       [
-       "güzel",
-       "güzel",
+       "nasıl",
+       "nasıl",
        ""
       ]
      ]
@@ -334,27 +288,32 @@
     {
      "num": 5,
      "speaker": "B",
-     "es": "Çok güzel! Baklava favorim.",
-     "rd": "촉 귀젤! 바클라바 파보림.",
-     "ko": "엄청! 바클라바가 내 최애야.",
-     "note": "çok = 아주",
+     "es": "Baklava favorim, çok iyi!",
+     "rd": "바클라바 파보림, 촉 이이!",
+     "ko": "바클라바가 내 최애, 진짜 맛있어!",
+     "note": "Baklava favorim = 바클라바 최애",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Çok",
-       "çok",
-       ""
-      ],
-      [
-       "güzel",
-       "güzel",
+       "Baklava",
+       "baklava",
        ""
       ],
       [
        "favorim",
        "favori",
+       ""
+      ],
+      [
+       "çok",
+       "çok",
+       ""
+      ],
+      [
+       "iyi",
+       "iyi",
        ""
       ]
      ]
@@ -362,10 +321,10 @@
     {
      "num": 6,
      "speaker": "A",
-     "es": "O zaman iki tane alalım.",
-     "rd": "오 자만 이키 타네 알랄름.",
-     "ko": "그럼 두 개 시키자.",
-     "note": "-alım = ~하자",
+     "es": "O zaman iki tane.",
+     "rd": "오 자만 이키 타네.",
+     "ko": "그럼 두 개.",
+     "note": "İki tane = 두 개",
      "tags": [
       "draft"
      ],
@@ -378,11 +337,6 @@
       [
        "tane",
        "tane",
-       ""
-      ],
-      [
-       "alalım",
-       "almak",
        ""
       ]
      ]
@@ -390,21 +344,16 @@
     {
      "num": 7,
      "speaker": "B",
-     "es": "Mükemmel. Ben ısmarlıyorum.",
-     "rd": "뮈켐멜. 벤 으스마를르요룸.",
-     "ko": "완벽해. 내가 살게.",
-     "note": "ısmarlamak = 한턱내다",
+     "es": "Ben ısmarlarım.",
+     "rd": "벤 으스마를라름.",
+     "ko": "내가 살게.",
+     "note": "Ben ısmarlarım = 내가 살게",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Mükemmel",
-       "mükemmel",
-       ""
-      ],
-      [
-       "ısmarlıyorum",
+       "ısmarlarım",
        "ısmarlamak",
        ""
       ]
@@ -413,32 +362,27 @@
     {
      "num": 8,
      "speaker": "A",
-     "es": "Hayır hayır, bugün ben ödüyorum!",
-     "rd": "하이으르 하이으르, 부귄 벤 외뒤요룸!",
-     "ko": "아니 아니, 오늘은 내가 낼게!",
-     "note": "bugün = 오늘",
+     "es": "Yok yok, bugün ben!",
+     "rd": "욕 욕, 부귄 벤!",
+     "ko": "아니야 아니야, 오늘은 내가!",
+     "note": "Bugün ben = 오늘은 내가",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Hayır",
-       "hayır",
+       "Yok",
+       "yok",
        ""
       ],
       [
-       "hayır",
-       "hayır",
+       "yok",
+       "yok",
        ""
       ],
       [
        "bugün",
        "bugün",
-       ""
-      ],
-      [
-       "ödüyorum",
-       "ödemek",
        ""
       ]
      ]
@@ -454,16 +398,16 @@
     {
      "num": 1,
      "speaker": "A",
-     "es": "Affedersiniz, müze nerede?",
-     "rd": "아페데르시니즈, 뮈제 네레데?",
-     "ko": "실례합니다, 박물관이 어디예요?",
-     "note": "nerede = 어디에",
+     "es": "Affedersin, müze nerede?",
+     "rd": "아페데르신, 뮈제 네레데?",
+     "ko": "실례, 박물관 어디야?",
+     "note": "affedersin = 실례",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Affedersiniz",
+       "Affedersin",
        "affetmek",
        ""
       ],
@@ -482,10 +426,10 @@
     {
      "num": 2,
      "speaker": "B",
-     "es": "Düz git, sonra sola dön.",
-     "rd": "뒤즈 기트, 손라 솔라 된.",
-     "ko": "직진하다가 왼쪽으로 돌아.",
-     "note": "düz = 곧장",
+     "es": "Düz git, sola dön.",
+     "rd": "뒤즈 깃, 솔라 된.",
+     "ko": "직진하고 왼쪽으로 돌아.",
+     "note": "düz git = 직진해",
      "tags": [
       "draft"
      ],
@@ -498,11 +442,6 @@
       [
        "git",
        "gitmek",
-       ""
-      ],
-      [
-       "sonra",
-       "sonra",
        ""
       ],
       [
@@ -538,22 +477,17 @@
     {
      "num": 4,
      "speaker": "B",
-     "es": "Hayır, yürüyerek beş dakika.",
-     "rd": "하이으르, 위뤼예렉 베시 다키카.",
-     "ko": "아니, 걸어서 5분이야.",
-     "note": "yürüyerek = 걸어서",
+     "es": "Yok, beş dakika.",
+     "rd": "욕, 베시 다키카.",
+     "ko": "아니, 5분이야.",
+     "note": "yok = 아니",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Hayır",
-       "hayır",
-       ""
-      ],
-      [
-       "yürüyerek",
-       "yürümek",
+       "Yok",
+       "yok",
        ""
       ],
       [
@@ -566,22 +500,17 @@
     {
      "num": 5,
      "speaker": "A",
-     "es": "Süper. Bugün açık mı?",
-     "rd": "쉬페르. 부귄 아측 므?",
-     "ko": "좋다. 오늘 열었어?",
-     "note": "açık = 열린",
+     "es": "Tamam. Açık mı?",
+     "rd": "타맘. 아측 므?",
+     "ko": "좋아. 열었어?",
+     "note": "tamam = 오케이",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Süper",
-       "süper",
-       ""
-      ],
-      [
-       "açık",
-       "açık",
+       "Tamam",
+       "tamam",
        ""
       ]
      ]
@@ -592,7 +521,7 @@
      "es": "Evet, altıya kadar.",
      "rd": "에벳, 알트야 카다르.",
      "ko": "응, 6시까지.",
-     "note": "kadar = ~까지",
+     "note": "altıya kadar = 6시까지",
      "tags": [
       "draft"
      ],
@@ -612,17 +541,22 @@
     {
      "num": 7,
      "speaker": "A",
-     "es": "Benimle gelir misin?",
-     "rd": "베님레 겔리르 미신?",
+     "es": "Beraber gidelim mi?",
+     "rd": "베라베르 기델림 미?",
      "ko": "같이 갈래?",
-     "note": "benimle = 나와 함께",
+     "note": "beraber = 같이",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "gelir",
-       "gelmek",
+       "Beraber",
+       "beraber",
+       ""
+      ],
+      [
+       "gidelim",
+       "gitmek",
        ""
       ]
      ]
@@ -630,21 +564,21 @@
     {
      "num": 8,
      "speaker": "B",
-     "es": "Memnuniyetle! Sanatı severim.",
-     "rd": "멤누니예틀레! 사나트 세베림.",
-     "ko": "좋아! 나 예술 좋아해.",
-     "note": "severim = 좋아해",
+     "es": "Olur! Sanat seviyorum.",
+     "rd": "올루르! 사낫 세비요룸.",
+     "ko": "좋아! 예술 좋아해.",
+     "note": "olur = 좋아",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Memnuniyetle",
-       "memnuniyetle",
+       "Olur",
+       "olmak",
        ""
       ],
       [
-       "severim",
+       "seviyorum",
        "sevmek",
        ""
       ]
@@ -654,7 +588,7 @@
   },
   {
    "id": "ep4",
-   "title": "약속 잡기",
+   "title": "주말 약속",
    "emoji": "📅",
    "scenario": "주말에 만날 약속을 잡는다",
    "turns": [
@@ -663,8 +597,8 @@
      "speaker": "B",
      "es": "Cumartesi boş musun?",
      "rd": "주마르테시 보시 무순?",
-     "ko": "토요일에 시간 있어?",
-     "note": "boş = 한가한",
+     "ko": "토요일에 한가해?",
+     "note": "boş musun = 한가해?",
      "tags": [
       "draft"
      ],
@@ -684,10 +618,10 @@
     {
      "num": 2,
      "speaker": "A",
-     "es": "Evet, boşum. Ne yapalım?",
-     "rd": "에벳, 보숨. 네 야팔름?",
+     "es": "Evet, boşum. Ne yapsak?",
+     "rd": "에벳, 보슘. 네 얍삭?",
      "ko": "응, 한가해. 뭐 할까?",
-     "note": "yapalım = 하자",
+     "note": "boşum = 한가해",
      "tags": [
       "draft"
      ],
@@ -703,7 +637,7 @@
        ""
       ],
       [
-       "yapalım",
+       "yapsak",
        "yapmak",
        ""
       ]
@@ -712,10 +646,10 @@
     {
      "num": 3,
      "speaker": "B",
-     "es": "Sinemaya gidebiliriz.",
-     "rd": "시네마야 기데빌리리즈.",
-     "ko": "영화관에 갈 수 있어.",
-     "note": "-ebilmek = ~할 수 있다",
+     "es": "Sinemaya gidelim mi?",
+     "rd": "시네마야 기델림 미?",
+     "ko": "영화관 갈까?",
+     "note": "gidelim mi = 갈까?",
      "tags": [
       "draft"
      ],
@@ -726,7 +660,7 @@
        ""
       ],
       [
-       "gidebiliriz",
+       "gidelim",
        "gitmek",
        ""
       ]
@@ -735,22 +669,17 @@
     {
      "num": 4,
      "speaker": "A",
-     "es": "Güzel fikir! Saat kaçta?",
-     "rd": "귀젤 피키르! 사아트 카치타?",
-     "ko": "좋은 생각! 몇 시에?",
-     "note": "saat kaçta = 몇 시에",
+     "es": "Süper! Saat kaçta?",
+     "rd": "쉬페르! 사앗 카치타?",
+     "ko": "좋아! 몇 시에?",
+     "note": "süper = 좋아",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Güzel",
-       "güzel",
-       ""
-      ],
-      [
-       "fikir",
-       "fikir",
+       "Süper",
+       "süper",
        ""
       ],
       [
@@ -763,17 +692,17 @@
     {
      "num": 5,
      "speaker": "B",
-     "es": "Yedide? Sonra bir şeyler yeriz.",
-     "rd": "예디데? 손라 비르 셰일레르 예리즈.",
-     "ko": "7시? 그 다음에 뭐 좀 먹자.",
-     "note": "sonra = 그 후에",
+     "es": "Yedi olur mu? Sonra yeriz.",
+     "rd": "예디 올루르 무? 손라 예리즈.",
+     "ko": "7시 어때? 그다음에 먹자.",
+     "note": "yedi = 7시",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "şeyler",
-       "şey",
+       "olur",
+       "olmak",
        ""
       ],
       [
@@ -786,17 +715,17 @@
     {
      "num": 6,
      "speaker": "A",
-     "es": "Tamam. Nerede buluşalım?",
-     "rd": "타맘. 네레데 불루샬름?",
+     "es": "Olur. Nerede buluşalım?",
+     "rd": "올루르. 네레데 불루샬름?",
      "ko": "좋아. 어디서 만나?",
-     "note": "buluşmak = 만나다",
+     "note": "nerede = 어디서",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Tamam",
-       "tamam",
+       "Olur",
+       "olmak",
        ""
       ],
       [
@@ -809,17 +738,17 @@
     {
      "num": 7,
      "speaker": "B",
-     "es": "Taksim'de, istasyonun önünde.",
-     "rd": "탁심데, 이스타스요눈 외뉜데.",
-     "ko": "탁심에서, 역 앞에서.",
-     "note": "önünde = ~앞에서",
+     "es": "Taksim'de, metro önünde.",
+     "rd": "탁심데, 메트로 외뉜데.",
+     "ko": "탁심에서, 지하철 앞에서.",
+     "note": "Taksim = 탁심",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "istasyonun",
-       "istasyon",
+       "metro",
+       "metro",
        ""
       ],
       [
@@ -832,17 +761,17 @@
     {
      "num": 8,
      "speaker": "A",
-     "es": "Anlaştık, cumartesi görüşürüz!",
-     "rd": "안라시특, 주마르테시 괴뤼쉬뤼즈!",
-     "ko": "알았어, 토요일에 봐!",
-     "note": "görüşürüz = 또 보자",
+     "es": "Tamam, cumartesi görüşürüz!",
+     "rd": "타맘, 주마르테시 괴뤼쉬뤼즈!",
+     "ko": "알겠어, 토요일에 봐!",
+     "note": "görüşürüz = 보자",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Anlaştık",
-       "anlaşmak",
+       "Tamam",
+       "tamam",
        ""
       ],
       [
@@ -861,17 +790,17 @@
   },
   {
    "id": "ep5",
-   "title": "감정 말하기",
+   "title": "영화 후 마음",
    "emoji": "💬",
    "scenario": "영화를 보고 나서 마음을 전한다",
    "turns": [
     {
      "num": 1,
      "speaker": "A",
-     "es": "Film gerçekten güzeldi.",
-     "rd": "필름 게르첵텐 귀젤디.",
-     "ko": "영화 정말 좋았어.",
-     "note": "-di = ~였다",
+     "es": "Film bayağı güzeldi ya.",
+     "rd": "필름 바야으 귀젤디 야.",
+     "ko": "영화 꽤 좋았지.",
+     "note": "bayağı = 꽤",
      "tags": [
       "draft"
      ],
@@ -882,8 +811,8 @@
        ""
       ],
       [
-       "gerçekten",
-       "gerçekten",
+       "bayağı",
+       "bayağı",
        ""
       ],
       [
@@ -896,27 +825,27 @@
     {
      "num": 2,
      "speaker": "B",
-     "es": "Evet, ama sonu üzücüydü.",
-     "rd": "에벳, 아마 소누 위쥐쥐이뒤.",
-     "ko": "응, 근데 결말이 슬펐어.",
-     "note": "ama = 하지만",
+     "es": "Ya sonu bayağı üzdü.",
+     "rd": "야 소누 바야으 위즈뒤.",
+     "ko": "근데 결말이 꽤 슬펐어.",
+     "note": "üzdü = 슬프게 했다",
      "tags": [
       "draft"
      ],
      "lemmas": [
-      [
-       "Evet",
-       "evet",
-       ""
-      ],
       [
        "sonu",
        "son",
        ""
       ],
       [
-       "üzücüydü",
-       "üzücü",
+       "bayağı",
+       "bayağı",
+       ""
+      ],
+      [
+       "üzdü",
+       "üzmek",
        ""
       ]
      ]
@@ -924,27 +853,27 @@
     {
      "num": 3,
      "speaker": "A",
-     "es": "Seninle film izlemeyi seviyorum.",
-     "rd": "세닌레 필름 이즐레메이 세비요룸.",
-     "ko": "너랑 영화 보는 게 좋아.",
-     "note": "seninle = 너와",
+     "es": "Seninle izlemek daha iyi.",
+     "rd": "세닌레 이즐레멕 다하 이이.",
+     "ko": "너랑 같이 보는 게 더 좋아.",
+     "note": "Seninle = 너와 함께",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "film",
-       "film",
-       ""
-      ],
-      [
-       "izlemeyi",
+       "izlemek",
        "izlemek",
        ""
       ],
       [
-       "seviyorum",
-       "sevmek",
+       "daha",
+       "daha",
+       ""
+      ],
+      [
+       "iyi",
+       "iyi",
        ""
       ]
      ]
@@ -952,17 +881,17 @@
     {
      "num": 4,
      "speaker": "B",
-     "es": "Ben de. Çok naziksin.",
-     "rd": "벤 데. 촉 나지크신.",
-     "ko": "나도. 너 참 다정해.",
-     "note": "de = ~도",
+     "es": "Ben de. Çok tatlısın.",
+     "rd": "벤 데. 촉 타틀르슨.",
+     "ko": "나도. 너 진짜 다정해.",
+     "note": "tatlısın = 다정하다",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "naziksin",
-       "nazik",
+       "tatlısın",
+       "tatlı",
        ""
       ]
      ]
@@ -970,10 +899,10 @@
     {
      "num": 5,
      "speaker": "A",
-     "es": "Haftaya yine görüşelim mi?",
-     "rd": "하프타야 이네 괴뤼셸림 미?",
-     "ko": "다음 주에 또 볼까?",
-     "note": "haftaya = 다음 주에",
+     "es": "Haftaya yine gidelim mi?",
+     "rd": "하프타야 이네 기델림 미?",
+     "ko": "다음 주에 또 갈까?",
+     "note": "gidelim = 가자",
      "tags": [
       "draft"
      ],
@@ -989,8 +918,8 @@
        ""
       ],
       [
-       "görüşelim",
-       "görüşmek",
+       "gidelim",
+       "gitmek",
        ""
       ]
      ]
@@ -998,10 +927,10 @@
     {
      "num": 6,
      "speaker": "B",
-     "es": "Tabii ki. Bana yaz!",
-     "rd": "타비 키. 바나 야즈!",
-     "ko": "당연하지. 문자해!",
-     "note": "yaz = 써(명령)",
+     "es": "Tabii. Yaz bana!",
+     "rd": "타비이. 야즈 바나!",
+     "ko": "당연하지. 나한테 문자해!",
+     "note": "Yaz = 써",
      "tags": [
       "draft"
      ],
@@ -1010,28 +939,23 @@
        "Tabii",
        "tabiî",
        ""
-      ],
-      [
-       "yaz",
-       "yazmak",
-       ""
       ]
      ]
     },
     {
      "num": 7,
      "speaker": "A",
-     "es": "Yazarım. İyi geceler, Elif.",
-     "rd": "야자름. 이이 게젤레르, 엘리프.",
-     "ko": "그럴게. 잘 자, 엘리프.",
-     "note": "iyi geceler = 잘 자",
+     "es": "Tamam. İyi geceler Elif.",
+     "rd": "타맘. 이이 게젤레르 엘리프.",
+     "ko": "알겠어. 잘 자, 엘리프.",
+     "note": "İyi geceler = 잘 자",
      "tags": [
       "draft"
      ],
      "lemmas": [
       [
-       "Yazarım",
-       "yazmak",
+       "Tamam",
+       "tamam",
        ""
       ],
       [
@@ -1044,10 +968,10 @@
     {
      "num": 8,
      "speaker": "B",
-     "es": "İyi geceler, Minjun. Görüşürüz!",
-     "rd": "이이 게젤레르, 민준. 괴뤼쉬뤼즈!",
-     "ko": "잘 자, 민준. 또 봐!",
-     "note": "görüşürüz = 또 보자",
+     "es": "İyi geceler Minjun. Görüşürüz!",
+     "rd": "이이 게젤레르 민준. 괴뤼쉬뤼즈!",
+     "ko": "잘 자, 민준. 또 보자!",
+     "note": "Görüşürüz = 또 보자",
      "tags": [
       "draft"
      ],

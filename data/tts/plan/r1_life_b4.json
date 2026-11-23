@@ -8,7 +8,7 @@
 "segs": [
 [
 "cheerful",
-"Geçmiş olsun! Kapıyı aç, çorba getirdim."
+"Geçmiş olsun ya, çorba getirdim!"
 ]
 ]
 },
@@ -16,7 +16,7 @@
 "segs": [
 [
 "excited",
-"Gerçekten mi? Can, sen harikasın."
+"Gerçekten mi? Can, harikasın!"
 ]
 ]
 },
@@ -24,7 +24,7 @@
 "segs": [
 [
 "gentle",
-"Annem yaptı. Sana selam söyledi."
+"Annem pişirdi, selam dedi."
 ]
 ]
 },
@@ -32,7 +32,7 @@
 "segs": [
 [
 "surprised",
-"Bir dakika. Bu çorba niye yarım kalmış?"
+"Bir dakika, neden yarım bu?"
 ]
 ]
 },
@@ -40,7 +40,7 @@
 "segs": [
 [
 "amused",
-"Yolda baktım. Sıcak mı diye."
+"Yolda tadına baktım."
 ]
 ]
 },
@@ -48,7 +48,7 @@
 "segs": [
 [
 "tsukkomi",
-"Ciddi misin? Yarısını yedin mi sen?"
+"Ciddi misin? Yarısını mı?"
 ]
 ]
 },
@@ -56,11 +56,11 @@
 "segs": [
 [
 "gentle",
-"Ama bugün kafede senin yerin boştu."
+"Şey..."
 ],
 [
 "shy",
-"O canımı sıktı."
+"yerin boştu, üzüldüm."
 ]
 ]
 },
@@ -68,7 +68,7 @@
 "segs": [
 [
 "shy",
-"Şey... Yarısı da yeter."
+"Yarım yeter bana."
 ]
 ]
 }

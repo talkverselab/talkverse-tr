@@ -9,7 +9,7 @@
 "segs": [
 [
 "excited",
-"Bak, yukarıdan sepet iniyor!"
+"Bak ya, sepet iniyor!"
 ]
 ]
 },
@@ -25,7 +25,7 @@
 "segs": [
 [
 "cheerful",
-"Para ve not. 「Bir ekmek.」 Geldim, ben alıp geliyorum! Yaşasın!"
+"Yaşasın! Para var, alayım."
 ]
 ]
 },
@@ -33,7 +33,7 @@
 "segs": [
 [
 "worried",
-"Dur, dur! Para üstünü de sepete koy!"
+"Dur! Para üstü de koy!"
 ]
 ]
 },
@@ -41,11 +41,11 @@
 "segs": [
 [
 "cheerful",
-"Ekmek bitmiş."
+"Geldim!"
 ],
 [
 "amused",
-"Üç simit aldım, biri benim."
+"Simit aldım, biri benim."
 ]
 ]
 },
@@ -61,7 +61,7 @@
 "segs": [
 [
 "flustered",
-"Eyvah! Teyze, özür dilerim, ekmek bitmiş!"
+"Eyvah! Teyze, ekmek bitmiş!"
 ]
 ]
 },
@@ -69,7 +69,7 @@
 "segs": [
 [
 "amused",
-"Bak, sepet yine iniyor. Buyur, içinde terlik var."
+"Bak, sepet yine. Terlik buyur!"
 ]
 ]
 }

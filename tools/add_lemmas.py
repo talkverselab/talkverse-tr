@@ -46,10 +46,13 @@ for r in csv.DictReader(open(ROOT / 'assets/data/freq/lang_es_top.csv', encoding
 miss = collections.Counter()
 ex = {}
 tot = hit = 0
-for f in sorted((ROOT / 'assets/data/dialogues').glob('L*.json')):
+# 옛 이야기 L*.json(episodes 묶음) + R0~R4 편 파일(한 파일 한 편) — Grok 재작성 뒤 다시 돌린다(2026-11-23)
+# R 편은 --all 일 때만(단어장에 없는 레마가 많아 앱의 단어표 시험이 깨진다 — uk 가 단어를 더한 뒤에)
+FILES = sorted((ROOT / 'assets/data/dialogues').glob('L*.json')) + (sorted((ROOT / 'assets/data/dialogues').glob('R*/*/*.json')) if '--all' in sys.argv else [])
+for f in FILES:
     d = json.load(open(f, encoding='utf-8'))
     changed = False
-    for ep in d.get('episodes', []):
+    for ep in d.get('episodes', [d] if 'turns' in d else []):
         for t in ep.get('turns', []):
             an = zeyrek.MorphAnalyzer()  # 분석기 버그(앞 낱말이 뒤 낱말 분석을 망가뜨림) 때문에 턴마다 새로
             out = []

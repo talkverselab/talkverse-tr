@@ -11,9 +11,9 @@
   "love",
   "culture"
  ],
- "title": "아저씨, 쟤한테요",
+ "title": "아저씨 통해서만",
  "emoji": "🫖",
- "scene": "삐친 Elif 가 나와는 말을 안 하고 찻집 아저씨를 통해서만 말한다",
+ "scene": "삐친 Elif 가 나와는 아예 말 안 하고 찻집 아저씨만 통해서 전한다",
  "speakers": {
   "A": "{name}",
   "B": "Elif",
@@ -36,8 +36,8 @@
   {
    "num": 1,
    "speaker": "A",
-   "tl": "Elif, günaydın! Çay içer misin?",
-   "rd": "엘리프, 귀나이든! 차이 이체르 미신?",
+   "tl": "Elif, günaydın! Çay içelim mi?",
+   "rd": "엘리프, 귀나이든! 차이 이첼림 미?",
    "ko": "Elif, 좋은 아침! 차 마실래?",
    "note": "günaydın = 좋은 아침",
    "tags": [
@@ -52,7 +52,7 @@
    "tl": "Amca, ona söyle. Konuşmuyorum.",
    "rd": "암자, 오나 쇠일레. 코누시무요룸.",
    "ko": "아저씨, 쟤한테 전해 주세요. 말 안 한다고.",
-   "note": "ona söyle = 쟤한테 말해",
+   "note": "ona söyle = 걔한테 전해",
    "tags": [
     "expr:abi"
    ],
@@ -62,10 +62,10 @@
   {
    "num": 3,
    "speaker": "C",
-   "tl": "Elif Hanım konuşmuyormuş. Kusura bakmayın.",
-   "rd": "엘리프 하늠 코누시무요르무시. 쿠수라 박마이은.",
-   "ko": "Elif 씨가 말씀을 안 하신답니다. 죄송합니다.",
-   "note": "kusura bakmayın = 죄송합니다",
+   "tl": "Elif hanım konuşmuyor. Kusura bakmayın.",
+   "rd": "엘리프 하늠 코누시무요르. 쿠수라 박마이은.",
+   "ko": "Elif 씨가 말씀 안 하신대요. 죄송합니다.",
+   "note": "kusura bakmayın = 죄송해요",
    "tags": [
     "expr:kusura bakmayın"
    ],
@@ -75,10 +75,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Niye öyle? Ben ne yaptım?",
-   "rd": "니예 외일레? 벤 네 얍틈?",
+   "tl": "Neden ya? Ne yaptım?",
+   "rd": "네덴 야? 네 얍틈?",
    "ko": "왜 그래? 나 뭐 했어?",
-   "note": "ne oldu = 무슨 일이야",
+   "note": "neden ya = 왜 그래",
    "tags": [
     "expr:ne oldu"
    ],
@@ -88,10 +88,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Amca, söyle. Dün gece mesaj attım, cevap yoktu.",
-   "rd": "암자, 쇠일레. 뒨 게제 메사즈 아틈, 제밥 욕투.",
-   "ko": "아저씨, 전해 주세요. 어젯밤에 문자했는데 답이 없었다고.",
-   "note": "",
+   "tl": "Amca, söyle. Dün mesaj attım, cevap yok.",
+   "rd": "암자, 쇠일레. 뒨 메사즈 아틈, 제밥 욕.",
+   "ko": "아저씨, 전해 주세요. 어제 문자했는데 답이 없었다고.",
+   "note": "cevap yok = 답 없음",
    "tags": [],
    "new": [],
    "emotion": "annoyed"
@@ -99,9 +99,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Uyuyordum ya! Özür dilerim, Elif.",
-   "rd": "우유요르둠 야! 외쥐르 딜레림, 엘리프.",
-   "ko": "자고 있었잖아! 미안해, Elif.",
+   "tl": "Uyuyordum ya! Özür dilerim.",
+   "rd": "우유요르둠 야! 외쥐르 딜레림.",
+   "ko": "자고 있었잖아! 미안해.",
    "note": "özür dilerim = 미안해",
    "tags": [
     "expr:özür dilerim"
@@ -112,9 +112,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Amca, ona söyle... Çok özledim.",
-   "rd": "암자, 오나 쇠일레... 촉 외즐레딤.",
-   "ko": "아저씨, 쟤한테 전해 주세요… 너무 보고 싶었다고.",
+   "tl": "Amca, söyle... Çok özledim.",
+   "rd": "암자, 쇠일레... 촉 외즐레딤.",
+   "ko": "아저씨, 전해 주세요… 너무 보고 싶었다고.",
    "note": "çok özledim = 너무 보고 싶었어",
    "tags": [
     "expr:çok özledim",
@@ -126,10 +126,10 @@
   {
    "num": 8,
    "speaker": "C",
-   "tl": "Onu sen söyle, kızım. Çay soğuyor.",
-   "rd": "오누 센 쇠일레, 크즘. 차이 소우요르.",
-   "ko": "그건 네가 직접 말해라, 얘야. 차 식는다.",
-   "note": "kendin = 네가 직접",
+   "tl": "Sen söyle kızım. Çay soğuyor.",
+   "rd": "센 쇠일레 크즘. 차이 소우요르.",
+   "ko": "네가 직접 말해, 얘야. 차 식는다.",
+   "note": "sen söyle = 네가 말해",
    "tags": [],
    "new": [],
    "emotion": "gentle"

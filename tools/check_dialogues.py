@@ -94,9 +94,11 @@ def main():
                 E(f'턴 번호 {n} ≠ {i}')
             if t.get('speaker') not in sp:
                 E(f'턴 {i} 화자 {t.get("speaker")} 가 speakers 에 없음')
-            if not tl or not t.get('ko') or not t.get('note'):
-                E(f'턴 {i} tl·ko·note 빠짐')
+            if not tl or not t.get('ko'):
+                E(f'턴 {i} tl·ko 빠짐')
                 continue
+            if not t.get('note'):
+                W(f'턴 {i} note(풀이) 빔 — Grok 답에 풀이 칸이 없던 줄')
             text += ' ' + low(tl)
             w = len(words(tl))
             a, b = WORDS[reg]

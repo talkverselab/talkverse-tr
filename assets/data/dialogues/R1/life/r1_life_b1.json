@@ -33,9 +33,9 @@
   {
    "num": 1,
    "speaker": "B",
-   "tl": "Oha! Elektrik gitti ya. Yemek ne olacak?",
-   "rd": "오하! 엘렉트릭 기티 야. 예멕 네 올라작?",
-   "ko": "헐! 전기 나갔어 야. 밥은 어떡해?",
+   "tl": "Oha! Elektrik gitti ya.",
+   "rd": "오하! 엘렉트릭 기티 야.",
+   "ko": "헐! 전기 나갔네 야.",
    "note": "oha = 헐",
    "tags": [
     "expr:oha"
@@ -46,9 +46,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "tl": "Yemek mi önce? Bir dakika, telefonum nerede?",
-   "rd": "예멕 미 왼제? 비르 다키카, 텔레포눔 네레데?",
-   "ko": "밥이 먼저냐? 잠깐만, 폰 어디 있지?",
+   "tl": "Yemek mi? Bir dakika, telefon nerede?",
+   "rd": "예멕 미? 비르 다키카, 텔레폰 네레데?",
+   "ko": "밥이 먼저야? 잠깐만, 폰 어디 있지?",
    "note": "bir dakika = 잠깐만",
    "tags": [
     "expr:bir dakika"
@@ -59,34 +59,52 @@
   {
    "num": 3,
    "speaker": "B",
-   "tl": "Bu mahalle hep böyle olur. Yarım saatte gelir.",
-   "rd": "부 마할레 헵 뵈일레 올루르. 야름 사아테 겔리르.",
+   "tl": "Bu mahalle hep böyle. Otuz dakikada gelir.",
+   "rd": "부 마할레 헵 뵈일레. 오투즈 다키카다 겔리르.",
    "ko": "이 동네 맨날 그래. 30분이면 와.",
-   "note": "yarım saat = 30분",
+   "note": "mahalle = 동네",
    "tags": [],
    "new": [],
-   "emotion": "amused"
+   "segs": [
+    [
+     "amused",
+     "Bu mahalle hep böyle."
+    ],
+    [
+     "amused",
+     "Otuz dakikada gelir."
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "tl": "Tamam tamam. Karanlıkta yeriz, romantik olur.",
-   "rd": "타맘 타맘. 카란륵타 예리즈, 로만틱 올루르.",
+   "tl": "Tamam tamam. Karanlıkta yiyelim, romantik olur.",
+   "rd": "타맘 타맘. 카란륵타 이옐림, 로만틱 올루르.",
    "ko": "그래 그래. 어둠 속에서 먹자, 로맨틱하겠네.",
    "note": "tamam = 그래",
    "tags": [
     "expr:tamam"
    ],
    "new": [],
-   "emotion": "teasing"
+   "segs": [
+    [
+     "teasing",
+     "Tamam tamam."
+    ],
+    [
+     "teasing",
+     "Karanlıkta yiyelim, romantik olur."
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "tl": "Bir dakika ya. Yan komşularda ışık var.",
-   "rd": "비르 다키카 야. 얀 콤슐라르다 으식 바르.",
-   "ko": "잠깐만 야. 옆집들은 불 켜져 있는데.",
-   "note": "komşu = 이웃",
+   "tl": "Hadi ya. Yan evler yanıyor ama.",
+   "rd": "하디 야. 얀 에블레르 야느요르 아마.",
+   "ko": "에이 야. 옆집들은 불 켜져 있는데.",
+   "note": "hadi ya = 에이 야",
    "tags": [
     "expr:bir dakika"
    ],
@@ -96,10 +114,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "tl": "Hadi ya... Üst katta da yanıyor.",
-   "rd": "하디 야... 위스트 카타 다 야느요르.",
-   "ko": "에이... 위층도 켜져 있네.",
-   "note": "hadi ya = 에이",
+   "tl": "Üst kat da yanıyor ya.",
+   "rd": "위스트 캇 다 야느요르 야.",
+   "ko": "에이… 위층도 켜져 있네.",
+   "note": "üst kat = 위층",
    "tags": [
     "expr:hadi ya"
    ],
@@ -109,8 +127,8 @@
   {
    "num": 7,
    "speaker": "B",
-   "tl": "Sizin evde yok sadece. Faturayı ödedin mi?",
-   "rd": "시진 에브데 욕 사데제. 파투라이으 외데딘 미?",
+   "tl": "Senin evde yok. Fatura ödedin mi?",
+   "rd": "세닌 에브데 욕. 파투라 외데딘 미?",
    "ko": "너네 집만 없어. 요금 냈어?",
    "note": "fatura = 고지서",
    "tags": [],
@@ -122,10 +140,10 @@
   {
    "num": 8,
    "speaker": "A",
-   "tl": "Fatura mı? Ne faturası o?",
-   "rd": "파투라 므? 네 파투라스 오?",
+   "tl": "Fatura mı? Ne faturası ya?",
+   "rd": "파투라 므? 네 파투라스 야?",
    "ko": "고지서? 무슨 고지서야?",
-   "note": "hangi = 어느, 무슨",
+   "note": "fatura = 고지서",
    "tags": [],
    "new": [],
    "emotion": "flustered"
