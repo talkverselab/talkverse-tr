@@ -8,6 +8,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 sys.path.insert(0, ROOT + '/tools')
 from rd_tr import rd  # noqa: E402
 
+SIDE = ROOT + '/data/review/dialogue_review.json'
 EMO = set(json.load(open(ROOT + '/data/tts/voices.json', encoding='utf-8'))['emotions'])
 
 
@@ -80,7 +81,11 @@ def apply(f, d, head, nt):
     for k in ('title', 'scene'):
         if head.get(k):
             d[k] = head[k]
-    d.setdefault('review', {})['grok'] = 'grok 전문가 2026-11-09'
+    # 작업 기록(어느 도구로 썼는지)은 앱 묶음·공개 원고에 넣지 않고 data/review/dialogue_review.json 에(심사 점검 11-23)
+    _side = json.load(open(SIDE, encoding='utf-8')) if os.path.exists(SIDE) else {}
+    _side.setdefault(d['id'], {})['rewrite'] = 'grok 빠른'
+    json.dump(_side, open(SIDE, 'w', encoding='utf-8'), ensure_ascii=False, indent=1, sort_keys=True)
+    d.pop('review', None)
     return warn
 
 

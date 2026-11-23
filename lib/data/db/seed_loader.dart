@@ -48,6 +48,9 @@ class SeedLoader {
     return t.isEmpty ? null : t;
   }
 
+  /// 빈도표에 있지만 앱에 보이지 않게 할 비속어(12+ 등급). 빈도표 파일은 그대로 둔다(구간·순위 계산용).
+  static const kWordBlocklist = {'sikmek', 'bok', 'orospu', 'piç', 'am', 'göt', 'sürtük', 'kaltak'};
+
   Future<void> _seedWords() async {
     final String raw;
     try {
@@ -61,6 +64,7 @@ class SeedLoader {
     for (var i = 1; i < rows.length; i++) {
       final row = rows[i];
       if (row.length < 9) continue;
+      if (kWordBlocklist.contains('${row[1]}')) continue; // 비속어는 단어 화면·퀴즈에서 뺀다(12+, 심사 점검 11-23)
       batch.add(WordsCompanion.insert(
         rank: Value(int.tryParse('${row[0]}') ?? 0),
         word: '${row[1]}',

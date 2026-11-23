@@ -186,9 +186,5 @@
    "new": [],
    "emotion": "shout"
   }
- ],
- "review": {
-  "draft": "claude 2026-11-07",
-  "grok": "grok 전문가 2026-11-09"
- }
+ ]
 }

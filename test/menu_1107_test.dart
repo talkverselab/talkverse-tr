@@ -40,8 +40,9 @@ void main() {
 
   test('단어표 — 2,000위 + 회화 단어 251개', () async {
     final all = await appDb.select(appDb.words).get();
-    expect(all.where((w) => w.region != 'conv').length, 2000);
-    expect(all.where((w) => w.region == 'R5').length, 1432);
+    expect(all.where((w) => w.region != 'conv').length, 2000 - SeedLoader.kWordBlocklist.length); // 비속어 8개 뺌(12+)
+    expect(all.where((w) => w.region == 'R5').length, 1432 - SeedLoader.kWordBlocklist.length); // 8개 모두 R5
+    expect(all.any((w) => SeedLoader.kWordBlocklist.contains(w.word)), isFalse);
     expect(all.where((w) => w.region == 'conv').length, 251); // L1 baklava·metro + Grok 회화 레마 240개(uk 11-23)
     final words = {for (final w in all) w.word};
     for (final d in DialogueService.instance.all) {

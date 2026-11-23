@@ -1,0 +1,726 @@
+{
+ "r0_culture_a1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_culture_c1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_culture_c3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_friends_a2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_friends_a3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_friends_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_friends_c1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_friends_c2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_friends_c3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_friends_c4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_life_a1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_life_a4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_love_a1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_love_a4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_love_a5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_love_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_love_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_love_c1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_love_c2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_love_c4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_travel_a1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_travel_a4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_travel_a6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_travel_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_travel_c1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_travel_c2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_travel_c3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r0_travel_c4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_a2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_a3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_a4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_a5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_a6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_c2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_culture_c4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_friends_a1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_friends_a4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_friends_a5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_friends_a6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_friends_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_friends_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_friends_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_friends_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_friends_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_a2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_a3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_a5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_a6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_c1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_c2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_c3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_life_c4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_love_a2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_love_a3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_love_a6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_love_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_love_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_love_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_love_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_love_c3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_survival_s1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_survival_s2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_survival_s3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_travel_a2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_travel_a3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_travel_a5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_travel_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_travel_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_travel_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_travel_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r1_travel_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_culture_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_culture_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_culture_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_culture_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_culture_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_culture_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_culture_b7": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_culture_b8": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_friends_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_friends_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_friends_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_friends_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_friends_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_friends_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_friends_b7": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_friends_b8": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_life_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_life_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_life_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_life_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_life_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_life_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_life_b7": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_life_b8": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_love_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_love_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_love_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_love_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_love_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_love_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_love_b7": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_love_b8": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_study_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_study_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_study_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_study_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_study_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_study_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_study_b7": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_study_b8": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_travel_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_travel_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_travel_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_travel_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_travel_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_travel_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_travel_b7": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_travel_b8": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_work_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_work_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_work_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_work_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_work_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_work_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_work_b7": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r2_work_b8": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_culture_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_culture_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_culture_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_culture_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_culture_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_culture_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_friends_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_friends_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_friends_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_friends_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_friends_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_friends_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_life_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_life_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_life_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_life_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_life_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_life_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_love_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_love_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_love_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_love_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_love_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_love_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_study_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_study_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_study_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_study_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_study_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_study_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_travel_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_travel_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_travel_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_travel_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_travel_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_travel_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_work_b1": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_work_b2": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_work_b3": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_work_b4": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_work_b5": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ },
+ "r3_work_b6": {
+  "draft": "claude 2026-11-07",
+  "grok": "grok 전문가 2026-11-09"
+ }
+}
