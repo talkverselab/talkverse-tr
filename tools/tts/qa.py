@@ -3,7 +3,7 @@
   python qa.py <wav폴더> <편id>... [--jobs <moss_jobs.json>]   결과는 <wav폴더>/qa.json 에 쌓인다(조각 → sim·dur·tries·ok)
 소문자로 바꿔 글자·숫자만 남겨 견준다(띄어쓰기·문장부호 무시). 나쁨 = 비슷함 0.90 미만·앞뒤 낱말 누락 또는 길이가 글자 수에 견줘 지나치게 길거나 짧음.
 재생성본은 PC 의 out/tr/retake/<편>/<조각>.t<N>.wav — 받아 온 뒤 다시 돌리면 가장 잘 나온 판을 본 파일로 고른다. 세 번 해도 나쁘면 가장 나은 판을 쓰고 qa.json 에 ok=false 로 남긴다."""
-import array, hashlib, math
+import hashlib
 import difflib, glob, json, os, re, shutil, subprocess, sys
 import mlx_whisper
 import ttslib as L
@@ -25,28 +25,6 @@ def peak(f):
     o = subprocess.run(['ffmpeg', '-hide_banner', '-i', f, '-af', 'volumedetect', '-f', 'null', '-'], capture_output=True, text=True).stderr
     m = re.search(r'max_volume: (-?[\d.]+) dB', o)
     return float(m.group(1)) if m else -99.0
-
-
-SIL_DB, SIL_RUN, SIL_EDGE, SIL_MIN = -40.0, 15, 3, 0.15   # 이탈리아어앱 2ce965d(uk 11-24) 와 같은 잡음 바닥 측정
-
-
-def floor(f):
-    """잡음 바닥(dB) = -40dB 아래 0.3초 이상 이어진 구간(앞뒤 60ms 버림)의 RMS. 그런 구간 합이 150ms 미만이면 None(판정 불가).
-    tr 은 이 값을 qa.json 에 기록만 한다(들어 볼 조각 고르기용, 재생성 근거 아님 — 위 PASS 주석)."""
-    o = subprocess.run(['ffmpeg', '-v', 'error', '-i', f, '-ac', '1', '-ar', '16000', '-f', 's16le', '-'], capture_output=True).stdout
-    x = array.array('h', o[:len(o) // 2 * 2])
-    ms = [sum(v * v for v in x[i:i + 320]) / 320 for i in range(0, len(x) - 320, 320)]
-    db = [20 * math.log10(max(math.sqrt(m), 1) / 32768) for m in ms]
-    quiet, run = [], []
-    for m, d in zip(ms + [None], db + [0.0]):
-        if m is not None and d < SIL_DB:
-            run.append(m); continue
-        if len(run) >= SIL_RUN:
-            quiet += run[SIL_EDGE:len(run) - SIL_EDGE]
-        run = []
-    if len(quiet) * 0.02 < SIL_MIN:
-        return None
-    return round(20 * math.log10(max(math.sqrt(sum(quiet) / len(quiet)), 1) / 32768), 1)
 
 
 def score(f, text):
@@ -95,7 +73,6 @@ def main():
                 if s > q['sim']:
                     shutil.copy(c, f); q['sim'], q['dur'] = s, d; q['h'] = hashlib.sha1(open(f, 'rb').read()).hexdigest()[:16]
                 os.remove(c)
-            q['floor'] = floor(f)   # 기록만(None = 판정 불가)
             q['ok'] = q['sim'] >= PASS
             if not q['ok']:
                 bad += 1
