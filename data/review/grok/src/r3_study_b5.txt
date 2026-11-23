@@ -2,7 +2,7 @@
 kind: long
 title: 수고하세요의 힘
 emoji: 🏛️
-scene: 체류증 창구, 담당자가 눈도 안 마주치는데 Zeynep 이 한마디를 일러 준다
+scene: 체류증 창구, 담당자가 눈도 안 마주치는데 Zeynep이 한마디를 일러 준다
 speakers: A={name}, B=Zeynep, C=Memur
 register: mixed
 twist: 13 ignore
@@ -11,7 +11,7 @@ goal: kolay gelsin 으로 관공서 문 열기
 expressions: kolay gelsin; merhaba; ne alaka; sağ ol
 A | ? | 안녕하세요, 체류증 때문에 왔어요. 예약했어요. |  | emotion=polite
 C | ? | 번호표 뽑고 기다리세요. |  | emotion=stiff
-A | ? | 뽑았어요. 147번이요. 두 시간째 기다려요. |  | emotion=neutral+annoyed
+A | ? | 뽑았어요. 147번이요. 두 시간째 기다려요. |  | emotion=neutral
 C | ? | 지금 점심시간이에요, 기다리세요. |  | emotion=stiff
 A | ? | 근데 네 시인데요! 지금이 점심시간이에요? |  | emotion=annoyed+tsukkomi
 C | ? | 지금 점심시간이에요, 기다리세요. |  | emotion=stiff
@@ -24,4 +24,4 @@ B | ? | 해 봐. 잃을 게 뭐 있어? |  | emotion=teasing
 A | ? | 수고 많으십니다… |  | emotion=polite
 C | ? | 고맙다, 학생. 자, 서류 줘 봐. |  | emotion=gentle
 A | ? | Zeynep, 쳐다봤어! 내 얼굴을 봤어! 말도 했어! |  | emotion=excited
-C | ? | 사진이 빠졌네. 내일 와. 자, 수고해. |  | emotion=stiff+amused
+C | ? | 사진이 빠졌네. 내일 와. 자, 수고해. |  | emotion=stiff

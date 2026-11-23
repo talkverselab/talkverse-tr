@@ -1,0 +1,16 @@
+=== L1_ep5
+kind: long
+title: 감정 말하기
+emoji: 💬
+scene: 영화를 보고 나서 마음을 전한다
+speakers: A=Minjun, B=Elif
+register: casual
+goal: 왕초보 — 턴마다 터키어 2~7단어
+A | ? | 영화 정말 좋았어. |  | emotion=neutral
+B | ? | 응, 근데 결말이 슬펐어. |  | emotion=neutral
+A | ? | 너랑 영화 보는 게 좋아. |  | emotion=neutral
+B | ? | 나도. 너 참 다정해. |  | emotion=neutral
+A | ? | 다음 주에 또 볼까? |  | emotion=neutral
+B | ? | 당연하지. 문자해! |  | emotion=neutral
+A | ? | 그럴게. 잘 자, 엘리프. |  | emotion=neutral
+B | ? | 잘 자, 민준. 또 봐! |  | emotion=neutral

@@ -2,7 +2,7 @@
 kind: long
 title: 우리 뭐야
 emoji: 🍽️
-scene: 처음 그 디저트 가게, Elif 가 드디어 묻는다 — 우리는 뭐냐고
+scene: 처음 그 디저트 가게, Elif가 드디어 묻는다 — 우리는 뭐냐고
 speakers: A={name}, B=Elif, C=Garson
 register: mixed
 twist: 11 emotion

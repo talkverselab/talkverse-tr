@@ -1,0 +1,16 @@
+=== L1_ep2
+kind: long
+title: 카페에서
+emoji: ☕
+scene: 처음 만나 카페에서 주문한다
+speakers: A=Minjun, B=Elif
+register: casual
+goal: 왕초보 — 턴마다 터키어 2~7단어
+B | ? | 뭐 마실래? |  | emotion=neutral
+A | ? | 커피 하나, 부탁해. 너는? |  | emotion=neutral
+B | ? | 나는 밀크티로 할게. |  | emotion=neutral
+A | ? | 여기 디저트 맛있어? |  | emotion=neutral
+B | ? | 엄청! 바클라바가 내 최애야. |  | emotion=neutral
+A | ? | 그럼 두 개 시키자. |  | emotion=neutral
+B | ? | 완벽해. 내가 살게. |  | emotion=neutral
+A | ? | 아니 아니, 오늘은 내가 낼게! |  | emotion=neutral

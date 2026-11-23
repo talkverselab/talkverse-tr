@@ -9,11 +9,11 @@ twist: 7 reveal
 purpose: making_friends study_abroad
 goal: elektrik gitti·fatura 로 정전 얘기하기
 expressions: oha; bir dakika; tamam; hadi ya
-B | ? | 헐, 전기 나갔어! 밥은 어떡해? |  | emotion=surprised
+B | ? | 헐! 전기 나갔어 야. 밥은 어떡해? |  | emotion=surprised
 A | ? | 밥이 먼저냐? 잠깐만, 폰 어디 있지? |  | emotion=tsukkomi
-B | ? | 이 동네 맨날 이래. 30분이면 돌아와. |  | emotion=amused
-A | ? | 그래. 어둠 속에서 먹자, 아주 로맨틱하네. |  | emotion=teasing
-B | ? | 잠깐만. 옆집들은 불이 켜져 있는데. |  | emotion=surprised
-A | ? | 에이. 위층도 켜져 있네. |  | emotion=surprised
+B | ? | 이 동네 맨날 그래. 30분이면 와. |  | emotion=amused
+A | ? | 그래 그래. 어둠 속에서 먹자, 로맨틱하겠네. |  | emotion=teasing
+B | ? | 잠깐만 야. 옆집들은 불 켜져 있는데. |  | emotion=surprised
+A | ? | 에이... 위층도 켜져 있네. |  | emotion=surprised
 B | ? | 너네 집만 없어. 요금 냈어? |  | emotion=teasing
-A | ? | 고지서? 무슨 고지서? |  | emotion=flustered
+A | ? | 고지서? 무슨 고지서야? |  | emotion=flustered

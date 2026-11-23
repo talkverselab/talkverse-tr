@@ -1,0 +1,16 @@
+=== L1_ep3
+kind: long
+title: 길 묻기
+emoji: 🗺️
+scene: 박물관 가는 길을 묻는다
+speakers: A=Minjun, B=Elif
+register: casual
+goal: 왕초보 — 턴마다 터키어 2~7단어
+A | ? | 실례합니다, 박물관이 어디예요? |  | emotion=neutral
+B | ? | 직진하다가 왼쪽으로 돌아. |  | emotion=neutral
+A | ? | 멀어? |  | emotion=neutral
+B | ? | 아니, 걸어서 5분이야. |  | emotion=neutral
+A | ? | 좋다. 오늘 열었어? |  | emotion=neutral
+B | ? | 응, 6시까지. |  | emotion=neutral
+A | ? | 같이 갈래? |  | emotion=neutral
+B | ? | 좋아! 나 예술 좋아해. |  | emotion=neutral

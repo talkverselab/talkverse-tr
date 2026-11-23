@@ -1,0 +1,16 @@
+=== L1_ep1
+kind: long
+title: 첫 인사
+emoji: 💕
+scene: 언어교환 앱에서 처음 말을 건다
+speakers: A=Minjun, B=Elif
+register: casual
+goal: 왕초보 — 턴마다 터키어 2~7단어
+A | ? | 안녕! 나는 민준이야. 너는? |  | emotion=neutral
+B | ? | 안녕, 내 이름은 엘리프야. 어디 사람이야? |  | emotion=neutral
+A | ? | 한국인이야. 터키어 배우고 있어. |  | emotion=neutral
+B | ? | 멋지다! 네 터키어 벌써 좋은데. |  | emotion=neutral
+A | ? | 고마워! 매일 연습해. |  | emotion=neutral
+B | ? | 이스탄불에 살아? |  | emotion=neutral
+A | ? | 응, 두 달째야. |  | emotion=neutral
+B | ? | 그럼 내가 도시를 보여 줄게! |  | emotion=neutral

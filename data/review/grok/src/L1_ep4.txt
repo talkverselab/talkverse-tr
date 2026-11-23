@@ -1,0 +1,16 @@
+=== L1_ep4
+kind: long
+title: 약속 잡기
+emoji: 📅
+scene: 주말에 만날 약속을 잡는다
+speakers: A=Minjun, B=Elif
+register: casual
+goal: 왕초보 — 턴마다 터키어 2~7단어
+B | ? | 토요일에 시간 있어? |  | emotion=neutral
+A | ? | 응, 한가해. 뭐 할까? |  | emotion=neutral
+B | ? | 영화관에 갈 수 있어. |  | emotion=neutral
+A | ? | 좋은 생각! 몇 시에? |  | emotion=neutral
+B | ? | 7시? 그 다음에 뭐 좀 먹자. |  | emotion=neutral
+A | ? | 좋아. 어디서 만나? |  | emotion=neutral
+B | ? | 탁심에서, 역 앞에서. |  | emotion=neutral
+A | ? | 알았어, 토요일에 봐! |  | emotion=neutral

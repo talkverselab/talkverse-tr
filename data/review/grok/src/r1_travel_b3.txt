@@ -15,5 +15,5 @@ A | ? | 네. 근데 여기 바다가 없어요. |  | emotion=polite+annoyed
 B | ? | 발코니로 나가서 오른쪽을 보세요. |  | emotion=polite
 A | ? | 봤어요. 이상하다, 건물이 있는데요. |  | emotion=surprised
 B | ? | 조금 더 몸을 내밀어 보세요. 파란 거 보이세요? |  | emotion=polite
-A | ? | 손톱만 한 파란색! 다른 방 있어요? |  | emotion=tsukkomi+polite
+A | ? | 아이고! 손톱만 한 파란색! 다른 방 있어요? |  | emotion=tsukkomi
 B | ? | 내일은 있어요, 손님. 오늘 밤은 조금 내밀어 보세요. |  | emotion=polite
