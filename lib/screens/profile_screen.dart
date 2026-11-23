@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../core/pane.dart';
 import '../services/ko_reading.dart';
 import 'about_screen.dart';
-import 'custom_script_screen.dart' show kCustomScriptLive;
 import 'login_screen.dart';
 
 import '../core/theme.dart';
@@ -29,7 +28,7 @@ class ProfileScreen extends StatelessWidget {
           const SizedBox(height: 8),
           const _AccountSection(),
           const SizedBox(height: 8),
-          if (kCustomScriptLive) const _PassTiles(), // 이용권이 여는 것(맞춤 회화)이 숨김인 동안 입구도 숨김(애플 2.1, 심사 점검 11-23)
+          const _PassTiles(), // 이용권 입구 — 2단계·문법 3스텝 등을 연다(PAYWALL_SPEC, 11-23 A 취소)
           const SizedBox(height: 18),
           _SectionTitle(tr('학습자 프로필')),
           const SizedBox(height: 8),

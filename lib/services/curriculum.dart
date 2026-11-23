@@ -287,7 +287,8 @@ class CStage {
   final List<int> pick;
   final int pass;
   final Map<String, int> daily; // 하루 새 편 수 light·normal·focus
-  const CStage(this.n, this.title, this.desc, this.dialogueIds, this.pick, this.pass, [this.daily = kDailyGoals]);
+  final bool free; // 이용권 없이 열림(서버 값, 없으면 1단계만 — PAYWALL_SPEC §2)
+  const CStage(this.n, this.title, this.desc, this.dialogueIds, this.pick, this.pass, [this.daily = kDailyGoals, bool? free]) : free = free ?? n == 1;
   String get key => '$n';
   factory CStage.fromJson(Map j) => CStage(
         (j['n'] as num).toInt(),
@@ -300,6 +301,7 @@ class CStage {
           for (final k in kDailyGoals.keys)
             k: ((j['daily'] as Map?)?[k] as num?)?.toInt() ?? kDailyGoals[k]!,
         },
+        j['free'] as bool?,
       );
 }
 
@@ -344,6 +346,7 @@ class CurriculumContent {
         }
       } catch (_) {}
     }
+    _limits(best);
     final out = <CStage>[];
     try {
       for (final e in (best?['stages'] as List? ?? const [])) {
@@ -368,6 +371,29 @@ class CurriculumContent {
   }
 
   static int _rev(Map? j) => (j?['rev'] as num?)?.toInt() ?? 0;
+
+  /// 무료 한도(서버 JSON 최상위 freeSteps·freeSenseLevels, 없으면 2·1) — 마지막으로 읽은 판의 값.
+  static int freeSteps = 2, freeSenseLevels = 1;
+  static void _limits(Map? j) {
+    freeSteps = (j?['freeSteps'] as num?)?.toInt() ?? 2;
+    freeSenseLevels = (j?['freeSenseLevels'] as num?)?.toInt() ?? 1;
+  }
+
+  /// 네트워크 없이 묶음·받아 둔 판에서 무료 한도만(문법·언어감각 화면용).
+  static Future<void> loadLimits() async {
+    Map? best;
+    try {
+      best = json.decode(await rootBundle.loadString(assetPath('assets/curriculum_tr.json'))) as Map;
+    } catch (_) {}
+    try {
+      final c = (await Prefs.getInstance()).getString(_kCache);
+      if (c != null) {
+        final j = json.decode(c) as Map;
+        if (_rev(j) > _rev(best)) best = j;
+      }
+    } catch (_) {}
+    _limits(best);
+  }
 
   static Future<String?> _get(String url) async {
     final client = HttpClient()..connectionTimeout = const Duration(seconds: 5);

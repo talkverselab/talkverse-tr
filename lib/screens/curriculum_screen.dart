@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
+import '../data/entitlement.dart';
 import '../services/curriculum.dart';
 import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
@@ -95,8 +96,9 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
                 leading: CircleAvatar(backgroundColor: AppColors.ai, child: Text(x.key, style: const TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w800))),
                 title: Text('${x.title}${i == 0 && st.level == null ? ' · ${tr('추천')}' : ''}'),
                 subtitle: Text([if (x.desc.isNotEmpty) x.desc, trf('{0}편 · 통과 {1}', [pool.length, done])].join('\n')),
-                trailing: const Icon(Icons.chevron_right), // 레벨 잠금 없음(일본어 기준 ceb91c3)
+                trailing: x.free || Entitlement.premium ? const Icon(Icons.chevron_right) : const Icon(Icons.lock_outline, key: ValueKey('cur-locked')), // 2단계부터 이용권(PAYWALL_SPEC §2, 서버 free)
                 onTap: () async {
+                  if (!await Entitlement.allow(context, x.free) || !mounted) return;
                   st.level = x.key;
                   st.goals = x.daily;
                   await _save();
@@ -172,6 +174,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
               title: Text(trf('{0} 편을 모두 통과했어요 → {1} 로', [trf('{0}단계', [st.level ?? '']), trf('{0}단계', [nx])])),
               trailing: const Icon(Icons.arrow_forward),
               onTap: () async {
+                if (!await Entitlement.allow(context, _stage(nx)?.free ?? false) || !mounted) return;
                 st.level = nx;
                 st.goals = _stage(nx)?.daily ?? kDailyGoals;
                 st.course = null;

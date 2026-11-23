@@ -9,6 +9,8 @@ import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/prefs.dart';
 import '../core/theme.dart';
+import '../data/entitlement.dart';
+import '../services/curriculum.dart';
 import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 
@@ -31,6 +33,13 @@ class SenseCourse {
     final p = await Prefs.getInstance();
     final s = (p.getStringList(_kDoneKey) ?? <String>[]).toSet()..add(id);
     await p.setStringList(_kDoneKey, s.toList());
+  }
+
+  /// 이 회차가 무료인가 — 앞에서 freeSenseLevels(기본 1)급까지(PAYWALL_SPEC §2).
+  static bool freeAt(Map<String, dynamic> d, int index) {
+    final levels = (d['levels'] as List).cast<Map<String, dynamic>>();
+    final lv = flat(d)[index].$1;
+    return levels.indexOf(lv) < CurriculumContent.freeSenseLevels;
   }
 
   /// 모든 회차를 순서대로 (레벨, 회차) 쌍으로.
@@ -58,6 +67,7 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
   }
 
   Future<void> _load() async {
+    await CurriculumContent.loadLimits();
     final d = await SenseCourse.load();
     final done = await SenseCourse.done();
     if (!mounted) return;
@@ -68,6 +78,7 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
   }
 
   Future<void> _open(int index) async {
+    if (!await Entitlement.allow(context, SenseCourse.freeAt(_data!, index)) || !mounted) return;
     await openFull(context, (_) => SenseLessonScreen(index: index));
     _load();
   }
@@ -106,6 +117,7 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
         final idx = i;
         final isDone = _done.contains(ls['id']);
         final isNext = idx == next;
+        final locked = !SenseCourse.freeAt(d, idx) && !Entitlement.premium;
         if (ls['open'] != null) {
           // 다른 메뉴로 가는 버튼(회차 아님)
           children.add(Padding(
@@ -146,7 +158,9 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
                     child: Text(ls['title'] as String,
                         style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: AppColors.sumi)),
                   ),
-                  if (isDone)
+                  if (locked)
+                    const Icon(Icons.lock_outline, color: AppColors.muted, size: 20)
+                  else if (isDone)
                     const Icon(Icons.check_circle, color: AppColors.matcha, size: 20)
                   else if (isNext)
                     Text(tr('다음'), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.ai)),
@@ -194,6 +208,13 @@ class _SenseLessonScreenState extends State<SenseLessonScreen> {
     var nextIdx = widget.index + 1;
     while (nextIdx < all.length && all[nextIdx].$2['kind'] == 'ref') {
       nextIdx++;
+    }
+    // 다음 회차가 잠긴 급이면(이용권 없음) 목록으로 — 거기서 자물쇠를 누르면 결제 화면
+    final data = await SenseCourse.load();
+    if (!mounted) return;
+    if (nextIdx < all.length && !SenseCourse.freeAt(data, nextIdx) && !Entitlement.premium) {
+      Navigator.of(context).pop();
+      return;
     }
     if (nextIdx < all.length) {
       Navigator.of(context).pushReplacement(

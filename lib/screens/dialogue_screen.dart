@@ -7,6 +7,7 @@ import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
+import '../data/entitlement.dart';
 import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
@@ -104,7 +105,9 @@ class _TodayCut extends StatelessWidget {
       Text(d.scene, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12, color: AppColors.sumiLight, height: 1.4)),
       const SizedBox(height: 10),
       FilledButton.icon(
-        onPressed: () => openPane(context, (_) => DialogueScreen(dialogue: d)),
+        onPressed: () async {
+          if (await Entitlement.allow(context, Entitlement.freeRegion(d.region)) && context.mounted) openPane(context, (_) => DialogueScreen(dialogue: d));
+        },
         style: FilledButton.styleFrom(backgroundColor: AppColors.beni, foregroundColor: Colors.white, shape: const StadiumBorder(), visualDensity: VisualDensity.compact),
         icon: const Icon(Icons.menu_book_rounded, size: 18),
         label: Text(tr('읽기 시작'), style: const TextStyle(fontWeight: FontWeight.w800)),
@@ -187,11 +190,16 @@ class DialogueListScreen extends StatelessWidget {
             child: Material(
               color: Colors.transparent,
               child: ListTile(
-                onTap: () => openPane(context, (_) => DialogueScreen(dialogue: d)),
+                onTap: () async {
+                  // 회화 R2 이상은 이용권(PAYWALL_SPEC §2) — 목록엔 보이고 자물쇠, 누르면 결제 화면
+                  if (await Entitlement.allow(context, Entitlement.freeRegion(d.region)) && context.mounted) openPane(context, (_) => DialogueScreen(dialogue: d));
+                },
                 leading: Text(d.emoji, style: const TextStyle(fontSize: 24)),
                 title: Text(d.title, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
                 subtitle: Text('${d.isChat ? '💬 ' : ''}${d.scene}', maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
-                trailing: Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
+                trailing: Entitlement.freeRegion(d.region) || Entitlement.premium
+                    ? Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted))
+                    : const Icon(Icons.lock_outline, size: 18, color: AppColors.muted, key: ValueKey('locked')),
               ),
             ),
           );

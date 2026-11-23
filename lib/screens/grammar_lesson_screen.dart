@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 import '../core/theme.dart';
 import '../services/ko_reading.dart';
+import '../data/entitlement.dart';
+import '../services/curriculum.dart';
 import '../services/script_sync.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
@@ -76,7 +78,7 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
   @override
   void initState() {
     super.initState();
-    GrammarLesson.loadAll().then((l) {
+    CurriculumContent.loadLimits().then((_) => GrammarLesson.loadAll()).then((l) {
       if (mounted) setState(() => _lessons = l);
     });
   }
@@ -96,7 +98,7 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
               : ListView(
                   padding: const EdgeInsets.all(16),
                   children: [
-                    for (final l in lessons)
+                    for (final (i, l) in lessons.indexed)
                       Card(
                         color: Colors.white,
                         margin: const EdgeInsets.only(bottom: 10),
@@ -108,18 +110,25 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
                           subtitle: Text(
                               '${l.subtitle.isEmpty ? '' : '${l.subtitle}\n'}${trf('패턴 {0} · 예문 {1}', [l.patterns.length, l.exampleCount])}',
                               style: const TextStyle(fontSize: 12, height: 1.4)),
-                          trailing: IconButton(
-                            tooltip: tr('테스트'),
-                            icon: const Icon(Icons.quiz, color: AppColors.rojo),
-                            onPressed: () => Navigator.push(
+                          trailing: i < CurriculumContent.freeSteps || Entitlement.premium
+                              ? IconButton(
+                                  tooltip: tr('테스트'),
+                                  icon: const Icon(Icons.quiz, color: AppColors.rojo),
+                                  onPressed: () => Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (_) => GrammarTestScreen(lesson: l)),
+                                  ),
+                                )
+                              : const Icon(Icons.lock_outline, color: AppColors.tintaLight),
+                          // 문법 freeSteps(기본 2) 스텝까지 무료, 그 뒤는 이용권(PAYWALL_SPEC §2)
+                          onTap: () async {
+                            if (!await Entitlement.allow(context, i < CurriculumContent.freeSteps) || !context.mounted) return;
+                            setState(() {});
+                            Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (_) => GrammarTestScreen(lesson: l)),
-                            ),
-                          ),
-                          onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (_) => GrammarLessonScreen(lesson: l)),
-                          ),
+                              MaterialPageRoute(builder: (_) => GrammarLessonScreen(lesson: l)),
+                            );
+                          },
                         ),
                       ),
                   ],

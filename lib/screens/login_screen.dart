@@ -29,7 +29,7 @@ class _LoginScreenState extends State<LoginScreen> {
     Account.providers().then((p) => mounted ? setState(() => providers = p) : null);
   }
 
-  bool _ready(String p) => p == 'apple' ? (providers?.contains('apple') ?? true) : (providers?.contains(p) ?? false);
+  bool _ready(String p) => providers?.contains(p) ?? false;
 
   Future<void> _go(String p) async {
     if (!_ready(p)) {
@@ -90,7 +90,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w700, color: AppColors.tinta)),
                   const SizedBox(height: 10),
                   Text(
-                    tr('로그인은 선택입니다. 계정 하나로 터키어유니버스와 Talkverse 언어 앱, talkverse.uk 를 함께 씁니다.'),
+                    tr('로그인은 선택입니다. 계정 하나로 Talkverse 언어 앱과 talkverse.uk 를 함께 씁니다.'),
                     textAlign: TextAlign.center,
                     style: const TextStyle(fontSize: 14, color: AppColors.tintaLight, height: 1.5),
                   ),
@@ -98,8 +98,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   if (providers == null)
                     const Center(child: Padding(padding: EdgeInsets.all(24), child: CircularProgressIndicator()))
                   else
+                    // 서버 /providers 에 켜진 것만(누르면 「준비 중」인 버튼은 두지 않는다 — 애플 2.1, 심사 점검 11-23). 순서는 그대로.
                     for (final p in const ['google', 'naver', 'kakao', 'apple'])
-                      Padding(padding: const EdgeInsets.only(bottom: 12), child: _button(p)),
+                      if (_ready(p)) Padding(padding: const EdgeInsets.only(bottom: 12), child: _button(p)),
                   if (error != null) ...[
                     const SizedBox(height: 8),
                     Text(error!, textAlign: TextAlign.center, style: const TextStyle(color: Colors.redAccent, fontSize: 13)),
