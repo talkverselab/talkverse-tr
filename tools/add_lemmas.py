@@ -81,7 +81,7 @@ for f in FILES:
             if t.get('lemmas') != out:
                 t['lemmas'] = out
                 changed = True
-    if changed:
+    if changed and '--report' not in sys.argv:  # --report = 목록(missing_lemmas.csv)만, 회화 파일은 안 바꿈
         open(f, 'w', encoding='utf-8').write(json.dumps(d, ensure_ascii=False, indent=1) + '\n')
 (ROOT / 'data/review/write').mkdir(parents=True, exist_ok=True)
 with open(ROOT / 'data/review/write/missing_lemmas.csv', 'w', encoding='utf-8', newline='') as fo:

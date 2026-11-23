@@ -2010,3 +2010,243 @@ rank,word,pos,gender,ko,freq,cum_pct,region,cefr
 3008,üzücü,adj,,"슬픈, 안타까운",,,conv,
 3009,baklava,noun,,바클라바(견과류를 넣은 겹겹 파이 디저트),,,conv,
 3010,metro,noun,,지하철,,,conv,
+3011,eyvah,interj,,"이런, 아이고",,,conv,A2
+3012,lira,noun,,리라(터키 화폐),,,conv,A1
+3013,fincan,noun,,"찻잔, 잔",,,conv,A2
+3014,fal,noun,,"점, 운세",,,conv,B1
+3015,tabak,noun,,접시,,,conv,A1
+3016,simit,noun,,시미트(참깨 링 빵),,,conv,A1
+3017,soğan,noun,,양파,,,conv,A1
+3018,kırk,num,,"마흔, 40",,,conv,A1
+3019,halı,noun,,"카펫, 양탄자",,,conv,A2
+3020,çorba,noun,,수프,,,conv,A1
+3021,bayram,noun,,명절,,,conv,A2
+3022,dede,noun,,할아버지,,,conv,A1
+3023,kanka,noun,,"절친, 친구(구어)",,,conv,B1
+3024,dondurma,noun,,아이스크림,,,conv,A1
+3025,alın,noun,,이마,,,conv,B1
+3026,sepet,noun,,바구니,,,conv,A2
+3027,indirim,noun,,할인,,,conv,A2
+3028,vapur,noun,,"여객선, 연락선",,,conv,A2
+3029,yurt,noun,,기숙사,,,conv,B1
+3030,mail,noun,,이메일,,,conv,A2
+3031,burs,noun,,장학금,,,conv,B1
+3032,kaplan,noun,,호랑이,,,conv,A2
+3033,harf,noun,,"글자, 문자",,,conv,A2
+3034,kaşık,noun,,"숟가락, 스푼",,,conv,A1
+3035,börek,noun,,뵈렉(페이스트리 요리),,,conv,A2
+3036,dolma,noun,,돌마(속 채운 채소 요리),,,conv,A2
+3037,kolonya,noun,,콜로냐(향 나는 소독용 화장수),,,conv,B1
+3038,saz,noun,,사즈(터키 현악기),,,conv,B1
+3039,tuz,noun,,소금,,,conv,A1
+3040,martı,noun,,갈매기,,,conv,A2
+3041,kombi,noun,,보일러,,,conv,B1
+3042,asansör,noun,,엘리베이터,,,conv,A2
+3043,cümle,noun,,문장,,,conv,A2
+3044,valiz,noun,,"여행 가방, 캐리어",,,conv,A2
+3045,balkon,noun,,발코니,,,conv,A2
+3046,şoför,noun,,운전사,,,conv,A2
+3047,köfte,noun,,쾨프테(고기 완자),,,conv,A1
+3048,lezzet,noun,,맛,,,conv,B1
+3049,soğumak,verb,,"식다, 차가워지다",,,conv,A2
+3050,kekik,noun,,타임(허브),,,conv,B1
+3051,menemen,noun,,메네멘(달걀 토마토 요리),,,conv,A2
+3052,doymak,verb,,"배부르다, 배가 차다",,,conv,A2
+3053,dilim,noun,,"조각, 한 쪽",,,conv,A2
+3054,zam,noun,,(가격·임금) 인상,,,conv,B1
+3055,damat,noun,,"신랑, 사위",,,conv,B1
+3056,gol,noun,,골,,,conv,A2
+3057,maket,noun,,모형,,,conv,B1
+3058,çatal,noun,,포크,,,conv,A1
+3059,kutlu,adj,,"축복받은, 경사스러운",,,conv,B1
+3060,lokum,noun,,로쿰(터키 젤리 과자),,,conv,A2
+3061,tavla,noun,,백개먼(보드게임),,,conv,A2
+3062,pazarlık,noun,,흥정,,,conv,B1
+3063,afiyet,noun,,"맛있게 드세요(afiyet olsun), 건강",,,conv,A2
+3064,bilerek,adv,,"일부러, 알면서",,,conv,B1
+3065,öğlen,noun,,"정오, 점심때",,,conv,A2
+3066,halay,noun,,할라이(터키 민속 군무),,,conv,B1
+3067,köpük,noun,,거품,,,conv,B1
+3068,memleket,noun,,고향,,,conv,B1
+3069,kafe,noun,,카페,,,conv,A1
+3070,modem,noun,,모뎀,,,conv,B1
+3071,ocak,noun,,"가스레인지, 1월",,,conv,A2
+3072,kantin,noun,,"매점, 구내식당",,,conv,A2
+3073,ezberlemek,verb,,"외우다, 암기하다",,,conv,B1
+3074,sunum,noun,,"발표, 프레젠테이션",,,conv,B1
+3075,kimya,noun,,화학,,,conv,B1
+3076,tavşan,noun,,토끼,,,conv,A2
+3077,tepsi,noun,,쟁반,,,conv,B1
+3078,kurdele,noun,,리본,,,conv,B1
+3079,hesaplamak,verb,,계산하다,,,conv,B1
+3080,süpürmek,verb,,"쓸다, 청소하다",,,conv,B1
+3081,pasaport,noun,,여권,,,conv,A2
+3082,eczacı,noun,,약사,,,conv,A2
+3083,paşa,noun,,"파샤(장군·고관 호칭, 애칭으로도 씀)",,,conv,B2
+3084,balon,noun,,풍선,,,conv,A2
+3085,kaymak,verb,,미끄러지다,,,conv,A2
+3086,kaygan,adj,,미끄러운,,,conv,B1
+3087,baharat,noun,,향신료,,,conv,B1
+3088,omuz,noun,,어깨,,,conv,A2
+3089,nazar,noun,,"악한 시선, 시기하는 눈",,,conv,B1
+3090,mikrofon,noun,,마이크,,,conv,B1
+3091,torun,noun,,손주,,,conv,B1
+3092,havalimanı,noun,,공항,,,conv,A2
+3093,stadyum,noun,,경기장,,,conv,A2
+3094,harbi,adj,,"진짜의, 진심의(구어)",,,conv,B2
+3095,sığmak,verb,,"들어가다, 맞다(공간에)",,,conv,B1
+3096,çorap,noun,,양말,,,conv,A1
+3097,fatura,noun,,"청구서, 고지서",,,conv,A2
+3098,bari,adv,,"하다못해, 그래도",,,conv,B2
+3099,durak,noun,,정류장,,,conv,A2
+3100,beğeni,noun,,"좋아요, 호감",,,conv,B1
+3101,poğaça,noun,,포아차(짭짤한 빵),,,conv,A2
+3102,ayıp,noun,,"부끄러운 일, 무례",,,conv,A2
+3103,abartmak,verb,,과장하다,,,conv,B1
+3104,tencere,noun,,냄비,,,conv,A2
+3105,darı,noun,,"기장, (darısı başına) 다음엔 네 차례",,,conv,B2
+3106,telâfi,noun,,"만회, 보상",,,conv,B2
+3107,dekan,noun,,학장,,,conv,B2
+3108,turist,noun,,관광객,,,conv,A2
+3109,direkt,adv,,"곧바로, 직접",,,conv,B1
+3110,özgeçmiş,noun,,이력서,,,conv,B1
+3111,makas,noun,,가위,,,conv,A2
+3112,akraba,noun,,친척,,,conv,A2
+3113,manav,noun,,청과물 가게,,,conv,A2
+3114,sözleşme,noun,,계약(서),,,conv,B1
+3115,çekirdek,noun,,"씨, 해바라기씨",,,conv,B1
+3116,külah,noun,,"아이스크림 콘, 원뿔 모양 종이",,,conv,B1
+3117,emek,noun,,"노력, 수고",,,conv,B1
+3118,tez,noun,,논문,,,conv,B2
+3119,perşembe,noun,,목요일,,,conv,A1
+3120,evrak,noun,,서류,,,conv,B1
+3121,kopya,noun,,"복사본, 커닝",,,conv,B1
+3122,kuzu,noun,,새끼 양,,,conv,A2
+3123,kucak,noun,,"무릎, 품",,,conv,B1
+3124,form,noun,,"양식, 서식",,,conv,B1
+3125,final,noun,,"결승, 기말시험",,,conv,B1
+3126,demlemek,verb,,(차를) 우리다,,,conv,B1
+3127,miyav,interj,,야옹,,,conv,A1
+3128,ton,noun,,"톤, 엄청나게 많음(구어: bir ton)",,,conv,B1
+3129,bekçi,noun,,"경비원, 야경꾼",,,conv,B1
+3130,kola,noun,,콜라,,,conv,A1
+3131,mama,noun,,"(동물) 사료, 이유식",,,conv,B1
+3132,dayı,noun,,"외삼촌, 아저씨",,,conv,A2
+3133,kıskanmak,verb,,질투하다,,,conv,B1
+3134,boncuk,noun,,구슬,,,conv,B1
+3135,mantı,noun,,만트(터키식 만두),,,conv,A2
+3136,türkü,noun,,터키 민요,,,conv,B1
+3137,limon,noun,,레몬,,,conv,A1
+3138,mum,noun,,양초,,,conv,A2
+3139,dikilmek,verb,,"꽂혀 있다, 서 있다",,,conv,B2
+3140,domates,noun,,토마토,,,conv,A1
+3141,taşınmaz,adj,,"옮길 수 없는, 움직일 수 없는",,,conv,B2
+3142,yanaşmak,verb,,"다가가다, 접근하다",,,conv,B2
+3143,havlu,noun,,수건,,,conv,A2
+3144,iletmek,verb,,전달하다,,,conv,B1
+3145,pişirmek,verb,,"요리하다, 익히다",,,conv,A2
+3146,soğutmak,verb,,"식히다, 차갑게 하다",,,conv,B1
+3147,çalışkan,adj,,부지런한,,,conv,A2
+3148,kebap,noun,,케밥,,,conv,A1
+3149,midye,noun,,홍합,,,conv,A2
+3150,gişe,noun,,"매표소, 창구",,,conv,B1
+3151,erimek,verb,,녹다,,,conv,B1
+3152,manzara,noun,,"경치, 전망",,,conv,A2
+3153,ıslanmak,verb,,젖다,,,conv,A2
+3154,gözlük,noun,,안경,,,conv,A1
+3155,mendil,noun,,"손수건, 휴지",,,conv,A2
+3156,davul,noun,,북,,,conv,B1
+3157,sermek,verb,,"펴다, 널다",,,conv,B1
+3158,elma,noun,,사과,,,conv,A1
+3159,konser,noun,,콘서트,,,conv,A2
+3160,bölmek,verb,,나누다,,,conv,A2
+3161,yayılmak,verb,,퍼지다,,,conv,B2
+3162,dağınık,adj,,"어질러진, 흩어진",,,conv,B1
+3163,kesik,adj,,"끊긴, 잘린",,,conv,B1
+3164,künefe,noun,,퀴네페(치즈 디저트),,,conv,A2
+3165,yakışmak,verb,,어울리다,,,conv,B1
+3166,tasarım,noun,,디자인,,,conv,B1
+3167,dolmak,verb,,"차다, 가득 차다",,,conv,A2
+3168,kaynatmak,verb,,끓이다,,,conv,B1
+3169,makarna,noun,,"파스타, 마카로니",,,conv,A1
+3170,sofra,noun,,"밥상, 식탁",,,conv,A2
+3171,harçlık,noun,,용돈,,,conv,B1
+3172,ödev,noun,,숙제,,,conv,A2
+3173,yeğen,noun,,조카,,,conv,B1
+3174,sızmak,verb,,"스며들다, 새다",,,conv,B2
+3175,kısaltmak,verb,,"줄이다, 짧게 하다",,,conv,B1
+3176,şura,pron,,"거기, 저곳",,,conv,A2
+3177,uzamak,verb,,"길어지다, 자라다",,,conv,B1
+3178,puanlamak,verb,,점수를 매기다,,,conv,B2
+3179,zahmet,noun,,"수고, 번거로움",,,conv,B1
+3180,sesli,adj,,"소리 내는, 소리가 있는",,,conv,B1
+3181,tik,noun,,체크 표시,,,conv,B1
+3182,koridor,noun,,복도,,,conv,A2
+3183,çizim,noun,,"그림, 도면",,,conv,B1
+3184,kaçıncı,adj,,몇 번째,,,conv,A2
+3185,ödünç,adv,,"빌려, 꾸어",,,conv,B1
+3186,cezve,noun,,제즈베(터키 커피 주전자),,,conv,B1
+3187,antik,adj,,고대의,,,conv,B1
+3188,mola,noun,,"휴식, 쉬는 시간",,,conv,A2
+3189,muavin,noun,,"버스 보조원, 조수",,,conv,B2
+3190,dilek,noun,,"소원, 바람",,,conv,B1
+3191,dolanmak,verb,,"얽히다, 감기다",,,conv,B2
+3192,tost,noun,,토스트,,,conv,A1
+3193,alkışlamak,verb,,박수를 치다,,,conv,B1
+3194,zarf,noun,,봉투,,,conv,A2
+3195,küsmek,verb,,"삐지다, 토라지다",,,conv,B1
+3196,zar,noun,,주사위,,,conv,B1
+3197,ısınmak,verb,,"데워지다, 몸이 풀리다",,,conv,B1
+3198,yazılı,adj,,"쓰인, 글로 된",,,conv,B1
+3199,atasözü,noun,,속담,,,conv,B1
+3200,hatır,noun,,"체면, 호의, 정",,,conv,B2
+3201,matematik,noun,,수학,,,conv,A2
+3202,süpürge,noun,,빗자루,,,conv,B1
+3203,kirlenmek,verb,,더러워지다,,,conv,B1
+3204,tempo,noun,,"박자, 속도",,,conv,B1
+3205,sabır,noun,,"인내, 참을성",,,conv,B1
+3206,kıpkırmızı,adj,,새빨간,,,conv,B1
+3207,kuyumcu,noun,,"보석상, 금은방",,,conv,B1
+3208,kuaför,noun,,"미용사, 미용실",,,conv,A2
+3209,takı,noun,,"장신구, (결혼식 축의) 금붙이",,,conv,B1
+3210,hastalanmak,verb,,병이 나다,,,conv,A2
+3211,puan,noun,,점수,,,conv,A2
+3212,şişman,adj,,뚱뚱한,,,conv,A2
+3213,bulut,noun,,구름,,,conv,A2
+3214,pamuk,noun,,"솜, 목화",,,conv,B1
+3215,öğün,noun,,"끼니, 식사",,,conv,B1
+3216,eczane,noun,,약국,,,conv,A2
+3217,faiz,noun,,이자,,,conv,B1
+3218,musluk,noun,,수도꼭지,,,conv,B1
+3219,havlamak,verb,,짖다,,,conv,B1
+3220,çöplük,noun,,쓰레기장,,,conv,B1
+3221,doyurmak,verb,,배불리 먹이다,,,conv,B1
+3222,gurbet,noun,,"타향, 객지",,,conv,B2
+3223,taze,adj,,신선한,,,conv,A2
+3224,garson,noun,,"종업원, 웨이터",,,conv,A1
+3225,emanet,noun,,"맡긴 것, 위탁",,,conv,B1
+3226,aylık,adj,,"한 달의, 월간의",,,conv,B1
+3227,jüri,noun,,심사위원단,,,conv,B2
+3228,diz,noun,,무릎,,,conv,A2
+3229,karmaşa,noun,,"혼란, 복잡함",,,conv,B2
+3230,dolmuş,noun,,돌무쉬(합승 미니버스),,,conv,A2
+3231,başvuru,noun,,"신청, 지원",,,conv,B1
+3232,iade,noun,,"환불, 반품",,,conv,B1
+3233,bomboş,adj,,텅 빈,,,conv,B1
+3234,ikamet,noun,,"거주, 체류",,,conv,B2
+3235,formül,noun,,공식,,,conv,B1
+3236,tıkalı,adj,,막힌,,,conv,B1
+3237,simitçi,noun,,시미트 장수,,,conv,A2
+3238,bahşiş,noun,,팁,,,conv,A2
+3239,adet,noun,,"관습, 개(수량 단위)",,,conv,B1
+3240,set,noun,,세트,,,conv,A2
+3241,helâl,adj,,"정당한, 합법적인(helal olsun: 잘했다)",,,conv,B1
+3242,yemyeşil,adj,,"푸르른, 초록빛 가득한",,,conv,B1
+3243,foto,noun,,사진,,,conv,A2
+3244,mont,noun,,"외투, 패딩",,,conv,A2
+3245,üşümek,verb,,"춥다, 추위를 타다",,,conv,A2
+3246,istifa,noun,,"사직, 사퇴",,,conv,B2
+3247,pijama,noun,,잠옷,,,conv,A2
+3248,gündüz,noun,,낮,,,conv,A2
+3249,dedikodu,noun,,"험담, 소문",,,conv,B1
+3250,panik,noun,,"공황, 당황",,,conv,B1

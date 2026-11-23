@@ -38,11 +38,11 @@ void main() {
     await t.pump(const Duration(milliseconds: 100));
   }
 
-  test('단어표 — 2,000위 + 회화 단어 11개', () async {
+  test('단어표 — 2,000위 + 회화 단어 251개', () async {
     final all = await appDb.select(appDb.words).get();
     expect(all.where((w) => w.region != 'conv').length, 2000);
     expect(all.where((w) => w.region == 'R5').length, 1432);
-    expect(all.where((w) => w.region == 'conv').length, 11); // L1 Grok 판 교체로 baklava·metro 추가(11-23)
+    expect(all.where((w) => w.region == 'conv').length, 251); // L1 baklava·metro + Grok 회화 레마 240개(uk 11-23)
     final words = {for (final w in all) w.word};
     for (final d in DialogueService.instance.all) {
       for (final turn in d.turns) {
@@ -63,7 +63,7 @@ void main() {
       await pumpAt(t, const WordFreqScreen(), size);
       expect(find.text('1단원'), findsOneWidget);
       expect(find.text('#1-20'), findsOneWidget);
-      await t.tap(find.textContaining('회화 단어 포함 (+11)'));
+      await t.tap(find.textContaining('회화 단어 포함 (+251)'));
       await t.pump();
       await t.dragUntilVisible(find.text('회화'), find.byType(ListView).first, const Offset(-120, 0));
       await t.pump();
