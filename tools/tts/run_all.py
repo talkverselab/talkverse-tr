@@ -34,7 +34,8 @@ def fetch(path):
 
 
 done = set(open(f'{work}/done.txt').read().split()) if os.path.exists(f'{work}/done.txt') else set()
-ids = [e for e in L.planned() if e not in done]
+rel = set(json.load(open(f'{L.R}/assets/data/dialogues/_release.json'))['ids'])   # 앱에 공개한 편만(미공개 초안은 공개 때)
+ids = [e for e in L.planned() if e in rel and e not in done]
 log('남은 편', len(ids))
 for i in range(0, len(ids), N):
     eps = ids[i:i + N]
