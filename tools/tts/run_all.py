@@ -78,6 +78,12 @@ for i in range(0, len(ids), N):
         pc_run()
         for ep in eps:
             fetch(f'retake/{ep}')
+    for ep in eps:   # 마지막 회차에 받아 온 재생성본도 검사·반영하고 묶는다(fr a39cf4b — 11-24 tr 127조각의 t3 이 빠졌다)
+        try:
+            r = subprocess.run([sys.executable, f'{HERE}/qa.py', f'{work}/wav', ep], capture_output=True, text=True, timeout=600)
+            log('마지막', r.stdout.strip() or r.stderr.strip()[-200:])
+        except subprocess.TimeoutExpired:
+            log('TIMEOUT(마지막)', ep)
     for ep in eps:
         r = sh(sys.executable, f'{HERE}/pack.py', f'{work}/wav', ep, '--upload', check=False)
         if r.returncode:
