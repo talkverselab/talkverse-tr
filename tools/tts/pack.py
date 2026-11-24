@@ -11,7 +11,7 @@ R = L.R
 TRIM = ('silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03,areverse,'
         'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse,'
         'silenceremove=stop_periods=-1:stop_duration=0.25:stop_threshold=-40dB:stop_silence=0.12')
-W = ['npx', '-y', 'wrangler@4']
+W = ['npx', '-y', 'wrangler@4.167.0']   # 고정 — 11-24 wrangler@4 가 npm 에 덜 올라온 4.168.0 을 골라 올리기 실패
 RATE, MAXT = L.V.get('rate', 13.0) * 0.75, 1.15   # 참고 음성 속도 중앙값의 0.75배 아래면 최대 1.15배로(DIALOGUE_AUDIO §5)
 
 
