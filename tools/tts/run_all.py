@@ -37,6 +37,19 @@ done = set(open(f'{work}/done.txt').read().split()) if os.path.exists(f'{work}/d
 rel = set(json.load(open(f'{L.R}/assets/data/dialogues/_release.json'))['ids'])   # 앱에 공개한 편만(미공개 초안은 공개 때)
 ids = [e for e in L.planned() if e in rel and e not in done]
 log('남은 편', len(ids))
+if ids:   # 참고 음성(2060) 먼저 — 없으면 문장 생성이 첫 조각에서 멈춘다(11-24 65편 전부 실패). 이미 있는 파일은 PC 가 건너뜀
+    for n in ('vox_jobs.json', 'moss_jobs.json'):
+        if os.path.exists(f'{work}/job/{n}'):
+            os.remove(f'{work}/job/{n}')
+    log(sh(sys.executable, f'{HERE}/make_jobs.py', f'{work}/job', '--refs', *ids).stdout.strip())
+    while 'Ready' not in sh('ssh', PC, "(Get-ScheduledTask -TaskName 'TTS job 2060').State", check=False).stdout:
+        time.sleep(30)
+    sh('scp', '-q', f'{work}/job/vox_jobs.json', f'{PC}:D:/tts_test/job/')
+    sh('ssh', PC, "Remove-Item D:\\tts_test\\job\\moss_jobs.json -ErrorAction SilentlyContinue; Start-ScheduledTask -TaskName 'TTS job 2060'")
+    time.sleep(20)
+    while 'Ready' not in sh('ssh', PC, "(Get-ScheduledTask -TaskName 'TTS job 2060').State", check=False).stdout:
+        time.sleep(30)
+    os.remove(f'{work}/job/vox_jobs.json'); log('참고 음성 끝')
 for i in range(0, len(ids), N):
     eps = ids[i:i + N]
     sh(sys.executable, f'{HERE}/make_jobs.py', f'{work}/job', *eps); pc_run()
