@@ -2,12 +2,12 @@
 kind: chat
 title: 고양이 때문에
 emoji: 😼
-scene: 데이팅앱에서 매칭되자마자 Elif 가 내 사진 속 고양이부터 묻는다
+scene: 언어교류앱에서 매칭되자마자 Elif 가 내 사진 속 고양이부터 묻는다
 speakers: A={name}, B=Elif
 register: chat
 twist: 5 reveal
 purpose: love
-goal: şaka şaka·öldüm 으로 데이팅앱 첫 채팅 받아치기
+goal: şaka şaka·öldüm 으로 언어교류앱 첫 채팅 받아치기
 expressions: selam; görüşürüz; dur; ne alaka; öldüm; şaka şaka
 B | Selam ya! O kedi senin mi? | 안녕! 그 고양이 네 거야? | selam = 안녕 | emotion=excited
 A | Selam. Yok ya, arkadaşımın. | 안녕. 아니, 친구 거야. | yok = 아니야 | emotion=cheerful+neutral
