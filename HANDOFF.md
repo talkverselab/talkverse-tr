@@ -1,5 +1,14 @@
 # HANDOFF — talkverse-tr (터키어 앱) · 2026-11-09
 
+## ⏸ 세션 닫음 상태(2026-11-28 21:3x, uk 전달 — 사용자 지시 「베트남어·일본어만 남기고 언어 세션을 닫음」)
+다시 열면 `~/talkverse/CHANGES.md`(전 앱 변경 기록·공지)를 먼저 읽을 것 — uk 공지는 이제 그 문서에 적힌다.
+- **하던 일**: 없음(마지막 = 11-25 데이팅앱 → 언어교류앱 `2be1498`, 서버 원고 rev 7, 186개 sha 일치).
+- **돌던 작업**: 없음. 음성·그림·빌드·Grok 루프 없음, PC tr 크롬(9252) 0개, 작업 `Grok-Chrome-tr-9252` 는 예약 실행 없음. 11-23 테스트 잔여 `flutter_tester` 7개는 닫으며 끔.
+- **보류(사용자가 풀어야 시작)**: ① 음성 재생성 = `~/tts_work/tr/wav/qa.json` 의 ok=false 110조각 + `r0_love_a1/01_0_c.wav`(소리는 이미 맞음) — 음성은 새벽 01~07시만 ② 단어 작업(베트남어만 허용 중) — R 편 레마 `tools/add_lemmas.py --all`, 없는 레마 317개 ③ 공개 65편 밖 장면 그림 ④ Grok 전부(11-26 「그록 작업 중지」) ⑤ Gemini(베트남어 세션만) ⑥ 단독 iOS 빌드.
+- **다음 할 일(막힘 없음)**: 리뷰 페이지 갱신 `python3 tools/review_html.py data/review/REVIEW_tr.html <편…>` → uk(또는 CHANGES.md)에 「REVIEW_tr 갱신」.
+- **커밋 안 한 변경(일부러 둠)**: ① Flutter/CocoaPods 가 만든 플랫폼 파일 13개(analysis_options.yaml·android/gradle.properties·ios·macos·linux·windows 의 xcconfig·scheme·plugin registrant, `ios/Podfile`·`Podfile.lock`·`macos/Podfile`·swiftpm 폴더) — 빌드할 때 다시 생기므로 커밋 여부는 빌드 세션이 판단 ② `data/review/write/missing_lemmas.csv` 317줄 = 위 ② 의 목록(작업 산출물, 레마 작업 때 씀) ③ `data/review/grok/out_light/`·`run.log`·`data/review/scene/`·`data/review/art/ref/`·`words_conv_tr_dropped.txt`·`.wrangler/` — 작업 부산물, **지울 후보**(out_light 는 위 「거의 그대로인 답 25편」).
+- **사용자에게 물을 것**: 보류 ①~⑥ 을 언제 풀지 · 「매칭되자마자」 표현을 심사용으로 바꿀지 · 깔린 앱의 문장 카드(DB turns)는 회화 번호를 올리지 않으면 철자 고침이 안 들어감(올리면 진도 삭제) — 그대로 둘지.
+
 ## 2026-11-18 — 통합 앱 iOS 심사 준비(일본어앱 전달 `~/talkverse/ja/docs/RELAY_2026-11-18_ja_parity.md`)
 - **됨 `5380cba`**: 회화 원고 서버 받기(`lib/services/script_sync.dart`, 켤 때마다 확인·15초 상한) + R0~R3 65편 앱 연결(`assets/data/dialogues/_release.json`, `tools/pick_release.py` — R0 14·R1 21·R2 17·R3 13), L1 은 R 급 뒤. 도구 `tools/script_publish.py`·`turn_lock.py`(기준표 `data/review/turn_lock_tr.json` 181편). 기준표 `assets/data/script_rev.json` rev 1.
 - **막힘**: 서버 첫 업로드(R2 `talkverse-art/script/tr/index.json`)가 세션 권한 정책에 막힘 → 사용자 허용 또는 직접: `python3 -c "import sys,json;sys.path.insert(0,'tools');import script_publish as s;b=json.load(open(s.BASE));s.put_index(b['rev'],b['files'])"`. 그전까지 앱은 앱 안 원고로 돈다.
